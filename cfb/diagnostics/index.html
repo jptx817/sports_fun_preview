@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CFB Diagnostics | Sports-Fun Web Dashboard v1</title>
+  <link rel="stylesheet" href="../../assets/site.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../../index.html">Sports-Fun</a>
+    <nav aria-label="Global">
+      <a href="../../index.html">Home</a>
+      <a href="../../cfb/index.html" aria-current="page">CFB</a>
+    </nav>
+  </header>
+  <main>
+
+
+    <nav class="subnav" aria-label="CFB">
+      <a href="../../cfb/index.html">Overview</a>
+      <a href="../../cfb/weeks/2026-WK01.html">Week</a>
+      <a href="../../cfb/games/index.html">Games</a>
+      <a href="../../cfb/teams/index.html">Teams</a>
+      <a href="../../cfb/diagnostics/index.html">Diagnostics</a>
+      <a href="../../cfb/about/index.html">About</a>
+    </nav>
+
+        <section class="hero compact">
+          <p class="eyebrow">Entity Coverage Audit v1</p>
+          <h1>Diagnostics</h1>
+          <p class="lede">Entity coverage summary, market placeholder state, and known reporting limitations.</p>
+        </section>
+        <section>
+          <h2>Entity Coverage Summary</h2>
+          <div class="metric-grid"><article class="metric"><span>FBS vs FBS</span><strong>49</strong></article><article class="metric"><span>FBS vs FCS</span><strong>1</strong></article><article class="metric"><span>FCS vs FBS</span><strong>47</strong></article><article class="metric"><span>Unknown entity mix</span><strong>2</strong></article><article class="metric"><span>Complete coverage</span><strong>49</strong></article><article class="metric"><span>expected_limited</span><strong>48</strong></article><article class="metric"><span>Unexpected gaps</span><strong>0</strong></article><article class="metric"><span>Unknown</span><strong>2</strong></article><article class="metric"><span>Manual-review games</span><strong>2</strong></article><article class="metric"><span>Missing projections</span><strong>2</strong></article><article class="metric"><span>FCS placeholders</span><strong>48</strong></article><article class="metric"><span>Market placeholder status</span><strong>Market Comparison Pending</strong></article></div>
+        </section>
+        <section class="grid two">
+          <section class="panel"><h2>Manual-review games</h2><ul><li>Fordham at North Dakota State (401864499)</li><li>Mississippi Valley State at Sacramento State (401866411)</li></ul></section>
+          <section class="panel"><h2>FCS placeholders</h2><ul><li>Abilene Christian</li><li>Alcorn State</li><li>Arkansas-Pine Bluff</li><li>Austin Peay</li><li>Bethune-Cookman</li><li>Bryant</li><li>Charleston Southern</li><li>Duquesne</li><li>Eastern Illinois</li><li>Eastern Kentucky</li><li>Furman</li><li>Houston Christian</li><li>Howard</li><li>Idaho</li><li>Idaho State</li><li>Indiana State</li><li>Lafayette</li><li>Lamar</li><li>Long Island University</li><li>Maine</li><li>Mercyhurst</li><li>Merrimack</li><li>Morgan State</li><li>Murray State</li></ul></section>
+        </section>
+        <section class="panel">
+          <h2>Data Limitations</h2>
+          <ul><li>{&#x27;limitation&#x27;: &#x27;missing live markets&#x27;, &#x27;evidence&#x27;: &#x27;Existing delivery status reports 99 missing/not-refreshed Week 1 markets.&#x27;}</li><li>{&#x27;limitation&#x27;: &#x27;two missing projections&#x27;, &#x27;evidence&#x27;: &#x27;Delivery manifest reports missing_projections=2 while 99 projected games are available.&#x27;}</li><li>{&#x27;limitation&#x27;: &#x27;injury placeholders&#x27;, &#x27;evidence&#x27;: &#x27;Future injury hook is present but inactive; no active injury logic is applied.&#x27;}</li><li>{&#x27;limitation&#x27;: &#x27;weather placeholders&#x27;, &#x27;evidence&#x27;: &#x27;Weather hook is present but inactive.&#x27;}</li><li>{&#x27;limitation&#x27;: &#x27;inactive simulation hooks&#x27;, &#x27;evidence&#x27;: &#x27;Simulation outputs are listed as inactive future hooks.&#x27;}</li><li>{&#x27;limitation&#x27;: &#x27;line movement placeholders&#x27;, &#x27;evidence&#x27;: &#x27;Line movement is unavailable and remains a future hook.&#x27;}</li><li>{&#x27;limitation&#x27;: &#x27;roster update placeholders&#x27;, &#x27;evidence&#x27;: &#x27;Roster updates are unavailable in the delivery manifest optional inputs.&#x27;}</li></ul>
+        </section>
+
+  </main>
+  <footer class="site-footer">
+    <span>Sports-Fun Web Dashboard v1</span>
+    <span>Local static reporting only</span>
+  </footer>
+</body>
+</html>

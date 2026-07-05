@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "report": "preseason_reporting_stack_review_v1",
+    "season": 2026,
+    "week": 1,
+    "generated_at": "2026-06-27T00:00:00Z",
+    "scope": "final_preseason_reporting_stack_review",
+    "source_artifacts": {
+      "week1_decision_support_report_v1": "artifacts/cfb/reporting/week1_decision_support_report_v1.json",
+      "team_capsule_detail_upgrade_v1": "artifacts/cfb/reporting/team_capsule_detail_upgrade_v1.json",
+      "matchup_narrative_engine_v1": "artifacts/cfb/reporting/matchup_narrative_engine_v1.json",
+      "entity_coverage_audit_v1": "artifacts/cfb/reporting/entity_coverage_audit_v1.json",
+      "weekly_operations_manifest_v2": "artifacts/cfb/weekly/2026_WK01/operations/weekly_operations_manifest_v2.json",
+      "weekly_decision_support_gating_v2": "artifacts/cfb/weekly/2026_WK01/operations/weekly_decision_support_gating_v2.json",
+      "delivery_readiness_review_v1": "artifacts/cfb/operations/delivery_readiness_review_v1.json"
+    },
+    "guardrails": {
+      "reporting_only": true,
+      "diagnostic_only": true,
+      "recommendation_style_output": false,
+      "market_edge_output": false,
+      "sportsbook_line_estimation": false,
+      "modifies_model_logic": false,
+      "modifies_projection_logic": false,
+      "modifies_calibration_logic": false,
+      "modifies_confidence_logic": false,
+      "modifies_market_ingestion": false,
+      "modifies_weekly_pipeline": false
+    }
+  },
+  "final_readiness_decision": "ready_with_market_placeholders",
+  "summary_findings": {
+    "week1_games": 99,
+    "projected_spreads": 97,
+    "projected_totals": 99,
+    "missing_projected_spreads": 2,
+    "fcs_placeholders": 48,
+    "market_status": "WARN",
+    "market_display": "Market Comparison Pending",
+    "matchup_narratives": 99,
+    "full_fbs_narrative_capsule_coverage": 49,
+    "expected_limited_fcs_coverage": 48,
+    "unexpected_fbs_coverage_gaps": 0,
+    "manual_review_games": 2
+  },
+  "stack_components": [
+    {
+      "name": "Week 1 Decision Support Report v1",
+      "status": "ready_with_market_placeholders",
+      "role": "Model-only Week 1 slate summary, projection diagnostics, and placeholder market comparison surface."
+    },
+    {
+      "name": "Team Capsule Detail Upgrade v1",
+      "status": "ready_for_descriptive_reporting",
+      "role": "Read-only team profile and capsule detail layer for narrative context."
+    },
+    {
+      "name": "Matchup Narrative Engine v1",
+      "status": "preserved",
+      "role": "Game-level descriptive matchup narratives with market placeholders and no recommendation fields."
+    },
+    {
+      "name": "Entity Coverage Audit v1",
+      "status": "ready",
+      "role": "Coverage accounting for expected FCS limitations, unexpected FBS gaps, and manual-review games."
+    },
+    {
+      "name": "Weekly Operations v2",
+      "status": "ready_with_market_placeholders",
+      "role": "Weekly workflow, manifest, and gating checks for Week 1 operations."
+    },
+    {
+      "name": "Delivery Readiness Review v1",
+      "status": "ready",
+      "role": "Readiness review for report delivery surfaces and guardrails."
+    }
+  ],
+  "guardrail_confirmations": {
+    "no_recommendation_style_output": true,
+    "no_market_edge_output": true,
+    "no_sportsbook_line_estimation": true,
+    "missing_markets_remain_placeholders": true,
+    "fcs_limitations_expected_and_labeled": true,
+    "manual_review_games_do_not_block_reporting": true,
+    "model_only_reporting_ready_now": true,
+    "market_aware_rerun_waits_for_real_saved_week1_betting_markets": true
+  },
+  "next_actions": [
+    "Use the model-only Week 1 report for dry-run review.",
+    "Improve presentation/mobile formatting only if desired.",
+    "Wait for live Week 1 betting markets.",
+    "Refresh market input once real markets exist.",
+    "Rerun Week 1 workflow.",
+    "Produce market-aware Week 1 report.",
+    "Do not modify model logic unless live validation exposes a structural issue."
+  ],
+  "decision_rationale": "The reporting stack is ready for model-only preseason review and contains explicit placeholders for unavailable Week 1 betting markets. Market-aware reporting should wait until real markets are saved and validated. No recommendation, edge, sportsbook-line estimation, model, projection, calibration, confidence, market ingestion, or weekly pipeline logic is promoted by this review."
+}

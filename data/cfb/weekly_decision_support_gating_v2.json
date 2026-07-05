@@ -1,0 +1,19 @@
+{
+  "artifact": "weekly_decision_support_gating_v2",
+  "status": "WARN",
+  "generated_at": "2026-06-24T00:00:00Z",
+  "summary": {
+    "market_coverage_state": "market_refresh_attempted_empty",
+    "market_coverage_sufficient": false,
+    "recommendations_production_approved": false,
+    "recommendation_style_output_allowed": false,
+    "published_recommendation_count": 0,
+    "shadow_candidate_count": 0
+  },
+  "warnings": [
+    "Recommendation-style output disabled; shadow candidates remain read-only diagnostics."
+  ],
+  "output_paths": {
+    "decision_support_gating_json": "artifacts/cfb/weekly/2026_WK01/operations/weekly_decision_support_gating_v2.json"
+  }
+}

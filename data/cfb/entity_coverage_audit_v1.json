@@ -1,0 +1,3470 @@
+{
+  "metadata": {
+    "report": "entity_coverage_audit_v1",
+    "season": 2026,
+    "week": 1,
+    "generated_at": "2026-06-23T00:00:00Z",
+    "grain": "one_row_per_week1_game",
+    "source_artifacts": {
+      "week1_decision_support_report_v1": "artifacts/cfb/reporting/week1_decision_support_report_v1.json",
+      "team_capsule_detail_upgrade_v1": "artifacts/cfb/reporting/team_capsule_detail_upgrade_v1.json",
+      "team_capsules_v1": "artifacts/cfb/reporting/team_capsules_v1.csv",
+      "current_team_ratings_v1": "artifacts/cfb/weekly/2026_WK01/ratings/current_team_ratings_v1.csv",
+      "weekly_projections_v1": "artifacts/cfb/weekly/2026_WK01/projections/weekly_projections_v1.csv"
+    },
+    "guardrails": {
+      "reporting_only": true,
+      "diagnostic_only": true,
+      "requires_live_markets": false,
+      "requires_sportsbook_lines": false,
+      "creates_action_view": false,
+      "infers_market_actions": false,
+      "modifies_power_ratings": false,
+      "modifies_projection_model": false,
+      "modifies_calibration": false,
+      "modifies_confidence": false,
+      "modifies_market_ingestion": false,
+      "modifies_weekly_pipeline": false,
+      "modifies_matchup_narrative_engine": false,
+      "modifies_team_capsule_detail_upgrade": false,
+      "modifies_week1_decision_support_report": false
+    },
+    "classification_catalog": {
+      "team_statuses": [
+        "full_fbs_profile",
+        "partial_fbs_profile",
+        "fcs_profile",
+        "fcs_placeholder",
+        "missing_source_data"
+      ],
+      "game_entity_matchup_types": [
+        "fbs_vs_fbs",
+        "fbs_vs_fcs",
+        "fcs_vs_fbs",
+        "fcs_vs_fcs",
+        "unknown_entity_mix"
+      ],
+      "coverage_statuses": [
+        "complete",
+        "expected_limited",
+        "unexpected_gap",
+        "unknown"
+      ]
+    }
+  },
+  "summary": {
+    "total_games": 99,
+    "fbs_vs_fbs_games": 49,
+    "fbs_vs_fcs_games": 1,
+    "fcs_vs_fbs_games": 47,
+    "fcs_vs_fcs_games": 0,
+    "unknown_entity_mix_games": 2,
+    "complete_coverage_games": 49,
+    "expected_limited_coverage_games": 48,
+    "unexpected_gap_games": 0,
+    "unknown_classification_games": 2,
+    "full_fbs_profiles": 136,
+    "partial_fbs_profiles": 0,
+    "fcs_profiles": 0,
+    "fcs_placeholders": 48,
+    "missing_source_data_teams": 2,
+    "fbs_teams_unexpectedly_missing_full_capsule_coverage": [],
+    "fcs_teams_using_placeholder_profiles": [
+      "Abilene Christian",
+      "Alcorn State",
+      "Arkansas-Pine Bluff",
+      "Austin Peay",
+      "Bethune-Cookman",
+      "Bryant",
+      "Charleston Southern",
+      "Duquesne",
+      "Eastern Illinois",
+      "Eastern Kentucky",
+      "Furman",
+      "Houston Christian",
+      "Howard",
+      "Idaho",
+      "Idaho State",
+      "Indiana State",
+      "Lafayette",
+      "Lamar",
+      "Long Island University",
+      "Maine",
+      "Mercyhurst",
+      "Merrimack",
+      "Morgan State",
+      "Murray State",
+      "New Hampshire",
+      "Nicholls",
+      "Norfolk State",
+      "North Alabama",
+      "North Carolina A&T",
+      "North Dakota State",
+      "Northern Arizona",
+      "Northwestern State",
+      "Portland State",
+      "Rhode Island",
+      "SE Louisiana",
+      "Sacramento State",
+      "South Dakota State",
+      "Southeast Missouri State",
+      "Tarleton State",
+      "Tennessee State",
+      "The Citadel",
+      "Towson",
+      "UAlbany",
+      "UT Rio Grande Valley",
+      "Utah Tech",
+      "VMI",
+      "West Georgia",
+      "Youngstown State"
+    ],
+    "games_requiring_manual_review": [
+      "Fordham at North Dakota State (401864499)",
+      "Mississippi Valley State at Sacramento State (401866411)"
+    ],
+    "games_safe_for_limited_narrative_rendering": [
+      "Hawai'i at Stanford (401858201)",
+      "Jacksonville State at North Dakota State (401864577)",
+      "Memphis at UNLV (401862693)",
+      "New Mexico State at Florida State (401864570)",
+      "Sacramento State at Eastern Michigan (401866408)",
+      "San Jos\u00e9 State at USC (401864494)",
+      "North Carolina at TCU (401856766)",
+      "NC State at Virginia (401858202)",
+      "Akron at Wake Forest (401858204)",
+      "Arkansas-Pine Bluff at Missouri (401856663)",
+      "Bethune-Cookman at UCF (401856767)",
+      "Eastern Illinois at Minnesota (401858422)",
+      "Idaho at Utah (401856768)",
+      "Massachusetts at Rutgers (401858423)",
+      "Merrimack at Delaware (401864424)",
+      "UAlbany at Buffalo (401866409)",
+      "West Georgia at Kennesaw State (401864425)",
+      "Colorado at Georgia Tech (401856776)",
+      "Fresno State at USC (401858436)",
+      "Long Island University at Kansas (401856769)",
+      "North Carolina A&T at Georgia State (401866623)",
+      "San Jos\u00e9 State at Eastern Michigan (401864495)",
+      "Toledo at Michigan State (401858429)",
+      "Miami at Stanford (401858206)",
+      "Abilene Christian at Texas Tech (401856770)",
+      "Alcorn State at Southern Miss (401868356)",
+      "Arkansas State at Memphis (401862695)",
+      "Austin Peay at Vanderbilt (401856669)",
+      "Ball State at Ohio State (401858432)",
+      "Boise State at Oregon (401858433)",
+      "Boston College at Cincinnati (401856777)",
+      "Bryant at Army (401862701)",
+      "Central Michigan at New Mexico (401864498)",
+      "Charleston Southern at Georgia Southern (401868170)",
+      "Coastal Carolina at West Virginia (401856780)",
+      "Duquesne at Air Force (401864496)",
+      "Eastern Kentucky at Jacksonville State (401868140)",
+      "Florida Atlantic at Florida (401856637)",
+      "Florida International at South Florida (401862699)",
+      "Furman at Tennessee (401856666)",
+      "Houston Christian at Rice (401862697)",
+      "Howard at Maryland (401858427)",
+      "Idaho State at Utah State (401860880)",
+      "Indiana State at Purdue (401858435)",
+      "Kent State at South Carolina (401856665)",
+      "Lafayette at UConn (401861962)",
+      "Lamar at Louisiana (401869142)",
+      "Liberty at James Madison (401869960)",
+      "Maine at App State (401866627)",
+      "Marshall at Penn State (401858434)",
+      "Mercyhurst at New Mexico State (401870790)",
+      "Miami (OH) at Pittsburgh (401858207)",
+      "Missouri State at Texas A&M (401856668)",
+      "Morgan State at Arizona State (401856774)",
+      "Murray State at Middle Tennessee (401867866)",
+      "New Hampshire at Syracuse (401858208)",
+      "Nicholls at Kansas State (401856771)",
+      "Norfolk State at Old Dominion (401867973)",
+      "North Alabama at Arkansas (401856635)",
+      "North Texas at Indiana (401858425)",
+      "Northern Arizona at Arizona (401856773)",
+      "Northern Illinois at Iowa (401858426)",
+      "Northwestern State at Louisiana Tech (401869129)",
+      "Ohio at Nebraska (401858430)",
+      "Oklahoma State at Tulsa (401856772)",
+      "Oregon State at Houston (401856778)",
+      "Portland State at San Diego State (401860879)",
+      "Rhode Island at Temple (401862698)",
+      "SE Louisiana at South Alabama (401868316)",
+      "Sam Houston at Troy (401870763)",
+      "South Dakota State at Northwestern (401858431)",
+      "Southeast Missouri State at Iowa State (401856779)",
+      "Tarleton State at Bowling Green (401866410)",
+      "Tennessee State at Georgia (401856658)",
+      "Texas State at Texas (401856667)",
+      "The Citadel at Charlotte (401862694)",
+      "Towson at Navy (401862696)",
+      "Tulane at Duke (401858209)",
+      "UAB at Illinois (401858424)",
+      "UCLA at California (401858210)",
+      "UL Monroe at Mississippi State (401856662)",
+      "UNLV at Hawai'i (401864497)",
+      "UT Rio Grande Valley at UTSA (401862700)",
+      "UTEP at Oklahoma (401856664)",
+      "Utah Tech at BYU (401856775)",
+      "VMI at Virginia Tech (401858211)",
+      "Washington State at Washington (401858437)",
+      "Western Kentucky at Nevada (401864432)",
+      "Western Michigan at Michigan (401858428)",
+      "Wyoming at Colorado State (401860878)",
+      "Youngstown State at Kentucky (401856659)",
+      "East Carolina at Alabama (401856634)",
+      "Baylor at Auburn (401856636)",
+      "Clemson at LSU (401856660)",
+      "Louisville at Ole Miss (401856661)",
+      "Notre Dame at Wisconsin (401858438)",
+      "SMU at Florida State (401858212)"
+    ]
+  },
+  "team_classifications": {
+    "abilene christian": {
+      "team": "Abilene Christian",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "air force": {
+      "team": "Air Force",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "akron": {
+      "team": "Akron",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "alabama": {
+      "team": "Alabama",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "alcorn state": {
+      "team": "Alcorn State",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "app state": {
+      "team": "App State",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "arizona": {
+      "team": "Arizona",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "arizona state": {
+      "team": "Arizona State",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "arkansas": {
+      "team": "Arkansas",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "arkansas state": {
+      "team": "Arkansas State",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "arkansas-pine bluff": {
+      "team": "Arkansas-Pine Bluff",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "army": {
+      "team": "Army",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "auburn": {
+      "team": "Auburn",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "austin peay": {
+      "team": "Austin Peay",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "ball state": {
+      "team": "Ball State",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "baylor": {
+      "team": "Baylor",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "bethune-cookman": {
+      "team": "Bethune-Cookman",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "boise state": {
+      "team": "Boise State",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "boston college": {
+      "team": "Boston College",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "bowling green": {
+      "team": "Bowling Green",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "bryant": {
+      "team": "Bryant",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "buffalo": {
+      "team": "Buffalo",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "byu": {
+      "team": "BYU",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "california": {
+      "team": "California",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "central michigan": {
+      "team": "Central Michigan",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "charleston southern": {
+      "team": "Charleston Southern",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "charlotte": {
+      "team": "Charlotte",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "cincinnati": {
+      "team": "Cincinnati",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "clemson": {
+      "team": "Clemson",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "coastal carolina": {
+      "team": "Coastal Carolina",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "colorado": {
+      "team": "Colorado",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "colorado state": {
+      "team": "Colorado State",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "delaware": {
+      "team": "Delaware",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "duke": {
+      "team": "Duke",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "duquesne": {
+      "team": "Duquesne",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "east carolina": {
+      "team": "East Carolina",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "eastern illinois": {
+      "team": "Eastern Illinois",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "eastern kentucky": {
+      "team": "Eastern Kentucky",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "eastern michigan": {
+      "team": "Eastern Michigan",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "florida": {
+      "team": "Florida",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "florida atlantic": {
+      "team": "Florida Atlantic",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "florida international": {
+      "team": "Florida International",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "florida state": {
+      "team": "Florida State",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "fordham": {
+      "team": "Fordham",
+      "entity_status": "missing_source_data",
+      "source_entity_type": "unknown",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team has no usable saved FBS, FCS, or placeholder classification evidence."
+    },
+    "fresno state": {
+      "team": "Fresno State",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "furman": {
+      "team": "Furman",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "georgia": {
+      "team": "Georgia",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "georgia southern": {
+      "team": "Georgia Southern",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "georgia state": {
+      "team": "Georgia State",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "georgia tech": {
+      "team": "Georgia Tech",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "hawai'i": {
+      "team": "Hawai'i",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "houston": {
+      "team": "Houston",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "houston christian": {
+      "team": "Houston Christian",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "howard": {
+      "team": "Howard",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "idaho": {
+      "team": "Idaho",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "idaho state": {
+      "team": "Idaho State",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "illinois": {
+      "team": "Illinois",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "indiana": {
+      "team": "Indiana",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "indiana state": {
+      "team": "Indiana State",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "iowa": {
+      "team": "Iowa",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "iowa state": {
+      "team": "Iowa State",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "jacksonville state": {
+      "team": "Jacksonville State",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "james madison": {
+      "team": "James Madison",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "kansas": {
+      "team": "Kansas",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "kansas state": {
+      "team": "Kansas State",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "kennesaw state": {
+      "team": "Kennesaw State",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "kent state": {
+      "team": "Kent State",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "kentucky": {
+      "team": "Kentucky",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "lafayette": {
+      "team": "Lafayette",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "lamar": {
+      "team": "Lamar",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "liberty": {
+      "team": "Liberty",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "long island university": {
+      "team": "Long Island University",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "louisiana": {
+      "team": "Louisiana",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "louisiana tech": {
+      "team": "Louisiana Tech",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "louisville": {
+      "team": "Louisville",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "lsu": {
+      "team": "LSU",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "maine": {
+      "team": "Maine",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "marshall": {
+      "team": "Marshall",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "maryland": {
+      "team": "Maryland",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "massachusetts": {
+      "team": "Massachusetts",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "memphis": {
+      "team": "Memphis",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "mercyhurst": {
+      "team": "Mercyhurst",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "merrimack": {
+      "team": "Merrimack",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "miami": {
+      "team": "Miami",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "miami (oh)": {
+      "team": "Miami (OH)",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "michigan": {
+      "team": "Michigan",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "michigan state": {
+      "team": "Michigan State",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "middle tennessee": {
+      "team": "Middle Tennessee",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "minnesota": {
+      "team": "Minnesota",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "mississippi state": {
+      "team": "Mississippi State",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "mississippi valley state": {
+      "team": "Mississippi Valley State",
+      "entity_status": "missing_source_data",
+      "source_entity_type": "unknown",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team has no usable saved FBS, FCS, or placeholder classification evidence."
+    },
+    "missouri": {
+      "team": "Missouri",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "missouri state": {
+      "team": "Missouri State",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "morgan state": {
+      "team": "Morgan State",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "murray state": {
+      "team": "Murray State",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "navy": {
+      "team": "Navy",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "nc state": {
+      "team": "NC State",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "nebraska": {
+      "team": "Nebraska",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "nevada": {
+      "team": "Nevada",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "new hampshire": {
+      "team": "New Hampshire",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "new mexico": {
+      "team": "New Mexico",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "new mexico state": {
+      "team": "New Mexico State",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "nicholls": {
+      "team": "Nicholls",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "norfolk state": {
+      "team": "Norfolk State",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "north alabama": {
+      "team": "North Alabama",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "north carolina": {
+      "team": "North Carolina",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "north carolina a&t": {
+      "team": "North Carolina A&T",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "north dakota state": {
+      "team": "North Dakota State",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "north texas": {
+      "team": "North Texas",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "northern arizona": {
+      "team": "Northern Arizona",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "northern illinois": {
+      "team": "Northern Illinois",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "northwestern": {
+      "team": "Northwestern",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "northwestern state": {
+      "team": "Northwestern State",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "notre dame": {
+      "team": "Notre Dame",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "ohio": {
+      "team": "Ohio",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "ohio state": {
+      "team": "Ohio State",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "oklahoma": {
+      "team": "Oklahoma",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "oklahoma state": {
+      "team": "Oklahoma State",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "old dominion": {
+      "team": "Old Dominion",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "ole miss": {
+      "team": "Ole Miss",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "oregon": {
+      "team": "Oregon",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "oregon state": {
+      "team": "Oregon State",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "penn state": {
+      "team": "Penn State",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "pittsburgh": {
+      "team": "Pittsburgh",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "portland state": {
+      "team": "Portland State",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "purdue": {
+      "team": "Purdue",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "rhode island": {
+      "team": "Rhode Island",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "rice": {
+      "team": "Rice",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "rutgers": {
+      "team": "Rutgers",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "sacramento state": {
+      "team": "Sacramento State",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "sam houston": {
+      "team": "Sam Houston",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "san diego state": {
+      "team": "San Diego State",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "san jos\u00e9 state": {
+      "team": "San Jos\u00e9 State",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "se louisiana": {
+      "team": "SE Louisiana",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "smu": {
+      "team": "SMU",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "south alabama": {
+      "team": "South Alabama",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "south carolina": {
+      "team": "South Carolina",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "south dakota state": {
+      "team": "South Dakota State",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "south florida": {
+      "team": "South Florida",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "southeast missouri state": {
+      "team": "Southeast Missouri State",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "southern miss": {
+      "team": "Southern Miss",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "stanford": {
+      "team": "Stanford",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "syracuse": {
+      "team": "Syracuse",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "tarleton state": {
+      "team": "Tarleton State",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "tcu": {
+      "team": "TCU",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "temple": {
+      "team": "Temple",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "tennessee": {
+      "team": "Tennessee",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "tennessee state": {
+      "team": "Tennessee State",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "texas": {
+      "team": "Texas",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "texas a&m": {
+      "team": "Texas A&M",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "texas state": {
+      "team": "Texas State",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "texas tech": {
+      "team": "Texas Tech",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "the citadel": {
+      "team": "The Citadel",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "toledo": {
+      "team": "Toledo",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "towson": {
+      "team": "Towson",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "troy": {
+      "team": "Troy",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "tulane": {
+      "team": "Tulane",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "tulsa": {
+      "team": "Tulsa",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "uab": {
+      "team": "UAB",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "ualbany": {
+      "team": "UAlbany",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "ucf": {
+      "team": "UCF",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "ucla": {
+      "team": "UCLA",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "uconn": {
+      "team": "UConn",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "ul monroe": {
+      "team": "UL Monroe",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "unlv": {
+      "team": "UNLV",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "usc": {
+      "team": "USC",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "ut rio grande valley": {
+      "team": "UT Rio Grande Valley",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "utah": {
+      "team": "Utah",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "utah state": {
+      "team": "Utah State",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "utah tech": {
+      "team": "Utah Tech",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "utep": {
+      "team": "UTEP",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "utsa": {
+      "team": "UTSA",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "vanderbilt": {
+      "team": "Vanderbilt",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "virginia": {
+      "team": "Virginia",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "virginia tech": {
+      "team": "Virginia Tech",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "vmi": {
+      "team": "VMI",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "wake forest": {
+      "team": "Wake Forest",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "washington": {
+      "team": "Washington",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "washington state": {
+      "team": "Washington State",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "west georgia": {
+      "team": "West Georgia",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    },
+    "west virginia": {
+      "team": "West Virginia",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "western kentucky": {
+      "team": "Western Kentucky",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "western michigan": {
+      "team": "Western Michigan",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "wisconsin": {
+      "team": "Wisconsin",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "wyoming": {
+      "team": "Wyoming",
+      "entity_status": "full_fbs_profile",
+      "source_entity_type": "fbs",
+      "missing_critical_fields": [],
+      "coverage_explanation": "Team has saved FBS rating/capsule identity and complete critical capsule fields."
+    },
+    "youngstown state": {
+      "team": "Youngstown State",
+      "entity_status": "fcs_placeholder",
+      "source_entity_type": "fcs",
+      "missing_critical_fields": [
+        "overall_team_identity",
+        "offensive_identity",
+        "defensive_identity",
+        "pace_identity",
+        "scoring_environment_identity",
+        "volatility_identity",
+        "capsule_short",
+        "offense_summary",
+        "defense_summary",
+        "strengths_summary",
+        "risk_summary",
+        "matchup_usage_note"
+      ],
+      "coverage_explanation": "Team is handled through saved FCS placeholder context rather than a full capsule."
+    }
+  },
+  "game_rows": [
+    {
+      "game_id": "401858201",
+      "week": 1,
+      "away_team": "Hawai'i",
+      "home_team": "Stanford",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401864577",
+      "week": 1,
+      "away_team": "Jacksonville State",
+      "home_team": "North Dakota State",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "fcs_placeholder",
+      "game_entity_matchup_type": "fbs_vs_fcs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401862693",
+      "week": 1,
+      "away_team": "Memphis",
+      "home_team": "UNLV",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401864570",
+      "week": 1,
+      "away_team": "New Mexico State",
+      "home_team": "Florida State",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401866408",
+      "week": 1,
+      "away_team": "Sacramento State",
+      "home_team": "Eastern Michigan",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401864494",
+      "week": 1,
+      "away_team": "San Jos\u00e9 State",
+      "home_team": "USC",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401856766",
+      "week": 1,
+      "away_team": "North Carolina",
+      "home_team": "TCU",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401858202",
+      "week": 1,
+      "away_team": "NC State",
+      "home_team": "Virginia",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401858204",
+      "week": 1,
+      "away_team": "Akron",
+      "home_team": "Wake Forest",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401856663",
+      "week": 1,
+      "away_team": "Arkansas-Pine Bluff",
+      "home_team": "Missouri",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401856767",
+      "week": 1,
+      "away_team": "Bethune-Cookman",
+      "home_team": "UCF",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401858422",
+      "week": 1,
+      "away_team": "Eastern Illinois",
+      "home_team": "Minnesota",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401856768",
+      "week": 1,
+      "away_team": "Idaho",
+      "home_team": "Utah",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401858423",
+      "week": 1,
+      "away_team": "Massachusetts",
+      "home_team": "Rutgers",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401864424",
+      "week": 1,
+      "away_team": "Merrimack",
+      "home_team": "Delaware",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401866409",
+      "week": 1,
+      "away_team": "UAlbany",
+      "home_team": "Buffalo",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401864425",
+      "week": 1,
+      "away_team": "West Georgia",
+      "home_team": "Kennesaw State",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401856776",
+      "week": 1,
+      "away_team": "Colorado",
+      "home_team": "Georgia Tech",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401858436",
+      "week": 1,
+      "away_team": "Fresno State",
+      "home_team": "USC",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401856769",
+      "week": 1,
+      "away_team": "Long Island University",
+      "home_team": "Kansas",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401866623",
+      "week": 1,
+      "away_team": "North Carolina A&T",
+      "home_team": "Georgia State",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401864495",
+      "week": 1,
+      "away_team": "San Jos\u00e9 State",
+      "home_team": "Eastern Michigan",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401858429",
+      "week": 1,
+      "away_team": "Toledo",
+      "home_team": "Michigan State",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401858206",
+      "week": 1,
+      "away_team": "Miami",
+      "home_team": "Stanford",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401856770",
+      "week": 1,
+      "away_team": "Abilene Christian",
+      "home_team": "Texas Tech",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401868356",
+      "week": 1,
+      "away_team": "Alcorn State",
+      "home_team": "Southern Miss",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401862695",
+      "week": 1,
+      "away_team": "Arkansas State",
+      "home_team": "Memphis",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401856669",
+      "week": 1,
+      "away_team": "Austin Peay",
+      "home_team": "Vanderbilt",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401858432",
+      "week": 1,
+      "away_team": "Ball State",
+      "home_team": "Ohio State",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401858433",
+      "week": 1,
+      "away_team": "Boise State",
+      "home_team": "Oregon",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401856777",
+      "week": 1,
+      "away_team": "Boston College",
+      "home_team": "Cincinnati",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401862701",
+      "week": 1,
+      "away_team": "Bryant",
+      "home_team": "Army",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401864498",
+      "week": 1,
+      "away_team": "Central Michigan",
+      "home_team": "New Mexico",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401868170",
+      "week": 1,
+      "away_team": "Charleston Southern",
+      "home_team": "Georgia Southern",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401856780",
+      "week": 1,
+      "away_team": "Coastal Carolina",
+      "home_team": "West Virginia",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401864496",
+      "week": 1,
+      "away_team": "Duquesne",
+      "home_team": "Air Force",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401868140",
+      "week": 1,
+      "away_team": "Eastern Kentucky",
+      "home_team": "Jacksonville State",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401856637",
+      "week": 1,
+      "away_team": "Florida Atlantic",
+      "home_team": "Florida",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401862699",
+      "week": 1,
+      "away_team": "Florida International",
+      "home_team": "South Florida",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401864499",
+      "week": 1,
+      "away_team": "Fordham",
+      "home_team": "North Dakota State",
+      "away_entity_status": "missing_source_data",
+      "home_entity_status": "fcs_placeholder",
+      "game_entity_matchup_type": "unknown_entity_mix",
+      "coverage_status": "unknown",
+      "coverage_explanation": "At least one team lacks usable saved source classification and needs manual source review.",
+      "expected_limitation": false,
+      "requires_review": true
+    },
+    {
+      "game_id": "401856666",
+      "week": 1,
+      "away_team": "Furman",
+      "home_team": "Tennessee",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401862697",
+      "week": 1,
+      "away_team": "Houston Christian",
+      "home_team": "Rice",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401858427",
+      "week": 1,
+      "away_team": "Howard",
+      "home_team": "Maryland",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401860880",
+      "week": 1,
+      "away_team": "Idaho State",
+      "home_team": "Utah State",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401858435",
+      "week": 1,
+      "away_team": "Indiana State",
+      "home_team": "Purdue",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401856665",
+      "week": 1,
+      "away_team": "Kent State",
+      "home_team": "South Carolina",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401861962",
+      "week": 1,
+      "away_team": "Lafayette",
+      "home_team": "UConn",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401869142",
+      "week": 1,
+      "away_team": "Lamar",
+      "home_team": "Louisiana",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401869960",
+      "week": 1,
+      "away_team": "Liberty",
+      "home_team": "James Madison",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401866627",
+      "week": 1,
+      "away_team": "Maine",
+      "home_team": "App State",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401858434",
+      "week": 1,
+      "away_team": "Marshall",
+      "home_team": "Penn State",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401870790",
+      "week": 1,
+      "away_team": "Mercyhurst",
+      "home_team": "New Mexico State",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401858207",
+      "week": 1,
+      "away_team": "Miami (OH)",
+      "home_team": "Pittsburgh",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401866411",
+      "week": 1,
+      "away_team": "Mississippi Valley State",
+      "home_team": "Sacramento State",
+      "away_entity_status": "missing_source_data",
+      "home_entity_status": "fcs_placeholder",
+      "game_entity_matchup_type": "unknown_entity_mix",
+      "coverage_status": "unknown",
+      "coverage_explanation": "At least one team lacks usable saved source classification and needs manual source review.",
+      "expected_limitation": false,
+      "requires_review": true
+    },
+    {
+      "game_id": "401856668",
+      "week": 1,
+      "away_team": "Missouri State",
+      "home_team": "Texas A&M",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401856774",
+      "week": 1,
+      "away_team": "Morgan State",
+      "home_team": "Arizona State",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401867866",
+      "week": 1,
+      "away_team": "Murray State",
+      "home_team": "Middle Tennessee",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401858208",
+      "week": 1,
+      "away_team": "New Hampshire",
+      "home_team": "Syracuse",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401856771",
+      "week": 1,
+      "away_team": "Nicholls",
+      "home_team": "Kansas State",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401867973",
+      "week": 1,
+      "away_team": "Norfolk State",
+      "home_team": "Old Dominion",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401856635",
+      "week": 1,
+      "away_team": "North Alabama",
+      "home_team": "Arkansas",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401858425",
+      "week": 1,
+      "away_team": "North Texas",
+      "home_team": "Indiana",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401856773",
+      "week": 1,
+      "away_team": "Northern Arizona",
+      "home_team": "Arizona",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401858426",
+      "week": 1,
+      "away_team": "Northern Illinois",
+      "home_team": "Iowa",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401869129",
+      "week": 1,
+      "away_team": "Northwestern State",
+      "home_team": "Louisiana Tech",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401858430",
+      "week": 1,
+      "away_team": "Ohio",
+      "home_team": "Nebraska",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401856772",
+      "week": 1,
+      "away_team": "Oklahoma State",
+      "home_team": "Tulsa",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401856778",
+      "week": 1,
+      "away_team": "Oregon State",
+      "home_team": "Houston",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401860879",
+      "week": 1,
+      "away_team": "Portland State",
+      "home_team": "San Diego State",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401862698",
+      "week": 1,
+      "away_team": "Rhode Island",
+      "home_team": "Temple",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401868316",
+      "week": 1,
+      "away_team": "SE Louisiana",
+      "home_team": "South Alabama",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401870763",
+      "week": 1,
+      "away_team": "Sam Houston",
+      "home_team": "Troy",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401858431",
+      "week": 1,
+      "away_team": "South Dakota State",
+      "home_team": "Northwestern",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401856779",
+      "week": 1,
+      "away_team": "Southeast Missouri State",
+      "home_team": "Iowa State",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401866410",
+      "week": 1,
+      "away_team": "Tarleton State",
+      "home_team": "Bowling Green",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401856658",
+      "week": 1,
+      "away_team": "Tennessee State",
+      "home_team": "Georgia",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401856667",
+      "week": 1,
+      "away_team": "Texas State",
+      "home_team": "Texas",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401862694",
+      "week": 1,
+      "away_team": "The Citadel",
+      "home_team": "Charlotte",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401862696",
+      "week": 1,
+      "away_team": "Towson",
+      "home_team": "Navy",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401858209",
+      "week": 1,
+      "away_team": "Tulane",
+      "home_team": "Duke",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401858424",
+      "week": 1,
+      "away_team": "UAB",
+      "home_team": "Illinois",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401858210",
+      "week": 1,
+      "away_team": "UCLA",
+      "home_team": "California",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401856662",
+      "week": 1,
+      "away_team": "UL Monroe",
+      "home_team": "Mississippi State",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401864497",
+      "week": 1,
+      "away_team": "UNLV",
+      "home_team": "Hawai'i",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401862700",
+      "week": 1,
+      "away_team": "UT Rio Grande Valley",
+      "home_team": "UTSA",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401856664",
+      "week": 1,
+      "away_team": "UTEP",
+      "home_team": "Oklahoma",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401856775",
+      "week": 1,
+      "away_team": "Utah Tech",
+      "home_team": "BYU",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401858211",
+      "week": 1,
+      "away_team": "VMI",
+      "home_team": "Virginia Tech",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401858437",
+      "week": 1,
+      "away_team": "Washington State",
+      "home_team": "Washington",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401864432",
+      "week": 1,
+      "away_team": "Western Kentucky",
+      "home_team": "Nevada",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401858428",
+      "week": 1,
+      "away_team": "Western Michigan",
+      "home_team": "Michigan",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401860878",
+      "week": 1,
+      "away_team": "Wyoming",
+      "home_team": "Colorado State",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401856659",
+      "week": 1,
+      "away_team": "Youngstown State",
+      "home_team": "Kentucky",
+      "away_entity_status": "fcs_placeholder",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fcs_vs_fbs",
+      "coverage_status": "expected_limited",
+      "coverage_explanation": "Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag.",
+      "expected_limitation": true,
+      "requires_review": false
+    },
+    {
+      "game_id": "401856634",
+      "week": 1,
+      "away_team": "East Carolina",
+      "home_team": "Alabama",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401856636",
+      "week": 1,
+      "away_team": "Baylor",
+      "home_team": "Auburn",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401856660",
+      "week": 1,
+      "away_team": "Clemson",
+      "home_team": "LSU",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401856661",
+      "week": 1,
+      "away_team": "Louisville",
+      "home_team": "Ole Miss",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401858438",
+      "week": 1,
+      "away_team": "Notre Dame",
+      "home_team": "Wisconsin",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    },
+    {
+      "game_id": "401858212",
+      "week": 1,
+      "away_team": "SMU",
+      "home_team": "Florida State",
+      "away_entity_status": "full_fbs_profile",
+      "home_entity_status": "full_fbs_profile",
+      "game_entity_matchup_type": "fbs_vs_fbs",
+      "coverage_status": "complete",
+      "coverage_explanation": "Both teams have usable saved profile coverage for this diagnostic layer.",
+      "expected_limitation": false,
+      "requires_review": false
+    }
+  ],
+  "markdown": "# CFB Entity Coverage Audit v1\n\nReporting-only diagnostic audit for saved Week 1 team capsule coverage.\n\nGuardrails:\n- Uses only saved CFB artifacts.\n- Does not require live markets or sportsbook lines.\n- Does not create recommendations or infer market advantages.\n- Does not modify ratings, projections, calibration, confidence, market ingestion, recommendations, narratives, capsules, or weekly pipeline behavior.\n\n## Summary\n\n- Total games: 99\n- FBS vs FBS games: 49\n- FBS vs FCS games: 1\n- FCS vs FBS games: 47\n- FCS vs FCS games: 0\n- Complete coverage games: 49\n- Expected limited coverage games: 48\n- Unexpected gap games: 0\n- Unknown classification games: 2\n\n## Team Coverage\n\n- Full FBS profiles: 136\n- Partial FBS profiles: 0\n- FCS profiles: 0\n- FCS placeholders: 48\n- Missing source data teams: 2\n\nCoverage status values: `complete`, `expected_limited`, `unexpected_gap`, `unknown`.\n\n## Review Lists\n\n- FBS teams requiring review: None\n- FCS placeholder teams: Abilene Christian, Alcorn State, Arkansas-Pine Bluff, Austin Peay, Bethune-Cookman, Bryant, Charleston Southern, Duquesne, Eastern Illinois, Eastern Kentucky, Furman, Houston Christian, Howard, Idaho, Idaho State, Indiana State, Lafayette, Lamar, Long Island University, Maine, Mercyhurst, Merrimack, Morgan State, Murray State, New Hampshire, Nicholls, Norfolk State, North Alabama, North Carolina A&T, North Dakota State, Northern Arizona, Northwestern State, Portland State, Rhode Island, SE Louisiana, Sacramento State, South Dakota State, Southeast Missouri State, Tarleton State, Tennessee State, The Citadel, Towson, UAlbany, UT Rio Grande Valley, Utah Tech, VMI, West Georgia, Youngstown State\n- Games requiring manual review: 2\n- Games safe for limited narrative rendering: 97\n\n## Game Rows\n\n| Game | Matchup Type | Coverage | Review | Explanation |\n| --- | --- | --- | --- | --- |\n| Hawai'i at Stanford | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Jacksonville State at North Dakota State | fbs_vs_fcs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Memphis at UNLV | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| New Mexico State at Florida State | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Sacramento State at Eastern Michigan | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| San Jos\u00e9 State at USC | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| North Carolina at TCU | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| NC State at Virginia | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Akron at Wake Forest | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Arkansas-Pine Bluff at Missouri | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Bethune-Cookman at UCF | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Eastern Illinois at Minnesota | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Idaho at Utah | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Massachusetts at Rutgers | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Merrimack at Delaware | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| UAlbany at Buffalo | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| West Georgia at Kennesaw State | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Colorado at Georgia Tech | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Fresno State at USC | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Long Island University at Kansas | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| North Carolina A&T at Georgia State | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| San Jos\u00e9 State at Eastern Michigan | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Toledo at Michigan State | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Miami at Stanford | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Abilene Christian at Texas Tech | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Alcorn State at Southern Miss | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Arkansas State at Memphis | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Austin Peay at Vanderbilt | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Ball State at Ohio State | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Boise State at Oregon | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Boston College at Cincinnati | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Bryant at Army | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Central Michigan at New Mexico | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Charleston Southern at Georgia Southern | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Coastal Carolina at West Virginia | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Duquesne at Air Force | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Eastern Kentucky at Jacksonville State | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Florida Atlantic at Florida | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Florida International at South Florida | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Fordham at North Dakota State | unknown_entity_mix | unknown | True | At least one team lacks usable saved source classification and needs manual source review. |\n| Furman at Tennessee | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Houston Christian at Rice | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Howard at Maryland | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Idaho State at Utah State | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Indiana State at Purdue | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Kent State at South Carolina | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Lafayette at UConn | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Lamar at Louisiana | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Liberty at James Madison | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Maine at App State | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Marshall at Penn State | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Mercyhurst at New Mexico State | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Miami (OH) at Pittsburgh | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Mississippi Valley State at Sacramento State | unknown_entity_mix | unknown | True | At least one team lacks usable saved source classification and needs manual source review. |\n| Missouri State at Texas A&M | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Morgan State at Arizona State | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Murray State at Middle Tennessee | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| New Hampshire at Syracuse | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Nicholls at Kansas State | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Norfolk State at Old Dominion | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| North Alabama at Arkansas | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| North Texas at Indiana | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Northern Arizona at Arizona | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Northern Illinois at Iowa | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Northwestern State at Louisiana Tech | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Ohio at Nebraska | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Oklahoma State at Tulsa | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Oregon State at Houston | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Portland State at San Diego State | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Rhode Island at Temple | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| SE Louisiana at South Alabama | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Sam Houston at Troy | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| South Dakota State at Northwestern | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Southeast Missouri State at Iowa State | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Tarleton State at Bowling Green | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Tennessee State at Georgia | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Texas State at Texas | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| The Citadel at Charlotte | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Towson at Navy | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Tulane at Duke | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| UAB at Illinois | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| UCLA at California | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| UL Monroe at Mississippi State | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| UNLV at Hawai'i | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| UT Rio Grande Valley at UTSA | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| UTEP at Oklahoma | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Utah Tech at BYU | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| VMI at Virginia Tech | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| Washington State at Washington | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Western Kentucky at Nevada | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Western Michigan at Michigan | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Wyoming at Colorado State | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Youngstown State at Kentucky | fcs_vs_fbs | expected_limited | False | Limited capsule coverage is expected because the matchup uses FCS placeholder context. Saved projection row also carries fcs_placeholder_flag. |\n| East Carolina at Alabama | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Baylor at Auburn | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Clemson at LSU | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Louisville at Ole Miss | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| Notre Dame at Wisconsin | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |\n| SMU at Florida State | fbs_vs_fbs | complete | False | Both teams have usable saved profile coverage for this diagnostic layer. |"
+}
