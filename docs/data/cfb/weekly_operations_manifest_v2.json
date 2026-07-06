@@ -1,0 +1,325 @@
+{
+  "orchestrator": "cfb_weekly_operations_v2",
+  "season": 2026,
+  "week": 1,
+  "run_timestamp": "2026-07-06T00:00:00Z",
+  "mode": "production",
+  "slate_window": "all",
+  "status": "completed_with_warnings",
+  "phase_statuses_supported": [
+    "preseason_snapshot_available",
+    "live_data_refreshed",
+    "market_missing",
+    "market_loaded",
+    "projections_generated",
+    "reports_generated",
+    "postgame_grading_complete",
+    "completed_with_warnings",
+    "failed"
+  ],
+  "phase_history": [
+    {
+      "status": "preseason_snapshot_available",
+      "detail": "Weekly saved-input snapshot is available."
+    },
+    {
+      "status": "live_data_refreshed",
+      "detail": "Production mode: local saved inputs refreshed upstream or loaded as current weekly inputs."
+    },
+    {
+      "status": "projections_generated",
+      "detail": "Weekly projections and model-vs-market rows generated."
+    },
+    {
+      "status": "reports_generated",
+      "detail": "Dashboard, matchup sheet, and narrative report generated."
+    },
+    {
+      "status": "market_loaded",
+      "detail": "Market rows loaded but coverage is incomplete."
+    },
+    {
+      "status": "postgame_grading_complete",
+      "detail": "WARN"
+    }
+  ],
+  "input_artifact_paths": {
+    "weekly_snapshot": "artifacts/cfb/weekly/2026_WK01/snapshot/weekly_snapshot_v1.json",
+    "schedule_games": "data/processed/cfb/schedules/schedule_2026.csv",
+    "current_team_ratings_inputs": "artifacts/cfb/modeling/preseason_model_assembly_v1_2026.csv",
+    "spread_inputs": "artifacts/cfb/modeling/projected_spread_assembly_v1_2026.csv",
+    "advanced_team_metrics": "artifacts/cfb/modeling/weekly_advanced_metrics_v1.csv",
+    "environment_inputs": "artifacts/cfb/environment/game_environment_model_v1_2026.csv",
+    "betting_lines": "data/manual/cfb/market_lines_2026_sample.csv",
+    "rankings_ratings_snapshots": "data/processed/cfb/external_ratings/cfbd_rankings_2021_2025.csv",
+    "team_metadata": "artifacts/cfb/reporting/team_capsule_framework_v1.csv"
+  },
+  "output_artifact_paths": {
+    "market_coverage_csv": "artifacts/cfb/weekly/2026_WK01/operations/weekly_market_coverage_report_v2.csv",
+    "market_coverage_json": "artifacts/cfb/weekly/2026_WK01/operations/weekly_market_coverage_report_v2.json",
+    "market_coverage_md": "artifacts/cfb/weekly/2026_WK01/operations/weekly_market_coverage_report_v2.md",
+    "market_validation_json": "artifacts/cfb/weekly/2026_WK01/operations/week1_market_refresh_validation_v1.json",
+    "market_validation_csv": "artifacts/cfb/weekly/2026_WK01/operations/week1_market_refresh_validation_v1.csv",
+    "market_validation_markdown": "artifacts/cfb/weekly/2026_WK01/operations/week1_market_refresh_validation_v1.md",
+    "decision_support_gating_json": "artifacts/cfb/weekly/2026_WK01/operations/weekly_decision_support_gating_v2.json",
+    "csv": "artifacts/cfb/weekly/2026_WK01/postgame/weekly_postgame_grading_v1.csv",
+    "json": "artifacts/cfb/weekly/2026_WK01/postgame/weekly_postgame_grading_v1.json",
+    "markdown": "artifacts/cfb/weekly/2026_WK01/postgame/weekly_postgame_grading_v1.md",
+    "weekly_operations_manifest_v2": "artifacts/cfb/weekly/2026_WK01/operations/weekly_operations_manifest_v2.json",
+    "weekly_operations_summary_v2": "artifacts/cfb/weekly/2026_WK01/operations/weekly_operations_summary_v2.md"
+  },
+  "row_counts": {
+    "snapshot_schedule_games": 99,
+    "snapshot_current_team_ratings_inputs": 136,
+    "snapshot_spread_inputs": 97,
+    "snapshot_advanced_team_metrics": 138,
+    "snapshot_environment_inputs": 99,
+    "snapshot_betting_lines": 51,
+    "snapshot_rankings_ratings_snapshots": 250,
+    "snapshot_team_metadata": 136,
+    "ratings_count": 136,
+    "projection_count": 99,
+    "market_row_count": 99,
+    "valid_refreshed_market_count": 51,
+    "recommendation_count": 51,
+    "dashboard_row_count": 99,
+    "matchup_row_count": 99,
+    "narrative_game_count": 99,
+    "missing_market_count": 48,
+    "market_status_distribution": {
+      "market_refreshed": 51,
+      "missing_market": 48
+    },
+    "fcs_placeholder_count": 47,
+    "slate_window_filter": "all",
+    "slate_segment_distribution": {
+      "early_week0_like": 8,
+      "main_week1": 91
+    },
+    "actionable_count": 51,
+    "market_coverage_rows": 99,
+    "postgame_grade_rows": 99,
+    "postgame_graded_games": 0
+  },
+  "warnings": [
+    "FCS placeholder retained: Abilene Christian at Texas Tech (2026:1:Abilene Christian:Texas Tech:2026-09-05T04:00:00.000Z:71).",
+    "FCS placeholder retained: Alcorn State at Southern Miss (2026:1:Alcorn State:Southern Miss:2026-09-05T04:00:00.000Z:85).",
+    "FCS placeholder retained: Arkansas-Pine Bluff at Missouri (2026:1:Arkansas-Pine Bluff:Missouri:2026-09-03T04:00:00.000Z:12).",
+    "FCS placeholder retained: Austin Peay at Vanderbilt (2026:1:Austin Peay:Vanderbilt:2026-09-05T04:00:00.000Z:72).",
+    "FCS placeholder retained: Bethune-Cookman at UCF (2026:1:Bethune-Cookman:UCF:2026-09-03T04:00:00.000Z:10).",
+    "FCS placeholder retained: Bryant at Army (2026:1:Bryant:Army:2026-09-05T04:00:00.000Z:70).",
+    "FCS placeholder retained: Charleston Southern at Georgia Southern (2026:1:Charleston Southern:Georgia Southern:2026-09-05T04:00:00.000Z:66).",
+    "FCS placeholder retained: Duquesne at Air Force (2026:1:Duquesne:Air Force:2026-09-05T04:00:00.000Z:61).",
+    "FCS placeholder retained: Eastern Illinois at Minnesota (2026:1:Eastern Illinois:Minnesota:2026-09-03T04:00:00.000Z:9).",
+    "FCS placeholder retained: Eastern Kentucky at Jacksonville State (2026:1:Eastern Kentucky:Jacksonville State:2026-09-05T04:00:00.000Z:74).",
+    "FCS placeholder retained: Furman at Tennessee (2026:1:Furman:Tennessee:2026-09-05T04:00:00.000Z:47).",
+    "FCS placeholder retained: Houston Christian at Rice (2026:1:Houston Christian:Rice:2026-09-05T04:00:00.000Z:49).",
+    "FCS placeholder retained: Howard at Maryland (2026:1:Howard:Maryland:2026-09-05T04:00:00.000Z:65).",
+    "FCS placeholder retained: Idaho State at Utah State (2026:1:Idaho State:Utah State:2026-09-05T04:00:00.000Z:79).",
+    "FCS placeholder retained: Idaho at Utah (2026:1:Idaho:Utah:2026-09-03T04:00:00.000Z:14).",
+    "FCS placeholder retained: Indiana State at Purdue (2026:1:Indiana State:Purdue:2026-09-05T04:00:00.000Z:60).",
+    "FCS placeholder retained: Jacksonville State at North Dakota State (2026:1:Jacksonville State:North Dakota State:2026-08-29T04:00:00.000Z:4).",
+    "FCS placeholder retained: Lafayette at UConn (2026:1:Lafayette:UConn:2026-09-05T04:00:00.000Z:88).",
+    "FCS placeholder retained: Lamar at Louisiana (2026:1:Lamar:Louisiana:2026-09-05T04:00:00.000Z:87).",
+    "FCS placeholder retained: Long Island University at Kansas (2026:1:Long Island University:Kansas:2026-09-04T04:00:00.000Z:23).",
+    "FCS placeholder retained: Maine at App State (2026:1:Maine:App State:2026-09-05T04:00:00.000Z:84).",
+    "FCS placeholder retained: Mercyhurst at New Mexico State (2026:1:Mercyhurst:New Mexico State:2026-09-05T04:00:00.000Z:57).",
+    "FCS placeholder retained: Merrimack at Delaware (2026:1:Merrimack:Delaware:2026-09-03T04:00:00.000Z:15).",
+    "FCS placeholder retained: Morgan State at Arizona State (2026:1:Morgan State:Arizona State:2026-09-05T04:00:00.000Z:64).",
+    "FCS placeholder retained: Murray State at Middle Tennessee (2026:1:Murray State:Middle Tennessee:2026-09-05T04:00:00.000Z:69).",
+    "FCS placeholder retained: New Hampshire at Syracuse (2026:1:New Hampshire:Syracuse:2026-09-05T04:00:00.000Z:83).",
+    "FCS placeholder retained: Nicholls at Kansas State (2026:1:Nicholls:Kansas State:2026-09-05T04:00:00.000Z:45).",
+    "FCS placeholder retained: Norfolk State at Old Dominion (2026:1:Norfolk State:Old Dominion:2026-09-05T04:00:00.000Z:63).",
+    "FCS placeholder retained: North Alabama at Arkansas (2026:1:North Alabama:Arkansas:2026-09-05T04:00:00.000Z:75).",
+    "FCS placeholder retained: North Carolina A&T at Georgia State (2026:1:North Carolina A&T:Georgia State:2026-09-04T04:00:00.000Z:22).",
+    "FCS placeholder retained: Northern Arizona at Arizona (2026:1:Northern Arizona:Arizona:2026-09-05T04:00:00.000Z:78).",
+    "FCS placeholder retained: Northwestern State at Louisiana Tech (2026:1:Northwestern State:Louisiana Tech:2026-09-05T04:00:00.000Z:43).",
+    "FCS placeholder retained: Portland State at San Diego State (2026:1:Portland State:San Diego State:2026-09-05T04:00:00.000Z:73).",
+    "FCS placeholder retained: Rhode Island at Temple (2026:1:Rhode Island:Temple:2026-09-05T04:00:00.000Z:82).",
+    "FCS placeholder retained: SE Louisiana at South Alabama (2026:1:SE Louisiana:South Alabama:2026-09-05T04:00:00.000Z:48).",
+    "FCS placeholder retained: Sacramento State at Eastern Michigan (2026:1:Sacramento State:Eastern Michigan:2026-08-29T04:00:00.000Z:6).",
+    "FCS placeholder retained: South Dakota State at Northwestern (2026:1:South Dakota State:Northwestern:2026-09-05T04:00:00.000Z:62).",
+    "FCS placeholder retained: Southeast Missouri State at Iowa State (2026:1:Southeast Missouri State:Iowa State:2026-09-05T04:00:00.000Z:67).",
+    "FCS placeholder retained: Tarleton State at Bowling Green (2026:1:Tarleton State:Bowling Green:2026-09-05T04:00:00.000Z:76).",
+    "FCS placeholder retained: Tennessee State at Georgia (2026:1:Tennessee State:Georgia:2026-09-05T04:00:00.000Z:68).",
+    "FCS placeholder retained: The Citadel at Charlotte (2026:1:The Citadel:Charlotte:2026-09-05T04:00:00.000Z:46).",
+    "FCS placeholder retained: Towson at Navy (2026:1:Towson:Navy:2026-09-05T04:00:00.000Z:80).",
+    "FCS placeholder retained: UAlbany at Buffalo (2026:1:UAlbany:Buffalo:2026-09-03T04:00:00.000Z:16).",
+    "FCS placeholder retained: UT Rio Grande Valley at UTSA (2026:1:UT Rio Grande Valley:UTSA:2026-09-05T04:00:00.000Z:91).",
+    "FCS placeholder retained: Utah Tech at BYU (2026:1:Utah Tech:BYU:2026-09-05T04:00:00.000Z:77).",
+    "FCS placeholder retained: VMI at Virginia Tech (2026:1:VMI:Virginia Tech:2026-09-05T04:00:00.000Z:50).",
+    "FCS placeholder retained: West Georgia at Kennesaw State (2026:1:West Georgia:Kennesaw State:2026-09-03T04:00:00.000Z:13).",
+    "FCS placeholder retained: Youngstown State at Kentucky (2026:1:Youngstown State:Kentucky:2026-09-05T04:00:00.000Z:58).",
+    "FCS placeholders were preserved as explicit low-confidence rows.",
+    "Market unavailable / no actionable comparison for recommendation-style output.",
+    "Market unavailable / no actionable comparison: Market rows loaded but coverage is incomplete.",
+    "Missing market line: Abilene Christian at Texas Tech.",
+    "Missing market line: Alcorn State at Southern Miss.",
+    "Missing market line: Arkansas-Pine Bluff at Missouri.",
+    "Missing market line: Austin Peay at Vanderbilt.",
+    "Missing market line: Bethune-Cookman at UCF.",
+    "Missing market line: Bryant at Army.",
+    "Missing market line: Charleston Southern at Georgia Southern.",
+    "Missing market line: Duquesne at Air Force.",
+    "Missing market line: Eastern Illinois at Minnesota.",
+    "Missing market line: Eastern Kentucky at Jacksonville State.",
+    "Missing market line: Fordham at North Dakota State.",
+    "Missing market line: Furman at Tennessee.",
+    "Missing market line: Hampton at Maryland.",
+    "Missing market line: Houston Christian at Rice.",
+    "Missing market line: Idaho State at Utah State.",
+    "Missing market line: Idaho at Utah.",
+    "Missing market line: Indiana State at Purdue.",
+    "Missing market line: Lafayette at UConn.",
+    "Missing market line: Lamar at Louisiana.",
+    "Missing market line: Long Island University at Kansas.",
+    "Missing market line: Maine at App State.",
+    "Missing market line: Mercyhurst at New Mexico State.",
+    "Missing market line: Merrimack at Delaware.",
+    "Missing market line: Mississippi Valley State at Sacramento State.",
+    "Missing market line: Morgan State at Arizona State.",
+    "Missing market line: Murray State at Middle Tennessee.",
+    "Missing market line: New Hampshire at Syracuse.",
+    "Missing market line: Nicholls at Kansas State.",
+    "Missing market line: Norfolk State at Old Dominion.",
+    "Missing market line: North Alabama at Arkansas.",
+    "Missing market line: North Carolina A&T at Georgia State.",
+    "Missing market line: Northern Arizona at Arizona.",
+    "Missing market line: Northwestern State at Louisiana Tech.",
+    "Missing market line: Portland State at San Diego State.",
+    "Missing market line: Rhode Island at Temple.",
+    "Missing market line: SE Louisiana at South Alabama.",
+    "Missing market line: South Dakota State at Northwestern.",
+    "Missing market line: Southeast Missouri State at Iowa State.",
+    "Missing market line: Tarleton State at Bowling Green.",
+    "Missing market line: Tennessee State at Georgia.",
+    "Missing market line: The Citadel at Charlotte.",
+    "Missing market line: Towson at Navy.",
+    "Missing market line: UAlbany at Buffalo.",
+    "Missing market line: UT Rio Grande Valley at UTSA.",
+    "Missing market line: Utah Tech at BYU.",
+    "Missing market line: VMI at Virginia Tech.",
+    "Missing market line: West Georgia at Kennesaw State.",
+    "Missing market line: Youngstown State at Kentucky.",
+    "Missing markets were preserved as diagnostics and did not fail the pipeline.",
+    "No final-score rows available at artifacts/cfb/weekly/2026_WK01/postgame/final_scores.csv; games remain ungraded.",
+    "Recommendation-style output disabled; shadow candidates remain read-only diagnostics."
+  ],
+  "errors": [],
+  "market_summary": {
+    "games_on_slate": 99,
+    "games_with_spread": 51,
+    "games_with_total": 49,
+    "complete_model_vs_market_comparisons": 48,
+    "missing_market_rows": 51,
+    "market_loaded": true,
+    "market_source_status": "loaded",
+    "market_source_row_count": 51,
+    "market_coverage_state": "market_loaded_incomplete",
+    "market_state_detail": "Market rows loaded but coverage is incomplete.",
+    "provider_counts": {
+      "cfbd_lines_consensus": 51,
+      "unknown": 48
+    },
+    "recommendation_style_output_allowed": false
+  },
+  "market_validation_summary": {
+    "season": 2026,
+    "week": 1,
+    "raw_market_row_count": 51,
+    "normalized_market_row_count": 51,
+    "slate_game_count": 99,
+    "joined_market_row_count": 51,
+    "games_with_spread": 51,
+    "games_with_total": 49,
+    "games_with_both_spread_and_total": 49,
+    "spread_coverage": 0.5152,
+    "total_coverage": 0.4949,
+    "both_spread_total_coverage": 0.4949,
+    "duplicate_market_rows": 0,
+    "unmatched_market_rows": 0,
+    "missing_market_rows": 50,
+    "stale_timestamp_warnings": 0,
+    "provider_source_gaps": 0,
+    "final_market_state": "market_loaded_partial",
+    "recommended_gating_action": "generate_projection_reports_only; label_market_unavailable_no_actionable_comparison",
+    "thresholds": {
+      "empty": 0.0,
+      "incomplete_min": 0.0,
+      "partial_min": 0.25,
+      "usable_min": 0.75,
+      "complete_min": 0.95
+    }
+  },
+  "decision_support_gating": {
+    "market_coverage_state": "market_loaded_partial",
+    "market_coverage_sufficient": false,
+    "recommendations_production_approved": false,
+    "recommendation_style_output_allowed": false,
+    "published_recommendation_count": 0,
+    "shadow_candidate_count": 51
+  },
+  "future_hooks": {
+    "team_capsules": {
+      "status": "placeholder_contract",
+      "projection_impact": false,
+      "expected_join_key": [
+        "season",
+        "team"
+      ]
+    },
+    "ats_history_summaries": {
+      "status": "placeholder_contract",
+      "projection_impact": false,
+      "expected_join_key": [
+        "season",
+        "team"
+      ]
+    },
+    "offensive_advanced_metric_summaries": {
+      "status": "placeholder_contract",
+      "projection_impact": false,
+      "expected_join_key": [
+        "season",
+        "week",
+        "team"
+      ]
+    },
+    "defensive_advanced_metric_summaries": {
+      "status": "placeholder_contract",
+      "projection_impact": false,
+      "expected_join_key": [
+        "season",
+        "week",
+        "team"
+      ]
+    },
+    "market_movement_views": {
+      "status": "placeholder_contract",
+      "projection_impact": false,
+      "expected_join_key": [
+        "season",
+        "week",
+        "game_id"
+      ]
+    },
+    "injury_placeholders": {
+      "status": "placeholder_contract",
+      "projection_impact": false,
+      "expected_join_key": [
+        "season",
+        "week",
+        "team"
+      ]
+    }
+  },
+  "guardrails": {
+    "core_modeling_logic_mutated": false,
+    "calibration_candidates_promoted": false,
+    "shadow_layers_read_only": true,
+    "recommendation_style_outputs_disabled_without_explicit_approval": true,
+    "deterministic_from_saved_inputs": true,
+    "postgame_grading_auto_adjusts_model": false
+  },
+  "reproducibility_hash": "c7cf856a68eafc2b05c241ab587b054d0a0eb9a361ad826fe9dcee5b2474d57f"
+}
