@@ -79,6 +79,12 @@ h3 { font-size: 1rem; }
   margin-top: 12px;
 }
 .notice.warning { border-left-color: var(--warn); background: #fff6e8; }
+.context-note, .table-subline {
+  display: block;
+  color: var(--muted);
+  font-size: 0.86rem;
+  margin-top: 6px;
+}
 .status-row { display: flex; gap: 8px; flex-wrap: wrap; margin: 14px 0; }
 .badge {
   display: inline-flex;
@@ -131,10 +137,67 @@ h3 { font-size: 1rem; }
 .stat-list dt { color: var(--muted); font-size: 0.78rem; font-weight: 800; text-transform: uppercase; }
 .stat-list dd { margin: 2px 0 0; font-weight: 700; overflow-wrap: anywhere; }
 .compact-list { grid-template-columns: repeat(auto-fit, minmax(135px, 1fr)); }
+.profile-list dd { font-size: 1rem; }
+.profile-badges { display: flex; gap: 8px; flex-wrap: wrap; margin: 10px 0; }
+.game-sections, .team-profile-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 12px;
+  margin: 14px 0;
+}
+.game-sections section, .team-profile-grid section {
+  border-top: 1px solid var(--line);
+  padding-top: 10px;
+}
+.game-sections p, .team-profile-grid p { margin: 0; color: var(--muted); }
+.matchup-comparison {
+  border-top: 1px solid var(--line);
+  margin-top: 14px;
+  padding-top: 12px;
+}
+.comparison-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 10px;
+}
+.comparison-row {
+  background: #f7fafb;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 10px;
+}
+.comparison-row h4 { margin: 0 0 8px; font-size: 0.92rem; }
+.comparison-row p { margin: 8px 0 0; color: #34424e; font-weight: 800; font-size: 0.86rem; }
+.profile-bar {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 8px;
+  overflow: hidden;
+  border-radius: 6px;
+  background: #e7eef2;
+  min-height: 30px;
+  margin-top: 6px;
+  padding: 6px 8px;
+}
+.profile-bar i {
+  position: absolute;
+  inset: 0 auto 0 0;
+  display: block;
+  background: rgba(11, 93, 119, 0.22);
+}
+.profile-bar.defense i { background: rgba(184, 63, 47, 0.20); }
+.profile-bar span, .profile-bar strong {
+  position: relative;
+  z-index: 1;
+  font-size: 0.78rem;
+  overflow-wrap: anywhere;
+}
+.profile-bar strong { font-weight: 900; }
 details { border-top: 1px solid var(--line); padding: 10px 0 0; margin-top: 10px; }
 summary { cursor: pointer; font-weight: 800; }
 .table-wrap { overflow-x: auto; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; box-shadow: var(--shadow); }
-table { width: 100%; border-collapse: collapse; min-width: 820px; }
+table { width: 100%; border-collapse: collapse; min-width: 760px; }
 th, td { border-bottom: 1px solid var(--line); padding: 9px 10px; text-align: left; vertical-align: top; font-size: 0.9rem; }
 th { background: #e9eef2; font-size: 0.78rem; text-transform: uppercase; color: #34424e; }
 .placeholder, .muted-text { color: var(--muted); }
@@ -155,4 +218,5 @@ th { background: #e9eef2; font-size: 0.78rem; text-transform: uppercase; color: 
   .card-top { flex-direction: column; }
   .metric-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .metric strong { font-size: 1.35rem; }
+  .comparison-grid, .game-sections, .team-profile-grid { grid-template-columns: 1fr; }
 }
