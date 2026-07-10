@@ -1,11 +1,173 @@
 {
-  "orchestrator": "cfb_weekly_operations_v2",
-  "season": 2026,
-  "week": 1,
-  "run_timestamp": "2026-07-06T00:00:00Z",
+  "decision_support_gating": {
+    "market_coverage_state": "market_loaded_partial",
+    "market_coverage_sufficient": false,
+    "published_recommendation_count": 0,
+    "recommendation_style_output_allowed": false,
+    "recommendations_production_approved": false,
+    "shadow_candidate_count": 51
+  },
+  "errors": [],
+  "future_hooks": {
+    "ats_history_summaries": {
+      "expected_join_key": [
+        "season",
+        "team"
+      ],
+      "projection_impact": false,
+      "status": "placeholder_contract"
+    },
+    "defensive_advanced_metric_summaries": {
+      "expected_join_key": [
+        "season",
+        "week",
+        "team"
+      ],
+      "projection_impact": false,
+      "status": "placeholder_contract"
+    },
+    "injury_placeholders": {
+      "expected_join_key": [
+        "season",
+        "week",
+        "team"
+      ],
+      "projection_impact": false,
+      "status": "placeholder_contract"
+    },
+    "market_movement_views": {
+      "expected_join_key": [
+        "season",
+        "week",
+        "game_id"
+      ],
+      "projection_impact": false,
+      "status": "placeholder_contract"
+    },
+    "offensive_advanced_metric_summaries": {
+      "expected_join_key": [
+        "season",
+        "week",
+        "team"
+      ],
+      "projection_impact": false,
+      "status": "placeholder_contract"
+    },
+    "team_capsules": {
+      "expected_join_key": [
+        "season",
+        "team"
+      ],
+      "projection_impact": false,
+      "status": "placeholder_contract"
+    }
+  },
+  "guardrails": {
+    "calibration_candidates_promoted": false,
+    "core_modeling_logic_mutated": false,
+    "deterministic_from_saved_inputs": true,
+    "postgame_grading_auto_adjusts_model": false,
+    "recommendation_style_outputs_disabled_without_explicit_approval": true,
+    "shadow_layers_read_only": true
+  },
+  "input_artifact_paths": {
+    "advanced_team_metrics": "artifacts/cfb/modeling/weekly_advanced_metrics_v1.csv",
+    "betting_lines": "saved market input",
+    "current_team_ratings_inputs": "artifacts/cfb/modeling/preseason_model_assembly_v1_2026.csv",
+    "environment_inputs": "artifacts/cfb/environment/game_environment_model_v1_2026.csv",
+    "rankings_ratings_snapshots": "data/processed/cfb/external_ratings/cfbd_rankings_2021_2025.csv",
+    "schedule_games": "data/processed/cfb/schedules/schedule_2026.csv",
+    "spread_inputs": "artifacts/cfb/modeling/projected_spread_assembly_v1_2026.csv",
+    "team_metadata": "artifacts/cfb/reporting/team_capsule_framework_v1.csv",
+    "weekly_snapshot": "artifacts/cfb/weekly/2026_WK01/snapshot/weekly_snapshot_v1.json"
+  },
+  "market_summary": {
+    "complete_model_vs_market_comparisons": 48,
+    "games_on_slate": 99,
+    "games_with_spread": 51,
+    "games_with_total": 49,
+    "market_coverage_state": "market_loaded_incomplete",
+    "market_loaded": true,
+    "market_source_row_count": 51,
+    "market_source_status": "loaded",
+    "market_state_detail": "Market rows loaded but coverage is incomplete.",
+    "missing_market_rows": 51,
+    "provider_counts": {
+      "cfbd_lines_consensus": 51,
+      "unknown": 48
+    },
+    "recommendation_style_output_allowed": false
+  },
+  "market_validation_summary": {
+    "both_spread_total_coverage": 0.4949,
+    "duplicate_market_rows": 0,
+    "final_market_state": "market_loaded_partial",
+    "games_with_both_spread_and_total": 49,
+    "games_with_spread": 51,
+    "games_with_total": 49,
+    "joined_market_row_count": 51,
+    "missing_market_rows": 50,
+    "normalized_market_row_count": 51,
+    "provider_source_gaps": 0,
+    "raw_market_row_count": 51,
+    "recommended_gating_action": "generate_projection_reports_only; label_market_unavailable_no_actionable_comparison",
+    "season": 2026,
+    "slate_game_count": 99,
+    "spread_coverage": 0.5152,
+    "stale_timestamp_warnings": 0,
+    "thresholds": {
+      "complete_min": 0.95,
+      "empty": 0.0,
+      "incomplete_min": 0.0,
+      "partial_min": 0.25,
+      "usable_min": 0.75
+    },
+    "total_coverage": 0.4949,
+    "unmatched_market_rows": 0,
+    "week": 1
+  },
   "mode": "production",
-  "slate_window": "all",
-  "status": "completed_with_warnings",
+  "orchestrator": "cfb_weekly_operations_v2",
+  "output_artifact_paths": {
+    "csv": "artifacts/cfb/weekly/2026_WK01/postgame/weekly_postgame_grading_v1.csv",
+    "decision_support_gating_json": "artifacts/cfb/weekly/2026_WK01/operations/weekly_decision_support_gating_v2.json",
+    "json": "artifacts/cfb/weekly/2026_WK01/postgame/weekly_postgame_grading_v1.json",
+    "markdown": "artifacts/cfb/weekly/2026_WK01/postgame/weekly_postgame_grading_v1.md",
+    "market_coverage_csv": "artifacts/cfb/weekly/2026_WK01/operations/weekly_market_coverage_report_v2.csv",
+    "market_coverage_json": "artifacts/cfb/weekly/2026_WK01/operations/weekly_market_coverage_report_v2.json",
+    "market_coverage_md": "artifacts/cfb/weekly/2026_WK01/operations/weekly_market_coverage_report_v2.md",
+    "market_validation_csv": "artifacts/cfb/weekly/2026_WK01/operations/week1_market_refresh_validation_v1.csv",
+    "market_validation_json": "artifacts/cfb/weekly/2026_WK01/operations/week1_market_refresh_validation_v1.json",
+    "market_validation_markdown": "artifacts/cfb/weekly/2026_WK01/operations/week1_market_refresh_validation_v1.md",
+    "weekly_operations_manifest_v2": "artifacts/cfb/weekly/2026_WK01/operations/weekly_operations_manifest_v2.json",
+    "weekly_operations_summary_v2": "artifacts/cfb/weekly/2026_WK01/operations/weekly_operations_summary_v2.md"
+  },
+  "phase_history": [
+    {
+      "detail": "Weekly saved-input snapshot is available.",
+      "status": "preseason_snapshot_available"
+    },
+    {
+      "detail": "Production mode: local saved inputs refreshed upstream or loaded as current weekly inputs.",
+      "status": "live_data_refreshed"
+    },
+    {
+      "detail": "Weekly projections and model-vs-market rows generated.",
+      "status": "projections_generated"
+    },
+    {
+      "detail": "Dashboard, matchup sheet, and narrative report generated.",
+      "status": "reports_generated"
+    },
+    {
+      "detail": "Market rows loaded but coverage is incomplete.",
+      "status": "market_loaded"
+    },
+    {
+      "detail": "WARN",
+      "status": "postgame_grading_complete"
+    }
+  ],
   "phase_statuses_supported": [
     "preseason_snapshot_available",
     "live_data_refreshed",
@@ -17,90 +179,44 @@
     "completed_with_warnings",
     "failed"
   ],
-  "phase_history": [
-    {
-      "status": "preseason_snapshot_available",
-      "detail": "Weekly saved-input snapshot is available."
-    },
-    {
-      "status": "live_data_refreshed",
-      "detail": "Production mode: local saved inputs refreshed upstream or loaded as current weekly inputs."
-    },
-    {
-      "status": "projections_generated",
-      "detail": "Weekly projections and model-vs-market rows generated."
-    },
-    {
-      "status": "reports_generated",
-      "detail": "Dashboard, matchup sheet, and narrative report generated."
-    },
-    {
-      "status": "market_loaded",
-      "detail": "Market rows loaded but coverage is incomplete."
-    },
-    {
-      "status": "postgame_grading_complete",
-      "detail": "WARN"
-    }
-  ],
-  "input_artifact_paths": {
-    "weekly_snapshot": "artifacts/cfb/weekly/2026_WK01/snapshot/weekly_snapshot_v1.json",
-    "schedule_games": "data/processed/cfb/schedules/schedule_2026.csv",
-    "current_team_ratings_inputs": "artifacts/cfb/modeling/preseason_model_assembly_v1_2026.csv",
-    "spread_inputs": "artifacts/cfb/modeling/projected_spread_assembly_v1_2026.csv",
-    "advanced_team_metrics": "artifacts/cfb/modeling/weekly_advanced_metrics_v1.csv",
-    "environment_inputs": "artifacts/cfb/environment/game_environment_model_v1_2026.csv",
-    "betting_lines": "data/manual/cfb/market_lines_2026_sample.csv",
-    "rankings_ratings_snapshots": "data/processed/cfb/external_ratings/cfbd_rankings_2021_2025.csv",
-    "team_metadata": "artifacts/cfb/reporting/team_capsule_framework_v1.csv"
-  },
-  "output_artifact_paths": {
-    "market_coverage_csv": "artifacts/cfb/weekly/2026_WK01/operations/weekly_market_coverage_report_v2.csv",
-    "market_coverage_json": "artifacts/cfb/weekly/2026_WK01/operations/weekly_market_coverage_report_v2.json",
-    "market_coverage_md": "artifacts/cfb/weekly/2026_WK01/operations/weekly_market_coverage_report_v2.md",
-    "market_validation_json": "artifacts/cfb/weekly/2026_WK01/operations/week1_market_refresh_validation_v1.json",
-    "market_validation_csv": "artifacts/cfb/weekly/2026_WK01/operations/week1_market_refresh_validation_v1.csv",
-    "market_validation_markdown": "artifacts/cfb/weekly/2026_WK01/operations/week1_market_refresh_validation_v1.md",
-    "decision_support_gating_json": "artifacts/cfb/weekly/2026_WK01/operations/weekly_decision_support_gating_v2.json",
-    "csv": "artifacts/cfb/weekly/2026_WK01/postgame/weekly_postgame_grading_v1.csv",
-    "json": "artifacts/cfb/weekly/2026_WK01/postgame/weekly_postgame_grading_v1.json",
-    "markdown": "artifacts/cfb/weekly/2026_WK01/postgame/weekly_postgame_grading_v1.md",
-    "weekly_operations_manifest_v2": "artifacts/cfb/weekly/2026_WK01/operations/weekly_operations_manifest_v2.json",
-    "weekly_operations_summary_v2": "artifacts/cfb/weekly/2026_WK01/operations/weekly_operations_summary_v2.md"
-  },
+  "reproducibility_hash": "c7cf856a68eafc2b05c241ab587b054d0a0eb9a361ad826fe9dcee5b2474d57f",
   "row_counts": {
-    "snapshot_schedule_games": 99,
-    "snapshot_current_team_ratings_inputs": 136,
-    "snapshot_spread_inputs": 97,
-    "snapshot_advanced_team_metrics": 138,
-    "snapshot_environment_inputs": 99,
-    "snapshot_betting_lines": 51,
-    "snapshot_rankings_ratings_snapshots": 250,
-    "snapshot_team_metadata": 136,
-    "ratings_count": 136,
-    "projection_count": 99,
-    "market_row_count": 99,
-    "valid_refreshed_market_count": 51,
-    "recommendation_count": 51,
+    "actionable_count": 51,
     "dashboard_row_count": 99,
-    "matchup_row_count": 99,
-    "narrative_game_count": 99,
-    "missing_market_count": 48,
+    "fcs_placeholder_count": 47,
+    "market_coverage_rows": 99,
+    "market_row_count": 99,
     "market_status_distribution": {
       "market_refreshed": 51,
       "missing_market": 48
     },
-    "fcs_placeholder_count": 47,
-    "slate_window_filter": "all",
+    "matchup_row_count": 99,
+    "missing_market_count": 48,
+    "narrative_game_count": 99,
+    "postgame_grade_rows": 99,
+    "postgame_graded_games": 0,
+    "projection_count": 99,
+    "ratings_count": 136,
+    "recommendation_count": 51,
     "slate_segment_distribution": {
       "early_week0_like": 8,
       "main_week1": 91
     },
-    "actionable_count": 51,
-    "market_coverage_rows": 99,
-    "postgame_grade_rows": 99,
-    "postgame_graded_games": 0
+    "slate_window_filter": "all",
+    "snapshot_advanced_team_metrics": 138,
+    "snapshot_betting_lines": 51,
+    "snapshot_current_team_ratings_inputs": 136,
+    "snapshot_environment_inputs": 99,
+    "snapshot_rankings_ratings_snapshots": 250,
+    "snapshot_schedule_games": 99,
+    "snapshot_spread_inputs": 97,
+    "snapshot_team_metadata": 136,
+    "valid_refreshed_market_count": 51
   },
+  "run_timestamp": "2026-07-06T00:00:00Z",
+  "season": 2026,
+  "slate_window": "all",
+  "status": "completed_with_warnings",
   "warnings": [
     "FCS placeholder retained: Abilene Christian at Texas Tech (2026:1:Abilene Christian:Texas Tech:2026-09-05T04:00:00.000Z:71).",
     "FCS placeholder retained: Alcorn State at Southern Miss (2026:1:Alcorn State:Southern Miss:2026-09-05T04:00:00.000Z:85).",
@@ -205,121 +321,5 @@
     "No final-score rows available at artifacts/cfb/weekly/2026_WK01/postgame/final_scores.csv; games remain ungraded.",
     "Recommendation-style output disabled; shadow candidates remain read-only diagnostics."
   ],
-  "errors": [],
-  "market_summary": {
-    "games_on_slate": 99,
-    "games_with_spread": 51,
-    "games_with_total": 49,
-    "complete_model_vs_market_comparisons": 48,
-    "missing_market_rows": 51,
-    "market_loaded": true,
-    "market_source_status": "loaded",
-    "market_source_row_count": 51,
-    "market_coverage_state": "market_loaded_incomplete",
-    "market_state_detail": "Market rows loaded but coverage is incomplete.",
-    "provider_counts": {
-      "cfbd_lines_consensus": 51,
-      "unknown": 48
-    },
-    "recommendation_style_output_allowed": false
-  },
-  "market_validation_summary": {
-    "season": 2026,
-    "week": 1,
-    "raw_market_row_count": 51,
-    "normalized_market_row_count": 51,
-    "slate_game_count": 99,
-    "joined_market_row_count": 51,
-    "games_with_spread": 51,
-    "games_with_total": 49,
-    "games_with_both_spread_and_total": 49,
-    "spread_coverage": 0.5152,
-    "total_coverage": 0.4949,
-    "both_spread_total_coverage": 0.4949,
-    "duplicate_market_rows": 0,
-    "unmatched_market_rows": 0,
-    "missing_market_rows": 50,
-    "stale_timestamp_warnings": 0,
-    "provider_source_gaps": 0,
-    "final_market_state": "market_loaded_partial",
-    "recommended_gating_action": "generate_projection_reports_only; label_market_unavailable_no_actionable_comparison",
-    "thresholds": {
-      "empty": 0.0,
-      "incomplete_min": 0.0,
-      "partial_min": 0.25,
-      "usable_min": 0.75,
-      "complete_min": 0.95
-    }
-  },
-  "decision_support_gating": {
-    "market_coverage_state": "market_loaded_partial",
-    "market_coverage_sufficient": false,
-    "recommendations_production_approved": false,
-    "recommendation_style_output_allowed": false,
-    "published_recommendation_count": 0,
-    "shadow_candidate_count": 51
-  },
-  "future_hooks": {
-    "team_capsules": {
-      "status": "placeholder_contract",
-      "projection_impact": false,
-      "expected_join_key": [
-        "season",
-        "team"
-      ]
-    },
-    "ats_history_summaries": {
-      "status": "placeholder_contract",
-      "projection_impact": false,
-      "expected_join_key": [
-        "season",
-        "team"
-      ]
-    },
-    "offensive_advanced_metric_summaries": {
-      "status": "placeholder_contract",
-      "projection_impact": false,
-      "expected_join_key": [
-        "season",
-        "week",
-        "team"
-      ]
-    },
-    "defensive_advanced_metric_summaries": {
-      "status": "placeholder_contract",
-      "projection_impact": false,
-      "expected_join_key": [
-        "season",
-        "week",
-        "team"
-      ]
-    },
-    "market_movement_views": {
-      "status": "placeholder_contract",
-      "projection_impact": false,
-      "expected_join_key": [
-        "season",
-        "week",
-        "game_id"
-      ]
-    },
-    "injury_placeholders": {
-      "status": "placeholder_contract",
-      "projection_impact": false,
-      "expected_join_key": [
-        "season",
-        "week",
-        "team"
-      ]
-    }
-  },
-  "guardrails": {
-    "core_modeling_logic_mutated": false,
-    "calibration_candidates_promoted": false,
-    "shadow_layers_read_only": true,
-    "recommendation_style_outputs_disabled_without_explicit_approval": true,
-    "deterministic_from_saved_inputs": true,
-    "postgame_grading_auto_adjusts_model": false
-  },
-  "reproducibility_hash": "c7cf856a68eafc2b05c241ab587b054d0a0eb9a361ad826fe9dcee5b2474d57f"
+  "week": 1
 }
