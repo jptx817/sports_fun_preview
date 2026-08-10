@@ -16,6 +16,7 @@
 * { box-sizing: border-box; }
 body {
   margin: 0;
+  overflow-x: hidden;
   background: var(--bg);
   color: var(--ink);
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -48,7 +49,7 @@ a:hover { text-decoration: underline; }
   padding: 10px;
   border-radius: 8px;
 }
-main { width: min(1180px, 100%); margin: 0 auto; padding: 18px; }
+main { width: min(1180px, 100%); margin: 0 auto; overflow-x: hidden; padding: 18px; }
 .hero, .panel, .card, .metric {
   background: var(--panel);
   border: 1px solid var(--line);
@@ -105,7 +106,7 @@ h3 { font-size: 1rem; }
 .cards { display: grid; gap: 14px; }
 .sports-grid, .metric-grid { grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); }
 .two { grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
-.card, .panel, .metric { padding: 16px; }
+.card, .panel, .metric { min-width: 0; padding: 16px; }
 .card-top {
   display: flex;
   justify-content: space-between;
@@ -234,7 +235,7 @@ h3 { font-size: 1rem; }
   gap: 4px 6px;
   margin: 0;
   color: var(--muted);
-  font-size: 0.73rem;
+  font-size: 0.66rem;
   font-weight: 900;
   line-height: 1.25;
   text-transform: uppercase;
@@ -242,8 +243,9 @@ h3 { font-size: 1rem; }
 .venue-note {
   margin: 4px 0 0;
   color: var(--muted);
-  font-size: 0.76rem;
+  font-size: 0.66rem;
   font-weight: 800;
+  line-height: 1.25;
 }
 .compact-slate-card .compact-slate-board {
   border: 1px solid #cbd5dc;
@@ -479,6 +481,164 @@ h3 { font-size: 1rem; }
 .historical-context { margin-top: 14px; }
 details { border-top: 1px solid var(--line); padding: 10px 0 0; margin-top: 10px; }
 summary { cursor: pointer; font-weight: 800; }
+.team-capsule-page {
+  display: grid;
+  gap: 10px;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.team-capsule-header,
+.team-capsule-section,
+.capsule-disclosure {
+  border: 1px solid #d8dde8;
+  border-radius: 8px;
+  background: #fff;
+  padding: 10px 12px;
+  box-shadow: var(--shadow);
+  min-width: 0;
+}
+.team-capsule-header {
+  display: grid;
+  gap: 8px;
+}
+.team-capsule-title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+.team-capsule-title-row h1 {
+  margin: 0;
+  font-size: clamp(1.45rem, 4vw, 2.15rem);
+  line-height: 1.05;
+  overflow-wrap: anywhere;
+}
+.capsule-team-logo {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  flex: 0 0 44px;
+  border: 1px solid #d8dde8;
+  border-radius: 8px;
+  background: #f0f3f7;
+  overflow: hidden;
+  color: #34424e;
+  font-size: .8rem;
+  font-weight: 950;
+}
+.capsule-team-logo img {
+  display: block;
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+}
+.capsule-rating-strip,
+.capsule-profile-grid,
+.capsule-mini-grid,
+.capsule-detail-grid {
+  display: grid;
+  gap: 8px;
+  min-width: 0;
+}
+.capsule-rating-strip {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.capsule-profile-grid,
+.capsule-detail-grid {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+.capsule-mini-grid {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.capsule-rank-metric,
+.capsule-field-tile {
+  min-width: 0;
+  border: 1px solid #d8dde8;
+  border-radius: 8px;
+  background: #fbfcfe;
+  padding: 9px;
+}
+.capsule-rank-metric > span,
+.capsule-field-tile > span {
+  display: block;
+  color: #4d5865;
+  font-size: .74rem;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+.capsule-rank-metric strong,
+.capsule-field-tile strong {
+  display: block;
+  margin-top: 3px;
+  color: #25323b;
+  font-size: 1.45rem;
+  line-height: 1.05;
+  font-weight: 950;
+  overflow-wrap: anywhere;
+}
+.capsule-rank {
+  margin-top: 3px;
+  color: #4d5865;
+  font-size: .82rem;
+  font-weight: 850;
+}
+.metric-panel .comparison-values {
+  margin-top: 8px;
+}
+.capsule-detail-grid section {
+  min-width: 0;
+  border-top: 1px solid var(--line);
+  padding-top: 8px;
+}
+.capsule-detail-grid h3 {
+  margin: 0 0 6px;
+  color: #34424e;
+  font-size: .9rem;
+}
+.capsule-disclosure {
+  margin-top: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.capsule-disclosure summary {
+  display: flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 7px 10px;
+  color: #34424e;
+  font-size: .86rem;
+  font-weight: 850;
+}
+.capsule-disclosure-content {
+  border-top: 1px solid #d8dde8;
+  padding: 10px;
+  background: #fbfcfe;
+}
+.capsule-schedule-table {
+  table-layout: fixed;
+}
+.capsule-week-col { width: 9%; }
+.capsule-opponent-col { width: 35%; }
+.capsule-number-col { width: 15%; }
+.capsule-result-col { width: 11%; }
+.capsule-schedule-opponent {
+  text-align: left;
+  font-weight: 950;
+  overflow-wrap: anywhere;
+}
+.capsule-schedule-opponent span {
+  display: block;
+  margin-top: 2px;
+  color: #4d5865;
+  font-size: .66rem;
+  font-weight: 700;
+  line-height: 1.18;
+}
+.team-capsule-links {
+  margin-top: 2px;
+}
 .table-wrap { overflow-x: auto; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; box-shadow: var(--shadow); }
 table { width: 100%; border-collapse: collapse; min-width: 760px; }
 th, td { border-bottom: 1px solid var(--line); padding: 9px 10px; text-align: left; vertical-align: top; font-size: 0.9rem; }
@@ -493,6 +653,99 @@ th { background: #e9eef2; font-size: 0.78rem; text-transform: uppercase; color: 
 }
 .content h2 { margin-top: 18px; }
 .content h2:first-child { margin-top: 0; }
+.mlb-hero .stat-list { margin-bottom: 0; }
+.action-panel { margin-bottom: 18px; }
+.embedded-section {
+  border-top: 1px solid var(--line);
+  margin-top: 12px;
+  padding-top: 10px;
+}
+.embedded-section h3 { margin-bottom: 6px; }
+.freshness-panel { margin-top: 14px; }
+.lineup-list { margin-bottom: 18px; }
+.mlb-lineup-card h3 {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+.mlb-player-list {
+  display: grid;
+  gap: 8px;
+  margin-top: 12px;
+}
+.mlb-player-row {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1.2fr) minmax(280px, 2fr);
+  gap: 10px;
+  align-items: start;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #f9fbfc;
+  min-width: 0;
+  padding: 10px;
+}
+.mlb-player-row .slot {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 34px;
+  border-radius: 6px;
+  background: #e8eef2;
+  color: #25323b;
+  font-weight: 950;
+}
+.player-main strong, .player-main span {
+  display: block;
+  overflow-wrap: anywhere;
+}
+.player-main span {
+  color: var(--muted);
+  font-size: 0.84rem;
+  font-weight: 800;
+  margin-top: 2px;
+}
+.mlb-player-row dl {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(54px, 1fr));
+  gap: 6px;
+  margin: 0;
+  min-width: 0;
+}
+.mlb-player-row dt {
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-weight: 950;
+  text-transform: uppercase;
+}
+.mlb-player-row dd {
+  margin: 0;
+  font-size: 0.82rem;
+  font-weight: 900;
+  overflow-wrap: anywhere;
+}
+.exposure-list {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+.exposure-row {
+  display: grid;
+  grid-template-columns: minmax(160px, 1.5fr) minmax(80px, 0.9fr) minmax(80px, 0.8fr) minmax(74px, 0.7fr) minmax(150px, 1.2fr);
+  gap: 8px;
+  align-items: start;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+  padding: 10px;
+}
+.exposure-row strong, .exposure-row span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.exposure-row span {
+  color: var(--muted);
+  font-size: 0.84rem;
+  font-weight: 800;
+}
 .site-footer { margin-top: 24px; color: rgba(255,255,255,0.78); font-size: 0.85rem; }
 @media (max-width: 680px) {
   .site-header, .site-footer { align-items: flex-start; flex-direction: column; }
@@ -519,4 +772,44 @@ th { background: #e9eef2; font-size: 0.78rem; text-transform: uppercase; color: 
   .compact-slate-cell { font-size: 0.7rem; }
   .compact-slate-cell.matchup { font-size: 0.8rem; }
   .compact-slate-cell.note { font-size: 0.64rem; }
+  .compact-slate-meta, .venue-note { font-size: 0.6rem; }
+  .team-capsule-page { gap: 8px; }
+  .team-capsule-header,
+  .team-capsule-section { padding: 8px; }
+  .team-capsule-title-row { align-items: flex-start; gap: 8px; }
+  .capsule-team-logo { width: 34px; height: 34px; flex-basis: 34px; border-radius: 6px; }
+  .capsule-team-logo img { width: 26px; height: 26px; }
+  .capsule-rating-strip { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 5px; }
+  .capsule-profile-grid,
+  .capsule-detail-grid,
+  .capsule-mini-grid { grid-template-columns: 1fr; }
+  .capsule-rank-metric,
+  .capsule-field-tile { padding: 7px; }
+  .capsule-rank-metric strong,
+  .capsule-field-tile strong { font-size: 1.12rem; }
+  .capsule-rank-metric > span,
+  .capsule-field-tile > span { font-size: .66rem; }
+  .capsule-rank { font-size: .72rem; }
+  .capsule-disclosure summary { min-height: 30px; padding: 6px 8px; font-size: .76rem; }
+  .capsule-disclosure-content { padding: 8px; }
+  .capsule-schedule-table th,
+  .capsule-schedule-table td { padding: 4px 2px; font-size: .62rem; line-height: 1.08; }
+  .capsule-schedule-opponent span { font-size: .54rem; line-height: 1.12; }
+  .capsule-week-col { width: 8%; }
+  .capsule-opponent-col { width: 34%; }
+  .capsule-number-col { width: 15%; }
+  .capsule-result-col { width: 13%; }
+  .mlb-player-row {
+    grid-template-columns: 38px minmax(0, 1fr);
+  }
+  .mlb-player-row dl {
+    grid-column: 1 / -1;
+    grid-template-columns: repeat(3, minmax(54px, 1fr));
+  }
+  .exposure-row {
+    grid-template-columns: minmax(0, 1fr) minmax(72px, auto);
+  }
+  .exposure-row span:last-child {
+    grid-column: 1 / -1;
+  }
 }
