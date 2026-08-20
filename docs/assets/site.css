@@ -584,6 +584,48 @@ summary { cursor: pointer; font-weight: 800; }
   font-size: .82rem;
   font-weight: 850;
 }
+.expert-outlook-card-list {
+  display: grid;
+  gap: 10px;
+}
+.expert-outlook-card {
+  border: 1px solid #d8dde8;
+  border-radius: 8px;
+  background: #fbfcfe;
+  padding: 10px;
+  min-width: 0;
+}
+.expert-outlook-card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+  min-width: 0;
+}
+.expert-outlook-card h3,
+.expert-outlook-card h4 {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+.expert-outlook-card h4 {
+  color: #34424e;
+  font-size: .78rem;
+  text-transform: uppercase;
+}
+.expert-outlook-body {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 10px;
+  margin-top: 8px;
+}
+.source-link {
+  flex: 0 0 auto;
+  color: #185a8d;
+  font-size: .82rem;
+  font-weight: 900;
+  text-decoration: none;
+}
+.source-link:hover { text-decoration: underline; }
 .metric-panel .comparison-values {
   margin-top: 8px;
 }
@@ -782,7 +824,9 @@ th { background: #e9eef2; font-size: 0.78rem; text-transform: uppercase; color: 
   .capsule-rating-strip { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 5px; }
   .capsule-profile-grid,
   .capsule-detail-grid,
-  .capsule-mini-grid { grid-template-columns: 1fr; }
+  .capsule-mini-grid,
+  .expert-outlook-body { grid-template-columns: 1fr; }
+  .expert-outlook-card-header { flex-direction: column; }
   .capsule-rank-metric,
   .capsule-field-tile { padding: 7px; }
   .capsule-rank-metric strong,
