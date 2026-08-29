@@ -1,0 +1,191 @@
+{
+  "checks": [
+    {
+      "message": "ok",
+      "name": "projections_exist",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "message": "ok",
+      "name": "matchup_identities_resolve",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "message": "ok",
+      "name": "team_names_resolve",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "message": "ok",
+      "name": "model_ids_known",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "message": "ok",
+      "name": "projection_cutoff_present",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "message": "ok",
+      "name": "narratives_available",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "message": "ok",
+      "name": "uncertainty_available",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "message": "ok",
+      "name": "market_state_explicit",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "message": "ok",
+      "name": "research_triage_available",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "message": "ok",
+      "name": "static_assets_exist",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "message": "ok",
+      "name": "game_detail_links_work",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "message": "ok",
+      "name": "feedback_export_available",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "message": "ok",
+      "name": "latest_path_resolves",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "message": "ok",
+      "name": "feedback_loaded",
+      "severity": "info",
+      "status": "PASS"
+    },
+    {
+      "message": "Some games use FCS placeholder context.",
+      "name": "fcs_placeholders",
+      "severity": "warning",
+      "status": "WARN"
+    }
+  ],
+  "counts": {
+    "early_decision_games": 15,
+    "games": 99,
+    "missing_markets": 0,
+    "owner_feedback": 0,
+    "priority_games": 40,
+    "triaged_games": 99,
+    "uncertainty_warnings": 48,
+    "watch_games": 53,
+    "with_market_spreads": 99,
+    "with_market_totals": 99,
+    "with_model_projections": 99
+  },
+  "generated_at": "2026-08-29T13:45:00Z",
+  "git": {
+    "branch": "main",
+    "head": "784ed7d786c19184db99bfc1f1ad66764cead3c3"
+  },
+  "guardrails": {
+    "champion_model_changed": false,
+    "feedback_downstream_eligibility_default": "owner_review_required",
+    "owner_feedback_mutates_projection": false,
+    "production_projection_methodology_changed": false,
+    "recommendation_language_introduced": false
+  },
+  "input_paths": {
+    "dashboard": "artifacts/cfb/weekly/2026_WK01/dashboard/weekly_slate_dashboard_v1.json",
+    "market": "artifacts/cfb/weekly/2026_WK01/market/weekly_market_comparison_v1.csv",
+    "matchup_narratives": "artifacts/cfb/research/matchup_narrative_generation_v1/current_slate_narratives.csv",
+    "matchups": "artifacts/cfb/weekly/2026_WK01/matchups/matchup_sheet_v3.json",
+    "narrative": "artifacts/cfb/weekly/2026_WK01/reports/weekly_narrative_report_v1.json",
+    "operations_manifest": "artifacts/cfb/weekly/2026_WK01/operations/weekly_operations_manifest_v2.json",
+    "projections": "artifacts/cfb/weekly/2026_WK01/projections/weekly_projections_v1.json",
+    "research_triage": "artifacts/cfb/weekly/2026_WK01/research/week1_research_triage_v1.json",
+    "risk_flags": "artifacts/cfb/weekly/2026_WK01/pipeline/_snapshot_inputs/risk_flags.csv",
+    "snapshot": "artifacts/cfb/weekly/2026_WK01/snapshot/weekly_snapshot_v1.json",
+    "splash": "artifacts/cfb/weekly/2026_WK01/splash/splash_weekly_state_v1.json",
+    "team_metadata": "artifacts/cfb/weekly/2026_WK01/pipeline/_snapshot_inputs/team_metadata.csv"
+  },
+  "latest_market_success": {
+    "latest_market_csv": "data/manual/cfb/market_lines_2026_latest.csv",
+    "provider_policy": "consensus_market_v1",
+    "refresh_run_id": "cfb-market-refresh-2026-WK01-20260829133833-b8724637",
+    "snapshot_path": "artifacts/cfb/market/refreshes/2026_WK01/cfb-market-refresh-2026-WK01-20260829133833-b8724637/market_lines.csv",
+    "timestamp_america_chicago": "2026-08-29T08:38:33-05:00",
+    "timestamp_utc": "2026-08-29T13:38:33Z"
+  },
+  "market_snapshot_id": "cfb-market-2026-wk01-decision_time-549198afb938",
+  "model_id": "cfb_weekly_operations_v2:artifacts/cfb/modeling/projected_spread_assembly_v1_2026.csv",
+  "output_paths": {
+    "css": "artifacts/site/sports_fun_dashboard_v1/assets/cfb_owner_review_v1.css",
+    "dated_page": "artifacts/site/sports_fun_dashboard_v1/cfb/owner-review/2026/WK01/index.html",
+    "js": "artifacts/site/sports_fun_dashboard_v1/assets/cfb_owner_review_v1.js",
+    "latest_page": "artifacts/site/sports_fun_dashboard_v1/cfb/owner-review/latest.html",
+    "manifest": "artifacts/site/sports_fun_dashboard_v1/cfb/owner-review/2026/WK01/owner_review_workspace_manifest_v1.json",
+    "owner_review_index": "artifacts/site/sports_fun_dashboard_v1/cfb/owner-review/index.html",
+    "site_css": "artifacts/site/sports_fun_dashboard_v1/assets/site.css",
+    "summary_json": "artifacts/cfb/owner_feedback/2026/WK01/owner_review_summary_v1.json",
+    "summary_md": "artifacts/cfb/owner_feedback/2026/WK01/owner_review_summary_v1.md",
+    "workspace_json": "artifacts/site/sports_fun_dashboard_v1/cfb/owner-review/2026/WK01/owner_review_workspace_v1.json"
+  },
+  "projection_cutoff": "2026-09-07",
+  "projection_digest": "83828f3f5f3f5f9d1af5b7e7a684466831df2347b8aa9b5fd59bea724fabcf16",
+  "readiness_status": "READY_WITH_WARNINGS",
+  "run_id": "cfb-owner-review-2026-WK01-8e29a5c0dd81",
+  "schema_version": "cfb-owner-review-workspace-manifest-v1",
+  "season": 2026,
+  "splash_summary": {
+    "canonical_games": 99,
+    "canonical_week": "2026_WK01",
+    "locked_lines": 0,
+    "midweek_games": 15,
+    "no_splash_contest_state_games": 99,
+    "not_on_splash_slate": 0,
+    "not_yet_available": 0,
+    "splash_contest_found": false,
+    "splash_duplicate_mappings": 0,
+    "splash_games_ambiguous": 0,
+    "splash_games_mapped": 0,
+    "splash_games_observed": 0,
+    "splash_games_unmatched": 0,
+    "splash_lines_available": 0,
+    "splash_lines_changed": 0,
+    "status_counts": {
+      "SPLASH_SLATE_NOT_OBSERVED": 99
+    },
+    "unresolved_mappings": 0
+  },
+  "team_branding_summary": {
+    "fallback_or_unmatched": 16,
+    "logo_matches": 186,
+    "primary_secondary_color_matches": 170,
+    "readability_text_color_overrides": 67,
+    "team_capsule_matches": 186,
+    "teams": 186
+  },
+  "week": 1
+}
