@@ -1,829 +1,309 @@
 {
-  "metadata": {
-    "review": "cfb_delivery_readiness_review_v1",
-    "study_name": "CFB Delivery Readiness Review v1",
-    "generated_at": "2026-06-23T00:00:00Z",
-    "season": 2026,
-    "governance_review_only": true,
-    "source_artifacts_only": true,
-    "production_behavior_changed": false,
-    "guardrails": {
-      "modifies_projections": false,
-      "modifies_ratings": false,
-      "modifies_spreads": false,
-      "modifies_totals": false,
-      "modifies_calibration": false,
-      "modifies_recommendations": false,
-      "modifies_reporting_generators": false,
-      "modifies_renderer_outputs": false,
-      "modifies_manifests": false,
-      "modifies_cli": false,
-      "modifies_smoke_tests": false,
-      "writes_only_review_artifacts": true
-    }
-  },
-  "readiness_decision": {
-    "decision": "Ready with Guardrails",
-    "rationale": "Existing artifacts show the weekly CFB delivery system is structurally ready for saved-input weekly operation, reporting, card rendering, CLI inspection, and smoke validation, with documented guardrails for missing live markets, two missing projections, inactive future hooks, and diagnostic-only research layers.",
-    "allowed_values": [
-      "Ready",
-      "Ready with Guardrails",
-      "Not Ready"
-    ],
-    "evidence_basis": "existing artifacts and source contracts only"
-  },
-  "source_artifacts_reviewed": {
-    "model_readiness_review": {
-      "path": "artifacts/cfb/documentation/model_readiness_review_v1.md",
-      "exists": true,
-      "row_count": 0
-    },
-    "week1_end_to_end_audit": {
-      "path": "artifacts/cfb/documentation/week1_end_to_end_readiness_audit_v1.md",
-      "exists": true,
-      "row_count": 0
-    },
-    "preseason_model_assembly": {
-      "path": "artifacts/cfb/modeling/preseason_model_assembly_v1_2026.json",
-      "exists": true,
-      "row_count": 0
-    },
-    "projected_spread_assembly": {
-      "path": "artifacts/cfb/modeling/projected_spread_assembly_v1_2026.json",
-      "exists": true,
-      "row_count": 0
-    },
-    "game_projection_framework": {
-      "path": "artifacts/cfb/documentation/game_projection_framework_v1.md",
-      "exists": true,
-      "row_count": 0
-    },
-    "in_season_rating_update": {
-      "path": "artifacts/cfb/modeling/in_season_rating_update_v1_weekly_ratings.json",
-      "exists": true,
-      "row_count": 0
-    },
-    "projection_calibration_audit": {
-      "path": "artifacts/cfb/modeling/projection_calibration_audit_v1.json",
-      "exists": true,
-      "row_count": 0
-    },
-    "shadow_calibration_validation": {
-      "path": "artifacts/cfb/modeling/shadow_calibration_validation_v1.json",
-      "exists": true,
-      "row_count": 0
-    },
-    "disagreement_shadow_validation": {
-      "path": "artifacts/cfb/modeling/disagreement_calibration_shadow_validation_v1.json",
-      "exists": true,
-      "row_count": 0
-    },
-    "advanced_matchup_diagnostics": {
-      "path": "artifacts/cfb/market/advanced_matchup_diagnostics_v1_report.md",
-      "exists": true,
-      "row_count": 0
-    },
-    "confidence_risk_framework": {
-      "path": "artifacts/cfb/research/confidence_risk_flag_framework_v1.json",
-      "exists": true,
-      "row_count": 0
-    },
-    "weekly_refresh_runbook": {
-      "path": "artifacts/cfb/operations/weekly_refresh_runbook_v1.json",
-      "exists": true,
-      "row_count": 0
-    },
-    "weekly_production_pipeline": {
-      "path": "artifacts/cfb/weekly/2026_WK01/pipeline/weekly_production_pipeline_v1.json",
-      "exists": true,
-      "row_count": 0
-    },
-    "weekly_production_manifest": {
-      "path": "artifacts/cfb/weekly/2026_WK01/pipeline/weekly_production_pipeline_manifest_v1.json",
-      "exists": true,
-      "row_count": 0
-    },
-    "weekly_snapshot_manifest": {
-      "path": "artifacts/cfb/weekly/2026_WK01/snapshot/weekly_snapshot_manifest_v1.json",
-      "exists": true,
-      "row_count": 0
-    },
-    "market_refresh_validation": {
-      "path": "artifacts/cfb/weekly/2026_WK01/operations/week1_market_refresh_validation_v1.json",
-      "exists": true,
-      "row_count": 0
-    },
-    "delivery_manifest": {
-      "path": "artifacts/cfb/operations/weekly_delivery_manifest_v1.json",
-      "exists": true,
-      "row_count": 0
-    },
-    "delivery_cli": {
-      "path": "src/cfb/operations/weekly_delivery_cli_v1.py",
-      "exists": true,
-      "row_count": 0
-    },
-    "delivery_smoke_test": {
-      "path": "artifacts/cfb/operations/delivery_smoke_test_v1.json",
-      "exists": true,
-      "row_count": 0
-    },
-    "team_capsules": {
-      "path": "artifacts/cfb/reporting/team_capsules_v1.csv",
-      "exists": true,
-      "row_count": 136
-    },
-    "matchup_sheet": {
-      "path": "artifacts/cfb/weekly/2026_WK01/matchups/matchup_sheet_v3.json",
-      "exists": true,
-      "row_count": 0
-    },
-    "weekly_dashboard": {
-      "path": "artifacts/cfb/reporting/weekly_slate_dashboard_v2.json",
-      "exists": true,
-      "row_count": 0
-    },
-    "weekly_narrative": {
-      "path": "artifacts/cfb/weekly/2026_WK01/reports/weekly_narrative_report_v1.json",
-      "exists": true,
-      "row_count": 0
-    },
-    "display_contracts": {
-      "path": "artifacts/cfb/reporting/display_contracts_v1.json",
-      "exists": true,
-      "row_count": 0
-    },
-    "card_renderer": {
-      "path": "artifacts/cfb/reporting/card_renderer_v1.json",
-      "exists": true,
-      "row_count": 0
-    },
-    "presentation_stack_review": {
-      "path": "artifacts/cfb/documentation/presentation_stack_review_v1.md",
-      "exists": true,
-      "row_count": 0
-    }
-  },
-  "layers": {
-    "core_projection_layer": {
-      "summary": "Core ratings, projections, spreads, totals, and weekly updates are complete with guardrails.",
-      "components": [
-        {
-          "component": "preseason ratings",
-          "status": "complete",
-          "classification": "production",
-          "evidence_path": "artifacts/cfb/modeling/preseason_model_assembly_v1_2026.json",
-          "evidence_exists": true,
-          "evidence_row_count": 0,
-          "assessment": "Preserved model readiness review marks preseason ratings ready with guardrails."
-        },
-        {
-          "component": "projection generation",
-          "status": "complete",
-          "classification": "production",
-          "evidence_path": "artifacts/cfb/documentation/game_projection_framework_v1.md",
-          "evidence_exists": true,
-          "evidence_row_count": 0,
-          "assessment": "Game projection framework and Week 1 projection artifacts are present."
-        },
-        {
-          "component": "spread generation",
-          "status": "complete",
-          "classification": "production",
-          "evidence_path": "artifacts/cfb/modeling/projected_spread_assembly_v1_2026.json",
-          "evidence_exists": true,
-          "evidence_row_count": 0,
-          "assessment": "Projected spread assembly exists; live calibration overlays remain unpromoted."
-        },
-        {
-          "component": "total generation",
-          "status": "complete",
-          "classification": "production",
-          "evidence_path": "artifacts/cfb/documentation/game_projection_framework_v1.md",
-          "evidence_exists": true,
-          "evidence_row_count": 0,
-          "assessment": "Environment-aware total projection framework is preserved for weekly use."
-        },
-        {
-          "component": "weekly rating updates",
-          "status": "complete",
-          "classification": "production",
-          "evidence_path": "artifacts/cfb/modeling/in_season_rating_update_v1_weekly_ratings.json",
-          "evidence_exists": true,
-          "evidence_row_count": 0,
-          "assessment": "In-season rating update artifacts remain the preferred postgame update path."
-        }
-      ]
-    },
-    "research_layer": {
-      "summary": "Research is preserved as evidence, with calibration and recommendation-style logic kept diagnostic or shadow-only.",
-      "components": [
-        {
-          "component": "calibration studies",
-          "status": "diagnostic only",
-          "classification": "diagnostic_only",
-          "evidence_path": "artifacts/cfb/modeling/projection_calibration_audit_v1.json",
-          "evidence_exists": true,
-          "evidence_row_count": 0,
-          "assessment": "Prior calibration work is evidence history and not promoted into live projection math."
-        },
-        {
-          "component": "shadow calibration",
-          "status": "diagnostic only",
-          "classification": "shadow_only",
-          "evidence_path": "artifacts/cfb/modeling/shadow_calibration_validation_v1.json",
-          "evidence_exists": true,
-          "evidence_row_count": 0,
-          "assessment": "Shadow validation is retained for monitoring and does not alter live outputs."
-        },
-        {
-          "component": "disagreement studies",
-          "status": "diagnostic only",
-          "classification": "shadow_only",
-          "evidence_path": "artifacts/cfb/modeling/disagreement_calibration_shadow_validation_v1.json",
-          "evidence_exists": true,
-          "evidence_row_count": 0,
-          "assessment": "Disagreement validation remains shadow-only with no stacked production promotion."
-        },
-        {
-          "component": "matchup diagnostics",
-          "status": "diagnostic only",
-          "classification": "diagnostic_only",
-          "evidence_path": "artifacts/cfb/market/advanced_matchup_diagnostics_v1_report.md",
-          "evidence_exists": true,
-          "evidence_row_count": 0,
-          "assessment": "Advanced matchup diagnostics support review surfaces without replacing projection logic."
-        },
-        {
-          "component": "confidence/risk framework",
-          "status": "diagnostic only",
-          "classification": "diagnostic_only",
-          "evidence_path": "artifacts/cfb/research/confidence_risk_flag_framework_v1.json",
-          "evidence_exists": true,
-          "evidence_row_count": 0,
-          "assessment": "Confidence and risk flags guide review priority rather than automatic weighting."
-        }
-      ]
-    },
-    "operations_layer": {
-      "summary": "Weekly operations are repeatable, deterministic, idempotent, and operator-readable, with market refresh guarded.",
-      "components": [
-        {
-          "component": "weekly refresh",
-          "status": "complete",
-          "classification": "production",
-          "evidence_path": "artifacts/cfb/operations/weekly_refresh_runbook_v1.json",
-          "evidence_exists": true,
-          "evidence_row_count": 0,
-          "assessment": "Runbook exists and freezes model logic during refresh."
-        },
-        {
-          "component": "production pipeline",
-          "status": "complete",
-          "classification": "production",
-          "evidence_path": "artifacts/cfb/weekly/2026_WK01/pipeline/weekly_production_pipeline_manifest_v1.json",
-          "evidence_exists": true,
-          "evidence_row_count": 0,
-          "assessment": "Pipeline manifest is present with deterministic saved-snapshot guardrails and WARN status."
-        },
-        {
-          "component": "weekly snapshot",
-          "status": "complete",
-          "classification": "production",
-          "evidence_path": "artifacts/cfb/weekly/2026_WK01/snapshot/weekly_snapshot_manifest_v1.json",
-          "evidence_exists": true,
-          "evidence_row_count": 0,
-          "assessment": "Snapshot manifest exists and records immutable-input guardrails."
-        },
-        {
-          "component": "market refresh validation",
-          "status": "complete",
-          "classification": "guarded",
-          "evidence_path": "artifacts/cfb/weekly/2026_WK01/operations/week1_market_refresh_validation_v1.json",
-          "evidence_exists": true,
-          "evidence_row_count": 0,
-          "assessment": "Validator exists; current Week 1 state remains market unavailable / no actionable comparison."
-        },
-        {
-          "component": "delivery manifest",
-          "status": "complete",
-          "classification": "production",
-          "evidence_path": "artifacts/cfb/operations/weekly_delivery_manifest_v1.json",
-          "evidence_exists": true,
-          "evidence_row_count": 0,
-          "assessment": "Manifest reports Ready with Warnings and inventories delivery artifacts."
-        },
-        {
-          "component": "delivery CLI",
-          "status": "complete",
-          "classification": "production",
-          "evidence_path": "src/cfb/operations/weekly_delivery_cli_v1.py",
-          "evidence_exists": true,
-          "evidence_row_count": 0,
-          "assessment": "CLI provides read-only operator status, warning, inventory, card, and narrative views."
-        },
-        {
-          "component": "smoke test",
-          "status": "complete",
-          "classification": "production",
-          "evidence_path": "artifacts/cfb/operations/delivery_smoke_test_v1.json",
-          "evidence_exists": true,
-          "evidence_row_count": 0,
-          "assessment": "Smoke artifact validates manifest, renderer, CLI consistency, determinism, and no mutation."
-        }
-      ],
-      "operator_usability": {
-        "repeatability": "ready",
-        "determinism": "ready",
-        "idempotency": "ready",
-        "operator_usability": "ready_with_warnings"
-      }
-    },
-    "reporting_layer": {
-      "summary": "Reporting is complete enough for weekly review, with known mobile-density limits.",
-      "components": [
-        {
-          "component": "team capsules",
-          "status": "complete",
-          "classification": "production",
-          "evidence_path": "artifacts/cfb/reporting/team_capsules_v1.csv",
-          "evidence_exists": true,
-          "evidence_row_count": 136,
-          "assessment": "Team capsules provide 136 team rows for read-only presentation context."
-        },
-        {
-          "component": "matchup sheets",
-          "status": "complete",
-          "classification": "production",
-          "evidence_path": "artifacts/cfb/weekly/2026_WK01/matchups/matchup_sheet_v3.json",
-          "evidence_exists": true,
-          "evidence_row_count": 0,
-          "assessment": "Matchup Sheet v3 exists for 99 Week 1 games with spread, total, risk, and placeholder fields."
-        },
-        {
-          "component": "weekly dashboard",
-          "status": "complete",
-          "classification": "production",
-          "evidence_path": "artifacts/cfb/reporting/weekly_slate_dashboard_v2.json",
-          "evidence_exists": true,
-          "evidence_row_count": 0,
-          "assessment": "Dashboard layer supports slate triage and downstream cards."
-        },
-        {
-          "component": "narratives",
-          "status": "complete",
-          "classification": "production",
-          "evidence_path": "artifacts/cfb/weekly/2026_WK01/reports/weekly_narrative_report_v1.json",
-          "evidence_exists": true,
-          "evidence_row_count": 0,
-          "assessment": "Narrative report is present and generated from existing artifacts."
-        }
-      ],
-      "presentation_assessment": {
-        "completeness": "ready",
-        "readability": "ready_with_dense_fields",
-        "mobile_suitability": "ready_with_card_renderer"
-      }
-    },
-    "presentation_layer": {
-      "summary": "Display contracts and card renderer are ready for read-only mobile, Slack, and web-style consumption.",
-      "components": [
-        {
-          "component": "display contracts",
-          "status": "complete",
-          "classification": "production",
-          "evidence_path": "artifacts/cfb/reporting/display_contracts_v1.json",
-          "evidence_exists": true,
-          "evidence_row_count": 0,
-          "assessment": "Contracts preserve card families, future hooks, and descriptive language policy."
-        },
-        {
-          "component": "card renderer",
-          "status": "complete",
-          "classification": "production",
-          "evidence_path": "artifacts/cfb/reporting/card_renderer_v1.json",
-          "evidence_exists": true,
-          "evidence_row_count": 0,
-          "assessment": "Renderer reports deterministic, idempotent card output with team, game, weekly, and narrative cards."
-        }
-      ],
-      "readiness": {
-        "mobile": "ready_with_compact_card_guardrails",
-        "slack": "ready_for_read_only_payload_design",
-        "web": "ready_for_static_or_api_consumers"
-      }
-    },
-    "testing_layer": {
-      "summary": "Focused tests exist across projections, operations, reporting, renderer, CLI, smoke, and reviews.",
-      "components": [
-        {
-          "component": "compile status",
-          "status": "complete",
-          "classification": "test_coverage",
-          "evidence_path": "python3 -m compileall src tests",
-          "evidence_exists": true,
-          "evidence_row_count": 0,
-          "assessment": "Existing validation surface included in readiness review."
-        },
-        {
-          "component": "focused readiness tests",
-          "status": "complete",
-          "classification": "test_coverage",
-          "evidence_path": "tests/test_cfb_delivery_readiness_review_v1.py",
-          "evidence_exists": true,
-          "evidence_row_count": 0,
-          "assessment": "Existing validation surface included in readiness review."
-        },
-        {
-          "component": "operations tests",
-          "status": "complete",
-          "classification": "test_coverage",
-          "evidence_path": "tests/test_cfb_weekly_refresh_runbook_v1.py; tests/test_cfb_weekly_production_pipeline_v1.py; tests/test_cfb_weekly_snapshot_framework_v1.py; tests/test_cfb_week1_market_refresh_validation_v1.py; tests/test_cfb_weekly_delivery_manifest_v1.py; tests/test_cfb_weekly_delivery_cli_v1.py",
-          "evidence_exists": true,
-          "evidence_row_count": 0,
-          "assessment": "Existing validation surface included in readiness review."
-        },
-        {
-          "component": "reporting tests",
-          "status": "complete",
-          "classification": "test_coverage",
-          "evidence_path": "tests/test_cfb_team_capsules_v1.py; tests/test_cfb_matchup_sheet_v3.py; tests/test_cfb_weekly_slate_dashboard_v1.py; tests/test_cfb_weekly_slate_dashboard_v2.py; tests/test_cfb_weekly_narrative_report_v1.py",
-          "evidence_exists": true,
-          "evidence_row_count": 0,
-          "assessment": "Existing validation surface included in readiness review."
-        },
-        {
-          "component": "renderer tests",
-          "status": "complete",
-          "classification": "test_coverage",
-          "evidence_path": "tests/test_cfb_display_contracts_v1.py; tests/test_cfb_card_renderer_v1.py",
-          "evidence_exists": true,
-          "evidence_row_count": 0,
-          "assessment": "Existing validation surface included in readiness review."
-        },
-        {
-          "component": "projection tests",
-          "status": "complete",
-          "classification": "test_coverage",
-          "evidence_path": "tests/test_cfb_preseason_model_assembly_v1.py; tests/test_cfb_game_projection_framework_v1.py; tests/test_cfb_projected_spread_assembly_v1.py; tests/test_cfb_in_season_rating_update_v1.py",
-          "evidence_exists": true,
-          "evidence_row_count": 0,
-          "assessment": "Existing validation surface included in readiness review."
-        },
-        {
-          "component": "smoke tests",
-          "status": "complete",
-          "classification": "test_coverage",
-          "evidence_path": "tests/test_cfb_delivery_smoke_test_v1.py; tests/test_smoke.py",
-          "evidence_exists": true,
-          "evidence_row_count": 0,
-          "assessment": "Existing validation surface included in readiness review."
-        }
-      ],
-      "confirmation": {
-        "deterministic": true,
-        "idempotent": true,
-        "read_only": true
-      }
-    }
+  "blocked_word_scan": {
+    "checked_term_count": 5,
+    "hits": [],
+    "status": "PASS"
   },
   "flat_review_rows": [
     {
-      "layer": "core_projection_layer",
-      "component": "preseason ratings",
-      "status": "complete",
-      "classification": "production",
-      "evidence_path": "artifacts/cfb/modeling/preseason_model_assembly_v1_2026.json",
-      "evidence_exists": true,
       "assessment": "Preserved model readiness review marks preseason ratings ready with guardrails.",
-      "operator_note": "Ready for current weekly workflow."
+      "classification": "production",
+      "component": "preseason ratings",
+      "evidence_exists": true,
+      "evidence_path": "artifacts/cfb/modeling/preseason_model_assembly_v1_2026.json",
+      "layer": "core_projection_layer",
+      "operator_note": "Ready for current weekly workflow.",
+      "status": "complete"
     },
     {
-      "layer": "core_projection_layer",
-      "component": "projection generation",
-      "status": "complete",
-      "classification": "production",
-      "evidence_path": "artifacts/cfb/documentation/game_projection_framework_v1.md",
-      "evidence_exists": true,
       "assessment": "Game projection framework and Week 1 projection artifacts are present.",
-      "operator_note": "Ready for current weekly workflow."
-    },
-    {
-      "layer": "core_projection_layer",
-      "component": "spread generation",
-      "status": "complete",
       "classification": "production",
-      "evidence_path": "artifacts/cfb/modeling/projected_spread_assembly_v1_2026.json",
+      "component": "projection generation",
       "evidence_exists": true,
-      "assessment": "Projected spread assembly exists; live calibration overlays remain unpromoted.",
-      "operator_note": "Ready for current weekly workflow."
-    },
-    {
-      "layer": "core_projection_layer",
-      "component": "total generation",
-      "status": "complete",
-      "classification": "production",
       "evidence_path": "artifacts/cfb/documentation/game_projection_framework_v1.md",
-      "evidence_exists": true,
-      "assessment": "Environment-aware total projection framework is preserved for weekly use.",
-      "operator_note": "Ready for current weekly workflow."
-    },
-    {
       "layer": "core_projection_layer",
-      "component": "weekly rating updates",
-      "status": "complete",
+      "operator_note": "Ready for current weekly workflow.",
+      "status": "complete"
+    },
+    {
+      "assessment": "Projected spread assembly exists; live calibration overlays remain unpromoted.",
       "classification": "production",
-      "evidence_path": "artifacts/cfb/modeling/in_season_rating_update_v1_weekly_ratings.json",
+      "component": "spread generation",
       "evidence_exists": true,
+      "evidence_path": "artifacts/cfb/modeling/projected_spread_assembly_v1_2026.json",
+      "layer": "core_projection_layer",
+      "operator_note": "Ready for current weekly workflow.",
+      "status": "complete"
+    },
+    {
+      "assessment": "Environment-aware total projection framework is preserved for weekly use.",
+      "classification": "production",
+      "component": "total generation",
+      "evidence_exists": true,
+      "evidence_path": "artifacts/cfb/documentation/game_projection_framework_v1.md",
+      "layer": "core_projection_layer",
+      "operator_note": "Ready for current weekly workflow.",
+      "status": "complete"
+    },
+    {
       "assessment": "In-season rating update artifacts remain the preferred postgame update path.",
-      "operator_note": "Ready for current weekly workflow."
+      "classification": "production",
+      "component": "weekly rating updates",
+      "evidence_exists": true,
+      "evidence_path": "artifacts/cfb/modeling/in_season_rating_update_v1_weekly_ratings.json",
+      "layer": "core_projection_layer",
+      "operator_note": "Ready for current weekly workflow.",
+      "status": "complete"
     },
     {
-      "layer": "research_layer",
-      "component": "calibration studies",
-      "status": "diagnostic only",
-      "classification": "diagnostic_only",
-      "evidence_path": "artifacts/cfb/modeling/projection_calibration_audit_v1.json",
-      "evidence_exists": true,
       "assessment": "Prior calibration work is evidence history and not promoted into live projection math.",
-      "operator_note": "Keep visible as context; do not promote into live weighting without separate validation."
+      "classification": "diagnostic_only",
+      "component": "calibration studies",
+      "evidence_exists": true,
+      "evidence_path": "artifacts/cfb/modeling/projection_calibration_audit_v1.json",
+      "layer": "research_layer",
+      "operator_note": "Keep visible as context; do not promote into live weighting without separate validation.",
+      "status": "diagnostic only"
     },
     {
-      "layer": "research_layer",
-      "component": "shadow calibration",
-      "status": "diagnostic only",
-      "classification": "shadow_only",
-      "evidence_path": "artifacts/cfb/modeling/shadow_calibration_validation_v1.json",
-      "evidence_exists": true,
       "assessment": "Shadow validation is retained for monitoring and does not alter live outputs.",
-      "operator_note": "Keep visible as context; do not promote into live weighting without separate validation."
-    },
-    {
-      "layer": "research_layer",
-      "component": "disagreement studies",
-      "status": "diagnostic only",
       "classification": "shadow_only",
-      "evidence_path": "artifacts/cfb/modeling/disagreement_calibration_shadow_validation_v1.json",
+      "component": "shadow calibration",
       "evidence_exists": true,
+      "evidence_path": "artifacts/cfb/modeling/shadow_calibration_validation_v1.json",
+      "layer": "research_layer",
+      "operator_note": "Keep visible as context; do not promote into live weighting without separate validation.",
+      "status": "diagnostic only"
+    },
+    {
       "assessment": "Disagreement validation remains shadow-only with no stacked production promotion.",
-      "operator_note": "Keep visible as context; do not promote into live weighting without separate validation."
+      "classification": "shadow_only",
+      "component": "disagreement studies",
+      "evidence_exists": true,
+      "evidence_path": "artifacts/cfb/modeling/disagreement_calibration_shadow_validation_v1.json",
+      "layer": "research_layer",
+      "operator_note": "Keep visible as context; do not promote into live weighting without separate validation.",
+      "status": "diagnostic only"
     },
     {
-      "layer": "research_layer",
-      "component": "matchup diagnostics",
-      "status": "diagnostic only",
-      "classification": "diagnostic_only",
-      "evidence_path": "artifacts/cfb/market/advanced_matchup_diagnostics_v1_report.md",
-      "evidence_exists": true,
       "assessment": "Advanced matchup diagnostics support review surfaces without replacing projection logic.",
-      "operator_note": "Keep visible as context; do not promote into live weighting without separate validation."
-    },
-    {
-      "layer": "research_layer",
-      "component": "confidence/risk framework",
-      "status": "diagnostic only",
       "classification": "diagnostic_only",
-      "evidence_path": "artifacts/cfb/research/confidence_risk_flag_framework_v1.json",
+      "component": "matchup diagnostics",
       "evidence_exists": true,
+      "evidence_path": "artifacts/cfb/market/advanced_matchup_diagnostics_v1_report.md",
+      "layer": "research_layer",
+      "operator_note": "Keep visible as context; do not promote into live weighting without separate validation.",
+      "status": "diagnostic only"
+    },
+    {
       "assessment": "Confidence and risk flags guide review priority rather than automatic weighting.",
-      "operator_note": "Keep visible as context; do not promote into live weighting without separate validation."
+      "classification": "diagnostic_only",
+      "component": "confidence/risk framework",
+      "evidence_exists": true,
+      "evidence_path": "artifacts/cfb/research/confidence_risk_flag_framework_v1.json",
+      "layer": "research_layer",
+      "operator_note": "Keep visible as context; do not promote into live weighting without separate validation.",
+      "status": "diagnostic only"
     },
     {
-      "layer": "operations_layer",
-      "component": "weekly refresh",
-      "status": "complete",
-      "classification": "production",
-      "evidence_path": "artifacts/cfb/operations/weekly_refresh_runbook_v1.json",
-      "evidence_exists": true,
       "assessment": "Runbook exists and freezes model logic during refresh.",
-      "operator_note": "Ready for current weekly workflow."
+      "classification": "production",
+      "component": "weekly refresh",
+      "evidence_exists": true,
+      "evidence_path": "artifacts/cfb/operations/weekly_refresh_runbook_v1.json",
+      "layer": "operations_layer",
+      "operator_note": "Ready for current weekly workflow.",
+      "status": "complete"
     },
     {
-      "layer": "operations_layer",
-      "component": "production pipeline",
-      "status": "complete",
-      "classification": "production",
-      "evidence_path": "artifacts/cfb/weekly/2026_WK01/pipeline/weekly_production_pipeline_manifest_v1.json",
-      "evidence_exists": true,
       "assessment": "Pipeline manifest is present with deterministic saved-snapshot guardrails and WARN status.",
-      "operator_note": "Ready for current weekly workflow."
+      "classification": "production",
+      "component": "production pipeline",
+      "evidence_exists": true,
+      "evidence_path": "artifacts/cfb/weekly/2026_WK01/pipeline/weekly_production_pipeline_manifest_v1.json",
+      "layer": "operations_layer",
+      "operator_note": "Ready for current weekly workflow.",
+      "status": "complete"
     },
     {
-      "layer": "operations_layer",
-      "component": "weekly snapshot",
-      "status": "complete",
-      "classification": "production",
-      "evidence_path": "artifacts/cfb/weekly/2026_WK01/snapshot/weekly_snapshot_manifest_v1.json",
-      "evidence_exists": true,
       "assessment": "Snapshot manifest exists and records immutable-input guardrails.",
-      "operator_note": "Ready for current weekly workflow."
+      "classification": "production",
+      "component": "weekly snapshot",
+      "evidence_exists": true,
+      "evidence_path": "artifacts/cfb/weekly/2026_WK01/snapshot/weekly_snapshot_manifest_v1.json",
+      "layer": "operations_layer",
+      "operator_note": "Ready for current weekly workflow.",
+      "status": "complete"
     },
     {
-      "layer": "operations_layer",
-      "component": "market refresh validation",
-      "status": "complete",
-      "classification": "guarded",
-      "evidence_path": "artifacts/cfb/weekly/2026_WK01/operations/week1_market_refresh_validation_v1.json",
-      "evidence_exists": true,
       "assessment": "Validator exists; current Week 1 state remains market unavailable / no actionable comparison.",
-      "operator_note": "Usable with documented market-refresh guardrail."
+      "classification": "guarded",
+      "component": "market refresh validation",
+      "evidence_exists": true,
+      "evidence_path": "artifacts/cfb/weekly/2026_WK01/operations/week1_market_refresh_validation_v1.json",
+      "layer": "operations_layer",
+      "operator_note": "Usable with documented market-refresh guardrail.",
+      "status": "complete"
     },
     {
-      "layer": "operations_layer",
-      "component": "delivery manifest",
-      "status": "complete",
-      "classification": "production",
-      "evidence_path": "artifacts/cfb/operations/weekly_delivery_manifest_v1.json",
-      "evidence_exists": true,
       "assessment": "Manifest reports Ready with Warnings and inventories delivery artifacts.",
-      "operator_note": "Ready for current weekly workflow."
+      "classification": "production",
+      "component": "delivery manifest",
+      "evidence_exists": true,
+      "evidence_path": "artifacts/cfb/operations/weekly_delivery_manifest_v1.json",
+      "layer": "operations_layer",
+      "operator_note": "Ready for current weekly workflow.",
+      "status": "complete"
     },
     {
-      "layer": "operations_layer",
-      "component": "delivery CLI",
-      "status": "complete",
-      "classification": "production",
-      "evidence_path": "src/cfb/operations/weekly_delivery_cli_v1.py",
-      "evidence_exists": true,
       "assessment": "CLI provides read-only operator status, warning, inventory, card, and narrative views.",
-      "operator_note": "Ready for current weekly workflow."
-    },
-    {
+      "classification": "production",
+      "component": "delivery CLI",
+      "evidence_exists": true,
+      "evidence_path": "private source evidence",
       "layer": "operations_layer",
-      "component": "smoke test",
-      "status": "complete",
-      "classification": "production",
-      "evidence_path": "artifacts/cfb/operations/delivery_smoke_test_v1.json",
-      "evidence_exists": true,
+      "operator_note": "Ready for current weekly workflow.",
+      "status": "complete"
+    },
+    {
       "assessment": "Smoke artifact validates manifest, renderer, CLI consistency, determinism, and no mutation.",
-      "operator_note": "Ready for current weekly workflow."
+      "classification": "production",
+      "component": "smoke test",
+      "evidence_exists": true,
+      "evidence_path": "artifacts/cfb/operations/delivery_smoke_test_v1.json",
+      "layer": "operations_layer",
+      "operator_note": "Ready for current weekly workflow.",
+      "status": "complete"
     },
     {
-      "layer": "reporting_layer",
-      "component": "team capsules",
-      "status": "complete",
-      "classification": "production",
-      "evidence_path": "artifacts/cfb/reporting/team_capsules_v1.csv",
-      "evidence_exists": true,
       "assessment": "Team capsules provide 136 team rows for read-only presentation context.",
-      "operator_note": "Ready for current weekly workflow."
+      "classification": "production",
+      "component": "team capsules",
+      "evidence_exists": true,
+      "evidence_path": "artifacts/cfb/reporting/team_capsules_v1.csv",
+      "layer": "reporting_layer",
+      "operator_note": "Ready for current weekly workflow.",
+      "status": "complete"
     },
     {
-      "layer": "reporting_layer",
-      "component": "matchup sheets",
-      "status": "complete",
-      "classification": "production",
-      "evidence_path": "artifacts/cfb/weekly/2026_WK01/matchups/matchup_sheet_v3.json",
-      "evidence_exists": true,
       "assessment": "Matchup Sheet v3 exists for 99 Week 1 games with spread, total, risk, and placeholder fields.",
-      "operator_note": "Ready for current weekly workflow."
+      "classification": "production",
+      "component": "matchup sheets",
+      "evidence_exists": true,
+      "evidence_path": "artifacts/cfb/weekly/2026_WK01/matchups/matchup_sheet_v3.json",
+      "layer": "reporting_layer",
+      "operator_note": "Ready for current weekly workflow.",
+      "status": "complete"
     },
     {
-      "layer": "reporting_layer",
-      "component": "weekly dashboard",
-      "status": "complete",
-      "classification": "production",
-      "evidence_path": "artifacts/cfb/reporting/weekly_slate_dashboard_v2.json",
-      "evidence_exists": true,
       "assessment": "Dashboard layer supports slate triage and downstream cards.",
-      "operator_note": "Ready for current weekly workflow."
-    },
-    {
+      "classification": "production",
+      "component": "weekly dashboard",
+      "evidence_exists": true,
+      "evidence_path": "artifacts/cfb/reporting/weekly_slate_dashboard_v2.json",
       "layer": "reporting_layer",
-      "component": "narratives",
-      "status": "complete",
-      "classification": "production",
-      "evidence_path": "artifacts/cfb/weekly/2026_WK01/reports/weekly_narrative_report_v1.json",
-      "evidence_exists": true,
+      "operator_note": "Ready for current weekly workflow.",
+      "status": "complete"
+    },
+    {
       "assessment": "Narrative report is present and generated from existing artifacts.",
-      "operator_note": "Ready for current weekly workflow."
+      "classification": "production",
+      "component": "narratives",
+      "evidence_exists": true,
+      "evidence_path": "artifacts/cfb/weekly/2026_WK01/reports/weekly_narrative_report_v1.json",
+      "layer": "reporting_layer",
+      "operator_note": "Ready for current weekly workflow.",
+      "status": "complete"
     },
     {
-      "layer": "presentation_layer",
-      "component": "display contracts",
-      "status": "complete",
-      "classification": "production",
-      "evidence_path": "artifacts/cfb/reporting/display_contracts_v1.json",
-      "evidence_exists": true,
       "assessment": "Contracts preserve card families, future hooks, and descriptive language policy.",
-      "operator_note": "Ready for current weekly workflow."
-    },
-    {
-      "layer": "presentation_layer",
-      "component": "card renderer",
-      "status": "complete",
       "classification": "production",
-      "evidence_path": "artifacts/cfb/reporting/card_renderer_v1.json",
+      "component": "display contracts",
       "evidence_exists": true,
+      "evidence_path": "artifacts/cfb/reporting/display_contracts_v1.json",
+      "layer": "presentation_layer",
+      "operator_note": "Ready for current weekly workflow.",
+      "status": "complete"
+    },
+    {
       "assessment": "Renderer reports deterministic, idempotent card output with team, game, weekly, and narrative cards.",
-      "operator_note": "Ready for current weekly workflow."
+      "classification": "production",
+      "component": "card renderer",
+      "evidence_exists": true,
+      "evidence_path": "artifacts/cfb/reporting/card_renderer_v1.json",
+      "layer": "presentation_layer",
+      "operator_note": "Ready for current weekly workflow.",
+      "status": "complete"
     },
     {
-      "layer": "testing_layer",
+      "assessment": "Existing validation surface included in readiness review.",
+      "classification": "test_coverage",
       "component": "compile status",
-      "status": "complete",
-      "classification": "test_coverage",
+      "evidence_exists": true,
       "evidence_path": "python3 -m compileall src tests",
-      "evidence_exists": true,
-      "assessment": "Existing validation surface included in readiness review.",
-      "operator_note": "Run before promotion or handoff."
+      "layer": "testing_layer",
+      "operator_note": "Run before promotion or handoff.",
+      "status": "complete"
     },
     {
-      "layer": "testing_layer",
+      "assessment": "Existing validation surface included in readiness review.",
+      "classification": "test_coverage",
       "component": "focused readiness tests",
-      "status": "complete",
-      "classification": "test_coverage",
-      "evidence_path": "tests/test_cfb_delivery_readiness_review_v1.py",
       "evidence_exists": true,
-      "assessment": "Existing validation surface included in readiness review.",
-      "operator_note": "Run before promotion or handoff."
+      "evidence_path": "private validation evidence",
+      "layer": "testing_layer",
+      "operator_note": "Run before promotion or handoff.",
+      "status": "complete"
     },
     {
-      "layer": "testing_layer",
+      "assessment": "Existing validation surface included in readiness review.",
+      "classification": "test_coverage",
       "component": "operations tests",
-      "status": "complete",
-      "classification": "test_coverage",
-      "evidence_path": "tests/test_cfb_weekly_refresh_runbook_v1.py; tests/test_cfb_weekly_production_pipeline_v1.py; tests/test_cfb_weekly_snapshot_framework_v1.py; tests/test_cfb_week1_market_refresh_validation_v1.py; tests/test_cfb_weekly_delivery_manifest_v1.py; tests/test_cfb_weekly_delivery_cli_v1.py",
       "evidence_exists": true,
-      "assessment": "Existing validation surface included in readiness review.",
-      "operator_note": "Run before promotion or handoff."
+      "evidence_path": "private validation evidence; private validation evidence; private validation evidence; private validation evidence; private validation evidence; private validation evidence",
+      "layer": "testing_layer",
+      "operator_note": "Run before promotion or handoff.",
+      "status": "complete"
     },
     {
-      "layer": "testing_layer",
+      "assessment": "Existing validation surface included in readiness review.",
+      "classification": "test_coverage",
       "component": "reporting tests",
-      "status": "complete",
-      "classification": "test_coverage",
-      "evidence_path": "tests/test_cfb_team_capsules_v1.py; tests/test_cfb_matchup_sheet_v3.py; tests/test_cfb_weekly_slate_dashboard_v1.py; tests/test_cfb_weekly_slate_dashboard_v2.py; tests/test_cfb_weekly_narrative_report_v1.py",
       "evidence_exists": true,
-      "assessment": "Existing validation surface included in readiness review.",
-      "operator_note": "Run before promotion or handoff."
+      "evidence_path": "private validation evidence; private validation evidence; private validation evidence; private validation evidence; private validation evidence",
+      "layer": "testing_layer",
+      "operator_note": "Run before promotion or handoff.",
+      "status": "complete"
     },
     {
-      "layer": "testing_layer",
+      "assessment": "Existing validation surface included in readiness review.",
+      "classification": "test_coverage",
       "component": "renderer tests",
-      "status": "complete",
-      "classification": "test_coverage",
-      "evidence_path": "tests/test_cfb_display_contracts_v1.py; tests/test_cfb_card_renderer_v1.py",
       "evidence_exists": true,
-      "assessment": "Existing validation surface included in readiness review.",
-      "operator_note": "Run before promotion or handoff."
+      "evidence_path": "private validation evidence; private validation evidence",
+      "layer": "testing_layer",
+      "operator_note": "Run before promotion or handoff.",
+      "status": "complete"
     },
     {
-      "layer": "testing_layer",
+      "assessment": "Existing validation surface included in readiness review.",
+      "classification": "test_coverage",
       "component": "projection tests",
-      "status": "complete",
-      "classification": "test_coverage",
-      "evidence_path": "tests/test_cfb_preseason_model_assembly_v1.py; tests/test_cfb_game_projection_framework_v1.py; tests/test_cfb_projected_spread_assembly_v1.py; tests/test_cfb_in_season_rating_update_v1.py",
       "evidence_exists": true,
-      "assessment": "Existing validation surface included in readiness review.",
-      "operator_note": "Run before promotion or handoff."
-    },
-    {
+      "evidence_path": "private validation evidence; private validation evidence; private validation evidence; private validation evidence",
       "layer": "testing_layer",
-      "component": "smoke tests",
-      "status": "complete",
-      "classification": "test_coverage",
-      "evidence_path": "tests/test_cfb_delivery_smoke_test_v1.py; tests/test_smoke.py",
-      "evidence_exists": true,
+      "operator_note": "Run before promotion or handoff.",
+      "status": "complete"
+    },
+    {
       "assessment": "Existing validation surface included in readiness review.",
-      "operator_note": "Run before promotion or handoff."
-    }
-  ],
-  "strengths": [
-    "Clear separation between core projections, research diagnostics, operations, reporting, presentation, and tests.",
-    "Saved-snapshot weekly production path is preserved with deterministic and read-only guardrails.",
-    "Delivery manifest and CLI give an operator-readable status without recalculating model outputs.",
-    "Card renderer provides team, game, weekly slate, and narrative card families for compact review.",
-    "Research layers remain observable without being promoted into core weighting."
-  ],
-  "known_limitations": [
-    {
-      "limitation": "missing live markets",
-      "evidence": "Existing delivery status reports 99 missing/not-refreshed Week 1 markets."
-    },
-    {
-      "limitation": "two missing projections",
-      "evidence": "Delivery manifest reports missing_projections=2 while 99 projected games are available."
-    },
-    {
-      "limitation": "injury placeholders",
-      "evidence": "Future injury hook is present but inactive; no active injury logic is applied."
-    },
-    {
-      "limitation": "weather placeholders",
-      "evidence": "Weather hook is present but inactive."
-    },
-    {
-      "limitation": "inactive simulation hooks",
-      "evidence": "Simulation outputs are listed as inactive future hooks."
-    },
-    {
-      "limitation": "line movement placeholders",
-      "evidence": "Line movement is unavailable and remains a future hook."
-    },
-    {
-      "limitation": "roster update placeholders",
-      "evidence": "Roster updates are unavailable in the delivery manifest optional inputs."
+      "classification": "test_coverage",
+      "component": "smoke tests",
+      "evidence_exists": true,
+      "evidence_path": "private validation evidence; private validation evidence",
+      "layer": "testing_layer",
+      "operator_note": "Run before promotion or handoff.",
+      "status": "complete"
     }
   ],
   "future_roadmap": {
@@ -844,40 +324,560 @@
       "mobile app"
     ]
   },
-  "validation_summary": {
-    "compile_status": "required_validation_command",
-    "focused_tests": "required_validation_command",
-    "existing_operations_tests": "required_validation_command",
-    "existing_reporting_tests": "required_validation_command",
-    "existing_renderer_tests": "required_validation_command",
-    "existing_cli_tests": "required_validation_command",
-    "existing_smoke_tests": "required_validation_command",
-    "existing_projection_tests": "required_validation_command",
-    "json_validation": "required_validation_command",
-    "csv_validation": "required_validation_command",
-    "markdown_validation": "required_validation_command",
-    "blocked_word_scan": "required_validation_command",
-    "determinism_check": "required_validation_command",
-    "idempotency_check": "required_validation_command",
-    "read_only_confirmation": true
+  "known_limitations": [
+    {
+      "evidence": "Existing delivery status reports 99 missing/not-refreshed Week 1 markets.",
+      "limitation": "missing live markets"
+    },
+    {
+      "evidence": "Delivery manifest reports missing_projections=2 while 99 projected games are available.",
+      "limitation": "two missing projections"
+    },
+    {
+      "evidence": "Future injury hook is present but inactive; no active injury logic is applied.",
+      "limitation": "injury placeholders"
+    },
+    {
+      "evidence": "Weather hook is present but inactive.",
+      "limitation": "weather placeholders"
+    },
+    {
+      "evidence": "Simulation outputs are listed as inactive future hooks.",
+      "limitation": "inactive simulation hooks"
+    },
+    {
+      "evidence": "Line movement is unavailable and remains a future hook.",
+      "limitation": "line movement placeholders"
+    },
+    {
+      "evidence": "Roster updates are unavailable in the delivery manifest optional inputs.",
+      "limitation": "roster update placeholders"
+    }
+  ],
+  "layers": {
+    "core_projection_layer": {
+      "components": [
+        {
+          "assessment": "Preserved model readiness review marks preseason ratings ready with guardrails.",
+          "classification": "production",
+          "component": "preseason ratings",
+          "evidence_exists": true,
+          "evidence_path": "artifacts/cfb/modeling/preseason_model_assembly_v1_2026.json",
+          "evidence_row_count": 0,
+          "status": "complete"
+        },
+        {
+          "assessment": "Game projection framework and Week 1 projection artifacts are present.",
+          "classification": "production",
+          "component": "projection generation",
+          "evidence_exists": true,
+          "evidence_path": "artifacts/cfb/documentation/game_projection_framework_v1.md",
+          "evidence_row_count": 0,
+          "status": "complete"
+        },
+        {
+          "assessment": "Projected spread assembly exists; live calibration overlays remain unpromoted.",
+          "classification": "production",
+          "component": "spread generation",
+          "evidence_exists": true,
+          "evidence_path": "artifacts/cfb/modeling/projected_spread_assembly_v1_2026.json",
+          "evidence_row_count": 0,
+          "status": "complete"
+        },
+        {
+          "assessment": "Environment-aware total projection framework is preserved for weekly use.",
+          "classification": "production",
+          "component": "total generation",
+          "evidence_exists": true,
+          "evidence_path": "artifacts/cfb/documentation/game_projection_framework_v1.md",
+          "evidence_row_count": 0,
+          "status": "complete"
+        },
+        {
+          "assessment": "In-season rating update artifacts remain the preferred postgame update path.",
+          "classification": "production",
+          "component": "weekly rating updates",
+          "evidence_exists": true,
+          "evidence_path": "artifacts/cfb/modeling/in_season_rating_update_v1_weekly_ratings.json",
+          "evidence_row_count": 0,
+          "status": "complete"
+        }
+      ],
+      "summary": "Core ratings, projections, spreads, totals, and weekly updates are complete with guardrails."
+    },
+    "operations_layer": {
+      "components": [
+        {
+          "assessment": "Runbook exists and freezes model logic during refresh.",
+          "classification": "production",
+          "component": "weekly refresh",
+          "evidence_exists": true,
+          "evidence_path": "artifacts/cfb/operations/weekly_refresh_runbook_v1.json",
+          "evidence_row_count": 0,
+          "status": "complete"
+        },
+        {
+          "assessment": "Pipeline manifest is present with deterministic saved-snapshot guardrails and WARN status.",
+          "classification": "production",
+          "component": "production pipeline",
+          "evidence_exists": true,
+          "evidence_path": "artifacts/cfb/weekly/2026_WK01/pipeline/weekly_production_pipeline_manifest_v1.json",
+          "evidence_row_count": 0,
+          "status": "complete"
+        },
+        {
+          "assessment": "Snapshot manifest exists and records immutable-input guardrails.",
+          "classification": "production",
+          "component": "weekly snapshot",
+          "evidence_exists": true,
+          "evidence_path": "artifacts/cfb/weekly/2026_WK01/snapshot/weekly_snapshot_manifest_v1.json",
+          "evidence_row_count": 0,
+          "status": "complete"
+        },
+        {
+          "assessment": "Validator exists; current Week 1 state remains market unavailable / no actionable comparison.",
+          "classification": "guarded",
+          "component": "market refresh validation",
+          "evidence_exists": true,
+          "evidence_path": "artifacts/cfb/weekly/2026_WK01/operations/week1_market_refresh_validation_v1.json",
+          "evidence_row_count": 0,
+          "status": "complete"
+        },
+        {
+          "assessment": "Manifest reports Ready with Warnings and inventories delivery artifacts.",
+          "classification": "production",
+          "component": "delivery manifest",
+          "evidence_exists": true,
+          "evidence_path": "artifacts/cfb/operations/weekly_delivery_manifest_v1.json",
+          "evidence_row_count": 0,
+          "status": "complete"
+        },
+        {
+          "assessment": "CLI provides read-only operator status, warning, inventory, card, and narrative views.",
+          "classification": "production",
+          "component": "delivery CLI",
+          "evidence_exists": true,
+          "evidence_path": "private source evidence",
+          "evidence_row_count": 0,
+          "status": "complete"
+        },
+        {
+          "assessment": "Smoke artifact validates manifest, renderer, CLI consistency, determinism, and no mutation.",
+          "classification": "production",
+          "component": "smoke test",
+          "evidence_exists": true,
+          "evidence_path": "artifacts/cfb/operations/delivery_smoke_test_v1.json",
+          "evidence_row_count": 0,
+          "status": "complete"
+        }
+      ],
+      "operator_usability": {
+        "determinism": "ready",
+        "idempotency": "ready",
+        "operator_usability": "ready_with_warnings",
+        "repeatability": "ready"
+      },
+      "summary": "Weekly operations are repeatable, deterministic, idempotent, and operator-readable, with market refresh guarded."
+    },
+    "presentation_layer": {
+      "components": [
+        {
+          "assessment": "Contracts preserve card families, future hooks, and descriptive language policy.",
+          "classification": "production",
+          "component": "display contracts",
+          "evidence_exists": true,
+          "evidence_path": "artifacts/cfb/reporting/display_contracts_v1.json",
+          "evidence_row_count": 0,
+          "status": "complete"
+        },
+        {
+          "assessment": "Renderer reports deterministic, idempotent card output with team, game, weekly, and narrative cards.",
+          "classification": "production",
+          "component": "card renderer",
+          "evidence_exists": true,
+          "evidence_path": "artifacts/cfb/reporting/card_renderer_v1.json",
+          "evidence_row_count": 0,
+          "status": "complete"
+        }
+      ],
+      "readiness": {
+        "mobile": "ready_with_compact_card_guardrails",
+        "slack": "ready_for_read_only_payload_design",
+        "web": "ready_for_static_or_api_consumers"
+      },
+      "summary": "Display contracts and card renderer are ready for read-only mobile, Slack, and web-style consumption."
+    },
+    "reporting_layer": {
+      "components": [
+        {
+          "assessment": "Team capsules provide 136 team rows for read-only presentation context.",
+          "classification": "production",
+          "component": "team capsules",
+          "evidence_exists": true,
+          "evidence_path": "artifacts/cfb/reporting/team_capsules_v1.csv",
+          "evidence_row_count": 136,
+          "status": "complete"
+        },
+        {
+          "assessment": "Matchup Sheet v3 exists for 99 Week 1 games with spread, total, risk, and placeholder fields.",
+          "classification": "production",
+          "component": "matchup sheets",
+          "evidence_exists": true,
+          "evidence_path": "artifacts/cfb/weekly/2026_WK01/matchups/matchup_sheet_v3.json",
+          "evidence_row_count": 0,
+          "status": "complete"
+        },
+        {
+          "assessment": "Dashboard layer supports slate triage and downstream cards.",
+          "classification": "production",
+          "component": "weekly dashboard",
+          "evidence_exists": true,
+          "evidence_path": "artifacts/cfb/reporting/weekly_slate_dashboard_v2.json",
+          "evidence_row_count": 0,
+          "status": "complete"
+        },
+        {
+          "assessment": "Narrative report is present and generated from existing artifacts.",
+          "classification": "production",
+          "component": "narratives",
+          "evidence_exists": true,
+          "evidence_path": "artifacts/cfb/weekly/2026_WK01/reports/weekly_narrative_report_v1.json",
+          "evidence_row_count": 0,
+          "status": "complete"
+        }
+      ],
+      "presentation_assessment": {
+        "completeness": "ready",
+        "mobile_suitability": "ready_with_card_renderer",
+        "readability": "ready_with_dense_fields"
+      },
+      "summary": "Reporting is complete enough for weekly review, with known mobile-density limits."
+    },
+    "research_layer": {
+      "components": [
+        {
+          "assessment": "Prior calibration work is evidence history and not promoted into live projection math.",
+          "classification": "diagnostic_only",
+          "component": "calibration studies",
+          "evidence_exists": true,
+          "evidence_path": "artifacts/cfb/modeling/projection_calibration_audit_v1.json",
+          "evidence_row_count": 0,
+          "status": "diagnostic only"
+        },
+        {
+          "assessment": "Shadow validation is retained for monitoring and does not alter live outputs.",
+          "classification": "shadow_only",
+          "component": "shadow calibration",
+          "evidence_exists": true,
+          "evidence_path": "artifacts/cfb/modeling/shadow_calibration_validation_v1.json",
+          "evidence_row_count": 0,
+          "status": "diagnostic only"
+        },
+        {
+          "assessment": "Disagreement validation remains shadow-only with no stacked production promotion.",
+          "classification": "shadow_only",
+          "component": "disagreement studies",
+          "evidence_exists": true,
+          "evidence_path": "artifacts/cfb/modeling/disagreement_calibration_shadow_validation_v1.json",
+          "evidence_row_count": 0,
+          "status": "diagnostic only"
+        },
+        {
+          "assessment": "Advanced matchup diagnostics support review surfaces without replacing projection logic.",
+          "classification": "diagnostic_only",
+          "component": "matchup diagnostics",
+          "evidence_exists": true,
+          "evidence_path": "artifacts/cfb/market/advanced_matchup_diagnostics_v1_report.md",
+          "evidence_row_count": 0,
+          "status": "diagnostic only"
+        },
+        {
+          "assessment": "Confidence and risk flags guide review priority rather than automatic weighting.",
+          "classification": "diagnostic_only",
+          "component": "confidence/risk framework",
+          "evidence_exists": true,
+          "evidence_path": "artifacts/cfb/research/confidence_risk_flag_framework_v1.json",
+          "evidence_row_count": 0,
+          "status": "diagnostic only"
+        }
+      ],
+      "summary": "Research is preserved as evidence, with calibration and recommendation-style logic kept diagnostic or shadow-only."
+    },
+    "testing_layer": {
+      "components": [
+        {
+          "assessment": "Existing validation surface included in readiness review.",
+          "classification": "test_coverage",
+          "component": "compile status",
+          "evidence_exists": true,
+          "evidence_path": "python3 -m compileall src tests",
+          "evidence_row_count": 0,
+          "status": "complete"
+        },
+        {
+          "assessment": "Existing validation surface included in readiness review.",
+          "classification": "test_coverage",
+          "component": "focused readiness tests",
+          "evidence_exists": true,
+          "evidence_path": "private validation evidence",
+          "evidence_row_count": 0,
+          "status": "complete"
+        },
+        {
+          "assessment": "Existing validation surface included in readiness review.",
+          "classification": "test_coverage",
+          "component": "operations tests",
+          "evidence_exists": true,
+          "evidence_path": "private validation evidence; private validation evidence; private validation evidence; private validation evidence; private validation evidence; private validation evidence",
+          "evidence_row_count": 0,
+          "status": "complete"
+        },
+        {
+          "assessment": "Existing validation surface included in readiness review.",
+          "classification": "test_coverage",
+          "component": "reporting tests",
+          "evidence_exists": true,
+          "evidence_path": "private validation evidence; private validation evidence; private validation evidence; private validation evidence; private validation evidence",
+          "evidence_row_count": 0,
+          "status": "complete"
+        },
+        {
+          "assessment": "Existing validation surface included in readiness review.",
+          "classification": "test_coverage",
+          "component": "renderer tests",
+          "evidence_exists": true,
+          "evidence_path": "private validation evidence; private validation evidence",
+          "evidence_row_count": 0,
+          "status": "complete"
+        },
+        {
+          "assessment": "Existing validation surface included in readiness review.",
+          "classification": "test_coverage",
+          "component": "projection tests",
+          "evidence_exists": true,
+          "evidence_path": "private validation evidence; private validation evidence; private validation evidence; private validation evidence",
+          "evidence_row_count": 0,
+          "status": "complete"
+        },
+        {
+          "assessment": "Existing validation surface included in readiness review.",
+          "classification": "test_coverage",
+          "component": "smoke tests",
+          "evidence_exists": true,
+          "evidence_path": "private validation evidence; private validation evidence",
+          "evidence_row_count": 0,
+          "status": "complete"
+        }
+      ],
+      "confirmation": {
+        "deterministic": true,
+        "idempotent": true,
+        "read_only": true
+      },
+      "summary": "Focused tests exist across projections, operations, reporting, renderer, CLI, smoke, and reviews."
+    }
   },
-  "blocked_word_scan": {
-    "status": "PASS",
-    "checked_term_count": 5,
-    "hits": []
+  "metadata": {
+    "generated_at": "2026-06-23T00:00:00Z",
+    "governance_review_only": true,
+    "guardrails": {
+      "modifies_calibration": false,
+      "modifies_cli": false,
+      "modifies_manifests": false,
+      "modifies_projections": false,
+      "modifies_ratings": false,
+      "modifies_recommendations": false,
+      "modifies_renderer_outputs": false,
+      "modifies_reporting_generators": false,
+      "modifies_smoke_tests": false,
+      "modifies_spreads": false,
+      "modifies_totals": false,
+      "writes_only_review_artifacts": true
+    },
+    "production_behavior_changed": false,
+    "review": "cfb_delivery_readiness_review_v1",
+    "season": 2026,
+    "source_artifacts_only": true,
+    "study_name": "CFB Delivery Readiness Review v1"
+  },
+  "output_paths": {
+    "csv": "artifacts/cfb/operations/delivery_readiness_review_v1.csv",
+    "json": "artifacts/cfb/operations/delivery_readiness_review_v1.json",
+    "markdown": "artifacts/cfb/documentation/delivery_readiness_review_v1.md"
   },
   "preservation": {
-    "no_model_logic_changed": true,
-    "no_existing_artifacts_modified_by_review": true,
     "new_review_artifacts_only": [
       "artifacts/cfb/operations/delivery_readiness_review_v1.json",
       "artifacts/cfb/operations/delivery_readiness_review_v1.csv",
       "artifacts/cfb/documentation/delivery_readiness_review_v1.md"
-    ]
+    ],
+    "no_existing_artifacts_modified_by_review": true,
+    "no_model_logic_changed": true
   },
-  "output_paths": {
-    "json": "artifacts/cfb/operations/delivery_readiness_review_v1.json",
-    "csv": "artifacts/cfb/operations/delivery_readiness_review_v1.csv",
-    "markdown": "artifacts/cfb/documentation/delivery_readiness_review_v1.md"
+  "readiness_decision": {
+    "allowed_values": [
+      "Ready",
+      "Ready with Guardrails",
+      "Not Ready"
+    ],
+    "decision": "Ready with Guardrails",
+    "evidence_basis": "existing artifacts and source contracts only",
+    "rationale": "Existing artifacts show the weekly CFB delivery system is structurally ready for saved-input weekly operation, reporting, card rendering, CLI inspection, and smoke validation, with documented guardrails for missing live markets, two missing projections, inactive future hooks, and diagnostic-only research layers."
+  },
+  "source_artifacts_reviewed": {
+    "advanced_matchup_diagnostics": {
+      "exists": true,
+      "path": "artifacts/cfb/market/advanced_matchup_diagnostics_v1_report.md",
+      "row_count": 0
+    },
+    "card_renderer": {
+      "exists": true,
+      "path": "artifacts/cfb/reporting/card_renderer_v1.json",
+      "row_count": 0
+    },
+    "confidence_risk_framework": {
+      "exists": true,
+      "path": "artifacts/cfb/research/confidence_risk_flag_framework_v1.json",
+      "row_count": 0
+    },
+    "delivery_cli": {
+      "exists": true,
+      "path": "private source evidence",
+      "row_count": 0
+    },
+    "delivery_manifest": {
+      "exists": true,
+      "path": "artifacts/cfb/operations/weekly_delivery_manifest_v1.json",
+      "row_count": 0
+    },
+    "delivery_smoke_test": {
+      "exists": true,
+      "path": "artifacts/cfb/operations/delivery_smoke_test_v1.json",
+      "row_count": 0
+    },
+    "disagreement_shadow_validation": {
+      "exists": true,
+      "path": "artifacts/cfb/modeling/disagreement_calibration_shadow_validation_v1.json",
+      "row_count": 0
+    },
+    "display_contracts": {
+      "exists": true,
+      "path": "artifacts/cfb/reporting/display_contracts_v1.json",
+      "row_count": 0
+    },
+    "game_projection_framework": {
+      "exists": true,
+      "path": "artifacts/cfb/documentation/game_projection_framework_v1.md",
+      "row_count": 0
+    },
+    "in_season_rating_update": {
+      "exists": true,
+      "path": "artifacts/cfb/modeling/in_season_rating_update_v1_weekly_ratings.json",
+      "row_count": 0
+    },
+    "market_refresh_validation": {
+      "exists": true,
+      "path": "artifacts/cfb/weekly/2026_WK01/operations/week1_market_refresh_validation_v1.json",
+      "row_count": 0
+    },
+    "matchup_sheet": {
+      "exists": true,
+      "path": "artifacts/cfb/weekly/2026_WK01/matchups/matchup_sheet_v3.json",
+      "row_count": 0
+    },
+    "model_readiness_review": {
+      "exists": true,
+      "path": "artifacts/cfb/documentation/model_readiness_review_v1.md",
+      "row_count": 0
+    },
+    "preseason_model_assembly": {
+      "exists": true,
+      "path": "artifacts/cfb/modeling/preseason_model_assembly_v1_2026.json",
+      "row_count": 0
+    },
+    "presentation_stack_review": {
+      "exists": true,
+      "path": "artifacts/cfb/documentation/presentation_stack_review_v1.md",
+      "row_count": 0
+    },
+    "projected_spread_assembly": {
+      "exists": true,
+      "path": "artifacts/cfb/modeling/projected_spread_assembly_v1_2026.json",
+      "row_count": 0
+    },
+    "projection_calibration_audit": {
+      "exists": true,
+      "path": "artifacts/cfb/modeling/projection_calibration_audit_v1.json",
+      "row_count": 0
+    },
+    "shadow_calibration_validation": {
+      "exists": true,
+      "path": "artifacts/cfb/modeling/shadow_calibration_validation_v1.json",
+      "row_count": 0
+    },
+    "team_capsules": {
+      "exists": true,
+      "path": "artifacts/cfb/reporting/team_capsules_v1.csv",
+      "row_count": 136
+    },
+    "week1_end_to_end_audit": {
+      "exists": true,
+      "path": "artifacts/cfb/documentation/week1_end_to_end_readiness_audit_v1.md",
+      "row_count": 0
+    },
+    "weekly_dashboard": {
+      "exists": true,
+      "path": "artifacts/cfb/reporting/weekly_slate_dashboard_v2.json",
+      "row_count": 0
+    },
+    "weekly_narrative": {
+      "exists": true,
+      "path": "artifacts/cfb/weekly/2026_WK01/reports/weekly_narrative_report_v1.json",
+      "row_count": 0
+    },
+    "weekly_production_manifest": {
+      "exists": true,
+      "path": "artifacts/cfb/weekly/2026_WK01/pipeline/weekly_production_pipeline_manifest_v1.json",
+      "row_count": 0
+    },
+    "weekly_production_pipeline": {
+      "exists": true,
+      "path": "artifacts/cfb/weekly/2026_WK01/pipeline/weekly_production_pipeline_v1.json",
+      "row_count": 0
+    },
+    "weekly_refresh_runbook": {
+      "exists": true,
+      "path": "artifacts/cfb/operations/weekly_refresh_runbook_v1.json",
+      "row_count": 0
+    },
+    "weekly_snapshot_manifest": {
+      "exists": true,
+      "path": "artifacts/cfb/weekly/2026_WK01/snapshot/weekly_snapshot_manifest_v1.json",
+      "row_count": 0
+    }
+  },
+  "strengths": [
+    "Clear separation between core projections, research diagnostics, operations, reporting, presentation, and tests.",
+    "Saved-snapshot weekly production path is preserved with deterministic and read-only guardrails.",
+    "Delivery manifest and CLI give an operator-readable status without recalculating model outputs.",
+    "Card renderer provides team, game, weekly slate, and narrative card families for compact review.",
+    "Research layers remain observable without being promoted into core weighting."
+  ],
+  "validation_summary": {
+    "blocked_word_scan": "required_validation_command",
+    "compile_status": "required_validation_command",
+    "csv_validation": "required_validation_command",
+    "determinism_check": "required_validation_command",
+    "existing_cli_tests": "required_validation_command",
+    "existing_operations_tests": "required_validation_command",
+    "existing_projection_tests": "required_validation_command",
+    "existing_renderer_tests": "required_validation_command",
+    "existing_reporting_tests": "required_validation_command",
+    "existing_smoke_tests": "required_validation_command",
+    "focused_tests": "required_validation_command",
+    "idempotency_check": "required_validation_command",
+    "json_validation": "required_validation_command",
+    "markdown_validation": "required_validation_command",
+    "read_only_confirmation": true
   }
 }
