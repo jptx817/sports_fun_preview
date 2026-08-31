@@ -104,7 +104,7 @@
     "with_market_totals": 99,
     "with_model_projections": 99
   },
-  "generated_at": "2026-08-29T13:45:00Z",
+  "generated_at": "2026-08-31T00:43:07.575385Z",
   "git": {
     "branch": "main",
     "head": "784ed7d786c19184db99bfc1f1ad66764cead3c3"
@@ -155,7 +155,7 @@
   "projection_cutoff": "2026-09-07",
   "projection_digest": "83828f3f5f3f5f9d1af5b7e7a684466831df2347b8aa9b5fd59bea724fabcf16",
   "readiness_status": "READY_WITH_WARNINGS",
-  "run_id": "cfb-owner-review-2026-WK01-8e29a5c0dd81",
+  "run_id": "cfb-owner-review-2026-WK01-5f07894d2cce",
   "schema_version": "cfb-owner-review-workspace-manifest-v1",
   "season": 2026,
   "splash_summary": {
@@ -163,19 +163,34 @@
     "canonical_week": "2026_WK01",
     "locked_lines": 0,
     "midweek_games": 15,
-    "no_splash_contest_state_games": 99,
-    "not_on_splash_slate": 0,
+    "no_splash_contest_state_games": 0,
+    "not_on_splash_slate": 56,
     "not_yet_available": 0,
-    "splash_contest_found": false,
+    "splash_auth_status": "SPLASH_AUTH_FAILED",
+    "splash_contest_found": true,
     "splash_duplicate_mappings": 0,
+    "splash_game_state_counts": {},
+    "splash_game_status_counts": {
+      "scheduled": 43
+    },
     "splash_games_ambiguous": 0,
     "splash_games_mapped": 0,
     "splash_games_observed": 0,
     "splash_games_unmatched": 0,
-    "splash_lines_available": 0,
+    "splash_games_with_existing_pick_records": 10,
+    "splash_lines_available": 43,
     "splash_lines_changed": 0,
+    "splash_lines_deduplicated_this_run": 0,
+    "splash_picks_lock_time": "2026-09-05T16:00:00.000Z",
+    "splash_required_picks": 10,
+    "splash_selectable_games": 43,
+    "splash_slate_fully_locked_at": "2026-09-05T16:00:00.000Z",
+    "splash_spreads_lock_time": "2026-09-03T21:00:00.000Z",
+    "splash_tiebreaker_game": "SMU at Florida State",
+    "splash_tiebreaker_type": "points_total",
     "status_counts": {
-      "SPLASH_SLATE_NOT_OBSERVED": 99
+      "LINE_AVAILABLE": 43,
+      "NOT_ON_SPLASH_SLATE": 56
     },
     "unresolved_mappings": 0
   },
