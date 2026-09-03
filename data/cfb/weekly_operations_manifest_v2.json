@@ -2,15 +2,15 @@
   "canonical_market_snapshot": {
     "lifecycle": "captured_usable",
     "path": "artifacts/cfb/weekly/2026_WK01/snapshot/canonical_market_snapshot_v1.json",
-    "snapshot_id": "cfb-market-2026-wk01-decision_time-549198afb938"
+    "snapshot_id": "cfb-market-2026-wk01-decision_time-8f2474c7ce18"
   },
   "decision_support_gating": {
-    "market_coverage_state": "market_loaded_incomplete",
-    "market_coverage_sufficient": false,
+    "market_coverage_state": "market_loaded_complete",
+    "market_coverage_sufficient": true,
     "published_recommendation_count": 0,
     "recommendation_style_output_allowed": false,
     "recommendations_production_approved": false,
-    "shadow_candidate_count": 99
+    "shadow_candidate_count": 91
   },
   "errors": [],
   "future_hooks": {
@@ -84,13 +84,16 @@
     "recommendation_style_outputs_disabled_without_explicit_approval": true,
     "shadow_layers_read_only": true,
     "splash_enrichment_does_not_define_slate": true,
+    "splash_retrieval_read_only": true,
+    "splash_selection_values_persisted": false,
+    "splash_selection_values_used_for_modeling": false,
     "splash_values_do_not_overwrite_market_fields": true
   },
   "input_artifact_paths": {
     "advanced_team_metrics": "artifacts/cfb/modeling/weekly_advanced_metrics_v1.csv",
     "betting_lines": "saved market input",
     "canonical_market_snapshot": "artifacts/cfb/weekly/2026_WK01/snapshot/canonical_market_snapshot_v1.json",
-    "canonical_market_snapshot_id": "cfb-market-2026-wk01-decision_time-549198afb938",
+    "canonical_market_snapshot_id": "cfb-market-2026-wk01-decision_time-8f2474c7ce18",
     "canonical_market_snapshot_lifecycle": "captured_usable",
     "current_team_ratings_inputs": "artifacts/cfb/modeling/preseason_model_assembly_v1_2026.csv",
     "environment_inputs": "artifacts/cfb/environment/game_environment_model_v1_2026.csv",
@@ -107,7 +110,7 @@
     "games_with_total": 99,
     "market_coverage_state": "market_loaded_incomplete",
     "market_loaded": true,
-    "market_source_row_count": 143,
+    "market_source_row_count": 144,
     "market_source_status": "loaded",
     "market_state_detail": "Market rows loaded but coverage is incomplete.",
     "missing_market_rows": 2,
@@ -117,17 +120,56 @@
     },
     "recommendation_style_output_allowed": false
   },
-  "market_validation_summary": {},
+  "market_validation_summary": {
+    "both_spread_total_coverage": 1.0,
+    "duplicate_market_rows": 0,
+    "final_market_state": "market_loaded_complete",
+    "games_with_both_spread_and_total": 99,
+    "games_with_spread": 99,
+    "games_with_total": 99,
+    "joined_market_row_count": 99,
+    "missing_market_rows": 0,
+    "normalized_market_row_count": 144,
+    "provider_source_gaps": 0,
+    "raw_market_row_count": 144,
+    "recommended_gating_action": "allow_model_vs_market_diagnostics_only; keep_recommendations_disabled_without_explicit_approval",
+    "season": 2026,
+    "slate_game_count": 99,
+    "spread_coverage": 1.0,
+    "stale_timestamp_warnings": 0,
+    "thresholds": {
+      "complete_min": 0.95,
+      "empty": 0.0,
+      "incomplete_min": 0.0,
+      "partial_min": 0.25,
+      "usable_min": 0.75
+    },
+    "total_coverage": 1.0,
+    "unmatched_market_rows": 45,
+    "week": 1
+  },
   "mode": "production",
   "orchestrator": "cfb_weekly_operations_v2",
   "output_artifact_paths": {
+    "csv": "artifacts/cfb/weekly/2026_WK01/postgame/weekly_postgame_grading_v1.csv",
     "decision_support_gating_json": "artifacts/cfb/weekly/2026_WK01/operations/weekly_decision_support_gating_v2.json",
+    "json": "artifacts/cfb/weekly/2026_WK01/postgame/weekly_postgame_grading_v1.json",
+    "markdown": "artifacts/cfb/weekly/2026_WK01/postgame/weekly_postgame_grading_v1.md",
     "market_coverage_csv": "artifacts/cfb/weekly/2026_WK01/operations/weekly_market_coverage_report_v2.csv",
     "market_coverage_json": "artifacts/cfb/weekly/2026_WK01/operations/weekly_market_coverage_report_v2.json",
     "market_coverage_md": "artifacts/cfb/weekly/2026_WK01/operations/weekly_market_coverage_report_v2.md",
+    "market_validation_csv": "artifacts/cfb/weekly/2026_WK01/operations/week1_market_refresh_validation_v1.csv",
+    "market_validation_json": "artifacts/cfb/weekly/2026_WK01/operations/week1_market_refresh_validation_v1.json",
+    "market_validation_markdown": "artifacts/cfb/weekly/2026_WK01/operations/week1_market_refresh_validation_v1.md",
+    "research_triage_csv": "artifacts/cfb/weekly/2026_WK01/research/week1_research_triage_v1.csv",
+    "research_triage_history": "artifacts/cfb/weekly/2026_WK01/research/week1_research_triage_history_v1.json",
+    "research_triage_json": "artifacts/cfb/weekly/2026_WK01/research/week1_research_triage_v1.json",
+    "research_triage_markdown": "artifacts/cfb/weekly/2026_WK01/research/week1_research_triage_v1.md",
     "splash_splash_intake_audit": "artifacts/cfb/weekly/2026_WK01/splash/splash_intake_audit_v1.json",
     "splash_splash_intake_summary": "artifacts/cfb/weekly/2026_WK01/splash/splash_intake_summary_v1.md",
     "splash_splash_observations": "artifacts/cfb/weekly/2026_WK01/splash/splash_observations_v1.json",
+    "splash_splash_response_schema_json": "artifacts/cfb/weekly/2026_WK01/splash/splash_response_schema_v1.json",
+    "splash_splash_response_schema_markdown": "artifacts/cfb/weekly/2026_WK01/splash/splash_response_schema_v1.md",
     "splash_splash_weekly_state_csv": "artifacts/cfb/weekly/2026_WK01/splash/splash_weekly_state_v1.csv",
     "splash_splash_weekly_state_json": "artifacts/cfb/weekly/2026_WK01/splash/splash_weekly_state_v1.json",
     "splash_weekly_research_run_manifest": "artifacts/cfb/weekly/2026_WK01/splash/weekly_research_run_manifest_v1.json",
@@ -158,12 +200,21 @@
     {
       "detail": "Market rows loaded but coverage is incomplete.",
       "status": "market_loaded"
+    },
+    {
+      "detail": "PASS",
+      "status": "research_triage_complete"
+    },
+    {
+      "detail": "WARN",
+      "status": "postgame_grading_complete"
     }
   ],
   "phase_statuses_supported": [
     "preseason_snapshot_available",
     "live_data_refreshed",
     "splash_refresh_complete",
+    "research_triage_complete",
     "market_missing",
     "market_loaded",
     "projections_generated",
@@ -172,9 +223,50 @@
     "completed_with_warnings",
     "failed"
   ],
-  "reproducibility_hash": "6b6304b948867954c0200c88d6d7609b80ea2c3ec1c7050601537bca0af5470b",
+  "reproducibility_hash": "38f5b85a74fff10c09f70b169cacf57e1bc3aede3b8bb28bbdfccbb7f8de356b",
+  "research_triage_summary": {
+    "category_counts": {
+      "MISSING DATA": 2,
+      "PASS": 6,
+      "PRIORITY": 39,
+      "WATCH": 52
+    },
+    "early_decision_games": 15,
+    "games": 99,
+    "market_summary": {
+      "complete_model_vs_market_comparisons": 97,
+      "games_on_slate": 99,
+      "games_with_spread": 99,
+      "games_with_total": 99,
+      "market_coverage_state": "market_loaded_incomplete",
+      "market_loaded": true,
+      "market_source_row_count": 144,
+      "market_source_status": "loaded",
+      "market_state_detail": "Market rows loaded but coverage is incomplete.",
+      "missing_market_rows": 2,
+      "provider_counts": {
+        "DraftKings": 48,
+        "derived_consensus": 51
+      },
+      "recommendation_style_output_allowed": false
+    },
+    "missing_data_games": 2,
+    "pass_games": 6,
+    "priority_games": 39,
+    "recommendation_gate_closed": true,
+    "refresh_status": {
+      "latest_live_attempt_errors": [],
+      "latest_live_attempt_status": "success",
+      "latest_live_attempt_timestamp": "2026-09-02T03:26:06Z"
+    },
+    "splash_status_counts": {
+      "LINE_AVAILABLE": 43,
+      "SPLASH_SLATE_NOT_OBSERVED": 56
+    },
+    "watch_games": 52
+  },
   "row_counts": {
-    "actionable_count": 99,
+    "actionable_count": 91,
     "dashboard_row_count": 99,
     "fcs_placeholder_count": 48,
     "market_coverage_rows": 99,
@@ -185,16 +277,18 @@
     "matchup_row_count": 99,
     "missing_market_count": 0,
     "narrative_game_count": 99,
+    "postgame_grade_rows": 99,
+    "postgame_graded_games": 0,
     "projection_count": 99,
     "ratings_count": 136,
-    "recommendation_count": 99,
+    "recommendation_count": 91,
     "slate_segment_distribution": {
       "early_week0_like": 8,
       "main_week1": 91
     },
     "slate_window_filter": "all",
     "snapshot_advanced_team_metrics": 138,
-    "snapshot_betting_lines": 143,
+    "snapshot_betting_lines": 144,
     "snapshot_current_team_ratings_inputs": 136,
     "snapshot_environment_inputs": 99,
     "snapshot_rankings_ratings_snapshots": 25,
@@ -203,7 +297,7 @@
     "snapshot_team_metadata": 136,
     "valid_refreshed_market_count": 99
   },
-  "run_timestamp": "2026-08-29T13:45:00Z",
+  "run_timestamp": "2026-09-02T03:26:06Z",
   "season": 2026,
   "slate_window": "all",
   "splash_summary": {
@@ -211,24 +305,40 @@
     "canonical_week": "2026_WK01",
     "locked_lines": 0,
     "midweek_games": 15,
-    "no_splash_contest_state_games": 99,
+    "no_splash_contest_state_games": 56,
     "not_on_splash_slate": 0,
     "not_yet_available": 0,
+    "splash_auth_status": "",
     "splash_contest_found": false,
     "splash_duplicate_mappings": 0,
+    "splash_game_state_counts": {},
+    "splash_game_status_counts": {
+      "scheduled": 43
+    },
     "splash_games_ambiguous": 0,
     "splash_games_mapped": 0,
     "splash_games_observed": 0,
     "splash_games_unmatched": 0,
-    "splash_lines_available": 0,
+    "splash_games_with_existing_pick_records": 10,
+    "splash_lines_available": 43,
     "splash_lines_changed": 0,
+    "splash_lines_deduplicated_this_run": 0,
+    "splash_picks_lock_time": "2026-09-05T16:00:00.000Z",
+    "splash_required_picks": 10,
+    "splash_selectable_games": 43,
+    "splash_slate_fully_locked_at": "2026-09-05T16:00:00.000Z",
+    "splash_spreads_lock_time": "2026-09-03T21:00:00.000Z",
+    "splash_tiebreaker_game": "SMU at Florida State",
+    "splash_tiebreaker_type": "points_total",
     "status_counts": {
-      "SPLASH_SLATE_NOT_OBSERVED": 99
+      "LINE_AVAILABLE": 43,
+      "SPLASH_SLATE_NOT_OBSERVED": 56
     },
     "unresolved_mappings": 0
   },
   "status": "completed_with_warnings",
   "warnings": [
+    "45 normalized market rows do not match the Week 1 slate.",
     "FCS placeholder retained: Abilene Christian at Texas Tech (2026:1:Abilene Christian:Texas Tech:2026-09-05T23:00:00.000Z:67).",
     "FCS placeholder retained: Alcorn State at Southern Miss (2026:1:Alcorn State:Southern Miss:2026-09-05T21:00:00.000Z:61).",
     "FCS placeholder retained: Arkansas-Pine Bluff at Missouri (2026:1:Arkansas-Pine Bluff:Missouri:2026-09-04T00:00:00.000Z:16).",
@@ -280,6 +390,7 @@
     "FCS placeholders were preserved as explicit low-confidence rows.",
     "Market unavailable / no actionable comparison: Market rows loaded but coverage is incomplete.",
     "No Splash manual input path supplied; recorded SPLASH_SLATE_NOT_OBSERVED state.",
+    "No final-score rows available at artifacts/cfb/weekly/2026_WK01/postgame/final_scores.csv; games remain ungraded.",
     "Recommendation-style output disabled; shadow candidates remain read-only diagnostics.",
     "SPLASH_SLATE_NOT_OBSERVED: full weekly slate retained without Splash enrichment."
   ],
