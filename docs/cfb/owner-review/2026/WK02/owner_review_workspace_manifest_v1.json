@@ -89,33 +89,27 @@
       "name": "missing_markets",
       "severity": "warning",
       "status": "WARN"
-    },
-    {
-      "message": "Some games use FCS placeholder context.",
-      "name": "fcs_placeholders",
-      "severity": "warning",
-      "status": "WARN"
     }
   ],
   "counts": {
     "completed_games": 0,
-    "early_decision_games": 13,
-    "games": 303,
-    "missing_markets": 218,
+    "early_decision_games": 5,
+    "games": 86,
+    "missing_markets": 1,
     "owner_feedback": 0,
-    "priority_games": 33,
-    "triaged_games": 303,
-    "uncertainty_warnings": 39,
-    "upcoming_games": 303,
-    "watch_games": 47,
+    "priority_games": 0,
+    "triaged_games": 86,
+    "uncertainty_warnings": 0,
+    "upcoming_games": 86,
+    "watch_games": 0,
     "with_market_spreads": 84,
     "with_market_totals": 85,
-    "with_model_projections": 303
+    "with_model_projections": 86
   },
-  "generated_at": "2026-09-10T03:01:37.645166Z",
+  "generated_at": "2026-09-10T12:25:00Z",
   "git": {
     "branch": "main",
-    "head": "54f96a606f81498dfec18ded94b98e2d38843dc6"
+    "head": "6fee8ebf2107b49b782dd98d96245d149aab8aa1"
   },
   "guardrails": {
     "champion_model_changed": false,
@@ -150,7 +144,7 @@
     "timestamp_america_chicago": "2026-09-09T21:59:03-05:00",
     "timestamp_utc": "2026-09-10T02:59:03Z"
   },
-  "market_snapshot_id": "cfb-market-2026-wk02-decision_time-5e9e75e2e51f",
+  "market_snapshot_id": "cfb-market-2026-wk02-decision_time-9cf5ca6892bc",
   "model_id": "cfb_weekly_operations_v2:artifacts/cfb/modeling/projected_spread_assembly_v1_2026.csv",
   "output_paths": {
     "css": "artifacts/site/sports_fun_dashboard_v1/assets/cfb_owner_review_v1.css",
@@ -165,23 +159,23 @@
     "workspace_json": "artifacts/site/sports_fun_dashboard_v1/cfb/owner-review/2026/WK02/owner_review_workspace_v1.json"
   },
   "projection_cutoff": "2026-09-13",
-  "projection_digest": "01708bff8f0322085526c89cde255efee5890fa5d268a5d220a0834016d38912",
+  "projection_digest": "e8e986cbd738643507661f230d291b73b6ca39942c62a9e35a366ae1355ee0fe",
   "readiness_status": "READY_WITH_WARNINGS",
-  "run_id": "cfb-owner-review-2026-WK02-2f9a0422d315",
+  "run_id": "cfb-owner-review-2026-WK02-3f7ba7ab17f4",
   "schema_version": "cfb-owner-review-workspace-manifest-v1",
   "season": 2026,
   "splash_summary": {
-    "canonical_games": 303,
+    "canonical_games": 86,
     "canonical_week": "2026_WK02",
     "latest_successful_observation_at": "2026-09-09T10:03:00Z",
     "line_status_counts": {
-      "": 254,
+      "": 37,
       "LINE_AVAILABLE": 49
     },
     "locked_lines": 0,
-    "midweek_games": 13,
+    "midweek_games": 5,
     "no_splash_contest_state_games": 0,
-    "not_on_splash_slate": 254,
+    "not_on_splash_slate": 37,
     "not_yet_available": 0,
     "retained_snapshot_usable": true,
     "splash_auth_status": "",
@@ -196,9 +190,9 @@
     "splash_games_with_existing_pick_records": 0,
     "splash_lines_available": 49,
     "splash_lines_changed": 0,
-    "splash_lines_deduplicated_this_run": 0,
+    "splash_lines_deduplicated_this_run": 49,
     "splash_picks_lock_time": "2026-09-12T16:00:00Z",
-    "splash_refresh_attempt_at": "2026-09-10T03:01:37.336421Z",
+    "splash_refresh_attempt_at": "2026-09-10T12:20:00Z",
     "splash_refresh_attempt_status": "success",
     "splash_refresh_error_category": "",
     "splash_required_picks": 10,
@@ -208,18 +202,18 @@
     "splash_tiebreaker_game": "New Mexico State at Hawai'i",
     "splash_tiebreaker_type": "points_total",
     "status_counts": {
-      "FRESH": 49,
-      "NOT_ON_SPLASH_SLATE": 254
+      "NOT_ON_SPLASH_SLATE": 37,
+      "STALE": 49
     },
     "unresolved_mappings": 0
   },
   "team_branding_summary": {
-    "fallback_or_unmatched": 312,
-    "logo_matches": 518,
-    "primary_secondary_color_matches": 293,
-    "readability_text_color_overrides": 122,
-    "team_capsule_matches": 183,
-    "teams": 605
+    "fallback_or_unmatched": 7,
+    "logo_matches": 172,
+    "primary_secondary_color_matches": 165,
+    "readability_text_color_overrides": 64,
+    "team_capsule_matches": 140,
+    "teams": 172
   },
   "week": 2
 }
