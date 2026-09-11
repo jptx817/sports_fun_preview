@@ -106,10 +106,10 @@
     "with_market_totals": 85,
     "with_model_projections": 86
   },
-  "generated_at": "2026-09-10T12:25:00Z",
+  "generated_at": "2026-09-10T22:06:36Z",
   "git": {
     "branch": "main",
-    "head": "6fee8ebf2107b49b782dd98d96245d149aab8aa1"
+    "head": "850eda5fb937b6a7e161d17a00bee296a7822a1f"
   },
   "guardrails": {
     "champion_model_changed": false,
@@ -139,12 +139,12 @@
   "latest_market_success": {
     "latest_market_csv": "data/manual/cfb/market_lines_2026_latest.csv",
     "provider_policy": "consensus_market_v1",
-    "refresh_run_id": "cfb-market-refresh-2026-WK02-20260910025903-74e98b8c",
-    "snapshot_path": "artifacts/cfb/market/refreshes/2026_WK02/cfb-market-refresh-2026-WK02-20260910025903-74e98b8c/market_lines.csv",
-    "timestamp_america_chicago": "2026-09-09T21:59:03-05:00",
-    "timestamp_utc": "2026-09-10T02:59:03Z"
+    "refresh_run_id": "cfb-market-refresh-2026-WK02-20260910220636-c1d32cc4",
+    "snapshot_path": "artifacts/cfb/market/refreshes/2026_WK02/cfb-market-refresh-2026-WK02-20260910220636-c1d32cc4/market_lines.csv",
+    "timestamp_america_chicago": "2026-09-10T17:06:36-05:00",
+    "timestamp_utc": "2026-09-10T22:06:36Z"
   },
-  "market_snapshot_id": "cfb-market-2026-wk02-decision_time-9cf5ca6892bc",
+  "market_snapshot_id": "cfb-market-2026-wk02-decision_time-c73d9ce212b2",
   "model_id": "cfb_weekly_operations_v2:artifacts/cfb/modeling/projected_spread_assembly_v1_2026.csv",
   "output_paths": {
     "css": "artifacts/site/sports_fun_dashboard_v1/assets/cfb_owner_review_v1.css",
@@ -159,20 +159,20 @@
     "workspace_json": "artifacts/site/sports_fun_dashboard_v1/cfb/owner-review/2026/WK02/owner_review_workspace_v1.json"
   },
   "projection_cutoff": "2026-09-13",
-  "projection_digest": "e8e986cbd738643507661f230d291b73b6ca39942c62a9e35a366ae1355ee0fe",
+  "projection_digest": "e5df51d9ae679e9ca8eab9b88c33135d87ae699a37d6ae313fef365759882216",
   "readiness_status": "READY_WITH_WARNINGS",
-  "run_id": "cfb-owner-review-2026-WK02-3f7ba7ab17f4",
+  "run_id": "cfb-owner-review-2026-WK02-30bc6ebf3531",
   "schema_version": "cfb-owner-review-workspace-manifest-v1",
   "season": 2026,
   "splash_summary": {
     "canonical_games": 86,
     "canonical_week": "2026_WK02",
-    "latest_successful_observation_at": "2026-09-09T10:03:00Z",
+    "latest_successful_observation_at": "2026-09-10T21:41:00Z",
     "line_status_counts": {
       "": 37,
-      "LINE_AVAILABLE": 49
+      "LOCKED": 49
     },
-    "locked_lines": 0,
+    "locked_lines": 49,
     "midweek_games": 5,
     "no_splash_contest_state_games": 0,
     "not_on_splash_slate": 37,
@@ -189,10 +189,10 @@
     "splash_games_unmatched": 0,
     "splash_games_with_existing_pick_records": 0,
     "splash_lines_available": 49,
-    "splash_lines_changed": 0,
-    "splash_lines_deduplicated_this_run": 49,
+    "splash_lines_changed": 16,
+    "splash_lines_deduplicated_this_run": 0,
     "splash_picks_lock_time": "2026-09-12T16:00:00Z",
-    "splash_refresh_attempt_at": "2026-09-10T12:20:00Z",
+    "splash_refresh_attempt_at": "2026-09-10T22:06:36Z",
     "splash_refresh_attempt_status": "success",
     "splash_refresh_error_category": "",
     "splash_required_picks": 10,
@@ -202,8 +202,8 @@
     "splash_tiebreaker_game": "New Mexico State at Hawai'i",
     "splash_tiebreaker_type": "points_total",
     "status_counts": {
-      "NOT_ON_SPLASH_SLATE": 37,
-      "STALE": 49
+      "FRESH": 49,
+      "NOT_ON_SPLASH_SLATE": 37
     },
     "unresolved_mappings": 0
   },
