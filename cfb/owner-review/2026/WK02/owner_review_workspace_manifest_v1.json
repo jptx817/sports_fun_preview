@@ -89,6 +89,12 @@
       "name": "missing_markets",
       "severity": "warning",
       "status": "WARN"
+    },
+    {
+      "message": "Some games use FCS placeholder context.",
+      "name": "fcs_placeholders",
+      "severity": "warning",
+      "status": "WARN"
     }
   ],
   "counts": {
@@ -99,17 +105,19 @@
     "owner_feedback": 0,
     "priority_games": 0,
     "triaged_games": 86,
-    "uncertainty_warnings": 0,
+    "uncertainty_warnings": 39,
     "upcoming_games": 86,
     "watch_games": 0,
     "with_market_spreads": 84,
     "with_market_totals": 85,
-    "with_model_projections": 86
+    "with_model_projections": 86,
+    "with_model_spreads": 86,
+    "with_model_totals": 86
   },
   "generated_at": "2026-09-10T22:06:36Z",
   "git": {
     "branch": "main",
-    "head": "850eda5fb937b6a7e161d17a00bee296a7822a1f"
+    "head": "1d3a86167234f7bf2caa3e2aa74a5fd98ef4ee0c"
   },
   "guardrails": {
     "champion_model_changed": false,
@@ -153,15 +161,17 @@
     "latest_page": "artifacts/site/sports_fun_dashboard_v1/cfb/owner-review/latest.html",
     "manifest": "artifacts/site/sports_fun_dashboard_v1/cfb/owner-review/2026/WK02/owner_review_workspace_manifest_v1.json",
     "owner_review_index": "artifacts/site/sports_fun_dashboard_v1/cfb/owner-review/index.html",
+    "print_page": "artifacts/site/sports_fun_dashboard_v1/cfb/owner-review/2026/WK02/print.html",
+    "print_pdf": "artifacts/site/sports_fun_dashboard_v1/cfb/owner-review/2026/WK02/week-2-cheat-sheet.pdf",
     "site_css": "artifacts/site/sports_fun_dashboard_v1/assets/site.css",
     "summary_json": "artifacts/cfb/owner_feedback/2026/WK02/owner_review_summary_v1.json",
     "summary_md": "artifacts/cfb/owner_feedback/2026/WK02/owner_review_summary_v1.md",
     "workspace_json": "artifacts/site/sports_fun_dashboard_v1/cfb/owner-review/2026/WK02/owner_review_workspace_v1.json"
   },
   "projection_cutoff": "2026-09-13",
-  "projection_digest": "e5df51d9ae679e9ca8eab9b88c33135d87ae699a37d6ae313fef365759882216",
+  "projection_digest": "a068d6555d7f2fdd2666b9d7bb5ddc0527c308a88a564f1efd18e41d7bcc6b7c",
   "readiness_status": "READY_WITH_WARNINGS",
-  "run_id": "cfb-owner-review-2026-WK02-30bc6ebf3531",
+  "run_id": "cfb-owner-review-2026-WK02-251f58e41e9a",
   "schema_version": "cfb-owner-review-workspace-manifest-v1",
   "season": 2026,
   "splash_summary": {
