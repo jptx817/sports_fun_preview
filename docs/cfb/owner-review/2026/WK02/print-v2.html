@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>2026 Week 2 Locked Splash Cheat Sheet</title>
+  <style>
+@page { size: Letter landscape; margin: 0.1in; }
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; max-width: 100%; overflow-x: hidden; background: #fff; color: #111; font-family: Arial, Helvetica, sans-serif; }
+body { font-size: 5.15pt; line-height: 0.9; }
+.screen-actions { padding: 12px; display: flex; gap: 8px; }
+.screen-actions button, .screen-actions a { border: 1px solid #111; background: #111; color: #fff; padding: 8px 10px; font: 600 14px Arial, sans-serif; text-decoration: none; cursor: pointer; }
+.sheet { width: 10.8in; min-height: 7.25in; margin: 0 auto; padding: 0; }
+.sheet-header { display: grid; grid-template-columns: 1.1fr 1fr; gap: 8px; align-items: end; border-bottom: 1px solid #111; padding-bottom: 1px; margin-bottom: 1px; }
+h1 { font-size: 8.8pt; line-height: 0.95; margin: 0; letter-spacing: 0; }
+p { margin: 0; }
+.legend { font-size: 4.8pt; text-align: right; overflow-wrap: anywhere; }
+.tiebreaker { display: grid; grid-template-columns: auto 1fr; gap: 8px; border: 0.8px solid #111; padding: 0 3px; margin-bottom: 1px; font-size: 5.1pt; align-items: center; }
+.blank { border-bottom: 0.8px solid #111; min-height: 6px; text-align: left; color: #333; }
+.columns { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 5px; }
+.col { min-width: 0; }
+.game { border: 0.45px solid #222; padding: 0 1px; margin-bottom: 0.2px; break-inside: avoid; page-break-inside: avoid; overflow: hidden; }
+.time { font-weight: 700; font-size: 4.7pt; color: #111; white-space: nowrap; margin-bottom: 0; }
+.game-table { width: 100%; border-collapse: collapse; table-layout: fixed; font-variant-numeric: tabular-nums; }
+.game-table th { text-align: right; font-size: 4.3pt; border-bottom: 0.35px solid #777; font-weight: 700; padding: 0 1px; line-height: 0.86; }
+.game-table th:first-child { text-align: left; width: 22%; }
+.game-table th:not(:first-child) { width: 26%; }
+.game-table td { padding: 0 1px; white-space: nowrap; line-height: 0.86; }
+.team-cell { font-weight: 700; text-align: left; }
+.num { text-align: right; }
+.box { width: 4.5px; height: 4.5px; border: 0.7px solid #111; display: inline-block; margin-right: 2px; vertical-align: -0.4px; }
+footer { border-top: 0.8px solid #111; padding-top: 0; margin-top: 0.5px; font-size: 4.8pt; background: #fff; }
+@media screen {
+  body { background: #e9e9e9; font-size: 12px; }
+  .sheet { background: #fff; min-height: auto; padding: 16px; box-shadow: 0 2px 16px rgba(0,0,0,.16); width: min(100%, 11in); }
+  footer { position: static; margin-top: 8px; }
+}
+@media (max-width: 700px) {
+  .screen-actions { padding: 6px; }
+  .sheet { padding: 6px; width: 100%; }
+  .sheet-header { grid-template-columns: 1fr; gap: 2px; }
+  h1 { font-size: 10px; }
+  .sheet-header p, .legend, .tiebreaker { font-size: 8px; }
+  .legend { text-align: left; }
+  .tiebreaker { gap: 5px; }
+  .columns { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 3px; }
+  .game { padding: 1px; margin-bottom: 1px; }
+  .time { font-size: 7px; }
+  .game-table th, .game-table td { font-size: 7px; padding: 0 1px; }
+  .box { width: 5px; height: 5px; margin-right: 1px; }
+}
+@media print {
+  .screen-actions { display: none !important; }
+  .sheet { width: auto; min-height: auto; }
+  footer { position: static; }
+}
+</style>
+</head>
+<body data-cfb-print-cheat-sheet>
+  <div class="screen-actions">
+    <button type="button" onclick="window.print()">Print / Save PDF</button>
+    <a href="week-2-cheat-sheet-v2.pdf">Download PDF</a>
+  </div>
+  <main class="sheet">
+    <header class="sheet-header">
+      <div>
+        <h1>2026 Week 2 Locked Splash Cheat Sheet</h1>
+        <p>Pick 10 | Splash final Thu 4:41 PM CT | Market Thu 5:06 PM CT</p>
+      </div>
+      <div class="legend">Model = model spread reference · Market = current market spread · Splash = locked contest spread</div>
+    </header>
+    <section class="tiebreaker">
+      <strong>Tiebreaker:</strong> NMSU at HAW
+      <span class="blank">Predicted combined score</span>
+    </section>
+    <section class="columns" aria-label="Locked Splash games">
+      <div class="col" data-print-column="1">
+      <article class="game" data-game-id="401858214">
+        <div class="time">Fri 6:30 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="RUTG"><td class="team-cell"><span class="box" aria-hidden="true"></span>RUTG</td><td class="num">+4.3</td><td class="num">+3.5</td><td class="num">+3.5</td></tr><tr data-print-side="home" data-team-abbrev="BC"><td class="team-cell"><span class="box" aria-hidden="true"></span>BC</td><td class="num">-4.3</td><td class="num">-3.5</td><td class="num">-3.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401856678">
+        <div class="time">Fri 7:00 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="MIZZ"><td class="team-cell"><span class="box" aria-hidden="true"></span>MIZZ</td><td class="num">-6.4</td><td class="num">-5.5</td><td class="num">-4.5</td></tr><tr data-print-side="home" data-team-abbrev="KU"><td class="team-cell"><span class="box" aria-hidden="true"></span>KU</td><td class="num">+6.4</td><td class="num">+5.5</td><td class="num">+4.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401864571">
+        <div class="time">Sat 11:00 AM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="APP"><td class="team-cell"><span class="box" aria-hidden="true"></span>APP</td><td class="num">+12.2</td><td class="num">+6.8</td><td class="num">+6.5</td></tr><tr data-print-side="home" data-team-abbrev="ECU"><td class="team-cell"><span class="box" aria-hidden="true"></span>ECU</td><td class="num">-12.2</td><td class="num">-6.8</td><td class="num">-6.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401856683">
+        <div class="time">Sat 11:00 AM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="ASU"><td class="team-cell"><span class="box" aria-hidden="true"></span>ASU</td><td class="num">+7.3</td><td class="num">+14.2</td><td class="num">+14.5</td></tr><tr data-print-side="home" data-team-abbrev="TXAM"><td class="team-cell"><span class="box" aria-hidden="true"></span>TXAM</td><td class="num">-7.3</td><td class="num">-14.2</td><td class="num">-14.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401856679">
+        <div class="time">Sat 11:00 AM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="OKLA"><td class="team-cell"><span class="box" aria-hidden="true"></span>OKLA</td><td class="num">+6.3</td><td class="num">-5.2</td><td class="num">-5.5</td></tr><tr data-print-side="home" data-team-abbrev="MICH"><td class="team-cell"><span class="box" aria-hidden="true"></span>MICH</td><td class="num">-6.3</td><td class="num">+5.2</td><td class="num">+5.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401858221">
+        <div class="time">Sat 11:00 AM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="ODU"><td class="team-cell"><span class="box" aria-hidden="true"></span>ODU</td><td class="num">-10.7</td><td class="num">+19.2</td><td class="num">+18.5</td></tr><tr data-print-side="home" data-team-abbrev="VT"><td class="team-cell"><span class="box" aria-hidden="true"></span>VT</td><td class="num">+10.7</td><td class="num">-19.2</td><td class="num">-18.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401856782">
+        <div class="time">Sat 11:00 AM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="ORE"><td class="team-cell"><span class="box" aria-hidden="true"></span>ORE</td><td class="num">-31.4</td><td class="num">-23.2</td><td class="num">-23.5</td></tr><tr data-print-side="home" data-team-abbrev="OKST"><td class="team-cell"><span class="box" aria-hidden="true"></span>OKST</td><td class="num">+31.4</td><td class="num">+23.2</td><td class="num">+23.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401858442">
+        <div class="time">Sat 11:00 AM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="PSU"><td class="team-cell"><span class="box" aria-hidden="true"></span>PSU</td><td class="num">-21.2</td><td class="num">-23.8</td><td class="num">-23.5</td></tr><tr data-print-side="home" data-team-abbrev="TEM"><td class="team-cell"><span class="box" aria-hidden="true"></span>TEM</td><td class="num">+21.2</td><td class="num">+23.8</td><td class="num">+23.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401862702">
+        <div class="time">Sat 11:00 AM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="USF"><td class="team-cell"><span class="box" aria-hidden="true"></span>USF</td><td class="num">-1.2</td><td class="num">+3.5</td><td class="num">+3.5</td></tr><tr data-print-side="home" data-team-abbrev="ARMY"><td class="team-cell"><span class="box" aria-hidden="true"></span>ARMY</td><td class="num">+1.2</td><td class="num">-3.5</td><td class="num">-3.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401858224">
+        <div class="time">Sat 11:00 AM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="WAKE"><td class="team-cell"><span class="box" aria-hidden="true"></span>WAKE</td><td class="num">-11.2</td><td class="num">-3.0</td><td class="num">-3.5</td></tr><tr data-print-side="home" data-team-abbrev="PUR"><td class="team-cell"><span class="box" aria-hidden="true"></span>PUR</td><td class="num">+11.2</td><td class="num">+3.0</td><td class="num">+3.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401856781">
+        <div class="time">Sat 11:00 AM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="WSU"><td class="team-cell"><span class="box" aria-hidden="true"></span>WSU</td><td class="num">+7.9</td><td class="num">+17.5</td><td class="num">+17.5</td></tr><tr data-print-side="home" data-team-abbrev="KSU"><td class="team-cell"><span class="box" aria-hidden="true"></span>KSU</td><td class="num">-7.9</td><td class="num">-17.5</td><td class="num">-17.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401856673">
+        <div class="time">Sat 11:45 AM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="WKU"><td class="team-cell"><span class="box" aria-hidden="true"></span>WKU</td><td class="num">+16.1</td><td class="num">+40.2</td><td class="num">+40.5</td></tr><tr data-print-side="home" data-team-abbrev="UGA"><td class="team-cell"><span class="box" aria-hidden="true"></span>UGA</td><td class="num">-16.1</td><td class="num">-40.2</td><td class="num">-40.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401856674">
+        <div class="time">Sat 2:30 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="ALA"><td class="team-cell"><span class="box" aria-hidden="true"></span>ALA</td><td class="num">-7.6</td><td class="num">-10.0</td><td class="num">-10.5</td></tr><tr data-print-side="home" data-team-abbrev="UK"><td class="team-cell"><span class="box" aria-hidden="true"></span>UK</td><td class="num">+7.6</td><td class="num">+10.0</td><td class="num">+10.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401856810">
+        <div class="time">Sat 2:30 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="ARIZ"><td class="team-cell"><span class="box" aria-hidden="true"></span>ARIZ</td><td class="num">+11.5</td><td class="num">+7.5</td><td class="num">+7.5</td></tr><tr data-print-side="home" data-team-abbrev="BYU"><td class="team-cell"><span class="box" aria-hidden="true"></span>BYU</td><td class="num">-11.5</td><td class="num">-7.5</td><td class="num">-7.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401858216">
+        <div class="time">Sat 2:30 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="CAL"><td class="team-cell"><span class="box" aria-hidden="true"></span>CAL</td><td class="num">-11.6</td><td class="num">+3.5</td><td class="num">+3.5</td></tr><tr data-print-side="home" data-team-abbrev="SYR"><td class="team-cell"><span class="box" aria-hidden="true"></span>SYR</td><td class="num">+11.6</td><td class="num">-3.5</td><td class="num">-3.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401858217">
+        <div class="time">Sat 2:30 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="DUKE"><td class="team-cell"><span class="box" aria-hidden="true"></span>DUKE</td><td class="num">+3.1</td><td class="num">+5.8</td><td class="num">+5.5</td></tr><tr data-print-side="home" data-team-abbrev="ILL"><td class="team-cell"><span class="box" aria-hidden="true"></span>ILL</td><td class="num">-3.1</td><td class="num">-5.8</td><td class="num">-5.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401858440">
+        <div class="time">Sat 2:30 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="EMU"><td class="team-cell"><span class="box" aria-hidden="true"></span>EMU</td><td class="num">+3.0</td><td class="num">+17.5</td><td class="num">+17.5</td></tr><tr data-print-side="home" data-team-abbrev="MSU"><td class="team-cell"><span class="box" aria-hidden="true"></span>MSU</td><td class="num">-3.0</td><td class="num">-17.5</td><td class="num">-17.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401858444">
+        <div class="time">Sat 2:30 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="MD"><td class="team-cell"><span class="box" aria-hidden="true"></span>MD</td><td class="num">+10.5</td><td class="num">-11.5</td><td class="num">-12.5</td></tr><tr data-print-side="home" data-team-abbrev="CONN"><td class="team-cell"><span class="box" aria-hidden="true"></span>CONN</td><td class="num">-10.5</td><td class="num">+11.5</td><td class="num">+12.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401856677">
+        <div class="time">Sat 2:30 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="MSST"><td class="team-cell"><span class="box" aria-hidden="true"></span>MSST</td><td class="num">-0.4</td><td class="num">+1.2</td><td class="num">-1.5</td></tr><tr data-print-side="home" data-team-abbrev="MINN"><td class="team-cell"><span class="box" aria-hidden="true"></span>MINN</td><td class="num">+0.4</td><td class="num">-1.2</td><td class="num">+1.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401859184">
+        <div class="time">Sat 2:30 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="RICE"><td class="team-cell"><span class="box" aria-hidden="true"></span>RICE</td><td class="num">+41.1</td><td class="num">+44.5</td><td class="num">+44.5</td></tr><tr data-print-side="home" data-team-abbrev="ND"><td class="team-cell"><span class="box" aria-hidden="true"></span>ND</td><td class="num">-41.1</td><td class="num">-44.5</td><td class="num">-44.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401856790">
+        <div class="time">Sat 2:30 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="UCF"><td class="team-cell"><span class="box" aria-hidden="true"></span>UCF</td><td class="num">+2.8</td><td class="num">+7.2</td><td class="num">+7.5</td></tr><tr data-print-side="home" data-team-abbrev="PITT"><td class="team-cell"><span class="box" aria-hidden="true"></span>PITT</td><td class="num">-2.8</td><td class="num">-7.2</td><td class="num">-7.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401862708">
+        <div class="time">Sat 2:30 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="ULM"><td class="team-cell"><span class="box" aria-hidden="true"></span>ULM</td><td class="num">+4.3</td><td class="num">+10.0</td><td class="num">+10.5</td></tr><tr data-print-side="home" data-team-abbrev="UAB"><td class="team-cell"><span class="box" aria-hidden="true"></span>UAB</td><td class="num">-4.3</td><td class="num">-10.0</td><td class="num">-10.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401860884">
+        <div class="time">Sat 2:30 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="UTSA"><td class="team-cell"><span class="box" aria-hidden="true"></span>UTSA</td><td class="num">+10.2</td><td class="num">+1.8</td><td class="num">+2.5</td></tr><tr data-print-side="home" data-team-abbrev="TXST"><td class="team-cell"><span class="box" aria-hidden="true"></span>TXST</td><td class="num">-10.2</td><td class="num">-1.8</td><td class="num">-2.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401858446">
+        <div class="time">Sat 2:30 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="USU"><td class="team-cell"><span class="box" aria-hidden="true"></span>USU</td><td class="num">+12.7</td><td class="num">+26.5</td><td class="num">+27.5</td></tr><tr data-print-side="home" data-team-abbrev="WASH"><td class="team-cell"><span class="box" aria-hidden="true"></span>WASH</td><td class="num">-12.7</td><td class="num">-26.5</td><td class="num">-27.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401862705">
+        <div class="time">Sat 2:45 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="UNLV"><td class="team-cell"><span class="box" aria-hidden="true"></span>UNLV</td><td class="num">+3.4</td><td class="num">-3.2</td><td class="num">-3.5</td></tr><tr data-print-side="home" data-team-abbrev="UNT"><td class="team-cell"><span class="box" aria-hidden="true"></span>UNT</td><td class="num">-3.4</td><td class="num">+3.2</td><td class="num">+3.5</td></tr></tbody>
+        </table>
+      </article>
+    </div><div class="col" data-print-column="2">
+      <article class="game" data-game-id="401856684">
+        <div class="time">Sat 3:15 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="DEL"><td class="team-cell"><span class="box" aria-hidden="true"></span>DEL</td><td class="num">+8.7</td><td class="num">+21.0</td><td class="num">+21.5</td></tr><tr data-print-side="home" data-team-abbrev="VAN"><td class="team-cell"><span class="box" aria-hidden="true"></span>VAN</td><td class="num">-8.7</td><td class="num">-21.0</td><td class="num">-21.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401866414">
+        <div class="time">Sat 5:00 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="BUFF"><td class="team-cell"><span class="box" aria-hidden="true"></span>BUFF</td><td class="num">+4.3</td><td class="num">+10.2</td><td class="num">+9.5</td></tr><tr data-print-side="home" data-team-abbrev="FIU"><td class="team-cell"><span class="box" aria-hidden="true"></span>FIU</td><td class="num">-4.3</td><td class="num">-10.2</td><td class="num">-9.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401866418">
+        <div class="time">Sat 5:00 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="JVST"><td class="team-cell"><span class="box" aria-hidden="true"></span>JVST</td><td class="num">+9.5</td><td class="num">+2.5</td><td class="num">+2.5</td></tr><tr data-print-side="home" data-team-abbrev="OHIO"><td class="team-cell"><span class="box" aria-hidden="true"></span>OHIO</td><td class="num">-9.5</td><td class="num">-2.5</td><td class="num">-2.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401860881">
+        <div class="time">Sat 5:00 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="MEM"><td class="team-cell"><span class="box" aria-hidden="true"></span>MEM</td><td class="num">-3.2</td><td class="num">+8.2</td><td class="num">+8.5</td></tr><tr data-print-side="home" data-team-abbrev="BSU"><td class="team-cell"><span class="box" aria-hidden="true"></span>BSU</td><td class="num">+3.2</td><td class="num">-8.2</td><td class="num">-8.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401858441">
+        <div class="time">Sat 6:00 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="BGSU"><td class="team-cell"><span class="box" aria-hidden="true"></span>BGSU</td><td class="num">+10.4</td><td class="num">+30.2</td><td class="num">+30.5</td></tr><tr data-print-side="home" data-team-abbrev="NEB"><td class="team-cell"><span class="box" aria-hidden="true"></span>NEB</td><td class="num">-10.4</td><td class="num">-30.2</td><td class="num">-30.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401869955">
+        <div class="time">Sat 6:00 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="GAST"><td class="team-cell"><span class="box" aria-hidden="true"></span>GAST</td><td class="num">+6.4</td><td class="num">+7.8</td><td class="num">+8.5</td></tr><tr data-print-side="home" data-team-abbrev="KENN"><td class="team-cell"><span class="box" aria-hidden="true"></span>KENN</td><td class="num">-6.4</td><td class="num">-7.8</td><td class="num">-8.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401871045">
+        <div class="time">Sat 6:00 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="MTU"><td class="team-cell"><span class="box" aria-hidden="true"></span>MTU</td><td class="num">+15.4</td><td class="num">+13.5</td><td class="num">+13.5</td></tr><tr data-print-side="home" data-team-abbrev="MRSH"><td class="team-cell"><span class="box" aria-hidden="true"></span>MRSH</td><td class="num">-15.4</td><td class="num">-13.5</td><td class="num">-13.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401864575">
+        <div class="time">Sat 6:00 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="USA"><td class="team-cell"><span class="box" aria-hidden="true"></span>USA</td><td class="num">+12.2</td><td class="num">+9.5</td><td class="num">+9.5</td></tr><tr data-print-side="home" data-team-abbrev="TULN"><td class="team-cell"><span class="box" aria-hidden="true"></span>TULN</td><td class="num">-12.2</td><td class="num">-9.5</td><td class="num">-9.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401856681">
+        <div class="time">Sat 6:00 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="TENN"><td class="team-cell"><span class="box" aria-hidden="true"></span>TENN</td><td class="num">-5.9</td><td class="num">-12.2</td><td class="num">-11.5</td></tr><tr data-print-side="home" data-team-abbrev="GT"><td class="team-cell"><span class="box" aria-hidden="true"></span>GT</td><td class="num">+5.9</td><td class="num">+12.2</td><td class="num">+11.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401862707">
+        <div class="time">Sat 6:00 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="TLSA"><td class="team-cell"><span class="box" aria-hidden="true"></span>TLSA</td><td class="num">-0.6</td><td class="num">-13.5</td><td class="num">-13.5</td></tr><tr data-print-side="home" data-team-abbrev="SHSU"><td class="team-cell"><span class="box" aria-hidden="true"></span>SHSU</td><td class="num">+0.6</td><td class="num">+13.5</td><td class="num">+13.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401858443">
+        <div class="time">Sat 6:15 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="SDSU"><td class="team-cell"><span class="box" aria-hidden="true"></span>SDSU</td><td class="num">-4.4</td><td class="num">+12.5</td><td class="num">+12.5</td></tr><tr data-print-side="home" data-team-abbrev="UCLA"><td class="team-cell"><span class="box" aria-hidden="true"></span>UCLA</td><td class="num">+4.4</td><td class="num">-12.5</td><td class="num">-12.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401858219">
+        <div class="time">Sat 6:30 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="GASO"><td class="team-cell"><span class="box" aria-hidden="true"></span>GASO</td><td class="num">+14.8</td><td class="num">+20.2</td><td class="num">+20.5</td></tr><tr data-print-side="home" data-team-abbrev="CLEM"><td class="team-cell"><span class="box" aria-hidden="true"></span>CLEM</td><td class="num">-14.8</td><td class="num">-20.2</td><td class="num">-20.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401856788">
+        <div class="time">Sat 6:30 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="ISU"><td class="team-cell"><span class="box" aria-hidden="true"></span>ISU</td><td class="num">+2.5</td><td class="num">+14.0</td><td class="num">+13.5</td></tr><tr data-print-side="home" data-team-abbrev="IOWA"><td class="team-cell"><span class="box" aria-hidden="true"></span>IOWA</td><td class="num">-2.5</td><td class="num">-14.0</td><td class="num">-13.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401867796">
+        <div class="time">Sat 6:30 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="LT"><td class="team-cell"><span class="box" aria-hidden="true"></span>LT</td><td class="num">+14.0</td><td class="num">+35.2</td><td class="num">+35.5</td></tr><tr data-print-side="home" data-team-abbrev="LSU"><td class="team-cell"><span class="box" aria-hidden="true"></span>LSU</td><td class="num">-14.0</td><td class="num">-35.2</td><td class="num">-35.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401862703">
+        <div class="time">Sat 6:30 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="NAVY"><td class="team-cell"><span class="box" aria-hidden="true"></span>NAVY</td><td class="num">-3.7</td><td class="num">-4.8</td><td class="num">-4.5</td></tr><tr data-print-side="home" data-team-abbrev="FAU"><td class="team-cell"><span class="box" aria-hidden="true"></span>FAU</td><td class="num">+3.7</td><td class="num">+4.8</td><td class="num">+4.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401856682">
+        <div class="time">Sat 6:30 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="OSU"><td class="team-cell"><span class="box" aria-hidden="true"></span>OSU</td><td class="num">-13.5</td><td class="num">+1.8</td><td class="num">+1.5</td></tr><tr data-print-side="home" data-team-abbrev="TEX"><td class="team-cell"><span class="box" aria-hidden="true"></span>TEX</td><td class="num">+13.5</td><td class="num">-1.8</td><td class="num">-1.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401856783">
+        <div class="time">Sat 6:30 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="TTU"><td class="team-cell"><span class="box" aria-hidden="true"></span>TTU</td><td class="num">-16.5</td><td class="num">-25.8</td><td class="num">-26.5</td></tr><tr data-print-side="home" data-team-abbrev="ORST"><td class="team-cell"><span class="box" aria-hidden="true"></span>ORST</td><td class="num">+16.5</td><td class="num">+25.8</td><td class="num">+26.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401856676">
+        <div class="time">Sat 6:45 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="CHAR"><td class="team-cell"><span class="box" aria-hidden="true"></span>CHAR</td><td class="num">+36.0</td><td class="num">+46.5</td><td class="num">+47.5</td></tr><tr data-print-side="home" data-team-abbrev="MISS"><td class="team-cell"><span class="box" aria-hidden="true"></span>MISS</td><td class="num">-36.0</td><td class="num">-46.5</td><td class="num">-47.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401856671">
+        <div class="time">Sat 6:45 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="USM"><td class="team-cell"><span class="box" aria-hidden="true"></span>USM</td><td class="num">+22.0</td><td class="num">+33.0</td><td class="num">+33.5</td></tr><tr data-print-side="home" data-team-abbrev="AUB"><td class="team-cell"><span class="box" aria-hidden="true"></span>AUB</td><td class="num">-22.0</td><td class="num">-33.0</td><td class="num">-33.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401864502">
+        <div class="time">Sat 9:00 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="NDSU"><td class="team-cell"><span class="box" aria-hidden="true"></span>NDSU</td><td class="num">+14.4</td><td class="num">-1.8</td><td class="num">-2.5</td></tr><tr data-print-side="home" data-team-abbrev="AFA"><td class="team-cell"><span class="box" aria-hidden="true"></span>AFA</td><td class="num">-14.4</td><td class="num">+1.8</td><td class="num">+2.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401856670">
+        <div class="time">Sat 9:15 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="ARK"><td class="team-cell"><span class="box" aria-hidden="true"></span>ARK</td><td class="num">+7.5</td><td class="num">+12.2</td><td class="num">+12.5</td></tr><tr data-print-side="home" data-team-abbrev="UTAH"><td class="team-cell"><span class="box" aria-hidden="true"></span>UTAH</td><td class="num">-7.5</td><td class="num">-12.2</td><td class="num">-12.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401860883">
+        <div class="time">Sat 9:30 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="SAC"><td class="team-cell"><span class="box" aria-hidden="true"></span>SAC</td><td class="num">+22.3</td><td class="num">+17.5</td><td class="num">+17.5</td></tr><tr data-print-side="home" data-team-abbrev="FRES"><td class="team-cell"><span class="box" aria-hidden="true"></span>FRES</td><td class="num">-22.3</td><td class="num">-17.5</td><td class="num">-17.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401858445">
+        <div class="time">Sat 10:00 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="ULL"><td class="team-cell"><span class="box" aria-hidden="true"></span>ULL</td><td class="num">+19.3</td><td class="num">+31.2</td><td class="num">+31.5</td></tr><tr data-print-side="home" data-team-abbrev="USC"><td class="team-cell"><span class="box" aria-hidden="true"></span>USC</td><td class="num">-19.3</td><td class="num">-31.2</td><td class="num">-31.5</td></tr></tbody>
+        </table>
+      </article>
+
+      <article class="game" data-game-id="401864578">
+        <div class="time">Sat 10:59 PM CT</div>
+        <table class="game-table">
+          <thead><tr><th>Team</th><th>Model</th><th>Market</th><th>Splash</th></tr></thead>
+          <tbody><tr data-print-side="away" data-team-abbrev="NMSU"><td class="team-cell"><span class="box" aria-hidden="true"></span>NMSU</td><td class="num">+11.7</td><td class="num">+7.0</td><td class="num">+7.5</td></tr><tr data-print-side="home" data-team-abbrev="HAW"><td class="team-cell"><span class="box" aria-hidden="true"></span>HAW</td><td class="num">-11.7</td><td class="num">-7.0</td><td class="num">-7.5</td></tr></tbody>
+        </table>
+      </article>
+    </div>
+    </section>
+    <footer>Splash lines are final locked contest prices. Market and model values are references. Away-team orientation is used for comparisons.</footer>
+  </main>
+</body>
+</html>
