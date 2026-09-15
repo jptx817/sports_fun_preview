@@ -89,6 +89,12 @@
       "name": "missing_markets",
       "severity": "warning",
       "status": "WARN"
+    },
+    {
+      "message": "Some games use FCS placeholder context.",
+      "name": "fcs_placeholders",
+      "severity": "warning",
+      "status": "WARN"
     }
   ],
   "counts": {
@@ -99,17 +105,19 @@
     "owner_feedback": 0,
     "priority_games": 0,
     "triaged_games": 86,
-    "uncertainty_warnings": 0,
+    "uncertainty_warnings": 39,
     "upcoming_games": 86,
     "watch_games": 0,
     "with_market_spreads": 84,
     "with_market_totals": 85,
-    "with_model_projections": 86
+    "with_model_projections": 86,
+    "with_model_spreads": 86,
+    "with_model_totals": 86
   },
-  "generated_at": "2026-09-10T22:06:36Z",
+  "generated_at": "2026-09-15T06:00:00Z",
   "git": {
     "branch": "main",
-    "head": "850eda5fb937b6a7e161d17a00bee296a7822a1f"
+    "head": "8f36bca39283da60260f8aa59ae35a4936f83f17"
   },
   "guardrails": {
     "champion_model_changed": false,
@@ -139,10 +147,10 @@
   "latest_market_success": {
     "latest_market_csv": "data/manual/cfb/market_lines_2026_latest.csv",
     "provider_policy": "consensus_market_v1",
-    "refresh_run_id": "cfb-market-refresh-2026-WK02-20260910220636-c1d32cc4",
-    "snapshot_path": "artifacts/cfb/market/refreshes/2026_WK02/cfb-market-refresh-2026-WK02-20260910220636-c1d32cc4/market_lines.csv",
-    "timestamp_america_chicago": "2026-09-10T17:06:36-05:00",
-    "timestamp_utc": "2026-09-10T22:06:36Z"
+    "refresh_run_id": "cfb-market-refresh-2026-WK03-20260914235846-a70b2ed1",
+    "snapshot_path": "artifacts/cfb/market/refreshes/2026_WK03/cfb-market-refresh-2026-WK03-20260914235846-a70b2ed1/market_lines.csv",
+    "timestamp_america_chicago": "2026-09-14T18:58:46-05:00",
+    "timestamp_utc": "2026-09-14T23:58:46Z"
   },
   "market_snapshot_id": "cfb-market-2026-wk02-decision_time-c73d9ce212b2",
   "model_id": "cfb_weekly_operations_v2:artifacts/cfb/modeling/projected_spread_assembly_v1_2026.csv",
@@ -153,15 +161,17 @@
     "latest_page": "artifacts/site/sports_fun_dashboard_v1/cfb/owner-review/latest.html",
     "manifest": "artifacts/site/sports_fun_dashboard_v1/cfb/owner-review/2026/WK02/owner_review_workspace_manifest_v1.json",
     "owner_review_index": "artifacts/site/sports_fun_dashboard_v1/cfb/owner-review/index.html",
+    "print_page": "artifacts/site/sports_fun_dashboard_v1/cfb/owner-review/2026/WK02/print.html",
+    "print_pdf": "artifacts/site/sports_fun_dashboard_v1/cfb/owner-review/2026/WK02/week-2-cheat-sheet.pdf",
     "site_css": "artifacts/site/sports_fun_dashboard_v1/assets/site.css",
     "summary_json": "artifacts/cfb/owner_feedback/2026/WK02/owner_review_summary_v1.json",
     "summary_md": "artifacts/cfb/owner_feedback/2026/WK02/owner_review_summary_v1.md",
     "workspace_json": "artifacts/site/sports_fun_dashboard_v1/cfb/owner-review/2026/WK02/owner_review_workspace_v1.json"
   },
   "projection_cutoff": "2026-09-13",
-  "projection_digest": "e5df51d9ae679e9ca8eab9b88c33135d87ae699a37d6ae313fef365759882216",
+  "projection_digest": "a068d6555d7f2fdd2666b9d7bb5ddc0527c308a88a564f1efd18e41d7bcc6b7c",
   "readiness_status": "READY_WITH_WARNINGS",
-  "run_id": "cfb-owner-review-2026-WK02-30bc6ebf3531",
+  "run_id": "cfb-owner-review-2026-WK02-d8fef48bed72",
   "schema_version": "cfb-owner-review-workspace-manifest-v1",
   "season": 2026,
   "splash_summary": {

@@ -92,7 +92,7 @@
     }
   ],
   "counts": {
-    "completed_games": 8,
+    "completed_games": 99,
     "early_decision_games": 15,
     "games": 99,
     "missing_markets": 0,
@@ -100,16 +100,18 @@
     "priority_games": 39,
     "triaged_games": 99,
     "uncertainty_warnings": 48,
-    "upcoming_games": 91,
-    "watch_games": 52,
+    "upcoming_games": 0,
+    "watch_games": 53,
     "with_market_spreads": 99,
     "with_market_totals": 99,
-    "with_model_projections": 99
+    "with_model_projections": 97,
+    "with_model_spreads": 97,
+    "with_model_totals": 99
   },
-  "generated_at": "2026-09-03T01:04:24.955910Z",
+  "generated_at": "2026-09-15T06:00:00Z",
   "git": {
     "branch": "main",
-    "head": "7738aefdf493d0fc6548142b67827c88638222c9"
+    "head": "8f36bca39283da60260f8aa59ae35a4936f83f17"
   },
   "guardrails": {
     "champion_model_changed": false,
@@ -133,17 +135,18 @@
     "snapshot": "artifacts/cfb/weekly/2026_WK01/snapshot/weekly_snapshot_v1.json",
     "splash": "artifacts/cfb/weekly/2026_WK01/splash/splash_weekly_state_v1.json",
     "team_capsules": "artifacts/cfb/reporting/team_capsules_v2.json",
+    "team_identity_dataset": "artifacts/cfb/research/weekly_team_identity_dataset_v1/weekly_team_identity_dataset_v1_raw.csv",
     "team_metadata": "artifacts/cfb/weekly/2026_WK01/pipeline/_snapshot_inputs/team_metadata.csv"
   },
   "latest_market_success": {
     "latest_market_csv": "data/manual/cfb/market_lines_2026_latest.csv",
     "provider_policy": "consensus_market_v1",
-    "refresh_run_id": "cfb-market-refresh-2026-WK01-20260902032606-ae4e4116",
-    "snapshot_path": "artifacts/cfb/market/refreshes/2026_WK01/cfb-market-refresh-2026-WK01-20260902032606-ae4e4116/market_lines.csv",
-    "timestamp_america_chicago": "2026-09-01T22:26:06-05:00",
-    "timestamp_utc": "2026-09-02T03:26:06Z"
+    "refresh_run_id": "cfb-market-refresh-2026-WK03-20260914235846-a70b2ed1",
+    "snapshot_path": "artifacts/cfb/market/refreshes/2026_WK03/cfb-market-refresh-2026-WK03-20260914235846-a70b2ed1/market_lines.csv",
+    "timestamp_america_chicago": "2026-09-14T18:58:46-05:00",
+    "timestamp_utc": "2026-09-14T23:58:46Z"
   },
-  "market_snapshot_id": "cfb-market-2026-wk01-decision_time-8f2474c7ce18",
+  "market_snapshot_id": "cfb-market-2026-wk01-decision_time-63cff04f7e26",
   "model_id": "cfb_weekly_operations_v2:artifacts/cfb/modeling/projected_spread_assembly_v1_2026.csv",
   "output_paths": {
     "css": "artifacts/site/sports_fun_dashboard_v1/assets/cfb_owner_review_v1.css",
@@ -152,15 +155,17 @@
     "latest_page": "artifacts/site/sports_fun_dashboard_v1/cfb/owner-review/latest.html",
     "manifest": "artifacts/site/sports_fun_dashboard_v1/cfb/owner-review/2026/WK01/owner_review_workspace_manifest_v1.json",
     "owner_review_index": "artifacts/site/sports_fun_dashboard_v1/cfb/owner-review/index.html",
+    "print_page": "artifacts/site/sports_fun_dashboard_v1/cfb/owner-review/2026/WK01/print.html",
+    "print_pdf": "artifacts/site/sports_fun_dashboard_v1/cfb/owner-review/2026/WK01/week-1-cheat-sheet.pdf",
     "site_css": "artifacts/site/sports_fun_dashboard_v1/assets/site.css",
     "summary_json": "artifacts/cfb/owner_feedback/2026/WK01/owner_review_summary_v1.json",
     "summary_md": "artifacts/cfb/owner_feedback/2026/WK01/owner_review_summary_v1.md",
     "workspace_json": "artifacts/site/sports_fun_dashboard_v1/cfb/owner-review/2026/WK01/owner_review_workspace_v1.json"
   },
   "projection_cutoff": "2026-09-07",
-  "projection_digest": "13587d32c3647730a084784d04689be4f64dcb0b7cbe37d706cbdd879261dec2",
+  "projection_digest": "51f569700654ac319b0405c5bab5faa202ae7a81d0a92177b039ebe325133880",
   "readiness_status": "READY_WITH_WARNINGS",
-  "run_id": "cfb-owner-review-2026-WK01-185b6cfabda8",
+  "run_id": "cfb-owner-review-2026-WK01-d668bf0d1b05",
   "schema_version": "cfb-owner-review-workspace-manifest-v1",
   "season": 2026,
   "splash_summary": {
