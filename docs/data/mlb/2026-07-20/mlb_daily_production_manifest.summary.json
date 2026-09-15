@@ -1,0 +1,934 @@
+{
+  "contest_platform": "DraftKings",
+  "exposures": {
+    "player_exposure": [
+      {
+        "exposure_pct": 1.0,
+        "lineup_count": 1,
+        "name": "Mitch Bratt",
+        "player_id": "582152",
+        "positions": [
+          "P"
+        ],
+        "team": "ARI"
+      },
+      {
+        "exposure_pct": 1.0,
+        "lineup_count": 1,
+        "name": "Ian Happ",
+        "player_id": "32388",
+        "positions": [
+          "OF"
+        ],
+        "team": "CHC"
+      },
+      {
+        "exposure_pct": 1.0,
+        "lineup_count": 1,
+        "name": "Michael Busch",
+        "player_id": "459806",
+        "positions": [
+          "1B"
+        ],
+        "team": "CHC"
+      },
+      {
+        "exposure_pct": 1.0,
+        "lineup_count": 1,
+        "name": "Pedro Ramirez",
+        "player_id": "638241",
+        "positions": [
+          "2B",
+          "3B"
+        ],
+        "team": "CHC"
+      },
+      {
+        "exposure_pct": 1.0,
+        "lineup_count": 1,
+        "name": "Pete Crow-Armstrong",
+        "player_id": "494682",
+        "positions": [
+          "OF"
+        ],
+        "team": "CHC"
+      },
+      {
+        "exposure_pct": 1.0,
+        "lineup_count": 1,
+        "name": "Seiya Suzuki",
+        "player_id": "112834",
+        "positions": [
+          "OF"
+        ],
+        "team": "CHC"
+      },
+      {
+        "exposure_pct": 1.0,
+        "lineup_count": 1,
+        "name": "Colt Keith",
+        "player_id": "497508",
+        "positions": [
+          "3B"
+        ],
+        "team": "DET"
+      },
+      {
+        "exposure_pct": 1.0,
+        "lineup_count": 1,
+        "name": "Dillon Dingler",
+        "player_id": "495656",
+        "positions": [
+          "C"
+        ],
+        "team": "DET"
+      },
+      {
+        "exposure_pct": 1.0,
+        "lineup_count": 1,
+        "name": "Kevin McGonigle",
+        "player_id": "721210",
+        "positions": [
+          "3B",
+          "SS"
+        ],
+        "team": "DET"
+      },
+      {
+        "exposure_pct": 1.0,
+        "lineup_count": 1,
+        "name": "Braxton Ashcraft",
+        "player_id": "112222",
+        "positions": [
+          "P"
+        ],
+        "team": "PIT"
+      }
+    ],
+    "stack_exposure": [
+      {
+        "exposure_pct": 1.0,
+        "lineup_id": "mlb-dk-2026-07-20-main-001",
+        "player_count": 5,
+        "stack_role": "primary",
+        "team": "CHC"
+      },
+      {
+        "exposure_pct": 1.0,
+        "lineup_id": "mlb-dk-2026-07-20-main-001",
+        "player_count": 3,
+        "stack_role": "secondary",
+        "team": "DET"
+      }
+    ],
+    "team_exposure": [
+      {
+        "hitter_count": 5,
+        "team": "CHC"
+      },
+      {
+        "hitter_count": 3,
+        "team": "DET"
+      }
+    ]
+  },
+  "generated_at": "2026-07-20T23:15:07-05:00",
+  "guardrails": {
+    "optimizer_logic_changed": false,
+    "projection_logic_changed": false,
+    "selection_logic_changed": false,
+    "website_canonical_interface": true,
+    "website_should_not_recompute_lineup_logic": true
+  },
+  "input_freshness": {
+    "artifact_last_modified": {
+      "draftkings_salaries.json": "2026-07-20T05:00:38-05:00",
+      "game_board.json": "2026-07-20T23:15:06",
+      "input_snapshot_manifest.json": "2026-07-20T23:15:06",
+      "late_swap_report.json": "2026-07-20T23:15:06",
+      "lineup.json": "2026-07-20T23:15:06",
+      "lineup_summary.json": "2026-07-20T23:15:06",
+      "monitoring_report.json": "2026-07-20T23:15:06",
+      "ownership_ingest_report.json": "2026-07-20T23:14:59",
+      "pitcher_board.json": "2026-07-20T23:15:06",
+      "rotowire_game_context.json": "2026-07-20T05:00:39-05:00",
+      "rotowire_lineups.json": "2026-07-20T05:00:39-05:00",
+      "stack_board.json": "2026-07-20T23:15:06",
+      "structured_report.json": "2026-07-20T23:15:06"
+    },
+    "filesystem_mtime_authoritative": false,
+    "source_timestamps": {}
+  },
+  "input_status": {
+    "draftkings_salary_availability": {
+      "available": true,
+      "available_player_count": 1410,
+      "draft_group_id": 150801,
+      "draft_group_label": "Mon 7:05PM",
+      "selected_slate": "MAIN",
+      "slate_lock_time": "2026-07-20T18:05"
+    },
+    "missing_or_invalid_input_warnings": [],
+    "number_of_available_players": 1410,
+    "number_of_games": 14,
+    "ownership_status": {
+      "available": false,
+      "matched_count": 0,
+      "status": "missing",
+      "unmatched_count": 0
+    },
+    "probable_pitcher_status": {
+      "confirmed": 0,
+      "missing": 0,
+      "pitchers": [
+        {
+          "confidence": "medium",
+          "game_id": "COL@WSH",
+          "name": "Kyle Freeland",
+          "opponent": "WSH",
+          "player_id": "32581",
+          "salary": 5000,
+          "source": "rotowire_expected_starter",
+          "status": "projected",
+          "team": "COL"
+        },
+        {
+          "confidence": "medium",
+          "game_id": "COL@WSH",
+          "name": "Andrew Alvarez",
+          "opponent": "COL",
+          "player_id": "779725",
+          "salary": 5700,
+          "source": "rotowire_expected_starter",
+          "status": "projected",
+          "team": "WSH"
+        },
+        {
+          "confidence": "medium",
+          "game_id": "CHC@DET",
+          "name": "Jameson Taillon",
+          "opponent": "DET",
+          "player_id": "32145",
+          "salary": 6900,
+          "source": "rotowire_expected_starter",
+          "status": "projected",
+          "team": "CHC"
+        },
+        {
+          "confidence": "medium",
+          "game_id": "CHC@DET",
+          "name": "Jack Flaherty",
+          "opponent": "CHC",
+          "player_id": "32387",
+          "salary": 7300,
+          "source": "rotowire_expected_starter",
+          "status": "projected",
+          "team": "DET"
+        },
+        {
+          "confidence": "medium",
+          "game_id": "KC@SF",
+          "name": "Michael Wacha",
+          "opponent": "SF",
+          "player_id": "32344",
+          "salary": 8000,
+          "source": "rotowire_expected_starter",
+          "status": "projected",
+          "team": "KC"
+        },
+        {
+          "confidence": "medium",
+          "game_id": "KC@SF",
+          "name": "Tyler Mahle",
+          "opponent": "KC",
+          "player_id": "32503",
+          "salary": 7000,
+          "source": "rotowire_expected_starter",
+          "status": "projected",
+          "team": "SF"
+        },
+        {
+          "confidence": "medium",
+          "game_id": "ARI@ATH",
+          "name": "Mitch Bratt",
+          "opponent": "ATH",
+          "player_id": "582152",
+          "salary": 5500,
+          "source": "rotowire_expected_starter",
+          "status": "projected",
+          "team": "ARI"
+        },
+        {
+          "confidence": "medium",
+          "game_id": "ARI@ATH",
+          "name": "Jeffrey Springs",
+          "opponent": "ARI",
+          "player_id": "31867",
+          "salary": 6000,
+          "source": "rotowire_expected_starter",
+          "status": "projected",
+          "team": "ATH"
+        },
+        {
+          "confidence": "medium",
+          "game_id": "ATL@SD",
+          "name": "Bryce Elder",
+          "opponent": "SD",
+          "player_id": "545467",
+          "salary": 7500,
+          "source": "rotowire_expected_starter",
+          "status": "projected",
+          "team": "ATL"
+        },
+        {
+          "confidence": "medium",
+          "game_id": "ATL@SD",
+          "name": "JP Sears",
+          "opponent": "ATL",
+          "player_id": "614779",
+          "salary": 7100,
+          "source": "rotowire_expected_starter",
+          "status": "projected",
+          "team": "SD"
+        },
+        {
+          "confidence": "medium",
+          "game_id": "LAD@PHI",
+          "name": "Emmet Sheehan",
+          "opponent": "PHI",
+          "player_id": "658791",
+          "salary": 7900,
+          "source": "rotowire_expected_starter",
+          "status": "projected",
+          "team": "LAD"
+        },
+        {
+          "confidence": "medium",
+          "game_id": "LAD@PHI",
+          "name": "Csanchez",
+          "opponent": "LAD",
+          "player_id": null,
+          "salary": null,
+          "source": "rotowire_expected_starter",
+          "status": "projected",
+          "team": "PHI"
+        },
+        {
+          "confidence": "medium",
+          "game_id": "BAL@BOS",
+          "name": "Shane Baz",
+          "opponent": "BOS",
+          "player_id": "112218",
+          "salary": 7500,
+          "source": "rotowire_expected_starter",
+          "status": "projected",
+          "team": "BAL"
+        },
+        {
+          "confidence": "medium",
+          "game_id": "BAL@BOS",
+          "name": "Payton Tolle",
+          "opponent": "BAL",
+          "player_id": "806181",
+          "salary": 8700,
+          "source": "rotowire_expected_starter",
+          "status": "projected",
+          "team": "BOS"
+        },
+        {
+          "confidence": "medium",
+          "game_id": "LAA@STL",
+          "name": "Jose Soriano",
+          "opponent": "STL",
+          "player_id": "110592",
+          "salary": 8200,
+          "source": "rotowire_expected_starter",
+          "status": "projected",
+          "team": "LAA"
+        },
+        {
+          "confidence": "medium",
+          "game_id": "LAA@STL",
+          "name": "Kyle Leahy",
+          "opponent": "LAA",
+          "player_id": "698880",
+          "salary": 6500,
+          "source": "rotowire_expected_starter",
+          "status": "projected",
+          "team": "STL"
+        },
+        {
+          "confidence": "medium",
+          "game_id": "HOU@MIA",
+          "name": "Ronel Blanco",
+          "opponent": "MIA",
+          "player_id": "476286",
+          "salary": 6600,
+          "source": "rotowire_expected_starter",
+          "status": "projected",
+          "team": "HOU"
+        },
+        {
+          "confidence": "medium",
+          "game_id": "HOU@MIA",
+          "name": "Janson Junk",
+          "opponent": "HOU",
+          "player_id": "591177",
+          "salary": 6300,
+          "source": "rotowire_expected_starter",
+          "status": "projected",
+          "team": "MIA"
+        },
+        {
+          "confidence": "medium",
+          "game_id": "NYY@PIT",
+          "name": "Ryan Weathers",
+          "opponent": "PIT",
+          "player_id": "112363",
+          "salary": 7700,
+          "source": "rotowire_expected_starter",
+          "status": "projected",
+          "team": "NYY"
+        },
+        {
+          "confidence": "medium",
+          "game_id": "NYY@PIT",
+          "name": "Braxton Ashcraft",
+          "opponent": "NYY",
+          "player_id": "112222",
+          "salary": 9200,
+          "source": "rotowire_expected_starter",
+          "status": "projected",
+          "team": "PIT"
+        },
+        {
+          "confidence": "medium",
+          "game_id": "MIL@NYM",
+          "name": "Jmisiorowski",
+          "opponent": "NYM",
+          "player_id": null,
+          "salary": null,
+          "source": "rotowire_expected_starter",
+          "status": "projected",
+          "team": "MIL"
+        },
+        {
+          "confidence": "medium",
+          "game_id": "MIL@NYM",
+          "name": "Freddy Peralta",
+          "opponent": "MIL",
+          "player_id": "31652",
+          "salary": 7800,
+          "source": "rotowire_expected_starter",
+          "status": "projected",
+          "team": "NYM"
+        },
+        {
+          "confidence": "medium",
+          "game_id": "CWS@TEX",
+          "name": "Erick Fedde",
+          "opponent": "TEX",
+          "player_id": "32818",
+          "salary": 5300,
+          "source": "rotowire_expected_starter",
+          "status": "projected",
+          "team": "CWS"
+        },
+        {
+          "confidence": "medium",
+          "game_id": "CWS@TEX",
+          "name": "Jacob deGrom",
+          "opponent": "CWS",
+          "player_id": "31748",
+          "salary": 10000,
+          "source": "rotowire_expected_starter",
+          "status": "projected",
+          "team": "TEX"
+        },
+        {
+          "confidence": "medium",
+          "game_id": "CIN@SEA",
+          "name": "Andrew Abbott",
+          "opponent": "SEA",
+          "player_id": "581979",
+          "salary": 7600,
+          "source": "rotowire_expected_starter",
+          "status": "projected",
+          "team": "CIN"
+        },
+        {
+          "confidence": "medium",
+          "game_id": "CIN@SEA",
+          "name": "George Kirby",
+          "opponent": "CIN",
+          "player_id": "459887",
+          "salary": 9400,
+          "source": "rotowire_expected_starter",
+          "status": "projected",
+          "team": "SEA"
+        },
+        {
+          "confidence": "medium",
+          "game_id": "TB@TOR",
+          "name": "Nick Martinez",
+          "opponent": "TOR",
+          "player_id": "111340",
+          "salary": 8000,
+          "source": "rotowire_expected_starter",
+          "status": "projected",
+          "team": "TB"
+        },
+        {
+          "confidence": "medium",
+          "game_id": "TB@TOR",
+          "name": "Dylan Cease",
+          "opponent": "TB",
+          "player_id": "31633",
+          "salary": 10500,
+          "source": "rotowire_expected_starter",
+          "status": "projected",
+          "team": "TOR"
+        }
+      ],
+      "projected": 28,
+      "status": "projected"
+    },
+    "slate_date_warnings": [],
+    "starting_lineup_status": {
+      "confirmed_hitter_count": 0,
+      "missing_team_count": 28,
+      "missing_teams": [
+        "ARI",
+        "ATH",
+        "ATL",
+        "BAL",
+        "BOS",
+        "CHC",
+        "CIN",
+        "COL",
+        "CWS",
+        "DET",
+        "HOU",
+        "KC",
+        "LAA",
+        "LAD",
+        "MIA",
+        "MIL",
+        "NYM",
+        "NYY",
+        "PHI",
+        "PIT",
+        "SD",
+        "SEA",
+        "SF",
+        "STL",
+        "TB",
+        "TEX",
+        "TOR",
+        "WSH"
+      ],
+      "projected_hitter_count": 252,
+      "stale_count": null,
+      "stale_supported": false,
+      "status": "projected"
+    },
+    "weather_status": {
+      "available": true,
+      "risk_flags": [
+        "COL at WSH: unconfirmed_lineups, fallback_splits",
+        "CHC at DET: unconfirmed_lineups, fallback_splits",
+        "KC at SF: unconfirmed_lineups, fallback_splits",
+        "ARI at ATH: unconfirmed_lineups, fallback_splits",
+        "ATL at SD: unconfirmed_lineups, fallback_splits",
+        "LAD at PHI: unconfirmed_lineups, missing_pitcher_salary, fallback_splits",
+        "COL at WSH: unconfirmed_lineups, fallback_splits",
+        "CHC at DET: unconfirmed_lineups, fallback_splits",
+        "KC at SF: unconfirmed_lineups, fallback_splits",
+        "ARI at ATH: unconfirmed_lineups, fallback_splits",
+        "ATL at SD: unconfirmed_lineups, fallback_splits",
+        "LAD at PHI: unconfirmed_lineups, missing_pitcher_salary, fallback_splits"
+      ],
+      "status": "weather_or_context_risk"
+    }
+  },
+  "lineup_generation": {
+    "duplicate_lineup_warnings": [],
+    "generated_lineup_count": 1,
+    "incomplete_output": false,
+    "lineup_integrity_warnings": [],
+    "optimization_warnings": [
+      "10 selected player(s) need late-swap/status review."
+    ],
+    "requested_lineup_count": 1
+  },
+  "lineups": [
+    {
+      "game_count_represented": 3,
+      "lineup_id": "mlb-dk-2026-07-20-main-001",
+      "player_count": 10,
+      "players": [
+        {
+          "batting_order": null,
+          "composite_projection": 32.854,
+          "entry_slot": "P",
+          "game_start_time": "2026-07-20T18:05",
+          "is_confirmed": false,
+          "leverage_score": null,
+          "name": "Braxton Ashcraft",
+          "opponent": "NYY",
+          "ownership_source": null,
+          "player_id": "112222",
+          "positions": [
+            "P"
+          ],
+          "projected_fantasy_points": 24.209,
+          "projected_ownership": null,
+          "salary": 9200,
+          "stat_path_projection": 22.683,
+          "team": "PIT"
+        },
+        {
+          "batting_order": null,
+          "composite_projection": 41.208,
+          "entry_slot": "P",
+          "game_start_time": "2026-07-20T20:40",
+          "is_confirmed": false,
+          "leverage_score": null,
+          "name": "Mitch Bratt",
+          "opponent": "ATH",
+          "ownership_source": null,
+          "player_id": "582152",
+          "positions": [
+            "P"
+          ],
+          "projected_fantasy_points": 25.404,
+          "projected_ownership": null,
+          "salary": 5500,
+          "stat_path_projection": 22.615,
+          "team": "ARI"
+        },
+        {
+          "batting_order": 2,
+          "composite_projection": 25.059,
+          "entry_slot": "C",
+          "game_start_time": "2026-07-20T19:05",
+          "is_confirmed": false,
+          "leverage_score": null,
+          "name": "Dillon Dingler",
+          "opponent": "CHC",
+          "ownership_source": null,
+          "player_id": "495656",
+          "positions": [
+            "C"
+          ],
+          "projected_fantasy_points": 12.626,
+          "projected_ownership": null,
+          "salary": 4600,
+          "stat_path_projection": 10.432,
+          "team": "DET"
+        },
+        {
+          "batting_order": 3,
+          "composite_projection": 30.875,
+          "entry_slot": "1B",
+          "game_start_time": "2026-07-20T19:05",
+          "is_confirmed": false,
+          "leverage_score": null,
+          "name": "Michael Busch",
+          "opponent": "DET",
+          "ownership_source": null,
+          "player_id": "459806",
+          "positions": [
+            "1B"
+          ],
+          "projected_fantasy_points": 14.473,
+          "projected_ownership": null,
+          "salary": 4100,
+          "stat_path_projection": 11.579,
+          "team": "CHC"
+        },
+        {
+          "batting_order": 7,
+          "composite_projection": 24.19,
+          "entry_slot": "2B",
+          "game_start_time": "2026-07-20T19:05",
+          "is_confirmed": false,
+          "leverage_score": null,
+          "name": "Pedro Ramirez",
+          "opponent": "DET",
+          "ownership_source": null,
+          "player_id": "638241",
+          "positions": [
+            "2B",
+            "3B"
+          ],
+          "projected_fantasy_points": 11.678,
+          "projected_ownership": null,
+          "salary": 3200,
+          "stat_path_projection": 9.47,
+          "team": "CHC"
+        },
+        {
+          "batting_order": 3,
+          "composite_projection": 23.796,
+          "entry_slot": "3B",
+          "game_start_time": "2026-07-20T19:05",
+          "is_confirmed": false,
+          "leverage_score": null,
+          "name": "Colt Keith",
+          "opponent": "CHC",
+          "ownership_source": null,
+          "player_id": "497508",
+          "positions": [
+            "3B"
+          ],
+          "projected_fantasy_points": 12.35,
+          "projected_ownership": null,
+          "salary": 3200,
+          "stat_path_projection": 10.33,
+          "team": "DET"
+        },
+        {
+          "batting_order": 1,
+          "composite_projection": 25.209,
+          "entry_slot": "SS",
+          "game_start_time": "2026-07-20T19:05",
+          "is_confirmed": false,
+          "leverage_score": null,
+          "name": "Kevin McGonigle",
+          "opponent": "CHC",
+          "ownership_source": null,
+          "player_id": "721210",
+          "positions": [
+            "3B",
+            "SS"
+          ],
+          "projected_fantasy_points": 12.205,
+          "projected_ownership": null,
+          "salary": 4500,
+          "stat_path_projection": 9.91,
+          "team": "DET"
+        },
+        {
+          "batting_order": 5,
+          "composite_projection": 26.376,
+          "entry_slot": "OF",
+          "game_start_time": "2026-07-20T19:05",
+          "is_confirmed": false,
+          "leverage_score": null,
+          "name": "Ian Happ",
+          "opponent": "DET",
+          "ownership_source": null,
+          "player_id": "32388",
+          "positions": [
+            "OF"
+          ],
+          "projected_fantasy_points": 12.043,
+          "projected_ownership": null,
+          "salary": 4300,
+          "stat_path_projection": 9.514,
+          "team": "CHC"
+        },
+        {
+          "batting_order": 1,
+          "composite_projection": 31.501,
+          "entry_slot": "OF",
+          "game_start_time": "2026-07-20T19:05",
+          "is_confirmed": false,
+          "leverage_score": null,
+          "name": "Pete Crow-Armstrong",
+          "opponent": "DET",
+          "ownership_source": null,
+          "player_id": "494682",
+          "positions": [
+            "OF"
+          ],
+          "projected_fantasy_points": 14.291,
+          "projected_ownership": null,
+          "salary": 6500,
+          "stat_path_projection": 11.254,
+          "team": "CHC"
+        },
+        {
+          "batting_order": 2,
+          "composite_projection": 29.993,
+          "entry_slot": "OF",
+          "game_start_time": "2026-07-20T19:05",
+          "is_confirmed": false,
+          "leverage_score": null,
+          "name": "Seiya Suzuki",
+          "opponent": "DET",
+          "ownership_source": null,
+          "player_id": "112834",
+          "positions": [
+            "OF"
+          ],
+          "projected_fantasy_points": 13.616,
+          "projected_ownership": null,
+          "salary": 4800,
+          "stat_path_projection": 10.726,
+          "team": "CHC"
+        }
+      ],
+      "primary_stack": {
+        "player_count": 5,
+        "team": "CHC"
+      },
+      "secondary_stack": {
+        "player_count": 3,
+        "team": "DET"
+      },
+      "slate": "MAIN",
+      "stack_description": "CHC 5-man primary; DET 3-man secondary",
+      "total_composite_projection": 291.06,
+      "total_projection": 152.9,
+      "total_salary": 49900,
+      "total_stat_path_projection": 128.51
+    }
+  ],
+  "manifest_sha256": "108fb754317a3671655a26618e3a81bcd7622c56a522a968095a45a4860ecaee",
+  "model": {
+    "config_fingerprints": {
+      "health": {
+        "exists": true,
+        "path": "config/health_thresholds.toml",
+        "sha256": "cbd17df2481b"
+      },
+      "model_policy": {
+        "exists": true,
+        "path": "config/model_policies.toml",
+        "sha256": "7c941e1aa2d3"
+      },
+      "projection_blend": {
+        "exists": true,
+        "path": "config/mlb_projection_blend.toml",
+        "sha256": "2e37ded25585"
+      },
+      "stat_policy": {
+        "exists": true,
+        "path": "config/stat_policy.toml",
+        "sha256": "3f09ea450c8c"
+      }
+    },
+    "lineup_generator_version": "snapshot-first-v2-stat-path-heavy-experimental",
+    "model_status": "experimental-live",
+    "projection_blend": {
+      "composite_weight": 0.15,
+      "stat_path_weight": 0.85
+    },
+    "source_pipeline": "default"
+  },
+  "readiness": {
+    "reasons": [
+      "Production manifest passed readiness gates."
+    ],
+    "status": "READY_WITH_WARNINGS",
+    "warnings": [
+      "Starting lineup status is projected; confirm before lock."
+    ]
+  },
+  "schema_version": "mlb-daily-production-manifest-v1",
+  "slate": {
+    "selected_slate": "MAIN",
+    "slate_id": 150801,
+    "slate_label": "Mon 7:05PM",
+    "slate_lock_time": "2026-07-20T18:05"
+  },
+  "slate_date": "2026-07-20",
+  "source_artifacts": {
+    "draftkings_salaries.json": {
+      "artifact_name": "draftkings_salaries.json",
+      "available": true,
+      "last_modified": "2026-07-20T05:00:38-05:00",
+      "purpose": null,
+      "sha256": "a1dcbc72d9e2edbb39b9591bf08fe4d782bda37481ce8d841adf3b74f65121fe"
+    },
+    "game_board.json": {
+      "artifact_name": "game_board.json",
+      "available": true,
+      "last_modified": "2026-07-20T23:15:06",
+      "purpose": "Structured game projection board.",
+      "sha256": "ca2e62db70d6648e9af3c992b1f083c6d2c337fdd7f8105c100549ec3176ebf2"
+    },
+    "input_snapshot_manifest.json": {
+      "artifact_name": "input_snapshot_manifest.json",
+      "available": true,
+      "last_modified": "2026-07-20T23:15:06",
+      "purpose": "Replay-readiness snapshot of pre-lock inputs and outcome coverage.",
+      "sha256": "b32c283b5989a07070916b65698e456f21ab454e2e2eac18ccb07dd77e4f3b8a"
+    },
+    "late_swap_report.json": {
+      "artifact_name": "late_swap_report.json",
+      "available": true,
+      "last_modified": "2026-07-20T23:15:06",
+      "purpose": "Advisory late-swap state: locks, risks, salary context, and candidates.",
+      "sha256": "e79408f526b2dfceec353262443dee8549f87f0345183b9a210011e708b1ec0d"
+    },
+    "lineup.json": {
+      "artifact_name": "lineup.json",
+      "available": true,
+      "last_modified": "2026-07-20T23:15:06",
+      "purpose": "Full machine-readable lineup, pivots, thesis, and model metadata.",
+      "sha256": "965de0e9bea8ada87e48898896778a341abe8d6f4823f4b77da12782c3341add"
+    },
+    "lineup_summary.json": {
+      "artifact_name": "lineup_summary.json",
+      "available": true,
+      "last_modified": "2026-07-20T23:15:06",
+      "purpose": "Compact structured lineup summary for quick review.",
+      "sha256": "b6a5f5aec487702cfcc11721501251f78b56aa3b61c37a2e526bf69804cbbaea"
+    },
+    "monitoring_report.json": {
+      "artifact_name": "monitoring_report.json",
+      "available": true,
+      "last_modified": "2026-07-20T23:15:06",
+      "purpose": "Operational health summary for lineup validity, weather/postponement exposure, and delivery state.",
+      "sha256": "f4154c5822bb88fff9c4b8fe1ea5fe51727effdc89b6c88d28a250d75d591d37"
+    },
+    "ownership_ingest_report.json": {
+      "artifact_name": "ownership_ingest_report.json",
+      "available": true,
+      "last_modified": "2026-07-20T23:14:59",
+      "purpose": "Optional ownership CSV ingest summary, match confidence, and unmatched/conflict review.",
+      "sha256": "6abb39853500868d9af4045ea330fccc414bcd52470f7890174ef3cb35eb3a63"
+    },
+    "pitcher_board.json": {
+      "artifact_name": "pitcher_board.json",
+      "available": true,
+      "last_modified": "2026-07-20T23:15:06",
+      "purpose": "Structured pitcher roster/attack board.",
+      "sha256": "e308d8c20fbddf64b5e5358f02dc55216365d17ba3f35dbb3c3fafd3dec2ce63"
+    },
+    "rotowire_game_context.json": {
+      "artifact_name": "rotowire_game_context.json",
+      "available": true,
+      "last_modified": "2026-07-20T05:00:39-05:00",
+      "purpose": null,
+      "sha256": "0f6a1cd15853b76f1f78c13e53dbeaefdf446184cf07e588839b964b8eb8effa"
+    },
+    "rotowire_lineups.json": {
+      "artifact_name": "rotowire_lineups.json",
+      "available": true,
+      "last_modified": "2026-07-20T05:00:39-05:00",
+      "purpose": null,
+      "sha256": "eac2903b7c04cf646a55d581db773007c6db46f0e4aa698bd7573c2b5b7dc5a8"
+    },
+    "stack_board.json": {
+      "artifact_name": "stack_board.json",
+      "available": true,
+      "last_modified": "2026-07-20T23:15:06",
+      "purpose": "Structured stack ranking and leverage context board.",
+      "sha256": "56fe927334750d262a87cd6fd4f6a6be3f0639824e2b0aa88c5d932bb44cd982"
+    },
+    "structured_report.json": {
+      "artifact_name": "structured_report.json",
+      "available": true,
+      "last_modified": "2026-07-20T23:15:06",
+      "purpose": "Machine-readable slate report for API and ChatGPT review.",
+      "sha256": "194d1fcc6366bf00ee0d7af7032d341021b523656e08ef2ea60d4d1442f9e2cb"
+    }
+  },
+  "sport": "MLB",
+  "timezone": "America/Chicago",
+  "website_summary": "MLB DraftKings 2026-07-20: READY_WITH_WARNINGS. 1/1 lineup(s), 14 games, 1410 available players. Production manifest passed readiness gates."
+}
