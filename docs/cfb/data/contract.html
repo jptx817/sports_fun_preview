@@ -21,6 +21,14 @@ record&#x27;s json_url; ensure season/week and snapshot_id agree. Read the curre
 date in America/Chicago. Never answer from an old project upload or memory
 as though it were the latest published model.
 
+If GitHub Pages is inaccessible to web retrieval, open the SAME public feed
+through this tested mirror:
+https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/manifest.json
+Follow resource.web_retrieval_url and each game&#x27;s web_retrieval_url, which
+pin the same immutable snapshot. The mirror serves JSON as text/plain;
+parse the JSON body. Confirm snapshot IDs and source timestamps. This is
+the existing public repository, not a separate model or server.
+
 If JSON retrieval fails or is truncated, open the server-rendered fallback:
 https://jptx817.github.io/sports_fun_preview/cfb/data/index.html
 Follow the individual game HTML link for the complete record, including both
@@ -150,6 +158,14 @@ Public base: https://jptx817.github.io/sports_fun_preview/cfb/data/
 - `snapshots/{season}-WK{week}/{snapshot_id}/`: immutable weekly/game/manifest/Slate
   archive. Revisions get new digests; old forecasts and observations stay untouched.
 
+GitHub&#x27;s raw mirror uses the same files at
+https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/manifest.json
+and the corresponding latest/game paths. Manifest resources and game summaries
+include explicit `web_retrieval_url` links to immutable mirror paths. This public
+web-retrieval route was successfully tested when the web-search tool could not
+open the Pages domain. Pages JSON remains application/json; raw JSON is text/plain.
+Do not substitute a later raw branch snapshot for an older pinned Pages snapshot.
+
 All timestamps are ISO 8601 with offset; Central displays use America/Chicago.
 Units and signs appear in `conventions` and each metric. PPA/success/raw rank values
 are not model total/score or betting probabilities. Overall power rating, finishing
@@ -191,8 +207,10 @@ are not rebuilt or reactivated.
 
 HTTP 200 and valid JSON verify public retrieval only. They do not prove that the
 owner&#x27;s ChatGPT project can read the feed. Test web retrieval explicitly against
-JSON and HTML. If the retrieval tool cannot read both, mark ChatGPT retrieval
-UNVERIFIED and conversational integration BLOCKED in that environment.
+JSON, HTML and the explicit raw mirror. If no route is readable, mark ChatGPT
+retrieval UNVERIFIED and conversational integration BLOCKED in that environment.
+A successful web-tool mirror test verifies that retrieval route, not installation
+or a persistent connection inside the owner&#x27;s existing ChatGPT project.
 
 Inside the owner&#x27;s project, after adding the instruction block, ask:
 
