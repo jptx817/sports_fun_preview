@@ -1,0 +1,692 @@
+{
+  "$defs": {
+    "resource": {
+      "properties": {
+        "sha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        },
+        "url": {
+          "format": "uri",
+          "type": "string"
+        }
+      },
+      "required": [
+        "url",
+        "sha256"
+      ],
+      "type": "object"
+    }
+  },
+  "$id": "https://jptx817.github.io/sports_fun_preview/cfb/data/schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "oneOf": [
+    {
+      "properties": {
+        "cutoffs": {
+          "properties": {
+            "advanced_statistics": {
+              "format": "date-time",
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "market_snapshot": {
+              "format": "date-time",
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "ratings": {
+              "format": "date-time",
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "results": {
+              "format": "date-time",
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "results",
+            "advanced_statistics",
+            "ratings",
+            "market_snapshot"
+          ],
+          "type": "object"
+        },
+        "games": {
+          "items": {
+            "properties": {
+              "away_team": {
+                "properties": {
+                  "id": {
+                    "pattern": "^[0-9]+$",
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "name"
+                ],
+                "type": "object"
+              },
+              "game_id": {
+                "pattern": "^[0-9]+$",
+                "type": "string"
+              },
+              "home_team": {
+                "properties": {
+                  "id": {
+                    "pattern": "^[0-9]+$",
+                    "type": "string"
+                  },
+                  "name": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "name"
+                ],
+                "type": "object"
+              },
+              "json_url": {
+                "format": "uri",
+                "type": "string"
+              },
+              "kickoff": {
+                "format": "date-time",
+                "type": "string"
+              },
+              "kickoff_central": {
+                "format": "date-time",
+                "type": "string"
+              },
+              "market_snapshot_timestamp": {
+                "format": "date-time",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "market_spread_home": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "model_spread_home": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "spread_difference_home": {
+                "type": [
+                  "number",
+                  "null"
+                ]
+              },
+              "status": {
+                "enum": [
+                  "scheduled",
+                  "live",
+                  "completed",
+                  "unavailable"
+                ]
+              },
+              "text_url": {
+                "format": "uri",
+                "type": "string"
+              }
+            },
+            "required": [
+              "game_id",
+              "kickoff",
+              "kickoff_central",
+              "status",
+              "away_team",
+              "home_team",
+              "model_spread_home",
+              "market_spread_home",
+              "market_snapshot_timestamp",
+              "spread_difference_home",
+              "availability",
+              "json_url",
+              "text_url"
+            ],
+            "type": "object"
+          },
+          "minItems": 1,
+          "type": "array"
+        },
+        "generated_at": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "kind": {
+          "const": "weekly"
+        },
+        "model": {
+          "properties": {
+            "home_field_points": {
+              "const": 2.491565613957782
+            },
+            "market_in_prediction_features": {
+              "const": false
+            }
+          },
+          "required": [
+            "id",
+            "version",
+            "home_field_points",
+            "market_in_prediction_features"
+          ],
+          "type": "object"
+        },
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "scope": {
+          "enum": [
+            "full_week",
+            "central_date"
+          ]
+        },
+        "season": {
+          "minimum": 2000,
+          "type": "integer"
+        },
+        "snapshot_id": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        },
+        "week": {
+          "minimum": 0,
+          "type": "integer"
+        }
+      },
+      "required": [
+        "schema_version",
+        "snapshot_id",
+        "generated_at",
+        "season",
+        "week",
+        "cutoffs",
+        "model",
+        "kind",
+        "games",
+        "coverage",
+        "scope"
+      ],
+      "type": "object"
+    },
+    {
+      "properties": {
+        "away_team": {
+          "properties": {
+            "id": {
+              "pattern": "^[0-9]+$",
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "name"
+          ],
+          "type": "object"
+        },
+        "cutoffs": {
+          "properties": {
+            "advanced_statistics": {
+              "format": "date-time",
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "market_snapshot": {
+              "format": "date-time",
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "ratings": {
+              "format": "date-time",
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "results": {
+              "format": "date-time",
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "results",
+            "advanced_statistics",
+            "ratings",
+            "market_snapshot"
+          ],
+          "type": "object"
+        },
+        "game_id": {
+          "pattern": "^[0-9]+$",
+          "type": "string"
+        },
+        "generated_at": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "home_team": {
+          "properties": {
+            "id": {
+              "pattern": "^[0-9]+$",
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "name"
+          ],
+          "type": "object"
+        },
+        "json_url": {
+          "format": "uri",
+          "type": "string"
+        },
+        "kickoff": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "kickoff_central": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "kind": {
+          "const": "game"
+        },
+        "market_snapshot_timestamp": {
+          "format": "date-time",
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "market_spread_home": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "model": {
+          "properties": {
+            "home_field_points": {
+              "const": 2.491565613957782
+            },
+            "market_in_prediction_features": {
+              "const": false
+            }
+          },
+          "required": [
+            "id",
+            "version",
+            "home_field_points",
+            "market_in_prediction_features"
+          ],
+          "type": "object"
+        },
+        "model_spread_home": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "possessions": {
+          "properties": {
+            "away_offense_vs_home_defense": {
+              "properties": {
+                "metrics": {
+                  "additionalProperties": {
+                    "properties": {
+                      "defense_allowed": {
+                        "properties": {
+                          "available": {
+                            "type": "boolean"
+                          },
+                          "value": {
+                            "type": [
+                              "number",
+                              "null"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "value",
+                          "available"
+                        ],
+                        "type": "object"
+                      },
+                      "offense": {
+                        "properties": {
+                          "available": {
+                            "type": "boolean"
+                          },
+                          "value": {
+                            "type": [
+                              "number",
+                              "null"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "value",
+                          "available"
+                        ],
+                        "type": "object"
+                      }
+                    },
+                    "required": [
+                      "offense",
+                      "defense_allowed"
+                    ],
+                    "type": "object"
+                  },
+                  "required": [
+                    "ppa",
+                    "successRate",
+                    "passingPlays_ppa",
+                    "passingPlays_successRate",
+                    "rushingPlays_ppa",
+                    "rushingPlays_successRate",
+                    "explosiveness",
+                    "passingPlays_explosiveness",
+                    "rushingPlays_explosiveness"
+                  ],
+                  "type": "object"
+                }
+              },
+              "required": [
+                "offense_team_id",
+                "defense_team_id",
+                "metrics"
+              ],
+              "type": "object"
+            },
+            "home_offense_vs_away_defense": {
+              "properties": {
+                "metrics": {
+                  "additionalProperties": {
+                    "properties": {
+                      "defense_allowed": {
+                        "properties": {
+                          "available": {
+                            "type": "boolean"
+                          },
+                          "value": {
+                            "type": [
+                              "number",
+                              "null"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "value",
+                          "available"
+                        ],
+                        "type": "object"
+                      },
+                      "offense": {
+                        "properties": {
+                          "available": {
+                            "type": "boolean"
+                          },
+                          "value": {
+                            "type": [
+                              "number",
+                              "null"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "value",
+                          "available"
+                        ],
+                        "type": "object"
+                      }
+                    },
+                    "required": [
+                      "offense",
+                      "defense_allowed"
+                    ],
+                    "type": "object"
+                  },
+                  "required": [
+                    "ppa",
+                    "successRate",
+                    "passingPlays_ppa",
+                    "passingPlays_successRate",
+                    "rushingPlays_ppa",
+                    "rushingPlays_successRate",
+                    "explosiveness",
+                    "passingPlays_explosiveness",
+                    "rushingPlays_explosiveness"
+                  ],
+                  "type": "object"
+                }
+              },
+              "required": [
+                "offense_team_id",
+                "defense_team_id",
+                "metrics"
+              ],
+              "type": "object"
+            }
+          },
+          "required": [
+            "away_offense_vs_home_defense",
+            "home_offense_vs_away_defense"
+          ],
+          "type": "object"
+        },
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "season": {
+          "minimum": 2000,
+          "type": "integer"
+        },
+        "snapshot_id": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        },
+        "spread_difference_home": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "status": {
+          "enum": [
+            "scheduled",
+            "live",
+            "completed",
+            "unavailable"
+          ]
+        },
+        "text_url": {
+          "format": "uri",
+          "type": "string"
+        },
+        "week": {
+          "minimum": 0,
+          "type": "integer"
+        }
+      },
+      "required": [
+        "schema_version",
+        "snapshot_id",
+        "generated_at",
+        "season",
+        "week",
+        "cutoffs",
+        "model",
+        "game_id",
+        "kickoff",
+        "kickoff_central",
+        "status",
+        "away_team",
+        "home_team",
+        "model_spread_home",
+        "market_spread_home",
+        "market_snapshot_timestamp",
+        "spread_difference_home",
+        "availability",
+        "json_url",
+        "text_url",
+        "kind",
+        "possessions",
+        "market",
+        "weather",
+        "assessment"
+      ],
+      "type": "object"
+    },
+    {
+      "properties": {
+        "cutoffs": {
+          "properties": {
+            "advanced_statistics": {
+              "format": "date-time",
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "market_snapshot": {
+              "format": "date-time",
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "ratings": {
+              "format": "date-time",
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "results": {
+              "format": "date-time",
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "results",
+            "advanced_statistics",
+            "ratings",
+            "market_snapshot"
+          ],
+          "type": "object"
+        },
+        "generated_at": {
+          "format": "date-time",
+          "type": "string"
+        },
+        "kind": {
+          "const": "manifest"
+        },
+        "model": {
+          "properties": {
+            "home_field_points": {
+              "const": 2.491565613957782
+            },
+            "market_in_prediction_features": {
+              "const": false
+            }
+          },
+          "required": [
+            "id",
+            "version",
+            "home_field_points",
+            "market_in_prediction_features"
+          ],
+          "type": "object"
+        },
+        "resources": {
+          "properties": {
+            "games": {
+              "additionalProperties": {
+                "$ref": "#/$defs/resource"
+              },
+              "type": "object"
+            },
+            "slate": {
+              "$ref": "#/$defs/resource"
+            },
+            "weekly": {
+              "$ref": "#/$defs/resource"
+            }
+          },
+          "required": [
+            "weekly",
+            "slate",
+            "games"
+          ],
+          "type": "object"
+        },
+        "schema_version": {
+          "const": "1.0.0"
+        },
+        "season": {
+          "minimum": 2000,
+          "type": "integer"
+        },
+        "snapshot_id": {
+          "pattern": "^[a-f0-9]{64}$",
+          "type": "string"
+        },
+        "week": {
+          "minimum": 0,
+          "type": "integer"
+        }
+      },
+      "required": [
+        "kind",
+        "schema_version",
+        "snapshot_id",
+        "generated_at",
+        "coverage",
+        "resources"
+      ],
+      "type": "object"
+    }
+  ],
+  "title": "Sports Fun CFB handicapping feed 1.0.0"
+}
