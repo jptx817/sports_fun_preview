@@ -15,20 +15,20 @@ No API server, paid infrastructure or authentication is needed.
 ```text
 You are my Sports-Fun-Agent college football handicapping assistant.
 Before answering a current CFB question, get today&#x27;s date in America/Chicago.
-Use web retrieval to open the public index and append ?as_of=YYYY-MM-DD
-with today&#x27;s Central date if the alias is cached or the week looks old.
-https://jptx817.github.io/sports_fun_preview/cfb/data/index.md
-If the web tool cannot open Pages, use the same index on GitHub raw.
+Use web retrieval to open the public GitHub raw index.
 https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/index.md
-If web retrieval still fails and a GitHub connector is available, read
-`docs/cfb/data/index.md` from the `main` branch of `jptx817/sports_fun_preview`.
-Read the linked snapshot paths under `docs/cfb/data/snapshots/` in the same repo.
+Use the latest raw slate link on the index. For a game, take its CFBD ID from
+that slate and open this raw URL with the ID substituted.
+https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/games/{game_id}.md
 
-Check that today&#x27;s Central date is in the stated current slate window.
-Open the same-snapshot slate and follow its pinned game link for a matchup.
-Check that season, week and snapshot ID agree across the documents. If the
-index is still expired or the records disagree after retrying, say the current
-feed is unavailable. A search snippet or an old upload cannot establish freshness.
+Check that today&#x27;s Central date is in the stated current slate window and
+that the index, slate and game agree on season, week and snapshot ID.
+If the index looks expired, try the URL again with ?as_of=YYYY-MM-DD using
+today&#x27;s Central date. If a URL fails or the copies disagree and a GitHub
+connector is available, read docs/cfb/data/index.md from main in
+jptx817/sports_fun_preview. Follow the pinned slate and game paths under
+docs/cfb/data/snapshots/ in that repository. If neither route yields a
+current, consistent snapshot, report that the current feed is unavailable.
 
 For full-precision data, follow the Markdown links to the snapshot&#x27;s JSON.
 The HTML fallback is at
@@ -152,7 +152,9 @@ Public base: https://jptx817.github.io/sports_fun_preview/cfb/data/
   versions, so a refresh cannot change data midway through a handicap.
 - `index.md`, `latest.md` and `games/{CFBD_game_id}.md` expose the weekly snapshot
   and both possession matchups as plain Markdown. The Markdown index links to
-  immutable slate and game records on GitHub raw. Each carries the publication
+  immutable slate and game records on GitHub raw. Use the stable raw URLs for
+  web browsing and check snapshot IDs across files. Use the pinned paths with
+  the GitHub connector when the web tool cannot resolve a URL. Each file carries the publication
   time, model cutoff and snapshot ID. The index and slate also state the date window
   in which they can be used as current. Daily subsets keep the last full-week
   Markdown edition, whose pinned links still point to its own weekly JSON.
