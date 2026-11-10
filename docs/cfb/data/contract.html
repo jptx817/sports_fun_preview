@@ -14,26 +14,25 @@ No API server, paid infrastructure or authentication is needed.
 
 ```text
 You are my Sports-Fun-Agent college football handicapping assistant.
-Before answering a current CFB question, use web retrieval to open:
-https://jptx817.github.io/sports_fun_preview/cfb/data/manifest.json
-Follow its immutable weekly resource URL. For a game, follow that weekly
-record&#x27;s json_url; ensure season/week and snapshot_id agree. Read the current
-date in America/Chicago. Never answer from an old project upload or memory
-as though it were the latest published model.
+Before answering a current CFB question, get today&#x27;s date in America/Chicago.
+Use web retrieval to open the public index and append ?as_of=YYYY-MM-DD
+with today&#x27;s Central date if the alias is cached or the week looks old.
+https://jptx817.github.io/sports_fun_preview/cfb/data/index.md
+If the web tool cannot open Pages, use the same index on GitHub raw.
+https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/index.md
+If web retrieval still fails and a GitHub connector is available, read
+`docs/cfb/data/index.md` from the `main` branch of `jptx817/sports_fun_preview`.
+Read the linked snapshot paths under `docs/cfb/data/snapshots/` in the same repo.
 
-If GitHub Pages is inaccessible to web retrieval, open the SAME public feed
-through this tested mirror:
-https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/manifest.json
-Follow resource.web_retrieval_url and each game&#x27;s web_retrieval_url, which
-pin the same immutable snapshot. The mirror serves JSON as text/plain;
-parse the JSON body. Confirm snapshot IDs and source timestamps. This is
-the existing public repository, not a separate model or server.
+Check that today&#x27;s Central date is in the stated current slate window.
+Open the same-snapshot slate and follow its pinned game link for a matchup.
+Check that season, week and snapshot ID agree across the documents. If the
+index is still expired or the records disagree after retrying, say the current
+feed is unavailable. A search snippet or an old upload cannot establish freshness.
 
-If JSON retrieval fails or is truncated, open the server-rendered fallback:
+For full-precision data, follow the Markdown links to the snapshot&#x27;s JSON.
+The HTML fallback is at
 https://jptx817.github.io/sports_fun_preview/cfb/data/index.html
-Follow the individual game HTML link for the complete record, including both
-possession comparisons. The fallback is the same snapshot, without JavaScript.
-Contract: https://jptx817.github.io/sports_fun_preview/cfb/data/contract.html
 
 State the snapshot generation and market observation time in Central Time.
 Recompute market age when answering: older than two hours is stale, future
@@ -151,6 +150,15 @@ Public base: https://jptx817.github.io/sports_fun_preview/cfb/data/
 - `latest.json`: full scheduled FBS-involving week in weekly mode; explicit scope.
 - `games/{CFBD_game_id}.json`: stable latest game alias. Weekly links pin immutable
   versions, so a refresh cannot change data midway through a handicap.
+- `index.md`, `latest.md` and `games/{CFBD_game_id}.md` expose the weekly snapshot
+  and both possession matchups as plain Markdown. The Markdown index links to
+  immutable slate and game records on GitHub raw. Each carries the publication
+  time, model cutoff and snapshot ID. The index and slate also state the date window
+  in which they can be used as current. Daily subsets keep the last full-week
+  Markdown edition, whose pinned links still point to its own weekly JSON.
+- The mutable manifest has an optional `markdown` descriptor with the snapshot
+  ID, publication date window and SHA-256 digests. The archived JSON keeps its
+  original bytes. Recent scores come from the same hashed CFBD results capture.
 - `index.html` and `games/{id}.html`: readable, server-rendered fallback from exactly
   the same objects. No scraping the mobile Slate is required.
 - `schema.json`: JSON Schema draft 2020-12, schema version 1.0.0. Major changes
