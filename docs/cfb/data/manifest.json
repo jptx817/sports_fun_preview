@@ -2,100 +2,98 @@
   "atomicity": "All files deploy in one Pages commit. Read this manifest once; follow immutable resource URLs and verify hashes/snapshot IDs. Mutable aliases may be CDN-cached.",
   "contract_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/contract.html",
   "coverage": {
-    "complete_matchup_statistics": 67,
-    "games": 67,
-    "market_spreads": 67,
-    "model_forecasts": 65
+    "complete_matchup_statistics": 65,
+    "games": 65,
+    "market_spreads": 19,
+    "model_forecasts": 53
   },
   "cutoffs": {
-    "advanced_statistics": "2026-11-09T12:47:05.981793+00:00",
-    "market_snapshot": "2026-11-09T12:47:06.549344+00:00",
+    "advanced_statistics": "2026-11-20T21:14:28.789469+00:00",
+    "market_snapshot": "2026-11-20T21:14:29.380051+00:00",
     "meaning": "Receipt upper bounds and prediction information cutoff, not claims of provider publication time.",
-    "prediction_information": "2026-11-09T12:47:48.455044Z",
-    "ratings": "2026-11-09T12:46:59.035658+00:00",
-    "results": "2026-11-09T12:46:59.035658+00:00"
+    "prediction_information": "2026-11-20T21:22:13.186176Z",
+    "ratings": "2026-11-20T21:14:20.363889+00:00",
+    "results": "2026-11-20T21:14:20.363889+00:00"
   },
-  "generated_at": "2026-11-09T12:47:48.455044Z",
+  "generated_at": "2026-11-20T21:22:13.186176Z",
   "kind": "manifest",
   "latest_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/latest.json",
   "markdown": {
-    "published_at": "2026-11-10T04:04:03.731494+00:00",
+    "published_at": "2026-11-20T21:28:41.557596+00:00",
     "season": 2026,
     "sha256": {
-      "games/401856857.md": "eb5f2f061dc385d87ecd38fbe68bb4e7114ace8462330066fd4f3dee41a93c25",
-      "games/401856858.md": "1c8a22358fe3ddab12a4706f994fa91c3853600810e4f9befbe9264193c584b3",
-      "games/401856859.md": "c2b751f70760d952435c180c300107bc1c4e9058c006c0fe8b367458d578b928",
-      "games/401856860.md": "5371ce65f74172a32cd64c88186049b1dacacdbdc861def8580db22fada7b9cd",
-      "games/401856861.md": "3fbd4147027ed87424ef528f8c86ceee5e2f58d7482e9d0f8f138b8decf79a6f",
-      "games/401856862.md": "218e39c273cca966115736cd6283219c4b7ce3e6b7283687c73c13c1b4aeda6a",
-      "games/401856863.md": "58073a7caed51a9b46e07fdeed2f337108332daa440d1ec7783f70142d15f634",
-      "games/401856864.md": "c3da9e42ee8aba63e50b61c44b75b0d4394220e67fc4caa7ebaa3e68a10c9a57",
-      "games/401856882.md": "468a249428cc71c0200b4075a0ce05060c0ae70949c39abbe500e530df66360e",
-      "games/401856883.md": "09c20e77479f4302e4959d59c7db43301108ca10206b908e039c42d3a2e6d479",
-      "games/401856884.md": "c96bba62d94d6abaae89195965499d6f63f3c5452099c3749054fa5acda99b2e",
-      "games/401856885.md": "63e76ec10239cc5b3d2d0e20758d8bdca7037cd1d5799309c74a4bb219d571cb",
-      "games/401856886.md": "5741b85a4ba96852c921aa4ed5aca3080474238fb78c2de1775536d8c5474ab8",
-      "games/401856887.md": "0bbf78c90884c101ab709c10b6e37f5ed49b565d5333301ef82c0d06f905f7d0",
-      "games/401856888.md": "280da1cef700c7fbfb06c28221dfa16166e3f3db35e6026a6ec28f50f1007f97",
-      "games/401856889.md": "58ac7a41812d2c952a47e611bffcc3d64bba67455391efede7dc5160cd5922d7",
-      "games/401858293.md": "329b0c4a9f4944ef1e28bb04c65506e4c206644059334650fd5145f1881e168a",
-      "games/401858294.md": "16842780b5c2f9ac9cb0440b7702c6fc86f3b99ea95d8b95fb636dce6c258860",
-      "games/401858295.md": "d1dddea37470e3a301dac0b70529be644452e689f30bf704529d7a8f1a6d5417",
-      "games/401858296.md": "4e2bee43dd5924856f0f0b0db5dfcf1907c2de295cdfe9d1782b224842c227e4",
-      "games/401858297.md": "089c091bce611e1c1cb0853d891aa570f4568b89e07d3049df93c1631eecd970",
-      "games/401858298.md": "57434c15b81be20d6d12808228a1511bfa03555b806248bf5f53759480f64194",
-      "games/401858299.md": "442996b99d60d0f89a0d9a2a38c078a0b1ad0ae92b9bfa6ddd9e5c693e10df8e",
-      "games/401858300.md": "2eb795be7463aa8dbb3c1cd02921822d9dc08fcff891870ccd18cce87781416b",
-      "games/401858301.md": "6b19045e9c46bab935e4cec4f3edc24577c8866086a1f74ff24fe81b2b2613e2",
-      "games/401858518.md": "2f8e89459245f53febb58a50f98d75f4acab10f6069deafa8c68be1afbc25441",
-      "games/401858519.md": "4d8a9391f882ff69c716496c940e1f606a112b00f4103da26403fe9311536b35",
-      "games/401858520.md": "6a0264bd04f1fc76e8e849dcdea0938fe1cea0d6a5728feef4c3da7e28d3dadb",
-      "games/401858521.md": "424926ad80331c65494e5b830684cb45596dd3edb998168586710f8797d2eff7",
-      "games/401858522.md": "7e191bb9e0c7d26211331a02f4ffbc3f9589ba2e8f15a9d3e6c1e1cd9e4182f6",
-      "games/401858523.md": "10ad72e31618fdb0eee5d2cf9c89695219c21f002c1254b126f57665d3b793e9",
-      "games/401858524.md": "0f0cfbd168f44f86a9ab7dbb2c234811645b303831629e1cb1ab06d865c564ff",
-      "games/401858525.md": "ff4a5e16c5647928f5b5d3f5d8379b8596b1c18fecbc4c713ad787891755f593",
-      "games/401858526.md": "69008837282b7b8370e9641674a88683578e2a71b7af1e552d74aad5efa7c7f7",
-      "games/401860914.md": "779f31b6fead2f48ef8c9139d79851ac94044e00e17796c6597a324fae9696df",
-      "games/401860915.md": "9f77ca74811acdb11950435fbcc01d30e51d9d6952c97d96482103f9bb0cac77",
-      "games/401860916.md": "ba17603e2b3e54707354c18390cab9523ce2f37dcfc4eb15df58c3bb2bb22531",
-      "games/401860917.md": "a8ca2c2c2fb42b6e3aec16d486ea3588ce2d6b15d71794fd6a7c2212f95c4dce",
-      "games/401861967.md": "61e7b2227205e0150be04ddfc8cbd555b6a3fbfbfe140619d1ca90a16204fb6b",
-      "games/401862824.md": "315240ab68bf174e4c28c42ef28a6d33add41b275c58126ed2abfb100bfd466b",
-      "games/401862825.md": "53169603820363660c9a9a8ec85794ea953eb66736542f634a8a11ec34129071",
-      "games/401862826.md": "3d5dea72478b72dac77b2238abd0a366d692a6e42408f87121d21382a4a73b39",
-      "games/401862827.md": "d47e4c0f0e91780a838d5bc980e62775384d3d367a069d433ee0854ecd218e56",
-      "games/401862828.md": "8430055f6a0b8ae047dc038caa1aa05f0c6d0ca385acc87e6a98a3977790949d",
-      "games/401862829.md": "76b9944777abbafebee382068954593b3e81d343485d299a4e4e13ddbd43f96e",
-      "games/401864536.md": "334512a55c35adb2879b0e1b5596f305ce467fa61ced0294f1de23c8ec42b20c",
-      "games/401864537.md": "676af761554eee30265d0e1502f5494b42b7b2818a75ffd95279ac5906b931ed",
-      "games/401864538.md": "48f6a4d7057ace68b14657f453d0500b2d94a73d03aa9779cf885ab4d52c28ce",
-      "games/401864539.md": "eaca4d7666c48be83957e7affcacf69d6749da575f2c55d3214c323ce0908693",
-      "games/401864540.md": "b81268800ae2f93715e579eb7ba3323579352406f32836aef2d4ffff530681c5",
-      "games/401866458.md": "a80794fbaec34f4d99a01bd9fc79d7b89c4008b6c2f5b8d650b7c60ab2b0ed7d",
-      "games/401866459.md": "ac5c70cfab74c1f40b691ddd1a3bd7b9a19aabbdc61277dd606ee39f76554c75",
-      "games/401866460.md": "5aaaec0c400ff1437c4665d9968d85349072d97fb864d83342dc31a3572cdbd1",
-      "games/401866461.md": "f8f683b8f3f8254a34b3deec5552611473987ea1a449789043d937bd1e839856",
-      "games/401866462.md": "9fadc813187e6dc27db6aa1a8abde7a36835aaafd4d014cc90eee43f9945a15c",
-      "games/401866463.md": "f8768ea82615bf0ef51d9a27ded6b8abb888345bd48474f5e3efa1c052983f78",
-      "games/401869928.md": "bec8ef3f1c3a404d4d0dcd524458053943db75afb2f630698238ca429077713d",
-      "games/401869937.md": "623ec1ed1695e9d6252571d1efc0778af8e325b896fe04acaad1c6f7716af971",
-      "games/401869952.md": "b98f630b44c0fc8057b859c39e2d1eb3b54e566b5c8d020de0af1e1331c6a6de",
-      "games/401869969.md": "2d963bea97a31ea77cbe8614ebe45e3bdc8fb07f62b5564272dc2bd4e7c584f3",
-      "games/401870752.md": "8fea292dfa64cd01431a7bc69af4eada503f37ae7a3d8d3d757d17f8d2a1f90f",
-      "games/401870769.md": "76a260c910b07e628e445d711588310b0c819b39d5c5873a8a70fa3dd395680d",
-      "games/401870796.md": "5c8384bf33ede2012c90edb9ab70431027eefed223703bc2e58176a12d986ec5",
-      "games/401871060.md": "060d25e7ac48b534418c03061c19dffcd16299c7eda1e6114d00f3655ac72b8a",
-      "games/401871061.md": "2c6132d791005476391172fcb8c39ec6d822fe2582c38ae4b8c647dffaff61cb",
-      "games/401871099.md": "f5bcc778af4f2a010b4cca451e1f031cb8e994ee8f184fd4f2405b4b233a4fa7",
-      "games/401871100.md": "0006677634f835872991cb31a2a0cc45d08248b582b2af7bb43f9f82e703f8d3",
-      "index.md": "9c3bd230c6e15e94e9490c48589de8cdc735676b2048c8d0ec2d7f9eb1c9e0d1",
-      "latest.md": "58da05c7c92a9c0f8b1db2a053399794e5a81ef637b120d2c712d8fc202705a8"
+      "games/401856756.md": "8e8ab2c0339514465b6071a5435130d4306281e66e0a5aac89cc2e225b4d6050",
+      "games/401856757.md": "2a38388682d34a77474725bc8cc3ecb41f52cfec5923ccbf22a1893aac4131b1",
+      "games/401856758.md": "2be67b4202e2f37b220385dcdd6f56abc9a287d3d0bfa4b20d8f4f3aa37ec520",
+      "games/401856759.md": "dfeaf264afad8d17932fdf824cdf2a4b093c43126c87d9ef0f111b9cf687041f",
+      "games/401856760.md": "e1b947c24f8daf28811e877afe732665ee229d5875ffdb0458460513667f05ee",
+      "games/401856761.md": "f6d87924ec0d53a950cd289d42bfd3694d5d47e9ec070134cbbac885aa8b1dfc",
+      "games/401856762.md": "89768c5747b8c74b6544ab6596e8b8c0d86cfd2383174eab0781467018cab947",
+      "games/401856763.md": "5a58bb3c4c0dbd3f4798dcfbf1a3465b9be936b7b116e8152649e580de6a1671",
+      "games/401856764.md": "529344a48e1b115fc10a6f3b9ec74bde0af1e124420c18580baab0692b4e2b5c",
+      "games/401856765.md": "f65ed8f8a123800c78340612763bed00d7689c1fee992f965e24e5b429eea010",
+      "games/401856873.md": "16a41e4f9558bef256bb279f6dc09f9c29f9a59ce7d668bbec2ab0b8bde82c7f",
+      "games/401856874.md": "c0b26dbc38e1bf7affc787763ac036b0719809a381081b664cf22d8cc3626ca1",
+      "games/401856875.md": "c7c2f9dec7425a99603644ce1a74e462b38a8e24347ba36aebf29dbd99f95727",
+      "games/401856876.md": "7ed19f381967c78d8796b6a8376906f12959446766e481503cd96e6ef37bf98f",
+      "games/401856877.md": "0d3ce0a86a9759b7f19c868bf1b11e50583dde03834bfb039e8f4217ce2a4a0f",
+      "games/401856878.md": "43dda178bd2c9ddb126f1c400666efac81b214ff078ffe7588962010fe205a85",
+      "games/401856879.md": "f2fc0342b2ddf2327f70f349a17c9435f8b574d98bb4462e31396de77b517f5a",
+      "games/401856880.md": "724d52645652145bc9c762de353be0f4d76febe373f4e957725e16f7a0fc303a",
+      "games/401858311.md": "f8b753dc5cbdc92b08746c8762e5209202529839b28382cb5749de4fa68be9f5",
+      "games/401858312.md": "7daaea7c9dbdf1a76201dbc6b531593b84595da188cf6252ac99a1af5611b70b",
+      "games/401858313.md": "6c7ff97e58021cb8187f759b939589372c72ba8f618c49a9f083296b0386bca7",
+      "games/401858314.md": "83fd3d9e5ac6c593ff92031fb16b501b26e2b31fe881126c27c4f0c93e95b8a7",
+      "games/401858315.md": "357a1965264b36c97e333c1a0dc4a74d06ae6153c42095905349e7e9414c5355",
+      "games/401858316.md": "7ab272c4e88c92ef0c21316d9af3fddc0694652a8e7810d026197f3047249010",
+      "games/401858317.md": "f6b7878d0d8efbab84106b2a581bd9268f5c08fe98a649b5f3f6bdbee014c14b",
+      "games/401858536.md": "881ce67c6b6a8525e258983b9bb80520321cad22c52995dbb287889451d53334",
+      "games/401858537.md": "774971d452761ff7432cd3365279b115a306de8394d0e09cbeb0c9d70ea7b629",
+      "games/401858538.md": "1f1fa900d547113061c12ed86c09a1c68d71ba7f0b2ee8a38979f35e81b5bcdb",
+      "games/401858539.md": "21562ee435c052897ab33c68c7ec6f5edd66f616f857f053885e83698d8b12fa",
+      "games/401858540.md": "990df64724d2dc7feafdbe1e2c837f698d8c300c6e7784146e3e3faa8113c58e",
+      "games/401858541.md": "617fdd13c5c33cbb77d30675caa8d93e2aae8623e9a7a8447dd625bcfdd28ac0",
+      "games/401858542.md": "4050421fd33f6e82e6a2dd6a103b096736e503fd3a617815d239f48f5e6c66af",
+      "games/401858543.md": "7e5f37a22f3cbd9803ced15322c915916b9ffc292f8dfb81d0cce6026c6067d3",
+      "games/401858544.md": "2a12436163eafc8f39c6a0019e8e6a2ea7435d0ba450231a3d35ecae84f19511",
+      "games/401861969.md": "a1352e30dda7d16f4439696bab4727652572511ea06005d8d83c6def3f1119a3",
+      "games/401862837.md": "f6c0a68de028d9e18a8567317e74b1f898f27b197fc73e8ac5374f725a478539",
+      "games/401862838.md": "a7d3fb50ec2fd96112993b5a194e18010f663bdd0d0b956e0011f6b94202a459",
+      "games/401862839.md": "0180c023575a237f75398569dd78b2a2f6ac6b9db00be5f06657f2687d9d40e5",
+      "games/401862840.md": "35209633d3ed50984d4054daed911708850bc0cceb2fcee3a087d0766132837c",
+      "games/401862841.md": "0d7a2db8d6fa6a22ebe3632281f20be3e7d0a2125649e318185db78b6c70ad1b",
+      "games/401862842.md": "0fb0ee5d13ada1fe69007b9a88c63c8024c3c3a828f29db72bc983a404339599",
+      "games/401862843.md": "8e46b1706c99174c5d174ebc8e8012880123182ea48dbe5530ab841762115a22",
+      "games/401864546.md": "e87c7f88b4e08ef5145ac25f1e2f948d76bf09a35a27afe865c168d234c340cf",
+      "games/401864547.md": "ae70b0942c69436d1b5c9c82ee865920d475f459725e5982f1a546c25447da20",
+      "games/401864548.md": "9f1adaf2ec65c53a00b00e97ed7e63436242ef650ce7f2fb01103371397e814e",
+      "games/401864549.md": "9c333bf8ae80fa4a9bce55d6b87101e6605ac333de36fe48a433ba2fa6df375e",
+      "games/401864550.md": "d2608619ad63463a8d3a7ea7f05537550f63cf8a69d5b91a40b1fd1fe9456d39",
+      "games/401866470.md": "c85a4815b5c01584eb949281c9f0d37e069c32cc20a233112b9dc8733b9a730a",
+      "games/401866471.md": "f4dbd8677f3a8ed6469e0ad3d461e0947d350f8c87939e46cdc445f88a322212",
+      "games/401866472.md": "2eba8a1b313de6b2544a6f7f8cfb4765ba6fc40ac48e89614d20ea47bad38369",
+      "games/401866473.md": "2a8c9c30f2933f8f1cf66c19845f22fcc0485bba2a480cbb02a706f4b0a0c2fd",
+      "games/401866474.md": "28aac7bf7ccf0a46fea854a04f7e0b92857513b77165a284054070a092843371",
+      "games/401866475.md": "f57a43bec52cfa71d5c28814cba3d31c427577a7903b03bff89adcf88a143b67",
+      "games/401869930.md": "2c3c56e08fb95e984b6127180b1a7f082bfa9e1f9b197fd34fb572f8accbfe41",
+      "games/401869939.md": "9aa47e8c95dad99ecb35ef63527e70fd7185a7b3c17ef954a0d143d6bfcd97f7",
+      "games/401869947.md": "5cd45cc29024873721ea854d13824dff32f3cc0fb5d9f971751e898f65e9ea66",
+      "games/401869954.md": "355cfde83c6845b7851bc73868f3741169dc58f851f4e1a083ab22f7d440ee7c",
+      "games/401869959.md": "a92b7c39bdcc7f7a7fec2c85759a37f67b6f30e3ffabf043c919830ed94fe544",
+      "games/401870804.md": "d765a83dd330fedf17cafc8013cc189bc513b62750429e47a5af66e3617137cc",
+      "games/401871062.md": "34da18bf1d7e1c9392efd3cb28c96a99e2244639e0202047ab5498ad6cb4be86",
+      "games/401871063.md": "243a62f8e638375ca44c0229eb9589a617e2f32339fafc6d199ac7b4ec406391",
+      "games/401871082.md": "653f75be3eec582b0bb845789161178857db69a73fd8f7de5dd63e6ed1177353",
+      "games/401871083.md": "ab65cfa3e10804cc929109aca076d353580c9783d78463ed5d697127df0dd8d4",
+      "games/401871102.md": "315d28803deb789cb48d33daee0bd758f863deb0cbeeac3c6ce393e9889bd1ce",
+      "games/401871103.md": "125372a91738ee1c0bdb0e414aeb037a8e8a3a9b936dfb096a0e76ce1ba3ac4d",
+      "index.md": "d58211b268f63bbcb26c5da52431e58bf4f839eb33e5aee37251ca0990d366b1",
+      "latest.md": "a4aa1b8ad46d5f7ea196ebf982e8bb35abfef678310997df760667a8167940f3"
     },
-    "snapshot_id": "c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19",
-    "valid_from_central": "2026-11-09",
-    "valid_through_central": "2026-11-14",
-    "week": 11
+    "snapshot_id": "6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f",
+    "valid_from_central": "2026-11-20",
+    "valid_through_central": "2026-11-28",
+    "week": 13
   },
   "model": {
     "home_field_points": 2.491565613957782,
@@ -107,359 +105,349 @@
   },
   "resources": {
     "games": {
-      "401856857": {
-        "sha256": "1930daf2f389e5c2570ff9f5e7b15be4d3bfc865630f2415e39188b551a75e59",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401856857.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401856857.json"
-      },
-      "401856858": {
-        "sha256": "479c12e30d588b0f57061b1faa6c384b402364c400048b86a1b07a46646d7467",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401856858.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401856858.json"
-      },
-      "401856859": {
-        "sha256": "b44c793e062ed9f03092c32fb9aec719eb7d96ff5444708ff0e7461c922c7602",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401856859.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401856859.json"
-      },
-      "401856860": {
-        "sha256": "c066106899fb851ba72d1fbb4e470b7b84921b529906e11a14649f5f6095990d",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401856860.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401856860.json"
-      },
-      "401856861": {
-        "sha256": "c5a7bf73762e5a46f0c12b3cf88e11390c9b21ed22c724876fd4103d44ee631c",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401856861.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401856861.json"
-      },
-      "401856862": {
-        "sha256": "9b99bbd84bc8419b8977e159103047a18bea3ec62d017abd63dd3b57509fabf0",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401856862.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401856862.json"
-      },
-      "401856863": {
-        "sha256": "1deb31bdb7dcfce0735c1e14ce9a30254f67ceed30c9151283f26da68d0db403",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401856863.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401856863.json"
-      },
-      "401856864": {
-        "sha256": "f47ef3fb5d5d33360de3c21391ed6d53364897223e24ee27c7d4c7ae0d356e5e",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401856864.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401856864.json"
-      },
-      "401856882": {
-        "sha256": "2c7921f4a00ab8a7791e59598dd034874b67f9787649cf97628e9785a2d6791c",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401856882.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401856882.json"
-      },
-      "401856883": {
-        "sha256": "17ba2de1b83bf4ffd89f5ca571a6b18ec93769e4b48307dd5a0df9e816dd0af0",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401856883.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401856883.json"
-      },
-      "401856884": {
-        "sha256": "4ea95b9d87be161c926b52fdb4bf5cf1cde5d8f70ed7f7d0509a16e3fe9dae92",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401856884.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401856884.json"
-      },
-      "401856885": {
-        "sha256": "21160f9f2805eaca1b0ae2d93d8e856f43cf53c41e7fe8df4740993d92ecdf56",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401856885.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401856885.json"
-      },
-      "401856886": {
-        "sha256": "8f421629a3ad710e98bad576c2578f3da0583e8a5ae75cdea1c93037fcb26b93",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401856886.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401856886.json"
-      },
-      "401856887": {
-        "sha256": "ecf77e6bad5acd9eeee08aaca7e1f542af74c66d7508d8da3c61b4de77e14636",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401856887.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401856887.json"
-      },
-      "401856888": {
-        "sha256": "9bfdcf76bf9d41990e46ff6ca6609a651b0da5a943b84f688ff86ff81bddd6b3",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401856888.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401856888.json"
-      },
-      "401856889": {
-        "sha256": "488947c962b4d4bfe77d04ee6cc3383c7eb3fcecc7c8ad5beb8eeb76da259546",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401856889.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401856889.json"
-      },
-      "401858293": {
-        "sha256": "d6b2e5afc62ef271090a3856b96657f89b8e1da7747075ac6c5df8ae91806bfc",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858293.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858293.json"
-      },
-      "401858294": {
-        "sha256": "302407096a938e6315308791cb4ae5949fbda5b284bf23554ef4ea6ec3dc8668",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858294.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858294.json"
-      },
-      "401858295": {
-        "sha256": "f84c5490cf8e1457e355432e654d42f07a7c07dde9c15a0ecde67b3b7913072a",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858295.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858295.json"
-      },
-      "401858296": {
-        "sha256": "ea097256e2dd086ae9113b1454eae3eed53c2bb211cdac2e8a7c4b8c3bf7ae09",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858296.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858296.json"
-      },
-      "401858297": {
-        "sha256": "982cc06b1741bffa9b4621492122492de183b8c1b1bd1712d3815e2ca3d5d96c",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858297.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858297.json"
-      },
-      "401858298": {
-        "sha256": "d080f625a22f71a885b818cdb3cea95ec7c6e062843806e8aec7f0c05432d13e",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858298.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858298.json"
-      },
-      "401858299": {
-        "sha256": "5e50fcfae16948360e7e9d1ad82bddf0f937fc8818c138d248ef712f78afac80",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858299.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858299.json"
-      },
-      "401858300": {
-        "sha256": "1cf711484875d2b3a30d43896065f1b26056832033bc2feb8833575bf47d299b",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858300.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858300.json"
-      },
-      "401858301": {
-        "sha256": "992f884a927ce6f13f5a3175ff72c5c4f0a854953120be83c60f49636dcd5e99",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858301.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858301.json"
-      },
-      "401858518": {
-        "sha256": "a10f7f5397c215df29056fc57700e1ee6a458ab4ae7b140857c81247ba1b74a5",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858518.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858518.json"
-      },
-      "401858519": {
-        "sha256": "02f70cd26a5ee2da3a287643bdc774aa56378f7e295c4e98c681fab8f5e84a58",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858519.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858519.json"
-      },
-      "401858520": {
-        "sha256": "a5cb3fd8b976fe1d2bec5356e2ffbfefc07804692a353d38cfd25d1a330b92f0",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858520.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858520.json"
-      },
-      "401858521": {
-        "sha256": "2df658a79606fe4dedd10cd18675bb8ad5df00b23afa60f09c50d7092f7990aa",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858521.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858521.json"
-      },
-      "401858522": {
-        "sha256": "cfa8c0922662f52db8283f671f295b8490e62db2caf87ccc2809c32a27c45498",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858522.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858522.json"
-      },
-      "401858523": {
-        "sha256": "4e22ec33dbd01d73519afc81229e0bee3275d3301bbeaf6858c1da73816f00ef",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858523.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858523.json"
-      },
-      "401858524": {
-        "sha256": "e472e7c9e7b853667c0d173a5d85e5b7a6eb0cd01c93708c13cf4a3b1503c2d9",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858524.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858524.json"
-      },
-      "401858525": {
-        "sha256": "4a726aa29966093aadc0af5b133049ba5a4068eb618c279e948bdaee7cc0e6ab",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858525.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858525.json"
-      },
-      "401858526": {
-        "sha256": "512cfaf0cda8af8c4c9e6209ac173452778821937edf25d02617b71da6aaebeb",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858526.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401858526.json"
-      },
-      "401860914": {
-        "sha256": "fe7018ee85b5a4079a4eb470bb5846e9f727d3642f2403ef1afc8ffb62c71885",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401860914.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401860914.json"
-      },
-      "401860915": {
-        "sha256": "715ac108d6100f5a7757b74c4c08416592b79165bd8eb7d79246839bcd87e11b",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401860915.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401860915.json"
-      },
-      "401860916": {
-        "sha256": "5f8b7aa743a1a1e1f303b3fa70677f9ed0fe486d13b3097707469ad27d3223d1",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401860916.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401860916.json"
-      },
-      "401860917": {
-        "sha256": "87d8f96fbe719ac9febab886fe5c217ffa224d64c13c9986d0c165a14a831d1c",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401860917.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401860917.json"
-      },
-      "401861967": {
-        "sha256": "690b11c5cb26f6d71d6354bda81dd5ccc3aa68ee94099313feb0015af782a356",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401861967.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401861967.json"
-      },
-      "401862824": {
-        "sha256": "a7d4f30bc2cdbf2386e281959576d8f2dc4f9a2ac981085079f9c05463a49340",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401862824.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401862824.json"
-      },
-      "401862825": {
-        "sha256": "864f0395f4ced679e98c42aa1709ea9ed49c26effff2f7a0022de0c157c50575",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401862825.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401862825.json"
-      },
-      "401862826": {
-        "sha256": "0642109aa3747566694134d4d68314815b55f9ee6d930e83f94ed009db87185e",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401862826.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401862826.json"
-      },
-      "401862827": {
-        "sha256": "52ee4e14585e867f9234d9c6dbea3bc7d970a69e9013168b823c35a38f412472",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401862827.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401862827.json"
-      },
-      "401862828": {
-        "sha256": "4b7a03075f8119c92b8d660c01864d3f8434d8e1d9a1fbed2ad14f6ae78ebb25",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401862828.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401862828.json"
-      },
-      "401862829": {
-        "sha256": "b387ca28f1191bb44b70838ef76cada12e6276adcdcd21f747b5d17e97113039",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401862829.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401862829.json"
-      },
-      "401864536": {
-        "sha256": "107b1daac05b6084e7a6f1e412d661b429658df34bbc8406ca501cf9e6df1a10",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401864536.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401864536.json"
-      },
-      "401864537": {
-        "sha256": "7f02ba4531cf686db261e2b20f3c85c90b8c79da438720fdbd091709ec9d1872",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401864537.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401864537.json"
-      },
-      "401864538": {
-        "sha256": "60121a637e327755f2c97fa4208977ee25feb42775e500f3467fb1b652be0f2d",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401864538.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401864538.json"
-      },
-      "401864539": {
-        "sha256": "d66abcd3e8e06ae32652b555d401b9127c73c213cc916d1444bafe0f12978d1e",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401864539.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401864539.json"
-      },
-      "401864540": {
-        "sha256": "645db4d3d9c5906f960e9908e548e936cd584d76d9d687f0216c4f4d3310198f",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401864540.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401864540.json"
-      },
-      "401866458": {
-        "sha256": "92cfb05a3ff204607e56ebcdc0e6442da038315e59e8eff00104da433ea2bd97",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401866458.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401866458.json"
-      },
-      "401866459": {
-        "sha256": "305bf1372bcd22f8ff37a0f0861f581e1985b2af8c979760cc5d138536055a78",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401866459.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401866459.json"
-      },
-      "401866460": {
-        "sha256": "11bbddf2ba1e3b00460b9ffd09c5ab6a976f9106bc6b2d6990c15bf885a97c57",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401866460.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401866460.json"
-      },
-      "401866461": {
-        "sha256": "de5932d1404ffeae7f464ece8de697ab460208bb08db408c5d3fab0bdcf4f71d",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401866461.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401866461.json"
-      },
-      "401866462": {
-        "sha256": "a1dd056ac2ea293e3d510f554e93e11fa183d86ebccf44a36a59418778095c50",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401866462.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401866462.json"
-      },
-      "401866463": {
-        "sha256": "3b99e655bff683f6e1531030575be73e9ce8001292a190e70bcd4e128f569beb",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401866463.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401866463.json"
-      },
-      "401869928": {
-        "sha256": "d0cffca50341d3486a4f78e514d5c609c475b06200afc162f0f3a2c6ac179a7a",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401869928.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401869928.json"
-      },
-      "401869937": {
-        "sha256": "e1aba9a00d7c029252d35d0365005fa84626c5a9206ff439617f09a3371777e7",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401869937.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401869937.json"
-      },
-      "401869952": {
-        "sha256": "5adb85c57ee72d20039fcf1552602e05bf338dabb3883debcf1d5cdde3e88151",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401869952.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401869952.json"
-      },
-      "401869969": {
-        "sha256": "e8c8833f01f458db460676767837f1c916fa3a71a90521870c4620cc3db760d0",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401869969.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401869969.json"
-      },
-      "401870752": {
-        "sha256": "737c611b7c3480cd0aebfb28e60c27fb4f129528eacf0a0da39d9bfca46ac58a",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401870752.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401870752.json"
-      },
-      "401870769": {
-        "sha256": "e192bf4630d3cb1f87c0de7af06ca40021a060f79462516be6995000bc439b90",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401870769.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401870769.json"
-      },
-      "401870796": {
-        "sha256": "14e419d08616b998f68fc5f9690fefe1b6ed6114c42bbd9658c6c767ed3df0f5",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401870796.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401870796.json"
-      },
-      "401871060": {
-        "sha256": "506c434c66691e0b298b2625bf8e437c9eb3ed5b1821b49d9b766a7c33fa5676",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401871060.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401871060.json"
-      },
-      "401871061": {
-        "sha256": "6591b71bc35cccc0164c29dc7d3a35824451275b4e61a47effd0627ec75aca8a",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401871061.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401871061.json"
-      },
-      "401871099": {
-        "sha256": "1463198917d11c95270dd2cb1cba18d8d01511247c2bf1d3abd046771004bee2",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401871099.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401871099.json"
-      },
-      "401871100": {
-        "sha256": "12430d0040bd99a56c46a62c3bcb675cc3ecf61774580cda3759aef4e68b204e",
-        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401871100.json",
-        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/games/401871100.json"
+      "401856756": {
+        "sha256": "d527fe632278cb9d9c9661b5499762a785b70fc7c7fbae4880fe4e972283e73c",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856756.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856756.json"
+      },
+      "401856757": {
+        "sha256": "801ca3f63748ee5cd50bda0cb5922cdc74bad6912130d4c04367d26ab8970498",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856757.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856757.json"
+      },
+      "401856758": {
+        "sha256": "e4225684c4db738c0bb8c6c7acc092dc068b59c78b082ca2d6e94c0c0b75e59b",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856758.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856758.json"
+      },
+      "401856759": {
+        "sha256": "7879677b77dd306c7769a73ea2598470e27711f319f297604bf4a39c2763272a",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856759.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856759.json"
+      },
+      "401856760": {
+        "sha256": "14002b95e6f7516e380afd0dfa75dd4b9d6b913089699cd25e983456734b4e11",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856760.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856760.json"
+      },
+      "401856761": {
+        "sha256": "459104c242fd12d8bfc08910fb5b422bc39fd9d5e546a54857fb85d1d4199d3a",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856761.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856761.json"
+      },
+      "401856762": {
+        "sha256": "674380236be0fae07c62fb7d05d915dc4c761030241202089fe61f1c15b55436",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856762.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856762.json"
+      },
+      "401856763": {
+        "sha256": "8b1f32ac77afb3132bba6a35e630ef299484f6a4a84e6bf0362f8dd2e223dfc0",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856763.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856763.json"
+      },
+      "401856764": {
+        "sha256": "c8eba24ffc8cb14995b0c89e74a13f3aae7b95613d968e13a92e6620c1e2674f",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856764.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856764.json"
+      },
+      "401856765": {
+        "sha256": "bc2cc319baaf52e7070fd4be8dd89409ec0ef73104ff640f9a0c5c34136fb030",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856765.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856765.json"
+      },
+      "401856873": {
+        "sha256": "a7e653e352cfc7e9314e467886c84638237ece44ea90761b7fba154d073a6cea",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856873.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856873.json"
+      },
+      "401856874": {
+        "sha256": "00c05b9c7c3786e77bdef14828c46831503951cf1976389b09742b10564c9e3f",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856874.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856874.json"
+      },
+      "401856875": {
+        "sha256": "e371a0db2e8d62540aeeb4ba352889f7c2a085d9b4af956d420b0b7c8d7fd1f7",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856875.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856875.json"
+      },
+      "401856876": {
+        "sha256": "ea4f366adf18b63167eb851b3e417a1ff1a1217f4e2bec0ef0c3fac34214754d",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856876.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856876.json"
+      },
+      "401856877": {
+        "sha256": "4b7aa0742e273d006bf99b4bbd3bd5f7dd00461ece99a7b8a76e09cdf352a848",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856877.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856877.json"
+      },
+      "401856878": {
+        "sha256": "b5dfddb9ec58689abef0b171c31b71e86854ce7db57caf4e5d308abddec63a7f",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856878.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856878.json"
+      },
+      "401856879": {
+        "sha256": "0621e2e96a6b6480e2cf0561d083d8f1931b001c6e7b3d35bc01dfc78a491329",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856879.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856879.json"
+      },
+      "401856880": {
+        "sha256": "8b0a266ae2e893355cf89567b47d3dcd80fa84a35519f4d99c5ba632730d6b58",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856880.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401856880.json"
+      },
+      "401858311": {
+        "sha256": "3aa39ddf05b4d39a1026c84ce3f82736b0cb101ebc59aefbaa7b646322f2b5e5",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401858311.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401858311.json"
+      },
+      "401858312": {
+        "sha256": "20e9a8e37ca162e939d0bba06d15d6757de6f28380d416bda38900002b9ee9c7",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401858312.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401858312.json"
+      },
+      "401858313": {
+        "sha256": "dc88130d0a57d5df00a1d52b4cfbc97cfff1eb88a0a683bb1b5015f124e42ca8",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401858313.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401858313.json"
+      },
+      "401858314": {
+        "sha256": "711a87e0e0910e7912a6dc85aab6bd9f582f73c6759c196a273c36c9018ea13e",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401858314.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401858314.json"
+      },
+      "401858315": {
+        "sha256": "20dc9e107e1e6e7d7ccd146bba29aa19396f8ea7a99ec3adc34b24d3dbf552cb",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401858315.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401858315.json"
+      },
+      "401858316": {
+        "sha256": "4c19a7bb117df14ea8b60fddf95223fee29690203186f7b3f86758eaa53d37d5",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401858316.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401858316.json"
+      },
+      "401858317": {
+        "sha256": "c7c73904cc067a8eda42864aa1e66a1fb7e6e43e257f44d82900dd232982170d",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401858317.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401858317.json"
+      },
+      "401858536": {
+        "sha256": "d384d4c369cb5e139ca9206f3e48600e01591dd90977ce1728590dd3295a3cee",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401858536.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401858536.json"
+      },
+      "401858537": {
+        "sha256": "3422e5f87e5b4ccc3b16d6995eef36401c8eed2eaf542053232f947db5cba991",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401858537.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401858537.json"
+      },
+      "401858538": {
+        "sha256": "266aaf2875b382d9ad6606d71dea1b408e54b896eb39cb1e66171a57489d0bc4",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401858538.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401858538.json"
+      },
+      "401858539": {
+        "sha256": "8c29d2422c3ea1098e2aa1fb702532b218e653b0a64507c4f7e5ebd91a78244d",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401858539.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401858539.json"
+      },
+      "401858540": {
+        "sha256": "b0c3cc374c109dae8b8400abf5a050d6e1e4beee2c5c35180e49a5a1ff2a65a8",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401858540.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401858540.json"
+      },
+      "401858541": {
+        "sha256": "662178d7483034faf612f602a1080124eee1dbfa7a0bd885a76de395f3a40867",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401858541.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401858541.json"
+      },
+      "401858542": {
+        "sha256": "b3984456107ef1143c5f6cfe17ac4ba6dc01ff56d3367653648eaf6bd92d82c1",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401858542.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401858542.json"
+      },
+      "401858543": {
+        "sha256": "dc439776cf4870157e96744be589d6d842ab7841cc102e2a34b712aebf6e5cfc",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401858543.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401858543.json"
+      },
+      "401858544": {
+        "sha256": "62495623f8559e0f59f8fed897d1fcfe51b085df5227f0a1bddf3b2432750470",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401858544.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401858544.json"
+      },
+      "401861969": {
+        "sha256": "aab032d130ccafdb80d43e100c60fb8f86a2b66995ef69d2081cc4c9665c232a",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401861969.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401861969.json"
+      },
+      "401862837": {
+        "sha256": "e3f76ba3d3f47b61d6dd85c3bcf2f32f8858f54a11454fc11b0d0cf6626933cb",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401862837.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401862837.json"
+      },
+      "401862838": {
+        "sha256": "2517d3e23f1e53f85124a290d174bed3d5ee1575b6cf18caf1e4f993adea47c8",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401862838.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401862838.json"
+      },
+      "401862839": {
+        "sha256": "1d829b37f887c624eb1f73f56af0c49c62ed7545628975b1f376fb10888f6fab",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401862839.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401862839.json"
+      },
+      "401862840": {
+        "sha256": "21312fb5721a81aabd4edc32f6c0eb1ec61df0a8c65fea08184f5b34a3e02d13",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401862840.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401862840.json"
+      },
+      "401862841": {
+        "sha256": "73e845bf32d20626d9ee5c4453c15584e2a0b9a1d7159844919ff06d7110d597",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401862841.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401862841.json"
+      },
+      "401862842": {
+        "sha256": "2b2b300e3b2c97943dde85fbbcef59475e14ef24c41371dc3142e6f708ebc2b1",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401862842.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401862842.json"
+      },
+      "401862843": {
+        "sha256": "d51724aa548349bdabd5c4b24bc90a9729afc74e1ca413a565a40443adc39073",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401862843.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401862843.json"
+      },
+      "401864546": {
+        "sha256": "9614ec41ca026d9ff56065d57e91520d4683d653eca61a0b973146565ab95453",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401864546.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401864546.json"
+      },
+      "401864547": {
+        "sha256": "6502dcfa713cfff55b5316124bd9fe04f697b742614bbb644356cd3f87e37552",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401864547.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401864547.json"
+      },
+      "401864548": {
+        "sha256": "be3773b75d71ec7b817bdeb435e8ffa53a5f9a9e640e4980ff6603ea21ee166a",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401864548.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401864548.json"
+      },
+      "401864549": {
+        "sha256": "42635bdd56fe04c687da5b9eb1520352067b692be1d3de9fa82fa99c8272e752",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401864549.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401864549.json"
+      },
+      "401864550": {
+        "sha256": "e9fd42c9cf93e01392cce285e5e6c5663e138738a0868838296f34420f5a18e5",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401864550.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401864550.json"
+      },
+      "401866470": {
+        "sha256": "79de30ebb4b619ed289f37fddf2a1e73058c4ce87044d52c8455f1d3e7036a38",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401866470.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401866470.json"
+      },
+      "401866471": {
+        "sha256": "ee69da7f78acfaaa612c9fb042db3cae8b4ff99f5ed8ceab33ff2973a82811ee",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401866471.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401866471.json"
+      },
+      "401866472": {
+        "sha256": "07ac77fc9fd00c2d813acc37638daf06d076c521cbcdf84185618a5b6825b3dd",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401866472.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401866472.json"
+      },
+      "401866473": {
+        "sha256": "a0c904928afd0404f07a1e86721b9346e5dd910863126b9c4baca1d1a71710a8",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401866473.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401866473.json"
+      },
+      "401866474": {
+        "sha256": "7fa57f938c5f6138840f7a7359bf06bd3db99f92ecfd994e049666e2d68d2619",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401866474.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401866474.json"
+      },
+      "401866475": {
+        "sha256": "e8989a9bf696e9a722bacc6aa94a9e6235ab1e8eaed029ca486ff68256968de9",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401866475.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401866475.json"
+      },
+      "401869930": {
+        "sha256": "27b92ee2cab47b0f5ba0229cf5d1d384c409d049b3cfdd0987f8b1b2c831d4ef",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401869930.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401869930.json"
+      },
+      "401869939": {
+        "sha256": "60252a9cf4dc22464574f200fdf62d53eddea15e54f90f44088dd07442b8cdbc",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401869939.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401869939.json"
+      },
+      "401869947": {
+        "sha256": "eb5635e808ddc34858b9e2c80c5f85c862f84989e7233b4851231b3fe6e8c149",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401869947.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401869947.json"
+      },
+      "401869954": {
+        "sha256": "82765fbd85578b762c999b2aa372969d3de88ffb47a7cb1cba38ee5c4eec740e",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401869954.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401869954.json"
+      },
+      "401869959": {
+        "sha256": "efc71a784dc92f677db3f5c9ec4e65954badffd3edc6a4e43616db85dac9ae89",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401869959.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401869959.json"
+      },
+      "401870804": {
+        "sha256": "ef3cacc18a5224f39ba5dcd1d6600a220ccc0c4b054e4e67328e1c5c125b6fa0",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401870804.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401870804.json"
+      },
+      "401871062": {
+        "sha256": "80da3c6f918903a5065f08c29804b9e51e8896fe50d8d3f64e293584022582b0",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401871062.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401871062.json"
+      },
+      "401871063": {
+        "sha256": "1143cb9b7de1fc28869242a918872809c6d952d520165ec696827c576d28954b",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401871063.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401871063.json"
+      },
+      "401871082": {
+        "sha256": "596cc056b6717b2b09bb223f2ef6655f16f25d7bc3d3b65cc2fa470b3de16bf0",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401871082.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401871082.json"
+      },
+      "401871083": {
+        "sha256": "5c33a5367217b8be7b5a96cd3c054834df8e7b064c5fd013e579a22ba0a5d9e5",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401871083.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401871083.json"
+      },
+      "401871102": {
+        "sha256": "5f22c731e19829235e0715985a89026fe014dd6d431bb888f033d22950f33262",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401871102.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401871102.json"
+      },
+      "401871103": {
+        "sha256": "2f6e1a6e42d097c5921acbc183a1cae72f96d2b67fc535daa19a6f9f0eb3d84d",
+        "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401871103.json",
+        "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/games/401871103.json"
       }
     },
     "slate": {
-      "sha256": "7948acb256262496ea8abfe4873613f104f37cbce9760eda444c99e7306b2ef3",
-      "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/slate.html",
-      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/slate.html"
+      "sha256": "f5d126ab8ae03bd8a8bf96d414db722775a82512bf3a90e394006183814cfbe8",
+      "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/slate.html",
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/slate.html"
     },
     "weekly": {
-      "sha256": "f5b04bafeb06a4ff972a39b713090e00540d59bf05a1c39e5dc64fd185a793e2",
-      "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/latest.json",
-      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK11/c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19/latest.json"
+      "sha256": "9063e34ca8ac67b0cdc72c5254058b607079755f012adaea2b80ab50360954d8",
+      "url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/latest.json",
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-WK13/6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f/latest.json"
     }
   },
   "schema_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/schema.json",
   "schema_version": "1.0.0",
   "season": 2026,
-  "snapshot_id": "c3ca54c814e8ce5511227d852e168e7a80d179368e028dbedf0fa564d61f3b19",
-  "source_snapshot_digest": "8e64da52f390e71773e193d80e9a8cd708bfcfd0f39d0c22032fdaab723319f5",
+  "snapshot_id": "6e642ec41e1aa28b1930e0fea2eb4618f74cba985ca036fd4c3faeb816c04a9f",
+  "source_snapshot_digest": "811b842ec5dcbfe8d48714c253defcdfedc42a397600051987e90348d0b480d3",
   "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/index.html",
   "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/manifest.json",
-  "week": 11
+  "week": 13
 }
