@@ -1,0 +1,182 @@
+{
+  "captured_at": "2026-11-21T03:20:07.466103Z",
+  "game": {
+    "away_team": {
+      "id": "duke",
+      "name": "Duke",
+      "source_ids": {
+        "haslametrics": "323"
+      }
+    },
+    "comparisons": {
+      "spread": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "available_source_count": 1,
+        "basis_note": "Provider score basis retained; DraftKings is full game including overtime.",
+        "classification": "INCOMPLETE_MARKET",
+        "difference": null,
+        "market_complete": false,
+        "median": -27.81,
+        "missing_providers": [
+          "barttorvik"
+        ],
+        "preferred": null,
+        "providers": [
+          "haslametrics"
+        ],
+        "range": [
+          -27.81,
+          -27.81
+        ],
+        "range_points": 0.0,
+        "source_count": 1,
+        "threshold_met": false
+      },
+      "total": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "available_source_count": 1,
+        "basis_note": "Provider score basis retained; DraftKings is full game including overtime.",
+        "classification": "INCOMPLETE_MARKET",
+        "difference": null,
+        "market_complete": false,
+        "median": 152.97,
+        "missing_providers": [
+          "barttorvik"
+        ],
+        "preferred": null,
+        "providers": [
+          "haslametrics"
+        ],
+        "range": [
+          152.97,
+          152.97
+        ],
+        "range_points": 0.0,
+        "source_count": 1,
+        "threshold_met": false
+      }
+    },
+    "decision": "REVIEW_ONLY",
+    "draftkings": null,
+    "final": null,
+    "game_date": "2026-11-21",
+    "game_id": "cbb-2027-2026-11-21-duke-at-washington-state",
+    "home_designation_basis": "provider_nominal_on_neutral_court",
+    "home_team": {
+      "id": "washington-state",
+      "name": "Washington State",
+      "source_ids": {
+        "haslametrics": "553"
+      }
+    },
+    "imported_at": "2026-11-21T02:24:29.807661Z",
+    "neutral_site": true,
+    "observation_id": "13864b6cc3bcde51e53db39776c93c3b2e4bd83b79fcb92e024fa6222ef15038",
+    "observed_at": "2026-11-21T02:22:43.174670Z",
+    "pregame": true,
+    "projections": [
+      {
+        "away_score": 90.39,
+        "away_source_id": "323",
+        "basis": "end_of_regulation",
+        "comparisons": {
+          "spread": {
+            "difference": null,
+            "preferred": null,
+            "threshold_met": false
+          },
+          "total": {
+            "difference": null,
+            "preferred": null,
+            "threshold_met": false
+          }
+        },
+        "freshness": {
+          "age_hours": 0.957,
+          "provider_update_known": false,
+          "reasons": [],
+          "state": "fresh"
+        },
+        "game_id": "cbb-2027-2026-11-21-duke-at-washington-state",
+        "haslametrics_signals": {
+          "spread": false,
+          "total": false
+        },
+        "home_margin": -27.81,
+        "home_score": 62.58,
+        "home_source_id": "553",
+        "imported_at": "2026-11-21T02:22:43.207019Z",
+        "observation_id": "c56dedffb545b09a65b5647d2621f4f658be663aaae56b9ac0df9eaa9d4aa61d",
+        "observed_at": "2026-11-21T02:22:43.174670Z",
+        "projected_home_spread": 27.81,
+        "provider": "haslametrics",
+        "retrieved_at": "2026-11-21T02:22:43.174670Z",
+        "source_as_of_date": "2026-11-19",
+        "source_updated_at": null,
+        "source_url": "https://www.haslametrics.com/preview.php?yr=&tid1=553&tid2=323&neut=1",
+        "spread_eligible": true,
+        "total": 152.97,
+        "total_eligible": true,
+        "transport": "manual_csv"
+      }
+    ],
+    "retrieved_at": "2026-11-21T02:22:43.174670Z",
+    "screening": {
+      "spread": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "basis": "haslametrics_vs_draftkings",
+        "classification": "INSUFFICIENT_DATA",
+        "difference": null,
+        "market_freshness": {
+          "age_hours": null,
+          "reasons": [
+            "not_imported"
+          ],
+          "state": "missing"
+        },
+        "preferred": null,
+        "reasons": [
+          "draftkings_line_missing"
+        ],
+        "research_only": true,
+        "source_count": 1,
+        "threshold_met": false
+      },
+      "total": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "basis": "haslametrics_vs_draftkings",
+        "classification": "INSUFFICIENT_DATA",
+        "difference": null,
+        "market_freshness": {
+          "age_hours": null,
+          "reasons": [
+            "not_imported"
+          ],
+          "state": "missing"
+        },
+        "preferred": null,
+        "reasons": [
+          "draftkings_line_missing"
+        ],
+        "research_only": true,
+        "source_count": 1,
+        "threshold_met": false
+      }
+    },
+    "season": "2026-27",
+    "source_as_of_date": "2026-11-19",
+    "source_game_ids": {},
+    "source_updated_at": null,
+    "source_url": "https://www.haslametrics.com/",
+    "status": "scheduled",
+    "tipoff_central": "2026-11-21T22:00:00-06:00",
+    "tipoff_utc": "2026-11-22T04:00:00Z",
+    "transport": "manual_csv"
+  },
+  "schema_version": "0.2.0",
+  "snapshot_id": "bd0197ba86bdc77cbf857c56a0bedd86eb26025b09c0a9f547b2063ed568990c"
+}

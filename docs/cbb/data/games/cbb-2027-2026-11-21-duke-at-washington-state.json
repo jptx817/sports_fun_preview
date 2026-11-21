@@ -62,7 +62,7 @@
   "final": null,
   "game_date": "2026-11-21",
   "game_id": "cbb-2027-2026-11-21-duke-at-washington-state",
-  "generated_at": "2026-11-21T02:24:29.810303Z",
+  "generated_at": "2026-11-21T13:24:51.791824Z",
   "home_designation_basis": "provider_nominal_on_neutral_court",
   "home_team": {
     "id": "washington-state",
@@ -76,7 +76,7 @@
   "observation_id": "13864b6cc3bcde51e53db39776c93c3b2e4bd83b79fcb92e024fa6222ef15038",
   "observed_at": "2026-11-21T02:22:43.174670Z",
   "pregame": true,
-  "pregame_snapshot_id": "3d765997c757f5e3e89272615a8e1634d87d74f7d20d91e97213db7568846c07",
+  "pregame_snapshot_id": "cdfba1f971dfeeb64c4a9eec85038e8c23919a6b7d37fec091daa6538d9202f2",
   "projections": [
     {
       "away_score": 90.39,
@@ -95,7 +95,7 @@
         }
       },
       "freshness": {
-        "age_hours": 0.03,
+        "age_hours": 11.036,
         "provider_update_known": false,
         "reasons": [],
         "state": "fresh"
@@ -124,7 +124,51 @@
     }
   ],
   "retrieved_at": "2026-11-21T02:22:43.174670Z",
-  "schema_version": "0.1.0",
+  "schema_version": "0.2.0",
+  "screening": {
+    "spread": {
+      "actionable": false,
+      "agreeing_source_count": 0,
+      "basis": "haslametrics_vs_draftkings",
+      "classification": "INSUFFICIENT_DATA",
+      "difference": null,
+      "market_freshness": {
+        "age_hours": null,
+        "reasons": [
+          "not_imported"
+        ],
+        "state": "missing"
+      },
+      "preferred": null,
+      "reasons": [
+        "draftkings_line_missing"
+      ],
+      "research_only": true,
+      "source_count": 1,
+      "threshold_met": false
+    },
+    "total": {
+      "actionable": false,
+      "agreeing_source_count": 0,
+      "basis": "haslametrics_vs_draftkings",
+      "classification": "INSUFFICIENT_DATA",
+      "difference": null,
+      "market_freshness": {
+        "age_hours": null,
+        "reasons": [
+          "not_imported"
+        ],
+        "state": "missing"
+      },
+      "preferred": null,
+      "reasons": [
+        "draftkings_line_missing"
+      ],
+      "research_only": true,
+      "source_count": 1,
+      "threshold_met": false
+    }
+  },
   "season": "2026-27",
   "source_as_of_date": "2026-11-19",
   "source_game_ids": {},

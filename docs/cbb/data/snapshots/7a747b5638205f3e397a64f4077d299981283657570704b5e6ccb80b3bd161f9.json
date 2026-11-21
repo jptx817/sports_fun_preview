@@ -1,0 +1,182 @@
+{
+  "captured_at": "2026-11-21T03:07:33.579604Z",
+  "game": {
+    "away_team": {
+      "id": "detroit-mercy",
+      "name": "Detroit Mercy",
+      "source_ids": {
+        "haslametrics": "4371"
+      }
+    },
+    "comparisons": {
+      "spread": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "available_source_count": 1,
+        "basis_note": "Provider score basis retained; DraftKings is full game including overtime.",
+        "classification": "INCOMPLETE_MARKET",
+        "difference": null,
+        "market_complete": false,
+        "median": 37.73,
+        "missing_providers": [
+          "barttorvik"
+        ],
+        "preferred": null,
+        "providers": [
+          "haslametrics"
+        ],
+        "range": [
+          37.73,
+          37.73
+        ],
+        "range_points": 0.0,
+        "source_count": 1,
+        "threshold_met": false
+      },
+      "total": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "available_source_count": 1,
+        "basis_note": "Provider score basis retained; DraftKings is full game including overtime.",
+        "classification": "INCOMPLETE_MARKET",
+        "difference": null,
+        "market_complete": false,
+        "median": 155.45,
+        "missing_providers": [
+          "barttorvik"
+        ],
+        "preferred": null,
+        "providers": [
+          "haslametrics"
+        ],
+        "range": [
+          155.45,
+          155.45
+        ],
+        "range_points": 0.0,
+        "source_count": 1,
+        "threshold_met": false
+      }
+    },
+    "decision": "REVIEW_ONLY",
+    "draftkings": null,
+    "final": null,
+    "game_date": "2026-11-21",
+    "game_id": "cbb-2027-2026-11-21-detroit-mercy-at-michigan-state",
+    "home_designation_basis": "provider_designated_home",
+    "home_team": {
+      "id": "michigan-state",
+      "name": "Michigan State",
+      "source_ids": {
+        "haslametrics": "277"
+      }
+    },
+    "imported_at": "2026-11-21T02:24:29.808117Z",
+    "neutral_site": false,
+    "observation_id": "14cc7cceab24766e28bb3b774327026343ca1fd5120277ee00e954207168f554",
+    "observed_at": "2026-11-21T02:22:43.174670Z",
+    "pregame": true,
+    "projections": [
+      {
+        "away_score": 58.86,
+        "away_source_id": "4371",
+        "basis": "end_of_regulation",
+        "comparisons": {
+          "spread": {
+            "difference": null,
+            "preferred": null,
+            "threshold_met": false
+          },
+          "total": {
+            "difference": null,
+            "preferred": null,
+            "threshold_met": false
+          }
+        },
+        "freshness": {
+          "age_hours": 0.747,
+          "provider_update_known": false,
+          "reasons": [],
+          "state": "fresh"
+        },
+        "game_id": "cbb-2027-2026-11-21-detroit-mercy-at-michigan-state",
+        "haslametrics_signals": {
+          "spread": false,
+          "total": false
+        },
+        "home_margin": 37.73,
+        "home_score": 96.59,
+        "home_source_id": "277",
+        "imported_at": "2026-11-21T02:22:43.207296Z",
+        "observation_id": "e98e02fbb7fee2370f9c47425f3ce421cbc5f19d4305ffa50effb00f4c43f067",
+        "observed_at": "2026-11-21T02:22:43.174670Z",
+        "projected_home_spread": -37.73,
+        "provider": "haslametrics",
+        "retrieved_at": "2026-11-21T02:22:43.174670Z",
+        "source_as_of_date": "2026-11-19",
+        "source_updated_at": null,
+        "source_url": "https://www.haslametrics.com/preview.php?yr=&tid1=4371&tid2=277&neut=0",
+        "spread_eligible": true,
+        "total": 155.45,
+        "total_eligible": true,
+        "transport": "manual_csv"
+      }
+    ],
+    "retrieved_at": "2026-11-21T02:22:43.174670Z",
+    "screening": {
+      "spread": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "basis": "haslametrics_vs_draftkings",
+        "classification": "INSUFFICIENT_DATA",
+        "difference": null,
+        "market_freshness": {
+          "age_hours": null,
+          "reasons": [
+            "not_imported"
+          ],
+          "state": "missing"
+        },
+        "preferred": null,
+        "reasons": [
+          "draftkings_line_missing"
+        ],
+        "research_only": true,
+        "source_count": 1,
+        "threshold_met": false
+      },
+      "total": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "basis": "haslametrics_vs_draftkings",
+        "classification": "INSUFFICIENT_DATA",
+        "difference": null,
+        "market_freshness": {
+          "age_hours": null,
+          "reasons": [
+            "not_imported"
+          ],
+          "state": "missing"
+        },
+        "preferred": null,
+        "reasons": [
+          "draftkings_line_missing"
+        ],
+        "research_only": true,
+        "source_count": 1,
+        "threshold_met": false
+      }
+    },
+    "season": "2026-27",
+    "source_as_of_date": "2026-11-19",
+    "source_game_ids": {},
+    "source_updated_at": null,
+    "source_url": "https://www.haslametrics.com/",
+    "status": "scheduled",
+    "tipoff_central": "2026-11-21T11:00:00-06:00",
+    "tipoff_utc": "2026-11-21T17:00:00Z",
+    "transport": "manual_csv"
+  },
+  "schema_version": "0.2.0",
+  "snapshot_id": "7a747b5638205f3e397a64f4077d299981283657570704b5e6ccb80b3bd161f9"
+}

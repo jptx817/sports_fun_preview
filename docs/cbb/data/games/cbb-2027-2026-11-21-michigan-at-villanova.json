@@ -62,7 +62,7 @@
   "final": null,
   "game_date": "2026-11-21",
   "game_id": "cbb-2027-2026-11-21-michigan-at-villanova",
-  "generated_at": "2026-11-21T02:24:29.810303Z",
+  "generated_at": "2026-11-21T13:24:51.791824Z",
   "home_designation_basis": "provider_designated_home",
   "home_team": {
     "id": "villanova",
@@ -76,7 +76,7 @@
   "observation_id": "bd24dd90c9cf67d70db925e86da7a129deb730e44911bfaa535a36116218c945",
   "observed_at": "2026-11-21T02:22:43.174670Z",
   "pregame": true,
-  "pregame_snapshot_id": "a17299ce259a28283b34d5c4652ebf7d6b22715272e92d385f81ef4b7dc1216d",
+  "pregame_snapshot_id": "8bf9406bd9e3c0c55db607121aec5c2028fd6cf74fbb0dc1b615308e1cd4de2f",
   "projections": [
     {
       "away_score": 79.74,
@@ -95,7 +95,7 @@
         }
       },
       "freshness": {
-        "age_hours": 0.03,
+        "age_hours": 11.036,
         "provider_update_known": false,
         "reasons": [],
         "state": "fresh"
@@ -124,7 +124,51 @@
     }
   ],
   "retrieved_at": "2026-11-21T02:22:43.174670Z",
-  "schema_version": "0.1.0",
+  "schema_version": "0.2.0",
+  "screening": {
+    "spread": {
+      "actionable": false,
+      "agreeing_source_count": 0,
+      "basis": "haslametrics_vs_draftkings",
+      "classification": "INSUFFICIENT_DATA",
+      "difference": null,
+      "market_freshness": {
+        "age_hours": null,
+        "reasons": [
+          "not_imported"
+        ],
+        "state": "missing"
+      },
+      "preferred": null,
+      "reasons": [
+        "draftkings_line_missing"
+      ],
+      "research_only": true,
+      "source_count": 1,
+      "threshold_met": false
+    },
+    "total": {
+      "actionable": false,
+      "agreeing_source_count": 0,
+      "basis": "haslametrics_vs_draftkings",
+      "classification": "INSUFFICIENT_DATA",
+      "difference": null,
+      "market_freshness": {
+        "age_hours": null,
+        "reasons": [
+          "not_imported"
+        ],
+        "state": "missing"
+      },
+      "preferred": null,
+      "reasons": [
+        "draftkings_line_missing"
+      ],
+      "research_only": true,
+      "source_count": 1,
+      "threshold_met": false
+    }
+  },
   "season": "2026-27",
   "source_as_of_date": "2026-11-19",
   "source_game_ids": {},

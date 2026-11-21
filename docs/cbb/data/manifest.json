@@ -1,15 +1,25 @@
 {
+  "acquisition": {
+    "automatic_refresh": false,
+    "market_source": "manual_csv",
+    "projections": "manual_csv",
+    "schedule": "manual_verified_csv",
+    "status": "no_market_observations"
+  },
   "conventions": {
     "aggregation": "median_per_independent_system",
     "home_margin": "home_score - away_score",
     "home_spread": "negative means home favored",
+    "market_implied_home_margin": "-DraftKings_home_spread",
     "prices": "American; null when unavailable",
-    "spread_difference": "projected_home_margin + DraftKings_home_spread",
+    "screening": "Haslametrics versus DraftKings; prices optional for Research Watches",
+    "spread_difference": "projected_home_margin - market_implied_home_margin",
     "total_difference": "projected_total - DraftKings_total"
   },
   "coverage": {
     "actionable": 0,
     "any_projection": 5,
+    "consensus_candidates": 0,
     "draftkings_complete_spreads": 0,
     "draftkings_complete_totals": 0,
     "draftkings_spread_lines": 0,
@@ -17,9 +27,13 @@
     "fresh_spread_comparisons": 0,
     "fresh_total_comparisons": 0,
     "games": 5,
-    "haslametrics": 5
+    "haslametrics": 5,
+    "spread_watches": 0,
+    "total_watches": 0,
+    "valid_pregame_spreads": 0,
+    "valid_pregame_totals": 0
   },
-  "edition_id": "06a525ea3a1519945417c22d5e0015b31674d8591471e513680088dea6223108",
+  "edition_id": "00d6ac7a4d24ed3ec127521323f3c292020ab1938524585480685e4f2749cc7c",
   "freshness": {
     "barttorvik": {
       "latest_retrieved_at": null,
@@ -52,7 +66,7 @@
     }
   },
   "game_date": "2026-11-21",
-  "generated_at": "2026-11-21T02:24:29.810303Z",
+  "generated_at": "2026-11-21T13:24:51.791824Z",
   "lifecycle": "Research_observations_no_model",
   "limitations": [
     "Manual input required; no automatic refresh job",
@@ -92,27 +106,27 @@
   },
   "resources": {
     "data/games/cbb-2027-2026-11-21-detroit-mercy-at-michigan-state.json": {
-      "sha256": "a7789070d757e6bca697f45ca26dfccced0f76d1bf1c6bbdeb780a2adb7256ac",
+      "sha256": "e3f5d078a1efbcfcf5a4a3f775e8de2e398a4aed536f78a43aed4d34080f9568",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-detroit-mercy-at-michigan-state.json"
     },
     "data/games/cbb-2027-2026-11-21-duke-at-washington-state.json": {
-      "sha256": "1ecb56888ac38b08118e602551fc9c90f0e5f85f5756da33d4ffafb9545a6176",
+      "sha256": "8631e3c2c24082d42f027075f3f393617420a7ce28a2f38551e43c39db60b5d3",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-duke-at-washington-state.json"
     },
     "data/games/cbb-2027-2026-11-21-lafayette-at-syracuse.json": {
-      "sha256": "093fc4790513c5442374843696b92bdd2dcdd3d1372001bbf71c1be7617c57b0",
+      "sha256": "129d5ce6deafb6e3b4e8df5c04e4649d4a7e5591abf4b7b34d939eb84402ed41",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-lafayette-at-syracuse.json"
     },
     "data/games/cbb-2027-2026-11-21-michigan-at-villanova.json": {
-      "sha256": "c071c319cf523f83b935fb15210887ccf54dc7ddc8cf25078b8f7f3970379af0",
+      "sha256": "af278ec495eb9d672c19e7d19235c3c324e1919259b77c12bd4ab79b4b2c17f2",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-michigan-at-villanova.json"
     },
     "data/games/cbb-2027-2026-11-21-queens-at-lsu.json": {
-      "sha256": "2f99c9e2c67579935b502db8935a31b4624e439156db1ec14b014369497833f8",
+      "sha256": "411eafaddfae2e593c3f55d5f030ee4f0adf517132e1672a789ded1a65724eb1",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-queens-at-lsu.json"
     },
     "data/latest.json": {
-      "sha256": "0a91d6a04baa71538961a2a54d0822609515980c8740b158e5a02099c504845b",
+      "sha256": "7e115e068a7768ab01ecfd04ff316c8caa2a160e911b6ba63df29761f6ef55eb",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/latest.json"
     },
     "data/observations/0cc9bc934913afa4be1a9511bb822e725520cfdbcc3b9cdcefecc9581f6e5390.json": {
@@ -135,36 +149,36 @@
       "sha256": "b8936a603109b2f497cd4e24c58a983314e8f013e443d0a37df55bb042f8ba6e",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/e98e02fbb7fee2370f9c47425f3ce421cbc5f19d4305ffa50effb00f4c43f067.json"
     },
-    "data/snapshots/3107cb5cd78abff52cbbc410957dddf7418d347af8ee3dba120771ab6c75af27.json": {
-      "sha256": "9b57c464e85a32c6f3f5bfdb1ea5d0d9184fe14139eb93c0a5e840fffe322b9e",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/3107cb5cd78abff52cbbc410957dddf7418d347af8ee3dba120771ab6c75af27.json"
+    "data/snapshots/02aadf8ff1b24777eac89c85690b29748cc8ee6ce8a6881f2a93fc6d1a38b152.json": {
+      "sha256": "88fc0e0e4e02b97422f2bc5dec1ac95d877d916e12f3299c3c7566ae653a2bdf",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/02aadf8ff1b24777eac89c85690b29748cc8ee6ce8a6881f2a93fc6d1a38b152.json"
     },
-    "data/snapshots/3d765997c757f5e3e89272615a8e1634d87d74f7d20d91e97213db7568846c07.json": {
-      "sha256": "1f925f9f34d95d34726650107f1b87dceae1b206049e8703eb92d268e00699c4",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/3d765997c757f5e3e89272615a8e1634d87d74f7d20d91e97213db7568846c07.json"
+    "data/snapshots/0e642669aef1a67d050113ef142b2c7373d5a64316749097a37e82fa898fb3d0.json": {
+      "sha256": "a5cd6d9544be4a0c1e933dffb0b8a07cd9a5de34881b11bb8affb54ec1bb3cd6",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/0e642669aef1a67d050113ef142b2c7373d5a64316749097a37e82fa898fb3d0.json"
     },
-    "data/snapshots/63e903e2c3c45f0de3dcd22a54937e881f9dbc53c8f5fd5c538503f70ed9c9ed.json": {
-      "sha256": "be6a364d5b40549011bb742e435d202c6c6ec50e5538e0f14b153f75ed7476fd",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/63e903e2c3c45f0de3dcd22a54937e881f9dbc53c8f5fd5c538503f70ed9c9ed.json"
+    "data/snapshots/8bf9406bd9e3c0c55db607121aec5c2028fd6cf74fbb0dc1b615308e1cd4de2f.json": {
+      "sha256": "b2bfd4fa4574f44688b2ef593f69205e9bf7b7ab94b5de8a2261be5b5c834982",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/8bf9406bd9e3c0c55db607121aec5c2028fd6cf74fbb0dc1b615308e1cd4de2f.json"
     },
-    "data/snapshots/74d30ce0d11d10eb841c7f1a5859c394aea40551ad62bd431a3773381a23057c.json": {
-      "sha256": "7e74a5c7852780aa2312497941ec6dd5e67f546e26dfa79165486058d4fd99ee",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/74d30ce0d11d10eb841c7f1a5859c394aea40551ad62bd431a3773381a23057c.json"
+    "data/snapshots/cdfba1f971dfeeb64c4a9eec85038e8c23919a6b7d37fec091daa6538d9202f2.json": {
+      "sha256": "20c15a36213b1c4dac8a9e43d3f5dce3aed64aa263c680375cbfe4399cfa8a94",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/cdfba1f971dfeeb64c4a9eec85038e8c23919a6b7d37fec091daa6538d9202f2.json"
     },
-    "data/snapshots/a17299ce259a28283b34d5c4652ebf7d6b22715272e92d385f81ef4b7dc1216d.json": {
-      "sha256": "635dfabde194a263465d2e697f0efee2890a4912775f652bea6c6b931103e068",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/a17299ce259a28283b34d5c4652ebf7d6b22715272e92d385f81ef4b7dc1216d.json"
+    "data/snapshots/f3c1bec2be1ec7a90b13aae6aacb49836b5106a4543326a9ed51700d94bfef69.json": {
+      "sha256": "ca3986c1d3c92179a8cc3c4fd177330fbc0d645fd17aee41e8ae55d0f763bd7c",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/f3c1bec2be1ec7a90b13aae6aacb49836b5106a4543326a9ed51700d94bfef69.json"
     },
     "index.html": {
-      "sha256": "bcce8006c1d499ca94d31ca3c7082b8273d55f117d3c38ddd536ec37d9ef93eb",
+      "sha256": "9a01a8b0cba6525b78bebe3d09679802c34e5433b1d56abc6a91f9f7a513832c",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/index.html"
     },
     "reports/daily.md": {
-      "sha256": "b489acb3d7944eb13696f79fadd3e1f45d8615d3768fac7699264c33fdb72025",
+      "sha256": "337a8475a5b2b0d25b5ac63b336a0a95f4593b15c96e308342948ccdb5c7328d",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/reports/daily.md"
     }
   },
-  "schema_version": "0.1.0",
+  "schema_version": "0.2.0",
   "selection": "operator_imported_games_not_whole_slate",
   "sport": "cbb",
   "workflow_status": "MANUAL_PROJECTION_ONLY"

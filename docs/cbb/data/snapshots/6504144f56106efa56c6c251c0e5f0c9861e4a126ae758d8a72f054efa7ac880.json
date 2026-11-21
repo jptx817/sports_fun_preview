@@ -1,0 +1,182 @@
+{
+  "captured_at": "2026-11-21T03:09:03.361029Z",
+  "game": {
+    "away_team": {
+      "id": "michigan",
+      "name": "Michigan",
+      "source_ids": {
+        "haslametrics": "283"
+      }
+    },
+    "comparisons": {
+      "spread": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "available_source_count": 1,
+        "basis_note": "Provider score basis retained; DraftKings is full game including overtime.",
+        "classification": "INCOMPLETE_MARKET",
+        "difference": null,
+        "market_complete": false,
+        "median": -6.89,
+        "missing_providers": [
+          "barttorvik"
+        ],
+        "preferred": null,
+        "providers": [
+          "haslametrics"
+        ],
+        "range": [
+          -6.89,
+          -6.89
+        ],
+        "range_points": 0.0,
+        "source_count": 1,
+        "threshold_met": false
+      },
+      "total": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "available_source_count": 1,
+        "basis_note": "Provider score basis retained; DraftKings is full game including overtime.",
+        "classification": "INCOMPLETE_MARKET",
+        "difference": null,
+        "market_complete": false,
+        "median": 152.59,
+        "missing_providers": [
+          "barttorvik"
+        ],
+        "preferred": null,
+        "providers": [
+          "haslametrics"
+        ],
+        "range": [
+          152.59,
+          152.59
+        ],
+        "range_points": 0.0,
+        "source_count": 1,
+        "threshold_met": false
+      }
+    },
+    "decision": "REVIEW_ONLY",
+    "draftkings": null,
+    "final": null,
+    "game_date": "2026-11-21",
+    "game_id": "cbb-2027-2026-11-21-michigan-at-villanova",
+    "home_designation_basis": "provider_designated_home",
+    "home_team": {
+      "id": "villanova",
+      "name": "Villanova",
+      "source_ids": {
+        "haslametrics": "467"
+      }
+    },
+    "imported_at": "2026-11-21T02:24:29.807991Z",
+    "neutral_site": false,
+    "observation_id": "bd24dd90c9cf67d70db925e86da7a129deb730e44911bfaa535a36116218c945",
+    "observed_at": "2026-11-21T02:22:43.174670Z",
+    "pregame": true,
+    "projections": [
+      {
+        "away_score": 79.74,
+        "away_source_id": "283",
+        "basis": "end_of_regulation",
+        "comparisons": {
+          "spread": {
+            "difference": null,
+            "preferred": null,
+            "threshold_met": false
+          },
+          "total": {
+            "difference": null,
+            "preferred": null,
+            "threshold_met": false
+          }
+        },
+        "freshness": {
+          "age_hours": 0.772,
+          "provider_update_known": false,
+          "reasons": [],
+          "state": "fresh"
+        },
+        "game_id": "cbb-2027-2026-11-21-michigan-at-villanova",
+        "haslametrics_signals": {
+          "spread": false,
+          "total": false
+        },
+        "home_margin": -6.89,
+        "home_score": 72.85,
+        "home_source_id": "467",
+        "imported_at": "2026-11-21T02:22:43.207172Z",
+        "observation_id": "0cc9bc934913afa4be1a9511bb822e725520cfdbcc3b9cdcefecc9581f6e5390",
+        "observed_at": "2026-11-21T02:22:43.174670Z",
+        "projected_home_spread": 6.89,
+        "provider": "haslametrics",
+        "retrieved_at": "2026-11-21T02:22:43.174670Z",
+        "source_as_of_date": "2026-11-19",
+        "source_updated_at": null,
+        "source_url": "https://www.haslametrics.com/preview.php?yr=&tid1=283&tid2=467&neut=0",
+        "spread_eligible": true,
+        "total": 152.59,
+        "total_eligible": true,
+        "transport": "manual_csv"
+      }
+    ],
+    "retrieved_at": "2026-11-21T02:22:43.174670Z",
+    "screening": {
+      "spread": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "basis": "haslametrics_vs_draftkings",
+        "classification": "INSUFFICIENT_DATA",
+        "difference": null,
+        "market_freshness": {
+          "age_hours": null,
+          "reasons": [
+            "not_imported"
+          ],
+          "state": "missing"
+        },
+        "preferred": null,
+        "reasons": [
+          "draftkings_line_missing"
+        ],
+        "research_only": true,
+        "source_count": 1,
+        "threshold_met": false
+      },
+      "total": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "basis": "haslametrics_vs_draftkings",
+        "classification": "INSUFFICIENT_DATA",
+        "difference": null,
+        "market_freshness": {
+          "age_hours": null,
+          "reasons": [
+            "not_imported"
+          ],
+          "state": "missing"
+        },
+        "preferred": null,
+        "reasons": [
+          "draftkings_line_missing"
+        ],
+        "research_only": true,
+        "source_count": 1,
+        "threshold_met": false
+      }
+    },
+    "season": "2026-27",
+    "source_as_of_date": "2026-11-19",
+    "source_game_ids": {},
+    "source_updated_at": null,
+    "source_url": "https://www.haslametrics.com/",
+    "status": "scheduled",
+    "tipoff_central": "2026-11-21T18:00:00-06:00",
+    "tipoff_utc": "2026-11-22T00:00:00Z",
+    "transport": "manual_csv"
+  },
+  "schema_version": "0.2.0",
+  "snapshot_id": "6504144f56106efa56c6c251c0e5f0c9861e4a126ae758d8a72f054efa7ac880"
+}

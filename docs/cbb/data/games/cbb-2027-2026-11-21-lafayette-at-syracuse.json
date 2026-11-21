@@ -62,7 +62,7 @@
   "final": null,
   "game_date": "2026-11-21",
   "game_id": "cbb-2027-2026-11-21-lafayette-at-syracuse",
-  "generated_at": "2026-11-21T02:24:29.810303Z",
+  "generated_at": "2026-11-21T13:24:51.791824Z",
   "home_designation_basis": "provider_designated_home",
   "home_team": {
     "id": "syracuse",
@@ -76,7 +76,7 @@
   "observation_id": "230e1bbd18528b7a1ee9f7a1c9d07adae4f65ef0b59dea987aa1ad0714162e4f",
   "observed_at": "2026-11-21T02:22:43.174670Z",
   "pregame": true,
-  "pregame_snapshot_id": "3107cb5cd78abff52cbbc410957dddf7418d347af8ee3dba120771ab6c75af27",
+  "pregame_snapshot_id": "f3c1bec2be1ec7a90b13aae6aacb49836b5106a4543326a9ed51700d94bfef69",
   "projections": [
     {
       "away_score": 61.86,
@@ -95,7 +95,7 @@
         }
       },
       "freshness": {
-        "age_hours": 0.03,
+        "age_hours": 11.036,
         "provider_update_known": false,
         "reasons": [],
         "state": "fresh"
@@ -124,7 +124,51 @@
     }
   ],
   "retrieved_at": "2026-11-21T02:22:43.174670Z",
-  "schema_version": "0.1.0",
+  "schema_version": "0.2.0",
+  "screening": {
+    "spread": {
+      "actionable": false,
+      "agreeing_source_count": 0,
+      "basis": "haslametrics_vs_draftkings",
+      "classification": "INSUFFICIENT_DATA",
+      "difference": null,
+      "market_freshness": {
+        "age_hours": null,
+        "reasons": [
+          "not_imported"
+        ],
+        "state": "missing"
+      },
+      "preferred": null,
+      "reasons": [
+        "draftkings_line_missing"
+      ],
+      "research_only": true,
+      "source_count": 1,
+      "threshold_met": false
+    },
+    "total": {
+      "actionable": false,
+      "agreeing_source_count": 0,
+      "basis": "haslametrics_vs_draftkings",
+      "classification": "INSUFFICIENT_DATA",
+      "difference": null,
+      "market_freshness": {
+        "age_hours": null,
+        "reasons": [
+          "not_imported"
+        ],
+        "state": "missing"
+      },
+      "preferred": null,
+      "reasons": [
+        "draftkings_line_missing"
+      ],
+      "research_only": true,
+      "source_count": 1,
+      "threshold_met": false
+    }
+  },
   "season": "2026-27",
   "source_as_of_date": "2026-11-19",
   "source_game_ids": {},
