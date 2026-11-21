@@ -1,0 +1,271 @@
+{
+  "captured_at": "2026-11-21T17:15:48.652281Z",
+  "game": {
+    "away_team": {
+      "id": "brown",
+      "name": "Brown",
+      "source_ids": {
+        "haslametrics": "473"
+      }
+    },
+    "comparisons": {
+      "spread": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "available_source_count": 1,
+        "basis_note": "Provider score basis retained; DraftKings is full game including overtime.",
+        "classification": "INCOMPLETE_MARKET",
+        "difference": null,
+        "market_complete": false,
+        "median": 5.82,
+        "missing_providers": [
+          "barttorvik"
+        ],
+        "preferred": null,
+        "providers": [
+          "haslametrics"
+        ],
+        "range": [
+          5.82,
+          5.82
+        ],
+        "range_points": 0.0,
+        "source_count": 1,
+        "threshold_met": false
+      },
+      "total": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "available_source_count": 1,
+        "basis_note": "Provider score basis retained; DraftKings is full game including overtime.",
+        "classification": "INCOMPLETE_MARKET",
+        "difference": null,
+        "market_complete": false,
+        "median": 138.88,
+        "missing_providers": [
+          "barttorvik"
+        ],
+        "preferred": null,
+        "providers": [
+          "haslametrics"
+        ],
+        "range": [
+          138.88,
+          138.88
+        ],
+        "range_points": 0.0,
+        "source_count": 1,
+        "threshold_met": false
+      }
+    },
+    "data_issues": [
+      "draftkings_line_missing"
+    ],
+    "decision": "REVIEW_ONLY",
+    "draftkings": null,
+    "final": null,
+    "game_date": "2026-11-21",
+    "game_id": "cbb-2027-2026-11-21-brown-at-vermont",
+    "home_designation_basis": "provider_designated_home",
+    "home_team": {
+      "id": "vermont",
+      "name": "Vermont",
+      "source_ids": {
+        "haslametrics": "545"
+      }
+    },
+    "imported_at": "2026-11-21T16:59:32.669812Z",
+    "last_verified_refresh": {
+      "comparison": null,
+      "draftkings": null,
+      "haslametrics": "2026-11-21T16:48:16.923000Z",
+      "schedule": "2026-11-21T16:48:16.874000Z"
+    },
+    "market_timeline": {
+      "first_observed": null,
+      "last_observed": null,
+      "note": "First/last observations are not assumed opening/closing lines.",
+      "observations": 0,
+      "verified_closing": null,
+      "verified_opening": null
+    },
+    "neutral_site": false,
+    "observation_id": "4dcd6edfc3d5d1dfd0c0ffe5fe855b4f1bfabe8db49c9a55e9b0a99d5814f766",
+    "observed_at": "2026-11-21T16:48:16.874000Z",
+    "pregame": true,
+    "projections": [
+      {
+        "away_score": 66.53,
+        "away_source_id": "473",
+        "basis": "end_of_regulation",
+        "comparisons": {
+          "spread": {
+            "difference": null,
+            "preferred": null,
+            "threshold_met": false
+          },
+          "total": {
+            "difference": null,
+            "preferred": null,
+            "threshold_met": false
+          }
+        },
+        "freshness": {
+          "age_hours": 0.459,
+          "provider_update_known": false,
+          "reasons": [],
+          "state": "fresh"
+        },
+        "game_id": "cbb-2027-2026-11-21-brown-at-vermont",
+        "haslametrics_signals": {
+          "spread": false,
+          "total": false
+        },
+        "home_margin": 5.82,
+        "home_score": 72.35,
+        "home_source_id": "545",
+        "imported_at": "2026-11-21T16:59:32.681250Z",
+        "observation_id": "c7199712e79bf0a85b4aa7bee2b3f7a91e2a4377e22ae717fb1c667dbaa0cfa8",
+        "observed_at": "2026-11-21T16:48:16.923000Z",
+        "projected_home_spread": -5.82,
+        "provider": "haslametrics",
+        "retrieved_at": "2026-11-21T16:48:16.923000Z",
+        "source_as_of_date": "2026-11-20",
+        "source_updated_at": null,
+        "source_url": "https://www.haslametrics.com/",
+        "spread_eligible": true,
+        "total": 138.88,
+        "total_eligible": true,
+        "transport": "manual_csv"
+      }
+    ],
+    "retrieved_at": "2026-11-21T16:48:16.874000Z",
+    "screening": {
+      "spread": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "basis": "haslametrics_vs_draftkings",
+        "classification": "INSUFFICIENT_DATA",
+        "consensus": {
+          "agreeing_source_count": 0,
+          "basis": "median_per_independent_system_vs_draftkings",
+          "classification": "INSUFFICIENT_DATA",
+          "difference": null,
+          "median": 5.82,
+          "preferred": null,
+          "reasons": [
+            "draftkings_line_missing",
+            "fewer_than_three_independent_sources"
+          ],
+          "threshold_met": false,
+          "unanimous": false
+        },
+        "difference": null,
+        "market_freshness": {
+          "age_hours": null,
+          "reasons": [
+            "not_imported"
+          ],
+          "state": "missing"
+        },
+        "market_observed_at": null,
+        "market_side": null,
+        "preferred": null,
+        "projected_side": "HOME",
+        "reasons": [
+          "draftkings_line_missing"
+        ],
+        "research_only": true,
+        "single_source": {
+          "basis": "haslametrics_vs_draftkings",
+          "classification": "INSUFFICIENT_DATA",
+          "difference": null,
+          "preferred": null,
+          "reasons": [
+            "draftkings_line_missing"
+          ],
+          "threshold_met": false
+        },
+        "source_count": 1,
+        "source_observations": [
+          {
+            "observed_at": "2026-11-21T16:48:16.923000Z",
+            "provider": "haslametrics",
+            "source_as_of_date": "2026-11-20",
+            "source_updated_at": null
+          }
+        ],
+        "threshold_met": false
+      },
+      "total": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "basis": "haslametrics_vs_draftkings",
+        "classification": "INSUFFICIENT_DATA",
+        "consensus": {
+          "agreeing_source_count": 0,
+          "basis": "median_per_independent_system_vs_draftkings",
+          "classification": "INSUFFICIENT_DATA",
+          "difference": null,
+          "median": 138.88,
+          "preferred": null,
+          "reasons": [
+            "draftkings_line_missing",
+            "fewer_than_three_independent_sources"
+          ],
+          "threshold_met": false,
+          "unanimous": false
+        },
+        "difference": null,
+        "market_freshness": {
+          "age_hours": null,
+          "reasons": [
+            "not_imported"
+          ],
+          "state": "missing"
+        },
+        "market_observed_at": null,
+        "market_side": null,
+        "preferred": null,
+        "projected_side": null,
+        "reasons": [
+          "draftkings_line_missing"
+        ],
+        "research_only": true,
+        "single_source": {
+          "basis": "haslametrics_vs_draftkings",
+          "classification": "INSUFFICIENT_DATA",
+          "difference": null,
+          "preferred": null,
+          "reasons": [
+            "draftkings_line_missing"
+          ],
+          "threshold_met": false
+        },
+        "source_count": 1,
+        "source_observations": [
+          {
+            "observed_at": "2026-11-21T16:48:16.923000Z",
+            "provider": "haslametrics",
+            "source_as_of_date": "2026-11-20",
+            "source_updated_at": null
+          }
+        ],
+        "threshold_met": false
+      }
+    },
+    "season": "2026-27",
+    "source_as_of_date": null,
+    "source_game_ids": {
+      "ncaa": "6652591"
+    },
+    "source_updated_at": null,
+    "source_url": "https://www.ncaa.com/scoreboard/basketball-men/d1/2026/11/21/all-conf",
+    "status": "scheduled",
+    "tipoff_central": "2026-11-21T18:00:00-06:00",
+    "tipoff_utc": "2026-11-22T00:00:00Z",
+    "transport": "manual_csv"
+  },
+  "schema_version": "0.3.0",
+  "snapshot_id": "b0e2fe2ae6730530910a87ac40ec62111ae94d0dc44783051a57597fc9fee9fd"
+}

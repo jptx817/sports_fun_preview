@@ -1,0 +1,253 @@
+{
+  "captured_at": "2026-11-21T16:59:32.682328Z",
+  "game": {
+    "away_team": {
+      "id": "queens",
+      "name": "Queens",
+      "source_ids": {
+        "haslametrics": "5045"
+      }
+    },
+    "comparisons": {
+      "spread": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "available_source_count": 1,
+        "basis_note": "Provider score basis retained; DraftKings is full game including overtime.",
+        "classification": "INCOMPLETE_MARKET",
+        "difference": null,
+        "market_complete": false,
+        "median": 20.58,
+        "missing_providers": [
+          "barttorvik"
+        ],
+        "preferred": null,
+        "providers": [
+          "haslametrics"
+        ],
+        "range": [
+          20.58,
+          20.58
+        ],
+        "range_points": 0.0,
+        "source_count": 1,
+        "threshold_met": false
+      },
+      "total": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "available_source_count": 1,
+        "basis_note": "Provider score basis retained; DraftKings is full game including overtime.",
+        "classification": "INCOMPLETE_MARKET",
+        "difference": null,
+        "market_complete": false,
+        "median": 164.54,
+        "missing_providers": [
+          "barttorvik"
+        ],
+        "preferred": null,
+        "providers": [
+          "haslametrics"
+        ],
+        "range": [
+          164.54,
+          164.54
+        ],
+        "range_points": 0.0,
+        "source_count": 1,
+        "threshold_met": false
+      }
+    },
+    "data_issues": [
+      "draftkings_line_missing"
+    ],
+    "decision": "REVIEW_ONLY",
+    "draftkings": null,
+    "final": null,
+    "game_date": "2026-11-21",
+    "game_id": "cbb-2027-2026-11-21-queens-at-lsu",
+    "home_designation_basis": "provider_designated_home",
+    "home_team": {
+      "id": "lsu",
+      "name": "LSU",
+      "source_ids": {
+        "haslametrics": "221"
+      }
+    },
+    "imported_at": "2026-11-21T16:59:32.665430Z",
+    "last_verified_refresh": {
+      "comparison": null,
+      "draftkings": null,
+      "haslametrics": "2026-11-21T16:48:16.923000Z",
+      "schedule": "2026-11-21T16:48:16.874000Z"
+    },
+    "market_timeline": {
+      "first_observed": null,
+      "last_observed": null,
+      "note": "First/last observations are not assumed opening/closing lines.",
+      "observations": 0,
+      "verified_closing": null,
+      "verified_opening": null
+    },
+    "neutral_site": false,
+    "observation_id": "372f6d9024d843be8e451357a203e2b328663c07cbf8e1d8e62698746d26c164",
+    "observed_at": "2026-11-21T16:48:16.874000Z",
+    "pregame": true,
+    "projections": [
+      {
+        "away_score": 71.98,
+        "away_source_id": "5045",
+        "basis": "end_of_regulation",
+        "comparisons": {
+          "spread": {
+            "difference": null,
+            "preferred": null,
+            "threshold_met": false
+          },
+          "total": {
+            "difference": null,
+            "preferred": null,
+            "threshold_met": false
+          }
+        },
+        "freshness": {
+          "age_hours": 0.188,
+          "provider_update_known": false,
+          "reasons": [],
+          "state": "fresh"
+        },
+        "game_id": "cbb-2027-2026-11-21-queens-at-lsu",
+        "haslametrics_signals": {
+          "spread": false,
+          "total": false
+        },
+        "home_margin": 20.58,
+        "home_score": 92.56,
+        "home_source_id": "221",
+        "imported_at": "2026-11-21T16:59:32.677716Z",
+        "observation_id": "99c14826c128567309b4df82b4fcd292e84f428727e5a998be797fddc879295d",
+        "observed_at": "2026-11-21T16:48:16.923000Z",
+        "projected_home_spread": -20.58,
+        "provider": "haslametrics",
+        "retrieved_at": "2026-11-21T16:48:16.923000Z",
+        "source_as_of_date": "2026-11-20",
+        "source_updated_at": null,
+        "source_url": "https://www.haslametrics.com/",
+        "spread_eligible": true,
+        "total": 164.54,
+        "total_eligible": true,
+        "transport": "manual_csv"
+      }
+    ],
+    "retrieved_at": "2026-11-21T16:48:16.874000Z",
+    "screening": {
+      "spread": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "basis": "haslametrics_vs_draftkings",
+        "classification": "INSUFFICIENT_DATA",
+        "consensus": {
+          "basis": "median_per_independent_system_vs_draftkings",
+          "classification": "INSUFFICIENT_DATA",
+          "difference": null,
+          "median": 20.58,
+          "preferred": null,
+          "reasons": [
+            "draftkings_line_missing",
+            "fewer_than_three_independent_sources"
+          ],
+          "threshold_met": false,
+          "unanimous": false
+        },
+        "difference": null,
+        "market_freshness": {
+          "age_hours": null,
+          "reasons": [
+            "not_imported"
+          ],
+          "state": "missing"
+        },
+        "market_observed_at": null,
+        "market_side": null,
+        "preferred": null,
+        "projected_side": "HOME",
+        "reasons": [
+          "draftkings_line_missing"
+        ],
+        "research_only": true,
+        "single_source": {
+          "basis": "haslametrics_vs_draftkings",
+          "classification": "INSUFFICIENT_DATA",
+          "difference": null,
+          "preferred": null,
+          "reasons": [
+            "draftkings_line_missing"
+          ],
+          "threshold_met": false
+        },
+        "source_count": 1,
+        "threshold_met": false
+      },
+      "total": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "basis": "haslametrics_vs_draftkings",
+        "classification": "INSUFFICIENT_DATA",
+        "consensus": {
+          "basis": "median_per_independent_system_vs_draftkings",
+          "classification": "INSUFFICIENT_DATA",
+          "difference": null,
+          "median": 164.54,
+          "preferred": null,
+          "reasons": [
+            "draftkings_line_missing",
+            "fewer_than_three_independent_sources"
+          ],
+          "threshold_met": false,
+          "unanimous": false
+        },
+        "difference": null,
+        "market_freshness": {
+          "age_hours": null,
+          "reasons": [
+            "not_imported"
+          ],
+          "state": "missing"
+        },
+        "market_observed_at": null,
+        "market_side": null,
+        "preferred": null,
+        "projected_side": null,
+        "reasons": [
+          "draftkings_line_missing"
+        ],
+        "research_only": true,
+        "single_source": {
+          "basis": "haslametrics_vs_draftkings",
+          "classification": "INSUFFICIENT_DATA",
+          "difference": null,
+          "preferred": null,
+          "reasons": [
+            "draftkings_line_missing"
+          ],
+          "threshold_met": false
+        },
+        "source_count": 1,
+        "threshold_met": false
+      }
+    },
+    "season": "2026-27",
+    "source_as_of_date": null,
+    "source_game_ids": {
+      "ncaa": "6653155"
+    },
+    "source_updated_at": null,
+    "source_url": "https://www.ncaa.com/scoreboard/basketball-men/d1/2026/11/21/all-conf",
+    "status": "scheduled",
+    "tipoff_central": "2026-11-21T12:00:00-06:00",
+    "tipoff_utc": "2026-11-21T18:00:00Z",
+    "transport": "manual_csv"
+  },
+  "schema_version": "0.3.0",
+  "snapshot_id": "2004522f10942426d21628586c3cd5b6643ce5976179951d2c941a9540e193dc"
+}

@@ -1,0 +1,271 @@
+{
+  "captured_at": "2026-11-21T17:08:23.265803Z",
+  "game": {
+    "away_team": {
+      "id": "st-thomas-mn",
+      "name": "St. Thomas (MN)",
+      "source_ids": {
+        "haslametrics": "5823"
+      }
+    },
+    "comparisons": {
+      "spread": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "available_source_count": 1,
+        "basis_note": "Provider score basis retained; DraftKings is full game including overtime.",
+        "classification": "INCOMPLETE_MARKET",
+        "difference": null,
+        "market_complete": false,
+        "median": -5.75,
+        "missing_providers": [
+          "barttorvik"
+        ],
+        "preferred": null,
+        "providers": [
+          "haslametrics"
+        ],
+        "range": [
+          -5.75,
+          -5.75
+        ],
+        "range_points": 0.0,
+        "source_count": 1,
+        "threshold_met": false
+      },
+      "total": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "available_source_count": 1,
+        "basis_note": "Provider score basis retained; DraftKings is full game including overtime.",
+        "classification": "INCOMPLETE_MARKET",
+        "difference": null,
+        "market_complete": false,
+        "median": 156.75,
+        "missing_providers": [
+          "barttorvik"
+        ],
+        "preferred": null,
+        "providers": [
+          "haslametrics"
+        ],
+        "range": [
+          156.75,
+          156.75
+        ],
+        "range_points": 0.0,
+        "source_count": 1,
+        "threshold_met": false
+      }
+    },
+    "data_issues": [
+      "draftkings_line_missing"
+    ],
+    "decision": "REVIEW_ONLY",
+    "draftkings": null,
+    "final": null,
+    "game_date": "2026-11-21",
+    "game_id": "cbb-2027-2026-11-21-st-thomas-mn-at-milwaukee",
+    "home_designation_basis": "provider_designated_home",
+    "home_team": {
+      "id": "milwaukee",
+      "name": "Milwaukee",
+      "source_ids": {
+        "haslametrics": "563"
+      }
+    },
+    "imported_at": "2026-11-21T16:59:32.667431Z",
+    "last_verified_refresh": {
+      "comparison": null,
+      "draftkings": null,
+      "haslametrics": "2026-11-21T16:48:16.923000Z",
+      "schedule": "2026-11-21T16:48:16.874000Z"
+    },
+    "market_timeline": {
+      "first_observed": null,
+      "last_observed": null,
+      "note": "First/last observations are not assumed opening/closing lines.",
+      "observations": 0,
+      "verified_closing": null,
+      "verified_opening": null
+    },
+    "neutral_site": false,
+    "observation_id": "a3b685d42a8f3a7f1dd1fea285051626e7223a68d2543df94e32e75ed62e493f",
+    "observed_at": "2026-11-21T16:48:16.874000Z",
+    "pregame": true,
+    "projections": [
+      {
+        "away_score": 81.25,
+        "away_source_id": "5823",
+        "basis": "end_of_regulation",
+        "comparisons": {
+          "spread": {
+            "difference": null,
+            "preferred": null,
+            "threshold_met": false
+          },
+          "total": {
+            "difference": null,
+            "preferred": null,
+            "threshold_met": false
+          }
+        },
+        "freshness": {
+          "age_hours": 0.335,
+          "provider_update_known": false,
+          "reasons": [],
+          "state": "fresh"
+        },
+        "game_id": "cbb-2027-2026-11-21-st-thomas-mn-at-milwaukee",
+        "haslametrics_signals": {
+          "spread": false,
+          "total": false
+        },
+        "home_margin": -5.75,
+        "home_score": 75.5,
+        "home_source_id": "563",
+        "imported_at": "2026-11-21T16:59:32.679293Z",
+        "observation_id": "3442897079ebfdc8ddad322c8cbca95be66d2d444b7672347aaa989ee99c94ca",
+        "observed_at": "2026-11-21T16:48:16.923000Z",
+        "projected_home_spread": 5.75,
+        "provider": "haslametrics",
+        "retrieved_at": "2026-11-21T16:48:16.923000Z",
+        "source_as_of_date": "2026-11-20",
+        "source_updated_at": null,
+        "source_url": "https://www.haslametrics.com/",
+        "spread_eligible": true,
+        "total": 156.75,
+        "total_eligible": true,
+        "transport": "manual_csv"
+      }
+    ],
+    "retrieved_at": "2026-11-21T16:48:16.874000Z",
+    "screening": {
+      "spread": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "basis": "haslametrics_vs_draftkings",
+        "classification": "INSUFFICIENT_DATA",
+        "consensus": {
+          "agreeing_source_count": 0,
+          "basis": "median_per_independent_system_vs_draftkings",
+          "classification": "INSUFFICIENT_DATA",
+          "difference": null,
+          "median": -5.75,
+          "preferred": null,
+          "reasons": [
+            "draftkings_line_missing",
+            "fewer_than_three_independent_sources"
+          ],
+          "threshold_met": false,
+          "unanimous": false
+        },
+        "difference": null,
+        "market_freshness": {
+          "age_hours": null,
+          "reasons": [
+            "not_imported"
+          ],
+          "state": "missing"
+        },
+        "market_observed_at": null,
+        "market_side": null,
+        "preferred": null,
+        "projected_side": "AWAY",
+        "reasons": [
+          "draftkings_line_missing"
+        ],
+        "research_only": true,
+        "single_source": {
+          "basis": "haslametrics_vs_draftkings",
+          "classification": "INSUFFICIENT_DATA",
+          "difference": null,
+          "preferred": null,
+          "reasons": [
+            "draftkings_line_missing"
+          ],
+          "threshold_met": false
+        },
+        "source_count": 1,
+        "source_observations": [
+          {
+            "observed_at": "2026-11-21T16:48:16.923000Z",
+            "provider": "haslametrics",
+            "source_as_of_date": "2026-11-20",
+            "source_updated_at": null
+          }
+        ],
+        "threshold_met": false
+      },
+      "total": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "basis": "haslametrics_vs_draftkings",
+        "classification": "INSUFFICIENT_DATA",
+        "consensus": {
+          "agreeing_source_count": 0,
+          "basis": "median_per_independent_system_vs_draftkings",
+          "classification": "INSUFFICIENT_DATA",
+          "difference": null,
+          "median": 156.75,
+          "preferred": null,
+          "reasons": [
+            "draftkings_line_missing",
+            "fewer_than_three_independent_sources"
+          ],
+          "threshold_met": false,
+          "unanimous": false
+        },
+        "difference": null,
+        "market_freshness": {
+          "age_hours": null,
+          "reasons": [
+            "not_imported"
+          ],
+          "state": "missing"
+        },
+        "market_observed_at": null,
+        "market_side": null,
+        "preferred": null,
+        "projected_side": null,
+        "reasons": [
+          "draftkings_line_missing"
+        ],
+        "research_only": true,
+        "single_source": {
+          "basis": "haslametrics_vs_draftkings",
+          "classification": "INSUFFICIENT_DATA",
+          "difference": null,
+          "preferred": null,
+          "reasons": [
+            "draftkings_line_missing"
+          ],
+          "threshold_met": false
+        },
+        "source_count": 1,
+        "source_observations": [
+          {
+            "observed_at": "2026-11-21T16:48:16.923000Z",
+            "provider": "haslametrics",
+            "source_as_of_date": "2026-11-20",
+            "source_updated_at": null
+          }
+        ],
+        "threshold_met": false
+      }
+    },
+    "season": "2026-27",
+    "source_as_of_date": null,
+    "source_game_ids": {
+      "ncaa": "6651778"
+    },
+    "source_updated_at": null,
+    "source_url": "https://www.ncaa.com/scoreboard/basketball-men/d1/2026/11/21/all-conf",
+    "status": "scheduled",
+    "tipoff_central": "2026-11-21T14:00:00-06:00",
+    "tipoff_utc": "2026-11-21T20:00:00Z",
+    "transport": "manual_csv"
+  },
+  "schema_version": "0.3.0",
+  "snapshot_id": "b632ef02b85f976d4fb3a7c54cf2064aca412e1fb4ac32a67aa0cdc943d53dfd"
+}

@@ -1,0 +1,271 @@
+{
+  "captured_at": "2026-11-21T17:08:23.265803Z",
+  "game": {
+    "away_team": {
+      "id": "western-carolina",
+      "name": "Western Carolina",
+      "source_ids": {
+        "haslametrics": "5457"
+      }
+    },
+    "comparisons": {
+      "spread": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "available_source_count": 1,
+        "basis_note": "Provider score basis retained; DraftKings is full game including overtime.",
+        "classification": "INCOMPLETE_MARKET",
+        "difference": null,
+        "market_complete": false,
+        "median": 17.95,
+        "missing_providers": [
+          "barttorvik"
+        ],
+        "preferred": null,
+        "providers": [
+          "haslametrics"
+        ],
+        "range": [
+          17.95,
+          17.95
+        ],
+        "range_points": 0.0,
+        "source_count": 1,
+        "threshold_met": false
+      },
+      "total": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "available_source_count": 1,
+        "basis_note": "Provider score basis retained; DraftKings is full game including overtime.",
+        "classification": "INCOMPLETE_MARKET",
+        "difference": null,
+        "market_complete": false,
+        "median": 149.47,
+        "missing_providers": [
+          "barttorvik"
+        ],
+        "preferred": null,
+        "providers": [
+          "haslametrics"
+        ],
+        "range": [
+          149.47,
+          149.47
+        ],
+        "range_points": 0.0,
+        "source_count": 1,
+        "threshold_met": false
+      }
+    },
+    "data_issues": [
+      "draftkings_line_missing"
+    ],
+    "decision": "REVIEW_ONLY",
+    "draftkings": null,
+    "final": null,
+    "game_date": "2026-11-21",
+    "game_id": "cbb-2027-2026-11-21-western-carolina-at-wake-forest",
+    "home_designation_basis": "provider_designated_home",
+    "home_team": {
+      "id": "wake-forest",
+      "name": "Wake Forest",
+      "source_ids": {
+        "haslametrics": "331"
+      }
+    },
+    "imported_at": "2026-11-21T16:59:32.666016Z",
+    "last_verified_refresh": {
+      "comparison": null,
+      "draftkings": null,
+      "haslametrics": "2026-11-21T16:48:16.923000Z",
+      "schedule": "2026-11-21T16:48:16.874000Z"
+    },
+    "market_timeline": {
+      "first_observed": null,
+      "last_observed": null,
+      "note": "First/last observations are not assumed opening/closing lines.",
+      "observations": 0,
+      "verified_closing": null,
+      "verified_opening": null
+    },
+    "neutral_site": false,
+    "observation_id": "c4c6c29fbf2721c997aeacfd33d4e5a656581bd608c306b2666298b3974d6bce",
+    "observed_at": "2026-11-21T16:48:16.874000Z",
+    "pregame": true,
+    "projections": [
+      {
+        "away_score": 65.76,
+        "away_source_id": "5457",
+        "basis": "end_of_regulation",
+        "comparisons": {
+          "spread": {
+            "difference": null,
+            "preferred": null,
+            "threshold_met": false
+          },
+          "total": {
+            "difference": null,
+            "preferred": null,
+            "threshold_met": false
+          }
+        },
+        "freshness": {
+          "age_hours": 0.335,
+          "provider_update_known": false,
+          "reasons": [],
+          "state": "fresh"
+        },
+        "game_id": "cbb-2027-2026-11-21-western-carolina-at-wake-forest",
+        "haslametrics_signals": {
+          "spread": false,
+          "total": false
+        },
+        "home_margin": 17.95,
+        "home_score": 83.71,
+        "home_source_id": "331",
+        "imported_at": "2026-11-21T16:59:32.678288Z",
+        "observation_id": "9d7e320d4f041cbeb590883126a7972bf332327baf40cbf66532a1f7066130ff",
+        "observed_at": "2026-11-21T16:48:16.923000Z",
+        "projected_home_spread": -17.95,
+        "provider": "haslametrics",
+        "retrieved_at": "2026-11-21T16:48:16.923000Z",
+        "source_as_of_date": "2026-11-20",
+        "source_updated_at": null,
+        "source_url": "https://www.haslametrics.com/",
+        "spread_eligible": true,
+        "total": 149.47,
+        "total_eligible": true,
+        "transport": "manual_csv"
+      }
+    ],
+    "retrieved_at": "2026-11-21T16:48:16.874000Z",
+    "screening": {
+      "spread": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "basis": "haslametrics_vs_draftkings",
+        "classification": "INSUFFICIENT_DATA",
+        "consensus": {
+          "agreeing_source_count": 0,
+          "basis": "median_per_independent_system_vs_draftkings",
+          "classification": "INSUFFICIENT_DATA",
+          "difference": null,
+          "median": 17.95,
+          "preferred": null,
+          "reasons": [
+            "draftkings_line_missing",
+            "fewer_than_three_independent_sources"
+          ],
+          "threshold_met": false,
+          "unanimous": false
+        },
+        "difference": null,
+        "market_freshness": {
+          "age_hours": null,
+          "reasons": [
+            "not_imported"
+          ],
+          "state": "missing"
+        },
+        "market_observed_at": null,
+        "market_side": null,
+        "preferred": null,
+        "projected_side": "HOME",
+        "reasons": [
+          "draftkings_line_missing"
+        ],
+        "research_only": true,
+        "single_source": {
+          "basis": "haslametrics_vs_draftkings",
+          "classification": "INSUFFICIENT_DATA",
+          "difference": null,
+          "preferred": null,
+          "reasons": [
+            "draftkings_line_missing"
+          ],
+          "threshold_met": false
+        },
+        "source_count": 1,
+        "source_observations": [
+          {
+            "observed_at": "2026-11-21T16:48:16.923000Z",
+            "provider": "haslametrics",
+            "source_as_of_date": "2026-11-20",
+            "source_updated_at": null
+          }
+        ],
+        "threshold_met": false
+      },
+      "total": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "basis": "haslametrics_vs_draftkings",
+        "classification": "INSUFFICIENT_DATA",
+        "consensus": {
+          "agreeing_source_count": 0,
+          "basis": "median_per_independent_system_vs_draftkings",
+          "classification": "INSUFFICIENT_DATA",
+          "difference": null,
+          "median": 149.47,
+          "preferred": null,
+          "reasons": [
+            "draftkings_line_missing",
+            "fewer_than_three_independent_sources"
+          ],
+          "threshold_met": false,
+          "unanimous": false
+        },
+        "difference": null,
+        "market_freshness": {
+          "age_hours": null,
+          "reasons": [
+            "not_imported"
+          ],
+          "state": "missing"
+        },
+        "market_observed_at": null,
+        "market_side": null,
+        "preferred": null,
+        "projected_side": null,
+        "reasons": [
+          "draftkings_line_missing"
+        ],
+        "research_only": true,
+        "single_source": {
+          "basis": "haslametrics_vs_draftkings",
+          "classification": "INSUFFICIENT_DATA",
+          "difference": null,
+          "preferred": null,
+          "reasons": [
+            "draftkings_line_missing"
+          ],
+          "threshold_met": false
+        },
+        "source_count": 1,
+        "source_observations": [
+          {
+            "observed_at": "2026-11-21T16:48:16.923000Z",
+            "provider": "haslametrics",
+            "source_as_of_date": "2026-11-20",
+            "source_updated_at": null
+          }
+        ],
+        "threshold_met": false
+      }
+    },
+    "season": "2026-27",
+    "source_as_of_date": null,
+    "source_game_ids": {
+      "ncaa": "6649540"
+    },
+    "source_updated_at": null,
+    "source_url": "https://www.ncaa.com/scoreboard/basketball-men/d1/2026/11/21/all-conf",
+    "status": "scheduled",
+    "tipoff_central": "2026-11-21T13:00:00-06:00",
+    "tipoff_utc": "2026-11-21T19:00:00Z",
+    "transport": "manual_csv"
+  },
+  "schema_version": "0.3.0",
+  "snapshot_id": "0a9d54fd40930782286b30db4c2e3dd53af8177666fda4c2bdccf7ddaa286643"
+}

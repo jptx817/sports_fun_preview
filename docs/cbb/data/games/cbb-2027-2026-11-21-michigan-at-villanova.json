@@ -15,7 +15,7 @@
       "classification": "INCOMPLETE_MARKET",
       "difference": null,
       "market_complete": false,
-      "median": -6.89,
+      "median": -6.65,
       "missing_providers": [
         "barttorvik"
       ],
@@ -24,8 +24,8 @@
         "haslametrics"
       ],
       "range": [
-        -6.89,
-        -6.89
+        -6.65,
+        -6.65
       ],
       "range_points": 0.0,
       "source_count": 1,
@@ -39,7 +39,7 @@
       "classification": "INCOMPLETE_MARKET",
       "difference": null,
       "market_complete": false,
-      "median": 152.59,
+      "median": 151.85,
       "missing_providers": [
         "barttorvik"
       ],
@@ -48,21 +48,24 @@
         "haslametrics"
       ],
       "range": [
-        152.59,
-        152.59
+        151.85,
+        151.85
       ],
       "range_points": 0.0,
       "source_count": 1,
       "threshold_met": false
     }
   },
+  "data_issues": [
+    "draftkings_line_missing"
+  ],
   "decision": "REVIEW_ONLY",
   "detail_url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-michigan-at-villanova.json",
   "draftkings": null,
   "final": null,
   "game_date": "2026-11-21",
   "game_id": "cbb-2027-2026-11-21-michigan-at-villanova",
-  "generated_at": "2026-11-21T13:24:51.791824Z",
+  "generated_at": "2026-11-21T17:15:48.652281Z",
   "home_designation_basis": "provider_designated_home",
   "home_team": {
     "id": "villanova",
@@ -71,15 +74,29 @@
       "haslametrics": "467"
     }
   },
-  "imported_at": "2026-11-21T02:24:29.807991Z",
+  "imported_at": "2026-11-21T16:59:32.665330Z",
+  "last_verified_refresh": {
+    "comparison": null,
+    "draftkings": null,
+    "haslametrics": "2026-11-21T16:48:16.923000Z",
+    "schedule": "2026-11-21T16:48:16.874000Z"
+  },
+  "market_timeline": {
+    "first_observed": null,
+    "last_observed": null,
+    "note": "First/last observations are not assumed opening/closing lines.",
+    "observations": 0,
+    "verified_closing": null,
+    "verified_opening": null
+  },
   "neutral_site": false,
-  "observation_id": "bd24dd90c9cf67d70db925e86da7a129deb730e44911bfaa535a36116218c945",
-  "observed_at": "2026-11-21T02:22:43.174670Z",
+  "observation_id": "d5639df51279b9cd2660a3b1fb81c82674615974dd9225960aeb42a0971c47c7",
+  "observed_at": "2026-11-21T16:48:16.874000Z",
   "pregame": true,
-  "pregame_snapshot_id": "8bf9406bd9e3c0c55db607121aec5c2028fd6cf74fbb0dc1b615308e1cd4de2f",
+  "pregame_snapshot_id": "43c33c9f919dba1c4e90fdf48f92213032e9b95e0bc0447792ec34cb30bc8db0",
   "projections": [
     {
-      "away_score": 79.74,
+      "away_score": 79.25,
       "away_source_id": "283",
       "basis": "end_of_regulation",
       "comparisons": {
@@ -95,7 +112,7 @@
         }
       },
       "freshness": {
-        "age_hours": 11.036,
+        "age_hours": 0.459,
         "provider_update_known": false,
         "reasons": [],
         "state": "fresh"
@@ -105,32 +122,46 @@
         "spread": false,
         "total": false
       },
-      "home_margin": -6.89,
-      "home_score": 72.85,
+      "home_margin": -6.65,
+      "home_score": 72.6,
       "home_source_id": "467",
-      "imported_at": "2026-11-21T02:22:43.207172Z",
-      "observation_id": "0cc9bc934913afa4be1a9511bb822e725520cfdbcc3b9cdcefecc9581f6e5390",
-      "observed_at": "2026-11-21T02:22:43.174670Z",
-      "projected_home_spread": 6.89,
+      "imported_at": "2026-11-21T16:59:32.677617Z",
+      "observation_id": "3df33374afc16eec68707620eb06e66b8c66342d01f8780276bea96828dd7964",
+      "observed_at": "2026-11-21T16:48:16.923000Z",
+      "projected_home_spread": 6.65,
       "provider": "haslametrics",
-      "retrieved_at": "2026-11-21T02:22:43.174670Z",
-      "source_as_of_date": "2026-11-19",
+      "retrieved_at": "2026-11-21T16:48:16.923000Z",
+      "source_as_of_date": "2026-11-20",
       "source_updated_at": null,
-      "source_url": "https://www.haslametrics.com/preview.php?yr=&tid1=283&tid2=467&neut=0",
+      "source_url": "https://www.haslametrics.com/",
       "spread_eligible": true,
-      "total": 152.59,
+      "total": 151.85,
       "total_eligible": true,
       "transport": "manual_csv"
     }
   ],
-  "retrieved_at": "2026-11-21T02:22:43.174670Z",
-  "schema_version": "0.2.0",
+  "retrieved_at": "2026-11-21T16:48:16.874000Z",
+  "schema_version": "0.3.0",
   "screening": {
     "spread": {
       "actionable": false,
       "agreeing_source_count": 0,
       "basis": "haslametrics_vs_draftkings",
       "classification": "INSUFFICIENT_DATA",
+      "consensus": {
+        "agreeing_source_count": 0,
+        "basis": "median_per_independent_system_vs_draftkings",
+        "classification": "INSUFFICIENT_DATA",
+        "difference": null,
+        "median": -6.65,
+        "preferred": null,
+        "reasons": [
+          "draftkings_line_missing",
+          "fewer_than_three_independent_sources"
+        ],
+        "threshold_met": false,
+        "unanimous": false
+      },
       "difference": null,
       "market_freshness": {
         "age_hours": null,
@@ -139,12 +170,33 @@
         ],
         "state": "missing"
       },
+      "market_observed_at": null,
+      "market_side": null,
       "preferred": null,
+      "projected_side": "AWAY",
       "reasons": [
         "draftkings_line_missing"
       ],
       "research_only": true,
+      "single_source": {
+        "basis": "haslametrics_vs_draftkings",
+        "classification": "INSUFFICIENT_DATA",
+        "difference": null,
+        "preferred": null,
+        "reasons": [
+          "draftkings_line_missing"
+        ],
+        "threshold_met": false
+      },
       "source_count": 1,
+      "source_observations": [
+        {
+          "observed_at": "2026-11-21T16:48:16.923000Z",
+          "provider": "haslametrics",
+          "source_as_of_date": "2026-11-20",
+          "source_updated_at": null
+        }
+      ],
       "threshold_met": false
     },
     "total": {
@@ -152,6 +204,20 @@
       "agreeing_source_count": 0,
       "basis": "haslametrics_vs_draftkings",
       "classification": "INSUFFICIENT_DATA",
+      "consensus": {
+        "agreeing_source_count": 0,
+        "basis": "median_per_independent_system_vs_draftkings",
+        "classification": "INSUFFICIENT_DATA",
+        "difference": null,
+        "median": 151.85,
+        "preferred": null,
+        "reasons": [
+          "draftkings_line_missing",
+          "fewer_than_three_independent_sources"
+        ],
+        "threshold_met": false,
+        "unanimous": false
+      },
       "difference": null,
       "market_freshness": {
         "age_hours": null,
@@ -160,20 +226,43 @@
         ],
         "state": "missing"
       },
+      "market_observed_at": null,
+      "market_side": null,
       "preferred": null,
+      "projected_side": null,
       "reasons": [
         "draftkings_line_missing"
       ],
       "research_only": true,
+      "single_source": {
+        "basis": "haslametrics_vs_draftkings",
+        "classification": "INSUFFICIENT_DATA",
+        "difference": null,
+        "preferred": null,
+        "reasons": [
+          "draftkings_line_missing"
+        ],
+        "threshold_met": false
+      },
       "source_count": 1,
+      "source_observations": [
+        {
+          "observed_at": "2026-11-21T16:48:16.923000Z",
+          "provider": "haslametrics",
+          "source_as_of_date": "2026-11-20",
+          "source_updated_at": null
+        }
+      ],
       "threshold_met": false
     }
   },
   "season": "2026-27",
-  "source_as_of_date": "2026-11-19",
-  "source_game_ids": {},
+  "source_as_of_date": null,
+  "source_game_ids": {
+    "ncaa": "6654033"
+  },
   "source_updated_at": null,
-  "source_url": "https://www.haslametrics.com/",
+  "source_url": "https://www.ncaa.com/scoreboard/basketball-men/d1/2026/11/21/all-conf",
   "status": "scheduled",
   "tipoff_central": "2026-11-21T18:00:00-06:00",
   "tipoff_utc": "2026-11-22T00:00:00Z",

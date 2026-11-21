@@ -1,0 +1,270 @@
+{
+  "away_team": {
+    "id": "drake",
+    "name": "Drake",
+    "source_ids": {
+      "haslametrics": "4385"
+    }
+  },
+  "comparisons": {
+    "spread": {
+      "actionable": false,
+      "agreeing_source_count": 0,
+      "available_source_count": 1,
+      "basis_note": "Provider score basis retained; DraftKings is full game including overtime.",
+      "classification": "INCOMPLETE_MARKET",
+      "difference": null,
+      "market_complete": false,
+      "median": -4.88,
+      "missing_providers": [
+        "barttorvik"
+      ],
+      "preferred": null,
+      "providers": [
+        "haslametrics"
+      ],
+      "range": [
+        -4.88,
+        -4.88
+      ],
+      "range_points": 0.0,
+      "source_count": 1,
+      "threshold_met": false
+    },
+    "total": {
+      "actionable": false,
+      "agreeing_source_count": 0,
+      "available_source_count": 1,
+      "basis_note": "Provider score basis retained; DraftKings is full game including overtime.",
+      "classification": "INCOMPLETE_MARKET",
+      "difference": null,
+      "market_complete": false,
+      "median": 149.38,
+      "missing_providers": [
+        "barttorvik"
+      ],
+      "preferred": null,
+      "providers": [
+        "haslametrics"
+      ],
+      "range": [
+        149.38,
+        149.38
+      ],
+      "range_points": 0.0,
+      "source_count": 1,
+      "threshold_met": false
+    }
+  },
+  "data_issues": [
+    "draftkings_line_missing"
+  ],
+  "decision": "REVIEW_ONLY",
+  "detail_url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-drake-at-missouri-state.json",
+  "draftkings": null,
+  "final": null,
+  "game_date": "2026-11-21",
+  "game_id": "cbb-2027-2026-11-21-drake-at-missouri-state",
+  "generated_at": "2026-11-21T17:15:48.652281Z",
+  "home_designation_basis": "provider_designated_home",
+  "home_team": {
+    "id": "missouri-state",
+    "name": "Missouri State",
+    "source_ids": {
+      "haslametrics": "5269"
+    }
+  },
+  "imported_at": "2026-11-21T16:59:32.667537Z",
+  "last_verified_refresh": {
+    "comparison": null,
+    "draftkings": null,
+    "haslametrics": "2026-11-21T16:48:16.923000Z",
+    "schedule": "2026-11-21T16:48:16.874000Z"
+  },
+  "market_timeline": {
+    "first_observed": null,
+    "last_observed": null,
+    "note": "First/last observations are not assumed opening/closing lines.",
+    "observations": 0,
+    "verified_closing": null,
+    "verified_opening": null
+  },
+  "neutral_site": false,
+  "observation_id": "53b67fe6d63d6fb3f5aa8339daa9eacac37fa17b850ba2145a377406ca861427",
+  "observed_at": "2026-11-21T16:48:16.874000Z",
+  "pregame": true,
+  "pregame_snapshot_id": "62fc7e4210e5d8eeb1c4e29ac2c5e1ef76dfd6151b2e0a2d8cf44d41fda438fa",
+  "projections": [
+    {
+      "away_score": 77.13,
+      "away_source_id": "4385",
+      "basis": "end_of_regulation",
+      "comparisons": {
+        "spread": {
+          "difference": null,
+          "preferred": null,
+          "threshold_met": false
+        },
+        "total": {
+          "difference": null,
+          "preferred": null,
+          "threshold_met": false
+        }
+      },
+      "freshness": {
+        "age_hours": 0.459,
+        "provider_update_known": false,
+        "reasons": [],
+        "state": "fresh"
+      },
+      "game_id": "cbb-2027-2026-11-21-drake-at-missouri-state",
+      "haslametrics_signals": {
+        "spread": false,
+        "total": false
+      },
+      "home_margin": -4.88,
+      "home_score": 72.25,
+      "home_source_id": "5269",
+      "imported_at": "2026-11-21T16:59:32.679380Z",
+      "observation_id": "af881ef9d0a0fc9fb3f8b02431d31508c7390129d22bc24d5cd536cd4a19172e",
+      "observed_at": "2026-11-21T16:48:16.923000Z",
+      "projected_home_spread": 4.88,
+      "provider": "haslametrics",
+      "retrieved_at": "2026-11-21T16:48:16.923000Z",
+      "source_as_of_date": "2026-11-20",
+      "source_updated_at": null,
+      "source_url": "https://www.haslametrics.com/",
+      "spread_eligible": true,
+      "total": 149.38,
+      "total_eligible": true,
+      "transport": "manual_csv"
+    }
+  ],
+  "retrieved_at": "2026-11-21T16:48:16.874000Z",
+  "schema_version": "0.3.0",
+  "screening": {
+    "spread": {
+      "actionable": false,
+      "agreeing_source_count": 0,
+      "basis": "haslametrics_vs_draftkings",
+      "classification": "INSUFFICIENT_DATA",
+      "consensus": {
+        "agreeing_source_count": 0,
+        "basis": "median_per_independent_system_vs_draftkings",
+        "classification": "INSUFFICIENT_DATA",
+        "difference": null,
+        "median": -4.88,
+        "preferred": null,
+        "reasons": [
+          "draftkings_line_missing",
+          "fewer_than_three_independent_sources"
+        ],
+        "threshold_met": false,
+        "unanimous": false
+      },
+      "difference": null,
+      "market_freshness": {
+        "age_hours": null,
+        "reasons": [
+          "not_imported"
+        ],
+        "state": "missing"
+      },
+      "market_observed_at": null,
+      "market_side": null,
+      "preferred": null,
+      "projected_side": "AWAY",
+      "reasons": [
+        "draftkings_line_missing"
+      ],
+      "research_only": true,
+      "single_source": {
+        "basis": "haslametrics_vs_draftkings",
+        "classification": "INSUFFICIENT_DATA",
+        "difference": null,
+        "preferred": null,
+        "reasons": [
+          "draftkings_line_missing"
+        ],
+        "threshold_met": false
+      },
+      "source_count": 1,
+      "source_observations": [
+        {
+          "observed_at": "2026-11-21T16:48:16.923000Z",
+          "provider": "haslametrics",
+          "source_as_of_date": "2026-11-20",
+          "source_updated_at": null
+        }
+      ],
+      "threshold_met": false
+    },
+    "total": {
+      "actionable": false,
+      "agreeing_source_count": 0,
+      "basis": "haslametrics_vs_draftkings",
+      "classification": "INSUFFICIENT_DATA",
+      "consensus": {
+        "agreeing_source_count": 0,
+        "basis": "median_per_independent_system_vs_draftkings",
+        "classification": "INSUFFICIENT_DATA",
+        "difference": null,
+        "median": 149.38,
+        "preferred": null,
+        "reasons": [
+          "draftkings_line_missing",
+          "fewer_than_three_independent_sources"
+        ],
+        "threshold_met": false,
+        "unanimous": false
+      },
+      "difference": null,
+      "market_freshness": {
+        "age_hours": null,
+        "reasons": [
+          "not_imported"
+        ],
+        "state": "missing"
+      },
+      "market_observed_at": null,
+      "market_side": null,
+      "preferred": null,
+      "projected_side": null,
+      "reasons": [
+        "draftkings_line_missing"
+      ],
+      "research_only": true,
+      "single_source": {
+        "basis": "haslametrics_vs_draftkings",
+        "classification": "INSUFFICIENT_DATA",
+        "difference": null,
+        "preferred": null,
+        "reasons": [
+          "draftkings_line_missing"
+        ],
+        "threshold_met": false
+      },
+      "source_count": 1,
+      "source_observations": [
+        {
+          "observed_at": "2026-11-21T16:48:16.923000Z",
+          "provider": "haslametrics",
+          "source_as_of_date": "2026-11-20",
+          "source_updated_at": null
+        }
+      ],
+      "threshold_met": false
+    }
+  },
+  "season": "2026-27",
+  "source_as_of_date": null,
+  "source_game_ids": {
+    "ncaa": "6653001"
+  },
+  "source_updated_at": null,
+  "source_url": "https://www.ncaa.com/scoreboard/basketball-men/d1/2026/11/21/all-conf",
+  "status": "scheduled",
+  "tipoff_central": "2026-11-21T14:00:00-06:00",
+  "tipoff_utc": "2026-11-21T20:00:00Z",
+  "transport": "manual_csv"
+}

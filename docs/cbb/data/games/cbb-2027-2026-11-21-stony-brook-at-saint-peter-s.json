@@ -1,0 +1,270 @@
+{
+  "away_team": {
+    "id": "stony-brook",
+    "name": "Stony Brook",
+    "source_ids": {
+      "haslametrics": "5261"
+    }
+  },
+  "comparisons": {
+    "spread": {
+      "actionable": false,
+      "agreeing_source_count": 0,
+      "available_source_count": 1,
+      "basis_note": "Provider score basis retained; DraftKings is full game including overtime.",
+      "classification": "INCOMPLETE_MARKET",
+      "difference": null,
+      "market_complete": false,
+      "median": -3.04,
+      "missing_providers": [
+        "barttorvik"
+      ],
+      "preferred": null,
+      "providers": [
+        "haslametrics"
+      ],
+      "range": [
+        -3.04,
+        -3.04
+      ],
+      "range_points": 0.0,
+      "source_count": 1,
+      "threshold_met": false
+    },
+    "total": {
+      "actionable": false,
+      "agreeing_source_count": 0,
+      "available_source_count": 1,
+      "basis_note": "Provider score basis retained; DraftKings is full game including overtime.",
+      "classification": "INCOMPLETE_MARKET",
+      "difference": null,
+      "market_complete": false,
+      "median": 137.24,
+      "missing_providers": [
+        "barttorvik"
+      ],
+      "preferred": null,
+      "providers": [
+        "haslametrics"
+      ],
+      "range": [
+        137.24,
+        137.24
+      ],
+      "range_points": 0.0,
+      "source_count": 1,
+      "threshold_met": false
+    }
+  },
+  "data_issues": [
+    "draftkings_line_missing"
+  ],
+  "decision": "REVIEW_ONLY",
+  "detail_url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-stony-brook-at-saint-peter-s.json",
+  "draftkings": null,
+  "final": null,
+  "game_date": "2026-11-21",
+  "game_id": "cbb-2027-2026-11-21-stony-brook-at-saint-peter-s",
+  "generated_at": "2026-11-21T17:15:48.652281Z",
+  "home_designation_basis": "provider_designated_home",
+  "home_team": {
+    "id": "saint-peter-s",
+    "name": "Saint Peter's",
+    "source_ids": {
+      "haslametrics": "5247"
+    }
+  },
+  "imported_at": "2026-11-21T16:59:32.666231Z",
+  "last_verified_refresh": {
+    "comparison": null,
+    "draftkings": null,
+    "haslametrics": "2026-11-21T16:48:16.923000Z",
+    "schedule": "2026-11-21T16:48:16.874000Z"
+  },
+  "market_timeline": {
+    "first_observed": null,
+    "last_observed": null,
+    "note": "First/last observations are not assumed opening/closing lines.",
+    "observations": 0,
+    "verified_closing": null,
+    "verified_opening": null
+  },
+  "neutral_site": false,
+  "observation_id": "b5daef3b2f1c783d43778da00f441da78ed0b70015ed886ca4a8902ff08fde89",
+  "observed_at": "2026-11-21T16:48:16.874000Z",
+  "pregame": true,
+  "pregame_snapshot_id": "f89e7e9d5b4f9b77bb9d135ed658ea3d44a924f43c5f6029931d61355ed80cb5",
+  "projections": [
+    {
+      "away_score": 70.14,
+      "away_source_id": "5261",
+      "basis": "end_of_regulation",
+      "comparisons": {
+        "spread": {
+          "difference": null,
+          "preferred": null,
+          "threshold_met": false
+        },
+        "total": {
+          "difference": null,
+          "preferred": null,
+          "threshold_met": false
+        }
+      },
+      "freshness": {
+        "age_hours": 0.459,
+        "provider_update_known": false,
+        "reasons": [],
+        "state": "fresh"
+      },
+      "game_id": "cbb-2027-2026-11-21-stony-brook-at-saint-peter-s",
+      "haslametrics_signals": {
+        "spread": false,
+        "total": false
+      },
+      "home_margin": -3.04,
+      "home_score": 67.1,
+      "home_source_id": "5247",
+      "imported_at": "2026-11-21T16:59:32.678396Z",
+      "observation_id": "2a466c0fb52b47921b41c56329b25b9a6b36344b76fb7bdb8ad716846fba83e2",
+      "observed_at": "2026-11-21T16:48:16.923000Z",
+      "projected_home_spread": 3.04,
+      "provider": "haslametrics",
+      "retrieved_at": "2026-11-21T16:48:16.923000Z",
+      "source_as_of_date": "2026-11-20",
+      "source_updated_at": null,
+      "source_url": "https://www.haslametrics.com/",
+      "spread_eligible": true,
+      "total": 137.24,
+      "total_eligible": true,
+      "transport": "manual_csv"
+    }
+  ],
+  "retrieved_at": "2026-11-21T16:48:16.874000Z",
+  "schema_version": "0.3.0",
+  "screening": {
+    "spread": {
+      "actionable": false,
+      "agreeing_source_count": 0,
+      "basis": "haslametrics_vs_draftkings",
+      "classification": "INSUFFICIENT_DATA",
+      "consensus": {
+        "agreeing_source_count": 0,
+        "basis": "median_per_independent_system_vs_draftkings",
+        "classification": "INSUFFICIENT_DATA",
+        "difference": null,
+        "median": -3.04,
+        "preferred": null,
+        "reasons": [
+          "draftkings_line_missing",
+          "fewer_than_three_independent_sources"
+        ],
+        "threshold_met": false,
+        "unanimous": false
+      },
+      "difference": null,
+      "market_freshness": {
+        "age_hours": null,
+        "reasons": [
+          "not_imported"
+        ],
+        "state": "missing"
+      },
+      "market_observed_at": null,
+      "market_side": null,
+      "preferred": null,
+      "projected_side": "AWAY",
+      "reasons": [
+        "draftkings_line_missing"
+      ],
+      "research_only": true,
+      "single_source": {
+        "basis": "haslametrics_vs_draftkings",
+        "classification": "INSUFFICIENT_DATA",
+        "difference": null,
+        "preferred": null,
+        "reasons": [
+          "draftkings_line_missing"
+        ],
+        "threshold_met": false
+      },
+      "source_count": 1,
+      "source_observations": [
+        {
+          "observed_at": "2026-11-21T16:48:16.923000Z",
+          "provider": "haslametrics",
+          "source_as_of_date": "2026-11-20",
+          "source_updated_at": null
+        }
+      ],
+      "threshold_met": false
+    },
+    "total": {
+      "actionable": false,
+      "agreeing_source_count": 0,
+      "basis": "haslametrics_vs_draftkings",
+      "classification": "INSUFFICIENT_DATA",
+      "consensus": {
+        "agreeing_source_count": 0,
+        "basis": "median_per_independent_system_vs_draftkings",
+        "classification": "INSUFFICIENT_DATA",
+        "difference": null,
+        "median": 137.24,
+        "preferred": null,
+        "reasons": [
+          "draftkings_line_missing",
+          "fewer_than_three_independent_sources"
+        ],
+        "threshold_met": false,
+        "unanimous": false
+      },
+      "difference": null,
+      "market_freshness": {
+        "age_hours": null,
+        "reasons": [
+          "not_imported"
+        ],
+        "state": "missing"
+      },
+      "market_observed_at": null,
+      "market_side": null,
+      "preferred": null,
+      "projected_side": null,
+      "reasons": [
+        "draftkings_line_missing"
+      ],
+      "research_only": true,
+      "single_source": {
+        "basis": "haslametrics_vs_draftkings",
+        "classification": "INSUFFICIENT_DATA",
+        "difference": null,
+        "preferred": null,
+        "reasons": [
+          "draftkings_line_missing"
+        ],
+        "threshold_met": false
+      },
+      "source_count": 1,
+      "source_observations": [
+        {
+          "observed_at": "2026-11-21T16:48:16.923000Z",
+          "provider": "haslametrics",
+          "source_as_of_date": "2026-11-20",
+          "source_updated_at": null
+        }
+      ],
+      "threshold_met": false
+    }
+  },
+  "season": "2026-27",
+  "source_as_of_date": null,
+  "source_game_ids": {
+    "ncaa": "6650965"
+  },
+  "source_updated_at": null,
+  "source_url": "https://www.ncaa.com/scoreboard/basketball-men/d1/2026/11/21/all-conf",
+  "status": "scheduled",
+  "tipoff_central": "2026-11-21T13:00:00-06:00",
+  "tipoff_utc": "2026-11-21T19:00:00Z",
+  "transport": "manual_csv"
+}

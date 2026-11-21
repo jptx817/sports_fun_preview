@@ -1,10 +1,21 @@
 {
   "acquisition": {
     "automatic_refresh": false,
+    "displayed_schedule_games": 57,
+    "imported_schedule_games": 57,
+    "independent_completeness_check": "not_available_beyond_source_board",
+    "issues": [],
+    "market_blocker": "The Odds API environment key is not configured; retain manual CSV markets",
+    "market_requested": "the_odds_api",
     "market_source": "manual_csv",
-    "projections": "manual_csv",
-    "schedule": "manual_verified_csv",
-    "status": "no_market_observations"
+    "projection_observed_at": "2026-11-21T16:48:16.923Z",
+    "projection_rows_imported": 51,
+    "projections": "manual_rendered_haslametrics",
+    "schedule": "manual_rendered_ncaa_all_conferences",
+    "schedule_observed_at": "2026-11-21T16:48:16.874Z",
+    "schedule_source_url": "https://www.ncaa.com/scoreboard/basketball-men/d1/2026/11/21/all-conf",
+    "scope": "all_games_displayed_on_ncaa_D1_board_including_non_D1_opponents",
+    "status": "blocked_manual_fallback"
   },
   "conventions": {
     "aggregation": "median_per_independent_system",
@@ -18,22 +29,31 @@
   },
   "coverage": {
     "actionable": 0,
-    "any_projection": 5,
+    "any_projection": 51,
     "consensus_candidates": 0,
+    "consensus_watches": 0,
     "draftkings_complete_spreads": 0,
     "draftkings_complete_totals": 0,
     "draftkings_spread_lines": 0,
     "draftkings_total_lines": 0,
     "fresh_spread_comparisons": 0,
     "fresh_total_comparisons": 0,
-    "games": 5,
-    "haslametrics": 5,
+    "games": 57,
+    "haslametrics": 51,
+    "max_fresh_independent_sources": 1,
+    "missing_haslametrics": 6,
+    "missing_market_games": 57,
+    "neutral_site_unknown": 6,
+    "postponed_games": 0,
+    "pregame_games": 53,
     "spread_watches": 0,
+    "stale_spread_lines": 0,
+    "stale_total_lines": 0,
     "total_watches": 0,
     "valid_pregame_spreads": 0,
     "valid_pregame_totals": 0
   },
-  "edition_id": "00d6ac7a4d24ed3ec127521323f3c292020ab1938524585480685e4f2749cc7c",
+  "edition_id": "9adae93d7fc02bbb0ba837d28efca3da42b65fce448a3afcdaa8b2eb0543dcb2",
   "freshness": {
     "barttorvik": {
       "latest_retrieved_at": null,
@@ -54,19 +74,19 @@
       "state": "missing"
     },
     "haslametrics": {
-      "latest_retrieved_at": "2026-11-21T02:22:43.174670Z",
-      "newest_observed_at": "2026-11-21T02:22:43.174670Z",
-      "observations": 5,
-      "oldest_observed_at": "2026-11-21T02:22:43.174670Z",
+      "latest_retrieved_at": "2026-11-21T16:48:16.923000Z",
+      "newest_observed_at": "2026-11-21T16:48:16.923000Z",
+      "observations": 51,
+      "oldest_observed_at": "2026-11-21T16:48:16.923000Z",
       "provider_update_known": false,
       "source_as_of_dates": [
-        "2026-11-19"
+        "2026-11-20"
       ],
       "state": "fresh"
     }
   },
   "game_date": "2026-11-21",
-  "generated_at": "2026-11-21T13:24:51.791824Z",
+  "generated_at": "2026-11-21T17:15:48.652281Z",
   "lifecycle": "Research_observations_no_model",
   "limitations": [
     "Manual input required; no automatic refresh job",
@@ -104,82 +124,655 @@
       "name": "Haslametrics"
     }
   },
+  "release": {
+    "automatic_bets": false,
+    "blockers": [
+      "The Odds API environment key is not configured; retain manual CSV markets",
+      "The Odds API public downloadable quote/feed permission remains unverified; API and manual market records stay local",
+      "2 independent projection systems registered; maximum fresh same-game coverage is 1; Consensus Watch requires at least three",
+      "Daily schedule/projection acquisition remains an operator-captured rendered-board or CSV import; no unattended acquisition permission/SLA is established"
+    ],
+    "criterion": "Real timestamped market end-to-end acceptance requires an inspectable authorized pregame observation",
+    "eligible_pregame_comparisons": 0,
+    "public_market_feed_permission": "unverified",
+    "status": "BLOCKED"
+  },
   "resources": {
+    "data/games/cbb-2027-2026-11-21-air-force-at-utsa.json": {
+      "sha256": "492d0b58606f27e5adbc4ce55a158798ff2032688bf34903b168e7d1cec36cd8",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-air-force-at-utsa.json"
+    },
+    "data/games/cbb-2027-2026-11-21-army-west-point-at-binghamton.json": {
+      "sha256": "590553367505abcb187e08a2a508afe3b68a093a0dc67291cfbd57801937f0e4",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-army-west-point-at-binghamton.json"
+    },
+    "data/games/cbb-2027-2026-11-21-bradley-at-pacific.json": {
+      "sha256": "5ced3a49fc65f73eb5c7c034cb2a735fe2b233f129289c2cb6f66dd9eaa577e6",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-bradley-at-pacific.json"
+    },
+    "data/games/cbb-2027-2026-11-21-brown-at-vermont.json": {
+      "sha256": "400dc8b4ead0df42464efb986c63fd8dbcdafd2a1bc3baf5dbd65874ee4fe94a",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-brown-at-vermont.json"
+    },
+    "data/games/cbb-2027-2026-11-21-calumet-college-at-purdue-fort-wayne.json": {
+      "sha256": "6d7c43c48b087d59af2855f1756db2edc1b9207ddacab45fe765341f63eb4154",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-calumet-college-at-purdue-fort-wayne.json"
+    },
+    "data/games/cbb-2027-2026-11-21-central-arkansas-at-jacksonville.json": {
+      "sha256": "4da6f9b9b7f13d42ed0e57a4c40a30c633ca458b7dc0bcfda5fcffaac7928448",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-central-arkansas-at-jacksonville.json"
+    },
+    "data/games/cbb-2027-2026-11-21-charleston-southern-at-mercer.json": {
+      "sha256": "7f38a7b211b73d06c2a4ba90b04371aaa8b4222825e7a3510eff8024dfdc9eb9",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-charleston-southern-at-mercer.json"
+    },
+    "data/games/cbb-2027-2026-11-21-clinton-at-furman.json": {
+      "sha256": "2b5fb759d9e29494136c4a8012226cc834990232371d18e99c4845d61900140e",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-clinton-at-furman.json"
+    },
+    "data/games/cbb-2027-2026-11-21-columbia-at-boston-university.json": {
+      "sha256": "c6c520966638676ad267e7f25e874e5e3475df8a20cfdbdb7e4f13b397ec43a6",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-columbia-at-boston-university.json"
+    },
+    "data/games/cbb-2027-2026-11-21-coppin-state-at-georgetown.json": {
+      "sha256": "3520ddea861c7f7f4a3c24169f9d86b1a61dea0a3ff45885bad587e9d177dfa9",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-coppin-state-at-georgetown.json"
+    },
+    "data/games/cbb-2027-2026-11-21-cornell-at-morgan-state.json": {
+      "sha256": "372596f462e32be5dbd949091c5a18f320f3587468e5a7f4ee4af03fbd6ec098",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-cornell-at-morgan-state.json"
+    },
+    "data/games/cbb-2027-2026-11-21-denver-at-eastern-michigan.json": {
+      "sha256": "cec51e8f51cbedc0944f8e6012a79d83f71ad49eacd17d3172272a741eeaf6d6",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-denver-at-eastern-michigan.json"
+    },
     "data/games/cbb-2027-2026-11-21-detroit-mercy-at-michigan-state.json": {
-      "sha256": "e3f5d078a1efbcfcf5a4a3f775e8de2e398a4aed536f78a43aed4d34080f9568",
+      "sha256": "4dcf79c04077cf26bed16e4598c6995de9819ed0be81612c3ec51852c6e32dca",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-detroit-mercy-at-michigan-state.json"
     },
+    "data/games/cbb-2027-2026-11-21-drake-at-missouri-state.json": {
+      "sha256": "3b82edfe1f450facc30d3191a7c6ccea873e55bbc4d28aca783d4f9226683838",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-drake-at-missouri-state.json"
+    },
     "data/games/cbb-2027-2026-11-21-duke-at-washington-state.json": {
-      "sha256": "8631e3c2c24082d42f027075f3f393617420a7ce28a2f38551e43c39db60b5d3",
+      "sha256": "e74bf25c02c6464a2f909aa7cd3c850c0620488f580e064c9d94de322a9f8642",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-duke-at-washington-state.json"
     },
+    "data/games/cbb-2027-2026-11-21-fordham-at-portland.json": {
+      "sha256": "a1df5a6ae1bcaecae1a5b65ba978d10f1f52656e01a045de17472aa012f18e6a",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-fordham-at-portland.json"
+    },
+    "data/games/cbb-2027-2026-11-21-gardner-webb-at-vmi.json": {
+      "sha256": "2509fc601e9e0db6e573d61641914d1309c6c27a345e0b34113156e9a0cc1ee6",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-gardner-webb-at-vmi.json"
+    },
+    "data/games/cbb-2027-2026-11-21-justice-university-at-northern-colorado.json": {
+      "sha256": "9a873a9658368943952a376b86e76036f2f950ae7e4c21ed2ea7d81945f29b0a",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-justice-university-at-northern-colorado.json"
+    },
+    "data/games/cbb-2027-2026-11-21-kent-state-at-cleveland-state.json": {
+      "sha256": "35a3e9b76ce1af885fa8b1d75167ddeed9ffcc893b8fed30107477763c0c0331",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-kent-state-at-cleveland-state.json"
+    },
     "data/games/cbb-2027-2026-11-21-lafayette-at-syracuse.json": {
-      "sha256": "129d5ce6deafb6e3b4e8df5c04e4649d4a7e5591abf4b7b34d939eb84402ed41",
+      "sha256": "078c3e161920c604366cfae90349658ea146ab6eef8a31744f35397c141d3d1f",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-lafayette-at-syracuse.json"
     },
+    "data/games/cbb-2027-2026-11-21-little-rock-at-north-florida.json": {
+      "sha256": "43a8bb107232e21354590c53a5024d7f87b9056975aa1d70c3a177c2d69ea06a",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-little-rock-at-north-florida.json"
+    },
+    "data/games/cbb-2027-2026-11-21-longwood-at-east-tennessee-state.json": {
+      "sha256": "f75384b1b10266800366068f6383658a8a096c6f1a0d8fc022a0ae60768d77de",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-longwood-at-east-tennessee-state.json"
+    },
+    "data/games/cbb-2027-2026-11-21-loyola-marymount-at-california-baptist.json": {
+      "sha256": "3d9bc392880b835e81f25f9e78ffff2dcbb5cf04c13ec1b8ba5d0b5d254e5143",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-loyola-marymount-at-california-baptist.json"
+    },
+    "data/games/cbb-2027-2026-11-21-maine-at-massachusetts.json": {
+      "sha256": "970e1e39cdd85764403d8383ca90dd897136f59346050696af3f900a57f63c65",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-maine-at-massachusetts.json"
+    },
+    "data/games/cbb-2027-2026-11-21-mercyhurst-at-western-illinois.json": {
+      "sha256": "1bba63c2949a1a80d98db0aa62a59cfa92f35fd598960eb591712e958cb4e958",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-mercyhurst-at-western-illinois.json"
+    },
     "data/games/cbb-2027-2026-11-21-michigan-at-villanova.json": {
-      "sha256": "af278ec495eb9d672c19e7d19235c3c324e1919259b77c12bd4ab79b4b2c17f2",
+      "sha256": "98f6daab86747a63c3cc6a726784bec95263154c73a02e8a509aa732976cf06d",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-michigan-at-villanova.json"
     },
+    "data/games/cbb-2027-2026-11-21-middle-tennessee-at-indiana-state.json": {
+      "sha256": "54c14615aa4559ecd033f2f219db0c1ce5e02595e94bc030d6f5968053a49b44",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-middle-tennessee-at-indiana-state.json"
+    },
+    "data/games/cbb-2027-2026-11-21-morehead-state-at-elon.json": {
+      "sha256": "1c667c8605b3110638d76b437f44d16ba5c40fc9a4276597d97105250ba934a0",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-morehead-state-at-elon.json"
+    },
+    "data/games/cbb-2027-2026-11-21-navy-at-rider.json": {
+      "sha256": "b55aa3613a697e41d5a89ff0d81a9402d32ac5b12a7c2fdff294e5be7f4b304d",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-navy-at-rider.json"
+    },
+    "data/games/cbb-2027-2026-11-21-new-hampshire-at-new-haven.json": {
+      "sha256": "333ff1cc19ddb406e865100b20fcf7522af62e4fa30182fc97531dccca6d5a7d",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-new-hampshire-at-new-haven.json"
+    },
+    "data/games/cbb-2027-2026-11-21-new-mexico-at-wichita-state.json": {
+      "sha256": "9d6f5d29f13ccbc6bac28357396458bcec01f0f7191bb49289e251ed043bf8df",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-new-mexico-at-wichita-state.json"
+    },
+    "data/games/cbb-2027-2026-11-21-new-orleans-at-texas-southern.json": {
+      "sha256": "db878257245c9d73e09433fb67ed7f3356c8a43dcb20624150004c26d52fc853",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-new-orleans-at-texas-southern.json"
+    },
+    "data/games/cbb-2027-2026-11-21-northeastern-at-stonehill.json": {
+      "sha256": "89d3ce2b6e0baf15decbb21174dd3b5ce676f58017f4b04b6a341637fc3d2228",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-northeastern-at-stonehill.json"
+    },
+    "data/games/cbb-2027-2026-11-21-northern-arizona-at-cal-poly.json": {
+      "sha256": "561c95641155de384ba29d02c4b437f7b952f41f01ae6da9da05258615c33d5f",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-northern-arizona-at-cal-poly.json"
+    },
+    "data/games/cbb-2027-2026-11-21-northern-illinois-at-bowling-green.json": {
+      "sha256": "d39216f5c18257f477ee05cde9e8733827b4dca81c5b9d9abc8a447c1312acad",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-northern-illinois-at-bowling-green.json"
+    },
+    "data/games/cbb-2027-2026-11-21-penn-at-la-salle.json": {
+      "sha256": "a7cc8d3d04a2fe39dbefde49c7b64e8c2fe032d9e91371da2e4cdf1ef6b03de8",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-penn-at-la-salle.json"
+    },
+    "data/games/cbb-2027-2026-11-21-penn-state-behrend-at-colgate.json": {
+      "sha256": "6ddd614c4473ed54a1f709f55f4fd5c3c519b9ce084c9c8ff090e10948a706f9",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-penn-state-behrend-at-colgate.json"
+    },
+    "data/games/cbb-2027-2026-11-21-presbyterian-at-tennessee-tech.json": {
+      "sha256": "b0a1614755e30e8fc62a2706550cb3a653ed975998a3986fc5f7ffb9c3e374e8",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-presbyterian-at-tennessee-tech.json"
+    },
     "data/games/cbb-2027-2026-11-21-queens-at-lsu.json": {
-      "sha256": "411eafaddfae2e593c3f55d5f030ee4f0adf517132e1672a789ded1a65724eb1",
+      "sha256": "f95c8a13dae5e2d98bb5a6064debd19e9569d33ea9e10b31d2bdfbb8ebee6ba0",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-queens-at-lsu.json"
     },
+    "data/games/cbb-2027-2026-11-21-radford-at-chattanooga.json": {
+      "sha256": "499b038cbb6e9a371d53a208cc2e10d25f4a6f5e4619e47db056bfa6fd122269",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-radford-at-chattanooga.json"
+    },
+    "data/games/cbb-2027-2026-11-21-siena-at-bucknell.json": {
+      "sha256": "db44125d9950564a08ef873cba6f47e9a82f2b43b60839934b2ec10321675992",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-siena-at-bucknell.json"
+    },
+    "data/games/cbb-2027-2026-11-21-south-florida-at-george-mason.json": {
+      "sha256": "837f3a696d449cf5d1c527ffdc175416fdec1360c8f23c10380da84530ff40c8",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-south-florida-at-george-mason.json"
+    },
+    "data/games/cbb-2027-2026-11-21-southern-illinois-at-east-carolina.json": {
+      "sha256": "5a8815c368aa0480a7e03467d57a32b3f5038837d8ed8e19f9ed149b3151eb36",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-southern-illinois-at-east-carolina.json"
+    },
+    "data/games/cbb-2027-2026-11-21-southern-miss-at-nicholls.json": {
+      "sha256": "2a50512d516b759f078690024734b50234065a557affa6b0e259ec32752c85ff",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-southern-miss-at-nicholls.json"
+    },
+    "data/games/cbb-2027-2026-11-21-southwestern-adventist-at-abilene-christian.json": {
+      "sha256": "65e6fe66d8e9877ac5f1ca22ce7a5712a0ac878c34af43df8a155c089fb29b67",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-southwestern-adventist-at-abilene-christian.json"
+    },
+    "data/games/cbb-2027-2026-11-21-st-thomas-mn-at-milwaukee.json": {
+      "sha256": "33d8ff077e9ca99da9c8e8beec08ca723fcaf3b2c3cea6fa06be0d222d34e880",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-st-thomas-mn-at-milwaukee.json"
+    },
+    "data/games/cbb-2027-2026-11-21-stony-brook-at-saint-peter-s.json": {
+      "sha256": "cf46db67b539c2b3672acb259d594dc2a3b9afd29cd1b639bd3793ecbe37d2ad",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-stony-brook-at-saint-peter-s.json"
+    },
+    "data/games/cbb-2027-2026-11-21-texas-a-m-corpus-christi-at-oral-roberts.json": {
+      "sha256": "e8c08d05300d4a9255d44dd1771aa833783e9a34d09fff4c11d22516a220b0e9",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-texas-a-m-corpus-christi-at-oral-roberts.json"
+    },
+    "data/games/cbb-2027-2026-11-21-ualbany-at-canisius.json": {
+      "sha256": "8119a6e02bddcde7a561231bd60acd787a73bfe28e88879089e544d31caf3ab5",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-ualbany-at-canisius.json"
+    },
+    "data/games/cbb-2027-2026-11-21-uc-irvine-at-san-diego.json": {
+      "sha256": "0f9dab74cdc7a5a58fcdd97c3b08789723651fb08c21e97c0eeb8be2c3dac917",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-uc-irvine-at-san-diego.json"
+    },
+    "data/games/cbb-2027-2026-11-21-unc-wilmington-at-norfolk-state.json": {
+      "sha256": "5515ad372209c50ee8441eb243d090be1c67b2c2cf34bbc3aee7da4f6ed5623d",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-unc-wilmington-at-norfolk-state.json"
+    },
+    "data/games/cbb-2027-2026-11-21-usc-upstate-at-unc-greensboro.json": {
+      "sha256": "dd6b9554e262374acb083b3bf3013ca1d61c2449c4f62255784a1a5c4be6d417",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-usc-upstate-at-unc-greensboro.json"
+    },
+    "data/games/cbb-2027-2026-11-21-utrgv-at-austin-peay.json": {
+      "sha256": "2b02dd7347d1df057722acdf428aadb46d8106198ef5dd70f8f53083d1cbd5de",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-utrgv-at-austin-peay.json"
+    },
+    "data/games/cbb-2027-2026-11-21-valparaiso-at-troy.json": {
+      "sha256": "3146847eb64bccc4730e68c1446dfd2aa538898e4d432cfc07fb7688d3574079",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-valparaiso-at-troy.json"
+    },
+    "data/games/cbb-2027-2026-11-21-virginia-lynchburg-at-james-madison.json": {
+      "sha256": "df99e8acccbd2dd0dcb393c3999cb8ad422a77e3599a91beeba890c7ecb31a3a",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-virginia-lynchburg-at-james-madison.json"
+    },
+    "data/games/cbb-2027-2026-11-21-western-carolina-at-wake-forest.json": {
+      "sha256": "d1b0165525f511e5d2049155b0320047f49a13193d1d6035ea1a2cfed2daed0e",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-western-carolina-at-wake-forest.json"
+    },
+    "data/games/cbb-2027-2026-11-21-winthrop-at-wofford.json": {
+      "sha256": "a264799f3d9f43f42703736de0a63ca5c5b03809aa7e7c58a6856526ec2643d6",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-winthrop-at-wofford.json"
+    },
     "data/latest.json": {
-      "sha256": "7e115e068a7768ab01ecfd04ff316c8caa2a160e911b6ba63df29761f6ef55eb",
+      "sha256": "f07aa6302bd96c4db7b2c765883ee873055742cf00048e5de611d8ae9021004a",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/latest.json"
     },
-    "data/observations/0cc9bc934913afa4be1a9511bb822e725520cfdbcc3b9cdcefecc9581f6e5390.json": {
-      "sha256": "f10f8878b8ddaf28f8ba219af7d55fd4b769522f73a44a5ff9c205f94a32ec81",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/0cc9bc934913afa4be1a9511bb822e725520cfdbcc3b9cdcefecc9581f6e5390.json"
+    "data/observations/00de2f1cab8cf114206fbb09aa499b6b19c00a77e5e97977bb66002ef42b8db4.json": {
+      "sha256": "cf21e9910dfdadc4271d2cfd5fd853d5e0bbcecd2fe358a5818b13c2f58d6544",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/00de2f1cab8cf114206fbb09aa499b6b19c00a77e5e97977bb66002ef42b8db4.json"
     },
-    "data/observations/5a944890ca51cbabd8fc7d4823be0de33329e58fc39fc4a3c2bb2ea4a6d47902.json": {
-      "sha256": "23900dfd1533f02b801d03883f857421967afa4c0c196756a6645aee59bf9ed0",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/5a944890ca51cbabd8fc7d4823be0de33329e58fc39fc4a3c2bb2ea4a6d47902.json"
+    "data/observations/04f2d6dc4a26f9795e3683c2fb7820e42a6c4debb1a6204d01f94d06c5d26a4a.json": {
+      "sha256": "3a65908ec61a575e154c5748d71b6b780875f5f6818ca999e19f92d6ea21518d",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/04f2d6dc4a26f9795e3683c2fb7820e42a6c4debb1a6204d01f94d06c5d26a4a.json"
     },
-    "data/observations/a8d750c771a722abdca360a9a5c95daed9cda583c657aeea78cbd85ce670f54f.json": {
-      "sha256": "06a4da0d8acafcb1f12033d15fb816957a74b0a5ee799ef486b93b7a11ca65f4",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/a8d750c771a722abdca360a9a5c95daed9cda583c657aeea78cbd85ce670f54f.json"
+    "data/observations/0ef0e34a150c400a08338851761249a9729365ec7c5bd40cbc55c3468725fa8f.json": {
+      "sha256": "416689b94897bacc44ea0838a0214d49b164d724bb27a7f0f2b3e8500c5e2a6c",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/0ef0e34a150c400a08338851761249a9729365ec7c5bd40cbc55c3468725fa8f.json"
     },
-    "data/observations/c56dedffb545b09a65b5647d2621f4f658be663aaae56b9ac0df9eaa9d4aa61d.json": {
-      "sha256": "39b48edbbeb481b3d0bd0ee1c4a060752d5012648f459161fe88a8d95e6bd53f",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/c56dedffb545b09a65b5647d2621f4f658be663aaae56b9ac0df9eaa9d4aa61d.json"
+    "data/observations/0f9a719db1fc70cd0f2e872c2940780615a4c010f646b77d258ed9d4eff880c9.json": {
+      "sha256": "4896f37b50161c6c26dbacc4216dd9b40b8454deaeb477f90124744b38df5043",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/0f9a719db1fc70cd0f2e872c2940780615a4c010f646b77d258ed9d4eff880c9.json"
     },
-    "data/observations/e98e02fbb7fee2370f9c47425f3ce421cbc5f19d4305ffa50effb00f4c43f067.json": {
-      "sha256": "b8936a603109b2f497cd4e24c58a983314e8f013e443d0a37df55bb042f8ba6e",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/e98e02fbb7fee2370f9c47425f3ce421cbc5f19d4305ffa50effb00f4c43f067.json"
+    "data/observations/10f23fe75f93eb9f51269782e009c1c36c11f0d9eea793c6bfb534f868c4606b.json": {
+      "sha256": "1aadb766a4a32059c9b381399d3a8430127c8b7d21c61e65ac4cff9adbe63c8e",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/10f23fe75f93eb9f51269782e009c1c36c11f0d9eea793c6bfb534f868c4606b.json"
     },
-    "data/snapshots/02aadf8ff1b24777eac89c85690b29748cc8ee6ce8a6881f2a93fc6d1a38b152.json": {
-      "sha256": "88fc0e0e4e02b97422f2bc5dec1ac95d877d916e12f3299c3c7566ae653a2bdf",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/02aadf8ff1b24777eac89c85690b29748cc8ee6ce8a6881f2a93fc6d1a38b152.json"
+    "data/observations/1343ec7bdc6947d647cf738f2e320ab1516bfc9aa086bcb15f0d70fb9275944b.json": {
+      "sha256": "ce1e48e0008f8c24b11beecd43f66d47a7ac58b777c0184913ca75e64228a301",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/1343ec7bdc6947d647cf738f2e320ab1516bfc9aa086bcb15f0d70fb9275944b.json"
     },
-    "data/snapshots/0e642669aef1a67d050113ef142b2c7373d5a64316749097a37e82fa898fb3d0.json": {
-      "sha256": "a5cd6d9544be4a0c1e933dffb0b8a07cd9a5de34881b11bb8affb54ec1bb3cd6",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/0e642669aef1a67d050113ef142b2c7373d5a64316749097a37e82fa898fb3d0.json"
+    "data/observations/139b96ece10ec43844b3586188320d40baf063259a67d863127657c162897b49.json": {
+      "sha256": "db25f4a0c29f872bbd74b72728bb6813b1b74bd6b8218a353ad86cb744258049",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/139b96ece10ec43844b3586188320d40baf063259a67d863127657c162897b49.json"
     },
-    "data/snapshots/8bf9406bd9e3c0c55db607121aec5c2028fd6cf74fbb0dc1b615308e1cd4de2f.json": {
-      "sha256": "b2bfd4fa4574f44688b2ef593f69205e9bf7b7ab94b5de8a2261be5b5c834982",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/8bf9406bd9e3c0c55db607121aec5c2028fd6cf74fbb0dc1b615308e1cd4de2f.json"
+    "data/observations/15df842b4c9a05d9e6a49190f501f44498fdbcab2cd14435040f958aca8c6029.json": {
+      "sha256": "bb5cc302576624df1cbd674513006776d09b2a4c31fac411a832d90ac9ed35a5",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/15df842b4c9a05d9e6a49190f501f44498fdbcab2cd14435040f958aca8c6029.json"
     },
-    "data/snapshots/cdfba1f971dfeeb64c4a9eec85038e8c23919a6b7d37fec091daa6538d9202f2.json": {
-      "sha256": "20c15a36213b1c4dac8a9e43d3f5dce3aed64aa263c680375cbfe4399cfa8a94",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/cdfba1f971dfeeb64c4a9eec85038e8c23919a6b7d37fec091daa6538d9202f2.json"
+    "data/observations/199648f86aedb6fdb1b013c5e049590e0fd1b721e615c050cefefdf6b9056d33.json": {
+      "sha256": "97ba649ea0aa7a23d3de38caedc802d6f0d601511b4ecc8d108e4eae818be4ec",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/199648f86aedb6fdb1b013c5e049590e0fd1b721e615c050cefefdf6b9056d33.json"
     },
-    "data/snapshots/f3c1bec2be1ec7a90b13aae6aacb49836b5106a4543326a9ed51700d94bfef69.json": {
-      "sha256": "ca3986c1d3c92179a8cc3c4fd177330fbc0d645fd17aee41e8ae55d0f763bd7c",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/f3c1bec2be1ec7a90b13aae6aacb49836b5106a4543326a9ed51700d94bfef69.json"
+    "data/observations/1b9652c2cdad12b0c375ae9eeeb0a9fea1b14a30b2f898caf59a227a6b7d4376.json": {
+      "sha256": "1d8df4310c9f9588acbf49b3b44a5ab267f93e794b2d8bf33b65e980b006f3a7",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/1b9652c2cdad12b0c375ae9eeeb0a9fea1b14a30b2f898caf59a227a6b7d4376.json"
+    },
+    "data/observations/2a3f2d992e7facd23bb715b9948928088105ffb5fd4096c469e5704047324803.json": {
+      "sha256": "dfeca9f45c8f43e675ad937d12e553069ce691d6c7d1f25faebb280b465a8bf1",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/2a3f2d992e7facd23bb715b9948928088105ffb5fd4096c469e5704047324803.json"
+    },
+    "data/observations/2a466c0fb52b47921b41c56329b25b9a6b36344b76fb7bdb8ad716846fba83e2.json": {
+      "sha256": "122873a9006cfed4b247fb85903cf83fe76bb800757027b66535ef23efc9b874",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/2a466c0fb52b47921b41c56329b25b9a6b36344b76fb7bdb8ad716846fba83e2.json"
+    },
+    "data/observations/2a70ad955dabe1d3a939b163d36abad6468436cc77bfe754ef38cf0d1fbfe673.json": {
+      "sha256": "309a5df18a17d93d982a51213c11d776cbb05c0c05ad5ff3a6eb42986be19332",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/2a70ad955dabe1d3a939b163d36abad6468436cc77bfe754ef38cf0d1fbfe673.json"
+    },
+    "data/observations/2b0cda8d01f3bb6841c4dd533f05d1a2cbb6cd74c701d29f235e983d1d68fcbd.json": {
+      "sha256": "16469d6643a8689c2bb7c828fbea915dd13b9f69f706d36145de22602da92828",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/2b0cda8d01f3bb6841c4dd533f05d1a2cbb6cd74c701d29f235e983d1d68fcbd.json"
+    },
+    "data/observations/30a196957c24cc3ac07522b4bf5f930f40c38998a92b62dc84805dbdbe8da030.json": {
+      "sha256": "55966ca9c7d84b70afbdfd548e01d3a6e870fee5e9c371aecedbb59b83687af8",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/30a196957c24cc3ac07522b4bf5f930f40c38998a92b62dc84805dbdbe8da030.json"
+    },
+    "data/observations/3442897079ebfdc8ddad322c8cbca95be66d2d444b7672347aaa989ee99c94ca.json": {
+      "sha256": "3127611a72e54cc8920e6f007dbe898f85e0a8e244007ffc07a44b8e3a780e59",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/3442897079ebfdc8ddad322c8cbca95be66d2d444b7672347aaa989ee99c94ca.json"
+    },
+    "data/observations/3df33374afc16eec68707620eb06e66b8c66342d01f8780276bea96828dd7964.json": {
+      "sha256": "2e6867e7600bc71426651b3ad12cb0e21942a780128c0897b0132a6702fd5aec",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/3df33374afc16eec68707620eb06e66b8c66342d01f8780276bea96828dd7964.json"
+    },
+    "data/observations/40def84713c855625fcfa8b2d8051e7b2f49d20464f540f1f55485f81381a465.json": {
+      "sha256": "129a70e7cc8f7a8396fac189041b3ba61da04bde094f06e3da2eac7193dd6c7c",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/40def84713c855625fcfa8b2d8051e7b2f49d20464f540f1f55485f81381a465.json"
+    },
+    "data/observations/457f3c396473301a5d1ce68f9b3b2e149c7d549607499e7eeab68d2cd172160f.json": {
+      "sha256": "5fbb2eabab33fa43741f374e2f9dc6b3f30d8d676c045302a67d1cc8b91cc6bb",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/457f3c396473301a5d1ce68f9b3b2e149c7d549607499e7eeab68d2cd172160f.json"
+    },
+    "data/observations/563a617ef0e03f8b1917d7384da9e46dc6a0f2358521566bb9f4ae0d83984040.json": {
+      "sha256": "65546e8b7c93ad4f0a998406207523a3ca29bd7adfedc6107148818e239fa88e",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/563a617ef0e03f8b1917d7384da9e46dc6a0f2358521566bb9f4ae0d83984040.json"
+    },
+    "data/observations/6ad4d06bb7c294407009b2552dd8154d96388a3c79ac301dcdbb24e4efc517e5.json": {
+      "sha256": "b3ddca51eb8d3ab71549ccd47ea7395a202a417f6913f78389a9e30fb19bc5b1",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/6ad4d06bb7c294407009b2552dd8154d96388a3c79ac301dcdbb24e4efc517e5.json"
+    },
+    "data/observations/701ad5854e3b238914a8c80c5721433e6943253d5eeea3acf134917f3133ca60.json": {
+      "sha256": "79bd672e60e9fc818ace22dbe550565da0e858ab6b8299ed781bf42c9e351c29",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/701ad5854e3b238914a8c80c5721433e6943253d5eeea3acf134917f3133ca60.json"
+    },
+    "data/observations/7a8addf9850cdf2e01960cd4059297063c7351b4a68fd726d22fc6847b5b09fc.json": {
+      "sha256": "0644b5c1cdb14a4db7a24794751c0f4ecf2e0c89dd114bafee822ba2ce3f966d",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/7a8addf9850cdf2e01960cd4059297063c7351b4a68fd726d22fc6847b5b09fc.json"
+    },
+    "data/observations/7b03620f331caf0797bcb10a7abccb884233165bcc86434cf0ab1f4537f50176.json": {
+      "sha256": "3f2f12b3529e2092430383c5c86e9ebeb845f3db61478aed4a50937f03698989",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/7b03620f331caf0797bcb10a7abccb884233165bcc86434cf0ab1f4537f50176.json"
+    },
+    "data/observations/7ba616ad1e9b8c837de22ceb3ca283c8086e8fb1f5cced8c65dc7111430f85e9.json": {
+      "sha256": "9275105a305fc978c5814d3c5a46a8cb81b6e0cef34f008e6fd1b84faa6ec6df",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/7ba616ad1e9b8c837de22ceb3ca283c8086e8fb1f5cced8c65dc7111430f85e9.json"
+    },
+    "data/observations/7ce7588891e646fa9332c9fb5844a3eab6f0b65b6fb697ce5866e63fb72c5183.json": {
+      "sha256": "bb94c5c0c7d111767ed653051d5a50ca5e9c569731d07ba51e6a021c252e2e73",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/7ce7588891e646fa9332c9fb5844a3eab6f0b65b6fb697ce5866e63fb72c5183.json"
+    },
+    "data/observations/7e540ab56f89c252642cf80a97317c2b9d5591396bf7c88cf059c9ca41ec1bd3.json": {
+      "sha256": "de473dbeedc629141cd7b6fedf4f0c502c841fea358244945bff20afe1d5813d",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/7e540ab56f89c252642cf80a97317c2b9d5591396bf7c88cf059c9ca41ec1bd3.json"
+    },
+    "data/observations/7f70c411f557e48fb6c5625479825970f78793a37daafc946e594748e50d919d.json": {
+      "sha256": "2389cfa29adb65db610f9ffb922b8c12f9f3edcfb2250bd1d45d6aa68e74f41c",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/7f70c411f557e48fb6c5625479825970f78793a37daafc946e594748e50d919d.json"
+    },
+    "data/observations/8fe49eef080f03bc63ed71f91ae96b220f0cdb279de68a37dd14e981ba15453b.json": {
+      "sha256": "005564ed3c8ecea814e09cf97e08627e616dc773321cc9955fb6c0bcefdf45f6",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/8fe49eef080f03bc63ed71f91ae96b220f0cdb279de68a37dd14e981ba15453b.json"
+    },
+    "data/observations/904abfe92ed93854f4e2f8eaf683d989790bb0d8f24bf91e2aabe5da52a313e4.json": {
+      "sha256": "0e3f33274e6673d507ee180979266c22e49a2f05aaa83772aea836c679c78b3e",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/904abfe92ed93854f4e2f8eaf683d989790bb0d8f24bf91e2aabe5da52a313e4.json"
+    },
+    "data/observations/925825cbe5979a0722d4ab26ee6bc42dfe7c257ca88397f2319e80f94e7d9c81.json": {
+      "sha256": "fa5a2707ebbeb8a78ef2e16192fa13e3968d67a8f6a4175aa6d03106ddb788b2",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/925825cbe5979a0722d4ab26ee6bc42dfe7c257ca88397f2319e80f94e7d9c81.json"
+    },
+    "data/observations/99c14826c128567309b4df82b4fcd292e84f428727e5a998be797fddc879295d.json": {
+      "sha256": "42b7bd6ee03631a6fe5dc5fd6aa811a643af59aafef417f7e5a064c9bc3f04c0",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/99c14826c128567309b4df82b4fcd292e84f428727e5a998be797fddc879295d.json"
+    },
+    "data/observations/9c3b8feb47ca98a9a4374789db9e84ea15b2ca30f52612649f1853094526241b.json": {
+      "sha256": "56b2525327f78596a87117b2bda342a80e99d7571de50c50a51db0ec45dda732",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/9c3b8feb47ca98a9a4374789db9e84ea15b2ca30f52612649f1853094526241b.json"
+    },
+    "data/observations/9cb7d1b019696dc8ff54c768699e35d13b58f039cb7f32e24ebf842d2c65caf2.json": {
+      "sha256": "8338535b262268834c4bb8db24b8eb2b6add0577f7afc3c9ca40686b6a14b6ae",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/9cb7d1b019696dc8ff54c768699e35d13b58f039cb7f32e24ebf842d2c65caf2.json"
+    },
+    "data/observations/9d7e320d4f041cbeb590883126a7972bf332327baf40cbf66532a1f7066130ff.json": {
+      "sha256": "027411d9fa9ec2fc9a132ba7a3e4e317bd43b63134707c5bbb3783c1761b013b",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/9d7e320d4f041cbeb590883126a7972bf332327baf40cbf66532a1f7066130ff.json"
+    },
+    "data/observations/a5a2da02643e4ac44862dc4aa4ceaf7441293fb6bef84408dace382d3205ad0d.json": {
+      "sha256": "406c364471dfe5982c8313dc6fb327013a0ed4d3b3da822c9d213cf7fd1f5ea7",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/a5a2da02643e4ac44862dc4aa4ceaf7441293fb6bef84408dace382d3205ad0d.json"
+    },
+    "data/observations/a6a1aaabcce9260973ccb209cfd6b2fca41bb137e488f4403c45b77c7dc5ed3f.json": {
+      "sha256": "c3b7f1f6b372dc0b4d96312436bbbacd8a136c6f427a1b5b03394cb78cfcaac9",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/a6a1aaabcce9260973ccb209cfd6b2fca41bb137e488f4403c45b77c7dc5ed3f.json"
+    },
+    "data/observations/a81f90feeaa9a3104a9682f68df9a7baf2e936222a3816c528c85c0e62bebd2d.json": {
+      "sha256": "c5e45f91f4ff317240aa9669918aa88a2f89d88e95c9c5f4b9cd69264306cfa0",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/a81f90feeaa9a3104a9682f68df9a7baf2e936222a3816c528c85c0e62bebd2d.json"
+    },
+    "data/observations/ae67107f94b02a6a9620685242ae66a3cdda7f849008d3ae081ec43393e0155f.json": {
+      "sha256": "54e1ed2797ad6c6699ed589736864be821b3cde00fb48198abb62c1a4a3ad09d",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/ae67107f94b02a6a9620685242ae66a3cdda7f849008d3ae081ec43393e0155f.json"
+    },
+    "data/observations/af881ef9d0a0fc9fb3f8b02431d31508c7390129d22bc24d5cd536cd4a19172e.json": {
+      "sha256": "2c50b2436521eecae1972badab6ef864be818263279d34e9f895218a8dabd90a",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/af881ef9d0a0fc9fb3f8b02431d31508c7390129d22bc24d5cd536cd4a19172e.json"
+    },
+    "data/observations/b4db0f792e05acb14ea33115d159f2a477dd7ba6cbaf41274182895e2d09607e.json": {
+      "sha256": "d77bcee245ac97677c18ebceb2997de7b83ff9fd683e8f68e33aad9ec48abfe4",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/b4db0f792e05acb14ea33115d159f2a477dd7ba6cbaf41274182895e2d09607e.json"
+    },
+    "data/observations/b713bf581311f1d849c3a0460bbc3788395644f68279fa23e8e3561317ef5188.json": {
+      "sha256": "06451f50832372e362c7114ddcd1f54afe1e078b22342c5e1e6bca11343f286f",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/b713bf581311f1d849c3a0460bbc3788395644f68279fa23e8e3561317ef5188.json"
+    },
+    "data/observations/c6f7f769112138e53a23bedd3027e53dedfd3f1ad3e7dcc9e2c8ea3b3f2cfbb0.json": {
+      "sha256": "4f78ba87b40d03dc40011e77f09f1ce1b7441be1b682275d79024b63b3d8cbe4",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/c6f7f769112138e53a23bedd3027e53dedfd3f1ad3e7dcc9e2c8ea3b3f2cfbb0.json"
+    },
+    "data/observations/c7199712e79bf0a85b4aa7bee2b3f7a91e2a4377e22ae717fb1c667dbaa0cfa8.json": {
+      "sha256": "98a924a8bc8494a61a467d3a0e0ddc7f142ab04283adcb6fc392a9373c8be1c2",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/c7199712e79bf0a85b4aa7bee2b3f7a91e2a4377e22ae717fb1c667dbaa0cfa8.json"
+    },
+    "data/observations/c950ff051396e24028c2e696c7fb5901faf05e293912548b4e574a80ec4609b7.json": {
+      "sha256": "7530795a3d2136c3d7214fd353c5fa55294fa8332e401d7e39ba4669e0b68f74",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/c950ff051396e24028c2e696c7fb5901faf05e293912548b4e574a80ec4609b7.json"
+    },
+    "data/observations/d159bb45455f3a6f430d80ef00ddda0327ebfea55c271dcf5b13c060c759915f.json": {
+      "sha256": "0db3303efeee6ff02ce138f8ef5954c9de0ec94056f675ae462bf4b3f649e4c7",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/d159bb45455f3a6f430d80ef00ddda0327ebfea55c271dcf5b13c060c759915f.json"
+    },
+    "data/observations/d7da30aca2be38167e1d3427f30740a0124801d162a5fbfd4375150340d19e02.json": {
+      "sha256": "ddd0faf1683e8dd3de8de3096c4b026413a4d2b3be109ba5d9542f479de16ea4",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/d7da30aca2be38167e1d3427f30740a0124801d162a5fbfd4375150340d19e02.json"
+    },
+    "data/observations/de9016a33f613e1b8c45753457dad21b10d097f5d5624d22a875ad86f5531043.json": {
+      "sha256": "f937eb1119d33a3d7ae0d883d03e85a6c03b73780b08ee41b34b80fb296b891c",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/de9016a33f613e1b8c45753457dad21b10d097f5d5624d22a875ad86f5531043.json"
+    },
+    "data/observations/e5f865c12037e02ac46b69135dfaea6ec42eaec1a9e8520ef4844c3396838149.json": {
+      "sha256": "eadb64a03c38a91cfa1f3453624b1b6ac23a2cffc3f3d40341822eee8eb3bf15",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/e5f865c12037e02ac46b69135dfaea6ec42eaec1a9e8520ef4844c3396838149.json"
+    },
+    "data/observations/e920c611102dad683ca6e40b4983da7db84ffcaa46a1f95f7eea862a8e845e88.json": {
+      "sha256": "e301738304c481e577df0f4bbb64d953824026550eed2e5872e0d833119f6016",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/e920c611102dad683ca6e40b4983da7db84ffcaa46a1f95f7eea862a8e845e88.json"
+    },
+    "data/observations/f5c3a43934a0573c4838585cfacc8b4404b97bead8dd36d9c47086a65265fb12.json": {
+      "sha256": "35a3faf604d2adaf2bf11cd262f07b438234cf5248813d705edbc16391a47cc1",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/f5c3a43934a0573c4838585cfacc8b4404b97bead8dd36d9c47086a65265fb12.json"
+    },
+    "data/snapshots/0976995563c8e2d15f3d006723718cfa1a15d8920a6806c3e19c426b1e7c9659.json": {
+      "sha256": "9e22748bca5867348e462a8819539bcc804e789b74f87a2f1968ce654f45b6c0",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/0976995563c8e2d15f3d006723718cfa1a15d8920a6806c3e19c426b1e7c9659.json"
+    },
+    "data/snapshots/1538c5d8f0cb69f99959bdcc3e72a5ee172b5386371a6708de3f0e2669f72ca6.json": {
+      "sha256": "44c8ff86722452d5facf0bc0cb61b3cf66b777f0a46d97bde1f2badadb63529f",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/1538c5d8f0cb69f99959bdcc3e72a5ee172b5386371a6708de3f0e2669f72ca6.json"
+    },
+    "data/snapshots/1fbe5dd3de31f1ffd56270d2dd5b169361bde0992cc614b79b43b97ba5f9c56b.json": {
+      "sha256": "cd995c9a4f5931d75d95e5f237d67ac5b1d13483b4d89686e5030935d87ad554",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/1fbe5dd3de31f1ffd56270d2dd5b169361bde0992cc614b79b43b97ba5f9c56b.json"
+    },
+    "data/snapshots/2585a7a58a3e47309431bb66ac6ae01f72d5103aac9e01c81d5f835165037a89.json": {
+      "sha256": "ca2c491ba846a59a908ac753d7ba0baf8f4405f7b2f9487f392cf5286f9241bf",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/2585a7a58a3e47309431bb66ac6ae01f72d5103aac9e01c81d5f835165037a89.json"
+    },
+    "data/snapshots/2b5a79ab7b0b59917ccc61b0956b73b57f50e7a4d2b084c4bae9116915c6af2b.json": {
+      "sha256": "9f59419b557dd75ef2d7bea835245a3b9285d26c3f889b13c48738dcd19f7134",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/2b5a79ab7b0b59917ccc61b0956b73b57f50e7a4d2b084c4bae9116915c6af2b.json"
+    },
+    "data/snapshots/2ba26e57ed36c9be7a9d712b8b81ce0819fb1356d33b171f5f01c7ffa9e6051b.json": {
+      "sha256": "818957ca086f6ab30389c94c5824164fb08bffb9bfef2d7d85086ecd600428f5",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/2ba26e57ed36c9be7a9d712b8b81ce0819fb1356d33b171f5f01c7ffa9e6051b.json"
+    },
+    "data/snapshots/2e6caf5a813c89fa10470db7da409846223bfd1934512b68b3d7da0cac2303dc.json": {
+      "sha256": "d3589653614b6d0c1e06dcb8e3472845e57b9abb9ac30e49889f05d1f799bbc0",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/2e6caf5a813c89fa10470db7da409846223bfd1934512b68b3d7da0cac2303dc.json"
+    },
+    "data/snapshots/391a04b4e0e8d77406082e64081fa3d397cd9a1f09ed0b24dab20d7ee25ea1c1.json": {
+      "sha256": "ab405e924cafd6559906a54b7afe0628068c3ec1e3c8646c760315744627bfe1",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/391a04b4e0e8d77406082e64081fa3d397cd9a1f09ed0b24dab20d7ee25ea1c1.json"
+    },
+    "data/snapshots/3c097635b7218e3475ce73e6e262003c2f79dc6e7bbc75bf83af7b06f8159826.json": {
+      "sha256": "cbe192468521fbd00c016b8c5a91c9174ca75bebee4b5117d3e469b515db3891",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/3c097635b7218e3475ce73e6e262003c2f79dc6e7bbc75bf83af7b06f8159826.json"
+    },
+    "data/snapshots/3c97b08bfe7d60eb0e4615d37121a96a03b74108141b1e64ebf35daca6b2741d.json": {
+      "sha256": "455574d099fea4fb67b55c5843127390123dfe6ef03ac3ceb75e07917436a29b",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/3c97b08bfe7d60eb0e4615d37121a96a03b74108141b1e64ebf35daca6b2741d.json"
+    },
+    "data/snapshots/3cba707fc607566223c088826dcdf491c7e630acf66bf7cd73631762e57dd2e9.json": {
+      "sha256": "072dbc5d43367ebf46a254a6754e9a6f2541ce59ec395cbe7571a4446991b592",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/3cba707fc607566223c088826dcdf491c7e630acf66bf7cd73631762e57dd2e9.json"
+    },
+    "data/snapshots/43c33c9f919dba1c4e90fdf48f92213032e9b95e0bc0447792ec34cb30bc8db0.json": {
+      "sha256": "11e4e534c81330d9f50b9b09ae06c54b1da091ec9a79c75938e846697c85eed8",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/43c33c9f919dba1c4e90fdf48f92213032e9b95e0bc0447792ec34cb30bc8db0.json"
+    },
+    "data/snapshots/43cd3fa59697de25c964afe7a4883204bf91e14aaab4a66124b6212f35b0632c.json": {
+      "sha256": "9b952bc4e4c4472a0193a55df4fbd9b5fef6f35e32d2ae7b29ec7804a3d5f5b0",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/43cd3fa59697de25c964afe7a4883204bf91e14aaab4a66124b6212f35b0632c.json"
+    },
+    "data/snapshots/443d8baa184b0a227d1e323af97237abef75fb0e997467b528c20326d9417fbc.json": {
+      "sha256": "caeea373547119d83e42cd39ea2fb07bb41ac7f026e5cd4bdad20a7789bd271b",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/443d8baa184b0a227d1e323af97237abef75fb0e997467b528c20326d9417fbc.json"
+    },
+    "data/snapshots/460143046fa5717036fa3f82d5512d3015c32e07cdddb34863b6a39876b6f32b.json": {
+      "sha256": "8f7c16b6ef93cedc6767b90b7eaf4e9cd845d26840462e177cb81f2b4fdeb98f",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/460143046fa5717036fa3f82d5512d3015c32e07cdddb34863b6a39876b6f32b.json"
+    },
+    "data/snapshots/52d7c73a0ffea93f9cef91ad0feb30b7b418ea21f8337bbc81439f015b901f5c.json": {
+      "sha256": "579cb0d09d49b905fbbda176085c8c38ddec507e185c8e17023acca3d3713ecf",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/52d7c73a0ffea93f9cef91ad0feb30b7b418ea21f8337bbc81439f015b901f5c.json"
+    },
+    "data/snapshots/5ad928372743a844e712eafddcd1b58bd587982e859f847ffd57be17e10433f6.json": {
+      "sha256": "b557187890aeb40c71c06de1199c6f6bf35a62a1161e3dbf1142f596606e185a",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/5ad928372743a844e712eafddcd1b58bd587982e859f847ffd57be17e10433f6.json"
+    },
+    "data/snapshots/5ed47744ef07dfe34afca3ced6838f7036066fb8986fb2dca64bb097cbd82eb4.json": {
+      "sha256": "5e8052f4a01cbe1003f33578613d989073e5d01065a19d7ece796bc6ddc58a28",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/5ed47744ef07dfe34afca3ced6838f7036066fb8986fb2dca64bb097cbd82eb4.json"
+    },
+    "data/snapshots/62fc7e4210e5d8eeb1c4e29ac2c5e1ef76dfd6151b2e0a2d8cf44d41fda438fa.json": {
+      "sha256": "232ef81aa123213f7f16623ef98c1d7893f2657b3e736ae04043b9f49b4d177f",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/62fc7e4210e5d8eeb1c4e29ac2c5e1ef76dfd6151b2e0a2d8cf44d41fda438fa.json"
+    },
+    "data/snapshots/645deed2dfc7945d6540b07261e904ff7b1382d12c5cba373480a1a2c25d84f3.json": {
+      "sha256": "b0f691530b7bb0640fcd8f8eb985056ca0813cf6eed8ee78782a868022460efb",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/645deed2dfc7945d6540b07261e904ff7b1382d12c5cba373480a1a2c25d84f3.json"
+    },
+    "data/snapshots/654acdf76fea34b88677c0baf8027c6c73c82fd2eb12bf00baee5a73f672bd20.json": {
+      "sha256": "7ed55e32db625415d54758d0ceeb44c93a3eb3128d074da7e8fb51b3b8012920",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/654acdf76fea34b88677c0baf8027c6c73c82fd2eb12bf00baee5a73f672bd20.json"
+    },
+    "data/snapshots/6c2841631a11157232bf8ca3e50310151411f0f512a0974c5d483cc6cb157a1e.json": {
+      "sha256": "c914b586b921913046c5f6394da7adef0e1276dc8254e9862a61222283ea696b",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/6c2841631a11157232bf8ca3e50310151411f0f512a0974c5d483cc6cb157a1e.json"
+    },
+    "data/snapshots/6d03ba5c1bdee71e12c5bf065ca502722445e8cba483bb9c545189b3b8e69b58.json": {
+      "sha256": "a09e0320df6db9a5f58bbb980d464170b46a301a1a37ef6446712f8344828d19",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/6d03ba5c1bdee71e12c5bf065ca502722445e8cba483bb9c545189b3b8e69b58.json"
+    },
+    "data/snapshots/7302c58200627007667d4b6ea5220101886b7de3a67d9716f7f9a9420239bb9a.json": {
+      "sha256": "61b405c11e372abb2ad4e39f83df14e607791deab32f224bcdd4e4e2d2a40d7e",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/7302c58200627007667d4b6ea5220101886b7de3a67d9716f7f9a9420239bb9a.json"
+    },
+    "data/snapshots/75b5162f4fda753ab8fb3f50a0bcafeb7dcb4afa9e2b4f5d242ad5b3f7da5d69.json": {
+      "sha256": "ae76b1a02fdf8b181c75c4a4ea7027cd587b0cdb0d565f55ae0ce2b5a290c2d8",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/75b5162f4fda753ab8fb3f50a0bcafeb7dcb4afa9e2b4f5d242ad5b3f7da5d69.json"
+    },
+    "data/snapshots/7a5dc19c87324dcd7961c6b192bb0195b07ec4f3d9b962554180da16f9b94248.json": {
+      "sha256": "c4ffb2cac1cfa57b10743ac4fc3cd32f4f0a10061f5f4e5f4a1d463a6e253648",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/7a5dc19c87324dcd7961c6b192bb0195b07ec4f3d9b962554180da16f9b94248.json"
+    },
+    "data/snapshots/8b2fa122077d352e5c3e344840ab3ca1aebdfaf533b895aab41fd5c7f42a0804.json": {
+      "sha256": "c99a705520301e4b1a79a37e3b6b48f78a93171ef1b50b32efd8bdb670878f80",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/8b2fa122077d352e5c3e344840ab3ca1aebdfaf533b895aab41fd5c7f42a0804.json"
+    },
+    "data/snapshots/8d005fcb247a37416f0cb6a2e7c2d11b69e457b3873734c7710e2c4e6ad03ab1.json": {
+      "sha256": "896078905004a77a5d5ea40b76abae82963e53eae2611e77f7039c2d97ea8f25",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/8d005fcb247a37416f0cb6a2e7c2d11b69e457b3873734c7710e2c4e6ad03ab1.json"
+    },
+    "data/snapshots/8ec2ecddddab2aade77c7542e2a5faccbd217a779b5d59f0dead5575f6e71277.json": {
+      "sha256": "87855cdbca0fdd825d6a483de205b0f3588e92b969ec77fcb1bab8bbcaf6d58e",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/8ec2ecddddab2aade77c7542e2a5faccbd217a779b5d59f0dead5575f6e71277.json"
+    },
+    "data/snapshots/95037443dfb22b8fe0a5a77ae27b73fac2b4e920a256326f8c607fc6b394edc8.json": {
+      "sha256": "6c42dcad5f2be194989f18b07772408979a20ed5c50fd767230a5b12404c85ec",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/95037443dfb22b8fe0a5a77ae27b73fac2b4e920a256326f8c607fc6b394edc8.json"
+    },
+    "data/snapshots/98bd595d976f7a22866c59ae575d2d40485e10addaf34936b1b1ba7591577936.json": {
+      "sha256": "3b85ed539f30266638065a2f3f029c693d5f0b8794b5c718e10f3958be67ad2c",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/98bd595d976f7a22866c59ae575d2d40485e10addaf34936b1b1ba7591577936.json"
+    },
+    "data/snapshots/9d18927eda4358dd709c713d25300e5c3ed45fbdb562f6a732f2aa7ba2c7722c.json": {
+      "sha256": "9dd422e454f0c0b5716b6f74903b564eec891422c0e0a9e2b270a83d385e4348",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/9d18927eda4358dd709c713d25300e5c3ed45fbdb562f6a732f2aa7ba2c7722c.json"
+    },
+    "data/snapshots/9eef46b93b510a493a3271fa421992467b446390e894eb5b2b5113940fd0f7da.json": {
+      "sha256": "937ff06d1b69a475e84186c896524a92dec8abf679ce1d357334c5e35642ee1e",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/9eef46b93b510a493a3271fa421992467b446390e894eb5b2b5113940fd0f7da.json"
+    },
+    "data/snapshots/a7e09649ea2512313cd10d79f1b8c8406ea0d5d2479b16417adb6dbd19e9f987.json": {
+      "sha256": "73bbce1343e201350aee63fe1f1ec42f8aad251af23e688406a29261e4b89284",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/a7e09649ea2512313cd10d79f1b8c8406ea0d5d2479b16417adb6dbd19e9f987.json"
+    },
+    "data/snapshots/ac505b55096bcfe2599aca0bdf14e4d61a7bd34b68f6e3bc2604888c81b057fe.json": {
+      "sha256": "8d67921dfb251cc28849d08b8506cefcc50d5bc067807fc62d271d680cec2b59",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/ac505b55096bcfe2599aca0bdf14e4d61a7bd34b68f6e3bc2604888c81b057fe.json"
+    },
+    "data/snapshots/b0e2fe2ae6730530910a87ac40ec62111ae94d0dc44783051a57597fc9fee9fd.json": {
+      "sha256": "a55dae4d62dc329f392ce5b264e79688c8b6a28b76672ce34bdd4708490476bc",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/b0e2fe2ae6730530910a87ac40ec62111ae94d0dc44783051a57597fc9fee9fd.json"
+    },
+    "data/snapshots/b416e24cada157de3078525790c8253f26737e8641041ac615e532099fba0d5a.json": {
+      "sha256": "5e11dec4dc5db9a118049b3f7ab06a73427843619c483cc7a1523fbc8d3bf7d5",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/b416e24cada157de3078525790c8253f26737e8641041ac615e532099fba0d5a.json"
+    },
+    "data/snapshots/b76621204fab834678b0ee9e4213e3d290f88cad03c7a4c574999666571cd38c.json": {
+      "sha256": "ff207dcbe29f3beb14ef6b5bd9f921de472124a09eeef2f8359abe2748f67313",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/b76621204fab834678b0ee9e4213e3d290f88cad03c7a4c574999666571cd38c.json"
+    },
+    "data/snapshots/d84d74dd61a5f7cccbe5487fca952f372d72b42a0f618f2598dc3b0799b6385c.json": {
+      "sha256": "2b5d30969992679cf02b9650e1006f236644839dfc51447366e981c450529830",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/d84d74dd61a5f7cccbe5487fca952f372d72b42a0f618f2598dc3b0799b6385c.json"
+    },
+    "data/snapshots/d958f4ae235d7168904c04bd462414bc81a08dd9e11f4405d63dada09bf87c41.json": {
+      "sha256": "0789f1baff666ceb06251e67e1c50e748b0863c1bec31170ae4cb2df2e8df6de",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/d958f4ae235d7168904c04bd462414bc81a08dd9e11f4405d63dada09bf87c41.json"
+    },
+    "data/snapshots/de2ddc456e9114c825e945a9cb9c4f2a2cbfe87299fe23120e0943fa8a7bbe8b.json": {
+      "sha256": "3d20206e7c1509663d58417f7d0b99e5dab661d856bdaf42830fa6b8c93bd853",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/de2ddc456e9114c825e945a9cb9c4f2a2cbfe87299fe23120e0943fa8a7bbe8b.json"
+    },
+    "data/snapshots/de9bd0484000317429059233aec13d30d9ee156f4bbed0745d2bc1973dc9c7c5.json": {
+      "sha256": "dd113da192bfe09093350864c3ae55881f7b3059c5bd71cbc32ebe283f7c7307",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/de9bd0484000317429059233aec13d30d9ee156f4bbed0745d2bc1973dc9c7c5.json"
+    },
+    "data/snapshots/df017acafcea33d789b8c7871e016418cf0a47e5890b5f8223ae54d77a8bcce2.json": {
+      "sha256": "15e31a4ea3c8c627d7a97dd854ec0dcd796b8293422fc640f721cb94ec78c05f",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/df017acafcea33d789b8c7871e016418cf0a47e5890b5f8223ae54d77a8bcce2.json"
+    },
+    "data/snapshots/f30c37a563789aeedbff5d897ae6203885a967eb4a98f8ae2447694fc448f7ff.json": {
+      "sha256": "1340ec17e42cc915f6c825288b602076bbf1d8026fda760e7bd83e40ecedc4e6",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/f30c37a563789aeedbff5d897ae6203885a967eb4a98f8ae2447694fc448f7ff.json"
+    },
+    "data/snapshots/f6e9ea257bae5f160b08edc90b4fd0d4fe9081de3743bf94aefde75b3a0acdbf.json": {
+      "sha256": "1a21f9e427fa470213ca54887434fb0e24107ea6bd733ef61bf22cbaa82c1e11",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/f6e9ea257bae5f160b08edc90b4fd0d4fe9081de3743bf94aefde75b3a0acdbf.json"
+    },
+    "data/snapshots/f89e7e9d5b4f9b77bb9d135ed658ea3d44a924f43c5f6029931d61355ed80cb5.json": {
+      "sha256": "d7153d48768e0bd65f56d20de0ba52573c8ce1862f28dec44cb1b62b50140506",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/f89e7e9d5b4f9b77bb9d135ed658ea3d44a924f43c5f6029931d61355ed80cb5.json"
+    },
+    "data/snapshots/ff33f3b00b85ceac30fda03f35b38c1d2de1977a2fb1e66f15434b782c074c86.json": {
+      "sha256": "eb09267304376275f511b1d4e6917e5e599c8abb92aa1884987d2b4d733daead",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/ff33f3b00b85ceac30fda03f35b38c1d2de1977a2fb1e66f15434b782c074c86.json"
     },
     "index.html": {
-      "sha256": "9a01a8b0cba6525b78bebe3d09679802c34e5433b1d56abc6a91f9f7a513832c",
+      "sha256": "65e2521e4d5010c93b9f20c411a7c3fe3c9ee363aaae53b7916c2405e1fa6503",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/index.html"
     },
     "reports/daily.md": {
-      "sha256": "337a8475a5b2b0d25b5ac63b336a0a95f4593b15c96e308342948ccdb5c7328d",
+      "sha256": "0f6d0d21fbb0674b229ec388ff9b97de68ea98a60fa55e9613a205233dab57c5",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/reports/daily.md"
     }
   },
-  "schema_version": "0.2.0",
-  "selection": "operator_imported_games_not_whole_slate",
+  "schema_version": "0.3.0",
+  "selection": "all_games_displayed_on_ncaa_D1_board_including_non_D1_opponents",
   "sport": "cbb",
   "workflow_status": "MANUAL_PROJECTION_ONLY"
 }
