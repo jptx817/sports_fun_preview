@@ -1,0 +1,137 @@
+{
+  "away_team": {
+    "id": "lafayette",
+    "name": "Lafayette",
+    "source_ids": {
+      "haslametrics": "667"
+    }
+  },
+  "comparisons": {
+    "spread": {
+      "actionable": false,
+      "agreeing_source_count": 0,
+      "available_source_count": 1,
+      "basis_note": "Provider score basis retained; DraftKings is full game including overtime.",
+      "classification": "INCOMPLETE_MARKET",
+      "difference": null,
+      "market_complete": false,
+      "median": 27.35,
+      "missing_providers": [
+        "barttorvik"
+      ],
+      "preferred": null,
+      "providers": [
+        "haslametrics"
+      ],
+      "range": [
+        27.35,
+        27.35
+      ],
+      "range_points": 0.0,
+      "source_count": 1,
+      "threshold_met": false
+    },
+    "total": {
+      "actionable": false,
+      "agreeing_source_count": 0,
+      "available_source_count": 1,
+      "basis_note": "Provider score basis retained; DraftKings is full game including overtime.",
+      "classification": "INCOMPLETE_MARKET",
+      "difference": null,
+      "market_complete": false,
+      "median": 151.07,
+      "missing_providers": [
+        "barttorvik"
+      ],
+      "preferred": null,
+      "providers": [
+        "haslametrics"
+      ],
+      "range": [
+        151.07,
+        151.07
+      ],
+      "range_points": 0.0,
+      "source_count": 1,
+      "threshold_met": false
+    }
+  },
+  "decision": "REVIEW_ONLY",
+  "detail_url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-lafayette-at-syracuse.json",
+  "draftkings": null,
+  "final": null,
+  "game_date": "2026-11-21",
+  "game_id": "cbb-2027-2026-11-21-lafayette-at-syracuse",
+  "generated_at": "2026-11-21T02:24:29.810303Z",
+  "home_designation_basis": "provider_designated_home",
+  "home_team": {
+    "id": "syracuse",
+    "name": "Syracuse",
+    "source_ids": {
+      "haslametrics": "389"
+    }
+  },
+  "imported_at": "2026-11-21T02:24:29.808322Z",
+  "neutral_site": false,
+  "observation_id": "230e1bbd18528b7a1ee9f7a1c9d07adae4f65ef0b59dea987aa1ad0714162e4f",
+  "observed_at": "2026-11-21T02:22:43.174670Z",
+  "pregame": true,
+  "pregame_snapshot_id": "3107cb5cd78abff52cbbc410957dddf7418d347af8ee3dba120771ab6c75af27",
+  "projections": [
+    {
+      "away_score": 61.86,
+      "away_source_id": "667",
+      "basis": "end_of_regulation",
+      "comparisons": {
+        "spread": {
+          "difference": null,
+          "preferred": null,
+          "threshold_met": false
+        },
+        "total": {
+          "difference": null,
+          "preferred": null,
+          "threshold_met": false
+        }
+      },
+      "freshness": {
+        "age_hours": 0.03,
+        "provider_update_known": false,
+        "reasons": [],
+        "state": "fresh"
+      },
+      "game_id": "cbb-2027-2026-11-21-lafayette-at-syracuse",
+      "haslametrics_signals": {
+        "spread": false,
+        "total": false
+      },
+      "home_margin": 27.35,
+      "home_score": 89.21,
+      "home_source_id": "389",
+      "imported_at": "2026-11-21T02:22:43.207501Z",
+      "observation_id": "a8d750c771a722abdca360a9a5c95daed9cda583c657aeea78cbd85ce670f54f",
+      "observed_at": "2026-11-21T02:22:43.174670Z",
+      "projected_home_spread": -27.35,
+      "provider": "haslametrics",
+      "retrieved_at": "2026-11-21T02:22:43.174670Z",
+      "source_as_of_date": "2026-11-19",
+      "source_updated_at": null,
+      "source_url": "https://www.haslametrics.com/preview.php?yr=&tid1=667&tid2=389&neut=0",
+      "spread_eligible": true,
+      "total": 151.07,
+      "total_eligible": true,
+      "transport": "manual_csv"
+    }
+  ],
+  "retrieved_at": "2026-11-21T02:22:43.174670Z",
+  "schema_version": "0.1.0",
+  "season": "2026-27",
+  "source_as_of_date": "2026-11-19",
+  "source_game_ids": {},
+  "source_updated_at": null,
+  "source_url": "https://www.haslametrics.com/",
+  "status": "scheduled",
+  "tipoff_central": "2026-11-21T13:00:00-06:00",
+  "tipoff_utc": "2026-11-21T19:00:00Z",
+  "transport": "manual_csv"
+}

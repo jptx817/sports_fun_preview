@@ -1,0 +1,137 @@
+{
+  "away_team": {
+    "id": "queens",
+    "name": "Queens",
+    "source_ids": {
+      "haslametrics": "5045"
+    }
+  },
+  "comparisons": {
+    "spread": {
+      "actionable": false,
+      "agreeing_source_count": 0,
+      "available_source_count": 1,
+      "basis_note": "Provider score basis retained; DraftKings is full game including overtime.",
+      "classification": "INCOMPLETE_MARKET",
+      "difference": null,
+      "market_complete": false,
+      "median": 19.8,
+      "missing_providers": [
+        "barttorvik"
+      ],
+      "preferred": null,
+      "providers": [
+        "haslametrics"
+      ],
+      "range": [
+        19.8,
+        19.8
+      ],
+      "range_points": 0.0,
+      "source_count": 1,
+      "threshold_met": false
+    },
+    "total": {
+      "actionable": false,
+      "agreeing_source_count": 0,
+      "available_source_count": 1,
+      "basis_note": "Provider score basis retained; DraftKings is full game including overtime.",
+      "classification": "INCOMPLETE_MARKET",
+      "difference": null,
+      "market_complete": false,
+      "median": 164.74,
+      "missing_providers": [
+        "barttorvik"
+      ],
+      "preferred": null,
+      "providers": [
+        "haslametrics"
+      ],
+      "range": [
+        164.74,
+        164.74
+      ],
+      "range_points": 0.0,
+      "source_count": 1,
+      "threshold_met": false
+    }
+  },
+  "decision": "REVIEW_ONLY",
+  "detail_url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-queens-at-lsu.json",
+  "draftkings": null,
+  "final": null,
+  "game_date": "2026-11-21",
+  "game_id": "cbb-2027-2026-11-21-queens-at-lsu",
+  "generated_at": "2026-11-21T02:24:29.810303Z",
+  "home_designation_basis": "provider_designated_home",
+  "home_team": {
+    "id": "lsu",
+    "name": "LSU",
+    "source_ids": {
+      "haslametrics": "221"
+    }
+  },
+  "imported_at": "2026-11-21T02:24:29.808223Z",
+  "neutral_site": false,
+  "observation_id": "4345978f58f62c7817c813c02483e9cd13b8b503cafba91ab1b8051b91597745",
+  "observed_at": "2026-11-21T02:22:43.174670Z",
+  "pregame": true,
+  "pregame_snapshot_id": "63e903e2c3c45f0de3dcd22a54937e881f9dbc53c8f5fd5c538503f70ed9c9ed",
+  "projections": [
+    {
+      "away_score": 72.47,
+      "away_source_id": "5045",
+      "basis": "end_of_regulation",
+      "comparisons": {
+        "spread": {
+          "difference": null,
+          "preferred": null,
+          "threshold_met": false
+        },
+        "total": {
+          "difference": null,
+          "preferred": null,
+          "threshold_met": false
+        }
+      },
+      "freshness": {
+        "age_hours": 0.03,
+        "provider_update_known": false,
+        "reasons": [],
+        "state": "fresh"
+      },
+      "game_id": "cbb-2027-2026-11-21-queens-at-lsu",
+      "haslametrics_signals": {
+        "spread": false,
+        "total": false
+      },
+      "home_margin": 19.8,
+      "home_score": 92.27,
+      "home_source_id": "221",
+      "imported_at": "2026-11-21T02:22:43.207403Z",
+      "observation_id": "5a944890ca51cbabd8fc7d4823be0de33329e58fc39fc4a3c2bb2ea4a6d47902",
+      "observed_at": "2026-11-21T02:22:43.174670Z",
+      "projected_home_spread": -19.8,
+      "provider": "haslametrics",
+      "retrieved_at": "2026-11-21T02:22:43.174670Z",
+      "source_as_of_date": "2026-11-19",
+      "source_updated_at": null,
+      "source_url": "https://www.haslametrics.com/preview.php?yr=&tid1=5045&tid2=221&neut=0",
+      "spread_eligible": true,
+      "total": 164.74,
+      "total_eligible": true,
+      "transport": "manual_csv"
+    }
+  ],
+  "retrieved_at": "2026-11-21T02:22:43.174670Z",
+  "schema_version": "0.1.0",
+  "season": "2026-27",
+  "source_as_of_date": "2026-11-19",
+  "source_game_ids": {},
+  "source_updated_at": null,
+  "source_url": "https://www.haslametrics.com/",
+  "status": "scheduled",
+  "tipoff_central": "2026-11-21T12:00:00-06:00",
+  "tipoff_utc": "2026-11-21T18:00:00Z",
+  "transport": "manual_csv"
+}
