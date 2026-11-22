@@ -17,7 +17,8 @@
       "market_complete": false,
       "median": 17.95,
       "missing_providers": [
-        "barttorvik"
+        "barttorvik",
+        "dratings"
       ],
       "preferred": null,
       "providers": [
@@ -41,7 +42,8 @@
       "market_complete": false,
       "median": 149.47,
       "missing_providers": [
-        "barttorvik"
+        "barttorvik",
+        "dratings"
       ],
       "preferred": null,
       "providers": [
@@ -57,7 +59,10 @@
     }
   },
   "data_issues": [
-    "draftkings_line_missing"
+    "draftkings_line_missing",
+    "draftkings_market_missing",
+    "not_pregame_or_tipoff_unknown",
+    "projection_missing_stale_or_not_captured_pregame"
   ],
   "decision": "REVIEW_ONLY",
   "detail_url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-21-western-carolina-at-wake-forest.json",
@@ -65,7 +70,7 @@
   "final": null,
   "game_date": "2026-11-21",
   "game_id": "cbb-2027-2026-11-21-western-carolina-at-wake-forest",
-  "generated_at": "2026-11-21T17:15:48.652281Z",
+  "generated_at": "2026-11-21T19:34:52.012577Z",
   "home_designation_basis": "provider_designated_home",
   "home_team": {
     "id": "wake-forest",
@@ -74,12 +79,12 @@
       "haslametrics": "331"
     }
   },
-  "imported_at": "2026-11-21T16:59:32.666016Z",
+  "imported_at": "2026-11-21T19:34:51.990783Z",
   "last_verified_refresh": {
     "comparison": null,
     "draftkings": null,
     "haslametrics": "2026-11-21T16:48:16.923000Z",
-    "schedule": "2026-11-21T16:48:16.874000Z"
+    "schedule": "2026-11-21T19:32:01.153000Z"
   },
   "market_timeline": {
     "first_observed": null,
@@ -90,10 +95,10 @@
     "verified_opening": null
   },
   "neutral_site": false,
-  "observation_id": "c4c6c29fbf2721c997aeacfd33d4e5a656581bd608c306b2666298b3974d6bce",
-  "observed_at": "2026-11-21T16:48:16.874000Z",
-  "pregame": true,
-  "pregame_snapshot_id": "2585a7a58a3e47309431bb66ac6ae01f72d5103aac9e01c81d5f835165037a89",
+  "observation_id": "897d472a0ea0e9e9c57199517d59995250383e6ecaffcd3750f32ca5de3bd137",
+  "observed_at": "2026-11-21T19:32:01.153000Z",
+  "pregame": false,
+  "pregame_snapshot_id": null,
   "projections": [
     {
       "away_score": 65.76,
@@ -112,7 +117,7 @@
         }
       },
       "freshness": {
-        "age_hours": 0.459,
+        "age_hours": 2.776,
         "provider_update_known": false,
         "reasons": [],
         "state": "fresh"
@@ -125,8 +130,8 @@
       "home_margin": 17.95,
       "home_score": 83.71,
       "home_source_id": "331",
-      "imported_at": "2026-11-21T16:59:32.678288Z",
-      "observation_id": "9d7e320d4f041cbeb590883126a7972bf332327baf40cbf66532a1f7066130ff",
+      "imported_at": "2026-11-21T19:34:51.997519Z",
+      "observation_id": "770980996a126c97ec782595e7b7e76d7af29eebedec121b610c5e94eee656be",
       "observed_at": "2026-11-21T16:48:16.923000Z",
       "projected_home_spread": -17.95,
       "provider": "haslametrics",
@@ -140,29 +145,36 @@
       "transport": "manual_csv"
     }
   ],
-  "retrieved_at": "2026-11-21T16:48:16.874000Z",
-  "schema_version": "0.3.0",
+  "retrieved_at": "2026-11-21T19:32:01.153000Z",
+  "schema_version": "0.4.0",
   "screening": {
     "spread": {
       "actionable": false,
       "agreeing_source_count": 0,
-      "basis": "haslametrics_vs_draftkings",
+      "associated_price": null,
+      "basis": "median_per_independent_system_vs_draftkings",
       "classification": "INSUFFICIENT_DATA",
       "consensus": {
         "agreeing_source_count": 0,
         "basis": "median_per_independent_system_vs_draftkings",
         "classification": "INSUFFICIENT_DATA",
         "difference": null,
-        "median": 17.95,
+        "majority_agreement": false,
+        "median": null,
         "preferred": null,
         "reasons": [
+          "not_pregame_or_tipoff_unknown",
+          "projection_missing_stale_or_not_captured_pregame",
           "draftkings_line_missing",
+          "draftkings_market_missing",
           "fewer_than_three_independent_sources"
         ],
         "threshold_met": false,
         "unanimous": false
       },
       "difference": null,
+      "individual_projections": [],
+      "majority_agreement": false,
       "market_freshness": {
         "age_hours": null,
         "reasons": [
@@ -170,12 +182,26 @@
         ],
         "state": "missing"
       },
+      "market_line": null,
       "market_observed_at": null,
       "market_side": null,
+      "median": null,
       "preferred": null,
-      "projected_side": "HOME",
+      "preliminary": {
+        "classification": "INSUFFICIENT_DATA",
+        "difference": null,
+        "preferred": null,
+        "threshold_met": false
+      },
+      "projected_side": null,
+      "qualifying_source_count": 0,
+      "range": null,
+      "range_points": null,
       "reasons": [
-        "draftkings_line_missing"
+        "not_pregame_or_tipoff_unknown",
+        "projection_missing_stale_or_not_captured_pregame",
+        "draftkings_line_missing",
+        "draftkings_market_missing"
       ],
       "research_only": true,
       "single_source": {
@@ -184,41 +210,46 @@
         "difference": null,
         "preferred": null,
         "reasons": [
-          "draftkings_line_missing"
+          "not_pregame_or_tipoff_unknown",
+          "projection_missing_stale_or_not_captured_pregame",
+          "draftkings_line_missing",
+          "draftkings_market_missing",
+          "haslametrics_missing_or_ineligible"
         ],
         "threshold_met": false
       },
-      "source_count": 1,
-      "source_observations": [
-        {
-          "observed_at": "2026-11-21T16:48:16.923000Z",
-          "provider": "haslametrics",
-          "source_as_of_date": "2026-11-20",
-          "source_updated_at": null
-        }
-      ],
-      "threshold_met": false
+      "source_count": 0,
+      "source_observations": [],
+      "threshold_met": false,
+      "verified_market_observation": false
     },
     "total": {
       "actionable": false,
       "agreeing_source_count": 0,
-      "basis": "haslametrics_vs_draftkings",
+      "associated_price": null,
+      "basis": "median_per_independent_system_vs_draftkings",
       "classification": "INSUFFICIENT_DATA",
       "consensus": {
         "agreeing_source_count": 0,
         "basis": "median_per_independent_system_vs_draftkings",
         "classification": "INSUFFICIENT_DATA",
         "difference": null,
-        "median": 149.47,
+        "majority_agreement": false,
+        "median": null,
         "preferred": null,
         "reasons": [
+          "not_pregame_or_tipoff_unknown",
+          "projection_missing_stale_or_not_captured_pregame",
           "draftkings_line_missing",
+          "draftkings_market_missing",
           "fewer_than_three_independent_sources"
         ],
         "threshold_met": false,
         "unanimous": false
       },
       "difference": null,
+      "individual_projections": [],
+      "majority_agreement": false,
       "market_freshness": {
         "age_hours": null,
         "reasons": [
@@ -226,12 +257,26 @@
         ],
         "state": "missing"
       },
+      "market_line": null,
       "market_observed_at": null,
       "market_side": null,
+      "median": null,
       "preferred": null,
+      "preliminary": {
+        "classification": "INSUFFICIENT_DATA",
+        "difference": null,
+        "preferred": null,
+        "threshold_met": false
+      },
       "projected_side": null,
+      "qualifying_source_count": 0,
+      "range": null,
+      "range_points": null,
       "reasons": [
-        "draftkings_line_missing"
+        "not_pregame_or_tipoff_unknown",
+        "projection_missing_stale_or_not_captured_pregame",
+        "draftkings_line_missing",
+        "draftkings_market_missing"
       ],
       "research_only": true,
       "single_source": {
@@ -240,20 +285,18 @@
         "difference": null,
         "preferred": null,
         "reasons": [
-          "draftkings_line_missing"
+          "not_pregame_or_tipoff_unknown",
+          "projection_missing_stale_or_not_captured_pregame",
+          "draftkings_line_missing",
+          "draftkings_market_missing",
+          "haslametrics_missing_or_ineligible"
         ],
         "threshold_met": false
       },
-      "source_count": 1,
-      "source_observations": [
-        {
-          "observed_at": "2026-11-21T16:48:16.923000Z",
-          "provider": "haslametrics",
-          "source_as_of_date": "2026-11-20",
-          "source_updated_at": null
-        }
-      ],
-      "threshold_met": false
+      "source_count": 0,
+      "source_observations": [],
+      "threshold_met": false,
+      "verified_market_observation": false
     }
   },
   "season": "2026-27",
