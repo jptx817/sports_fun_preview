@@ -1,0 +1,4303 @@
+{
+  "actionable": false,
+  "coverage": {
+    "actionable": 0,
+    "any_projection": 37,
+    "both_spread_total_comparisons": 0,
+    "consensus_candidates": 0,
+    "consensus_watches": 0,
+    "draftkings_complete_spreads": 0,
+    "draftkings_complete_totals": 0,
+    "draftkings_spread_lines": 0,
+    "draftkings_total_lines": 0,
+    "eligible_projection_coverage_pct": 88.89,
+    "eligible_projection_games": 8,
+    "eligible_three_source_coverage_pct": 0.0,
+    "eligible_three_source_games": 0,
+    "fresh_spread_comparisons": 0,
+    "fresh_total_comparisons": 0,
+    "games": 41,
+    "haslametrics": 37,
+    "max_fresh_independent_sources": 1,
+    "missing_haslametrics": 4,
+    "missing_market_games": 41,
+    "neutral_site_unknown": 4,
+    "postponed_games": 0,
+    "pregame_games": 9,
+    "projection_sources": {
+      "haslametrics": {
+        "eligible_pregame_games": 8,
+        "observations": 37
+      }
+    },
+    "spread_consensus_watches": 0,
+    "spread_preliminary_leans": 0,
+    "spread_watches": 0,
+    "stale_spread_lines": 0,
+    "stale_total_lines": 0,
+    "total_consensus_watches": 0,
+    "total_preliminary_leans": 0,
+    "total_watches": 0,
+    "valid_pregame_spreads": 0,
+    "valid_pregame_totals": 0
+  },
+  "data_as_of": "2026-11-22T12:24:09.551000Z",
+  "data_quality": {
+    "acquisition_issues": [],
+    "additional_source_imports": [],
+    "age_policy": {
+      "market_hours": 2,
+      "projection_hours": 24,
+      "source_data_days": 2
+    },
+    "delivery_channel": "public_analytical_subset",
+    "independent_schedule_completeness": "unverified_beyond_imported_NCAA_board",
+    "read_rule": "Check game_date against today's Central date and re-evaluate source age at retrieval. generated_at is not a source update. Never answer 'today' with a different-date board.",
+    "refresh_mode": "operator_assisted_sources; offline_build",
+    "schedule_scope": "all_games_displayed_on_ncaa_D1_board_including_non_D1_opponents",
+    "withheld_sources": [
+      "barttorvik",
+      "dratings",
+      "draftkings",
+      "additional_team_and_matchup_metrics"
+    ]
+  },
+  "game_date": "2026-11-22",
+  "games": [
+    {
+      "away_team": {
+        "id": "alice-lloyd",
+        "name": "Alice Lloyd"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": null,
+          "origin": "system_calculation",
+          "range_points": null,
+          "source_count": 0
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": null,
+          "origin": "system_calculation",
+          "range_points": null,
+          "source_count": 0
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing",
+        "neutral_site_unknown",
+        "not_pregame_or_tipoff_unknown",
+        "projection_missing_stale_or_not_captured_pregame"
+      ],
+      "game_id": "cbb-2027-2026-11-22-alice-lloyd-at-eastern-kentucky",
+      "home_team": {
+        "id": "eastern-kentucky",
+        "name": "Eastern Kentucky"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings",
+        "haslametrics"
+      ],
+      "neutral_site": null,
+      "pregame": false,
+      "projections": [],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-alice-lloyd-at-eastern-kentucky.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T15:00:00-06:00",
+      "tipoff_utc": "2026-11-22T21:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "cal-state-fullerton",
+        "name": "Cal State Fullerton"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 2.52,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 161.86,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
+      ],
+      "game_id": "cbb-2027-2026-11-22-cal-state-fullerton-at-portland-state",
+      "home_team": {
+        "id": "portland-state",
+        "name": "Portland State"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": false,
+      "pregame": false,
+      "projections": [
+        {
+          "away_score": 79.67,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 82.19,
+          "origin": "source_observation",
+          "projected_home_spread": -2.52,
+          "provider": "haslametrics",
+          "total": 161.86
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-cal-state-fullerton-at-portland-state.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T16:00:00-06:00",
+      "tipoff_utc": "2026-11-22T22:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "chicago-state",
+        "name": "Chicago State"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 31.2,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 145.9,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
+      ],
+      "game_id": "cbb-2027-2026-11-22-chicago-state-at-marquette",
+      "home_team": {
+        "id": "marquette",
+        "name": "Marquette"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": false,
+      "pregame": false,
+      "projections": [
+        {
+          "away_score": 57.35,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 88.55,
+          "origin": "source_observation",
+          "projected_home_spread": -31.2,
+          "provider": "haslametrics",
+          "total": 145.9
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-chicago-state-at-marquette.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T12:00:00-06:00",
+      "tipoff_utc": "2026-11-22T18:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "dayton",
+        "name": "Dayton"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": -2.5,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 141.12,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
+      ],
+      "game_id": "cbb-2027-2026-11-22-dayton-at-northwestern",
+      "home_team": {
+        "id": "northwestern",
+        "name": "Northwestern"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": true,
+      "pregame": false,
+      "projections": [
+        {
+          "away_score": 71.81,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 69.31,
+          "origin": "source_observation",
+          "projected_home_spread": 2.5,
+          "provider": "haslametrics",
+          "total": 141.12
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-dayton-at-northwestern.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T12:00:00-06:00",
+      "tipoff_utc": "2026-11-22T18:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "delaware",
+        "name": "Delaware"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 26.77,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 138.79,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "game_id": "cbb-2027-2026-11-22-delaware-at-ucla",
+      "home_team": {
+        "id": "ucla",
+        "name": "UCLA"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": false,
+      "pregame": true,
+      "projections": [
+        {
+          "away_score": 56.01,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 82.78,
+          "origin": "source_observation",
+          "projected_home_spread": -26.77,
+          "provider": "haslametrics",
+          "total": 138.79
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-delaware-at-ucla.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T18:00:00-06:00",
+      "tipoff_utc": "2026-11-23T00:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "evansville",
+        "name": "Evansville"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 22.66,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 161.6,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
+      ],
+      "game_id": "cbb-2027-2026-11-22-evansville-at-memphis",
+      "home_team": {
+        "id": "memphis",
+        "name": "Memphis"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": false,
+      "pregame": false,
+      "projections": [
+        {
+          "away_score": 69.47,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 92.13,
+          "origin": "source_observation",
+          "projected_home_spread": -22.66,
+          "provider": "haslametrics",
+          "total": 161.6
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-evansville-at-memphis.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T13:00:00-06:00",
+      "tipoff_utc": "2026-11-22T19:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "fairfield",
+        "name": "Fairfield"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 2.52,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 148.84,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
+      ],
+      "game_id": "cbb-2027-2026-11-22-fairfield-at-liu",
+      "home_team": {
+        "id": "liu",
+        "name": "LIU"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": false,
+      "pregame": false,
+      "projections": [
+        {
+          "away_score": 73.16,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 75.68,
+          "origin": "source_observation",
+          "projected_home_spread": -2.52,
+          "provider": "haslametrics",
+          "total": 148.84
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-fairfield-at-liu.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T12:00:00-06:00",
+      "tipoff_utc": "2026-11-22T18:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "fordham",
+        "name": "Fordham"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": -3.87,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 151.49,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
+      ],
+      "game_id": "cbb-2027-2026-11-22-fordham-at-san-diego",
+      "home_team": {
+        "id": "san-diego",
+        "name": "San Diego"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": true,
+      "pregame": false,
+      "projections": [
+        {
+          "away_score": 77.68,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 73.81,
+          "origin": "source_observation",
+          "projected_home_spread": 3.87,
+          "provider": "haslametrics",
+          "total": 151.49
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-fordham-at-san-diego.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T13:00:00-06:00",
+      "tipoff_utc": "2026-11-22T19:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "george-washington",
+        "name": "George Washington"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": -2.89,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 160.01,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
+      ],
+      "game_id": "cbb-2027-2026-11-22-george-washington-at-western-kentucky",
+      "home_team": {
+        "id": "western-kentucky",
+        "name": "Western Kentucky"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": true,
+      "pregame": false,
+      "projections": [
+        {
+          "away_score": 81.45,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 78.56,
+          "origin": "source_observation",
+          "projected_home_spread": 2.89,
+          "provider": "haslametrics",
+          "total": 160.01
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-george-washington-at-western-kentucky.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T13:00:00-06:00",
+      "tipoff_utc": "2026-11-22T19:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "iu-indianapolis",
+        "name": "IU Indianapolis"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": -5.77,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 149.31,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
+      ],
+      "game_id": "cbb-2027-2026-11-22-iu-indianapolis-at-maryland-eastern-shore",
+      "home_team": {
+        "id": "maryland-eastern-shore",
+        "name": "Maryland Eastern Shore"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": true,
+      "pregame": false,
+      "projections": [
+        {
+          "away_score": 77.54,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 71.77,
+          "origin": "source_observation",
+          "projected_home_spread": 5.77,
+          "provider": "haslametrics",
+          "total": 149.31
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-iu-indianapolis-at-maryland-eastern-shore.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T15:30:00-06:00",
+      "tipoff_utc": "2026-11-22T21:30:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "lamar",
+        "name": "Lamar"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": -0.58,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 151.8,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
+      ],
+      "game_id": "cbb-2027-2026-11-22-lamar-at-rice",
+      "home_team": {
+        "id": "rice",
+        "name": "Rice"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": true,
+      "pregame": false,
+      "projections": [
+        {
+          "away_score": 76.19,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 75.61,
+          "origin": "source_observation",
+          "projected_home_spread": 0.58,
+          "provider": "haslametrics",
+          "total": 151.8
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-lamar-at-rice.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T16:00:00-06:00",
+      "tipoff_utc": "2026-11-22T22:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "lancaster-bible",
+        "name": "Lancaster Bible"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": null,
+          "origin": "system_calculation",
+          "range_points": null,
+          "source_count": 0
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": null,
+          "origin": "system_calculation",
+          "range_points": null,
+          "source_count": 0
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing",
+        "neutral_site_unknown",
+        "not_pregame_or_tipoff_unknown",
+        "projection_missing_stale_or_not_captured_pregame"
+      ],
+      "game_id": "cbb-2027-2026-11-22-lancaster-bible-at-umbc",
+      "home_team": {
+        "id": "umbc",
+        "name": "UMBC"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings",
+        "haslametrics"
+      ],
+      "neutral_site": null,
+      "pregame": false,
+      "projections": [],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-lancaster-bible-at-umbc.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T12:00:00-06:00",
+      "tipoff_utc": "2026-11-22T18:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "louisiana",
+        "name": "Louisiana"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 34.5,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 150.82,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "game_id": "cbb-2027-2026-11-22-louisiana-at-usc",
+      "home_team": {
+        "id": "usc",
+        "name": "USC"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": false,
+      "pregame": true,
+      "projections": [
+        {
+          "away_score": 58.16,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 92.66,
+          "origin": "source_observation",
+          "projected_home_spread": -34.5,
+          "provider": "haslametrics",
+          "total": 150.82
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-louisiana-at-usc.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T19:00:00-06:00",
+      "tipoff_utc": "2026-11-23T01:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "mcneese",
+        "name": "McNeese"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": -0.78,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 149.2,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
+      ],
+      "game_id": "cbb-2027-2026-11-22-mcneese-at-texas-state",
+      "home_team": {
+        "id": "texas-state",
+        "name": "Texas State"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": false,
+      "pregame": false,
+      "projections": [
+        {
+          "away_score": 74.99,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 74.21,
+          "origin": "source_observation",
+          "projected_home_spread": 0.78,
+          "provider": "haslametrics",
+          "total": 149.2
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-mcneese-at-texas-state.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T14:30:00-06:00",
+      "tipoff_utc": "2026-11-22T20:30:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "menlo",
+        "name": "Menlo"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": null,
+          "origin": "system_calculation",
+          "range_points": null,
+          "source_count": 0
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": null,
+          "origin": "system_calculation",
+          "range_points": null,
+          "source_count": 0
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing",
+        "neutral_site_unknown",
+        "projection_missing_stale_or_not_captured_pregame"
+      ],
+      "game_id": "cbb-2027-2026-11-22-menlo-at-saint-marys-ca",
+      "home_team": {
+        "id": "saint-marys-ca",
+        "name": "Saint Mary's (CA)"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings",
+        "haslametrics"
+      ],
+      "neutral_site": null,
+      "pregame": true,
+      "projections": [],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-menlo-at-saint-marys-ca.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T19:00:00-06:00",
+      "tipoff_utc": "2026-11-23T01:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "mercyhurst",
+        "name": "Mercyhurst"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": -3.52,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 135.82,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
+      ],
+      "game_id": "cbb-2027-2026-11-22-mercyhurst-at-ualbany",
+      "home_team": {
+        "id": "ualbany",
+        "name": "UAlbany"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": true,
+      "pregame": false,
+      "projections": [
+        {
+          "away_score": 69.67,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 66.15,
+          "origin": "source_observation",
+          "projected_home_spread": 3.52,
+          "provider": "haslametrics",
+          "total": 135.82
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-mercyhurst-at-ualbany.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T14:30:00-06:00",
+      "tipoff_utc": "2026-11-22T20:30:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "miami-oh",
+        "name": "Miami (OH)"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": -1.94,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 154.74,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
+      ],
+      "game_id": "cbb-2027-2026-11-22-miami-oh-at-uic",
+      "home_team": {
+        "id": "uic",
+        "name": "UIC"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": true,
+      "pregame": false,
+      "projections": [
+        {
+          "away_score": 78.34,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 76.4,
+          "origin": "source_observation",
+          "projected_home_spread": 1.94,
+          "provider": "haslametrics",
+          "total": 154.74
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-miami-oh-at-uic.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T11:00:00-06:00",
+      "tipoff_utc": "2026-11-22T17:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "milligan",
+        "name": "Milligan"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": null,
+          "origin": "system_calculation",
+          "range_points": null,
+          "source_count": 0
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": null,
+          "origin": "system_calculation",
+          "range_points": null,
+          "source_count": 0
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing",
+        "neutral_site_unknown",
+        "not_pregame_or_tipoff_unknown",
+        "projection_missing_stale_or_not_captured_pregame"
+      ],
+      "game_id": "cbb-2027-2026-11-22-milligan-at-lipscomb",
+      "home_team": {
+        "id": "lipscomb",
+        "name": "Lipscomb"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings",
+        "haslametrics"
+      ],
+      "neutral_site": null,
+      "pregame": false,
+      "projections": [],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-milligan-at-lipscomb.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T16:00:00-06:00",
+      "tipoff_utc": "2026-11-22T22:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "minnesota",
+        "name": "Minnesota"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": -13.8,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 136.48,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "game_id": "cbb-2027-2026-11-22-minnesota-at-utah",
+      "home_team": {
+        "id": "utah",
+        "name": "Utah"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": true,
+      "pregame": true,
+      "projections": [
+        {
+          "away_score": 75.14,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 61.34,
+          "origin": "source_observation",
+          "projected_home_spread": 13.8,
+          "provider": "haslametrics",
+          "total": 136.48
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-minnesota-at-utah.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T17:00:00-06:00",
+      "tipoff_utc": "2026-11-22T23:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "nebraska",
+        "name": "Nebraska"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": -14.08,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 151.18,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
+      ],
+      "game_id": "cbb-2027-2026-11-22-nebraska-at-butler",
+      "home_team": {
+        "id": "butler",
+        "name": "Butler"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": true,
+      "pregame": false,
+      "projections": [
+        {
+          "away_score": 82.63,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 68.55,
+          "origin": "source_observation",
+          "projected_home_spread": 14.08,
+          "provider": "haslametrics",
+          "total": 151.18
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-nebraska-at-butler.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T11:00:00-06:00",
+      "tipoff_utc": "2026-11-22T17:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "new-mexico-state",
+        "name": "New Mexico State"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": -7.73,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 147.61,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
+      ],
+      "game_id": "cbb-2027-2026-11-22-new-mexico-state-at-robert-morris",
+      "home_team": {
+        "id": "robert-morris",
+        "name": "Robert Morris"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": true,
+      "pregame": false,
+      "projections": [
+        {
+          "away_score": 77.67,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 69.94,
+          "origin": "source_observation",
+          "projected_home_spread": 7.73,
+          "provider": "haslametrics",
+          "total": 147.61
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-new-mexico-state-at-robert-morris.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T13:30:00-06:00",
+      "tipoff_utc": "2026-11-22T19:30:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "njit",
+        "name": "NJIT"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 26.03,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 145.61,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
+      ],
+      "game_id": "cbb-2027-2026-11-22-njit-at-boston-college",
+      "home_team": {
+        "id": "boston-college",
+        "name": "Boston College"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": false,
+      "pregame": false,
+      "projections": [
+        {
+          "away_score": 59.79,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 85.82,
+          "origin": "source_observation",
+          "projected_home_spread": -26.03,
+          "provider": "haslametrics",
+          "total": 145.61
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-njit-at-boston-college.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T16:00:00-06:00",
+      "tipoff_utc": "2026-11-22T22:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "oklahoma-state",
+        "name": "Oklahoma State"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": -3.38,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 164.78,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
+      ],
+      "game_id": "cbb-2027-2026-11-22-oklahoma-state-at-virginia-tech",
+      "home_team": {
+        "id": "virginia-tech",
+        "name": "Virginia Tech"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": true,
+      "pregame": false,
+      "projections": [
+        {
+          "away_score": 84.08,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 80.7,
+          "origin": "source_observation",
+          "projected_home_spread": 3.38,
+          "provider": "haslametrics",
+          "total": 164.78
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-oklahoma-state-at-virginia-tech.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T14:30:00-06:00",
+      "tipoff_utc": "2026-11-22T20:30:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "portland",
+        "name": "Portland"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": -6.01,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 149.59,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "game_id": "cbb-2027-2026-11-22-portland-at-california-baptist",
+      "home_team": {
+        "id": "california-baptist",
+        "name": "California Baptist"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": true,
+      "pregame": true,
+      "projections": [
+        {
+          "away_score": 77.8,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 71.79,
+          "origin": "source_observation",
+          "projected_home_spread": 6.01,
+          "provider": "haslametrics",
+          "total": 149.59
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-portland-at-california-baptist.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T18:00:00-06:00",
+      "tipoff_utc": "2026-11-23T00:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "rhode-island",
+        "name": "Rhode Island"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": -0.37,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 154.21,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "game_id": "cbb-2027-2026-11-22-rhode-island-at-uab",
+      "home_team": {
+        "id": "uab",
+        "name": "UAB"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": true,
+      "pregame": true,
+      "projections": [
+        {
+          "away_score": 77.29,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 76.92,
+          "origin": "source_observation",
+          "projected_home_spread": 0.37,
+          "provider": "haslametrics",
+          "total": 154.21
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-rhode-island-at-uab.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T18:00:00-06:00",
+      "tipoff_utc": "2026-11-23T00:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "richmond",
+        "name": "Richmond"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": -1.44,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 145.14,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
+      ],
+      "game_id": "cbb-2027-2026-11-22-richmond-at-liberty",
+      "home_team": {
+        "id": "liberty",
+        "name": "Liberty"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": true,
+      "pregame": false,
+      "projections": [
+        {
+          "away_score": 73.29,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 71.85,
+          "origin": "source_observation",
+          "projected_home_spread": 1.44,
+          "provider": "haslametrics",
+          "total": 145.14
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-richmond-at-liberty.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T15:30:00-06:00",
+      "tipoff_utc": "2026-11-22T21:30:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "southern-indiana",
+        "name": "Southern Indiana"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 37.68,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 151.76,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
+      ],
+      "game_id": "cbb-2027-2026-11-22-southern-indiana-at-texas",
+      "home_team": {
+        "id": "texas",
+        "name": "Texas"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": false,
+      "pregame": false,
+      "projections": [
+        {
+          "away_score": 57.04,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 94.72,
+          "origin": "source_observation",
+          "projected_home_spread": -37.68,
+          "provider": "haslametrics",
+          "total": 151.76
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-southern-indiana-at-texas.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T14:00:00-06:00",
+      "tipoff_utc": "2026-11-22T20:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "temple",
+        "name": "Temple"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": -0.01,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 147.71,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
+      ],
+      "game_id": "cbb-2027-2026-11-22-temple-at-stephen-f-austin",
+      "home_team": {
+        "id": "stephen-f-austin",
+        "name": "Stephen F. Austin"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": true,
+      "pregame": false,
+      "projections": [
+        {
+          "away_score": 73.86,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 73.85,
+          "origin": "source_observation",
+          "projected_home_spread": 0.01,
+          "provider": "haslametrics",
+          "total": 147.71
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-temple-at-stephen-f-austin.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T16:30:00-06:00",
+      "tipoff_utc": "2026-11-22T22:30:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "towson",
+        "name": "Towson"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 4.13,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 137.15,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
+      ],
+      "game_id": "cbb-2027-2026-11-22-towson-at-american",
+      "home_team": {
+        "id": "american",
+        "name": "American"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": false,
+      "pregame": false,
+      "projections": [
+        {
+          "away_score": 66.51,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 70.64,
+          "origin": "source_observation",
+          "projected_home_spread": -4.13,
+          "provider": "haslametrics",
+          "total": 137.15
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-towson-at-american.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T12:00:00-06:00",
+      "tipoff_utc": "2026-11-22T18:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "troy",
+        "name": "Troy"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": -8.3,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 140.12,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
+      ],
+      "game_id": "cbb-2027-2026-11-22-troy-at-nicholls",
+      "home_team": {
+        "id": "nicholls",
+        "name": "Nicholls"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": true,
+      "pregame": false,
+      "projections": [
+        {
+          "away_score": 74.21,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 65.91,
+          "origin": "source_observation",
+          "projected_home_spread": 8.3,
+          "provider": "haslametrics",
+          "total": 140.12
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-troy-at-nicholls.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T14:00:00-06:00",
+      "tipoff_utc": "2026-11-22T20:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "uc-irvine",
+        "name": "UC Irvine"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": -3.84,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 148.74,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
+      ],
+      "game_id": "cbb-2027-2026-11-22-uc-irvine-at-loyola-marymount",
+      "home_team": {
+        "id": "loyola-marymount",
+        "name": "Loyola Marymount"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": true,
+      "pregame": false,
+      "projections": [
+        {
+          "away_score": 76.29,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 72.45,
+          "origin": "source_observation",
+          "projected_home_spread": 3.84,
+          "provider": "haslametrics",
+          "total": 148.74
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-uc-irvine-at-loyola-marymount.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T15:30:00-06:00",
+      "tipoff_utc": "2026-11-22T21:30:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "uc-san-diego",
+        "name": "UC San Diego"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": -4.65,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 150.09,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "game_id": "cbb-2027-2026-11-22-uc-san-diego-at-seattle",
+      "home_team": {
+        "id": "seattle",
+        "name": "Seattle"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": true,
+      "pregame": true,
+      "projections": [
+        {
+          "away_score": 77.37,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 72.72,
+          "origin": "source_observation",
+          "projected_home_spread": 4.65,
+          "provider": "haslametrics",
+          "total": 150.09
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-uc-san-diego-at-seattle.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T20:30:00-06:00",
+      "tipoff_utc": "2026-11-23T02:30:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "umass-lowell",
+        "name": "UMass Lowell"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 29.69,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 150.93,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
+      ],
+      "game_id": "cbb-2027-2026-11-22-umass-lowell-at-cincinnati",
+      "home_team": {
+        "id": "cincinnati",
+        "name": "Cincinnati"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": false,
+      "pregame": false,
+      "projections": [
+        {
+          "away_score": 60.62,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 90.31,
+          "origin": "source_observation",
+          "projected_home_spread": -29.69,
+          "provider": "haslametrics",
+          "total": 150.93
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-umass-lowell-at-cincinnati.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T13:00:00-06:00",
+      "tipoff_utc": "2026-11-22T19:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "unc-asheville",
+        "name": "UNC Asheville"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 10.26,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 151.56,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
+      ],
+      "game_id": "cbb-2027-2026-11-22-unc-asheville-at-samford",
+      "home_team": {
+        "id": "samford",
+        "name": "Samford"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": false,
+      "pregame": false,
+      "projections": [
+        {
+          "away_score": 70.65,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 80.91,
+          "origin": "source_observation",
+          "projected_home_spread": -10.26,
+          "provider": "haslametrics",
+          "total": 151.56
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-unc-asheville-at-samford.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T16:00:00-06:00",
+      "tipoff_utc": "2026-11-22T22:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "utah-tech",
+        "name": "Utah Tech"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": -4.12,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 158.44,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
+      ],
+      "game_id": "cbb-2027-2026-11-22-utah-tech-at-south-dakota",
+      "home_team": {
+        "id": "south-dakota",
+        "name": "South Dakota"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": true,
+      "pregame": false,
+      "projections": [
+        {
+          "away_score": 81.28,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 77.16,
+          "origin": "source_observation",
+          "projected_home_spread": 4.12,
+          "provider": "haslametrics",
+          "total": 158.44
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-utah-tech-at-south-dakota.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T13:00:00-06:00",
+      "tipoff_utc": "2026-11-22T19:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "utah-valley",
+        "name": "Utah Valley"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": -11.76,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 150.56,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "game_id": "cbb-2027-2026-11-22-utah-valley-at-ut-martin",
+      "home_team": {
+        "id": "ut-martin",
+        "name": "UT Martin"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": true,
+      "pregame": true,
+      "projections": [
+        {
+          "away_score": 81.16,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 69.4,
+          "origin": "source_observation",
+          "projected_home_spread": 11.76,
+          "provider": "haslametrics",
+          "total": 150.56
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-utah-valley-at-ut-martin.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T19:00:00-06:00",
+      "tipoff_utc": "2026-11-23T01:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "valparaiso",
+        "name": "Valparaiso"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": -10.48,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 145.0,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "game_id": "cbb-2027-2026-11-22-valparaiso-at-southern-miss",
+      "home_team": {
+        "id": "southern-miss",
+        "name": "Southern Miss"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": true,
+      "pregame": true,
+      "projections": [
+        {
+          "away_score": 77.74,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 67.26,
+          "origin": "source_observation",
+          "projected_home_spread": 10.48,
+          "provider": "haslametrics",
+          "total": 145.0
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-valparaiso-at-southern-miss.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T17:00:00-06:00",
+      "tipoff_utc": "2026-11-22T23:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "west-florida",
+        "name": "West Florida"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 2.12,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 147.66,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
+      ],
+      "game_id": "cbb-2027-2026-11-22-west-florida-at-south-alabama",
+      "home_team": {
+        "id": "south-alabama",
+        "name": "South Alabama"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": false,
+      "pregame": false,
+      "projections": [
+        {
+          "away_score": 72.77,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 74.89,
+          "origin": "source_observation",
+          "projected_home_spread": -2.12,
+          "provider": "haslametrics",
+          "total": 147.66
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-west-florida-at-south-alabama.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T14:00:00-06:00",
+      "tipoff_utc": "2026-11-22T20:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "western-illinois",
+        "name": "Western Illinois"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 5.61,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 145.57,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
+      ],
+      "game_id": "cbb-2027-2026-11-22-western-illinois-at-canisius",
+      "home_team": {
+        "id": "canisius",
+        "name": "Canisius"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": false,
+      "pregame": false,
+      "projections": [
+        {
+          "away_score": 69.98,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 75.59,
+          "origin": "source_observation",
+          "projected_home_spread": -5.61,
+          "provider": "haslametrics",
+          "total": 145.57
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-western-illinois-at-canisius.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T12:00:00-06:00",
+      "tipoff_utc": "2026-11-22T18:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "william-mary",
+        "name": "William & Mary"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 1.73,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 161.29,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
+      ],
+      "game_id": "cbb-2027-2026-11-22-william-mary-at-youngstown-state",
+      "home_team": {
+        "id": "youngstown-state",
+        "name": "Youngstown State"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": false,
+      "pregame": false,
+      "projections": [
+        {
+          "away_score": 79.78,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 81.51,
+          "origin": "source_observation",
+          "projected_home_spread": -1.73,
+          "provider": "haslametrics",
+          "total": 161.29
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-william-mary-at-youngstown-state.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T13:00:00-06:00",
+      "tipoff_utc": "2026-11-22T19:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "wyoming",
+        "name": "Wyoming"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": -5.55,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 150.83,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
+      ],
+      "game_id": "cbb-2027-2026-11-22-wyoming-at-duquesne",
+      "home_team": {
+        "id": "duquesne",
+        "name": "Duquesne"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": true,
+      "pregame": false,
+      "projections": [
+        {
+          "away_score": 78.19,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 72.64,
+          "origin": "source_observation",
+          "projected_home_spread": 5.55,
+          "provider": "haslametrics",
+          "total": 150.83
+        }
+      ],
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-22-wyoming-at-duquesne.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-22T13:00:00-06:00",
+      "tipoff_utc": "2026-11-22T19:00:00Z",
+      "venue": null
+    }
+  ],
+  "generated_at": "2026-11-22T22:31:07.073417Z",
+  "history": {
+    "github_path": "docs/cbb/data/intelligence/history/index.json",
+    "github_raw_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cbb/data/intelligence/history/index.json",
+    "github_ref": "main",
+    "github_repository": "jptx817/sports_fun_preview",
+    "path": "data/intelligence/history/index.json",
+    "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/index.json"
+  },
+  "immutable_edition": {
+    "github_path": "docs/cbb/data/intelligence/history/editions/e309d63d715972c7d2a34e0a66b9a8280660072eb950587d8971badae143f35a.json",
+    "github_raw_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cbb/data/intelligence/history/editions/e309d63d715972c7d2a34e0a66b9a8280660072eb950587d8971badae143f35a.json",
+    "github_ref": "main",
+    "github_repository": "jptx817/sports_fun_preview",
+    "path": "data/intelligence/history/editions/e309d63d715972c7d2a34e0a66b9a8280660072eb950587d8971badae143f35a.json",
+    "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/editions/e309d63d715972c7d2a34e0a66b9a8280660072eb950587d8971badae143f35a.json"
+  },
+  "interpretation_policy": "Source observations and system calculations are labeled separately. A discrepant forecast alone cannot explain why a source differs. Source-provided prose is unavailable unless linked; no invented commentary.",
+  "kind": "board",
+  "noteworthy": {
+    "criteria": "Top five by fresh eligible source range or projected scoring level. Strong agreement: 3+ systems and both ranges <=2 points. Team rank gap >=25 places. Descriptive screens, not optimized thresholds or betting recommendations.",
+    "groups": {
+      "highest_projected_totals": [
+        "cbb-2027-2026-11-22-rhode-island-at-uab",
+        "cbb-2027-2026-11-22-louisiana-at-usc",
+        "cbb-2027-2026-11-22-utah-valley-at-ut-martin",
+        "cbb-2027-2026-11-22-uc-san-diego-at-seattle",
+        "cbb-2027-2026-11-22-portland-at-california-baptist"
+      ],
+      "lowest_projected_totals": [
+        "cbb-2027-2026-11-22-minnesota-at-utah",
+        "cbb-2027-2026-11-22-delaware-at-ucla",
+        "cbb-2027-2026-11-22-valparaiso-at-southern-miss",
+        "cbb-2027-2026-11-22-portland-at-california-baptist",
+        "cbb-2027-2026-11-22-uc-san-diego-at-seattle"
+      ],
+      "market_differences": [],
+      "spread_disagreement": [],
+      "strong_agreement": [],
+      "team_rating_differences": [],
+      "total_disagreement": []
+    },
+    "origin": "system_selection"
+  },
+  "resource_bases": {
+    "github_path_prefix": "docs/cbb/",
+    "github_raw": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cbb/",
+    "github_ref": "main",
+    "github_repository": "jptx817/sports_fun_preview",
+    "pages": "https://jptx817.github.io/sports_fun_preview/cbb/"
+  },
+  "schema_version": "0.5.0",
+  "sources": {
+    "barttorvik": {
+      "latest_retrieved_at": null,
+      "newest_observed_at": null,
+      "observations": 0,
+      "oldest_observed_at": null,
+      "provider_update_known": false,
+      "source_as_of_dates": [],
+      "state": "missing"
+    },
+    "draftkings": {
+      "latest_retrieved_at": null,
+      "newest_observed_at": null,
+      "observations": 0,
+      "oldest_observed_at": null,
+      "provider_update_known": false,
+      "source_as_of_dates": [],
+      "state": "missing"
+    },
+    "dratings": {
+      "latest_retrieved_at": null,
+      "newest_observed_at": null,
+      "observations": 0,
+      "oldest_observed_at": null,
+      "provider_update_known": false,
+      "source_as_of_dates": [],
+      "state": "missing"
+    },
+    "haslametrics": {
+      "latest_retrieved_at": "2026-11-22T12:24:09.551000Z",
+      "newest_observed_at": "2026-11-22T12:24:09.551000Z",
+      "observations": 37,
+      "oldest_observed_at": "2026-11-22T12:24:09.551000Z",
+      "provider_update_known": false,
+      "source_as_of_dates": [
+        "2026-11-20"
+      ],
+      "state": "fresh"
+    }
+  },
+  "sport": "cbb",
+  "team_directory": [
+    {
+      "resource": {
+        "path": "data/intelligence/teams/abilene-christian.json"
+      },
+      "team": {
+        "id": "abilene-christian",
+        "name": "Abilene Christian"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/air-force.json"
+      },
+      "team": {
+        "id": "air-force",
+        "name": "Air Force"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/alice-lloyd.json"
+      },
+      "team": {
+        "id": "alice-lloyd",
+        "name": "Alice Lloyd"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/american.json"
+      },
+      "team": {
+        "id": "american",
+        "name": "American"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/army-west-point.json"
+      },
+      "team": {
+        "id": "army-west-point",
+        "name": "Army West Point"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/austin-peay.json"
+      },
+      "team": {
+        "id": "austin-peay",
+        "name": "Austin Peay"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/binghamton.json"
+      },
+      "team": {
+        "id": "binghamton",
+        "name": "Binghamton"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/boston-college.json"
+      },
+      "team": {
+        "id": "boston-college",
+        "name": "Boston College"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/boston-university.json"
+      },
+      "team": {
+        "id": "boston-university",
+        "name": "Boston University"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/bowling-green.json"
+      },
+      "team": {
+        "id": "bowling-green",
+        "name": "Bowling Green"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/bradley.json"
+      },
+      "team": {
+        "id": "bradley",
+        "name": "Bradley"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/brown.json"
+      },
+      "team": {
+        "id": "brown",
+        "name": "Brown"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/bucknell.json"
+      },
+      "team": {
+        "id": "bucknell",
+        "name": "Bucknell"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/butler.json"
+      },
+      "team": {
+        "id": "butler",
+        "name": "Butler"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/cal-poly.json"
+      },
+      "team": {
+        "id": "cal-poly",
+        "name": "Cal Poly"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/cal-state-fullerton.json"
+      },
+      "team": {
+        "id": "cal-state-fullerton",
+        "name": "Cal State Fullerton"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/california-baptist.json"
+      },
+      "team": {
+        "id": "california-baptist",
+        "name": "California Baptist"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/calumet-college.json"
+      },
+      "team": {
+        "id": "calumet-college",
+        "name": "Calumet College"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/canisius.json"
+      },
+      "team": {
+        "id": "canisius",
+        "name": "Canisius"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/central-arkansas.json"
+      },
+      "team": {
+        "id": "central-arkansas",
+        "name": "Central Arkansas"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/charleston-southern.json"
+      },
+      "team": {
+        "id": "charleston-southern",
+        "name": "Charleston Southern"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/chattanooga.json"
+      },
+      "team": {
+        "id": "chattanooga",
+        "name": "Chattanooga"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/chicago-state.json"
+      },
+      "team": {
+        "id": "chicago-state",
+        "name": "Chicago State"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/cincinnati.json"
+      },
+      "team": {
+        "id": "cincinnati",
+        "name": "Cincinnati"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/cleveland-state.json"
+      },
+      "team": {
+        "id": "cleveland-state",
+        "name": "Cleveland State"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/clinton.json"
+      },
+      "team": {
+        "id": "clinton",
+        "name": "Clinton"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/colgate.json"
+      },
+      "team": {
+        "id": "colgate",
+        "name": "Colgate"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/columbia.json"
+      },
+      "team": {
+        "id": "columbia",
+        "name": "Columbia"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/coppin-state.json"
+      },
+      "team": {
+        "id": "coppin-state",
+        "name": "Coppin State"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/cornell.json"
+      },
+      "team": {
+        "id": "cornell",
+        "name": "Cornell"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/dayton.json"
+      },
+      "team": {
+        "id": "dayton",
+        "name": "Dayton"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/delaware.json"
+      },
+      "team": {
+        "id": "delaware",
+        "name": "Delaware"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/denver.json"
+      },
+      "team": {
+        "id": "denver",
+        "name": "Denver"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/detroit-mercy.json"
+      },
+      "team": {
+        "id": "detroit-mercy",
+        "name": "Detroit Mercy"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/drake.json"
+      },
+      "team": {
+        "id": "drake",
+        "name": "Drake"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/duke.json"
+      },
+      "team": {
+        "id": "duke",
+        "name": "Duke"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/duquesne.json"
+      },
+      "team": {
+        "id": "duquesne",
+        "name": "Duquesne"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/east-carolina.json"
+      },
+      "team": {
+        "id": "east-carolina",
+        "name": "East Carolina"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/east-tennessee-state.json"
+      },
+      "team": {
+        "id": "east-tennessee-state",
+        "name": "East Tennessee State"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/eastern-kentucky.json"
+      },
+      "team": {
+        "id": "eastern-kentucky",
+        "name": "Eastern Kentucky"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/eastern-michigan.json"
+      },
+      "team": {
+        "id": "eastern-michigan",
+        "name": "Eastern Michigan"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/elon.json"
+      },
+      "team": {
+        "id": "elon",
+        "name": "Elon"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/evansville.json"
+      },
+      "team": {
+        "id": "evansville",
+        "name": "Evansville"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/fairfield.json"
+      },
+      "team": {
+        "id": "fairfield",
+        "name": "Fairfield"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/fordham.json"
+      },
+      "team": {
+        "id": "fordham",
+        "name": "Fordham"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/furman.json"
+      },
+      "team": {
+        "id": "furman",
+        "name": "Furman"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/gardner-webb.json"
+      },
+      "team": {
+        "id": "gardner-webb",
+        "name": "Gardner-Webb"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/george-mason.json"
+      },
+      "team": {
+        "id": "george-mason",
+        "name": "George Mason"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/george-washington.json"
+      },
+      "team": {
+        "id": "george-washington",
+        "name": "George Washington"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/georgetown.json"
+      },
+      "team": {
+        "id": "georgetown",
+        "name": "Georgetown"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/indiana-state.json"
+      },
+      "team": {
+        "id": "indiana-state",
+        "name": "Indiana State"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/iu-indianapolis.json"
+      },
+      "team": {
+        "id": "iu-indianapolis",
+        "name": "IU Indianapolis"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/jacksonville.json"
+      },
+      "team": {
+        "id": "jacksonville",
+        "name": "Jacksonville"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/james-madison.json"
+      },
+      "team": {
+        "id": "james-madison",
+        "name": "James Madison"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/justice-university.json"
+      },
+      "team": {
+        "id": "justice-university",
+        "name": "Justice University"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/kent-state.json"
+      },
+      "team": {
+        "id": "kent-state",
+        "name": "Kent State"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/la-salle.json"
+      },
+      "team": {
+        "id": "la-salle",
+        "name": "La Salle"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/lafayette.json"
+      },
+      "team": {
+        "id": "lafayette",
+        "name": "Lafayette"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/lamar.json"
+      },
+      "team": {
+        "id": "lamar",
+        "name": "Lamar"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/lancaster-bible.json"
+      },
+      "team": {
+        "id": "lancaster-bible",
+        "name": "Lancaster Bible"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/liberty.json"
+      },
+      "team": {
+        "id": "liberty",
+        "name": "Liberty"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/lipscomb.json"
+      },
+      "team": {
+        "id": "lipscomb",
+        "name": "Lipscomb"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/little-rock.json"
+      },
+      "team": {
+        "id": "little-rock",
+        "name": "Little Rock"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/liu.json"
+      },
+      "team": {
+        "id": "liu",
+        "name": "LIU"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/longwood.json"
+      },
+      "team": {
+        "id": "longwood",
+        "name": "Longwood"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/louisiana.json"
+      },
+      "team": {
+        "id": "louisiana",
+        "name": "Louisiana"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/loyola-marymount.json"
+      },
+      "team": {
+        "id": "loyola-marymount",
+        "name": "Loyola Marymount"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/lsu.json"
+      },
+      "team": {
+        "id": "lsu",
+        "name": "LSU"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/maine.json"
+      },
+      "team": {
+        "id": "maine",
+        "name": "Maine"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/marquette.json"
+      },
+      "team": {
+        "id": "marquette",
+        "name": "Marquette"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/maryland-eastern-shore.json"
+      },
+      "team": {
+        "id": "maryland-eastern-shore",
+        "name": "Maryland Eastern Shore"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/massachusetts.json"
+      },
+      "team": {
+        "id": "massachusetts",
+        "name": "Massachusetts"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/mcneese.json"
+      },
+      "team": {
+        "id": "mcneese",
+        "name": "McNeese"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/memphis.json"
+      },
+      "team": {
+        "id": "memphis",
+        "name": "Memphis"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/menlo.json"
+      },
+      "team": {
+        "id": "menlo",
+        "name": "Menlo"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/mercer.json"
+      },
+      "team": {
+        "id": "mercer",
+        "name": "Mercer"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/mercyhurst.json"
+      },
+      "team": {
+        "id": "mercyhurst",
+        "name": "Mercyhurst"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/miami-oh.json"
+      },
+      "team": {
+        "id": "miami-oh",
+        "name": "Miami (OH)"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/michigan.json"
+      },
+      "team": {
+        "id": "michigan",
+        "name": "Michigan"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/michigan-state.json"
+      },
+      "team": {
+        "id": "michigan-state",
+        "name": "Michigan State"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/middle-tennessee.json"
+      },
+      "team": {
+        "id": "middle-tennessee",
+        "name": "Middle Tennessee"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/milligan.json"
+      },
+      "team": {
+        "id": "milligan",
+        "name": "Milligan"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/milwaukee.json"
+      },
+      "team": {
+        "id": "milwaukee",
+        "name": "Milwaukee"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/minnesota.json"
+      },
+      "team": {
+        "id": "minnesota",
+        "name": "Minnesota"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/missouri-state.json"
+      },
+      "team": {
+        "id": "missouri-state",
+        "name": "Missouri State"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/morehead-state.json"
+      },
+      "team": {
+        "id": "morehead-state",
+        "name": "Morehead State"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/morgan-state.json"
+      },
+      "team": {
+        "id": "morgan-state",
+        "name": "Morgan State"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/navy.json"
+      },
+      "team": {
+        "id": "navy",
+        "name": "Navy"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/nebraska.json"
+      },
+      "team": {
+        "id": "nebraska",
+        "name": "Nebraska"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/new-hampshire.json"
+      },
+      "team": {
+        "id": "new-hampshire",
+        "name": "New Hampshire"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/new-haven.json"
+      },
+      "team": {
+        "id": "new-haven",
+        "name": "New Haven"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/new-mexico.json"
+      },
+      "team": {
+        "id": "new-mexico",
+        "name": "New Mexico"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/new-mexico-state.json"
+      },
+      "team": {
+        "id": "new-mexico-state",
+        "name": "New Mexico State"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/new-orleans.json"
+      },
+      "team": {
+        "id": "new-orleans",
+        "name": "New Orleans"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/nicholls.json"
+      },
+      "team": {
+        "id": "nicholls",
+        "name": "Nicholls"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/njit.json"
+      },
+      "team": {
+        "id": "njit",
+        "name": "NJIT"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/norfolk-state.json"
+      },
+      "team": {
+        "id": "norfolk-state",
+        "name": "Norfolk State"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/north-florida.json"
+      },
+      "team": {
+        "id": "north-florida",
+        "name": "North Florida"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/northeastern.json"
+      },
+      "team": {
+        "id": "northeastern",
+        "name": "Northeastern"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/northern-arizona.json"
+      },
+      "team": {
+        "id": "northern-arizona",
+        "name": "Northern Arizona"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/northern-colorado.json"
+      },
+      "team": {
+        "id": "northern-colorado",
+        "name": "Northern Colorado"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/northern-illinois.json"
+      },
+      "team": {
+        "id": "northern-illinois",
+        "name": "Northern Illinois"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/northwestern.json"
+      },
+      "team": {
+        "id": "northwestern",
+        "name": "Northwestern"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/oklahoma-state.json"
+      },
+      "team": {
+        "id": "oklahoma-state",
+        "name": "Oklahoma State"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/oral-roberts.json"
+      },
+      "team": {
+        "id": "oral-roberts",
+        "name": "Oral Roberts"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/pacific.json"
+      },
+      "team": {
+        "id": "pacific",
+        "name": "Pacific"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/penn.json"
+      },
+      "team": {
+        "id": "penn",
+        "name": "Penn"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/penn-state-behrend.json"
+      },
+      "team": {
+        "id": "penn-state-behrend",
+        "name": "Penn State Behrend"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/portland.json"
+      },
+      "team": {
+        "id": "portland",
+        "name": "Portland"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/portland-state.json"
+      },
+      "team": {
+        "id": "portland-state",
+        "name": "Portland State"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/presbyterian.json"
+      },
+      "team": {
+        "id": "presbyterian",
+        "name": "Presbyterian"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/purdue-fort-wayne.json"
+      },
+      "team": {
+        "id": "purdue-fort-wayne",
+        "name": "Purdue Fort Wayne"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/queens.json"
+      },
+      "team": {
+        "id": "queens",
+        "name": "Queens"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/radford.json"
+      },
+      "team": {
+        "id": "radford",
+        "name": "Radford"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/rhode-island.json"
+      },
+      "team": {
+        "id": "rhode-island",
+        "name": "Rhode Island"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/rice.json"
+      },
+      "team": {
+        "id": "rice",
+        "name": "Rice"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/richmond.json"
+      },
+      "team": {
+        "id": "richmond",
+        "name": "Richmond"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/rider.json"
+      },
+      "team": {
+        "id": "rider",
+        "name": "Rider"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/robert-morris.json"
+      },
+      "team": {
+        "id": "robert-morris",
+        "name": "Robert Morris"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/saint-marys-ca.json"
+      },
+      "team": {
+        "id": "saint-marys-ca",
+        "name": "Saint Mary's (CA)"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/saint-peter-s.json"
+      },
+      "team": {
+        "id": "saint-peter-s",
+        "name": "Saint Peter's"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/samford.json"
+      },
+      "team": {
+        "id": "samford",
+        "name": "Samford"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/san-diego.json"
+      },
+      "team": {
+        "id": "san-diego",
+        "name": "San Diego"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/seattle.json"
+      },
+      "team": {
+        "id": "seattle",
+        "name": "Seattle"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/siena.json"
+      },
+      "team": {
+        "id": "siena",
+        "name": "Siena"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/south-alabama.json"
+      },
+      "team": {
+        "id": "south-alabama",
+        "name": "South Alabama"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/south-dakota.json"
+      },
+      "team": {
+        "id": "south-dakota",
+        "name": "South Dakota"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/south-florida.json"
+      },
+      "team": {
+        "id": "south-florida",
+        "name": "South Florida"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/southern-illinois.json"
+      },
+      "team": {
+        "id": "southern-illinois",
+        "name": "Southern Illinois"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/southern-indiana.json"
+      },
+      "team": {
+        "id": "southern-indiana",
+        "name": "Southern Indiana"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/southern-miss.json"
+      },
+      "team": {
+        "id": "southern-miss",
+        "name": "Southern Miss"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/southwestern-adventist.json"
+      },
+      "team": {
+        "id": "southwestern-adventist",
+        "name": "Southwestern Adventist"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/st-thomas-mn.json"
+      },
+      "team": {
+        "id": "st-thomas-mn",
+        "name": "St. Thomas (MN)"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/stephen-f-austin.json"
+      },
+      "team": {
+        "id": "stephen-f-austin",
+        "name": "Stephen F. Austin"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/stonehill.json"
+      },
+      "team": {
+        "id": "stonehill",
+        "name": "Stonehill"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/stony-brook.json"
+      },
+      "team": {
+        "id": "stony-brook",
+        "name": "Stony Brook"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/syracuse.json"
+      },
+      "team": {
+        "id": "syracuse",
+        "name": "Syracuse"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/temple.json"
+      },
+      "team": {
+        "id": "temple",
+        "name": "Temple"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/tennessee-tech.json"
+      },
+      "team": {
+        "id": "tennessee-tech",
+        "name": "Tennessee Tech"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/texas.json"
+      },
+      "team": {
+        "id": "texas",
+        "name": "Texas"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/texas-a-m-corpus-christi.json"
+      },
+      "team": {
+        "id": "texas-a-m-corpus-christi",
+        "name": "Texas A&M-Corpus Christi"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/texas-southern.json"
+      },
+      "team": {
+        "id": "texas-southern",
+        "name": "Texas Southern"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/texas-state.json"
+      },
+      "team": {
+        "id": "texas-state",
+        "name": "Texas State"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/towson.json"
+      },
+      "team": {
+        "id": "towson",
+        "name": "Towson"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/troy.json"
+      },
+      "team": {
+        "id": "troy",
+        "name": "Troy"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/uab.json"
+      },
+      "team": {
+        "id": "uab",
+        "name": "UAB"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/ualbany.json"
+      },
+      "team": {
+        "id": "ualbany",
+        "name": "UAlbany"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/uc-irvine.json"
+      },
+      "team": {
+        "id": "uc-irvine",
+        "name": "UC Irvine"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/uc-san-diego.json"
+      },
+      "team": {
+        "id": "uc-san-diego",
+        "name": "UC San Diego"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/ucla.json"
+      },
+      "team": {
+        "id": "ucla",
+        "name": "UCLA"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/uic.json"
+      },
+      "team": {
+        "id": "uic",
+        "name": "UIC"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/umass-lowell.json"
+      },
+      "team": {
+        "id": "umass-lowell",
+        "name": "UMass Lowell"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/umbc.json"
+      },
+      "team": {
+        "id": "umbc",
+        "name": "UMBC"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/unc-asheville.json"
+      },
+      "team": {
+        "id": "unc-asheville",
+        "name": "UNC Asheville"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/unc-greensboro.json"
+      },
+      "team": {
+        "id": "unc-greensboro",
+        "name": "UNC Greensboro"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/unc-wilmington.json"
+      },
+      "team": {
+        "id": "unc-wilmington",
+        "name": "UNC Wilmington"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/usc.json"
+      },
+      "team": {
+        "id": "usc",
+        "name": "USC"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/usc-upstate.json"
+      },
+      "team": {
+        "id": "usc-upstate",
+        "name": "USC Upstate"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/ut-martin.json"
+      },
+      "team": {
+        "id": "ut-martin",
+        "name": "UT Martin"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/utah.json"
+      },
+      "team": {
+        "id": "utah",
+        "name": "Utah"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/utah-tech.json"
+      },
+      "team": {
+        "id": "utah-tech",
+        "name": "Utah Tech"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/utah-valley.json"
+      },
+      "team": {
+        "id": "utah-valley",
+        "name": "Utah Valley"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/utrgv.json"
+      },
+      "team": {
+        "id": "utrgv",
+        "name": "UTRGV"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/utsa.json"
+      },
+      "team": {
+        "id": "utsa",
+        "name": "UTSA"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/valparaiso.json"
+      },
+      "team": {
+        "id": "valparaiso",
+        "name": "Valparaiso"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/vermont.json"
+      },
+      "team": {
+        "id": "vermont",
+        "name": "Vermont"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/villanova.json"
+      },
+      "team": {
+        "id": "villanova",
+        "name": "Villanova"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/virginia-lynchburg.json"
+      },
+      "team": {
+        "id": "virginia-lynchburg",
+        "name": "Virginia-Lynchburg"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/virginia-tech.json"
+      },
+      "team": {
+        "id": "virginia-tech",
+        "name": "Virginia Tech"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/vmi.json"
+      },
+      "team": {
+        "id": "vmi",
+        "name": "VMI"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/wake-forest.json"
+      },
+      "team": {
+        "id": "wake-forest",
+        "name": "Wake Forest"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/washington-state.json"
+      },
+      "team": {
+        "id": "washington-state",
+        "name": "Washington State"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/west-florida.json"
+      },
+      "team": {
+        "id": "west-florida",
+        "name": "West Florida"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/western-carolina.json"
+      },
+      "team": {
+        "id": "western-carolina",
+        "name": "Western Carolina"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/western-illinois.json"
+      },
+      "team": {
+        "id": "western-illinois",
+        "name": "Western Illinois"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/western-kentucky.json"
+      },
+      "team": {
+        "id": "western-kentucky",
+        "name": "Western Kentucky"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/wichita-state.json"
+      },
+      "team": {
+        "id": "wichita-state",
+        "name": "Wichita State"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/william-mary.json"
+      },
+      "team": {
+        "id": "william-mary",
+        "name": "William & Mary"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/winthrop.json"
+      },
+      "team": {
+        "id": "winthrop",
+        "name": "Winthrop"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/wofford.json"
+      },
+      "team": {
+        "id": "wofford",
+        "name": "Wofford"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/wyoming.json"
+      },
+      "team": {
+        "id": "wyoming",
+        "name": "Wyoming"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/youngstown-state.json"
+      },
+      "team": {
+        "id": "youngstown-state",
+        "name": "Youngstown State"
+      }
+    }
+  ],
+  "timezone": "America/Chicago"
+}

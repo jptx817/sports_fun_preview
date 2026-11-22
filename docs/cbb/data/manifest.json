@@ -1,28 +1,15 @@
 {
   "acquisition": {
+    "additional_projection_status": "withheld_pending_reuse_permission",
     "automatic_refresh": false,
     "displayed_schedule_games": 41,
     "imported_schedule_games": 41,
-    "independent_completeness_check": "not_available_beyond_source_board",
-    "issues": [
-      {
-        "reason": "projection_outside_official_daily_schedule",
-        "teams": [
-          "loyola-chicago",
-          "san-jose-state"
-        ]
-      }
-    ],
-    "market_blocker": "No timestamped DraftKings CSV observation supplied; The Odds API environment key is not configured",
-    "market_source": "manual_csv",
-    "projection_observed_at": "2026-11-22T12:24:09.551Z",
-    "projection_rows_imported": 37,
-    "projections": "manual_rendered_haslametrics",
-    "schedule": "manual_rendered_ncaa_all_conferences",
+    "market_blocker": "Private market observations and derived comparisons withheld; public feed rights unverified",
+    "market_source": "withheld_public_channel",
+    "projections": "allowlisted_haslametrics_scores_only",
     "schedule_observed_at": "2026-11-22T12:24:12.380Z",
     "schedule_source_url": "https://www.ncaa.com/scoreboard/basketball-men/d1/2026/11/22/all-conf",
-    "scope": "all_games_displayed_on_ncaa_D1_board_including_non_D1_opponents",
-    "status": "no_market_observations"
+    "scope": "all_games_displayed_on_ncaa_D1_board_including_non_D1_opponents"
   },
   "conventions": {
     "aggregation": "median_per_independent_system",
@@ -45,8 +32,8 @@
     "draftkings_complete_totals": 0,
     "draftkings_spread_lines": 0,
     "draftkings_total_lines": 0,
-    "eligible_projection_coverage_pct": 90.24,
-    "eligible_projection_games": 37,
+    "eligible_projection_coverage_pct": 88.89,
+    "eligible_projection_games": 8,
     "eligible_three_source_coverage_pct": 0.0,
     "eligible_three_source_games": 0,
     "fresh_spread_comparisons": 0,
@@ -58,10 +45,10 @@
     "missing_market_games": 41,
     "neutral_site_unknown": 4,
     "postponed_games": 0,
-    "pregame_games": 41,
+    "pregame_games": 9,
     "projection_sources": {
       "haslametrics": {
-        "eligible_pregame_games": 37,
+        "eligible_pregame_games": 8,
         "observations": 37
       }
     },
@@ -76,7 +63,7 @@
     "valid_pregame_spreads": 0,
     "valid_pregame_totals": 0
   },
-  "edition_id": "b399f7933faa14eb00f51f17bb20470826dc366ec60acb6e0bc7a4a4788a3f6d",
+  "edition_id": "50a30da60f5c1c2b87e04720947fb9458adacdc93df9fcbfa7c0f4754d4a886e",
   "freshness": {
     "barttorvik": {
       "latest_retrieved_at": null,
@@ -118,7 +105,7 @@
     }
   },
   "game_date": "2026-11-22",
-  "generated_at": "2026-11-22T12:34:28.156386Z",
+  "generated_at": "2026-11-22T22:31:07.073417Z",
   "lifecycle": "Research_observations_no_model",
   "limitations": [
     "Manual input required; no automatic refresh job",
@@ -174,7 +161,7 @@
   "release": {
     "automatic_bets": false,
     "blockers": [
-      "No timestamped DraftKings CSV observation supplied; The Odds API environment key is not configured",
+      "Private market observations and derived comparisons withheld; public feed rights unverified",
       "Three independent same-game projection observations have not been captured",
       "Public downloadable market feed and additional projection redistribution rights remain unverified; restricted observations stay local",
       "Genuine recorded-line settlement/CLV demonstration awaits authorized market observations and later verified finals/closing evidence"
@@ -195,171 +182,1979 @@
   },
   "resources": {
     "data/games/cbb-2027-2026-11-22-alice-lloyd-at-eastern-kentucky.json": {
-      "sha256": "545a25b56927ea024d18e482bd04ca7f1feef5bc9128351964a60e32a6ebbfef",
+      "sha256": "d13c5acf097af468f130e774c9126742d4a68d45a07a8253b1cc4ad38d6ace09",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-alice-lloyd-at-eastern-kentucky.json"
     },
     "data/games/cbb-2027-2026-11-22-cal-state-fullerton-at-portland-state.json": {
-      "sha256": "409e4ff52d5a3dc53b94988468552c543a3f2d23e413c3194bc3f553bef37e6f",
+      "sha256": "3f61de84e829a9f083cc11a44b5bd44d5419e265d1e0c01371f20ef944113558",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-cal-state-fullerton-at-portland-state.json"
     },
     "data/games/cbb-2027-2026-11-22-chicago-state-at-marquette.json": {
-      "sha256": "e2df8cc2fab1a76fc14f2b1a0a797c3edb930b94b181081f614b6b39498b6de3",
+      "sha256": "8e3efeabceee7fbe84394af8770d2197810abff21f8a9d3f39955886a50f3c3d",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-chicago-state-at-marquette.json"
     },
     "data/games/cbb-2027-2026-11-22-dayton-at-northwestern.json": {
-      "sha256": "2d9a2adf88f22c65690bd043db44d4b35da7ce0b87e5f2b7da5f64d65f8841b4",
+      "sha256": "9cb47733de8721874f6f02aa661722b02fcdbd0e52460ef9a6f458897cb239a3",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-dayton-at-northwestern.json"
     },
     "data/games/cbb-2027-2026-11-22-delaware-at-ucla.json": {
-      "sha256": "8fe422ff4829e4ba73ecbd31d7710c0e16ea77da3610fc2a99db8c58fbbde920",
+      "sha256": "71c27dd5b0ff1653ad07da10782db52265b280ed542fd5669917d080be64c25d",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-delaware-at-ucla.json"
     },
     "data/games/cbb-2027-2026-11-22-evansville-at-memphis.json": {
-      "sha256": "0e8fc8328f22ba88ec1d763d0920aa39fd61ac74808628a21bc30d3c7f3967ca",
+      "sha256": "4a8d548877b3b7593d3f5aa4bd731494e2b333603980f497abc68eb7019fc552",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-evansville-at-memphis.json"
     },
     "data/games/cbb-2027-2026-11-22-fairfield-at-liu.json": {
-      "sha256": "0981af1b0481c0a659ddf206fdb91f8b3b3af63988534416585a01fba8623285",
+      "sha256": "2d3a3f55cfaf6ae2a9e05a03a5378c6ee23062f9865d92f5a95ec15af2d5d896",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-fairfield-at-liu.json"
     },
     "data/games/cbb-2027-2026-11-22-fordham-at-san-diego.json": {
-      "sha256": "1768568eb0feb75b2985702040f1edc1879c2fce38aa76e2837840b4a4faf9dd",
+      "sha256": "a248e9bbabdff3669b2f330192d81824e4e45ffbcba87ae9454ad71a442cae9b",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-fordham-at-san-diego.json"
     },
     "data/games/cbb-2027-2026-11-22-george-washington-at-western-kentucky.json": {
-      "sha256": "483bdda796e59747aa6575d54acd2abc9615ed8b3df965c9840cdb0fa0e35515",
+      "sha256": "4254765a9a5c560684dfeaad79e7ffa41ec27a3e52023449c1ce095c54eb8f88",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-george-washington-at-western-kentucky.json"
     },
     "data/games/cbb-2027-2026-11-22-iu-indianapolis-at-maryland-eastern-shore.json": {
-      "sha256": "bda4ab613af7e06c57a3c4c2ada2c88848527212b4ff2e7d5bf2d01348c66989",
+      "sha256": "ecb633dac8f991c1b87a6ec1b7c71177c1974315a0e41553b2cd1ef8e11cc22c",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-iu-indianapolis-at-maryland-eastern-shore.json"
     },
     "data/games/cbb-2027-2026-11-22-lamar-at-rice.json": {
-      "sha256": "b41e5129465740639e9deb434fc13aeaad58830d5d96b841ad5dd82587534a15",
+      "sha256": "138bb75ca1972567dd15061b9e40cbd9fb01ce934a3b3c6819490876c502c7f3",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-lamar-at-rice.json"
     },
     "data/games/cbb-2027-2026-11-22-lancaster-bible-at-umbc.json": {
-      "sha256": "a3790f84d7649ead98694cebf2ead475319815786001929a122e33a38620dba9",
+      "sha256": "021c7e117833423ecc01e71c6701de34ca1692df9975fa06810f74d4dcf6fbc3",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-lancaster-bible-at-umbc.json"
     },
     "data/games/cbb-2027-2026-11-22-louisiana-at-usc.json": {
-      "sha256": "3b00a998ae28e809815f367ace1ed67d7ee41aa91a4ee97e0175d48467fdf6e1",
+      "sha256": "6922ca4176aa599ce03fbd11f9b2d1dec9fd8c6743f4d908b495f524b31818fb",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-louisiana-at-usc.json"
     },
     "data/games/cbb-2027-2026-11-22-mcneese-at-texas-state.json": {
-      "sha256": "73b62366cb7771961a77809b13e54372c0439194ee9a3f2c66ea496fbf0d35da",
+      "sha256": "e6153dc64cdda690f460f688c9edd95ca052d047e53f37e6a77006fe32423584",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-mcneese-at-texas-state.json"
     },
     "data/games/cbb-2027-2026-11-22-menlo-at-saint-marys-ca.json": {
-      "sha256": "0a2455175b11deb42f9c48ce75880184f7f52874fdaffcdc879f66bdff7d8741",
+      "sha256": "33a576881a7b2955f85c7161bf792354ef40a2863ce927ac5de9ff828149e24b",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-menlo-at-saint-marys-ca.json"
     },
     "data/games/cbb-2027-2026-11-22-mercyhurst-at-ualbany.json": {
-      "sha256": "1c0f1d846a8a3221ec9f028e2aaaa821a552dff4718d332a97391013c586e9d5",
+      "sha256": "65640bd63d0f7fd487716f00f6dbf8e28012e14a935e7173199f0ebfd2ad0f1c",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-mercyhurst-at-ualbany.json"
     },
     "data/games/cbb-2027-2026-11-22-miami-oh-at-uic.json": {
-      "sha256": "9c0b42391972ab0d75c8f187afab18e1694e7a69ac8ff596198bcb279db91aec",
+      "sha256": "d93c5e72ec44460f89cfc8b103aaa7f43e17e2db62db852050e457eee4cc4ab6",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-miami-oh-at-uic.json"
     },
     "data/games/cbb-2027-2026-11-22-milligan-at-lipscomb.json": {
-      "sha256": "a196fd9364426127036c932ea0c3e0262a4fb970f7ae9c18b1af85679269ddc5",
+      "sha256": "2de8dba4e2376e5edefe93a0a71ad295f3aa8dff18a12b2db077239f87d14073",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-milligan-at-lipscomb.json"
     },
     "data/games/cbb-2027-2026-11-22-minnesota-at-utah.json": {
-      "sha256": "a113662be18d20c5a7c7a7f0e3ef5cef6839e780c6e97376fe597d22ddaee789",
+      "sha256": "20d32e7916237544c7f8793519b2e6da09288a8fcf6e6523ac4d07227524c7ad",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-minnesota-at-utah.json"
     },
     "data/games/cbb-2027-2026-11-22-nebraska-at-butler.json": {
-      "sha256": "ce40da90e0bbca77695266a06c3172ba0e598a0b35230f61e3cc4b7d823b435b",
+      "sha256": "14eaaeadec39ec66a1216295323fde5c32c699d1fbd84da7a84a74f9011d4ebe",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-nebraska-at-butler.json"
     },
     "data/games/cbb-2027-2026-11-22-new-mexico-state-at-robert-morris.json": {
-      "sha256": "4859d2462cec7ef900b7b383f85069a5d525a5aa086eba6bb051598cf5051130",
+      "sha256": "75e2b0d2e26c155e9eb996d69fcbba27459fc66a58f5d537d28960429703ac75",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-new-mexico-state-at-robert-morris.json"
     },
     "data/games/cbb-2027-2026-11-22-njit-at-boston-college.json": {
-      "sha256": "abfd991c0021ae96a9a9468e1ca92bea6e93967927ce0a154c35a16969210f61",
+      "sha256": "c832b8470a8fb7a760afa587d5f0347947752c7d40e66273a695e6c1f68bb30c",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-njit-at-boston-college.json"
     },
     "data/games/cbb-2027-2026-11-22-oklahoma-state-at-virginia-tech.json": {
-      "sha256": "1ea0475ca97169ea4bd8697aebbbed295d6f52f9d132163ae59b9fcc0cffcdcc",
+      "sha256": "a4a996c5c668c87592c460574543162ba445e2e3bf41e331b1d3e5032d6582d2",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-oklahoma-state-at-virginia-tech.json"
     },
     "data/games/cbb-2027-2026-11-22-portland-at-california-baptist.json": {
-      "sha256": "4b26bb63aaf994dd9623c4c908aeb882a0794df651eba563a0467bd09ef45489",
+      "sha256": "ecd7fedd1ebb2a7697f707fda88ef3e315e14f17e7670c05bfee6408b34ae1e3",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-portland-at-california-baptist.json"
     },
     "data/games/cbb-2027-2026-11-22-rhode-island-at-uab.json": {
-      "sha256": "0baf42062ec5006c8e0fd752d967ed2b3e1f7559d57b84a8e29142abaedc5149",
+      "sha256": "fab423df11e39f596c652b96bb003ef0bad592788d09ed859b9b49fdebbaa580",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-rhode-island-at-uab.json"
     },
     "data/games/cbb-2027-2026-11-22-richmond-at-liberty.json": {
-      "sha256": "b1e6c089cd2f658e29ffa8d2823842555cfcab5e832101d0e57d28162c8bec97",
+      "sha256": "2d55feda8ad7d732944bea7eebc05a814fa2d0e4bf9b17efe5b57b00bf83d5f3",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-richmond-at-liberty.json"
     },
     "data/games/cbb-2027-2026-11-22-southern-indiana-at-texas.json": {
-      "sha256": "32c738389e78cb8dfdc36ec633543e2d1f92c050229e9f15677d9b4aae6508f6",
+      "sha256": "0865771515901b45b6f71e58de5a0b2f2a659fd61e03995863057d2f402687b9",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-southern-indiana-at-texas.json"
     },
     "data/games/cbb-2027-2026-11-22-temple-at-stephen-f-austin.json": {
-      "sha256": "c392b716a07d014a73577910c1f9f6fe46414debe35e9a76d7ddc28107f33c66",
+      "sha256": "d211f902db72b5df6b12a45e3fa872aee6ddba0744f62f3cbfd50707f4e7f581",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-temple-at-stephen-f-austin.json"
     },
     "data/games/cbb-2027-2026-11-22-towson-at-american.json": {
-      "sha256": "439e067163da1cdd0c7a6b8f7d2cd5caea95a8cd3ec3eb6cb281fa9fc6add3a7",
+      "sha256": "3c5e9bf45bbbe65a703078eacfc697ccb3fabee5d12217f82088d7dbacf7ec2a",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-towson-at-american.json"
     },
     "data/games/cbb-2027-2026-11-22-troy-at-nicholls.json": {
-      "sha256": "5f72c1775f4d5725bc03ebf7f90b612b71db1c995e07188ce9a5c38c913e608d",
+      "sha256": "a6a2555f3be7462444b84535c7300f2705aa10fb06bdb0c80edf3d8cf5d2b5b4",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-troy-at-nicholls.json"
     },
     "data/games/cbb-2027-2026-11-22-uc-irvine-at-loyola-marymount.json": {
-      "sha256": "8de9378e3e77d215d2fb255b8128acbb5cda711beeec7b05ab6c6206cde5a572",
+      "sha256": "fde6ace1da3225fe02686863e1a50447f52dcb8c48db7f8374449778f50b5a78",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-uc-irvine-at-loyola-marymount.json"
     },
     "data/games/cbb-2027-2026-11-22-uc-san-diego-at-seattle.json": {
-      "sha256": "b7926a53d864078df774b1c9dc52b9c4660f8d7087b9b42477433c4d9a3b798b",
+      "sha256": "0665723559b497a0eae5e83043ada4b96d1bc08df0436b200b8ae82edf495e5c",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-uc-san-diego-at-seattle.json"
     },
     "data/games/cbb-2027-2026-11-22-umass-lowell-at-cincinnati.json": {
-      "sha256": "aeb822784bdcc1561634e01d7457e9928d5ed2d205debed1fa4de3e0b014477a",
+      "sha256": "87d5c4b5e6d5cef5ca9062d42dd5edf238d5b5c895baff58ae6bcfa2e2e71df5",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-umass-lowell-at-cincinnati.json"
     },
     "data/games/cbb-2027-2026-11-22-unc-asheville-at-samford.json": {
-      "sha256": "cdedd998f418c1c3e8a8d68b5dc110470dd5e7ca0ec05e23da982c6a756cfead",
+      "sha256": "2a3e88f6f01538a3ee55bab9c1d35385881fd221fe1faf8fb2b938fb86ec29de",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-unc-asheville-at-samford.json"
     },
     "data/games/cbb-2027-2026-11-22-utah-tech-at-south-dakota.json": {
-      "sha256": "c1d7dc7b25ccab8f7a4112c4456f0a7114af3d56326435e9098e911ba6449c43",
+      "sha256": "c1840f6accbb09edc55c36c8d96dd444292353347b6242ad3db8038403c31d58",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-utah-tech-at-south-dakota.json"
     },
     "data/games/cbb-2027-2026-11-22-utah-valley-at-ut-martin.json": {
-      "sha256": "4e2b52738f480d68866c6aadb94b9c020df15d67d7830711fe5f9f3e05d3eb1f",
+      "sha256": "8e38dd348cf191910828f0e069f1e004f5c2096bf6063de453fbc86959d71d6c",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-utah-valley-at-ut-martin.json"
     },
     "data/games/cbb-2027-2026-11-22-valparaiso-at-southern-miss.json": {
-      "sha256": "2a3b2ccf24aded8510b346b0d7cf2de02eb89cf32c3f1310d5bb5bb03139e0f4",
+      "sha256": "a331b8acd743462770cc60c9972fc7ff63c54a402bd14577152ff8e25c0c01ec",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-valparaiso-at-southern-miss.json"
     },
     "data/games/cbb-2027-2026-11-22-west-florida-at-south-alabama.json": {
-      "sha256": "6fe3c0a4b463c1c026a1cc5b945a85e41515c1b03fd26ece065b99ff1a2ef6dc",
+      "sha256": "dc0bbc34463c1cbf325dbba627d05391cc23a4a9de0b4cfe1aa9a57fc5c4659e",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-west-florida-at-south-alabama.json"
     },
     "data/games/cbb-2027-2026-11-22-western-illinois-at-canisius.json": {
-      "sha256": "797068ab8852a3e74746308a9c4f7e9128bece644d3dfcfabe8a81a69461a99e",
+      "sha256": "bbf8c4ffd0ad23014059384a4232b00c665c3bec24a4e267cf128f48ecb543e3",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-western-illinois-at-canisius.json"
     },
     "data/games/cbb-2027-2026-11-22-william-mary-at-youngstown-state.json": {
-      "sha256": "7a434914cd5942c9bd94ab77f9e094064b0f37734d8d8220fad5341c6924b0c8",
+      "sha256": "cac8dd4dd219aa556d2fd6c1990bc662c9647e5b5fa7bd0f91dacb2a5b4b88ec",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-william-mary-at-youngstown-state.json"
     },
     "data/games/cbb-2027-2026-11-22-wyoming-at-duquesne.json": {
-      "sha256": "6d0aa2b13bd9941d672e47ad4f7c2dc04c7b6c41b867c2169acc42cf41f4f0f9",
+      "sha256": "d2d68d7184b210a252ac91833c14f6317f4fceadde79f97322a601a43bb52a63",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-22-wyoming-at-duquesne.json"
     },
+    "data/intelligence/board.json": {
+      "sha256": "1917873d48dc64bc6d2dc2192a06255d4d7c52fb3e3070248934f9ff0a835033",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/board.json"
+    },
+    "data/intelligence/catalog.json": {
+      "sha256": "881f19207fb03b0b71e4afbf69155a45d9616a9f141d5e9d7607c85af452b7b4",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/catalog.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-alice-lloyd-at-eastern-kentucky.json": {
+      "sha256": "215ac6a168672ae03d98c712927116ddc01104ce9577a45dc07e423f3fc19757",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-alice-lloyd-at-eastern-kentucky.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-cal-state-fullerton-at-portland-state.json": {
+      "sha256": "7cca614604afc279e63bc5f3defa47473719371ae15c2f6297c61e290606d309",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-cal-state-fullerton-at-portland-state.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-chicago-state-at-marquette.json": {
+      "sha256": "c0eb2d4035ea83efde8004986456737c17c4ddfc72c6dfd92337d696bddb3fed",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-chicago-state-at-marquette.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-dayton-at-northwestern.json": {
+      "sha256": "c6dfc5e253ad74a13781811778fc201001ee36b6957885315e0d75ab3adb894e",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-dayton-at-northwestern.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-delaware-at-ucla.json": {
+      "sha256": "5efc1eb8da838eaf76dc4f418cf3c05d52f2bb9fb9c43cc04acec01c4e53d32c",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-delaware-at-ucla.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-evansville-at-memphis.json": {
+      "sha256": "c17572f952a260371a3ddfc8222ca250a5d4cdca9fa2e1bba35579d03cae25e2",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-evansville-at-memphis.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-fairfield-at-liu.json": {
+      "sha256": "ab7186464e3abd470d553e83a6ded418a4203287dff06fa6718fc86c1ab0b610",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-fairfield-at-liu.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-fordham-at-san-diego.json": {
+      "sha256": "b0c260b28553b7482a348f6bc396a8c791fc766998a6d365685a8d32a89ed607",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-fordham-at-san-diego.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-george-washington-at-western-kentucky.json": {
+      "sha256": "f3e5f3d6ade77055a3d1864d36b25e172a65ed161892c01b2b6f779009588eb4",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-george-washington-at-western-kentucky.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-iu-indianapolis-at-maryland-eastern-shore.json": {
+      "sha256": "6bbaa8e0a8198f83442c4b0c2de1e7ad1717a1d0ee27dc2e2d3f576d73d4308f",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-iu-indianapolis-at-maryland-eastern-shore.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-lamar-at-rice.json": {
+      "sha256": "adb6105b3e8121a894ceecc852f580cc4eb267d4cf2924fbcf9a51577e899fb1",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-lamar-at-rice.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-lancaster-bible-at-umbc.json": {
+      "sha256": "838ca05b2ca0df1dec26687519f11dbc760516e6e89fe038688e04edc1a6e86c",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-lancaster-bible-at-umbc.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-louisiana-at-usc.json": {
+      "sha256": "c252a247f548f1717c73839cd04851d3476d7a42bdb2c470b604c1d45dc13a7a",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-louisiana-at-usc.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-mcneese-at-texas-state.json": {
+      "sha256": "252ae86818f43220f03db8b290df29610b4ee69aeec637d17a3b6717e0c154bd",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-mcneese-at-texas-state.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-menlo-at-saint-marys-ca.json": {
+      "sha256": "b9e17757e50ef80b1b56ecc66261b79941c42ae7ab33fdee2d5515a0ace8770b",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-menlo-at-saint-marys-ca.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-mercyhurst-at-ualbany.json": {
+      "sha256": "e7182cbae09ca3bd375c0f41042cb6e34afbc938455413d65dd11d58b51a89d3",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-mercyhurst-at-ualbany.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-miami-oh-at-uic.json": {
+      "sha256": "ce28f98134dc415ae00be4118edd5a5620cf886fb11447d4c80c0e8f19be695c",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-miami-oh-at-uic.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-milligan-at-lipscomb.json": {
+      "sha256": "c39752470f3b0bd0bfa5b2ab06027b1a8dbd04be4b735d7f22dc46b52cd5edd2",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-milligan-at-lipscomb.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-minnesota-at-utah.json": {
+      "sha256": "691c34060e718a3a400a470ace58739737c124b176c4b27eefa986b3a8e0fca3",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-minnesota-at-utah.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-nebraska-at-butler.json": {
+      "sha256": "c4f7d4dcff950cb4ddbcfbb5b6d2d6777fe55e87a1b9471f957ccb4c95551336",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-nebraska-at-butler.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-new-mexico-state-at-robert-morris.json": {
+      "sha256": "efb5a71c426126ee73aa47542e7e999dc7b14f38f2e50ddbdd785ada5dc7d445",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-new-mexico-state-at-robert-morris.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-njit-at-boston-college.json": {
+      "sha256": "c4580220224521532120b5b9ed0d4709eb4bc67e495ad0511c6dcab0edd44863",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-njit-at-boston-college.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-oklahoma-state-at-virginia-tech.json": {
+      "sha256": "9614b52dcffe59d91a4bc3206e70aeaede0e8f88cc9e3a9fbc79f4be34574289",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-oklahoma-state-at-virginia-tech.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-portland-at-california-baptist.json": {
+      "sha256": "325d4bb7f04d8473c8432d8207739eaee85635275aafb85483c108e0aa5e5f31",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-portland-at-california-baptist.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-rhode-island-at-uab.json": {
+      "sha256": "cc712c0a8b860eb4e9752b7e2d6fc51410e0bc723c761eb837e5b53dbd3af6d5",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-rhode-island-at-uab.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-richmond-at-liberty.json": {
+      "sha256": "db04e5c5f75808c04e823dfc8de470ee1b6fc303fcc013fd32e91146f56c038e",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-richmond-at-liberty.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-southern-indiana-at-texas.json": {
+      "sha256": "68945ba8df799f7938532266358ad3fdfd1051d88e4821233f33bb375e5b3efc",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-southern-indiana-at-texas.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-temple-at-stephen-f-austin.json": {
+      "sha256": "07b64512a442dce6f4a6283c208d11164d9f3dcdb43ad3cce03198158e9a9a98",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-temple-at-stephen-f-austin.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-towson-at-american.json": {
+      "sha256": "ccd6d45523756306a2417dab4659b785afd357979bae6d43aa4a73cad902b19f",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-towson-at-american.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-troy-at-nicholls.json": {
+      "sha256": "0fb9b6285e6f81317ecf2ed478ddb0b701f04b35c9934d9f1609fadfa75aa02b",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-troy-at-nicholls.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-uc-irvine-at-loyola-marymount.json": {
+      "sha256": "9fbe361f947439bdd6c0bfba2fa9d27b2755501985ec56e317349603f6755084",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-uc-irvine-at-loyola-marymount.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-uc-san-diego-at-seattle.json": {
+      "sha256": "379e5c76427cfca75c401916f80f2479674ffaa54cb0dff780df4f2ea3003d54",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-uc-san-diego-at-seattle.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-umass-lowell-at-cincinnati.json": {
+      "sha256": "872af74a1274dbed85260e7b4d745fcc4e9e2d6069201928433cee3d2b383e0f",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-umass-lowell-at-cincinnati.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-unc-asheville-at-samford.json": {
+      "sha256": "1d3dd464b065d9c4520df2a5053c5b0e9cd5976e500139a158d9f095c2a496c5",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-unc-asheville-at-samford.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-utah-tech-at-south-dakota.json": {
+      "sha256": "3c1dbf090803781005e3425ccea0cb053d7b4dc4f58778b1485033641bd3bc94",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-utah-tech-at-south-dakota.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-utah-valley-at-ut-martin.json": {
+      "sha256": "b552befff243a1714db56d0be8785fa118809b495847883a6169195d848b85d5",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-utah-valley-at-ut-martin.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-valparaiso-at-southern-miss.json": {
+      "sha256": "8122c2a09bd8c6779291156c64cc1ecca42e2dd3607a5baeaad3317acd534ae7",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-valparaiso-at-southern-miss.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-west-florida-at-south-alabama.json": {
+      "sha256": "8dd1a7dfb0716a733075adda221134edd121d0e225e9690524733237bcffc416",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-west-florida-at-south-alabama.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-western-illinois-at-canisius.json": {
+      "sha256": "f01d25b3f94273a485add6b9803cd2f2a40e7a3eb062142ec9460df1f2ca476b",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-western-illinois-at-canisius.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-william-mary-at-youngstown-state.json": {
+      "sha256": "10f8ec8fe79f17b30091cb9daefcbf41f33a45ed9ebed78bf216194c171cacae",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-william-mary-at-youngstown-state.json"
+    },
+    "data/intelligence/games/cbb-2027-2026-11-22-wyoming-at-duquesne.json": {
+      "sha256": "8fb5aa0504db7fc720911bb7268627d75fe88eccfb05e01c48afafa7873fea18",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/games/cbb-2027-2026-11-22-wyoming-at-duquesne.json"
+    },
+    "data/intelligence/history/editions/e309d63d715972c7d2a34e0a66b9a8280660072eb950587d8971badae143f35a.json": {
+      "sha256": "e8733d3aac913696563c7be94909936235da14cc596eae8843b3f7c880091c55",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/editions/e309d63d715972c7d2a34e0a66b9a8280660072eb950587d8971badae143f35a.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-alice-lloyd-at-eastern-kentucky/215ac6a168672ae03d98c712927116ddc01104ce9577a45dc07e423f3fc19757.json": {
+      "sha256": "215ac6a168672ae03d98c712927116ddc01104ce9577a45dc07e423f3fc19757",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-alice-lloyd-at-eastern-kentucky/215ac6a168672ae03d98c712927116ddc01104ce9577a45dc07e423f3fc19757.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-cal-state-fullerton-at-portland-state/7cca614604afc279e63bc5f3defa47473719371ae15c2f6297c61e290606d309.json": {
+      "sha256": "7cca614604afc279e63bc5f3defa47473719371ae15c2f6297c61e290606d309",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-cal-state-fullerton-at-portland-state/7cca614604afc279e63bc5f3defa47473719371ae15c2f6297c61e290606d309.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-chicago-state-at-marquette/c0eb2d4035ea83efde8004986456737c17c4ddfc72c6dfd92337d696bddb3fed.json": {
+      "sha256": "c0eb2d4035ea83efde8004986456737c17c4ddfc72c6dfd92337d696bddb3fed",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-chicago-state-at-marquette/c0eb2d4035ea83efde8004986456737c17c4ddfc72c6dfd92337d696bddb3fed.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-dayton-at-northwestern/c6dfc5e253ad74a13781811778fc201001ee36b6957885315e0d75ab3adb894e.json": {
+      "sha256": "c6dfc5e253ad74a13781811778fc201001ee36b6957885315e0d75ab3adb894e",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-dayton-at-northwestern/c6dfc5e253ad74a13781811778fc201001ee36b6957885315e0d75ab3adb894e.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-delaware-at-ucla/5efc1eb8da838eaf76dc4f418cf3c05d52f2bb9fb9c43cc04acec01c4e53d32c.json": {
+      "sha256": "5efc1eb8da838eaf76dc4f418cf3c05d52f2bb9fb9c43cc04acec01c4e53d32c",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-delaware-at-ucla/5efc1eb8da838eaf76dc4f418cf3c05d52f2bb9fb9c43cc04acec01c4e53d32c.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-evansville-at-memphis/c17572f952a260371a3ddfc8222ca250a5d4cdca9fa2e1bba35579d03cae25e2.json": {
+      "sha256": "c17572f952a260371a3ddfc8222ca250a5d4cdca9fa2e1bba35579d03cae25e2",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-evansville-at-memphis/c17572f952a260371a3ddfc8222ca250a5d4cdca9fa2e1bba35579d03cae25e2.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-fairfield-at-liu/ab7186464e3abd470d553e83a6ded418a4203287dff06fa6718fc86c1ab0b610.json": {
+      "sha256": "ab7186464e3abd470d553e83a6ded418a4203287dff06fa6718fc86c1ab0b610",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-fairfield-at-liu/ab7186464e3abd470d553e83a6ded418a4203287dff06fa6718fc86c1ab0b610.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-fordham-at-san-diego/b0c260b28553b7482a348f6bc396a8c791fc766998a6d365685a8d32a89ed607.json": {
+      "sha256": "b0c260b28553b7482a348f6bc396a8c791fc766998a6d365685a8d32a89ed607",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-fordham-at-san-diego/b0c260b28553b7482a348f6bc396a8c791fc766998a6d365685a8d32a89ed607.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-george-washington-at-western-kentucky/f3e5f3d6ade77055a3d1864d36b25e172a65ed161892c01b2b6f779009588eb4.json": {
+      "sha256": "f3e5f3d6ade77055a3d1864d36b25e172a65ed161892c01b2b6f779009588eb4",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-george-washington-at-western-kentucky/f3e5f3d6ade77055a3d1864d36b25e172a65ed161892c01b2b6f779009588eb4.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-iu-indianapolis-at-maryland-eastern-shore/6bbaa8e0a8198f83442c4b0c2de1e7ad1717a1d0ee27dc2e2d3f576d73d4308f.json": {
+      "sha256": "6bbaa8e0a8198f83442c4b0c2de1e7ad1717a1d0ee27dc2e2d3f576d73d4308f",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-iu-indianapolis-at-maryland-eastern-shore/6bbaa8e0a8198f83442c4b0c2de1e7ad1717a1d0ee27dc2e2d3f576d73d4308f.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-lamar-at-rice/adb6105b3e8121a894ceecc852f580cc4eb267d4cf2924fbcf9a51577e899fb1.json": {
+      "sha256": "adb6105b3e8121a894ceecc852f580cc4eb267d4cf2924fbcf9a51577e899fb1",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-lamar-at-rice/adb6105b3e8121a894ceecc852f580cc4eb267d4cf2924fbcf9a51577e899fb1.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-lancaster-bible-at-umbc/838ca05b2ca0df1dec26687519f11dbc760516e6e89fe038688e04edc1a6e86c.json": {
+      "sha256": "838ca05b2ca0df1dec26687519f11dbc760516e6e89fe038688e04edc1a6e86c",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-lancaster-bible-at-umbc/838ca05b2ca0df1dec26687519f11dbc760516e6e89fe038688e04edc1a6e86c.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-louisiana-at-usc/c252a247f548f1717c73839cd04851d3476d7a42bdb2c470b604c1d45dc13a7a.json": {
+      "sha256": "c252a247f548f1717c73839cd04851d3476d7a42bdb2c470b604c1d45dc13a7a",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-louisiana-at-usc/c252a247f548f1717c73839cd04851d3476d7a42bdb2c470b604c1d45dc13a7a.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-mcneese-at-texas-state/252ae86818f43220f03db8b290df29610b4ee69aeec637d17a3b6717e0c154bd.json": {
+      "sha256": "252ae86818f43220f03db8b290df29610b4ee69aeec637d17a3b6717e0c154bd",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-mcneese-at-texas-state/252ae86818f43220f03db8b290df29610b4ee69aeec637d17a3b6717e0c154bd.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-menlo-at-saint-marys-ca/b9e17757e50ef80b1b56ecc66261b79941c42ae7ab33fdee2d5515a0ace8770b.json": {
+      "sha256": "b9e17757e50ef80b1b56ecc66261b79941c42ae7ab33fdee2d5515a0ace8770b",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-menlo-at-saint-marys-ca/b9e17757e50ef80b1b56ecc66261b79941c42ae7ab33fdee2d5515a0ace8770b.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-mercyhurst-at-ualbany/e7182cbae09ca3bd375c0f41042cb6e34afbc938455413d65dd11d58b51a89d3.json": {
+      "sha256": "e7182cbae09ca3bd375c0f41042cb6e34afbc938455413d65dd11d58b51a89d3",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-mercyhurst-at-ualbany/e7182cbae09ca3bd375c0f41042cb6e34afbc938455413d65dd11d58b51a89d3.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-miami-oh-at-uic/ce28f98134dc415ae00be4118edd5a5620cf886fb11447d4c80c0e8f19be695c.json": {
+      "sha256": "ce28f98134dc415ae00be4118edd5a5620cf886fb11447d4c80c0e8f19be695c",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-miami-oh-at-uic/ce28f98134dc415ae00be4118edd5a5620cf886fb11447d4c80c0e8f19be695c.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-milligan-at-lipscomb/c39752470f3b0bd0bfa5b2ab06027b1a8dbd04be4b735d7f22dc46b52cd5edd2.json": {
+      "sha256": "c39752470f3b0bd0bfa5b2ab06027b1a8dbd04be4b735d7f22dc46b52cd5edd2",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-milligan-at-lipscomb/c39752470f3b0bd0bfa5b2ab06027b1a8dbd04be4b735d7f22dc46b52cd5edd2.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-minnesota-at-utah/691c34060e718a3a400a470ace58739737c124b176c4b27eefa986b3a8e0fca3.json": {
+      "sha256": "691c34060e718a3a400a470ace58739737c124b176c4b27eefa986b3a8e0fca3",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-minnesota-at-utah/691c34060e718a3a400a470ace58739737c124b176c4b27eefa986b3a8e0fca3.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-nebraska-at-butler/c4f7d4dcff950cb4ddbcfbb5b6d2d6777fe55e87a1b9471f957ccb4c95551336.json": {
+      "sha256": "c4f7d4dcff950cb4ddbcfbb5b6d2d6777fe55e87a1b9471f957ccb4c95551336",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-nebraska-at-butler/c4f7d4dcff950cb4ddbcfbb5b6d2d6777fe55e87a1b9471f957ccb4c95551336.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-new-mexico-state-at-robert-morris/efb5a71c426126ee73aa47542e7e999dc7b14f38f2e50ddbdd785ada5dc7d445.json": {
+      "sha256": "efb5a71c426126ee73aa47542e7e999dc7b14f38f2e50ddbdd785ada5dc7d445",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-new-mexico-state-at-robert-morris/efb5a71c426126ee73aa47542e7e999dc7b14f38f2e50ddbdd785ada5dc7d445.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-njit-at-boston-college/c4580220224521532120b5b9ed0d4709eb4bc67e495ad0511c6dcab0edd44863.json": {
+      "sha256": "c4580220224521532120b5b9ed0d4709eb4bc67e495ad0511c6dcab0edd44863",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-njit-at-boston-college/c4580220224521532120b5b9ed0d4709eb4bc67e495ad0511c6dcab0edd44863.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-oklahoma-state-at-virginia-tech/9614b52dcffe59d91a4bc3206e70aeaede0e8f88cc9e3a9fbc79f4be34574289.json": {
+      "sha256": "9614b52dcffe59d91a4bc3206e70aeaede0e8f88cc9e3a9fbc79f4be34574289",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-oklahoma-state-at-virginia-tech/9614b52dcffe59d91a4bc3206e70aeaede0e8f88cc9e3a9fbc79f4be34574289.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-portland-at-california-baptist/325d4bb7f04d8473c8432d8207739eaee85635275aafb85483c108e0aa5e5f31.json": {
+      "sha256": "325d4bb7f04d8473c8432d8207739eaee85635275aafb85483c108e0aa5e5f31",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-portland-at-california-baptist/325d4bb7f04d8473c8432d8207739eaee85635275aafb85483c108e0aa5e5f31.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-rhode-island-at-uab/cc712c0a8b860eb4e9752b7e2d6fc51410e0bc723c761eb837e5b53dbd3af6d5.json": {
+      "sha256": "cc712c0a8b860eb4e9752b7e2d6fc51410e0bc723c761eb837e5b53dbd3af6d5",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-rhode-island-at-uab/cc712c0a8b860eb4e9752b7e2d6fc51410e0bc723c761eb837e5b53dbd3af6d5.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-richmond-at-liberty/db04e5c5f75808c04e823dfc8de470ee1b6fc303fcc013fd32e91146f56c038e.json": {
+      "sha256": "db04e5c5f75808c04e823dfc8de470ee1b6fc303fcc013fd32e91146f56c038e",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-richmond-at-liberty/db04e5c5f75808c04e823dfc8de470ee1b6fc303fcc013fd32e91146f56c038e.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-southern-indiana-at-texas/68945ba8df799f7938532266358ad3fdfd1051d88e4821233f33bb375e5b3efc.json": {
+      "sha256": "68945ba8df799f7938532266358ad3fdfd1051d88e4821233f33bb375e5b3efc",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-southern-indiana-at-texas/68945ba8df799f7938532266358ad3fdfd1051d88e4821233f33bb375e5b3efc.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-temple-at-stephen-f-austin/07b64512a442dce6f4a6283c208d11164d9f3dcdb43ad3cce03198158e9a9a98.json": {
+      "sha256": "07b64512a442dce6f4a6283c208d11164d9f3dcdb43ad3cce03198158e9a9a98",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-temple-at-stephen-f-austin/07b64512a442dce6f4a6283c208d11164d9f3dcdb43ad3cce03198158e9a9a98.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-towson-at-american/ccd6d45523756306a2417dab4659b785afd357979bae6d43aa4a73cad902b19f.json": {
+      "sha256": "ccd6d45523756306a2417dab4659b785afd357979bae6d43aa4a73cad902b19f",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-towson-at-american/ccd6d45523756306a2417dab4659b785afd357979bae6d43aa4a73cad902b19f.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-troy-at-nicholls/0fb9b6285e6f81317ecf2ed478ddb0b701f04b35c9934d9f1609fadfa75aa02b.json": {
+      "sha256": "0fb9b6285e6f81317ecf2ed478ddb0b701f04b35c9934d9f1609fadfa75aa02b",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-troy-at-nicholls/0fb9b6285e6f81317ecf2ed478ddb0b701f04b35c9934d9f1609fadfa75aa02b.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-uc-irvine-at-loyola-marymount/9fbe361f947439bdd6c0bfba2fa9d27b2755501985ec56e317349603f6755084.json": {
+      "sha256": "9fbe361f947439bdd6c0bfba2fa9d27b2755501985ec56e317349603f6755084",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-uc-irvine-at-loyola-marymount/9fbe361f947439bdd6c0bfba2fa9d27b2755501985ec56e317349603f6755084.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-uc-san-diego-at-seattle/379e5c76427cfca75c401916f80f2479674ffaa54cb0dff780df4f2ea3003d54.json": {
+      "sha256": "379e5c76427cfca75c401916f80f2479674ffaa54cb0dff780df4f2ea3003d54",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-uc-san-diego-at-seattle/379e5c76427cfca75c401916f80f2479674ffaa54cb0dff780df4f2ea3003d54.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-umass-lowell-at-cincinnati/872af74a1274dbed85260e7b4d745fcc4e9e2d6069201928433cee3d2b383e0f.json": {
+      "sha256": "872af74a1274dbed85260e7b4d745fcc4e9e2d6069201928433cee3d2b383e0f",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-umass-lowell-at-cincinnati/872af74a1274dbed85260e7b4d745fcc4e9e2d6069201928433cee3d2b383e0f.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-unc-asheville-at-samford/1d3dd464b065d9c4520df2a5053c5b0e9cd5976e500139a158d9f095c2a496c5.json": {
+      "sha256": "1d3dd464b065d9c4520df2a5053c5b0e9cd5976e500139a158d9f095c2a496c5",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-unc-asheville-at-samford/1d3dd464b065d9c4520df2a5053c5b0e9cd5976e500139a158d9f095c2a496c5.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-utah-tech-at-south-dakota/3c1dbf090803781005e3425ccea0cb053d7b4dc4f58778b1485033641bd3bc94.json": {
+      "sha256": "3c1dbf090803781005e3425ccea0cb053d7b4dc4f58778b1485033641bd3bc94",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-utah-tech-at-south-dakota/3c1dbf090803781005e3425ccea0cb053d7b4dc4f58778b1485033641bd3bc94.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-utah-valley-at-ut-martin/b552befff243a1714db56d0be8785fa118809b495847883a6169195d848b85d5.json": {
+      "sha256": "b552befff243a1714db56d0be8785fa118809b495847883a6169195d848b85d5",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-utah-valley-at-ut-martin/b552befff243a1714db56d0be8785fa118809b495847883a6169195d848b85d5.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-valparaiso-at-southern-miss/8122c2a09bd8c6779291156c64cc1ecca42e2dd3607a5baeaad3317acd534ae7.json": {
+      "sha256": "8122c2a09bd8c6779291156c64cc1ecca42e2dd3607a5baeaad3317acd534ae7",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-valparaiso-at-southern-miss/8122c2a09bd8c6779291156c64cc1ecca42e2dd3607a5baeaad3317acd534ae7.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-west-florida-at-south-alabama/8dd1a7dfb0716a733075adda221134edd121d0e225e9690524733237bcffc416.json": {
+      "sha256": "8dd1a7dfb0716a733075adda221134edd121d0e225e9690524733237bcffc416",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-west-florida-at-south-alabama/8dd1a7dfb0716a733075adda221134edd121d0e225e9690524733237bcffc416.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-western-illinois-at-canisius/f01d25b3f94273a485add6b9803cd2f2a40e7a3eb062142ec9460df1f2ca476b.json": {
+      "sha256": "f01d25b3f94273a485add6b9803cd2f2a40e7a3eb062142ec9460df1f2ca476b",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-western-illinois-at-canisius/f01d25b3f94273a485add6b9803cd2f2a40e7a3eb062142ec9460df1f2ca476b.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-william-mary-at-youngstown-state/10f8ec8fe79f17b30091cb9daefcbf41f33a45ed9ebed78bf216194c171cacae.json": {
+      "sha256": "10f8ec8fe79f17b30091cb9daefcbf41f33a45ed9ebed78bf216194c171cacae",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-william-mary-at-youngstown-state/10f8ec8fe79f17b30091cb9daefcbf41f33a45ed9ebed78bf216194c171cacae.json"
+    },
+    "data/intelligence/history/games/cbb-2027-2026-11-22-wyoming-at-duquesne/8fb5aa0504db7fc720911bb7268627d75fe88eccfb05e01c48afafa7873fea18.json": {
+      "sha256": "8fb5aa0504db7fc720911bb7268627d75fe88eccfb05e01c48afafa7873fea18",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/games/cbb-2027-2026-11-22-wyoming-at-duquesne/8fb5aa0504db7fc720911bb7268627d75fe88eccfb05e01c48afafa7873fea18.json"
+    },
+    "data/intelligence/history/index.json": {
+      "sha256": "0de1538d298fe3ee30de89766fad84065a8558d5e021daf03733bc0bfef6fb5b",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/index.json"
+    },
+    "data/intelligence/history/teams/abilene-christian/a9d9c5c1d380b1a311193847fe5e91ea8c43f1fe4671ee0a676910d887efc9d8.json": {
+      "sha256": "a9d9c5c1d380b1a311193847fe5e91ea8c43f1fe4671ee0a676910d887efc9d8",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/abilene-christian/a9d9c5c1d380b1a311193847fe5e91ea8c43f1fe4671ee0a676910d887efc9d8.json"
+    },
+    "data/intelligence/history/teams/air-force/56e8e8ed78fdfd95f1f9866256444e1b648039078d33d177a4f5770449ba7403.json": {
+      "sha256": "56e8e8ed78fdfd95f1f9866256444e1b648039078d33d177a4f5770449ba7403",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/air-force/56e8e8ed78fdfd95f1f9866256444e1b648039078d33d177a4f5770449ba7403.json"
+    },
+    "data/intelligence/history/teams/alice-lloyd/d6f58fda2a68aa2f7fee157e52831f4df23cecec6ab53c22f360f5881fc6ac14.json": {
+      "sha256": "d6f58fda2a68aa2f7fee157e52831f4df23cecec6ab53c22f360f5881fc6ac14",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/alice-lloyd/d6f58fda2a68aa2f7fee157e52831f4df23cecec6ab53c22f360f5881fc6ac14.json"
+    },
+    "data/intelligence/history/teams/american/cc442a9dfcbe3a53e6c7fdedd28815122331c75c0c29790ee4cc04daa62647a8.json": {
+      "sha256": "cc442a9dfcbe3a53e6c7fdedd28815122331c75c0c29790ee4cc04daa62647a8",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/american/cc442a9dfcbe3a53e6c7fdedd28815122331c75c0c29790ee4cc04daa62647a8.json"
+    },
+    "data/intelligence/history/teams/army-west-point/73feae63d9d1f5e756d35e10f82a095a58acacd4d23f3435fdbe57bd3db73702.json": {
+      "sha256": "73feae63d9d1f5e756d35e10f82a095a58acacd4d23f3435fdbe57bd3db73702",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/army-west-point/73feae63d9d1f5e756d35e10f82a095a58acacd4d23f3435fdbe57bd3db73702.json"
+    },
+    "data/intelligence/history/teams/austin-peay/abe3c5380ff138d85a108c55c7a3e0d35f68f9c6982de7f152b2ce8b3a52786e.json": {
+      "sha256": "abe3c5380ff138d85a108c55c7a3e0d35f68f9c6982de7f152b2ce8b3a52786e",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/austin-peay/abe3c5380ff138d85a108c55c7a3e0d35f68f9c6982de7f152b2ce8b3a52786e.json"
+    },
+    "data/intelligence/history/teams/binghamton/3244a8daaeb45ea5dd6bc8de359f76dd17088c389c51f36542392400e1bde56a.json": {
+      "sha256": "3244a8daaeb45ea5dd6bc8de359f76dd17088c389c51f36542392400e1bde56a",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/binghamton/3244a8daaeb45ea5dd6bc8de359f76dd17088c389c51f36542392400e1bde56a.json"
+    },
+    "data/intelligence/history/teams/boston-college/43915e1d908396a3c00463ed33fc223d62ade670dc8a8abab71fdf0db30ad20b.json": {
+      "sha256": "43915e1d908396a3c00463ed33fc223d62ade670dc8a8abab71fdf0db30ad20b",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/boston-college/43915e1d908396a3c00463ed33fc223d62ade670dc8a8abab71fdf0db30ad20b.json"
+    },
+    "data/intelligence/history/teams/boston-university/5fd310611e96583939d37142aba6d8c97e53f2bba794d10a4aeab690a17014c4.json": {
+      "sha256": "5fd310611e96583939d37142aba6d8c97e53f2bba794d10a4aeab690a17014c4",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/boston-university/5fd310611e96583939d37142aba6d8c97e53f2bba794d10a4aeab690a17014c4.json"
+    },
+    "data/intelligence/history/teams/bowling-green/cbae6a109c15aa99f6e4b46587727aa4c8b1245c006d7e6af74b9bab694f68ff.json": {
+      "sha256": "cbae6a109c15aa99f6e4b46587727aa4c8b1245c006d7e6af74b9bab694f68ff",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/bowling-green/cbae6a109c15aa99f6e4b46587727aa4c8b1245c006d7e6af74b9bab694f68ff.json"
+    },
+    "data/intelligence/history/teams/bradley/5da36d4b24ccb993229224d28b0f6a4c40d19b4deed97543202676948d229dd9.json": {
+      "sha256": "5da36d4b24ccb993229224d28b0f6a4c40d19b4deed97543202676948d229dd9",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/bradley/5da36d4b24ccb993229224d28b0f6a4c40d19b4deed97543202676948d229dd9.json"
+    },
+    "data/intelligence/history/teams/brown/1e0125b6b37732f62e2b165de564cbd8be9430f3f334c1514cd1adb7b3755c71.json": {
+      "sha256": "1e0125b6b37732f62e2b165de564cbd8be9430f3f334c1514cd1adb7b3755c71",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/brown/1e0125b6b37732f62e2b165de564cbd8be9430f3f334c1514cd1adb7b3755c71.json"
+    },
+    "data/intelligence/history/teams/bucknell/4a02bda2c76979c48d0b5a2779f8fb209288408200d0bf255267c0be91f29ead.json": {
+      "sha256": "4a02bda2c76979c48d0b5a2779f8fb209288408200d0bf255267c0be91f29ead",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/bucknell/4a02bda2c76979c48d0b5a2779f8fb209288408200d0bf255267c0be91f29ead.json"
+    },
+    "data/intelligence/history/teams/butler/7a315b344aae71ede59db5bf8a85ba7d7918a8fe8030559882c099c919ae8b6c.json": {
+      "sha256": "7a315b344aae71ede59db5bf8a85ba7d7918a8fe8030559882c099c919ae8b6c",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/butler/7a315b344aae71ede59db5bf8a85ba7d7918a8fe8030559882c099c919ae8b6c.json"
+    },
+    "data/intelligence/history/teams/cal-poly/32823fd10bb348acd80d9ec75007f4e360338894fcdf77981def466087b3e799.json": {
+      "sha256": "32823fd10bb348acd80d9ec75007f4e360338894fcdf77981def466087b3e799",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/cal-poly/32823fd10bb348acd80d9ec75007f4e360338894fcdf77981def466087b3e799.json"
+    },
+    "data/intelligence/history/teams/cal-state-fullerton/89cc9296f33e478316239bcf2bbb23b7acda3a94befdf6e2749937aa415ed58e.json": {
+      "sha256": "89cc9296f33e478316239bcf2bbb23b7acda3a94befdf6e2749937aa415ed58e",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/cal-state-fullerton/89cc9296f33e478316239bcf2bbb23b7acda3a94befdf6e2749937aa415ed58e.json"
+    },
+    "data/intelligence/history/teams/california-baptist/07c86d1cd10bcc80fc2a806509b6525e44dc1fb24851285730d5e0e4fa68c2ef.json": {
+      "sha256": "07c86d1cd10bcc80fc2a806509b6525e44dc1fb24851285730d5e0e4fa68c2ef",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/california-baptist/07c86d1cd10bcc80fc2a806509b6525e44dc1fb24851285730d5e0e4fa68c2ef.json"
+    },
+    "data/intelligence/history/teams/calumet-college/8f2257d2c3eed9a8dbd23cab83b7adb7b6e0b99ec4065b5e0f9ba20cd0460960.json": {
+      "sha256": "8f2257d2c3eed9a8dbd23cab83b7adb7b6e0b99ec4065b5e0f9ba20cd0460960",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/calumet-college/8f2257d2c3eed9a8dbd23cab83b7adb7b6e0b99ec4065b5e0f9ba20cd0460960.json"
+    },
+    "data/intelligence/history/teams/canisius/16e45cc530287130fc1432c6d08c86da65b8004e4cdedc6470f3b9c5a947962d.json": {
+      "sha256": "16e45cc530287130fc1432c6d08c86da65b8004e4cdedc6470f3b9c5a947962d",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/canisius/16e45cc530287130fc1432c6d08c86da65b8004e4cdedc6470f3b9c5a947962d.json"
+    },
+    "data/intelligence/history/teams/central-arkansas/a13ce5a5f80ce12a11699218425b0f370b1277bd51230f577babfe780f1f41b7.json": {
+      "sha256": "a13ce5a5f80ce12a11699218425b0f370b1277bd51230f577babfe780f1f41b7",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/central-arkansas/a13ce5a5f80ce12a11699218425b0f370b1277bd51230f577babfe780f1f41b7.json"
+    },
+    "data/intelligence/history/teams/charleston-southern/fbb9131befaf4186c3cff85ad980265ba1c82fe7adaa44e1dded21e04a1fb809.json": {
+      "sha256": "fbb9131befaf4186c3cff85ad980265ba1c82fe7adaa44e1dded21e04a1fb809",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/charleston-southern/fbb9131befaf4186c3cff85ad980265ba1c82fe7adaa44e1dded21e04a1fb809.json"
+    },
+    "data/intelligence/history/teams/chattanooga/95169542af007b6136ff9f5c80ebd14efb78acf32ca53c2d0b698aaae841255f.json": {
+      "sha256": "95169542af007b6136ff9f5c80ebd14efb78acf32ca53c2d0b698aaae841255f",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/chattanooga/95169542af007b6136ff9f5c80ebd14efb78acf32ca53c2d0b698aaae841255f.json"
+    },
+    "data/intelligence/history/teams/chicago-state/cb13c7f3af5dfa2815ab3493acfbebeba75ebee46afaf2cb5a0ef2ec09804c62.json": {
+      "sha256": "cb13c7f3af5dfa2815ab3493acfbebeba75ebee46afaf2cb5a0ef2ec09804c62",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/chicago-state/cb13c7f3af5dfa2815ab3493acfbebeba75ebee46afaf2cb5a0ef2ec09804c62.json"
+    },
+    "data/intelligence/history/teams/cincinnati/aecf89e19e0596a6398f517c0bf8eb22a737fb33294e527a048319ff55908756.json": {
+      "sha256": "aecf89e19e0596a6398f517c0bf8eb22a737fb33294e527a048319ff55908756",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/cincinnati/aecf89e19e0596a6398f517c0bf8eb22a737fb33294e527a048319ff55908756.json"
+    },
+    "data/intelligence/history/teams/cleveland-state/acab9cf23dc34b5c3368e121e6d5ff1b1f0e9d6ea4eb0618f836eb3bf3872cc5.json": {
+      "sha256": "acab9cf23dc34b5c3368e121e6d5ff1b1f0e9d6ea4eb0618f836eb3bf3872cc5",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/cleveland-state/acab9cf23dc34b5c3368e121e6d5ff1b1f0e9d6ea4eb0618f836eb3bf3872cc5.json"
+    },
+    "data/intelligence/history/teams/clinton/1f895b38a2b4dd3a33597901c93cf160c2cf3368481ea65d4712f58700d4d7d7.json": {
+      "sha256": "1f895b38a2b4dd3a33597901c93cf160c2cf3368481ea65d4712f58700d4d7d7",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/clinton/1f895b38a2b4dd3a33597901c93cf160c2cf3368481ea65d4712f58700d4d7d7.json"
+    },
+    "data/intelligence/history/teams/colgate/9b28c2a1cde9dfa087ba0cad9c36dc6d0b510103352e9c0322dd017f9b67edc4.json": {
+      "sha256": "9b28c2a1cde9dfa087ba0cad9c36dc6d0b510103352e9c0322dd017f9b67edc4",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/colgate/9b28c2a1cde9dfa087ba0cad9c36dc6d0b510103352e9c0322dd017f9b67edc4.json"
+    },
+    "data/intelligence/history/teams/columbia/099b5c3ce07ebdb0036a0d363ab6373c8760dbba82143056618954ea68a884f4.json": {
+      "sha256": "099b5c3ce07ebdb0036a0d363ab6373c8760dbba82143056618954ea68a884f4",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/columbia/099b5c3ce07ebdb0036a0d363ab6373c8760dbba82143056618954ea68a884f4.json"
+    },
+    "data/intelligence/history/teams/coppin-state/254ac5112f7d133711f036c9d7d975aee70318edc0f2989b4e88146a34cd6deb.json": {
+      "sha256": "254ac5112f7d133711f036c9d7d975aee70318edc0f2989b4e88146a34cd6deb",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/coppin-state/254ac5112f7d133711f036c9d7d975aee70318edc0f2989b4e88146a34cd6deb.json"
+    },
+    "data/intelligence/history/teams/cornell/194808082376f5872f30f5b18995f3fae846997b1f8ca443deeb1ddc53125c82.json": {
+      "sha256": "194808082376f5872f30f5b18995f3fae846997b1f8ca443deeb1ddc53125c82",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/cornell/194808082376f5872f30f5b18995f3fae846997b1f8ca443deeb1ddc53125c82.json"
+    },
+    "data/intelligence/history/teams/dayton/1ef52086e779e47393ecd4b88edcf8b89f7bc2565afc3a080b506655b627ab9e.json": {
+      "sha256": "1ef52086e779e47393ecd4b88edcf8b89f7bc2565afc3a080b506655b627ab9e",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/dayton/1ef52086e779e47393ecd4b88edcf8b89f7bc2565afc3a080b506655b627ab9e.json"
+    },
+    "data/intelligence/history/teams/delaware/535330aab476ccfb96d523c611351eefe5b8300fd687f6ad1af8416f338c67dc.json": {
+      "sha256": "535330aab476ccfb96d523c611351eefe5b8300fd687f6ad1af8416f338c67dc",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/delaware/535330aab476ccfb96d523c611351eefe5b8300fd687f6ad1af8416f338c67dc.json"
+    },
+    "data/intelligence/history/teams/denver/fd68de299490c9bf56578c89195dd6d74dcec8ed041cbe40b3d52ed1d0936f0b.json": {
+      "sha256": "fd68de299490c9bf56578c89195dd6d74dcec8ed041cbe40b3d52ed1d0936f0b",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/denver/fd68de299490c9bf56578c89195dd6d74dcec8ed041cbe40b3d52ed1d0936f0b.json"
+    },
+    "data/intelligence/history/teams/detroit-mercy/eb67acaadeba558700c30fb9e5c23bad0052929e30113354a74340aa2314b069.json": {
+      "sha256": "eb67acaadeba558700c30fb9e5c23bad0052929e30113354a74340aa2314b069",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/detroit-mercy/eb67acaadeba558700c30fb9e5c23bad0052929e30113354a74340aa2314b069.json"
+    },
+    "data/intelligence/history/teams/drake/5eec1cb022466f892bf6d2c99225441001e9c5aaf807b1ee4cc32c454102dfb1.json": {
+      "sha256": "5eec1cb022466f892bf6d2c99225441001e9c5aaf807b1ee4cc32c454102dfb1",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/drake/5eec1cb022466f892bf6d2c99225441001e9c5aaf807b1ee4cc32c454102dfb1.json"
+    },
+    "data/intelligence/history/teams/duke/c9dad74a160ce80ce5dc1ebd4a3a2e67a7eaca543066a2fb0dd930e14c7566f7.json": {
+      "sha256": "c9dad74a160ce80ce5dc1ebd4a3a2e67a7eaca543066a2fb0dd930e14c7566f7",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/duke/c9dad74a160ce80ce5dc1ebd4a3a2e67a7eaca543066a2fb0dd930e14c7566f7.json"
+    },
+    "data/intelligence/history/teams/duquesne/8ac22da070cd0a03eaecf0c306d1a3769c1375489e4871a4e9fec253c8a946aa.json": {
+      "sha256": "8ac22da070cd0a03eaecf0c306d1a3769c1375489e4871a4e9fec253c8a946aa",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/duquesne/8ac22da070cd0a03eaecf0c306d1a3769c1375489e4871a4e9fec253c8a946aa.json"
+    },
+    "data/intelligence/history/teams/east-carolina/cc001d60f614aa01ae75e9b123a586a0009d01f3baa76484a5136394912d6cae.json": {
+      "sha256": "cc001d60f614aa01ae75e9b123a586a0009d01f3baa76484a5136394912d6cae",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/east-carolina/cc001d60f614aa01ae75e9b123a586a0009d01f3baa76484a5136394912d6cae.json"
+    },
+    "data/intelligence/history/teams/east-tennessee-state/538a127e4070454c4ae9a576ce22b2fe1bfe41236966578db52017bbdeb91b70.json": {
+      "sha256": "538a127e4070454c4ae9a576ce22b2fe1bfe41236966578db52017bbdeb91b70",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/east-tennessee-state/538a127e4070454c4ae9a576ce22b2fe1bfe41236966578db52017bbdeb91b70.json"
+    },
+    "data/intelligence/history/teams/eastern-kentucky/42ba641977ac720fa0a61527c3839ae4a90c2cfafb3447b1615a87d03aa06727.json": {
+      "sha256": "42ba641977ac720fa0a61527c3839ae4a90c2cfafb3447b1615a87d03aa06727",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/eastern-kentucky/42ba641977ac720fa0a61527c3839ae4a90c2cfafb3447b1615a87d03aa06727.json"
+    },
+    "data/intelligence/history/teams/eastern-michigan/575a1cef38cbf4961c18d2ae6c22026536973e2f9a147b629f5b0bfe4122ef29.json": {
+      "sha256": "575a1cef38cbf4961c18d2ae6c22026536973e2f9a147b629f5b0bfe4122ef29",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/eastern-michigan/575a1cef38cbf4961c18d2ae6c22026536973e2f9a147b629f5b0bfe4122ef29.json"
+    },
+    "data/intelligence/history/teams/elon/983e2ca0190bea7dce08b4e456e92173e9ea94793cb5b631be155448e8f1705c.json": {
+      "sha256": "983e2ca0190bea7dce08b4e456e92173e9ea94793cb5b631be155448e8f1705c",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/elon/983e2ca0190bea7dce08b4e456e92173e9ea94793cb5b631be155448e8f1705c.json"
+    },
+    "data/intelligence/history/teams/evansville/21143600802e23e4cab5326399aab6448572575348f83d9217f2629aa792ee24.json": {
+      "sha256": "21143600802e23e4cab5326399aab6448572575348f83d9217f2629aa792ee24",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/evansville/21143600802e23e4cab5326399aab6448572575348f83d9217f2629aa792ee24.json"
+    },
+    "data/intelligence/history/teams/fairfield/5ea6323ab29d7e93e149f825f4ab869b2156bd49f05d5278319dd0b3042909ee.json": {
+      "sha256": "5ea6323ab29d7e93e149f825f4ab869b2156bd49f05d5278319dd0b3042909ee",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/fairfield/5ea6323ab29d7e93e149f825f4ab869b2156bd49f05d5278319dd0b3042909ee.json"
+    },
+    "data/intelligence/history/teams/fordham/1a1ec65fe7e21355bea3c85686638f3fad08b332f7f658c8685be78f1b44eb2d.json": {
+      "sha256": "1a1ec65fe7e21355bea3c85686638f3fad08b332f7f658c8685be78f1b44eb2d",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/fordham/1a1ec65fe7e21355bea3c85686638f3fad08b332f7f658c8685be78f1b44eb2d.json"
+    },
+    "data/intelligence/history/teams/furman/5a6b2d484a9b0e634478834c8a845b4b2d3dcea9fc2963f3cb24321788095ff9.json": {
+      "sha256": "5a6b2d484a9b0e634478834c8a845b4b2d3dcea9fc2963f3cb24321788095ff9",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/furman/5a6b2d484a9b0e634478834c8a845b4b2d3dcea9fc2963f3cb24321788095ff9.json"
+    },
+    "data/intelligence/history/teams/gardner-webb/68f8e2fd1cda061df0b3db44bc6a3459da1e8dbbe9e8ef9bb8e6e036e4a7cab8.json": {
+      "sha256": "68f8e2fd1cda061df0b3db44bc6a3459da1e8dbbe9e8ef9bb8e6e036e4a7cab8",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/gardner-webb/68f8e2fd1cda061df0b3db44bc6a3459da1e8dbbe9e8ef9bb8e6e036e4a7cab8.json"
+    },
+    "data/intelligence/history/teams/george-mason/d7528a9f10d432319c5a64bcf071ced7fc7dac672f688d8e4751b3d7e327ec6c.json": {
+      "sha256": "d7528a9f10d432319c5a64bcf071ced7fc7dac672f688d8e4751b3d7e327ec6c",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/george-mason/d7528a9f10d432319c5a64bcf071ced7fc7dac672f688d8e4751b3d7e327ec6c.json"
+    },
+    "data/intelligence/history/teams/george-washington/f4381284a20cdbbeacfc1af027030e5b9e62ab599110e5fa3344ec256b6513ca.json": {
+      "sha256": "f4381284a20cdbbeacfc1af027030e5b9e62ab599110e5fa3344ec256b6513ca",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/george-washington/f4381284a20cdbbeacfc1af027030e5b9e62ab599110e5fa3344ec256b6513ca.json"
+    },
+    "data/intelligence/history/teams/georgetown/531f23641ba17608e1495efc78b6172925b62e172882ebaec378854cee232ec8.json": {
+      "sha256": "531f23641ba17608e1495efc78b6172925b62e172882ebaec378854cee232ec8",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/georgetown/531f23641ba17608e1495efc78b6172925b62e172882ebaec378854cee232ec8.json"
+    },
+    "data/intelligence/history/teams/indiana-state/f255ffe274f9fa4d1f9e4481649945dcdfda6111984ae318a158ef0c4e571555.json": {
+      "sha256": "f255ffe274f9fa4d1f9e4481649945dcdfda6111984ae318a158ef0c4e571555",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/indiana-state/f255ffe274f9fa4d1f9e4481649945dcdfda6111984ae318a158ef0c4e571555.json"
+    },
+    "data/intelligence/history/teams/iu-indianapolis/77ceb20d78cae059faa047d2d8f5730686f9151ea7f35faa4570c93c97a99b02.json": {
+      "sha256": "77ceb20d78cae059faa047d2d8f5730686f9151ea7f35faa4570c93c97a99b02",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/iu-indianapolis/77ceb20d78cae059faa047d2d8f5730686f9151ea7f35faa4570c93c97a99b02.json"
+    },
+    "data/intelligence/history/teams/jacksonville/37680200becf08e0a09e2a439c094af07006a37f63ed425a0a6d0fef1eb2748f.json": {
+      "sha256": "37680200becf08e0a09e2a439c094af07006a37f63ed425a0a6d0fef1eb2748f",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/jacksonville/37680200becf08e0a09e2a439c094af07006a37f63ed425a0a6d0fef1eb2748f.json"
+    },
+    "data/intelligence/history/teams/james-madison/72aaac01ad8541735d503e326fb0cb85dc346ba9a40ca0db0c1c8bfa1792547a.json": {
+      "sha256": "72aaac01ad8541735d503e326fb0cb85dc346ba9a40ca0db0c1c8bfa1792547a",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/james-madison/72aaac01ad8541735d503e326fb0cb85dc346ba9a40ca0db0c1c8bfa1792547a.json"
+    },
+    "data/intelligence/history/teams/justice-university/239f4750115b751c27aa273e2abf01e353211b7b0382956f7132870c97cb0a59.json": {
+      "sha256": "239f4750115b751c27aa273e2abf01e353211b7b0382956f7132870c97cb0a59",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/justice-university/239f4750115b751c27aa273e2abf01e353211b7b0382956f7132870c97cb0a59.json"
+    },
+    "data/intelligence/history/teams/kent-state/aca088123b64cec98ab097c8308bddec2dac1c1688d441bcd3061dd3d33163ae.json": {
+      "sha256": "aca088123b64cec98ab097c8308bddec2dac1c1688d441bcd3061dd3d33163ae",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/kent-state/aca088123b64cec98ab097c8308bddec2dac1c1688d441bcd3061dd3d33163ae.json"
+    },
+    "data/intelligence/history/teams/la-salle/177fc415be220f99f3c05871877228546af66f06d4e419a0e737f54f2358449c.json": {
+      "sha256": "177fc415be220f99f3c05871877228546af66f06d4e419a0e737f54f2358449c",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/la-salle/177fc415be220f99f3c05871877228546af66f06d4e419a0e737f54f2358449c.json"
+    },
+    "data/intelligence/history/teams/lafayette/5d3e9fc0af4c3c734cb96c2dc5fef07f141add486d6a73e43393a1c8f714f2be.json": {
+      "sha256": "5d3e9fc0af4c3c734cb96c2dc5fef07f141add486d6a73e43393a1c8f714f2be",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/lafayette/5d3e9fc0af4c3c734cb96c2dc5fef07f141add486d6a73e43393a1c8f714f2be.json"
+    },
+    "data/intelligence/history/teams/lamar/ba17ccf1b51a03ec989661a900c9b8d8270956817c93eaed17cd1b046e572eca.json": {
+      "sha256": "ba17ccf1b51a03ec989661a900c9b8d8270956817c93eaed17cd1b046e572eca",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/lamar/ba17ccf1b51a03ec989661a900c9b8d8270956817c93eaed17cd1b046e572eca.json"
+    },
+    "data/intelligence/history/teams/lancaster-bible/422139677017be160e042bc901778672fd6bd260bf3524cabf92810e78917988.json": {
+      "sha256": "422139677017be160e042bc901778672fd6bd260bf3524cabf92810e78917988",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/lancaster-bible/422139677017be160e042bc901778672fd6bd260bf3524cabf92810e78917988.json"
+    },
+    "data/intelligence/history/teams/liberty/a624fd3f2a0fcb45604103f4833b31ff790b745d9596157b0a6933739375d401.json": {
+      "sha256": "a624fd3f2a0fcb45604103f4833b31ff790b745d9596157b0a6933739375d401",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/liberty/a624fd3f2a0fcb45604103f4833b31ff790b745d9596157b0a6933739375d401.json"
+    },
+    "data/intelligence/history/teams/lipscomb/934c563085a49c497a9e8cf4d2dadf650ec07a49ba30d6082a89bce43eb33982.json": {
+      "sha256": "934c563085a49c497a9e8cf4d2dadf650ec07a49ba30d6082a89bce43eb33982",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/lipscomb/934c563085a49c497a9e8cf4d2dadf650ec07a49ba30d6082a89bce43eb33982.json"
+    },
+    "data/intelligence/history/teams/little-rock/9b301947072133390017a928cae6189d04db64f70ba0166f302a20c3677c30bc.json": {
+      "sha256": "9b301947072133390017a928cae6189d04db64f70ba0166f302a20c3677c30bc",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/little-rock/9b301947072133390017a928cae6189d04db64f70ba0166f302a20c3677c30bc.json"
+    },
+    "data/intelligence/history/teams/liu/14345df929daf5bf37136d2268c16f46a3245fa924b966746f1595b7e44cde5f.json": {
+      "sha256": "14345df929daf5bf37136d2268c16f46a3245fa924b966746f1595b7e44cde5f",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/liu/14345df929daf5bf37136d2268c16f46a3245fa924b966746f1595b7e44cde5f.json"
+    },
+    "data/intelligence/history/teams/longwood/10b85592a9d740f772248949949e7c0f44a7587479b15bc5b510437043707209.json": {
+      "sha256": "10b85592a9d740f772248949949e7c0f44a7587479b15bc5b510437043707209",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/longwood/10b85592a9d740f772248949949e7c0f44a7587479b15bc5b510437043707209.json"
+    },
+    "data/intelligence/history/teams/louisiana/817b0d600e419ef0fddce2a9113e1c7908fed1513442c72af91aa3dc1b69e0d0.json": {
+      "sha256": "817b0d600e419ef0fddce2a9113e1c7908fed1513442c72af91aa3dc1b69e0d0",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/louisiana/817b0d600e419ef0fddce2a9113e1c7908fed1513442c72af91aa3dc1b69e0d0.json"
+    },
+    "data/intelligence/history/teams/loyola-marymount/076ee875f83c79affad4ed4c3c18fb18a285bc2199cba5482156ec66401d8a78.json": {
+      "sha256": "076ee875f83c79affad4ed4c3c18fb18a285bc2199cba5482156ec66401d8a78",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/loyola-marymount/076ee875f83c79affad4ed4c3c18fb18a285bc2199cba5482156ec66401d8a78.json"
+    },
+    "data/intelligence/history/teams/lsu/e6338387a3a6a11511aa8133e16da717e10b58da1b1b6e9e663e0f2be195fb17.json": {
+      "sha256": "e6338387a3a6a11511aa8133e16da717e10b58da1b1b6e9e663e0f2be195fb17",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/lsu/e6338387a3a6a11511aa8133e16da717e10b58da1b1b6e9e663e0f2be195fb17.json"
+    },
+    "data/intelligence/history/teams/maine/6c1faa9fc65e13014217f78da1291fa072b670094263ea45011c483f4ddf160e.json": {
+      "sha256": "6c1faa9fc65e13014217f78da1291fa072b670094263ea45011c483f4ddf160e",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/maine/6c1faa9fc65e13014217f78da1291fa072b670094263ea45011c483f4ddf160e.json"
+    },
+    "data/intelligence/history/teams/marquette/da185ee0b4ad43be7f4a3acd8922011fb151d33edf1781e1b9c63d2f7de63854.json": {
+      "sha256": "da185ee0b4ad43be7f4a3acd8922011fb151d33edf1781e1b9c63d2f7de63854",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/marquette/da185ee0b4ad43be7f4a3acd8922011fb151d33edf1781e1b9c63d2f7de63854.json"
+    },
+    "data/intelligence/history/teams/maryland-eastern-shore/faab4319c91905ccd638ef81fbdc2635aa0567232cc01f9658557b700a7095f4.json": {
+      "sha256": "faab4319c91905ccd638ef81fbdc2635aa0567232cc01f9658557b700a7095f4",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/maryland-eastern-shore/faab4319c91905ccd638ef81fbdc2635aa0567232cc01f9658557b700a7095f4.json"
+    },
+    "data/intelligence/history/teams/massachusetts/251786152787dd835756c6d87cf53c1cab8079c36705522aa352d978b64cd3a8.json": {
+      "sha256": "251786152787dd835756c6d87cf53c1cab8079c36705522aa352d978b64cd3a8",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/massachusetts/251786152787dd835756c6d87cf53c1cab8079c36705522aa352d978b64cd3a8.json"
+    },
+    "data/intelligence/history/teams/mcneese/82fa8b76c11515ce24e34c77d2bfa94660a6cb7328fb367bbe03b361972da804.json": {
+      "sha256": "82fa8b76c11515ce24e34c77d2bfa94660a6cb7328fb367bbe03b361972da804",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/mcneese/82fa8b76c11515ce24e34c77d2bfa94660a6cb7328fb367bbe03b361972da804.json"
+    },
+    "data/intelligence/history/teams/memphis/8c8749a7863ac2d92e903a9ce574bea6ff64e2ac74ed70770bcc70c6912e1635.json": {
+      "sha256": "8c8749a7863ac2d92e903a9ce574bea6ff64e2ac74ed70770bcc70c6912e1635",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/memphis/8c8749a7863ac2d92e903a9ce574bea6ff64e2ac74ed70770bcc70c6912e1635.json"
+    },
+    "data/intelligence/history/teams/menlo/dc6b9c9b65b804ee86e32249d2ea468c8b1464a5fd69fb9dfa625a980a367a48.json": {
+      "sha256": "dc6b9c9b65b804ee86e32249d2ea468c8b1464a5fd69fb9dfa625a980a367a48",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/menlo/dc6b9c9b65b804ee86e32249d2ea468c8b1464a5fd69fb9dfa625a980a367a48.json"
+    },
+    "data/intelligence/history/teams/mercer/a64bee318665fbd92f4b9d5d9ad68a09bba177913fc454621db8dd3ad043e93d.json": {
+      "sha256": "a64bee318665fbd92f4b9d5d9ad68a09bba177913fc454621db8dd3ad043e93d",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/mercer/a64bee318665fbd92f4b9d5d9ad68a09bba177913fc454621db8dd3ad043e93d.json"
+    },
+    "data/intelligence/history/teams/mercyhurst/ad2de7590b8c7a8d93a53b0da1a7f29ffcafc49be969de8dd2c9f81d6eade49b.json": {
+      "sha256": "ad2de7590b8c7a8d93a53b0da1a7f29ffcafc49be969de8dd2c9f81d6eade49b",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/mercyhurst/ad2de7590b8c7a8d93a53b0da1a7f29ffcafc49be969de8dd2c9f81d6eade49b.json"
+    },
+    "data/intelligence/history/teams/miami-oh/5c6429f63c7da4de86c6d748c3d93e06c95105fb00ccefb1c1a4b80788597b89.json": {
+      "sha256": "5c6429f63c7da4de86c6d748c3d93e06c95105fb00ccefb1c1a4b80788597b89",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/miami-oh/5c6429f63c7da4de86c6d748c3d93e06c95105fb00ccefb1c1a4b80788597b89.json"
+    },
+    "data/intelligence/history/teams/michigan-state/23b9c67f85ff676944a354e3def1de77cccb8832bee3ccf4f96bd0f7d6a26bbd.json": {
+      "sha256": "23b9c67f85ff676944a354e3def1de77cccb8832bee3ccf4f96bd0f7d6a26bbd",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/michigan-state/23b9c67f85ff676944a354e3def1de77cccb8832bee3ccf4f96bd0f7d6a26bbd.json"
+    },
+    "data/intelligence/history/teams/michigan/dd68be89cfbac081173e6d0d396d3554b10bbe3f33a6da21926edba1544811a1.json": {
+      "sha256": "dd68be89cfbac081173e6d0d396d3554b10bbe3f33a6da21926edba1544811a1",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/michigan/dd68be89cfbac081173e6d0d396d3554b10bbe3f33a6da21926edba1544811a1.json"
+    },
+    "data/intelligence/history/teams/middle-tennessee/a9b3e74ffdf4cd582c9a7e72447a86cf1e0ec6a54e763c157b98ecfd2c9f9c7e.json": {
+      "sha256": "a9b3e74ffdf4cd582c9a7e72447a86cf1e0ec6a54e763c157b98ecfd2c9f9c7e",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/middle-tennessee/a9b3e74ffdf4cd582c9a7e72447a86cf1e0ec6a54e763c157b98ecfd2c9f9c7e.json"
+    },
+    "data/intelligence/history/teams/milligan/d5ac17b6499e40aaece28aa13ac6e16ef3bae01203ac3df7a701e81e86538e9a.json": {
+      "sha256": "d5ac17b6499e40aaece28aa13ac6e16ef3bae01203ac3df7a701e81e86538e9a",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/milligan/d5ac17b6499e40aaece28aa13ac6e16ef3bae01203ac3df7a701e81e86538e9a.json"
+    },
+    "data/intelligence/history/teams/milwaukee/513f62316c4ceb5d54d804e00f49c0f91be6031763a63e8d45fd9d014f047bd8.json": {
+      "sha256": "513f62316c4ceb5d54d804e00f49c0f91be6031763a63e8d45fd9d014f047bd8",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/milwaukee/513f62316c4ceb5d54d804e00f49c0f91be6031763a63e8d45fd9d014f047bd8.json"
+    },
+    "data/intelligence/history/teams/minnesota/0fab7a2e903d4d2849877e8f65ff0defdc8dbd3abce62f40ba2e9f505cc2f7b8.json": {
+      "sha256": "0fab7a2e903d4d2849877e8f65ff0defdc8dbd3abce62f40ba2e9f505cc2f7b8",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/minnesota/0fab7a2e903d4d2849877e8f65ff0defdc8dbd3abce62f40ba2e9f505cc2f7b8.json"
+    },
+    "data/intelligence/history/teams/missouri-state/14666e6293ac024ad70ed1e026b7f024bba778d3cfc8193999a651a2e755ed3b.json": {
+      "sha256": "14666e6293ac024ad70ed1e026b7f024bba778d3cfc8193999a651a2e755ed3b",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/missouri-state/14666e6293ac024ad70ed1e026b7f024bba778d3cfc8193999a651a2e755ed3b.json"
+    },
+    "data/intelligence/history/teams/morehead-state/ae80a41f448300553b07b43ad2a2aee5af209730d2a78856b8c8d01569f2635c.json": {
+      "sha256": "ae80a41f448300553b07b43ad2a2aee5af209730d2a78856b8c8d01569f2635c",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/morehead-state/ae80a41f448300553b07b43ad2a2aee5af209730d2a78856b8c8d01569f2635c.json"
+    },
+    "data/intelligence/history/teams/morgan-state/d98abe5599b2ec48dea63cad7993c35190e9b6e442d59bc8c1387fbcb61e8c66.json": {
+      "sha256": "d98abe5599b2ec48dea63cad7993c35190e9b6e442d59bc8c1387fbcb61e8c66",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/morgan-state/d98abe5599b2ec48dea63cad7993c35190e9b6e442d59bc8c1387fbcb61e8c66.json"
+    },
+    "data/intelligence/history/teams/navy/96ef273934998455951474c2365cdea86907093bac76b0d73c3641c112f5ac63.json": {
+      "sha256": "96ef273934998455951474c2365cdea86907093bac76b0d73c3641c112f5ac63",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/navy/96ef273934998455951474c2365cdea86907093bac76b0d73c3641c112f5ac63.json"
+    },
+    "data/intelligence/history/teams/nebraska/bcf808984cbdd366e407a556cb74d2e1fa7b7e6d83712869899b1a53ecfa54ed.json": {
+      "sha256": "bcf808984cbdd366e407a556cb74d2e1fa7b7e6d83712869899b1a53ecfa54ed",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/nebraska/bcf808984cbdd366e407a556cb74d2e1fa7b7e6d83712869899b1a53ecfa54ed.json"
+    },
+    "data/intelligence/history/teams/new-hampshire/d17a99eca86f74a17a0c57af47eed66235d4548b9fdf1e1e01992d1ec20521d0.json": {
+      "sha256": "d17a99eca86f74a17a0c57af47eed66235d4548b9fdf1e1e01992d1ec20521d0",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/new-hampshire/d17a99eca86f74a17a0c57af47eed66235d4548b9fdf1e1e01992d1ec20521d0.json"
+    },
+    "data/intelligence/history/teams/new-haven/a64d7288aeba33c93d61911dcff1f07403a651801be257ebf4c71c3ff17e62b0.json": {
+      "sha256": "a64d7288aeba33c93d61911dcff1f07403a651801be257ebf4c71c3ff17e62b0",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/new-haven/a64d7288aeba33c93d61911dcff1f07403a651801be257ebf4c71c3ff17e62b0.json"
+    },
+    "data/intelligence/history/teams/new-mexico-state/4ccebcb1ed1e2f7b70e6facfb6738fb457d803b10884b0353b73d43d71a5809b.json": {
+      "sha256": "4ccebcb1ed1e2f7b70e6facfb6738fb457d803b10884b0353b73d43d71a5809b",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/new-mexico-state/4ccebcb1ed1e2f7b70e6facfb6738fb457d803b10884b0353b73d43d71a5809b.json"
+    },
+    "data/intelligence/history/teams/new-mexico/79fcc5feec73b2b72509f970ae771d867fe41f53414636847c7abbf7e39d712c.json": {
+      "sha256": "79fcc5feec73b2b72509f970ae771d867fe41f53414636847c7abbf7e39d712c",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/new-mexico/79fcc5feec73b2b72509f970ae771d867fe41f53414636847c7abbf7e39d712c.json"
+    },
+    "data/intelligence/history/teams/new-orleans/4001caa4c322c27a2c7bb290e8864784c5a40e5f24d8322021db2b9e8f1f2634.json": {
+      "sha256": "4001caa4c322c27a2c7bb290e8864784c5a40e5f24d8322021db2b9e8f1f2634",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/new-orleans/4001caa4c322c27a2c7bb290e8864784c5a40e5f24d8322021db2b9e8f1f2634.json"
+    },
+    "data/intelligence/history/teams/nicholls/736f37b50a2c0b1b7c475426ed5f4adf074e7c6373023ed6bd928483d097ab2e.json": {
+      "sha256": "736f37b50a2c0b1b7c475426ed5f4adf074e7c6373023ed6bd928483d097ab2e",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/nicholls/736f37b50a2c0b1b7c475426ed5f4adf074e7c6373023ed6bd928483d097ab2e.json"
+    },
+    "data/intelligence/history/teams/njit/e66cf2b2f487786cddfb7091f20ff32c308d6598f31077f3cf57e3e1a3acb6f6.json": {
+      "sha256": "e66cf2b2f487786cddfb7091f20ff32c308d6598f31077f3cf57e3e1a3acb6f6",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/njit/e66cf2b2f487786cddfb7091f20ff32c308d6598f31077f3cf57e3e1a3acb6f6.json"
+    },
+    "data/intelligence/history/teams/norfolk-state/e2063300047ddb8e7246b6259ee34fc3cda277b0f9ff8c69ada37e63fec60e6f.json": {
+      "sha256": "e2063300047ddb8e7246b6259ee34fc3cda277b0f9ff8c69ada37e63fec60e6f",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/norfolk-state/e2063300047ddb8e7246b6259ee34fc3cda277b0f9ff8c69ada37e63fec60e6f.json"
+    },
+    "data/intelligence/history/teams/north-florida/0238dde0ca63d99e204010c2547872681d19ff17c1d240f9bdce7e312c0d2fe9.json": {
+      "sha256": "0238dde0ca63d99e204010c2547872681d19ff17c1d240f9bdce7e312c0d2fe9",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/north-florida/0238dde0ca63d99e204010c2547872681d19ff17c1d240f9bdce7e312c0d2fe9.json"
+    },
+    "data/intelligence/history/teams/northeastern/c18610088fbcbe169fc2add0d2f311dfd801165bda5df9c364ade0dfb8a9daff.json": {
+      "sha256": "c18610088fbcbe169fc2add0d2f311dfd801165bda5df9c364ade0dfb8a9daff",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/northeastern/c18610088fbcbe169fc2add0d2f311dfd801165bda5df9c364ade0dfb8a9daff.json"
+    },
+    "data/intelligence/history/teams/northern-arizona/0b4b409400ad4d8ea490c10370c424ca8c73e794af5a03b08420052ef6579195.json": {
+      "sha256": "0b4b409400ad4d8ea490c10370c424ca8c73e794af5a03b08420052ef6579195",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/northern-arizona/0b4b409400ad4d8ea490c10370c424ca8c73e794af5a03b08420052ef6579195.json"
+    },
+    "data/intelligence/history/teams/northern-colorado/79bc2a3c1916f1708ea3c1f04a53bb7e836f2b5dfb9a5e53abcf567287166db1.json": {
+      "sha256": "79bc2a3c1916f1708ea3c1f04a53bb7e836f2b5dfb9a5e53abcf567287166db1",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/northern-colorado/79bc2a3c1916f1708ea3c1f04a53bb7e836f2b5dfb9a5e53abcf567287166db1.json"
+    },
+    "data/intelligence/history/teams/northern-illinois/239b94fa788959fc28107da86ae6e8ce3a8cdce8294e1df0ac3dbca37fe3cb09.json": {
+      "sha256": "239b94fa788959fc28107da86ae6e8ce3a8cdce8294e1df0ac3dbca37fe3cb09",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/northern-illinois/239b94fa788959fc28107da86ae6e8ce3a8cdce8294e1df0ac3dbca37fe3cb09.json"
+    },
+    "data/intelligence/history/teams/northwestern/c6c7edec866198c1cb7994c80a21c27ee0bf1fd44bc31b2248f7a2ce6a6c25c8.json": {
+      "sha256": "c6c7edec866198c1cb7994c80a21c27ee0bf1fd44bc31b2248f7a2ce6a6c25c8",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/northwestern/c6c7edec866198c1cb7994c80a21c27ee0bf1fd44bc31b2248f7a2ce6a6c25c8.json"
+    },
+    "data/intelligence/history/teams/oklahoma-state/226e3f67ff482fc9312612fffc541374cb0fc10b4436eed02b07255c4def654d.json": {
+      "sha256": "226e3f67ff482fc9312612fffc541374cb0fc10b4436eed02b07255c4def654d",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/oklahoma-state/226e3f67ff482fc9312612fffc541374cb0fc10b4436eed02b07255c4def654d.json"
+    },
+    "data/intelligence/history/teams/oral-roberts/0500b106a814e075d315e051650a60301a6721c0ebd6bb842419e9526932619e.json": {
+      "sha256": "0500b106a814e075d315e051650a60301a6721c0ebd6bb842419e9526932619e",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/oral-roberts/0500b106a814e075d315e051650a60301a6721c0ebd6bb842419e9526932619e.json"
+    },
+    "data/intelligence/history/teams/pacific/15e23707f4af0db90ec67609b785bdf5344e442e7a77f607bff314bb861cba25.json": {
+      "sha256": "15e23707f4af0db90ec67609b785bdf5344e442e7a77f607bff314bb861cba25",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/pacific/15e23707f4af0db90ec67609b785bdf5344e442e7a77f607bff314bb861cba25.json"
+    },
+    "data/intelligence/history/teams/penn-state-behrend/492ae8f939432485d2dd65ba09a4e89d2ba601eb702999a243b32ca22884b19c.json": {
+      "sha256": "492ae8f939432485d2dd65ba09a4e89d2ba601eb702999a243b32ca22884b19c",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/penn-state-behrend/492ae8f939432485d2dd65ba09a4e89d2ba601eb702999a243b32ca22884b19c.json"
+    },
+    "data/intelligence/history/teams/penn/a22af501159816ae13b7336148bd9f1e32c98f8fb5ea4f2725de125878a5ec73.json": {
+      "sha256": "a22af501159816ae13b7336148bd9f1e32c98f8fb5ea4f2725de125878a5ec73",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/penn/a22af501159816ae13b7336148bd9f1e32c98f8fb5ea4f2725de125878a5ec73.json"
+    },
+    "data/intelligence/history/teams/portland-state/f06043114d9ac0d35e0d1fe98c8b86e5f7b9ecc3de0fdd8cb2196b6b5389af58.json": {
+      "sha256": "f06043114d9ac0d35e0d1fe98c8b86e5f7b9ecc3de0fdd8cb2196b6b5389af58",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/portland-state/f06043114d9ac0d35e0d1fe98c8b86e5f7b9ecc3de0fdd8cb2196b6b5389af58.json"
+    },
+    "data/intelligence/history/teams/portland/f7e62fe0797aa49cd92815bc9158db27c9e946ff6043ca6679e6795bc2e3e6d5.json": {
+      "sha256": "f7e62fe0797aa49cd92815bc9158db27c9e946ff6043ca6679e6795bc2e3e6d5",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/portland/f7e62fe0797aa49cd92815bc9158db27c9e946ff6043ca6679e6795bc2e3e6d5.json"
+    },
+    "data/intelligence/history/teams/presbyterian/1e4c53a7021d9f74202f512130651c25d55a13bd546900587def3a1517ca19c2.json": {
+      "sha256": "1e4c53a7021d9f74202f512130651c25d55a13bd546900587def3a1517ca19c2",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/presbyterian/1e4c53a7021d9f74202f512130651c25d55a13bd546900587def3a1517ca19c2.json"
+    },
+    "data/intelligence/history/teams/purdue-fort-wayne/8d0b455a1ee4cd579bb4f6452093983b7ad48318e610be9f4bfb47163dafe5fb.json": {
+      "sha256": "8d0b455a1ee4cd579bb4f6452093983b7ad48318e610be9f4bfb47163dafe5fb",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/purdue-fort-wayne/8d0b455a1ee4cd579bb4f6452093983b7ad48318e610be9f4bfb47163dafe5fb.json"
+    },
+    "data/intelligence/history/teams/queens/60eab5723f98a69ce9e254b300f156aa0c091f8c600cba1f8fd0375583c977e7.json": {
+      "sha256": "60eab5723f98a69ce9e254b300f156aa0c091f8c600cba1f8fd0375583c977e7",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/queens/60eab5723f98a69ce9e254b300f156aa0c091f8c600cba1f8fd0375583c977e7.json"
+    },
+    "data/intelligence/history/teams/radford/50410ee094cd03760276ab963a98bbb584ff4db09a26f085ccb02214b730b86a.json": {
+      "sha256": "50410ee094cd03760276ab963a98bbb584ff4db09a26f085ccb02214b730b86a",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/radford/50410ee094cd03760276ab963a98bbb584ff4db09a26f085ccb02214b730b86a.json"
+    },
+    "data/intelligence/history/teams/rhode-island/d0c39de6721a89928c7b5c695ad74525630bbf707d9919ce2a6c1307ad90e8cd.json": {
+      "sha256": "d0c39de6721a89928c7b5c695ad74525630bbf707d9919ce2a6c1307ad90e8cd",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/rhode-island/d0c39de6721a89928c7b5c695ad74525630bbf707d9919ce2a6c1307ad90e8cd.json"
+    },
+    "data/intelligence/history/teams/rice/0a3d0c49fb8ff35db931035fece4991d061503f682d3f5300a431b5c5a00fa3c.json": {
+      "sha256": "0a3d0c49fb8ff35db931035fece4991d061503f682d3f5300a431b5c5a00fa3c",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/rice/0a3d0c49fb8ff35db931035fece4991d061503f682d3f5300a431b5c5a00fa3c.json"
+    },
+    "data/intelligence/history/teams/richmond/31000f4957db084e43063da7d03f24365b7b868f9d5f86474b3ac0bf8b0f8da4.json": {
+      "sha256": "31000f4957db084e43063da7d03f24365b7b868f9d5f86474b3ac0bf8b0f8da4",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/richmond/31000f4957db084e43063da7d03f24365b7b868f9d5f86474b3ac0bf8b0f8da4.json"
+    },
+    "data/intelligence/history/teams/rider/f7040b4c4c3f46f9957cb9cb1000e24fb3b31a432ea19d3e83a424b95e32ca8e.json": {
+      "sha256": "f7040b4c4c3f46f9957cb9cb1000e24fb3b31a432ea19d3e83a424b95e32ca8e",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/rider/f7040b4c4c3f46f9957cb9cb1000e24fb3b31a432ea19d3e83a424b95e32ca8e.json"
+    },
+    "data/intelligence/history/teams/robert-morris/bef17f92ac0ad9d8ddfddaf3e29eafb3a6ba58895127df8362fc6e32dc46b5aa.json": {
+      "sha256": "bef17f92ac0ad9d8ddfddaf3e29eafb3a6ba58895127df8362fc6e32dc46b5aa",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/robert-morris/bef17f92ac0ad9d8ddfddaf3e29eafb3a6ba58895127df8362fc6e32dc46b5aa.json"
+    },
+    "data/intelligence/history/teams/saint-marys-ca/8248fb6fd0c8de119dd7642ec87a0779c9148587f7ffb86e1bfb39274dd8d8dc.json": {
+      "sha256": "8248fb6fd0c8de119dd7642ec87a0779c9148587f7ffb86e1bfb39274dd8d8dc",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/saint-marys-ca/8248fb6fd0c8de119dd7642ec87a0779c9148587f7ffb86e1bfb39274dd8d8dc.json"
+    },
+    "data/intelligence/history/teams/saint-peter-s/02c3191d95c14a28305a481bec40fdbb4f91d32ef3c3ae37f9f8f0c0f8bcffb6.json": {
+      "sha256": "02c3191d95c14a28305a481bec40fdbb4f91d32ef3c3ae37f9f8f0c0f8bcffb6",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/saint-peter-s/02c3191d95c14a28305a481bec40fdbb4f91d32ef3c3ae37f9f8f0c0f8bcffb6.json"
+    },
+    "data/intelligence/history/teams/samford/5d6ec7463719e056e3f4fdaaec2047faf830d8b4ac0075cf787f665845d82ddc.json": {
+      "sha256": "5d6ec7463719e056e3f4fdaaec2047faf830d8b4ac0075cf787f665845d82ddc",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/samford/5d6ec7463719e056e3f4fdaaec2047faf830d8b4ac0075cf787f665845d82ddc.json"
+    },
+    "data/intelligence/history/teams/san-diego/b8f60d543cbfa22e4446aaaa73b7ed19ad40838561406ed40524725a5cab7d1c.json": {
+      "sha256": "b8f60d543cbfa22e4446aaaa73b7ed19ad40838561406ed40524725a5cab7d1c",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/san-diego/b8f60d543cbfa22e4446aaaa73b7ed19ad40838561406ed40524725a5cab7d1c.json"
+    },
+    "data/intelligence/history/teams/seattle/82105a97f7d64b4cca2056109e2a2078afd53fde200d2aac218f1bd6ad36c63b.json": {
+      "sha256": "82105a97f7d64b4cca2056109e2a2078afd53fde200d2aac218f1bd6ad36c63b",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/seattle/82105a97f7d64b4cca2056109e2a2078afd53fde200d2aac218f1bd6ad36c63b.json"
+    },
+    "data/intelligence/history/teams/siena/5bc7c270b0b54dfc3268fc5422567e94b62a90fc20ded4098dd8869a2d682283.json": {
+      "sha256": "5bc7c270b0b54dfc3268fc5422567e94b62a90fc20ded4098dd8869a2d682283",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/siena/5bc7c270b0b54dfc3268fc5422567e94b62a90fc20ded4098dd8869a2d682283.json"
+    },
+    "data/intelligence/history/teams/south-alabama/db644e2b8adf349cb3866458227bd86f40ed4770b750f3ffc83c04dd91689aa1.json": {
+      "sha256": "db644e2b8adf349cb3866458227bd86f40ed4770b750f3ffc83c04dd91689aa1",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/south-alabama/db644e2b8adf349cb3866458227bd86f40ed4770b750f3ffc83c04dd91689aa1.json"
+    },
+    "data/intelligence/history/teams/south-dakota/dd1bb7a412c533cb2673ea8aa878662ab8117e0e216b08df07b82852822e96e9.json": {
+      "sha256": "dd1bb7a412c533cb2673ea8aa878662ab8117e0e216b08df07b82852822e96e9",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/south-dakota/dd1bb7a412c533cb2673ea8aa878662ab8117e0e216b08df07b82852822e96e9.json"
+    },
+    "data/intelligence/history/teams/south-florida/530fa5a187b362164e96f744e083ba29f40886226a31803767ad413f2fd5d9da.json": {
+      "sha256": "530fa5a187b362164e96f744e083ba29f40886226a31803767ad413f2fd5d9da",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/south-florida/530fa5a187b362164e96f744e083ba29f40886226a31803767ad413f2fd5d9da.json"
+    },
+    "data/intelligence/history/teams/southern-illinois/e85026d2093257f8994dd0f19efd9b324d524f79aca848d8585847567c4436c9.json": {
+      "sha256": "e85026d2093257f8994dd0f19efd9b324d524f79aca848d8585847567c4436c9",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/southern-illinois/e85026d2093257f8994dd0f19efd9b324d524f79aca848d8585847567c4436c9.json"
+    },
+    "data/intelligence/history/teams/southern-indiana/2ad1699c2babf6111214156257a8fc6d72fb681e834e9272dd6a5ab7ef641e72.json": {
+      "sha256": "2ad1699c2babf6111214156257a8fc6d72fb681e834e9272dd6a5ab7ef641e72",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/southern-indiana/2ad1699c2babf6111214156257a8fc6d72fb681e834e9272dd6a5ab7ef641e72.json"
+    },
+    "data/intelligence/history/teams/southern-miss/b5bee2035aaec97d83da543b68b32e6f8a28078f339d709f39b660ee5a662fb9.json": {
+      "sha256": "b5bee2035aaec97d83da543b68b32e6f8a28078f339d709f39b660ee5a662fb9",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/southern-miss/b5bee2035aaec97d83da543b68b32e6f8a28078f339d709f39b660ee5a662fb9.json"
+    },
+    "data/intelligence/history/teams/southwestern-adventist/dc35322990f8bc949c0e9d4a2ac3f4c051364172314bf5b404235d44aaed5ebd.json": {
+      "sha256": "dc35322990f8bc949c0e9d4a2ac3f4c051364172314bf5b404235d44aaed5ebd",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/southwestern-adventist/dc35322990f8bc949c0e9d4a2ac3f4c051364172314bf5b404235d44aaed5ebd.json"
+    },
+    "data/intelligence/history/teams/st-thomas-mn/e3b648990170ddc638d7334fc9065694d2f53c6566bad5d2777cdab982fc5641.json": {
+      "sha256": "e3b648990170ddc638d7334fc9065694d2f53c6566bad5d2777cdab982fc5641",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/st-thomas-mn/e3b648990170ddc638d7334fc9065694d2f53c6566bad5d2777cdab982fc5641.json"
+    },
+    "data/intelligence/history/teams/stephen-f-austin/19b8e1cd4576f42372b5e0dbbca19b499fb1b63edcb776d12880d519138e6fe9.json": {
+      "sha256": "19b8e1cd4576f42372b5e0dbbca19b499fb1b63edcb776d12880d519138e6fe9",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/stephen-f-austin/19b8e1cd4576f42372b5e0dbbca19b499fb1b63edcb776d12880d519138e6fe9.json"
+    },
+    "data/intelligence/history/teams/stonehill/33054ff06d47ec9898da58ac136fbfb9cfb952340859009fee28c10c27de614f.json": {
+      "sha256": "33054ff06d47ec9898da58ac136fbfb9cfb952340859009fee28c10c27de614f",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/stonehill/33054ff06d47ec9898da58ac136fbfb9cfb952340859009fee28c10c27de614f.json"
+    },
+    "data/intelligence/history/teams/stony-brook/0ab935193e53cddb4ae880f6d70a3367bc30cc2e75e2081e0de937a1605cd652.json": {
+      "sha256": "0ab935193e53cddb4ae880f6d70a3367bc30cc2e75e2081e0de937a1605cd652",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/stony-brook/0ab935193e53cddb4ae880f6d70a3367bc30cc2e75e2081e0de937a1605cd652.json"
+    },
+    "data/intelligence/history/teams/syracuse/142741a9a36ac6836185959f1ef1c4f76d3bf01784a42c1d341c9bcabbd9f970.json": {
+      "sha256": "142741a9a36ac6836185959f1ef1c4f76d3bf01784a42c1d341c9bcabbd9f970",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/syracuse/142741a9a36ac6836185959f1ef1c4f76d3bf01784a42c1d341c9bcabbd9f970.json"
+    },
+    "data/intelligence/history/teams/temple/01e98f8f12d5552b9c90c35d9c2ff3312a1531fe43befad2a426bd414923b228.json": {
+      "sha256": "01e98f8f12d5552b9c90c35d9c2ff3312a1531fe43befad2a426bd414923b228",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/temple/01e98f8f12d5552b9c90c35d9c2ff3312a1531fe43befad2a426bd414923b228.json"
+    },
+    "data/intelligence/history/teams/tennessee-tech/7a8aa0daca0664e9262bef31b5433d7cd0f5c604509014608c39868f2b2040b8.json": {
+      "sha256": "7a8aa0daca0664e9262bef31b5433d7cd0f5c604509014608c39868f2b2040b8",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/tennessee-tech/7a8aa0daca0664e9262bef31b5433d7cd0f5c604509014608c39868f2b2040b8.json"
+    },
+    "data/intelligence/history/teams/texas-a-m-corpus-christi/f74bad1975f6c61a145b254f47f9c68bab23f6fb4950b6669705493101e18ee2.json": {
+      "sha256": "f74bad1975f6c61a145b254f47f9c68bab23f6fb4950b6669705493101e18ee2",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/texas-a-m-corpus-christi/f74bad1975f6c61a145b254f47f9c68bab23f6fb4950b6669705493101e18ee2.json"
+    },
+    "data/intelligence/history/teams/texas-southern/9e59d3df84bef23dfe64de1c0c04e1d59e8e84e16c3cf515cad9170ce98d8d3b.json": {
+      "sha256": "9e59d3df84bef23dfe64de1c0c04e1d59e8e84e16c3cf515cad9170ce98d8d3b",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/texas-southern/9e59d3df84bef23dfe64de1c0c04e1d59e8e84e16c3cf515cad9170ce98d8d3b.json"
+    },
+    "data/intelligence/history/teams/texas-state/c03319493173a73a190121d7dc57f1e2ccbb5b54a2291dfa22438d275a24e928.json": {
+      "sha256": "c03319493173a73a190121d7dc57f1e2ccbb5b54a2291dfa22438d275a24e928",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/texas-state/c03319493173a73a190121d7dc57f1e2ccbb5b54a2291dfa22438d275a24e928.json"
+    },
+    "data/intelligence/history/teams/texas/f7abd75376f1a02000b33627e18524134aca92518732cd5a286645a5b418d1b5.json": {
+      "sha256": "f7abd75376f1a02000b33627e18524134aca92518732cd5a286645a5b418d1b5",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/texas/f7abd75376f1a02000b33627e18524134aca92518732cd5a286645a5b418d1b5.json"
+    },
+    "data/intelligence/history/teams/towson/2deb77b2221a02c105d0ef99d8027c80a0adad3140417ec8ba6f8e9b4614a668.json": {
+      "sha256": "2deb77b2221a02c105d0ef99d8027c80a0adad3140417ec8ba6f8e9b4614a668",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/towson/2deb77b2221a02c105d0ef99d8027c80a0adad3140417ec8ba6f8e9b4614a668.json"
+    },
+    "data/intelligence/history/teams/troy/42feb0e9abaab20cc672b515e296edc17f30ed16f748b9bbd445dd6454d8319f.json": {
+      "sha256": "42feb0e9abaab20cc672b515e296edc17f30ed16f748b9bbd445dd6454d8319f",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/troy/42feb0e9abaab20cc672b515e296edc17f30ed16f748b9bbd445dd6454d8319f.json"
+    },
+    "data/intelligence/history/teams/uab/e0f6d77042a26f6844ad06e335344ca9f977af90dd1e2f9e864fcbc75e9a5c46.json": {
+      "sha256": "e0f6d77042a26f6844ad06e335344ca9f977af90dd1e2f9e864fcbc75e9a5c46",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/uab/e0f6d77042a26f6844ad06e335344ca9f977af90dd1e2f9e864fcbc75e9a5c46.json"
+    },
+    "data/intelligence/history/teams/ualbany/52f4040313c200f017947a4df424e6cfd9c1ba3913bccdfa4e3f6528e54fff87.json": {
+      "sha256": "52f4040313c200f017947a4df424e6cfd9c1ba3913bccdfa4e3f6528e54fff87",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/ualbany/52f4040313c200f017947a4df424e6cfd9c1ba3913bccdfa4e3f6528e54fff87.json"
+    },
+    "data/intelligence/history/teams/uc-irvine/5892f1427e1c263bc67225857f85d05aa195a4b084d187aefbaf2cf0048ec18e.json": {
+      "sha256": "5892f1427e1c263bc67225857f85d05aa195a4b084d187aefbaf2cf0048ec18e",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/uc-irvine/5892f1427e1c263bc67225857f85d05aa195a4b084d187aefbaf2cf0048ec18e.json"
+    },
+    "data/intelligence/history/teams/uc-san-diego/60ec7ef6aba0b584f1ff39579723d2ff0b34f3acbf9923856d31409cf9f3b646.json": {
+      "sha256": "60ec7ef6aba0b584f1ff39579723d2ff0b34f3acbf9923856d31409cf9f3b646",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/uc-san-diego/60ec7ef6aba0b584f1ff39579723d2ff0b34f3acbf9923856d31409cf9f3b646.json"
+    },
+    "data/intelligence/history/teams/ucla/27453bf227f69d07ab20ac7e5ee79d8eb2e57212cac758c83a2934deb1b1f05f.json": {
+      "sha256": "27453bf227f69d07ab20ac7e5ee79d8eb2e57212cac758c83a2934deb1b1f05f",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/ucla/27453bf227f69d07ab20ac7e5ee79d8eb2e57212cac758c83a2934deb1b1f05f.json"
+    },
+    "data/intelligence/history/teams/uic/5b85ee80da9298bed4480ef49a158197f9d87dfc12125b58a616c3c3d5f022f1.json": {
+      "sha256": "5b85ee80da9298bed4480ef49a158197f9d87dfc12125b58a616c3c3d5f022f1",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/uic/5b85ee80da9298bed4480ef49a158197f9d87dfc12125b58a616c3c3d5f022f1.json"
+    },
+    "data/intelligence/history/teams/umass-lowell/1698fdd51166788ded4903af344c1ccc738d7782542037c0a654f86738155782.json": {
+      "sha256": "1698fdd51166788ded4903af344c1ccc738d7782542037c0a654f86738155782",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/umass-lowell/1698fdd51166788ded4903af344c1ccc738d7782542037c0a654f86738155782.json"
+    },
+    "data/intelligence/history/teams/umbc/38e01742cfbf4bf29ae13c757f5105a4cdefc0c060f3b98d0d6b6b0e67b312c0.json": {
+      "sha256": "38e01742cfbf4bf29ae13c757f5105a4cdefc0c060f3b98d0d6b6b0e67b312c0",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/umbc/38e01742cfbf4bf29ae13c757f5105a4cdefc0c060f3b98d0d6b6b0e67b312c0.json"
+    },
+    "data/intelligence/history/teams/unc-asheville/3e16b9675a1aded38a9f1e4a71d1f255ebf8878bcb3a20d96414305e8ff21f34.json": {
+      "sha256": "3e16b9675a1aded38a9f1e4a71d1f255ebf8878bcb3a20d96414305e8ff21f34",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/unc-asheville/3e16b9675a1aded38a9f1e4a71d1f255ebf8878bcb3a20d96414305e8ff21f34.json"
+    },
+    "data/intelligence/history/teams/unc-greensboro/c4b8b618e549f6db3e44bcbecf2be7708b36bc7114296ff02f4c0e67f15c7bb4.json": {
+      "sha256": "c4b8b618e549f6db3e44bcbecf2be7708b36bc7114296ff02f4c0e67f15c7bb4",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/unc-greensboro/c4b8b618e549f6db3e44bcbecf2be7708b36bc7114296ff02f4c0e67f15c7bb4.json"
+    },
+    "data/intelligence/history/teams/unc-wilmington/e07dd692d06ac7723c60c04b1ac3dad00e00733ba1952e2d984d9a53ebf2c2af.json": {
+      "sha256": "e07dd692d06ac7723c60c04b1ac3dad00e00733ba1952e2d984d9a53ebf2c2af",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/unc-wilmington/e07dd692d06ac7723c60c04b1ac3dad00e00733ba1952e2d984d9a53ebf2c2af.json"
+    },
+    "data/intelligence/history/teams/usc-upstate/0e86025125b1fe0bf40722781cb9d37ce5a4b330c5e48d54c23071d8b5598c60.json": {
+      "sha256": "0e86025125b1fe0bf40722781cb9d37ce5a4b330c5e48d54c23071d8b5598c60",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/usc-upstate/0e86025125b1fe0bf40722781cb9d37ce5a4b330c5e48d54c23071d8b5598c60.json"
+    },
+    "data/intelligence/history/teams/usc/5b802d925191c9170d669e9bba694200339c607a292ac6b78f2268409305633d.json": {
+      "sha256": "5b802d925191c9170d669e9bba694200339c607a292ac6b78f2268409305633d",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/usc/5b802d925191c9170d669e9bba694200339c607a292ac6b78f2268409305633d.json"
+    },
+    "data/intelligence/history/teams/ut-martin/c3f5579f4f214fc89a3898dd0bd4bdc603a718cacace6139c418865dd4611ba5.json": {
+      "sha256": "c3f5579f4f214fc89a3898dd0bd4bdc603a718cacace6139c418865dd4611ba5",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/ut-martin/c3f5579f4f214fc89a3898dd0bd4bdc603a718cacace6139c418865dd4611ba5.json"
+    },
+    "data/intelligence/history/teams/utah-tech/71fcfb69a7632a605c612d2faa56f278fe8e4a4ccac170adfd34897430a93dd7.json": {
+      "sha256": "71fcfb69a7632a605c612d2faa56f278fe8e4a4ccac170adfd34897430a93dd7",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/utah-tech/71fcfb69a7632a605c612d2faa56f278fe8e4a4ccac170adfd34897430a93dd7.json"
+    },
+    "data/intelligence/history/teams/utah-valley/2f6661a0d9a28e5985b513edf3a5476efc1e1e149215605810cb43395df6e814.json": {
+      "sha256": "2f6661a0d9a28e5985b513edf3a5476efc1e1e149215605810cb43395df6e814",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/utah-valley/2f6661a0d9a28e5985b513edf3a5476efc1e1e149215605810cb43395df6e814.json"
+    },
+    "data/intelligence/history/teams/utah/df1bf229db75ddd951c42e211309a87d31583bb452146d84b799b6762522a0b7.json": {
+      "sha256": "df1bf229db75ddd951c42e211309a87d31583bb452146d84b799b6762522a0b7",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/utah/df1bf229db75ddd951c42e211309a87d31583bb452146d84b799b6762522a0b7.json"
+    },
+    "data/intelligence/history/teams/utrgv/6b4efc6a0749748ea32a2468da5ecdbed74096156a35f2005e2f117b19a9633f.json": {
+      "sha256": "6b4efc6a0749748ea32a2468da5ecdbed74096156a35f2005e2f117b19a9633f",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/utrgv/6b4efc6a0749748ea32a2468da5ecdbed74096156a35f2005e2f117b19a9633f.json"
+    },
+    "data/intelligence/history/teams/utsa/4e896615f0b7307ed89096c1279ea697f3782ac932eeb9d05359e171075a1dfe.json": {
+      "sha256": "4e896615f0b7307ed89096c1279ea697f3782ac932eeb9d05359e171075a1dfe",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/utsa/4e896615f0b7307ed89096c1279ea697f3782ac932eeb9d05359e171075a1dfe.json"
+    },
+    "data/intelligence/history/teams/valparaiso/c198cd6430b41466e55d92f833d5d924f5cc37511e433cfa53a14783ca718efb.json": {
+      "sha256": "c198cd6430b41466e55d92f833d5d924f5cc37511e433cfa53a14783ca718efb",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/valparaiso/c198cd6430b41466e55d92f833d5d924f5cc37511e433cfa53a14783ca718efb.json"
+    },
+    "data/intelligence/history/teams/vermont/cb23943cb06fef76f3d8ce10d58b27c4f26e5231fb0449629562a2587d12ffed.json": {
+      "sha256": "cb23943cb06fef76f3d8ce10d58b27c4f26e5231fb0449629562a2587d12ffed",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/vermont/cb23943cb06fef76f3d8ce10d58b27c4f26e5231fb0449629562a2587d12ffed.json"
+    },
+    "data/intelligence/history/teams/villanova/c73ca1fa65436fa3a17e0a545426a74148b5c1a546bb20dab0f5bb45b53b0d3a.json": {
+      "sha256": "c73ca1fa65436fa3a17e0a545426a74148b5c1a546bb20dab0f5bb45b53b0d3a",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/villanova/c73ca1fa65436fa3a17e0a545426a74148b5c1a546bb20dab0f5bb45b53b0d3a.json"
+    },
+    "data/intelligence/history/teams/virginia-lynchburg/75731e1449c87d03bea5535a208a0390eaf138eda0dbf68fc65bbb7a8e6fcc67.json": {
+      "sha256": "75731e1449c87d03bea5535a208a0390eaf138eda0dbf68fc65bbb7a8e6fcc67",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/virginia-lynchburg/75731e1449c87d03bea5535a208a0390eaf138eda0dbf68fc65bbb7a8e6fcc67.json"
+    },
+    "data/intelligence/history/teams/virginia-tech/c1c2a5f2b44280241d663f63e51257de64255e6647e73cbdc5d06cee6844a0db.json": {
+      "sha256": "c1c2a5f2b44280241d663f63e51257de64255e6647e73cbdc5d06cee6844a0db",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/virginia-tech/c1c2a5f2b44280241d663f63e51257de64255e6647e73cbdc5d06cee6844a0db.json"
+    },
+    "data/intelligence/history/teams/vmi/926be1fa90fac6801cf72bbccabfe0786c7344f27bc5a66188afef419301b028.json": {
+      "sha256": "926be1fa90fac6801cf72bbccabfe0786c7344f27bc5a66188afef419301b028",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/vmi/926be1fa90fac6801cf72bbccabfe0786c7344f27bc5a66188afef419301b028.json"
+    },
+    "data/intelligence/history/teams/wake-forest/90064bfff990d7cd8f5a715421ca086bc743e351634cd72c5bfa31d6ae940cfd.json": {
+      "sha256": "90064bfff990d7cd8f5a715421ca086bc743e351634cd72c5bfa31d6ae940cfd",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/wake-forest/90064bfff990d7cd8f5a715421ca086bc743e351634cd72c5bfa31d6ae940cfd.json"
+    },
+    "data/intelligence/history/teams/washington-state/3928cf7d25eb4f0499271b08f5cbfb78ad63ef29eecdf9cc25c039c99cc2ed63.json": {
+      "sha256": "3928cf7d25eb4f0499271b08f5cbfb78ad63ef29eecdf9cc25c039c99cc2ed63",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/washington-state/3928cf7d25eb4f0499271b08f5cbfb78ad63ef29eecdf9cc25c039c99cc2ed63.json"
+    },
+    "data/intelligence/history/teams/west-florida/960ccb45bf9ad717d3ca6849bbe715bafeb84a4b62dd4b9cfbdf2a7e33293fa3.json": {
+      "sha256": "960ccb45bf9ad717d3ca6849bbe715bafeb84a4b62dd4b9cfbdf2a7e33293fa3",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/west-florida/960ccb45bf9ad717d3ca6849bbe715bafeb84a4b62dd4b9cfbdf2a7e33293fa3.json"
+    },
+    "data/intelligence/history/teams/western-carolina/defe13fab1c32a6f76da4bf95fa0cad9365af34770bbf8decf5e7aa166a3c4ad.json": {
+      "sha256": "defe13fab1c32a6f76da4bf95fa0cad9365af34770bbf8decf5e7aa166a3c4ad",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/western-carolina/defe13fab1c32a6f76da4bf95fa0cad9365af34770bbf8decf5e7aa166a3c4ad.json"
+    },
+    "data/intelligence/history/teams/western-illinois/15fb9e0b28a7db24eec1ae1c7e257fd7dce566e71ad8f0bce2a6dff66207a196.json": {
+      "sha256": "15fb9e0b28a7db24eec1ae1c7e257fd7dce566e71ad8f0bce2a6dff66207a196",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/western-illinois/15fb9e0b28a7db24eec1ae1c7e257fd7dce566e71ad8f0bce2a6dff66207a196.json"
+    },
+    "data/intelligence/history/teams/western-kentucky/db651ab092137b49b9e49634cce42a04afd9eb3dff2de2d6d2990852d37c6e0a.json": {
+      "sha256": "db651ab092137b49b9e49634cce42a04afd9eb3dff2de2d6d2990852d37c6e0a",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/western-kentucky/db651ab092137b49b9e49634cce42a04afd9eb3dff2de2d6d2990852d37c6e0a.json"
+    },
+    "data/intelligence/history/teams/wichita-state/66b616e0c0959fd71d5aed368c8c0841ac18ff1537b20d838fce21b726dc8f04.json": {
+      "sha256": "66b616e0c0959fd71d5aed368c8c0841ac18ff1537b20d838fce21b726dc8f04",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/wichita-state/66b616e0c0959fd71d5aed368c8c0841ac18ff1537b20d838fce21b726dc8f04.json"
+    },
+    "data/intelligence/history/teams/william-mary/7d6c78e3aa8fb83d9101c3c129726da86cc8a4cd6f5a77a7565aebc702bc55ec.json": {
+      "sha256": "7d6c78e3aa8fb83d9101c3c129726da86cc8a4cd6f5a77a7565aebc702bc55ec",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/william-mary/7d6c78e3aa8fb83d9101c3c129726da86cc8a4cd6f5a77a7565aebc702bc55ec.json"
+    },
+    "data/intelligence/history/teams/winthrop/86ac0682e0c995615bd4b4f14a9c2442befacd1bcee3599c8c56e06bced17356.json": {
+      "sha256": "86ac0682e0c995615bd4b4f14a9c2442befacd1bcee3599c8c56e06bced17356",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/winthrop/86ac0682e0c995615bd4b4f14a9c2442befacd1bcee3599c8c56e06bced17356.json"
+    },
+    "data/intelligence/history/teams/wofford/a89d4b9647a23d37f8c43d6bf1ee00bbdc92b5b09fe304f79483b2d30d288c32.json": {
+      "sha256": "a89d4b9647a23d37f8c43d6bf1ee00bbdc92b5b09fe304f79483b2d30d288c32",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/wofford/a89d4b9647a23d37f8c43d6bf1ee00bbdc92b5b09fe304f79483b2d30d288c32.json"
+    },
+    "data/intelligence/history/teams/wyoming/0538520212c2cec53c45ab57445cfc6fd936203e68f6bb770db61dd6d730fda9.json": {
+      "sha256": "0538520212c2cec53c45ab57445cfc6fd936203e68f6bb770db61dd6d730fda9",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/wyoming/0538520212c2cec53c45ab57445cfc6fd936203e68f6bb770db61dd6d730fda9.json"
+    },
+    "data/intelligence/history/teams/youngstown-state/056df029300d41c74e0f7734a0e37cc40d6ec48b7b23c8fc8dfa081aa9f987be.json": {
+      "sha256": "056df029300d41c74e0f7734a0e37cc40d6ec48b7b23c8fc8dfa081aa9f987be",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/teams/youngstown-state/056df029300d41c74e0f7734a0e37cc40d6ec48b7b23c8fc8dfa081aa9f987be.json"
+    },
+    "data/intelligence/manifest.json": {
+      "sha256": "19429ba4e3017520f7db5f6ae8f2b16e73f0e969e7b14d512a38ef2e880fb48c",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/manifest.json"
+    },
+    "data/intelligence/schema.json": {
+      "sha256": "32eac5ed36a512f43d12f303b60cd7968d53b376183faaf968a83998067480e7",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/schema.json"
+    },
+    "data/intelligence/teams/abilene-christian.json": {
+      "sha256": "a9d9c5c1d380b1a311193847fe5e91ea8c43f1fe4671ee0a676910d887efc9d8",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/abilene-christian.json"
+    },
+    "data/intelligence/teams/air-force.json": {
+      "sha256": "56e8e8ed78fdfd95f1f9866256444e1b648039078d33d177a4f5770449ba7403",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/air-force.json"
+    },
+    "data/intelligence/teams/alice-lloyd.json": {
+      "sha256": "d6f58fda2a68aa2f7fee157e52831f4df23cecec6ab53c22f360f5881fc6ac14",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/alice-lloyd.json"
+    },
+    "data/intelligence/teams/american.json": {
+      "sha256": "cc442a9dfcbe3a53e6c7fdedd28815122331c75c0c29790ee4cc04daa62647a8",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/american.json"
+    },
+    "data/intelligence/teams/army-west-point.json": {
+      "sha256": "73feae63d9d1f5e756d35e10f82a095a58acacd4d23f3435fdbe57bd3db73702",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/army-west-point.json"
+    },
+    "data/intelligence/teams/austin-peay.json": {
+      "sha256": "abe3c5380ff138d85a108c55c7a3e0d35f68f9c6982de7f152b2ce8b3a52786e",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/austin-peay.json"
+    },
+    "data/intelligence/teams/binghamton.json": {
+      "sha256": "3244a8daaeb45ea5dd6bc8de359f76dd17088c389c51f36542392400e1bde56a",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/binghamton.json"
+    },
+    "data/intelligence/teams/boston-college.json": {
+      "sha256": "43915e1d908396a3c00463ed33fc223d62ade670dc8a8abab71fdf0db30ad20b",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/boston-college.json"
+    },
+    "data/intelligence/teams/boston-university.json": {
+      "sha256": "5fd310611e96583939d37142aba6d8c97e53f2bba794d10a4aeab690a17014c4",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/boston-university.json"
+    },
+    "data/intelligence/teams/bowling-green.json": {
+      "sha256": "cbae6a109c15aa99f6e4b46587727aa4c8b1245c006d7e6af74b9bab694f68ff",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/bowling-green.json"
+    },
+    "data/intelligence/teams/bradley.json": {
+      "sha256": "5da36d4b24ccb993229224d28b0f6a4c40d19b4deed97543202676948d229dd9",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/bradley.json"
+    },
+    "data/intelligence/teams/brown.json": {
+      "sha256": "1e0125b6b37732f62e2b165de564cbd8be9430f3f334c1514cd1adb7b3755c71",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/brown.json"
+    },
+    "data/intelligence/teams/bucknell.json": {
+      "sha256": "4a02bda2c76979c48d0b5a2779f8fb209288408200d0bf255267c0be91f29ead",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/bucknell.json"
+    },
+    "data/intelligence/teams/butler.json": {
+      "sha256": "7a315b344aae71ede59db5bf8a85ba7d7918a8fe8030559882c099c919ae8b6c",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/butler.json"
+    },
+    "data/intelligence/teams/cal-poly.json": {
+      "sha256": "32823fd10bb348acd80d9ec75007f4e360338894fcdf77981def466087b3e799",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/cal-poly.json"
+    },
+    "data/intelligence/teams/cal-state-fullerton.json": {
+      "sha256": "89cc9296f33e478316239bcf2bbb23b7acda3a94befdf6e2749937aa415ed58e",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/cal-state-fullerton.json"
+    },
+    "data/intelligence/teams/california-baptist.json": {
+      "sha256": "07c86d1cd10bcc80fc2a806509b6525e44dc1fb24851285730d5e0e4fa68c2ef",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/california-baptist.json"
+    },
+    "data/intelligence/teams/calumet-college.json": {
+      "sha256": "8f2257d2c3eed9a8dbd23cab83b7adb7b6e0b99ec4065b5e0f9ba20cd0460960",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/calumet-college.json"
+    },
+    "data/intelligence/teams/canisius.json": {
+      "sha256": "16e45cc530287130fc1432c6d08c86da65b8004e4cdedc6470f3b9c5a947962d",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/canisius.json"
+    },
+    "data/intelligence/teams/central-arkansas.json": {
+      "sha256": "a13ce5a5f80ce12a11699218425b0f370b1277bd51230f577babfe780f1f41b7",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/central-arkansas.json"
+    },
+    "data/intelligence/teams/charleston-southern.json": {
+      "sha256": "fbb9131befaf4186c3cff85ad980265ba1c82fe7adaa44e1dded21e04a1fb809",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/charleston-southern.json"
+    },
+    "data/intelligence/teams/chattanooga.json": {
+      "sha256": "95169542af007b6136ff9f5c80ebd14efb78acf32ca53c2d0b698aaae841255f",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/chattanooga.json"
+    },
+    "data/intelligence/teams/chicago-state.json": {
+      "sha256": "cb13c7f3af5dfa2815ab3493acfbebeba75ebee46afaf2cb5a0ef2ec09804c62",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/chicago-state.json"
+    },
+    "data/intelligence/teams/cincinnati.json": {
+      "sha256": "aecf89e19e0596a6398f517c0bf8eb22a737fb33294e527a048319ff55908756",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/cincinnati.json"
+    },
+    "data/intelligence/teams/cleveland-state.json": {
+      "sha256": "acab9cf23dc34b5c3368e121e6d5ff1b1f0e9d6ea4eb0618f836eb3bf3872cc5",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/cleveland-state.json"
+    },
+    "data/intelligence/teams/clinton.json": {
+      "sha256": "1f895b38a2b4dd3a33597901c93cf160c2cf3368481ea65d4712f58700d4d7d7",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/clinton.json"
+    },
+    "data/intelligence/teams/colgate.json": {
+      "sha256": "9b28c2a1cde9dfa087ba0cad9c36dc6d0b510103352e9c0322dd017f9b67edc4",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/colgate.json"
+    },
+    "data/intelligence/teams/columbia.json": {
+      "sha256": "099b5c3ce07ebdb0036a0d363ab6373c8760dbba82143056618954ea68a884f4",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/columbia.json"
+    },
+    "data/intelligence/teams/coppin-state.json": {
+      "sha256": "254ac5112f7d133711f036c9d7d975aee70318edc0f2989b4e88146a34cd6deb",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/coppin-state.json"
+    },
+    "data/intelligence/teams/cornell.json": {
+      "sha256": "194808082376f5872f30f5b18995f3fae846997b1f8ca443deeb1ddc53125c82",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/cornell.json"
+    },
+    "data/intelligence/teams/dayton.json": {
+      "sha256": "1ef52086e779e47393ecd4b88edcf8b89f7bc2565afc3a080b506655b627ab9e",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/dayton.json"
+    },
+    "data/intelligence/teams/delaware.json": {
+      "sha256": "535330aab476ccfb96d523c611351eefe5b8300fd687f6ad1af8416f338c67dc",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/delaware.json"
+    },
+    "data/intelligence/teams/denver.json": {
+      "sha256": "fd68de299490c9bf56578c89195dd6d74dcec8ed041cbe40b3d52ed1d0936f0b",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/denver.json"
+    },
+    "data/intelligence/teams/detroit-mercy.json": {
+      "sha256": "eb67acaadeba558700c30fb9e5c23bad0052929e30113354a74340aa2314b069",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/detroit-mercy.json"
+    },
+    "data/intelligence/teams/drake.json": {
+      "sha256": "5eec1cb022466f892bf6d2c99225441001e9c5aaf807b1ee4cc32c454102dfb1",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/drake.json"
+    },
+    "data/intelligence/teams/duke.json": {
+      "sha256": "c9dad74a160ce80ce5dc1ebd4a3a2e67a7eaca543066a2fb0dd930e14c7566f7",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/duke.json"
+    },
+    "data/intelligence/teams/duquesne.json": {
+      "sha256": "8ac22da070cd0a03eaecf0c306d1a3769c1375489e4871a4e9fec253c8a946aa",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/duquesne.json"
+    },
+    "data/intelligence/teams/east-carolina.json": {
+      "sha256": "cc001d60f614aa01ae75e9b123a586a0009d01f3baa76484a5136394912d6cae",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/east-carolina.json"
+    },
+    "data/intelligence/teams/east-tennessee-state.json": {
+      "sha256": "538a127e4070454c4ae9a576ce22b2fe1bfe41236966578db52017bbdeb91b70",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/east-tennessee-state.json"
+    },
+    "data/intelligence/teams/eastern-kentucky.json": {
+      "sha256": "42ba641977ac720fa0a61527c3839ae4a90c2cfafb3447b1615a87d03aa06727",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/eastern-kentucky.json"
+    },
+    "data/intelligence/teams/eastern-michigan.json": {
+      "sha256": "575a1cef38cbf4961c18d2ae6c22026536973e2f9a147b629f5b0bfe4122ef29",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/eastern-michigan.json"
+    },
+    "data/intelligence/teams/elon.json": {
+      "sha256": "983e2ca0190bea7dce08b4e456e92173e9ea94793cb5b631be155448e8f1705c",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/elon.json"
+    },
+    "data/intelligence/teams/evansville.json": {
+      "sha256": "21143600802e23e4cab5326399aab6448572575348f83d9217f2629aa792ee24",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/evansville.json"
+    },
+    "data/intelligence/teams/fairfield.json": {
+      "sha256": "5ea6323ab29d7e93e149f825f4ab869b2156bd49f05d5278319dd0b3042909ee",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/fairfield.json"
+    },
+    "data/intelligence/teams/fordham.json": {
+      "sha256": "1a1ec65fe7e21355bea3c85686638f3fad08b332f7f658c8685be78f1b44eb2d",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/fordham.json"
+    },
+    "data/intelligence/teams/furman.json": {
+      "sha256": "5a6b2d484a9b0e634478834c8a845b4b2d3dcea9fc2963f3cb24321788095ff9",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/furman.json"
+    },
+    "data/intelligence/teams/gardner-webb.json": {
+      "sha256": "68f8e2fd1cda061df0b3db44bc6a3459da1e8dbbe9e8ef9bb8e6e036e4a7cab8",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/gardner-webb.json"
+    },
+    "data/intelligence/teams/george-mason.json": {
+      "sha256": "d7528a9f10d432319c5a64bcf071ced7fc7dac672f688d8e4751b3d7e327ec6c",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/george-mason.json"
+    },
+    "data/intelligence/teams/george-washington.json": {
+      "sha256": "f4381284a20cdbbeacfc1af027030e5b9e62ab599110e5fa3344ec256b6513ca",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/george-washington.json"
+    },
+    "data/intelligence/teams/georgetown.json": {
+      "sha256": "531f23641ba17608e1495efc78b6172925b62e172882ebaec378854cee232ec8",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/georgetown.json"
+    },
+    "data/intelligence/teams/indiana-state.json": {
+      "sha256": "f255ffe274f9fa4d1f9e4481649945dcdfda6111984ae318a158ef0c4e571555",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/indiana-state.json"
+    },
+    "data/intelligence/teams/iu-indianapolis.json": {
+      "sha256": "77ceb20d78cae059faa047d2d8f5730686f9151ea7f35faa4570c93c97a99b02",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/iu-indianapolis.json"
+    },
+    "data/intelligence/teams/jacksonville.json": {
+      "sha256": "37680200becf08e0a09e2a439c094af07006a37f63ed425a0a6d0fef1eb2748f",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/jacksonville.json"
+    },
+    "data/intelligence/teams/james-madison.json": {
+      "sha256": "72aaac01ad8541735d503e326fb0cb85dc346ba9a40ca0db0c1c8bfa1792547a",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/james-madison.json"
+    },
+    "data/intelligence/teams/justice-university.json": {
+      "sha256": "239f4750115b751c27aa273e2abf01e353211b7b0382956f7132870c97cb0a59",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/justice-university.json"
+    },
+    "data/intelligence/teams/kent-state.json": {
+      "sha256": "aca088123b64cec98ab097c8308bddec2dac1c1688d441bcd3061dd3d33163ae",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/kent-state.json"
+    },
+    "data/intelligence/teams/la-salle.json": {
+      "sha256": "177fc415be220f99f3c05871877228546af66f06d4e419a0e737f54f2358449c",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/la-salle.json"
+    },
+    "data/intelligence/teams/lafayette.json": {
+      "sha256": "5d3e9fc0af4c3c734cb96c2dc5fef07f141add486d6a73e43393a1c8f714f2be",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/lafayette.json"
+    },
+    "data/intelligence/teams/lamar.json": {
+      "sha256": "ba17ccf1b51a03ec989661a900c9b8d8270956817c93eaed17cd1b046e572eca",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/lamar.json"
+    },
+    "data/intelligence/teams/lancaster-bible.json": {
+      "sha256": "422139677017be160e042bc901778672fd6bd260bf3524cabf92810e78917988",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/lancaster-bible.json"
+    },
+    "data/intelligence/teams/liberty.json": {
+      "sha256": "a624fd3f2a0fcb45604103f4833b31ff790b745d9596157b0a6933739375d401",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/liberty.json"
+    },
+    "data/intelligence/teams/lipscomb.json": {
+      "sha256": "934c563085a49c497a9e8cf4d2dadf650ec07a49ba30d6082a89bce43eb33982",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/lipscomb.json"
+    },
+    "data/intelligence/teams/little-rock.json": {
+      "sha256": "9b301947072133390017a928cae6189d04db64f70ba0166f302a20c3677c30bc",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/little-rock.json"
+    },
+    "data/intelligence/teams/liu.json": {
+      "sha256": "14345df929daf5bf37136d2268c16f46a3245fa924b966746f1595b7e44cde5f",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/liu.json"
+    },
+    "data/intelligence/teams/longwood.json": {
+      "sha256": "10b85592a9d740f772248949949e7c0f44a7587479b15bc5b510437043707209",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/longwood.json"
+    },
+    "data/intelligence/teams/louisiana.json": {
+      "sha256": "817b0d600e419ef0fddce2a9113e1c7908fed1513442c72af91aa3dc1b69e0d0",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/louisiana.json"
+    },
+    "data/intelligence/teams/loyola-marymount.json": {
+      "sha256": "076ee875f83c79affad4ed4c3c18fb18a285bc2199cba5482156ec66401d8a78",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/loyola-marymount.json"
+    },
+    "data/intelligence/teams/lsu.json": {
+      "sha256": "e6338387a3a6a11511aa8133e16da717e10b58da1b1b6e9e663e0f2be195fb17",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/lsu.json"
+    },
+    "data/intelligence/teams/maine.json": {
+      "sha256": "6c1faa9fc65e13014217f78da1291fa072b670094263ea45011c483f4ddf160e",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/maine.json"
+    },
+    "data/intelligence/teams/marquette.json": {
+      "sha256": "da185ee0b4ad43be7f4a3acd8922011fb151d33edf1781e1b9c63d2f7de63854",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/marquette.json"
+    },
+    "data/intelligence/teams/maryland-eastern-shore.json": {
+      "sha256": "faab4319c91905ccd638ef81fbdc2635aa0567232cc01f9658557b700a7095f4",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/maryland-eastern-shore.json"
+    },
+    "data/intelligence/teams/massachusetts.json": {
+      "sha256": "251786152787dd835756c6d87cf53c1cab8079c36705522aa352d978b64cd3a8",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/massachusetts.json"
+    },
+    "data/intelligence/teams/mcneese.json": {
+      "sha256": "82fa8b76c11515ce24e34c77d2bfa94660a6cb7328fb367bbe03b361972da804",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/mcneese.json"
+    },
+    "data/intelligence/teams/memphis.json": {
+      "sha256": "8c8749a7863ac2d92e903a9ce574bea6ff64e2ac74ed70770bcc70c6912e1635",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/memphis.json"
+    },
+    "data/intelligence/teams/menlo.json": {
+      "sha256": "dc6b9c9b65b804ee86e32249d2ea468c8b1464a5fd69fb9dfa625a980a367a48",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/menlo.json"
+    },
+    "data/intelligence/teams/mercer.json": {
+      "sha256": "a64bee318665fbd92f4b9d5d9ad68a09bba177913fc454621db8dd3ad043e93d",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/mercer.json"
+    },
+    "data/intelligence/teams/mercyhurst.json": {
+      "sha256": "ad2de7590b8c7a8d93a53b0da1a7f29ffcafc49be969de8dd2c9f81d6eade49b",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/mercyhurst.json"
+    },
+    "data/intelligence/teams/miami-oh.json": {
+      "sha256": "5c6429f63c7da4de86c6d748c3d93e06c95105fb00ccefb1c1a4b80788597b89",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/miami-oh.json"
+    },
+    "data/intelligence/teams/michigan-state.json": {
+      "sha256": "23b9c67f85ff676944a354e3def1de77cccb8832bee3ccf4f96bd0f7d6a26bbd",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/michigan-state.json"
+    },
+    "data/intelligence/teams/michigan.json": {
+      "sha256": "dd68be89cfbac081173e6d0d396d3554b10bbe3f33a6da21926edba1544811a1",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/michigan.json"
+    },
+    "data/intelligence/teams/middle-tennessee.json": {
+      "sha256": "a9b3e74ffdf4cd582c9a7e72447a86cf1e0ec6a54e763c157b98ecfd2c9f9c7e",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/middle-tennessee.json"
+    },
+    "data/intelligence/teams/milligan.json": {
+      "sha256": "d5ac17b6499e40aaece28aa13ac6e16ef3bae01203ac3df7a701e81e86538e9a",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/milligan.json"
+    },
+    "data/intelligence/teams/milwaukee.json": {
+      "sha256": "513f62316c4ceb5d54d804e00f49c0f91be6031763a63e8d45fd9d014f047bd8",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/milwaukee.json"
+    },
+    "data/intelligence/teams/minnesota.json": {
+      "sha256": "0fab7a2e903d4d2849877e8f65ff0defdc8dbd3abce62f40ba2e9f505cc2f7b8",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/minnesota.json"
+    },
+    "data/intelligence/teams/missouri-state.json": {
+      "sha256": "14666e6293ac024ad70ed1e026b7f024bba778d3cfc8193999a651a2e755ed3b",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/missouri-state.json"
+    },
+    "data/intelligence/teams/morehead-state.json": {
+      "sha256": "ae80a41f448300553b07b43ad2a2aee5af209730d2a78856b8c8d01569f2635c",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/morehead-state.json"
+    },
+    "data/intelligence/teams/morgan-state.json": {
+      "sha256": "d98abe5599b2ec48dea63cad7993c35190e9b6e442d59bc8c1387fbcb61e8c66",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/morgan-state.json"
+    },
+    "data/intelligence/teams/navy.json": {
+      "sha256": "96ef273934998455951474c2365cdea86907093bac76b0d73c3641c112f5ac63",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/navy.json"
+    },
+    "data/intelligence/teams/nebraska.json": {
+      "sha256": "bcf808984cbdd366e407a556cb74d2e1fa7b7e6d83712869899b1a53ecfa54ed",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/nebraska.json"
+    },
+    "data/intelligence/teams/new-hampshire.json": {
+      "sha256": "d17a99eca86f74a17a0c57af47eed66235d4548b9fdf1e1e01992d1ec20521d0",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/new-hampshire.json"
+    },
+    "data/intelligence/teams/new-haven.json": {
+      "sha256": "a64d7288aeba33c93d61911dcff1f07403a651801be257ebf4c71c3ff17e62b0",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/new-haven.json"
+    },
+    "data/intelligence/teams/new-mexico-state.json": {
+      "sha256": "4ccebcb1ed1e2f7b70e6facfb6738fb457d803b10884b0353b73d43d71a5809b",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/new-mexico-state.json"
+    },
+    "data/intelligence/teams/new-mexico.json": {
+      "sha256": "79fcc5feec73b2b72509f970ae771d867fe41f53414636847c7abbf7e39d712c",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/new-mexico.json"
+    },
+    "data/intelligence/teams/new-orleans.json": {
+      "sha256": "4001caa4c322c27a2c7bb290e8864784c5a40e5f24d8322021db2b9e8f1f2634",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/new-orleans.json"
+    },
+    "data/intelligence/teams/nicholls.json": {
+      "sha256": "736f37b50a2c0b1b7c475426ed5f4adf074e7c6373023ed6bd928483d097ab2e",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/nicholls.json"
+    },
+    "data/intelligence/teams/njit.json": {
+      "sha256": "e66cf2b2f487786cddfb7091f20ff32c308d6598f31077f3cf57e3e1a3acb6f6",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/njit.json"
+    },
+    "data/intelligence/teams/norfolk-state.json": {
+      "sha256": "e2063300047ddb8e7246b6259ee34fc3cda277b0f9ff8c69ada37e63fec60e6f",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/norfolk-state.json"
+    },
+    "data/intelligence/teams/north-florida.json": {
+      "sha256": "0238dde0ca63d99e204010c2547872681d19ff17c1d240f9bdce7e312c0d2fe9",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/north-florida.json"
+    },
+    "data/intelligence/teams/northeastern.json": {
+      "sha256": "c18610088fbcbe169fc2add0d2f311dfd801165bda5df9c364ade0dfb8a9daff",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/northeastern.json"
+    },
+    "data/intelligence/teams/northern-arizona.json": {
+      "sha256": "0b4b409400ad4d8ea490c10370c424ca8c73e794af5a03b08420052ef6579195",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/northern-arizona.json"
+    },
+    "data/intelligence/teams/northern-colorado.json": {
+      "sha256": "79bc2a3c1916f1708ea3c1f04a53bb7e836f2b5dfb9a5e53abcf567287166db1",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/northern-colorado.json"
+    },
+    "data/intelligence/teams/northern-illinois.json": {
+      "sha256": "239b94fa788959fc28107da86ae6e8ce3a8cdce8294e1df0ac3dbca37fe3cb09",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/northern-illinois.json"
+    },
+    "data/intelligence/teams/northwestern.json": {
+      "sha256": "c6c7edec866198c1cb7994c80a21c27ee0bf1fd44bc31b2248f7a2ce6a6c25c8",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/northwestern.json"
+    },
+    "data/intelligence/teams/oklahoma-state.json": {
+      "sha256": "226e3f67ff482fc9312612fffc541374cb0fc10b4436eed02b07255c4def654d",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/oklahoma-state.json"
+    },
+    "data/intelligence/teams/oral-roberts.json": {
+      "sha256": "0500b106a814e075d315e051650a60301a6721c0ebd6bb842419e9526932619e",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/oral-roberts.json"
+    },
+    "data/intelligence/teams/pacific.json": {
+      "sha256": "15e23707f4af0db90ec67609b785bdf5344e442e7a77f607bff314bb861cba25",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/pacific.json"
+    },
+    "data/intelligence/teams/penn-state-behrend.json": {
+      "sha256": "492ae8f939432485d2dd65ba09a4e89d2ba601eb702999a243b32ca22884b19c",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/penn-state-behrend.json"
+    },
+    "data/intelligence/teams/penn.json": {
+      "sha256": "a22af501159816ae13b7336148bd9f1e32c98f8fb5ea4f2725de125878a5ec73",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/penn.json"
+    },
+    "data/intelligence/teams/portland-state.json": {
+      "sha256": "f06043114d9ac0d35e0d1fe98c8b86e5f7b9ecc3de0fdd8cb2196b6b5389af58",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/portland-state.json"
+    },
+    "data/intelligence/teams/portland.json": {
+      "sha256": "f7e62fe0797aa49cd92815bc9158db27c9e946ff6043ca6679e6795bc2e3e6d5",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/portland.json"
+    },
+    "data/intelligence/teams/presbyterian.json": {
+      "sha256": "1e4c53a7021d9f74202f512130651c25d55a13bd546900587def3a1517ca19c2",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/presbyterian.json"
+    },
+    "data/intelligence/teams/purdue-fort-wayne.json": {
+      "sha256": "8d0b455a1ee4cd579bb4f6452093983b7ad48318e610be9f4bfb47163dafe5fb",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/purdue-fort-wayne.json"
+    },
+    "data/intelligence/teams/queens.json": {
+      "sha256": "60eab5723f98a69ce9e254b300f156aa0c091f8c600cba1f8fd0375583c977e7",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/queens.json"
+    },
+    "data/intelligence/teams/radford.json": {
+      "sha256": "50410ee094cd03760276ab963a98bbb584ff4db09a26f085ccb02214b730b86a",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/radford.json"
+    },
+    "data/intelligence/teams/rhode-island.json": {
+      "sha256": "d0c39de6721a89928c7b5c695ad74525630bbf707d9919ce2a6c1307ad90e8cd",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/rhode-island.json"
+    },
+    "data/intelligence/teams/rice.json": {
+      "sha256": "0a3d0c49fb8ff35db931035fece4991d061503f682d3f5300a431b5c5a00fa3c",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/rice.json"
+    },
+    "data/intelligence/teams/richmond.json": {
+      "sha256": "31000f4957db084e43063da7d03f24365b7b868f9d5f86474b3ac0bf8b0f8da4",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/richmond.json"
+    },
+    "data/intelligence/teams/rider.json": {
+      "sha256": "f7040b4c4c3f46f9957cb9cb1000e24fb3b31a432ea19d3e83a424b95e32ca8e",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/rider.json"
+    },
+    "data/intelligence/teams/robert-morris.json": {
+      "sha256": "bef17f92ac0ad9d8ddfddaf3e29eafb3a6ba58895127df8362fc6e32dc46b5aa",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/robert-morris.json"
+    },
+    "data/intelligence/teams/saint-marys-ca.json": {
+      "sha256": "8248fb6fd0c8de119dd7642ec87a0779c9148587f7ffb86e1bfb39274dd8d8dc",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/saint-marys-ca.json"
+    },
+    "data/intelligence/teams/saint-peter-s.json": {
+      "sha256": "02c3191d95c14a28305a481bec40fdbb4f91d32ef3c3ae37f9f8f0c0f8bcffb6",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/saint-peter-s.json"
+    },
+    "data/intelligence/teams/samford.json": {
+      "sha256": "5d6ec7463719e056e3f4fdaaec2047faf830d8b4ac0075cf787f665845d82ddc",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/samford.json"
+    },
+    "data/intelligence/teams/san-diego.json": {
+      "sha256": "b8f60d543cbfa22e4446aaaa73b7ed19ad40838561406ed40524725a5cab7d1c",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/san-diego.json"
+    },
+    "data/intelligence/teams/seattle.json": {
+      "sha256": "82105a97f7d64b4cca2056109e2a2078afd53fde200d2aac218f1bd6ad36c63b",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/seattle.json"
+    },
+    "data/intelligence/teams/siena.json": {
+      "sha256": "5bc7c270b0b54dfc3268fc5422567e94b62a90fc20ded4098dd8869a2d682283",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/siena.json"
+    },
+    "data/intelligence/teams/south-alabama.json": {
+      "sha256": "db644e2b8adf349cb3866458227bd86f40ed4770b750f3ffc83c04dd91689aa1",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/south-alabama.json"
+    },
+    "data/intelligence/teams/south-dakota.json": {
+      "sha256": "dd1bb7a412c533cb2673ea8aa878662ab8117e0e216b08df07b82852822e96e9",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/south-dakota.json"
+    },
+    "data/intelligence/teams/south-florida.json": {
+      "sha256": "530fa5a187b362164e96f744e083ba29f40886226a31803767ad413f2fd5d9da",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/south-florida.json"
+    },
+    "data/intelligence/teams/southern-illinois.json": {
+      "sha256": "e85026d2093257f8994dd0f19efd9b324d524f79aca848d8585847567c4436c9",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/southern-illinois.json"
+    },
+    "data/intelligence/teams/southern-indiana.json": {
+      "sha256": "2ad1699c2babf6111214156257a8fc6d72fb681e834e9272dd6a5ab7ef641e72",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/southern-indiana.json"
+    },
+    "data/intelligence/teams/southern-miss.json": {
+      "sha256": "b5bee2035aaec97d83da543b68b32e6f8a28078f339d709f39b660ee5a662fb9",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/southern-miss.json"
+    },
+    "data/intelligence/teams/southwestern-adventist.json": {
+      "sha256": "dc35322990f8bc949c0e9d4a2ac3f4c051364172314bf5b404235d44aaed5ebd",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/southwestern-adventist.json"
+    },
+    "data/intelligence/teams/st-thomas-mn.json": {
+      "sha256": "e3b648990170ddc638d7334fc9065694d2f53c6566bad5d2777cdab982fc5641",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/st-thomas-mn.json"
+    },
+    "data/intelligence/teams/stephen-f-austin.json": {
+      "sha256": "19b8e1cd4576f42372b5e0dbbca19b499fb1b63edcb776d12880d519138e6fe9",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/stephen-f-austin.json"
+    },
+    "data/intelligence/teams/stonehill.json": {
+      "sha256": "33054ff06d47ec9898da58ac136fbfb9cfb952340859009fee28c10c27de614f",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/stonehill.json"
+    },
+    "data/intelligence/teams/stony-brook.json": {
+      "sha256": "0ab935193e53cddb4ae880f6d70a3367bc30cc2e75e2081e0de937a1605cd652",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/stony-brook.json"
+    },
+    "data/intelligence/teams/syracuse.json": {
+      "sha256": "142741a9a36ac6836185959f1ef1c4f76d3bf01784a42c1d341c9bcabbd9f970",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/syracuse.json"
+    },
+    "data/intelligence/teams/temple.json": {
+      "sha256": "01e98f8f12d5552b9c90c35d9c2ff3312a1531fe43befad2a426bd414923b228",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/temple.json"
+    },
+    "data/intelligence/teams/tennessee-tech.json": {
+      "sha256": "7a8aa0daca0664e9262bef31b5433d7cd0f5c604509014608c39868f2b2040b8",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/tennessee-tech.json"
+    },
+    "data/intelligence/teams/texas-a-m-corpus-christi.json": {
+      "sha256": "f74bad1975f6c61a145b254f47f9c68bab23f6fb4950b6669705493101e18ee2",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/texas-a-m-corpus-christi.json"
+    },
+    "data/intelligence/teams/texas-southern.json": {
+      "sha256": "9e59d3df84bef23dfe64de1c0c04e1d59e8e84e16c3cf515cad9170ce98d8d3b",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/texas-southern.json"
+    },
+    "data/intelligence/teams/texas-state.json": {
+      "sha256": "c03319493173a73a190121d7dc57f1e2ccbb5b54a2291dfa22438d275a24e928",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/texas-state.json"
+    },
+    "data/intelligence/teams/texas.json": {
+      "sha256": "f7abd75376f1a02000b33627e18524134aca92518732cd5a286645a5b418d1b5",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/texas.json"
+    },
+    "data/intelligence/teams/towson.json": {
+      "sha256": "2deb77b2221a02c105d0ef99d8027c80a0adad3140417ec8ba6f8e9b4614a668",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/towson.json"
+    },
+    "data/intelligence/teams/troy.json": {
+      "sha256": "42feb0e9abaab20cc672b515e296edc17f30ed16f748b9bbd445dd6454d8319f",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/troy.json"
+    },
+    "data/intelligence/teams/uab.json": {
+      "sha256": "e0f6d77042a26f6844ad06e335344ca9f977af90dd1e2f9e864fcbc75e9a5c46",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/uab.json"
+    },
+    "data/intelligence/teams/ualbany.json": {
+      "sha256": "52f4040313c200f017947a4df424e6cfd9c1ba3913bccdfa4e3f6528e54fff87",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/ualbany.json"
+    },
+    "data/intelligence/teams/uc-irvine.json": {
+      "sha256": "5892f1427e1c263bc67225857f85d05aa195a4b084d187aefbaf2cf0048ec18e",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/uc-irvine.json"
+    },
+    "data/intelligence/teams/uc-san-diego.json": {
+      "sha256": "60ec7ef6aba0b584f1ff39579723d2ff0b34f3acbf9923856d31409cf9f3b646",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/uc-san-diego.json"
+    },
+    "data/intelligence/teams/ucla.json": {
+      "sha256": "27453bf227f69d07ab20ac7e5ee79d8eb2e57212cac758c83a2934deb1b1f05f",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/ucla.json"
+    },
+    "data/intelligence/teams/uic.json": {
+      "sha256": "5b85ee80da9298bed4480ef49a158197f9d87dfc12125b58a616c3c3d5f022f1",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/uic.json"
+    },
+    "data/intelligence/teams/umass-lowell.json": {
+      "sha256": "1698fdd51166788ded4903af344c1ccc738d7782542037c0a654f86738155782",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/umass-lowell.json"
+    },
+    "data/intelligence/teams/umbc.json": {
+      "sha256": "38e01742cfbf4bf29ae13c757f5105a4cdefc0c060f3b98d0d6b6b0e67b312c0",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/umbc.json"
+    },
+    "data/intelligence/teams/unc-asheville.json": {
+      "sha256": "3e16b9675a1aded38a9f1e4a71d1f255ebf8878bcb3a20d96414305e8ff21f34",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/unc-asheville.json"
+    },
+    "data/intelligence/teams/unc-greensboro.json": {
+      "sha256": "c4b8b618e549f6db3e44bcbecf2be7708b36bc7114296ff02f4c0e67f15c7bb4",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/unc-greensboro.json"
+    },
+    "data/intelligence/teams/unc-wilmington.json": {
+      "sha256": "e07dd692d06ac7723c60c04b1ac3dad00e00733ba1952e2d984d9a53ebf2c2af",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/unc-wilmington.json"
+    },
+    "data/intelligence/teams/usc-upstate.json": {
+      "sha256": "0e86025125b1fe0bf40722781cb9d37ce5a4b330c5e48d54c23071d8b5598c60",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/usc-upstate.json"
+    },
+    "data/intelligence/teams/usc.json": {
+      "sha256": "5b802d925191c9170d669e9bba694200339c607a292ac6b78f2268409305633d",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/usc.json"
+    },
+    "data/intelligence/teams/ut-martin.json": {
+      "sha256": "c3f5579f4f214fc89a3898dd0bd4bdc603a718cacace6139c418865dd4611ba5",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/ut-martin.json"
+    },
+    "data/intelligence/teams/utah-tech.json": {
+      "sha256": "71fcfb69a7632a605c612d2faa56f278fe8e4a4ccac170adfd34897430a93dd7",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/utah-tech.json"
+    },
+    "data/intelligence/teams/utah-valley.json": {
+      "sha256": "2f6661a0d9a28e5985b513edf3a5476efc1e1e149215605810cb43395df6e814",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/utah-valley.json"
+    },
+    "data/intelligence/teams/utah.json": {
+      "sha256": "df1bf229db75ddd951c42e211309a87d31583bb452146d84b799b6762522a0b7",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/utah.json"
+    },
+    "data/intelligence/teams/utrgv.json": {
+      "sha256": "6b4efc6a0749748ea32a2468da5ecdbed74096156a35f2005e2f117b19a9633f",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/utrgv.json"
+    },
+    "data/intelligence/teams/utsa.json": {
+      "sha256": "4e896615f0b7307ed89096c1279ea697f3782ac932eeb9d05359e171075a1dfe",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/utsa.json"
+    },
+    "data/intelligence/teams/valparaiso.json": {
+      "sha256": "c198cd6430b41466e55d92f833d5d924f5cc37511e433cfa53a14783ca718efb",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/valparaiso.json"
+    },
+    "data/intelligence/teams/vermont.json": {
+      "sha256": "cb23943cb06fef76f3d8ce10d58b27c4f26e5231fb0449629562a2587d12ffed",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/vermont.json"
+    },
+    "data/intelligence/teams/villanova.json": {
+      "sha256": "c73ca1fa65436fa3a17e0a545426a74148b5c1a546bb20dab0f5bb45b53b0d3a",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/villanova.json"
+    },
+    "data/intelligence/teams/virginia-lynchburg.json": {
+      "sha256": "75731e1449c87d03bea5535a208a0390eaf138eda0dbf68fc65bbb7a8e6fcc67",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/virginia-lynchburg.json"
+    },
+    "data/intelligence/teams/virginia-tech.json": {
+      "sha256": "c1c2a5f2b44280241d663f63e51257de64255e6647e73cbdc5d06cee6844a0db",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/virginia-tech.json"
+    },
+    "data/intelligence/teams/vmi.json": {
+      "sha256": "926be1fa90fac6801cf72bbccabfe0786c7344f27bc5a66188afef419301b028",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/vmi.json"
+    },
+    "data/intelligence/teams/wake-forest.json": {
+      "sha256": "90064bfff990d7cd8f5a715421ca086bc743e351634cd72c5bfa31d6ae940cfd",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/wake-forest.json"
+    },
+    "data/intelligence/teams/washington-state.json": {
+      "sha256": "3928cf7d25eb4f0499271b08f5cbfb78ad63ef29eecdf9cc25c039c99cc2ed63",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/washington-state.json"
+    },
+    "data/intelligence/teams/west-florida.json": {
+      "sha256": "960ccb45bf9ad717d3ca6849bbe715bafeb84a4b62dd4b9cfbdf2a7e33293fa3",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/west-florida.json"
+    },
+    "data/intelligence/teams/western-carolina.json": {
+      "sha256": "defe13fab1c32a6f76da4bf95fa0cad9365af34770bbf8decf5e7aa166a3c4ad",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/western-carolina.json"
+    },
+    "data/intelligence/teams/western-illinois.json": {
+      "sha256": "15fb9e0b28a7db24eec1ae1c7e257fd7dce566e71ad8f0bce2a6dff66207a196",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/western-illinois.json"
+    },
+    "data/intelligence/teams/western-kentucky.json": {
+      "sha256": "db651ab092137b49b9e49634cce42a04afd9eb3dff2de2d6d2990852d37c6e0a",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/western-kentucky.json"
+    },
+    "data/intelligence/teams/wichita-state.json": {
+      "sha256": "66b616e0c0959fd71d5aed368c8c0841ac18ff1537b20d838fce21b726dc8f04",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/wichita-state.json"
+    },
+    "data/intelligence/teams/william-mary.json": {
+      "sha256": "7d6c78e3aa8fb83d9101c3c129726da86cc8a4cd6f5a77a7565aebc702bc55ec",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/william-mary.json"
+    },
+    "data/intelligence/teams/winthrop.json": {
+      "sha256": "86ac0682e0c995615bd4b4f14a9c2442befacd1bcee3599c8c56e06bced17356",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/winthrop.json"
+    },
+    "data/intelligence/teams/wofford.json": {
+      "sha256": "a89d4b9647a23d37f8c43d6bf1ee00bbdc92b5b09fe304f79483b2d30d288c32",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/wofford.json"
+    },
+    "data/intelligence/teams/wyoming.json": {
+      "sha256": "0538520212c2cec53c45ab57445cfc6fd936203e68f6bb770db61dd6d730fda9",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/wyoming.json"
+    },
+    "data/intelligence/teams/youngstown-state.json": {
+      "sha256": "056df029300d41c74e0f7734a0e37cc40d6ec48b7b23c8fc8dfa081aa9f987be",
+      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/teams/youngstown-state.json"
+    },
     "data/latest.json": {
-      "sha256": "50d330a843247fe194b9396938a1c6f2ea05918754397b45375431a2d9e3a386",
+      "sha256": "a9f732c1831c5447476f55a788244683b51015d0a759046ed138beb075550f41",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/latest.json"
     },
     "data/observations/04e52e293fbe8d00343866bde82c44f247a42cefdbc8a891ab6c835381c8a355.json": {
@@ -510,160 +2305,12 @@
       "sha256": "2d92afa47f9ba8b5d6ff0a8999accaee49689b264fdd41fad9e95edc565dd5a9",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/observations/f1757aa625c9bdd965eabbc59da606c5641cda28c021d1308bfef144194e5e2f.json"
     },
-    "data/snapshots/0eb79a6b5878e94ffa22a9754df4d5f6264fd860313d66faab190e7d1b02d723.json": {
-      "sha256": "0ae56e6af585c327b728b23c8d1bafc4530830f46a2dad10c2ff10119468f121",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/0eb79a6b5878e94ffa22a9754df4d5f6264fd860313d66faab190e7d1b02d723.json"
-    },
-    "data/snapshots/151db893efcfe1b5dfad8132699e0c0d4547c7da60149a2a3ef62667dc6de04c.json": {
-      "sha256": "78119e94e8f7f7516eb8b7b003996814d926a3a3084f42bc4980df86007813c7",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/151db893efcfe1b5dfad8132699e0c0d4547c7da60149a2a3ef62667dc6de04c.json"
-    },
-    "data/snapshots/28128949f41a4b4f4eef4f75ad1822cf87f0ca4b425c4e129c614f1bdd24077c.json": {
-      "sha256": "5e2cb4c01fd0b6c9780a73cae0f7780287279907837aa69a334e16803c87e9db",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/28128949f41a4b4f4eef4f75ad1822cf87f0ca4b425c4e129c614f1bdd24077c.json"
-    },
-    "data/snapshots/2cd85bbb4eb83651dd0271efdfdfef38ac16cc0528c2f01bfdebc088fc5b453f.json": {
-      "sha256": "1b78eb2afc4a064f5f8e317f4a2f62a0f391b607cfa77492c0c1a32f2854ea4f",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/2cd85bbb4eb83651dd0271efdfdfef38ac16cc0528c2f01bfdebc088fc5b453f.json"
-    },
-    "data/snapshots/2f581dfe59a39b6780078ac598e53163bf4c391ffffddff2a2bccbc9656ecf3a.json": {
-      "sha256": "97574bdca1685b3cd2732704e2e77f089118ec5b81545682c6b41923558c2672",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/2f581dfe59a39b6780078ac598e53163bf4c391ffffddff2a2bccbc9656ecf3a.json"
-    },
-    "data/snapshots/3eb22b70452b3aae7bd981d599d5a489c790ea7dd83a97c78b7bccc4cfacce57.json": {
-      "sha256": "4c91865b4230e572083006254d87accc33eac0f1250168a97f5e4d460428ec79",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/3eb22b70452b3aae7bd981d599d5a489c790ea7dd83a97c78b7bccc4cfacce57.json"
-    },
-    "data/snapshots/41907e81fb5718fc2e6ebe04e589429070858ae170a0894452a4c51b56f16bc1.json": {
-      "sha256": "b003e42d36462f8a33a976bad017e91d5df021f9e58172a5866252909fc7109b",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/41907e81fb5718fc2e6ebe04e589429070858ae170a0894452a4c51b56f16bc1.json"
-    },
-    "data/snapshots/4c8fd4543f26e80f21911105f807de8c3296d05b95bb5706b3734fc0b01d08e1.json": {
-      "sha256": "826d8c3eea514e6b0012a49b3c6718df55f3905fbc6997bfac5dffc0e14d6816",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/4c8fd4543f26e80f21911105f807de8c3296d05b95bb5706b3734fc0b01d08e1.json"
-    },
-    "data/snapshots/55f7c8d74154bb3c53957713c8cf12a24f6beb55855c760affee78a688cf83e1.json": {
-      "sha256": "65afad33c993c2ecebb401614db0aa8ea13524f73ef42e8417cc60871cd12283",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/55f7c8d74154bb3c53957713c8cf12a24f6beb55855c760affee78a688cf83e1.json"
-    },
-    "data/snapshots/58006cc1ac6fc3043d20de2b50ea7f4bac7e6b20bed33a9af4afe7b38a0db93e.json": {
-      "sha256": "822ecb0c9df711a2e7e8e1b9de91239f0995fbc0bf503d4971bddbca90290ef6",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/58006cc1ac6fc3043d20de2b50ea7f4bac7e6b20bed33a9af4afe7b38a0db93e.json"
-    },
-    "data/snapshots/5876bf7cbceb0e66d8b1a4c5d72e99a4eb607d2a2f9c65945e78de045a051c60.json": {
-      "sha256": "b5965df17c6fd6565e7e0447d952b89d1f129a6a9f8426470bf9e07be42542f5",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/5876bf7cbceb0e66d8b1a4c5d72e99a4eb607d2a2f9c65945e78de045a051c60.json"
-    },
-    "data/snapshots/5a1310db570e904764d5a812080ecd3ee5b412bdfe7180c297c169afc5e861a2.json": {
-      "sha256": "2a3a6c13568fbbee1eea9938ce73b9ad7ba1f832c7d5fc5eb01d26e0df44592e",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/5a1310db570e904764d5a812080ecd3ee5b412bdfe7180c297c169afc5e861a2.json"
-    },
-    "data/snapshots/5ade95c2644a63979ebe332c5836a707310089d0519401b07d616f45c315d6d7.json": {
-      "sha256": "7587db2474cb2cdcddac5f0c2b6ea5c08a4f8e6840924ebc55a1b25f0065395f",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/5ade95c2644a63979ebe332c5836a707310089d0519401b07d616f45c315d6d7.json"
-    },
-    "data/snapshots/5c8d8deaec69c6eca5f3a13da2e2cb84a8aeac7a795e36cc9667962c1930c874.json": {
-      "sha256": "6adb6088de797e287ca57a887c1fe8da37b701cb3519e2fd4b9a5960993f31b0",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/5c8d8deaec69c6eca5f3a13da2e2cb84a8aeac7a795e36cc9667962c1930c874.json"
-    },
-    "data/snapshots/62071ed799144bb6814c355507371354915dffd3cccb4ee2ad4da30b3b20a62a.json": {
-      "sha256": "271bdb25600a899681cda9e41a5ca741274446847c4c19dbc236c75b176633bf",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/62071ed799144bb6814c355507371354915dffd3cccb4ee2ad4da30b3b20a62a.json"
-    },
-    "data/snapshots/67774f7fc3c2322f78975709e16ad1d2d4483abc7094da0ecaad12886951a090.json": {
-      "sha256": "4a2adbef95fb6d54d37544962cd45987d03be887cb2309ce2cb021c11b6edf66",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/67774f7fc3c2322f78975709e16ad1d2d4483abc7094da0ecaad12886951a090.json"
-    },
-    "data/snapshots/78784dcc03a9d8b9b4a2aae827f86324feaf209c2504bb09dff5a13bea681f58.json": {
-      "sha256": "24c9508742a956120546417db61a740ca4919e7c753e9430b6f0fb200ecab92e",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/78784dcc03a9d8b9b4a2aae827f86324feaf209c2504bb09dff5a13bea681f58.json"
-    },
-    "data/snapshots/7add912644b929bd4c25716bbf507cf7878f33f760f748c59006442f5301a8cb.json": {
-      "sha256": "f82c2242506a9fa5a578399e3f469774263c6d5e6d4143e7093711361eb9db95",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/7add912644b929bd4c25716bbf507cf7878f33f760f748c59006442f5301a8cb.json"
-    },
-    "data/snapshots/82073cb52b7214ce75b39e6efe94941dbeec65586380e066d51745141e8b5134.json": {
-      "sha256": "f14f65788fad681091422a95646301c0b4f4413f07641af8012f903925120ab8",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/82073cb52b7214ce75b39e6efe94941dbeec65586380e066d51745141e8b5134.json"
-    },
-    "data/snapshots/84158ec5ff5dfeef59174d747f1da2ca86af04c9b3f015009e5d98fcd4bbccc1.json": {
-      "sha256": "146158feabe2dbf2ab75a2a7c8252c592ffa65f3d0b9a6d6ad6640fb7d323710",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/84158ec5ff5dfeef59174d747f1da2ca86af04c9b3f015009e5d98fcd4bbccc1.json"
-    },
-    "data/snapshots/880f8f9dafde48fe21bb3a9edc9332400a2927233db55baa6aa68654f5c7724a.json": {
-      "sha256": "ef2cee7c47c1d326807e5b83d6a2407647920c0fd37e7786eec938218bee8009",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/880f8f9dafde48fe21bb3a9edc9332400a2927233db55baa6aa68654f5c7724a.json"
-    },
-    "data/snapshots/9bd6216db87b88275f95d9bd80bc5018af043b6afd83c58e20913cdb34be4cbc.json": {
-      "sha256": "9ca9b693bc27532ffc0d98f8e063515bd70206ea6d22a2937ee387c1fb916d92",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/9bd6216db87b88275f95d9bd80bc5018af043b6afd83c58e20913cdb34be4cbc.json"
-    },
-    "data/snapshots/9f0e1313bfe16d35a6facf871729540af77ee18a3096ca70c1fee03567c96d0b.json": {
-      "sha256": "05b6f9f6a8b339e72daf5ebdbffdba02862bbd5b9330da410616330594dcd94e",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/9f0e1313bfe16d35a6facf871729540af77ee18a3096ca70c1fee03567c96d0b.json"
-    },
-    "data/snapshots/9fa431c0e75e74f91ccd5e05664d80c147443ef457c62e361f66e002a33ae4ef.json": {
-      "sha256": "0009f1c3b161120f9d6132e2d39fbe37929d9689e2c35f10d4ad67f2dae33256",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/9fa431c0e75e74f91ccd5e05664d80c147443ef457c62e361f66e002a33ae4ef.json"
-    },
-    "data/snapshots/a13ff42a692f7691ac7c879492aff481a3aa7ea4ed8ddc1d33d779b82cdadc3a.json": {
-      "sha256": "1067b289374f7aa945dd0f227e9fb809e6286f8ceb8071690116eaff573dd37e",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/a13ff42a692f7691ac7c879492aff481a3aa7ea4ed8ddc1d33d779b82cdadc3a.json"
-    },
-    "data/snapshots/aaf6dfd9ff7e4a30c6a5cf1dc871dfb83e21d5d42d35b68b2c10283162044c0c.json": {
-      "sha256": "b07afc4faf6a45b9adb18e0915d7722ca2481d460d047af5c82741a054fdea6f",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/aaf6dfd9ff7e4a30c6a5cf1dc871dfb83e21d5d42d35b68b2c10283162044c0c.json"
-    },
-    "data/snapshots/ac01e3c27f1c9f0f575aef2b1b1be03a435ce9b95d23c3577ef6b407dac93920.json": {
-      "sha256": "9aaa45eef7f3ded07366ef4b64b5668dd62911cdff31d7e5d026aa1649e3bbe9",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/ac01e3c27f1c9f0f575aef2b1b1be03a435ce9b95d23c3577ef6b407dac93920.json"
-    },
-    "data/snapshots/b26b70ee9a3f18ac188c1f9a979e560d964c0604c854904e382078036e7c564a.json": {
-      "sha256": "67c118d120ae0922c6d76735a2bcc4021e69d6d8354da9f2ae84781db2fe4a6d",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/b26b70ee9a3f18ac188c1f9a979e560d964c0604c854904e382078036e7c564a.json"
-    },
-    "data/snapshots/b970103067aea7451e2bc0c7513b65e2b5792205aab9626967402aea2db2b6f3.json": {
-      "sha256": "7ba20617edca7a7ea3836c876c8f1ee0c2874486c98ad09483e8aa5480767514",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/b970103067aea7451e2bc0c7513b65e2b5792205aab9626967402aea2db2b6f3.json"
-    },
-    "data/snapshots/bb8453917397b8872a2e53f426adf9d1629fb6c79a8484096b6e106e11ec46d6.json": {
-      "sha256": "e03ee745c14b807d2bc20e8dd7705b7f407768f4df9952c08448f0a77768a610",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/bb8453917397b8872a2e53f426adf9d1629fb6c79a8484096b6e106e11ec46d6.json"
-    },
-    "data/snapshots/bc58c431084efcba2fc0895b3a67af49472c57da3cafd59a2ed8d882d14566a8.json": {
-      "sha256": "c8c9c0ad0aadfd6b6baf829857782321c59714d22099aa205ca8c23faf8e559b",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/bc58c431084efcba2fc0895b3a67af49472c57da3cafd59a2ed8d882d14566a8.json"
-    },
-    "data/snapshots/d49f4668a320d465c193ce48520b680513c6bdb2c00b0df63b8cc7e7eff393f9.json": {
-      "sha256": "c26122e135da387f789b9ff6599fe4637887343ec99d9e19fbf7abd47c30d1aa",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/d49f4668a320d465c193ce48520b680513c6bdb2c00b0df63b8cc7e7eff393f9.json"
-    },
-    "data/snapshots/d704c75a672442f9f345f23cc4bb2258e0288499b78048da46b8b1d756c53134.json": {
-      "sha256": "61179f3d2c136c206bd4cd2581a0425d5b019cc842d33d35c551ad36281f98eb",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/d704c75a672442f9f345f23cc4bb2258e0288499b78048da46b8b1d756c53134.json"
-    },
-    "data/snapshots/dca1a27d5627bdf1415b445e9dad92e3c41193222c24763f6293d98e38e02e44.json": {
-      "sha256": "e0bc0721ab70149a3cf96c600743c3ba846bf40c5cf88287cebd1c7b075d3f2b",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/dca1a27d5627bdf1415b445e9dad92e3c41193222c24763f6293d98e38e02e44.json"
-    },
-    "data/snapshots/e57fd62d4c4d5890a5e6a4bebf57045b1432b11e4fcfe289045f0f03b94e3e40.json": {
-      "sha256": "ece314a4a8c1abb8b3adcec84380b06ea69c334804e4463ec272a65dddb87b65",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/e57fd62d4c4d5890a5e6a4bebf57045b1432b11e4fcfe289045f0f03b94e3e40.json"
-    },
-    "data/snapshots/f47eedcfc0d2f9bb3abe34cd1ce628f386567f096e52cf8e2da651dee0fdfe5f.json": {
-      "sha256": "0abe37f2be4f39bc22476992e6fa7496bb675426d0430bbbae5246cf154aa64c",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/f47eedcfc0d2f9bb3abe34cd1ce628f386567f096e52cf8e2da651dee0fdfe5f.json"
-    },
-    "data/snapshots/f56661def891284d442f9a3bf28e14564264b9b2ba6b1c1ede3a4fe711ffedf6.json": {
-      "sha256": "40770bf1ad7ce279db7ae9f810ced9791cf9e4e7d0e4cc5f65511f8f3710e5ef",
-      "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/snapshots/f56661def891284d442f9a3bf28e14564264b9b2ba6b1c1ede3a4fe711ffedf6.json"
-    },
     "index.html": {
-      "sha256": "fb5283aa0f81d9cda4c03463df28d191233424f721f3905da5f65198e818bbdd",
+      "sha256": "eb4712672539a99d02ce261ba39c073f8c738f1c669d5c5a769e2d5b7ea6b321",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/index.html"
     },
     "reports/daily.md": {
-      "sha256": "c1e87fc795574a3ec7aa88f5c87d2b50e89cbee58392059239bf9c47ce5a1258",
+      "sha256": "00c02e257b85bc7f45faafd82f87bdc33bd58c79ae9de5396bf073cb5af889ed",
       "url": "https://jptx817.github.io/sports_fun_preview/cbb/reports/daily.md"
     }
   },

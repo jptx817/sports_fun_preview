@@ -52,6 +52,7 @@
     "draftkings_line_missing",
     "draftkings_market_missing",
     "neutral_site_unknown",
+    "not_pregame_or_tipoff_unknown",
     "projection_missing_stale_or_not_captured_pregame"
   ],
   "decision": "REVIEW_ONLY",
@@ -60,14 +61,14 @@
   "final": null,
   "game_date": "2026-11-22",
   "game_id": "cbb-2027-2026-11-22-alice-lloyd-at-eastern-kentucky",
-  "generated_at": "2026-11-22T12:34:28.156386Z",
+  "generated_at": "2026-11-22T22:31:07.073417Z",
   "home_designation_basis": "provider_designated_home",
   "home_team": {
     "id": "eastern-kentucky",
     "name": "Eastern Kentucky",
     "source_ids": {}
   },
-  "imported_at": "2026-11-22T12:34:28.140487Z",
+  "imported_at": "2026-11-22T16:11:18.209667Z",
   "last_verified_refresh": {
     "comparison": null,
     "draftkings": null,
@@ -75,17 +76,13 @@
     "schedule": "2026-11-22T12:24:12.380000Z"
   },
   "market_timeline": {
-    "first_observed": null,
-    "last_observed": null,
-    "note": "First/last observations are not assumed opening/closing lines.",
     "observations": 0,
     "verified_closing": null,
     "verified_opening": null
   },
   "neutral_site": null,
-  "observation_id": "00cdf526d9394760209ff9b11fdc5e730f2da09a5f680cbc6fa4e4926998cc93",
   "observed_at": "2026-11-22T12:24:12.380000Z",
-  "pregame": true,
+  "pregame": false,
   "pregame_snapshot_id": null,
   "projections": [],
   "retrieved_at": "2026-11-22T12:24:12.380000Z",
@@ -106,6 +103,7 @@
         "median": null,
         "preferred": null,
         "reasons": [
+          "not_pregame_or_tipoff_unknown",
           "neutral_site_unknown",
           "projection_missing_stale_or_not_captured_pregame",
           "draftkings_line_missing",
@@ -141,6 +139,7 @@
       "range": null,
       "range_points": null,
       "reasons": [
+        "not_pregame_or_tipoff_unknown",
         "neutral_site_unknown",
         "projection_missing_stale_or_not_captured_pregame",
         "draftkings_line_missing",
@@ -153,6 +152,7 @@
         "difference": null,
         "preferred": null,
         "reasons": [
+          "not_pregame_or_tipoff_unknown",
           "neutral_site_unknown",
           "projection_missing_stale_or_not_captured_pregame",
           "draftkings_line_missing",
@@ -181,6 +181,7 @@
         "median": null,
         "preferred": null,
         "reasons": [
+          "not_pregame_or_tipoff_unknown",
           "neutral_site_unknown",
           "projection_missing_stale_or_not_captured_pregame",
           "draftkings_line_missing",
@@ -216,6 +217,7 @@
       "range": null,
       "range_points": null,
       "reasons": [
+        "not_pregame_or_tipoff_unknown",
         "neutral_site_unknown",
         "projection_missing_stale_or_not_captured_pregame",
         "draftkings_line_missing",
@@ -228,6 +230,7 @@
         "difference": null,
         "preferred": null,
         "reasons": [
+          "not_pregame_or_tipoff_unknown",
           "neutral_site_unknown",
           "projection_missing_stale_or_not_captured_pregame",
           "draftkings_line_missing",
@@ -251,6 +254,5 @@
   "source_url": "https://www.ncaa.com/scoreboard/basketball-men/d1/2026/11/22/all-conf",
   "status": "scheduled",
   "tipoff_central": "2026-11-22T15:00:00-06:00",
-  "tipoff_utc": "2026-11-22T21:00:00Z",
-  "transport": "manual_csv"
+  "tipoff_utc": "2026-11-22T21:00:00Z"
 }

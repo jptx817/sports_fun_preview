@@ -1,0 +1,284 @@
+{
+  "$defs": {
+    "board_game": {
+      "properties": {
+        "comparison": {
+          "properties": {
+            "spread": {
+              "$ref": "#/$defs/comparison"
+            },
+            "total": {
+              "$ref": "#/$defs/comparison"
+            }
+          },
+          "required": [
+            "spread",
+            "total"
+          ],
+          "type": "object"
+        },
+        "resource": {
+          "$ref": "#/$defs/resource"
+        }
+      },
+      "required": [
+        "game_id",
+        "home_team",
+        "away_team",
+        "venue",
+        "tipoff_utc",
+        "tipoff_central",
+        "projections",
+        "comparison",
+        "consensus_home_spread",
+        "consensus_total",
+        "missing_sources",
+        "data_issues",
+        "resource"
+      ],
+      "type": "object"
+    },
+    "comparison": {
+      "properties": {
+        "consensus_available": {
+          "type": "boolean"
+        },
+        "median": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "origin": {
+          "const": "system_calculation"
+        },
+        "range_points": {
+          "type": [
+            "number",
+            "null"
+          ]
+        },
+        "source_count": {
+          "minimum": 0,
+          "type": "integer"
+        }
+      },
+      "required": [
+        "origin",
+        "median",
+        "source_count",
+        "consensus_available",
+        "range_points",
+        "largest_deviation_sources"
+      ],
+      "type": "object"
+    },
+    "resource": {
+      "required": [
+        "path"
+      ],
+      "type": "object"
+    }
+  },
+  "$id": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/schema.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "board"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "games": {
+            "items": {
+              "$ref": "#/$defs/board_game"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "coverage",
+          "sources",
+          "games",
+          "noteworthy",
+          "team_directory",
+          "history",
+          "data_quality"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "game"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "record": {
+            "required": [
+              "game_id",
+              "projections",
+              "draftkings",
+              "screening"
+            ],
+            "type": "object"
+          }
+        },
+        "required": [
+          "game_id",
+          "record",
+          "comparison",
+          "team_profiles",
+          "source_analysis",
+          "system_interpretation"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "team"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "team",
+          "season",
+          "sources",
+          "rank_comparison",
+          "history",
+          "historical_results",
+          "results_scope"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "history"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "editions",
+          "legacy_snapshots",
+          "limitation"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "edition"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "edition_id",
+          "board",
+          "games",
+          "teams"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "manifest"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "board",
+          "history",
+          "schema",
+          "briefing",
+          "retrieval",
+          "catalog"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "catalog"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "resources"
+        ]
+      }
+    }
+  ],
+  "description": "Additive interface; legacy canonical records and snapshots retain their original schema. Null means unavailable. Source observations, system calculations and system selection have distinct origin fields.",
+  "properties": {
+    "actionable": {
+      "const": false
+    },
+    "data_as_of": {
+      "format": "date-time",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "game_date": {
+      "format": "date",
+      "type": "string"
+    },
+    "generated_at": {
+      "format": "date-time",
+      "type": "string"
+    },
+    "kind": {
+      "enum": [
+        "manifest",
+        "catalog",
+        "board",
+        "game",
+        "team",
+        "history",
+        "edition"
+      ]
+    },
+    "schema_version": {
+      "const": "0.5.0"
+    },
+    "sport": {
+      "const": "cbb"
+    },
+    "timezone": {
+      "const": "America/Chicago"
+    }
+  },
+  "required": [
+    "schema_version",
+    "kind",
+    "sport",
+    "game_date",
+    "generated_at",
+    "data_as_of",
+    "timezone",
+    "actionable"
+  ],
+  "title": "CBB read-only intelligence 0.5",
+  "type": "object"
+}
