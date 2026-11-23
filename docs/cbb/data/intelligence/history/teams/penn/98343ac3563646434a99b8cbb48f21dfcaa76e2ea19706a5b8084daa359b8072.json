@@ -1,0 +1,73 @@
+{
+  "actionable": false,
+  "data_as_of": null,
+  "game_date": "2026-11-23",
+  "generated_at": "2026-11-23T19:29:25.752676Z",
+  "historical_results": [],
+  "history": {
+    "distinct_observation_dates": 0,
+    "first_observed_at": null,
+    "limitation": "History starts with actual captures. Collect dated team observations daily; no retrospective ratings are reconstructed.",
+    "month_trend_available": false,
+    "observations": []
+  },
+  "kind": "team",
+  "rank_comparison": {
+    "haslametrics_minus_trank": null,
+    "note": "Positive means Haslametrics ranks the team lower. Rating scales and efficiency units are not interchangeable.",
+    "origin": "system_calculation"
+  },
+  "results_scope": "Only verified finals imported into this local hub; not a complete team schedule.",
+  "schema_version": "0.5.0",
+  "season": "2026-27",
+  "sources": {
+    "barttorvik": {
+      "observation": null,
+      "reason": "No team metric observation collected; projections are not team ratings.",
+      "status": "unavailable",
+      "unavailable_metrics": [
+        "rank",
+        "rating",
+        "offensive_efficiency",
+        "defensive_efficiency",
+        "tempo",
+        "strength_of_schedule"
+      ]
+    },
+    "dratings": {
+      "observation": null,
+      "reason": "No team metric observation collected; projections are not team ratings.",
+      "status": "unavailable",
+      "unavailable_metrics": [
+        "rank",
+        "rating",
+        "offensive_efficiency",
+        "defensive_efficiency",
+        "tempo",
+        "strength_of_schedule"
+      ]
+    },
+    "haslametrics": {
+      "observation": null,
+      "reason": "No team metric observation collected; projections are not team ratings.",
+      "status": "unavailable",
+      "unavailable_metrics": [
+        "rank",
+        "rating",
+        "offensive_efficiency",
+        "defensive_efficiency",
+        "tempo",
+        "strength_of_schedule"
+      ]
+    }
+  },
+  "sport": "cbb",
+  "team": {
+    "id": "penn",
+    "name": "Penn",
+    "source_ids": {
+      "haslametrics": "461"
+    }
+  },
+  "timezone": "America/Chicago"
+}
