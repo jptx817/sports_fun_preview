@@ -2,29 +2,29 @@
 
 [Today’s analytical briefing with DraftKings comparisons](briefing.html). This source feed omits market data; the linked analytical website display uses separately permitted inputs.
 
-Data as of **2026-11-23T19:14:50.908000Z**; built 2026-11-24T00:46:22.783394Z. Research observations; no betting recommendations.
+Data as of **2026-11-23T19:14:50.908000Z**; built 2026-11-24T01:11:01.593329Z. Research observations; no betting recommendations.
 Latest successful source retrieval in this edition: 2026-11-23T19:15:17.725000Z. Recheck Central date, tipoffs and source ages when reading.
 
 ## A. Slate overview
 
-46 imported games; 33 with projections; 0 with three eligible sources; 0 with valid DraftKings observations; 13 pregame at build.
+46 imported games; 33 with projections; 0 with three eligible sources; 0 with valid DraftKings observations; 8 pregame at build.
 Coverage: barttorvik: 0 (missing); dratings: 0 (missing); haslametrics: 33 (fresh); draftkings: 0 (missing).
 Schedule completeness is verified against the imported NCAA board only. Full schedule and all comparisons: data/intelligence/board.json.
 
 ## B. Source comparison
 
-- **Winthrop at Illinois** (2026-11-23T19:00:00-06:00; cbb-2027-2026-11-23-winthrop-at-illinois): [haslametrics](https://www.haslametrics.com/): home spread -39.99, total +169.49, basis end_of_regulation, observed 2026-11-23T19:15:17.725000Z, data through 2026-11-22, fresh.
-  spread: Available-source median (not consensus) -39.99; eligible sources 1; range not comparable; difference vs current market unavailable.
-  total: Available-source median (not consensus) +169.49; eligible sources 1; range not comparable; difference vs current market unavailable.
 - **Eastern Washington at UNLV** (2026-11-23T21:00:00-06:00; cbb-2027-2026-11-23-eastern-washington-at-unlv): [haslametrics](https://www.haslametrics.com/): home spread -11.59, total +165.53, basis end_of_regulation, observed 2026-11-23T19:15:17.725000Z, data through 2026-11-22, fresh.
   spread: Available-source median (not consensus) -11.59; eligible sources 1; range not comparable; difference vs current market unavailable.
   total: Available-source median (not consensus) +165.53; eligible sources 1; range not comparable; difference vs current market unavailable.
+- **UNC Greensboro at Pepperdine** (2026-11-23T20:30:00-06:00; cbb-2027-2026-11-23-unc-greensboro-at-pepperdine): [haslametrics](https://www.haslametrics.com/): home spread -6.04, total +160.24, basis end_of_regulation, observed 2026-11-23T19:15:17.725000Z, data through 2026-11-22, fresh.
+  spread: Available-source median (not consensus) -6.04; eligible sources 1; range not comparable; difference vs current market unavailable.
+  total: Available-source median (not consensus) +160.24; eligible sources 1; range not comparable; difference vs current market unavailable.
 - **Seattle at Loyola Chicago** (2026-11-23T20:30:00-06:00; cbb-2027-2026-11-23-seattle-at-loyola-chicago): [haslametrics](https://www.haslametrics.com/): home spread +1.54, total +144.34, basis end_of_regulation, observed 2026-11-23T19:15:17.725000Z, data through 2026-11-22, fresh.
   spread: Available-source median (not consensus) +1.54; eligible sources 1; range not comparable; difference vs current market unavailable.
   total: Available-source median (not consensus) +144.34; eligible sources 1; range not comparable; difference vs current market unavailable.
-- **Monmouth at North Carolina** (2026-11-23T19:00:00-06:00; cbb-2027-2026-11-23-monmouth-at-north-carolina): [haslametrics](https://www.haslametrics.com/): home spread -21.89, total +150.55, basis end_of_regulation, observed 2026-11-23T19:15:17.725000Z, data through 2026-11-22, fresh.
-  spread: Available-source median (not consensus) -21.89; eligible sources 1; range not comparable; difference vs current market unavailable.
-  total: Available-source median (not consensus) +150.55; eligible sources 1; range not comparable; difference vs current market unavailable.
+- **Alabama State at California** (2026-11-23T21:00:00-06:00; cbb-2027-2026-11-23-alabama-state-at-california): [haslametrics](https://www.haslametrics.com/): home spread -19.55, total +152.63, basis end_of_regulation, observed 2026-11-23T19:15:17.725000Z, data through 2026-11-22, fresh.
+  spread: Available-source median (not consensus) -19.55; eligible sources 1; range not comparable; difference vs current market unavailable.
+  total: Available-source median (not consensus) +152.63; eligible sources 1; range not comparable; difference vs current market unavailable.
 
 ## C. Research Watches
 
@@ -36,8 +36,8 @@ Single-source observations, multiple-source discrepancies and one/two-source Pre
 - **Three eligible systems with both source ranges <=2 points:** unavailable with current coverage.
 - **Largest observed margin range:** unavailable with current coverage.
 - **Largest observed total range:** unavailable with current coverage.
-- **Higher scoring relative to this imported slate:** Winthrop at Illinois; Eastern Washington at UNLV; UNC Greensboro at Pepperdine.
-- **Lower scoring relative to this imported slate:** Seattle at Loyola Chicago; Monmouth at North Carolina; Alabama State at California.
+- **Higher scoring relative to this imported slate:** Eastern Washington at UNLV; UNC Greensboro at Pepperdine; VCU at Providence.
+- **Lower scoring relative to this imported slate:** Seattle at Loyola Chicago; Alabama State at California; Arizona at Colorado State.
 - **Threshold-crossing projection/market discrepancy:** unavailable with current coverage.
 - Numerical differences identify research questions; cause unknown without actual personnel/methodology evidence. Efficiency/tempo contrasts are unavailable unless captured in team resources.
 
