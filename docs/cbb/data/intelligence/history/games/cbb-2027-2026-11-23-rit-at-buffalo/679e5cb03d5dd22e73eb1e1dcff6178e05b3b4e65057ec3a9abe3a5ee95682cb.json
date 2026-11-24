@@ -1,0 +1,464 @@
+{
+  "actionable": false,
+  "comparison": {
+    "spread": {
+      "basis": "home_margin",
+      "consensus_available": false,
+      "deviation_from_median": {},
+      "largest_deviation_sources": [],
+      "median": null,
+      "note": "Numerical differences do not establish a cause or a betting advantage. Source bases may differ.",
+      "origin": "system_calculation",
+      "range_points": null,
+      "source_count": 0,
+      "values": {}
+    },
+    "total": {
+      "basis": "total",
+      "consensus_available": false,
+      "deviation_from_median": {},
+      "largest_deviation_sources": [],
+      "median": null,
+      "note": "Numerical differences do not establish a cause or a betting advantage. Source bases may differ.",
+      "origin": "system_calculation",
+      "range_points": null,
+      "source_count": 0,
+      "values": {}
+    }
+  },
+  "data_as_of": "2026-11-23T19:14:50.908000Z",
+  "game_date": "2026-11-23",
+  "game_id": "cbb-2027-2026-11-23-rit-at-buffalo",
+  "generated_at": "2026-11-24T00:46:22.783394Z",
+  "kind": "game",
+  "record": {
+    "away_team": {
+      "id": "rit",
+      "name": "RIT",
+      "source_ids": {}
+    },
+    "comparisons": {
+      "spread": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "available_source_count": 0,
+        "basis_note": "Provider score basis retained; DraftKings is full game including overtime.",
+        "classification": "MISSING_PROJECTION",
+        "difference": null,
+        "market_complete": false,
+        "median": null,
+        "missing_providers": [
+          "barttorvik",
+          "dratings",
+          "haslametrics"
+        ],
+        "preferred": null,
+        "providers": [],
+        "range": null,
+        "range_points": null,
+        "source_count": 0,
+        "threshold_met": false
+      },
+      "total": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "available_source_count": 0,
+        "basis_note": "Provider score basis retained; DraftKings is full game including overtime.",
+        "classification": "MISSING_PROJECTION",
+        "difference": null,
+        "market_complete": false,
+        "median": null,
+        "missing_providers": [
+          "barttorvik",
+          "dratings",
+          "haslametrics"
+        ],
+        "preferred": null,
+        "providers": [],
+        "range": null,
+        "range_points": null,
+        "source_count": 0,
+        "threshold_met": false
+      }
+    },
+    "data_issues": [
+      "draftkings_line_missing",
+      "draftkings_market_missing",
+      "neutral_site_unknown",
+      "not_pregame_or_tipoff_unknown",
+      "projection_missing_stale_or_not_captured_pregame"
+    ],
+    "decision": "REVIEW_ONLY",
+    "detail_url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-23-rit-at-buffalo.json",
+    "draftkings": null,
+    "final": null,
+    "game_date": "2026-11-23",
+    "game_id": "cbb-2027-2026-11-23-rit-at-buffalo",
+    "generated_at": "2026-11-24T00:46:22.783394Z",
+    "home_designation_basis": "provider_designated_home",
+    "home_team": {
+      "id": "buffalo",
+      "name": "Buffalo",
+      "source_ids": {}
+    },
+    "imported_at": "2026-11-23T19:28:45.112574Z",
+    "last_verified_refresh": {
+      "comparison": null,
+      "draftkings": null,
+      "haslametrics": null,
+      "schedule": "2026-11-23T19:14:50.908000Z"
+    },
+    "market_timeline": {
+      "observations": 0,
+      "verified_closing": null,
+      "verified_opening": null
+    },
+    "neutral_site": null,
+    "observed_at": "2026-11-23T19:14:50.908000Z",
+    "pregame": false,
+    "pregame_snapshot_id": null,
+    "projections": [],
+    "retrieved_at": "2026-11-23T19:14:50.908000Z",
+    "schema_version": "0.4.0",
+    "screening": {
+      "spread": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "associated_price": null,
+        "basis": "median_per_independent_system_vs_draftkings",
+        "classification": "INSUFFICIENT_DATA",
+        "consensus": {
+          "agreeing_source_count": 0,
+          "basis": "median_per_independent_system_vs_draftkings",
+          "classification": "INSUFFICIENT_DATA",
+          "difference": null,
+          "majority_agreement": false,
+          "median": null,
+          "preferred": null,
+          "reasons": [
+            "not_pregame_or_tipoff_unknown",
+            "neutral_site_unknown",
+            "projection_missing_stale_or_not_captured_pregame",
+            "draftkings_line_missing",
+            "draftkings_market_missing",
+            "fewer_than_three_independent_sources"
+          ],
+          "threshold_met": false,
+          "unanimous": false
+        },
+        "difference": null,
+        "individual_projections": [],
+        "majority_agreement": false,
+        "market_freshness": {
+          "age_hours": null,
+          "reasons": [
+            "not_imported"
+          ],
+          "state": "missing"
+        },
+        "market_line": null,
+        "market_observed_at": null,
+        "market_side": null,
+        "median": null,
+        "preferred": null,
+        "preliminary": {
+          "classification": "INSUFFICIENT_DATA",
+          "difference": null,
+          "preferred": null,
+          "threshold_met": false
+        },
+        "projected_side": null,
+        "qualifying_source_count": 0,
+        "range": null,
+        "range_points": null,
+        "reasons": [
+          "not_pregame_or_tipoff_unknown",
+          "neutral_site_unknown",
+          "projection_missing_stale_or_not_captured_pregame",
+          "draftkings_line_missing",
+          "draftkings_market_missing"
+        ],
+        "research_only": true,
+        "single_source": {
+          "basis": "haslametrics_vs_draftkings",
+          "classification": "INSUFFICIENT_DATA",
+          "difference": null,
+          "preferred": null,
+          "reasons": [
+            "not_pregame_or_tipoff_unknown",
+            "neutral_site_unknown",
+            "projection_missing_stale_or_not_captured_pregame",
+            "draftkings_line_missing",
+            "draftkings_market_missing",
+            "haslametrics_missing_or_ineligible"
+          ],
+          "threshold_met": false
+        },
+        "source_count": 0,
+        "source_observations": [],
+        "threshold_met": false,
+        "verified_market_observation": false
+      },
+      "total": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "associated_price": null,
+        "basis": "median_per_independent_system_vs_draftkings",
+        "classification": "INSUFFICIENT_DATA",
+        "consensus": {
+          "agreeing_source_count": 0,
+          "basis": "median_per_independent_system_vs_draftkings",
+          "classification": "INSUFFICIENT_DATA",
+          "difference": null,
+          "majority_agreement": false,
+          "median": null,
+          "preferred": null,
+          "reasons": [
+            "not_pregame_or_tipoff_unknown",
+            "neutral_site_unknown",
+            "projection_missing_stale_or_not_captured_pregame",
+            "draftkings_line_missing",
+            "draftkings_market_missing",
+            "fewer_than_three_independent_sources"
+          ],
+          "threshold_met": false,
+          "unanimous": false
+        },
+        "difference": null,
+        "individual_projections": [],
+        "majority_agreement": false,
+        "market_freshness": {
+          "age_hours": null,
+          "reasons": [
+            "not_imported"
+          ],
+          "state": "missing"
+        },
+        "market_line": null,
+        "market_observed_at": null,
+        "market_side": null,
+        "median": null,
+        "preferred": null,
+        "preliminary": {
+          "classification": "INSUFFICIENT_DATA",
+          "difference": null,
+          "preferred": null,
+          "threshold_met": false
+        },
+        "projected_side": null,
+        "qualifying_source_count": 0,
+        "range": null,
+        "range_points": null,
+        "reasons": [
+          "not_pregame_or_tipoff_unknown",
+          "neutral_site_unknown",
+          "projection_missing_stale_or_not_captured_pregame",
+          "draftkings_line_missing",
+          "draftkings_market_missing"
+        ],
+        "research_only": true,
+        "single_source": {
+          "basis": "haslametrics_vs_draftkings",
+          "classification": "INSUFFICIENT_DATA",
+          "difference": null,
+          "preferred": null,
+          "reasons": [
+            "not_pregame_or_tipoff_unknown",
+            "neutral_site_unknown",
+            "projection_missing_stale_or_not_captured_pregame",
+            "draftkings_line_missing",
+            "draftkings_market_missing",
+            "haslametrics_missing_or_ineligible"
+          ],
+          "threshold_met": false
+        },
+        "source_count": 0,
+        "source_observations": [],
+        "threshold_met": false,
+        "verified_market_observation": false
+      }
+    },
+    "season": "2026-27",
+    "source_as_of_date": null,
+    "source_game_ids": {
+      "ncaa": "6651831"
+    },
+    "source_updated_at": null,
+    "source_url": "https://www.ncaa.com/scoreboard/basketball-men/d1/2026/11/23/all-conf",
+    "status": "scheduled",
+    "tipoff_central": "2026-11-23T17:30:00-06:00",
+    "tipoff_utc": "2026-11-23T23:30:00Z"
+  },
+  "schema_version": "0.5.0",
+  "source_analysis": {
+    "barttorvik": {
+      "observation": null,
+      "origin": "source_observation",
+      "prose": null,
+      "reason": "Only captured numeric analysis and source links; no source prose reproduced."
+    },
+    "dratings": {
+      "observation": null,
+      "origin": "source_observation",
+      "prose": null,
+      "reason": "Only captured numeric analysis and source links; no source prose reproduced."
+    },
+    "haslametrics": {
+      "observation": null,
+      "origin": "source_observation",
+      "prose": null,
+      "reason": "Only captured numeric analysis and source links; no source prose reproduced."
+    }
+  },
+  "sport": "cbb",
+  "system_interpretation": {
+    "causal_explanation": null,
+    "origin": "system_calculation",
+    "reason": "Differences identify which source is numerically distant; source-specific causes require source analysis, personnel and methodology evidence."
+  },
+  "team_profiles": {
+    "away": {
+      "actionable": false,
+      "data_as_of": null,
+      "game_date": "2026-11-23",
+      "generated_at": "2026-11-24T00:46:22.783394Z",
+      "historical_results": [],
+      "history": {
+        "distinct_observation_dates": 0,
+        "first_observed_at": null,
+        "limitation": "History starts with actual captures. Collect dated team observations daily; no retrospective ratings are reconstructed.",
+        "month_trend_available": false,
+        "observations": []
+      },
+      "kind": "team",
+      "rank_comparison": {
+        "haslametrics_minus_trank": null,
+        "note": "Positive means Haslametrics ranks the team lower. Rating scales and efficiency units are not interchangeable.",
+        "origin": "system_calculation"
+      },
+      "results_scope": "Only verified finals imported into this local hub; not a complete team schedule.",
+      "schema_version": "0.5.0",
+      "season": "2026-27",
+      "sources": {
+        "barttorvik": {
+          "observation": null,
+          "reason": "No team metric observation collected; projections are not team ratings.",
+          "status": "unavailable",
+          "unavailable_metrics": [
+            "rank",
+            "rating",
+            "offensive_efficiency",
+            "defensive_efficiency",
+            "tempo",
+            "strength_of_schedule"
+          ]
+        },
+        "dratings": {
+          "observation": null,
+          "reason": "No team metric observation collected; projections are not team ratings.",
+          "status": "unavailable",
+          "unavailable_metrics": [
+            "rank",
+            "rating",
+            "offensive_efficiency",
+            "defensive_efficiency",
+            "tempo",
+            "strength_of_schedule"
+          ]
+        },
+        "haslametrics": {
+          "observation": null,
+          "reason": "No team metric observation collected; projections are not team ratings.",
+          "status": "unavailable",
+          "unavailable_metrics": [
+            "rank",
+            "rating",
+            "offensive_efficiency",
+            "defensive_efficiency",
+            "tempo",
+            "strength_of_schedule"
+          ]
+        }
+      },
+      "sport": "cbb",
+      "team": {
+        "id": "rit",
+        "name": "RIT",
+        "source_ids": {}
+      },
+      "timezone": "America/Chicago"
+    },
+    "home": {
+      "actionable": false,
+      "data_as_of": null,
+      "game_date": "2026-11-23",
+      "generated_at": "2026-11-24T00:46:22.783394Z",
+      "historical_results": [],
+      "history": {
+        "distinct_observation_dates": 0,
+        "first_observed_at": null,
+        "limitation": "History starts with actual captures. Collect dated team observations daily; no retrospective ratings are reconstructed.",
+        "month_trend_available": false,
+        "observations": []
+      },
+      "kind": "team",
+      "rank_comparison": {
+        "haslametrics_minus_trank": null,
+        "note": "Positive means Haslametrics ranks the team lower. Rating scales and efficiency units are not interchangeable.",
+        "origin": "system_calculation"
+      },
+      "results_scope": "Only verified finals imported into this local hub; not a complete team schedule.",
+      "schema_version": "0.5.0",
+      "season": "2026-27",
+      "sources": {
+        "barttorvik": {
+          "observation": null,
+          "reason": "No team metric observation collected; projections are not team ratings.",
+          "status": "unavailable",
+          "unavailable_metrics": [
+            "rank",
+            "rating",
+            "offensive_efficiency",
+            "defensive_efficiency",
+            "tempo",
+            "strength_of_schedule"
+          ]
+        },
+        "dratings": {
+          "observation": null,
+          "reason": "No team metric observation collected; projections are not team ratings.",
+          "status": "unavailable",
+          "unavailable_metrics": [
+            "rank",
+            "rating",
+            "offensive_efficiency",
+            "defensive_efficiency",
+            "tempo",
+            "strength_of_schedule"
+          ]
+        },
+        "haslametrics": {
+          "observation": null,
+          "reason": "No team metric observation collected; projections are not team ratings.",
+          "status": "unavailable",
+          "unavailable_metrics": [
+            "rank",
+            "rating",
+            "offensive_efficiency",
+            "defensive_efficiency",
+            "tempo",
+            "strength_of_schedule"
+          ]
+        }
+      },
+      "sport": "cbb",
+      "team": {
+        "id": "buffalo",
+        "name": "Buffalo",
+        "source_ids": {}
+      },
+      "timezone": "America/Chicago"
+    }
+  },
+  "timezone": "America/Chicago"
+}
