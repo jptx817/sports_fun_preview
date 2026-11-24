@@ -4,40 +4,32 @@
     "spread": {
       "basis": "home_margin",
       "consensus_available": false,
-      "deviation_from_median": {
-        "haslametrics": 0.0
-      },
+      "deviation_from_median": {},
       "largest_deviation_sources": [],
-      "median": -1.64,
+      "median": null,
       "note": "Numerical differences do not establish a cause or a betting advantage. Source bases may differ.",
       "origin": "system_calculation",
-      "range_points": 0.0,
-      "source_count": 1,
-      "values": {
-        "haslametrics": -1.64
-      }
+      "range_points": null,
+      "source_count": 0,
+      "values": {}
     },
     "total": {
       "basis": "total",
       "consensus_available": false,
-      "deviation_from_median": {
-        "haslametrics": 0.0
-      },
+      "deviation_from_median": {},
       "largest_deviation_sources": [],
-      "median": 150.5,
+      "median": null,
       "note": "Numerical differences do not establish a cause or a betting advantage. Source bases may differ.",
       "origin": "system_calculation",
-      "range_points": 0.0,
-      "source_count": 1,
-      "values": {
-        "haslametrics": 150.5
-      }
+      "range_points": null,
+      "source_count": 0,
+      "values": {}
     }
   },
   "data_as_of": "2026-11-23T19:14:50.908000Z",
   "game_date": "2026-11-23",
   "game_id": "cbb-2027-2026-11-23-belmont-at-yale",
-  "generated_at": "2026-11-24T01:11:01.593329Z",
+  "generated_at": "2026-11-24T04:25:32.897496Z",
   "kind": "game",
   "record": {
     "away_team": {
@@ -102,7 +94,8 @@
     "data_issues": [
       "draftkings_line_missing",
       "draftkings_market_missing",
-      "not_pregame_or_tipoff_unknown"
+      "not_pregame_or_tipoff_unknown",
+      "projection_missing_stale_or_not_captured_pregame"
     ],
     "decision": "REVIEW_ONLY",
     "detail_url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-23-belmont-at-yale.json",
@@ -110,7 +103,7 @@
     "final": null,
     "game_date": "2026-11-23",
     "game_id": "cbb-2027-2026-11-23-belmont-at-yale",
-    "generated_at": "2026-11-24T01:11:01.593329Z",
+    "generated_at": "2026-11-24T04:25:32.897496Z",
     "home_designation_basis": "provider_nominal_on_neutral_court",
     "home_team": {
       "id": "yale",
@@ -123,7 +116,7 @@
     "last_verified_refresh": {
       "comparison": null,
       "draftkings": null,
-      "haslametrics": "2026-11-23T19:15:17.725000Z",
+      "haslametrics": "2026-11-24T04:22:45.373000Z",
       "schedule": "2026-11-23T19:14:50.908000Z"
     },
     "market_timeline": {
@@ -153,7 +146,7 @@
           }
         },
         "freshness": {
-          "age_hours": 5.929,
+          "age_hours": 0.047,
           "provider_update_known": false,
           "reasons": [],
           "state": "fresh"
@@ -166,12 +159,12 @@
         "home_margin": -1.64,
         "home_score": 74.43,
         "home_source_id": "109",
-        "imported_at": "2026-11-23T19:28:45.118174Z",
-        "observation_id": "e6ab5c43fc2cc70f47a74f528227c8146d807c0027609615a36cfa48b3b2dd4b",
-        "observed_at": "2026-11-23T19:15:17.725000Z",
+        "imported_at": "2026-11-24T04:25:32.925128Z",
+        "observation_id": "b9f37a89bea53fae5d730fad490bcea86251d9b0a061c69ab4676a35e5f383d0",
+        "observed_at": "2026-11-24T04:22:45.373000Z",
         "projected_home_spread": 1.64,
         "provider": "haslametrics",
-        "retrieved_at": "2026-11-23T19:15:17.725000Z",
+        "retrieved_at": "2026-11-24T04:22:45.373000Z",
         "source_as_of_date": "2026-11-22",
         "source_updated_at": null,
         "source_url": "https://www.haslametrics.com/",
@@ -196,10 +189,11 @@
           "classification": "INSUFFICIENT_DATA",
           "difference": null,
           "majority_agreement": false,
-          "median": -1.64,
+          "median": null,
           "preferred": null,
           "reasons": [
             "not_pregame_or_tipoff_unknown",
+            "projection_missing_stale_or_not_captured_pregame",
             "draftkings_line_missing",
             "draftkings_market_missing",
             "fewer_than_three_independent_sources"
@@ -208,21 +202,7 @@
           "unanimous": false
         },
         "difference": null,
-        "individual_projections": [
-          {
-            "difference": null,
-            "imported_at": "2026-11-23T19:28:45.118174Z",
-            "independent_system": "haslametrics",
-            "observed_at": "2026-11-23T19:15:17.725000Z",
-            "preferred": null,
-            "provider": "haslametrics",
-            "retrieved_at": "2026-11-23T19:15:17.725000Z",
-            "source_as_of_date": "2026-11-22",
-            "source_updated_at": null,
-            "threshold_met": false,
-            "value": -1.64
-          }
-        ],
+        "individual_projections": [],
         "majority_agreement": false,
         "market_freshness": {
           "age_hours": null,
@@ -234,7 +214,7 @@
         "market_line": null,
         "market_observed_at": null,
         "market_side": null,
-        "median": -1.64,
+        "median": null,
         "preferred": null,
         "preliminary": {
           "classification": "INSUFFICIENT_DATA",
@@ -242,15 +222,13 @@
           "preferred": null,
           "threshold_met": false
         },
-        "projected_side": "AWAY",
+        "projected_side": null,
         "qualifying_source_count": 0,
-        "range": [
-          -1.64,
-          -1.64
-        ],
-        "range_points": 0.0,
+        "range": null,
+        "range_points": null,
         "reasons": [
           "not_pregame_or_tipoff_unknown",
+          "projection_missing_stale_or_not_captured_pregame",
           "draftkings_line_missing",
           "draftkings_market_missing"
         ],
@@ -262,27 +240,15 @@
           "preferred": null,
           "reasons": [
             "not_pregame_or_tipoff_unknown",
+            "projection_missing_stale_or_not_captured_pregame",
             "draftkings_line_missing",
-            "draftkings_market_missing"
+            "draftkings_market_missing",
+            "haslametrics_missing_or_ineligible"
           ],
           "threshold_met": false
         },
-        "source_count": 1,
-        "source_observations": [
-          {
-            "difference": null,
-            "imported_at": "2026-11-23T19:28:45.118174Z",
-            "independent_system": "haslametrics",
-            "observed_at": "2026-11-23T19:15:17.725000Z",
-            "preferred": null,
-            "provider": "haslametrics",
-            "retrieved_at": "2026-11-23T19:15:17.725000Z",
-            "source_as_of_date": "2026-11-22",
-            "source_updated_at": null,
-            "threshold_met": false,
-            "value": -1.64
-          }
-        ],
+        "source_count": 0,
+        "source_observations": [],
         "threshold_met": false,
         "verified_market_observation": false
       },
@@ -298,10 +264,11 @@
           "classification": "INSUFFICIENT_DATA",
           "difference": null,
           "majority_agreement": false,
-          "median": 150.5,
+          "median": null,
           "preferred": null,
           "reasons": [
             "not_pregame_or_tipoff_unknown",
+            "projection_missing_stale_or_not_captured_pregame",
             "draftkings_line_missing",
             "draftkings_market_missing",
             "fewer_than_three_independent_sources"
@@ -310,21 +277,7 @@
           "unanimous": false
         },
         "difference": null,
-        "individual_projections": [
-          {
-            "difference": null,
-            "imported_at": "2026-11-23T19:28:45.118174Z",
-            "independent_system": "haslametrics",
-            "observed_at": "2026-11-23T19:15:17.725000Z",
-            "preferred": null,
-            "provider": "haslametrics",
-            "retrieved_at": "2026-11-23T19:15:17.725000Z",
-            "source_as_of_date": "2026-11-22",
-            "source_updated_at": null,
-            "threshold_met": false,
-            "value": 150.5
-          }
-        ],
+        "individual_projections": [],
         "majority_agreement": false,
         "market_freshness": {
           "age_hours": null,
@@ -336,7 +289,7 @@
         "market_line": null,
         "market_observed_at": null,
         "market_side": null,
-        "median": 150.5,
+        "median": null,
         "preferred": null,
         "preliminary": {
           "classification": "INSUFFICIENT_DATA",
@@ -346,13 +299,11 @@
         },
         "projected_side": null,
         "qualifying_source_count": 0,
-        "range": [
-          150.5,
-          150.5
-        ],
-        "range_points": 0.0,
+        "range": null,
+        "range_points": null,
         "reasons": [
           "not_pregame_or_tipoff_unknown",
+          "projection_missing_stale_or_not_captured_pregame",
           "draftkings_line_missing",
           "draftkings_market_missing"
         ],
@@ -364,27 +315,15 @@
           "preferred": null,
           "reasons": [
             "not_pregame_or_tipoff_unknown",
+            "projection_missing_stale_or_not_captured_pregame",
             "draftkings_line_missing",
-            "draftkings_market_missing"
+            "draftkings_market_missing",
+            "haslametrics_missing_or_ineligible"
           ],
           "threshold_met": false
         },
-        "source_count": 1,
-        "source_observations": [
-          {
-            "difference": null,
-            "imported_at": "2026-11-23T19:28:45.118174Z",
-            "independent_system": "haslametrics",
-            "observed_at": "2026-11-23T19:15:17.725000Z",
-            "preferred": null,
-            "provider": "haslametrics",
-            "retrieved_at": "2026-11-23T19:15:17.725000Z",
-            "source_as_of_date": "2026-11-22",
-            "source_updated_at": null,
-            "threshold_met": false,
-            "value": 150.5
-          }
-        ],
+        "source_count": 0,
+        "source_observations": [],
         "threshold_met": false,
         "verified_market_observation": false
       }
@@ -432,7 +371,7 @@
       "actionable": false,
       "data_as_of": null,
       "game_date": "2026-11-23",
-      "generated_at": "2026-11-24T01:11:01.593329Z",
+      "generated_at": "2026-11-24T04:25:32.897496Z",
       "historical_results": [],
       "history": {
         "distinct_observation_dates": 0,
@@ -505,7 +444,7 @@
       "actionable": false,
       "data_as_of": null,
       "game_date": "2026-11-23",
-      "generated_at": "2026-11-24T01:11:01.593329Z",
+      "generated_at": "2026-11-24T04:25:32.897496Z",
       "historical_results": [],
       "history": {
         "distinct_observation_dates": 0,
