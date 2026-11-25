@@ -2,12 +2,12 @@
 
 [Today’s analytical briefing with DraftKings comparisons](briefing.html). This source feed omits market data; the linked analytical website display uses separately permitted inputs.
 
-Data as of **2026-11-25T12:34:08.320000Z**; built 2026-11-25T13:04:21.957581Z. Research observations; no betting recommendations.
+Data as of **2026-11-25T12:34:08.320000Z**; built 2026-11-25T15:22:48.579591Z. Research observations; no betting recommendations.
 Latest successful source retrieval in this edition: 2026-11-25T12:34:08.320000Z. Recheck Central date, tipoffs and source ages when reading.
 
 ## A. Slate overview
 
-48 imported games; 48 with projections; 0 with three eligible sources; 0 with valid DraftKings observations; 48 pregame at build.
+48 imported games; 48 with projections; 0 with three eligible sources; 0 with valid DraftKings observations; 47 pregame at build.
 Coverage: barttorvik: 0 (missing); dratings: 0 (missing); haslametrics: 48 (fresh); draftkings: 0 (missing).
 Schedule uses the permitted Haslametrics fallback; official NCAA coverage, non-D1 opponents and ambiguous tipoff dates remain unverified. Full schedule and all comparisons: data/intelligence/board.json.
 
@@ -66,6 +66,6 @@ Single-source observations, multiple-source discrepancies and one/two-source Pre
 
 ## Prior-day performance
 
-2026-11-24: 0/72 archived games have verified final results. haslametrics: full-game diagnostic spread MAE unavailable, total MAE unavailable (n=0); primary basis-matched spread n=0. Regulation forecasts, unknown bases and full-game settlements are kept separate. Missing scores/prices earn no assumed returns.
+2026-11-24: 72/72 archived games have verified final results. haslametrics: full-game diagnostic spread MAE 10.63, total MAE 13.40 (n=72); primary basis-matched spread n=0. Regulation forecasts, unknown bases and full-game settlements are kept separate. Missing scores/prices earn no assumed returns.
 
 [Performance dashboard](performance.html).

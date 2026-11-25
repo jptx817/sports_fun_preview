@@ -1,0 +1,572 @@
+{
+  "actionable": false,
+  "comparison": {
+    "spread": {
+      "basis": "home_margin",
+      "consensus_available": false,
+      "deviation_from_median": {
+        "haslametrics": 0.0
+      },
+      "largest_deviation_sources": [],
+      "median": -0.87,
+      "note": "Numerical differences do not establish a cause or a betting advantage. Source bases may differ.",
+      "origin": "system_calculation",
+      "range_points": 0.0,
+      "source_count": 1,
+      "values": {
+        "haslametrics": -0.87
+      }
+    },
+    "total": {
+      "basis": "total",
+      "consensus_available": false,
+      "deviation_from_median": {
+        "haslametrics": 0.0
+      },
+      "largest_deviation_sources": [],
+      "median": 143.17,
+      "note": "Numerical differences do not establish a cause or a betting advantage. Source bases may differ.",
+      "origin": "system_calculation",
+      "range_points": 0.0,
+      "source_count": 1,
+      "values": {
+        "haslametrics": 143.17
+      }
+    }
+  },
+  "data_as_of": "2026-11-25T12:34:08.320000Z",
+  "game_date": "2026-11-25",
+  "game_id": "cbb-2027-2026-11-25-duke-at-connecticut",
+  "generated_at": "2026-11-25T15:22:48.579591Z",
+  "kind": "game",
+  "record": {
+    "away_team": {
+      "id": "duke",
+      "name": "Duke",
+      "source_ids": {
+        "haslametrics": "323"
+      }
+    },
+    "comparisons": {
+      "spread": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "available_source_count": 1,
+        "basis_note": "Provider score basis retained; DraftKings is full game including overtime.",
+        "classification": "INCOMPLETE_MARKET",
+        "difference": null,
+        "market_complete": false,
+        "median": -0.87,
+        "missing_providers": [
+          "barttorvik",
+          "dratings"
+        ],
+        "preferred": null,
+        "providers": [
+          "haslametrics"
+        ],
+        "range": [
+          -0.87,
+          -0.87
+        ],
+        "range_points": 0.0,
+        "source_count": 1,
+        "threshold_met": false
+      },
+      "total": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "available_source_count": 1,
+        "basis_note": "Provider score basis retained; DraftKings is full game including overtime.",
+        "classification": "INCOMPLETE_MARKET",
+        "difference": null,
+        "market_complete": false,
+        "median": 143.17,
+        "missing_providers": [
+          "barttorvik",
+          "dratings"
+        ],
+        "preferred": null,
+        "providers": [
+          "haslametrics"
+        ],
+        "range": [
+          143.17,
+          143.17
+        ],
+        "range_points": 0.0,
+        "source_count": 1,
+        "threshold_met": false
+      }
+    },
+    "data_issues": [
+      "draftkings_line_missing",
+      "draftkings_market_missing"
+    ],
+    "decision": "REVIEW_ONLY",
+    "detail_url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-25-duke-at-connecticut.json",
+    "draftkings": null,
+    "final": null,
+    "game_date": "2026-11-25",
+    "game_id": "cbb-2027-2026-11-25-duke-at-connecticut",
+    "generated_at": "2026-11-25T15:22:48.579591Z",
+    "home_designation_basis": "provider_nominal_on_neutral_court",
+    "home_team": {
+      "id": "connecticut",
+      "name": "UConn",
+      "source_ids": {
+        "haslametrics": "105"
+      }
+    },
+    "imported_at": "2026-11-25T12:49:12.431978Z",
+    "last_verified_refresh": {
+      "comparison": null,
+      "draftkings": null,
+      "haslametrics": "2026-11-25T12:34:08.320000Z",
+      "schedule": "2026-11-25T12:34:08.320000Z"
+    },
+    "market_timeline": {
+      "observations": 0,
+      "verified_closing": null,
+      "verified_opening": null
+    },
+    "neutral_site": true,
+    "observed_at": "2026-11-25T12:34:08.320000Z",
+    "pregame": true,
+    "pregame_snapshot_id": null,
+    "projections": [
+      {
+        "away_score": 72.02,
+        "away_source_id": "323",
+        "basis": "end_of_regulation",
+        "comparisons": {
+          "spread": {
+            "difference": null,
+            "preferred": null,
+            "threshold_met": false
+          },
+          "total": {
+            "difference": null,
+            "preferred": null,
+            "threshold_met": false
+          }
+        },
+        "freshness": {
+          "age_hours": 2.811,
+          "provider_update_known": false,
+          "reasons": [],
+          "state": "fresh"
+        },
+        "game_id": "cbb-2027-2026-11-25-duke-at-connecticut",
+        "haslametrics_signals": {
+          "spread": false,
+          "total": false
+        },
+        "home_margin": -0.87,
+        "home_score": 71.15,
+        "home_source_id": "105",
+        "imported_at": "2026-11-25T13:04:14.172651Z",
+        "observation_id": "fbe5241d610eee2b7424a5d6186be040e4cf11a2d985b68d4bb140059f5b6aea",
+        "observed_at": "2026-11-25T12:34:08.320000Z",
+        "projected_home_spread": 0.87,
+        "provider": "haslametrics",
+        "retrieved_at": "2026-11-25T12:34:08.320000Z",
+        "source_as_of_date": "2026-11-23",
+        "source_updated_at": null,
+        "source_url": "https://www.haslametrics.com/",
+        "spread_eligible": true,
+        "total": 143.17,
+        "total_eligible": true,
+        "transport": "manual_csv"
+      }
+    ],
+    "retrieved_at": "2026-11-25T12:34:08.320000Z",
+    "schema_version": "0.4.0",
+    "screening": {
+      "spread": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "associated_price": null,
+        "basis": "median_per_independent_system_vs_draftkings",
+        "classification": "PROJECTION_ONLY",
+        "consensus": {
+          "agreeing_source_count": 0,
+          "basis": "median_per_independent_system_vs_draftkings",
+          "classification": "INSUFFICIENT_DATA",
+          "difference": null,
+          "majority_agreement": false,
+          "median": -0.87,
+          "preferred": null,
+          "reasons": [
+            "draftkings_line_missing",
+            "draftkings_market_missing",
+            "fewer_than_three_independent_sources"
+          ],
+          "threshold_met": false,
+          "unanimous": false
+        },
+        "difference": null,
+        "individual_projections": [
+          {
+            "difference": null,
+            "imported_at": "2026-11-25T13:04:14.172651Z",
+            "independent_system": "haslametrics",
+            "observed_at": "2026-11-25T12:34:08.320000Z",
+            "preferred": null,
+            "provider": "haslametrics",
+            "retrieved_at": "2026-11-25T12:34:08.320000Z",
+            "source_as_of_date": "2026-11-23",
+            "source_updated_at": null,
+            "threshold_met": false,
+            "value": -0.87
+          }
+        ],
+        "majority_agreement": false,
+        "market_freshness": {
+          "age_hours": null,
+          "reasons": [
+            "not_imported"
+          ],
+          "state": "missing"
+        },
+        "market_line": null,
+        "market_observed_at": null,
+        "market_side": null,
+        "median": -0.87,
+        "preferred": null,
+        "preliminary": {
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "preferred": null,
+          "threshold_met": false
+        },
+        "projected_side": "AWAY",
+        "qualifying_source_count": 0,
+        "range": [
+          -0.87,
+          -0.87
+        ],
+        "range_points": 0.0,
+        "reasons": [
+          "draftkings_line_missing",
+          "draftkings_market_missing"
+        ],
+        "research_only": true,
+        "single_source": {
+          "basis": "haslametrics_vs_draftkings",
+          "classification": "INSUFFICIENT_DATA",
+          "difference": null,
+          "preferred": null,
+          "reasons": [
+            "draftkings_line_missing",
+            "draftkings_market_missing"
+          ],
+          "threshold_met": false
+        },
+        "source_count": 1,
+        "source_observations": [
+          {
+            "difference": null,
+            "imported_at": "2026-11-25T13:04:14.172651Z",
+            "independent_system": "haslametrics",
+            "observed_at": "2026-11-25T12:34:08.320000Z",
+            "preferred": null,
+            "provider": "haslametrics",
+            "retrieved_at": "2026-11-25T12:34:08.320000Z",
+            "source_as_of_date": "2026-11-23",
+            "source_updated_at": null,
+            "threshold_met": false,
+            "value": -0.87
+          }
+        ],
+        "threshold_met": false,
+        "verified_market_observation": false
+      },
+      "total": {
+        "actionable": false,
+        "agreeing_source_count": 0,
+        "associated_price": null,
+        "basis": "median_per_independent_system_vs_draftkings",
+        "classification": "PROJECTION_ONLY",
+        "consensus": {
+          "agreeing_source_count": 0,
+          "basis": "median_per_independent_system_vs_draftkings",
+          "classification": "INSUFFICIENT_DATA",
+          "difference": null,
+          "majority_agreement": false,
+          "median": 143.17,
+          "preferred": null,
+          "reasons": [
+            "draftkings_line_missing",
+            "draftkings_market_missing",
+            "fewer_than_three_independent_sources"
+          ],
+          "threshold_met": false,
+          "unanimous": false
+        },
+        "difference": null,
+        "individual_projections": [
+          {
+            "difference": null,
+            "imported_at": "2026-11-25T13:04:14.172651Z",
+            "independent_system": "haslametrics",
+            "observed_at": "2026-11-25T12:34:08.320000Z",
+            "preferred": null,
+            "provider": "haslametrics",
+            "retrieved_at": "2026-11-25T12:34:08.320000Z",
+            "source_as_of_date": "2026-11-23",
+            "source_updated_at": null,
+            "threshold_met": false,
+            "value": 143.17
+          }
+        ],
+        "majority_agreement": false,
+        "market_freshness": {
+          "age_hours": null,
+          "reasons": [
+            "not_imported"
+          ],
+          "state": "missing"
+        },
+        "market_line": null,
+        "market_observed_at": null,
+        "market_side": null,
+        "median": 143.17,
+        "preferred": null,
+        "preliminary": {
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "preferred": null,
+          "threshold_met": false
+        },
+        "projected_side": null,
+        "qualifying_source_count": 0,
+        "range": [
+          143.17,
+          143.17
+        ],
+        "range_points": 0.0,
+        "reasons": [
+          "draftkings_line_missing",
+          "draftkings_market_missing"
+        ],
+        "research_only": true,
+        "single_source": {
+          "basis": "haslametrics_vs_draftkings",
+          "classification": "INSUFFICIENT_DATA",
+          "difference": null,
+          "preferred": null,
+          "reasons": [
+            "draftkings_line_missing",
+            "draftkings_market_missing"
+          ],
+          "threshold_met": false
+        },
+        "source_count": 1,
+        "source_observations": [
+          {
+            "difference": null,
+            "imported_at": "2026-11-25T13:04:14.172651Z",
+            "independent_system": "haslametrics",
+            "observed_at": "2026-11-25T12:34:08.320000Z",
+            "preferred": null,
+            "provider": "haslametrics",
+            "retrieved_at": "2026-11-25T12:34:08.320000Z",
+            "source_as_of_date": "2026-11-23",
+            "source_updated_at": null,
+            "threshold_met": false,
+            "value": 143.17
+          }
+        ],
+        "threshold_met": false,
+        "verified_market_observation": false
+      }
+    },
+    "season": "2026-27",
+    "source_as_of_date": null,
+    "source_game_ids": {
+      "haslametrics": "haslametrics-323-105"
+    },
+    "source_updated_at": null,
+    "source_url": "https://www.haslametrics.com/",
+    "status": "scheduled",
+    "tipoff_central": "2026-11-25T18:00:00-06:00",
+    "tipoff_utc": "2026-11-26T00:00:00Z"
+  },
+  "schema_version": "0.5.0",
+  "source_analysis": {
+    "barttorvik": {
+      "observation": null,
+      "origin": "source_observation",
+      "prose": null,
+      "reason": "Only captured numeric analysis and source links; no source prose reproduced."
+    },
+    "dratings": {
+      "observation": null,
+      "origin": "source_observation",
+      "prose": null,
+      "reason": "Only captured numeric analysis and source links; no source prose reproduced."
+    },
+    "haslametrics": {
+      "observation": null,
+      "origin": "source_observation",
+      "prose": null,
+      "reason": "Only captured numeric analysis and source links; no source prose reproduced."
+    }
+  },
+  "sport": "cbb",
+  "system_interpretation": {
+    "causal_explanation": null,
+    "origin": "system_calculation",
+    "reason": "Differences identify which source is numerically distant; source-specific causes require source analysis, personnel and methodology evidence."
+  },
+  "team_profiles": {
+    "away": {
+      "actionable": false,
+      "data_as_of": null,
+      "game_date": "2026-11-25",
+      "generated_at": "2026-11-25T15:22:48.579591Z",
+      "historical_results": [],
+      "history": {
+        "distinct_observation_dates": 0,
+        "first_observed_at": null,
+        "limitation": "History starts with actual captures. Collect dated team observations daily; no retrospective ratings are reconstructed.",
+        "month_trend_available": false,
+        "observations": []
+      },
+      "kind": "team",
+      "rank_comparison": {
+        "haslametrics_minus_trank": null,
+        "note": "Positive means Haslametrics ranks the team lower. Rating scales and efficiency units are not interchangeable.",
+        "origin": "system_calculation"
+      },
+      "results_scope": "Only verified finals imported into this local hub; not a complete team schedule.",
+      "schema_version": "0.5.0",
+      "season": "2026-27",
+      "sources": {
+        "barttorvik": {
+          "observation": null,
+          "reason": "No team metric observation collected; projections are not team ratings.",
+          "status": "unavailable",
+          "unavailable_metrics": [
+            "rank",
+            "rating",
+            "offensive_efficiency",
+            "defensive_efficiency",
+            "tempo",
+            "strength_of_schedule"
+          ]
+        },
+        "dratings": {
+          "observation": null,
+          "reason": "No team metric observation collected; projections are not team ratings.",
+          "status": "unavailable",
+          "unavailable_metrics": [
+            "rank",
+            "rating",
+            "offensive_efficiency",
+            "defensive_efficiency",
+            "tempo",
+            "strength_of_schedule"
+          ]
+        },
+        "haslametrics": {
+          "observation": null,
+          "reason": "No team metric observation collected; projections are not team ratings.",
+          "status": "unavailable",
+          "unavailable_metrics": [
+            "rank",
+            "rating",
+            "offensive_efficiency",
+            "defensive_efficiency",
+            "tempo",
+            "strength_of_schedule"
+          ]
+        }
+      },
+      "sport": "cbb",
+      "team": {
+        "id": "duke",
+        "name": "Duke",
+        "source_ids": {
+          "haslametrics": "323"
+        }
+      },
+      "timezone": "America/Chicago"
+    },
+    "home": {
+      "actionable": false,
+      "data_as_of": null,
+      "game_date": "2026-11-25",
+      "generated_at": "2026-11-25T15:22:48.579591Z",
+      "historical_results": [],
+      "history": {
+        "distinct_observation_dates": 0,
+        "first_observed_at": null,
+        "limitation": "History starts with actual captures. Collect dated team observations daily; no retrospective ratings are reconstructed.",
+        "month_trend_available": false,
+        "observations": []
+      },
+      "kind": "team",
+      "rank_comparison": {
+        "haslametrics_minus_trank": null,
+        "note": "Positive means Haslametrics ranks the team lower. Rating scales and efficiency units are not interchangeable.",
+        "origin": "system_calculation"
+      },
+      "results_scope": "Only verified finals imported into this local hub; not a complete team schedule.",
+      "schema_version": "0.5.0",
+      "season": "2026-27",
+      "sources": {
+        "barttorvik": {
+          "observation": null,
+          "reason": "No team metric observation collected; projections are not team ratings.",
+          "status": "unavailable",
+          "unavailable_metrics": [
+            "rank",
+            "rating",
+            "offensive_efficiency",
+            "defensive_efficiency",
+            "tempo",
+            "strength_of_schedule"
+          ]
+        },
+        "dratings": {
+          "observation": null,
+          "reason": "No team metric observation collected; projections are not team ratings.",
+          "status": "unavailable",
+          "unavailable_metrics": [
+            "rank",
+            "rating",
+            "offensive_efficiency",
+            "defensive_efficiency",
+            "tempo",
+            "strength_of_schedule"
+          ]
+        },
+        "haslametrics": {
+          "observation": null,
+          "reason": "No team metric observation collected; projections are not team ratings.",
+          "status": "unavailable",
+          "unavailable_metrics": [
+            "rank",
+            "rating",
+            "offensive_efficiency",
+            "defensive_efficiency",
+            "tempo",
+            "strength_of_schedule"
+          ]
+        }
+      },
+      "sport": "cbb",
+      "team": {
+        "id": "connecticut",
+        "name": "UConn",
+        "source_ids": {
+          "haslametrics": "105"
+        }
+      },
+      "timezone": "America/Chicago"
+    }
+  },
+  "timezone": "America/Chicago"
+}
