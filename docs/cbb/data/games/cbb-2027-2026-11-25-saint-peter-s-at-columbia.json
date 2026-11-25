@@ -60,7 +60,8 @@
   },
   "data_issues": [
     "draftkings_line_missing",
-    "draftkings_market_missing"
+    "draftkings_market_missing",
+    "not_pregame_or_tipoff_unknown"
   ],
   "decision": "REVIEW_ONLY",
   "detail_url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-25-saint-peter-s-at-columbia.json",
@@ -68,7 +69,7 @@
   "final": null,
   "game_date": "2026-11-25",
   "game_id": "cbb-2027-2026-11-25-saint-peter-s-at-columbia",
-  "generated_at": "2026-11-25T15:32:48.606645Z",
+  "generated_at": "2026-11-25T20:32:30.423128Z",
   "home_designation_basis": "provider_designated_home",
   "home_team": {
     "id": "columbia",
@@ -91,7 +92,7 @@
   },
   "neutral_site": false,
   "observed_at": "2026-11-25T12:34:08.320000Z",
-  "pregame": true,
+  "pregame": false,
   "pregame_snapshot_id": null,
   "projections": [
     {
@@ -111,7 +112,7 @@
         }
       },
       "freshness": {
-        "age_hours": 2.978,
+        "age_hours": 7.973,
         "provider_update_known": false,
         "reasons": [],
         "state": "fresh"
@@ -147,7 +148,7 @@
       "agreeing_source_count": 0,
       "associated_price": null,
       "basis": "median_per_independent_system_vs_draftkings",
-      "classification": "PROJECTION_ONLY",
+      "classification": "INSUFFICIENT_DATA",
       "consensus": {
         "agreeing_source_count": 0,
         "basis": "median_per_independent_system_vs_draftkings",
@@ -157,6 +158,7 @@
         "median": 17.0,
         "preferred": null,
         "reasons": [
+          "not_pregame_or_tipoff_unknown",
           "draftkings_line_missing",
           "draftkings_market_missing",
           "fewer_than_three_independent_sources"
@@ -194,7 +196,7 @@
       "median": 17.0,
       "preferred": null,
       "preliminary": {
-        "classification": "PROJECTION_ONLY",
+        "classification": "INSUFFICIENT_DATA",
         "difference": null,
         "preferred": null,
         "threshold_met": false
@@ -207,6 +209,7 @@
       ],
       "range_points": 0.0,
       "reasons": [
+        "not_pregame_or_tipoff_unknown",
         "draftkings_line_missing",
         "draftkings_market_missing"
       ],
@@ -217,6 +220,7 @@
         "difference": null,
         "preferred": null,
         "reasons": [
+          "not_pregame_or_tipoff_unknown",
           "draftkings_line_missing",
           "draftkings_market_missing"
         ],
@@ -246,7 +250,7 @@
       "agreeing_source_count": 0,
       "associated_price": null,
       "basis": "median_per_independent_system_vs_draftkings",
-      "classification": "PROJECTION_ONLY",
+      "classification": "INSUFFICIENT_DATA",
       "consensus": {
         "agreeing_source_count": 0,
         "basis": "median_per_independent_system_vs_draftkings",
@@ -256,6 +260,7 @@
         "median": 133.78,
         "preferred": null,
         "reasons": [
+          "not_pregame_or_tipoff_unknown",
           "draftkings_line_missing",
           "draftkings_market_missing",
           "fewer_than_three_independent_sources"
@@ -293,7 +298,7 @@
       "median": 133.78,
       "preferred": null,
       "preliminary": {
-        "classification": "PROJECTION_ONLY",
+        "classification": "INSUFFICIENT_DATA",
         "difference": null,
         "preferred": null,
         "threshold_met": false
@@ -306,6 +311,7 @@
       ],
       "range_points": 0.0,
       "reasons": [
+        "not_pregame_or_tipoff_unknown",
         "draftkings_line_missing",
         "draftkings_market_missing"
       ],
@@ -316,6 +322,7 @@
         "difference": null,
         "preferred": null,
         "reasons": [
+          "not_pregame_or_tipoff_unknown",
           "draftkings_line_missing",
           "draftkings_market_missing"
         ],
