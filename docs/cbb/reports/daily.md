@@ -2,7 +2,7 @@
 
 [Today’s analytical briefing with DraftKings comparisons](briefing.html). This source feed omits market data; the linked analytical website display uses separately permitted inputs.
 
-Data as of **2026-11-25T12:34:08.320000Z**; built 2026-11-25T15:22:48.579591Z. Research observations; no betting recommendations.
+Data as of **2026-11-25T12:34:08.320000Z**; built 2026-11-25T15:32:48.606645Z. Research observations; no betting recommendations.
 Latest successful source retrieval in this edition: 2026-11-25T12:34:08.320000Z. Recheck Central date, tipoffs and source ages when reading.
 
 ## A. Slate overview
