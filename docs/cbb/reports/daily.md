@@ -2,12 +2,12 @@
 
 [Today’s analytical briefing with DraftKings comparisons](briefing.html). This source feed omits market data; the linked analytical website display uses separately permitted inputs.
 
-Data as of **2026-11-26T12:31:20.239000Z**; built 2026-11-26T13:01:36.765477Z. Research observations; no betting recommendations.
+Data as of **2026-11-26T12:31:20.239000Z**; built 2026-11-26T19:21:24.067616Z. Research observations; no betting recommendations.
 Latest successful source retrieval in this edition: 2026-11-26T12:31:20.239000Z. Recheck Central date, tipoffs and source ages when reading.
 
 ## A. Slate overview
 
-21 imported games; 21 with projections; 0 with three eligible sources; 0 with valid DraftKings observations; 21 pregame at build.
+21 imported games; 21 with projections; 0 with three eligible sources; 0 with valid DraftKings observations; 15 pregame at build.
 Coverage: barttorvik: 0 (missing); dratings: 0 (missing); haslametrics: 21 (fresh); draftkings: 0 (missing).
 Schedule uses the permitted Haslametrics fallback; official NCAA coverage, non-D1 opponents and ambiguous tipoff dates remain unverified. Full schedule and all comparisons: data/intelligence/board.json.
 
@@ -70,37 +70,37 @@ Errors are projected minus actual; positive spread bias favors nominal home, pos
 
 ### Yesterday
 
-2026-11-25 through 2026-11-25 Central: 0/48 archived games have verified finals. Coverage is archived forecasts, not all NCAA games.
+2026-11-25 through 2026-11-25 Central: 48/48 archived games have verified finals. Coverage is archived forecasts, not all NCAA games.
 
-haslametrics: 48 forecast observations; primary spread MAE unavailable, bias unavailable, n=0, excluded=48; primary total MAE unavailable, bias unavailable, n=0, excluded=48; winners 0/0. Full-game diagnostic spread MAE unavailable, bias unavailable, n=0; total MAE unavailable, bias unavailable, n=0.
+haslametrics: 48 forecast observations; primary spread MAE unavailable, bias unavailable, n=0, excluded=48; primary total MAE unavailable, bias unavailable, n=0, excluded=48; winners 0/0. Full-game diagnostic spread MAE 9.74, bias 2.04, n=48; total MAE 16.33, bias 5.00, n=48.
 
-haslametrics: ATS 0-0-0 W-L-P; eligible n=0, excluded=48, priced n=0, unpriced settled=0; over/under 0-0-0 W-L-P; eligible n=0, excluded=48, priced n=0, unpriced settled=0.
+haslametrics: ATS 10-17-0 W-L-P; eligible n=27, excluded=21, priced n=27, unpriced settled=0; over/under 15-12-0 W-L-P; eligible n=27, excluded=21, priced n=27, unpriced settled=0.
 
-haslametrics exclusions (metric observations, can overlap): result_missing=48; spread: draftkings_line_missing=21; spread: result_missing=27; total: draftkings_line_missing=21; total: result_missing=27.
+haslametrics exclusions (metric observations, can overlap): regulation_scores_unavailable=48; spread: draftkings_line_missing=21; total: draftkings_line_missing=21.
 
 Consensus, T-Rank, DRatings and subjective performance are withheld under existing disclosure restrictions; no private counts or derivatives are included.
 
 ### Rolling seven days
 
-2026-11-19 through 2026-11-25 Central: 184/232 archived games have verified finals. Coverage is archived forecasts, not all NCAA games.
+2026-11-19 through 2026-11-25 Central: 232/232 archived games have verified finals. Coverage is archived forecasts, not all NCAA games.
 
-haslametrics: 232 forecast observations; primary spread MAE unavailable, bias unavailable, n=0, excluded=232; primary total MAE unavailable, bias unavailable, n=0, excluded=232; winners 0/0. Full-game diagnostic spread MAE 10.90, bias -1.97, n=184; total MAE 13.74, bias 1.95, n=184.
+haslametrics: 232 forecast observations; primary spread MAE unavailable, bias unavailable, n=0, excluded=232; primary total MAE unavailable, bias unavailable, n=0, excluded=232; winners 0/0. Full-game diagnostic spread MAE 10.66, bias -1.14, n=232; total MAE 14.27, bias 2.58, n=232.
 
-haslametrics: ATS 48-48-0 W-L-P; eligible n=96, excluded=136, priced n=96, unpriced settled=0; over/under 56-40-0 W-L-P; eligible n=96, excluded=136, priced n=96, unpriced settled=0.
+haslametrics: ATS 58-65-0 W-L-P; eligible n=123, excluded=109, priced n=123, unpriced settled=0; over/under 71-52-0 W-L-P; eligible n=123, excluded=109, priced n=123, unpriced settled=0.
 
-haslametrics exclusions (metric observations, can overlap): regulation_scores_unavailable=184; result_missing=48; spread: draftkings_line_missing=109; spread: result_missing=27; total: draftkings_line_missing=109; total: result_missing=27.
+haslametrics exclusions (metric observations, can overlap): regulation_scores_unavailable=232; spread: draftkings_line_missing=109; total: draftkings_line_missing=109.
 
 Consensus, T-Rank, DRatings and subjective performance are withheld under existing disclosure restrictions; no private counts or derivatives are included.
 
 ### Season to date (2026-27)
 
-2026-07-01 through 2026-11-25 Central: 184/232 archived games have verified finals. Coverage is archived forecasts, not all NCAA games.
+2026-07-01 through 2026-11-25 Central: 232/232 archived games have verified finals. Coverage is archived forecasts, not all NCAA games.
 
-haslametrics: 232 forecast observations; primary spread MAE unavailable, bias unavailable, n=0, excluded=232; primary total MAE unavailable, bias unavailable, n=0, excluded=232; winners 0/0. Full-game diagnostic spread MAE 10.90, bias -1.97, n=184; total MAE 13.74, bias 1.95, n=184.
+haslametrics: 232 forecast observations; primary spread MAE unavailable, bias unavailable, n=0, excluded=232; primary total MAE unavailable, bias unavailable, n=0, excluded=232; winners 0/0. Full-game diagnostic spread MAE 10.66, bias -1.14, n=232; total MAE 14.27, bias 2.58, n=232.
 
-haslametrics: ATS 48-48-0 W-L-P; eligible n=96, excluded=136, priced n=96, unpriced settled=0; over/under 56-40-0 W-L-P; eligible n=96, excluded=136, priced n=96, unpriced settled=0.
+haslametrics: ATS 58-65-0 W-L-P; eligible n=123, excluded=109, priced n=123, unpriced settled=0; over/under 71-52-0 W-L-P; eligible n=123, excluded=109, priced n=123, unpriced settled=0.
 
-haslametrics exclusions (metric observations, can overlap): regulation_scores_unavailable=184; result_missing=48; spread: draftkings_line_missing=109; spread: result_missing=27; total: draftkings_line_missing=109; total: result_missing=27.
+haslametrics exclusions (metric observations, can overlap): regulation_scores_unavailable=232; spread: draftkings_line_missing=109; total: draftkings_line_missing=109.
 
 Consensus, T-Rank, DRatings and subjective performance are withheld under existing disclosure restrictions; no private counts or derivatives are included.
 

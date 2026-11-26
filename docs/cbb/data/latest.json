@@ -30,7 +30,7 @@
     "draftkings_spread_lines": 0,
     "draftkings_total_lines": 0,
     "eligible_projection_coverage_pct": 100.0,
-    "eligible_projection_games": 21,
+    "eligible_projection_games": 15,
     "eligible_three_source_coverage_pct": 0.0,
     "eligible_three_source_games": 0,
     "fresh_spread_comparisons": 0,
@@ -42,10 +42,10 @@
     "missing_market_games": 21,
     "neutral_site_unknown": 0,
     "postponed_games": 0,
-    "pregame_games": 21,
+    "pregame_games": 15,
     "projection_sources": {
       "haslametrics": {
-        "eligible_pregame_games": 21,
+        "eligible_pregame_games": 15,
         "observations": 21
       }
     },
@@ -147,7 +147,7 @@
           }
         },
         "freshness": {
-          "age_hours": 0.505,
+          "age_hours": 6.834,
           "provider_update_known": false,
           "reasons": [],
           "state": "fresh"
@@ -212,7 +212,7 @@
             }
           },
           "freshness": {
-            "age_hours": 0.505,
+            "age_hours": 6.834,
             "provider_update_known": false,
             "reasons": [],
             "state": "fresh"
@@ -506,7 +506,8 @@
       },
       "data_issues": [
         "draftkings_line_missing",
-        "draftkings_market_missing"
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
       ],
       "detail_url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-26-arizona-state-at-south-carolina.json",
       "draftkings": null,
@@ -528,7 +529,7 @@
           }
         },
         "freshness": {
-          "age_hours": 0.505,
+          "age_hours": 6.834,
           "provider_update_known": false,
           "reasons": [],
           "state": "fresh"
@@ -593,7 +594,7 @@
             }
           },
           "freshness": {
-            "age_hours": 0.505,
+            "age_hours": 6.834,
             "provider_update_known": false,
             "reasons": [],
             "state": "fresh"
@@ -627,7 +628,7 @@
           "agreeing_source_count": 0,
           "associated_price": null,
           "basis": "median_per_independent_system_vs_draftkings",
-          "classification": "PROJECTION_ONLY",
+          "classification": "INSUFFICIENT_DATA",
           "consensus": {
             "agreeing_source_count": 0,
             "basis": "median_per_independent_system_vs_draftkings",
@@ -637,6 +638,7 @@
             "median": -2.56,
             "preferred": null,
             "reasons": [
+              "not_pregame_or_tipoff_unknown",
               "draftkings_line_missing",
               "draftkings_market_missing",
               "fewer_than_three_independent_sources"
@@ -674,7 +676,7 @@
           "median": -2.56,
           "preferred": null,
           "preliminary": {
-            "classification": "PROJECTION_ONLY",
+            "classification": "INSUFFICIENT_DATA",
             "difference": null,
             "preferred": null,
             "threshold_met": false
@@ -687,6 +689,7 @@
           ],
           "range_points": 0.0,
           "reasons": [
+            "not_pregame_or_tipoff_unknown",
             "draftkings_line_missing",
             "draftkings_market_missing"
           ],
@@ -697,6 +700,7 @@
             "difference": null,
             "preferred": null,
             "reasons": [
+              "not_pregame_or_tipoff_unknown",
               "draftkings_line_missing",
               "draftkings_market_missing"
             ],
@@ -726,7 +730,7 @@
           "agreeing_source_count": 0,
           "associated_price": null,
           "basis": "median_per_independent_system_vs_draftkings",
-          "classification": "PROJECTION_ONLY",
+          "classification": "INSUFFICIENT_DATA",
           "consensus": {
             "agreeing_source_count": 0,
             "basis": "median_per_independent_system_vs_draftkings",
@@ -736,6 +740,7 @@
             "median": 152.7,
             "preferred": null,
             "reasons": [
+              "not_pregame_or_tipoff_unknown",
               "draftkings_line_missing",
               "draftkings_market_missing",
               "fewer_than_three_independent_sources"
@@ -773,7 +778,7 @@
           "median": 152.7,
           "preferred": null,
           "preliminary": {
-            "classification": "PROJECTION_ONLY",
+            "classification": "INSUFFICIENT_DATA",
             "difference": null,
             "preferred": null,
             "threshold_met": false
@@ -786,6 +791,7 @@
           ],
           "range_points": 0.0,
           "reasons": [
+            "not_pregame_or_tipoff_unknown",
             "draftkings_line_missing",
             "draftkings_market_missing"
           ],
@@ -796,6 +802,7 @@
             "difference": null,
             "preferred": null,
             "reasons": [
+              "not_pregame_or_tipoff_unknown",
               "draftkings_line_missing",
               "draftkings_market_missing"
             ],
@@ -887,7 +894,8 @@
       },
       "data_issues": [
         "draftkings_line_missing",
-        "draftkings_market_missing"
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
       ],
       "detail_url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-26-army-west-point-at-utsa.json",
       "draftkings": null,
@@ -909,7 +917,7 @@
           }
         },
         "freshness": {
-          "age_hours": 0.505,
+          "age_hours": 6.834,
           "provider_update_known": false,
           "reasons": [],
           "state": "fresh"
@@ -974,7 +982,7 @@
             }
           },
           "freshness": {
-            "age_hours": 0.505,
+            "age_hours": 6.834,
             "provider_update_known": false,
             "reasons": [],
             "state": "fresh"
@@ -1008,7 +1016,7 @@
           "agreeing_source_count": 0,
           "associated_price": null,
           "basis": "median_per_independent_system_vs_draftkings",
-          "classification": "PROJECTION_ONLY",
+          "classification": "INSUFFICIENT_DATA",
           "consensus": {
             "agreeing_source_count": 0,
             "basis": "median_per_independent_system_vs_draftkings",
@@ -1018,6 +1026,7 @@
             "median": 13.58,
             "preferred": null,
             "reasons": [
+              "not_pregame_or_tipoff_unknown",
               "draftkings_line_missing",
               "draftkings_market_missing",
               "fewer_than_three_independent_sources"
@@ -1055,7 +1064,7 @@
           "median": 13.58,
           "preferred": null,
           "preliminary": {
-            "classification": "PROJECTION_ONLY",
+            "classification": "INSUFFICIENT_DATA",
             "difference": null,
             "preferred": null,
             "threshold_met": false
@@ -1068,6 +1077,7 @@
           ],
           "range_points": 0.0,
           "reasons": [
+            "not_pregame_or_tipoff_unknown",
             "draftkings_line_missing",
             "draftkings_market_missing"
           ],
@@ -1078,6 +1088,7 @@
             "difference": null,
             "preferred": null,
             "reasons": [
+              "not_pregame_or_tipoff_unknown",
               "draftkings_line_missing",
               "draftkings_market_missing"
             ],
@@ -1107,7 +1118,7 @@
           "agreeing_source_count": 0,
           "associated_price": null,
           "basis": "median_per_independent_system_vs_draftkings",
-          "classification": "PROJECTION_ONLY",
+          "classification": "INSUFFICIENT_DATA",
           "consensus": {
             "agreeing_source_count": 0,
             "basis": "median_per_independent_system_vs_draftkings",
@@ -1117,6 +1128,7 @@
             "median": 149.72,
             "preferred": null,
             "reasons": [
+              "not_pregame_or_tipoff_unknown",
               "draftkings_line_missing",
               "draftkings_market_missing",
               "fewer_than_three_independent_sources"
@@ -1154,7 +1166,7 @@
           "median": 149.72,
           "preferred": null,
           "preliminary": {
-            "classification": "PROJECTION_ONLY",
+            "classification": "INSUFFICIENT_DATA",
             "difference": null,
             "preferred": null,
             "threshold_met": false
@@ -1167,6 +1179,7 @@
           ],
           "range_points": 0.0,
           "reasons": [
+            "not_pregame_or_tipoff_unknown",
             "draftkings_line_missing",
             "draftkings_market_missing"
           ],
@@ -1177,6 +1190,7 @@
             "difference": null,
             "preferred": null,
             "reasons": [
+              "not_pregame_or_tipoff_unknown",
               "draftkings_line_missing",
               "draftkings_market_missing"
             ],
@@ -1268,7 +1282,8 @@
       },
       "data_issues": [
         "draftkings_line_missing",
-        "draftkings_market_missing"
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
       ],
       "detail_url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-26-cincinnati-at-georgia.json",
       "draftkings": null,
@@ -1290,7 +1305,7 @@
           }
         },
         "freshness": {
-          "age_hours": 0.505,
+          "age_hours": 6.834,
           "provider_update_known": false,
           "reasons": [],
           "state": "fresh"
@@ -1355,7 +1370,7 @@
             }
           },
           "freshness": {
-            "age_hours": 0.505,
+            "age_hours": 6.834,
             "provider_update_known": false,
             "reasons": [],
             "state": "fresh"
@@ -1389,7 +1404,7 @@
           "agreeing_source_count": 0,
           "associated_price": null,
           "basis": "median_per_independent_system_vs_draftkings",
-          "classification": "PROJECTION_ONLY",
+          "classification": "INSUFFICIENT_DATA",
           "consensus": {
             "agreeing_source_count": 0,
             "basis": "median_per_independent_system_vs_draftkings",
@@ -1399,6 +1414,7 @@
             "median": -5.36,
             "preferred": null,
             "reasons": [
+              "not_pregame_or_tipoff_unknown",
               "draftkings_line_missing",
               "draftkings_market_missing",
               "fewer_than_three_independent_sources"
@@ -1436,7 +1452,7 @@
           "median": -5.36,
           "preferred": null,
           "preliminary": {
-            "classification": "PROJECTION_ONLY",
+            "classification": "INSUFFICIENT_DATA",
             "difference": null,
             "preferred": null,
             "threshold_met": false
@@ -1449,6 +1465,7 @@
           ],
           "range_points": 0.0,
           "reasons": [
+            "not_pregame_or_tipoff_unknown",
             "draftkings_line_missing",
             "draftkings_market_missing"
           ],
@@ -1459,6 +1476,7 @@
             "difference": null,
             "preferred": null,
             "reasons": [
+              "not_pregame_or_tipoff_unknown",
               "draftkings_line_missing",
               "draftkings_market_missing"
             ],
@@ -1488,7 +1506,7 @@
           "agreeing_source_count": 0,
           "associated_price": null,
           "basis": "median_per_independent_system_vs_draftkings",
-          "classification": "PROJECTION_ONLY",
+          "classification": "INSUFFICIENT_DATA",
           "consensus": {
             "agreeing_source_count": 0,
             "basis": "median_per_independent_system_vs_draftkings",
@@ -1498,6 +1516,7 @@
             "median": 154.76,
             "preferred": null,
             "reasons": [
+              "not_pregame_or_tipoff_unknown",
               "draftkings_line_missing",
               "draftkings_market_missing",
               "fewer_than_three_independent_sources"
@@ -1535,7 +1554,7 @@
           "median": 154.76,
           "preferred": null,
           "preliminary": {
-            "classification": "PROJECTION_ONLY",
+            "classification": "INSUFFICIENT_DATA",
             "difference": null,
             "preferred": null,
             "threshold_met": false
@@ -1548,6 +1567,7 @@
           ],
           "range_points": 0.0,
           "reasons": [
+            "not_pregame_or_tipoff_unknown",
             "draftkings_line_missing",
             "draftkings_market_missing"
           ],
@@ -1558,6 +1578,7 @@
             "difference": null,
             "preferred": null,
             "reasons": [
+              "not_pregame_or_tipoff_unknown",
               "draftkings_line_missing",
               "draftkings_market_missing"
             ],
@@ -1671,7 +1692,7 @@
           }
         },
         "freshness": {
-          "age_hours": 0.505,
+          "age_hours": 6.834,
           "provider_update_known": false,
           "reasons": [],
           "state": "fresh"
@@ -1736,7 +1757,7 @@
             }
           },
           "freshness": {
-            "age_hours": 0.505,
+            "age_hours": 6.834,
             "provider_update_known": false,
             "reasons": [],
             "state": "fresh"
@@ -2052,7 +2073,7 @@
           }
         },
         "freshness": {
-          "age_hours": 0.505,
+          "age_hours": 6.834,
           "provider_update_known": false,
           "reasons": [],
           "state": "fresh"
@@ -2117,7 +2138,7 @@
             }
           },
           "freshness": {
-            "age_hours": 0.505,
+            "age_hours": 6.834,
             "provider_update_known": false,
             "reasons": [],
             "state": "fresh"
@@ -2433,7 +2454,7 @@
           }
         },
         "freshness": {
-          "age_hours": 0.505,
+          "age_hours": 6.834,
           "provider_update_known": false,
           "reasons": [],
           "state": "fresh"
@@ -2498,7 +2519,7 @@
             }
           },
           "freshness": {
-            "age_hours": 0.505,
+            "age_hours": 6.834,
             "provider_update_known": false,
             "reasons": [],
             "state": "fresh"
@@ -2814,7 +2835,7 @@
           }
         },
         "freshness": {
-          "age_hours": 0.505,
+          "age_hours": 6.834,
           "provider_update_known": false,
           "reasons": [],
           "state": "fresh"
@@ -2879,7 +2900,7 @@
             }
           },
           "freshness": {
-            "age_hours": 0.505,
+            "age_hours": 6.834,
             "provider_update_known": false,
             "reasons": [],
             "state": "fresh"
@@ -3195,7 +3216,7 @@
           }
         },
         "freshness": {
-          "age_hours": 0.505,
+          "age_hours": 6.834,
           "provider_update_known": false,
           "reasons": [],
           "state": "fresh"
@@ -3260,7 +3281,7 @@
             }
           },
           "freshness": {
-            "age_hours": 0.505,
+            "age_hours": 6.834,
             "provider_update_known": false,
             "reasons": [],
             "state": "fresh"
@@ -3576,7 +3597,7 @@
           }
         },
         "freshness": {
-          "age_hours": 0.505,
+          "age_hours": 6.834,
           "provider_update_known": false,
           "reasons": [],
           "state": "fresh"
@@ -3641,7 +3662,7 @@
             }
           },
           "freshness": {
-            "age_hours": 0.505,
+            "age_hours": 6.834,
             "provider_update_known": false,
             "reasons": [],
             "state": "fresh"
@@ -3957,7 +3978,7 @@
           }
         },
         "freshness": {
-          "age_hours": 0.505,
+          "age_hours": 6.834,
           "provider_update_known": false,
           "reasons": [],
           "state": "fresh"
@@ -4022,7 +4043,7 @@
             }
           },
           "freshness": {
-            "age_hours": 0.505,
+            "age_hours": 6.834,
             "provider_update_known": false,
             "reasons": [],
             "state": "fresh"
@@ -4316,7 +4337,8 @@
       },
       "data_issues": [
         "draftkings_line_missing",
-        "draftkings_market_missing"
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
       ],
       "detail_url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-26-purdue-at-oklahoma.json",
       "draftkings": null,
@@ -4338,7 +4360,7 @@
           }
         },
         "freshness": {
-          "age_hours": 0.505,
+          "age_hours": 6.834,
           "provider_update_known": false,
           "reasons": [],
           "state": "fresh"
@@ -4403,7 +4425,7 @@
             }
           },
           "freshness": {
-            "age_hours": 0.505,
+            "age_hours": 6.834,
             "provider_update_known": false,
             "reasons": [],
             "state": "fresh"
@@ -4437,7 +4459,7 @@
           "agreeing_source_count": 0,
           "associated_price": null,
           "basis": "median_per_independent_system_vs_draftkings",
-          "classification": "PROJECTION_ONLY",
+          "classification": "INSUFFICIENT_DATA",
           "consensus": {
             "agreeing_source_count": 0,
             "basis": "median_per_independent_system_vs_draftkings",
@@ -4447,6 +4469,7 @@
             "median": -9.01,
             "preferred": null,
             "reasons": [
+              "not_pregame_or_tipoff_unknown",
               "draftkings_line_missing",
               "draftkings_market_missing",
               "fewer_than_three_independent_sources"
@@ -4484,7 +4507,7 @@
           "median": -9.01,
           "preferred": null,
           "preliminary": {
-            "classification": "PROJECTION_ONLY",
+            "classification": "INSUFFICIENT_DATA",
             "difference": null,
             "preferred": null,
             "threshold_met": false
@@ -4497,6 +4520,7 @@
           ],
           "range_points": 0.0,
           "reasons": [
+            "not_pregame_or_tipoff_unknown",
             "draftkings_line_missing",
             "draftkings_market_missing"
           ],
@@ -4507,6 +4531,7 @@
             "difference": null,
             "preferred": null,
             "reasons": [
+              "not_pregame_or_tipoff_unknown",
               "draftkings_line_missing",
               "draftkings_market_missing"
             ],
@@ -4536,7 +4561,7 @@
           "agreeing_source_count": 0,
           "associated_price": null,
           "basis": "median_per_independent_system_vs_draftkings",
-          "classification": "PROJECTION_ONLY",
+          "classification": "INSUFFICIENT_DATA",
           "consensus": {
             "agreeing_source_count": 0,
             "basis": "median_per_independent_system_vs_draftkings",
@@ -4546,6 +4571,7 @@
             "median": 141.81,
             "preferred": null,
             "reasons": [
+              "not_pregame_or_tipoff_unknown",
               "draftkings_line_missing",
               "draftkings_market_missing",
               "fewer_than_three_independent_sources"
@@ -4583,7 +4609,7 @@
           "median": 141.81,
           "preferred": null,
           "preliminary": {
-            "classification": "PROJECTION_ONLY",
+            "classification": "INSUFFICIENT_DATA",
             "difference": null,
             "preferred": null,
             "threshold_met": false
@@ -4596,6 +4622,7 @@
           ],
           "range_points": 0.0,
           "reasons": [
+            "not_pregame_or_tipoff_unknown",
             "draftkings_line_missing",
             "draftkings_market_missing"
           ],
@@ -4606,6 +4633,7 @@
             "difference": null,
             "preferred": null,
             "reasons": [
+              "not_pregame_or_tipoff_unknown",
               "draftkings_line_missing",
               "draftkings_market_missing"
             ],
@@ -4697,7 +4725,8 @@
       },
       "data_issues": [
         "draftkings_line_missing",
-        "draftkings_market_missing"
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
       ],
       "detail_url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-26-san-diego-state-at-maryland.json",
       "draftkings": null,
@@ -4719,7 +4748,7 @@
           }
         },
         "freshness": {
-          "age_hours": 0.505,
+          "age_hours": 6.834,
           "provider_update_known": false,
           "reasons": [],
           "state": "fresh"
@@ -4784,7 +4813,7 @@
             }
           },
           "freshness": {
-            "age_hours": 0.505,
+            "age_hours": 6.834,
             "provider_update_known": false,
             "reasons": [],
             "state": "fresh"
@@ -4818,7 +4847,7 @@
           "agreeing_source_count": 0,
           "associated_price": null,
           "basis": "median_per_independent_system_vs_draftkings",
-          "classification": "PROJECTION_ONLY",
+          "classification": "INSUFFICIENT_DATA",
           "consensus": {
             "agreeing_source_count": 0,
             "basis": "median_per_independent_system_vs_draftkings",
@@ -4828,6 +4857,7 @@
             "median": -2.56,
             "preferred": null,
             "reasons": [
+              "not_pregame_or_tipoff_unknown",
               "draftkings_line_missing",
               "draftkings_market_missing",
               "fewer_than_three_independent_sources"
@@ -4865,7 +4895,7 @@
           "median": -2.56,
           "preferred": null,
           "preliminary": {
-            "classification": "PROJECTION_ONLY",
+            "classification": "INSUFFICIENT_DATA",
             "difference": null,
             "preferred": null,
             "threshold_met": false
@@ -4878,6 +4908,7 @@
           ],
           "range_points": 0.0,
           "reasons": [
+            "not_pregame_or_tipoff_unknown",
             "draftkings_line_missing",
             "draftkings_market_missing"
           ],
@@ -4888,6 +4919,7 @@
             "difference": null,
             "preferred": null,
             "reasons": [
+              "not_pregame_or_tipoff_unknown",
               "draftkings_line_missing",
               "draftkings_market_missing"
             ],
@@ -4917,7 +4949,7 @@
           "agreeing_source_count": 0,
           "associated_price": null,
           "basis": "median_per_independent_system_vs_draftkings",
-          "classification": "PROJECTION_ONLY",
+          "classification": "INSUFFICIENT_DATA",
           "consensus": {
             "agreeing_source_count": 0,
             "basis": "median_per_independent_system_vs_draftkings",
@@ -4927,6 +4959,7 @@
             "median": 152.96,
             "preferred": null,
             "reasons": [
+              "not_pregame_or_tipoff_unknown",
               "draftkings_line_missing",
               "draftkings_market_missing",
               "fewer_than_three_independent_sources"
@@ -4964,7 +4997,7 @@
           "median": 152.96,
           "preferred": null,
           "preliminary": {
-            "classification": "PROJECTION_ONLY",
+            "classification": "INSUFFICIENT_DATA",
             "difference": null,
             "preferred": null,
             "threshold_met": false
@@ -4977,6 +5010,7 @@
           ],
           "range_points": 0.0,
           "reasons": [
+            "not_pregame_or_tipoff_unknown",
             "draftkings_line_missing",
             "draftkings_market_missing"
           ],
@@ -4987,6 +5021,7 @@
             "difference": null,
             "preferred": null,
             "reasons": [
+              "not_pregame_or_tipoff_unknown",
               "draftkings_line_missing",
               "draftkings_market_missing"
             ],
@@ -5100,7 +5135,7 @@
           }
         },
         "freshness": {
-          "age_hours": 0.505,
+          "age_hours": 6.834,
           "provider_update_known": false,
           "reasons": [],
           "state": "fresh"
@@ -5165,7 +5200,7 @@
             }
           },
           "freshness": {
-            "age_hours": 0.505,
+            "age_hours": 6.834,
             "provider_update_known": false,
             "reasons": [],
             "state": "fresh"
@@ -5481,7 +5516,7 @@
           }
         },
         "freshness": {
-          "age_hours": 0.505,
+          "age_hours": 6.834,
           "provider_update_known": false,
           "reasons": [],
           "state": "fresh"
@@ -5546,7 +5581,7 @@
             }
           },
           "freshness": {
-            "age_hours": 0.505,
+            "age_hours": 6.834,
             "provider_update_known": false,
             "reasons": [],
             "state": "fresh"
@@ -5862,7 +5897,7 @@
           }
         },
         "freshness": {
-          "age_hours": 0.505,
+          "age_hours": 6.834,
           "provider_update_known": false,
           "reasons": [],
           "state": "fresh"
@@ -5927,7 +5962,7 @@
             }
           },
           "freshness": {
-            "age_hours": 0.505,
+            "age_hours": 6.834,
             "provider_update_known": false,
             "reasons": [],
             "state": "fresh"
@@ -6243,7 +6278,7 @@
           }
         },
         "freshness": {
-          "age_hours": 0.505,
+          "age_hours": 6.834,
           "provider_update_known": false,
           "reasons": [],
           "state": "fresh"
@@ -6308,7 +6343,7 @@
             }
           },
           "freshness": {
-            "age_hours": 0.505,
+            "age_hours": 6.834,
             "provider_update_known": false,
             "reasons": [],
             "state": "fresh"
@@ -6624,7 +6659,7 @@
           }
         },
         "freshness": {
-          "age_hours": 0.505,
+          "age_hours": 6.834,
           "provider_update_known": false,
           "reasons": [],
           "state": "fresh"
@@ -6689,7 +6724,7 @@
             }
           },
           "freshness": {
-            "age_hours": 0.505,
+            "age_hours": 6.834,
             "provider_update_known": false,
             "reasons": [],
             "state": "fresh"
@@ -6983,7 +7018,8 @@
       },
       "data_issues": [
         "draftkings_line_missing",
-        "draftkings_market_missing"
+        "draftkings_market_missing",
+        "not_pregame_or_tipoff_unknown"
       ],
       "detail_url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-26-ucf-at-boston-college.json",
       "draftkings": null,
@@ -7005,7 +7041,7 @@
           }
         },
         "freshness": {
-          "age_hours": 0.505,
+          "age_hours": 6.834,
           "provider_update_known": false,
           "reasons": [],
           "state": "fresh"
@@ -7070,7 +7106,7 @@
             }
           },
           "freshness": {
-            "age_hours": 0.505,
+            "age_hours": 6.834,
             "provider_update_known": false,
             "reasons": [],
             "state": "fresh"
@@ -7104,7 +7140,7 @@
           "agreeing_source_count": 0,
           "associated_price": null,
           "basis": "median_per_independent_system_vs_draftkings",
-          "classification": "PROJECTION_ONLY",
+          "classification": "INSUFFICIENT_DATA",
           "consensus": {
             "agreeing_source_count": 0,
             "basis": "median_per_independent_system_vs_draftkings",
@@ -7114,6 +7150,7 @@
             "median": -3.05,
             "preferred": null,
             "reasons": [
+              "not_pregame_or_tipoff_unknown",
               "draftkings_line_missing",
               "draftkings_market_missing",
               "fewer_than_three_independent_sources"
@@ -7151,7 +7188,7 @@
           "median": -3.05,
           "preferred": null,
           "preliminary": {
-            "classification": "PROJECTION_ONLY",
+            "classification": "INSUFFICIENT_DATA",
             "difference": null,
             "preferred": null,
             "threshold_met": false
@@ -7164,6 +7201,7 @@
           ],
           "range_points": 0.0,
           "reasons": [
+            "not_pregame_or_tipoff_unknown",
             "draftkings_line_missing",
             "draftkings_market_missing"
           ],
@@ -7174,6 +7212,7 @@
             "difference": null,
             "preferred": null,
             "reasons": [
+              "not_pregame_or_tipoff_unknown",
               "draftkings_line_missing",
               "draftkings_market_missing"
             ],
@@ -7203,7 +7242,7 @@
           "agreeing_source_count": 0,
           "associated_price": null,
           "basis": "median_per_independent_system_vs_draftkings",
-          "classification": "PROJECTION_ONLY",
+          "classification": "INSUFFICIENT_DATA",
           "consensus": {
             "agreeing_source_count": 0,
             "basis": "median_per_independent_system_vs_draftkings",
@@ -7213,6 +7252,7 @@
             "median": 154.73,
             "preferred": null,
             "reasons": [
+              "not_pregame_or_tipoff_unknown",
               "draftkings_line_missing",
               "draftkings_market_missing",
               "fewer_than_three_independent_sources"
@@ -7250,7 +7290,7 @@
           "median": 154.73,
           "preferred": null,
           "preliminary": {
-            "classification": "PROJECTION_ONLY",
+            "classification": "INSUFFICIENT_DATA",
             "difference": null,
             "preferred": null,
             "threshold_met": false
@@ -7263,6 +7303,7 @@
           ],
           "range_points": 0.0,
           "reasons": [
+            "not_pregame_or_tipoff_unknown",
             "draftkings_line_missing",
             "draftkings_market_missing"
           ],
@@ -7273,6 +7314,7 @@
             "difference": null,
             "preferred": null,
             "reasons": [
+              "not_pregame_or_tipoff_unknown",
               "draftkings_line_missing",
               "draftkings_market_missing"
             ],
@@ -7386,7 +7428,7 @@
           }
         },
         "freshness": {
-          "age_hours": 0.505,
+          "age_hours": 6.834,
           "provider_update_known": false,
           "reasons": [],
           "state": "fresh"
@@ -7451,7 +7493,7 @@
             }
           },
           "freshness": {
-            "age_hours": 0.505,
+            "age_hours": 6.834,
             "provider_update_known": false,
             "reasons": [],
             "state": "fresh"
@@ -7767,7 +7809,7 @@
           }
         },
         "freshness": {
-          "age_hours": 0.505,
+          "age_hours": 6.834,
           "provider_update_known": false,
           "reasons": [],
           "state": "fresh"
@@ -7832,7 +7874,7 @@
             }
           },
           "freshness": {
-            "age_hours": 0.505,
+            "age_hours": 6.834,
             "provider_update_known": false,
             "reasons": [],
             "state": "fresh"
@@ -8065,7 +8107,7 @@
       "tipoff_utc": "2026-11-26T21:30:00Z"
     }
   ],
-  "generated_at": "2026-11-26T13:01:36.765477Z",
+  "generated_at": "2026-11-26T19:21:24.067616Z",
   "release": {
     "automatic_bets": false,
     "blockers": [
