@@ -1,0 +1,1143 @@
+{
+  "assessment": {
+    "classification": "Watch",
+    "reason": "Review current personnel, weather and a source-qualified line before acting",
+    "role": "Unreviewed foundation; final classification requires on-demand handicap"
+  },
+  "availability": {
+    "complete_matchup_statistics": true,
+    "current_personnel": false,
+    "line_movement": false,
+    "market": true,
+    "model": true,
+    "opening_line": false,
+    "weather": false
+  },
+  "away_team": {
+    "abbreviation": "ND",
+    "capsule": {
+      "available": true,
+      "role": "Historical/preseason presentation context; not current availability or the approved model rating authority",
+      "url": "https://jptx817.github.io/sports_fun_preview/cfb/teams/notre-dame/index.html"
+    },
+    "classification": "fbs",
+    "conference": "FBS Independents",
+    "current_personnel": {
+      "available": false,
+      "reason": "No source-qualified current QB, injury, OL or coaching update in this capture",
+      "value": null
+    },
+    "id": "87",
+    "id_namespace": "CFBD",
+    "name": "Notre Dame",
+    "preseason_notes": {
+      "as_of": null,
+      "available": true,
+      "content": {
+        "expert_notes": [],
+        "feldman_freaks": [
+          {
+            "detail": "225-lb defensive lineman with unusual power and movement ability; 38.5-in vertical, 10-3 broad jump, 500-lb bench, 685-lb squat.",
+            "label": "Francis Brewu (DT)",
+            "source": "Feldman Freaks #24"
+          },
+          {
+            "detail": "6-6, 260-lb defensive lineman with unusual power and movement ability; 335-lb bench, 455-lb squat, 335-lb clean.",
+            "label": "Bryce Young (DL)",
+            "source": "Feldman Freaks #50"
+          },
+          {
+            "detail": "6-4, 304-lb offensive lineman with exceptional strength and movement ability; 33-in vertical, 585-lb squat, 345-lb clean.",
+            "label": "Anthonie Knapp (OT)",
+            "source": "Feldman Freaks #63"
+          }
+        ],
+        "key_players": [],
+        "team": "Notre Dame"
+      },
+      "current_availability_verified": false,
+      "season": 2026,
+      "warning": "Historical preseason context only; item attribution retained, original date may be unknown. Never evidence of current player availability."
+    },
+    "ratings": {
+      "opponent_adjusted": {
+        "ppa": {
+          "defense_allowed": {
+            "available": true,
+            "games": 11,
+            "reason": null,
+            "unit": "PPA/play",
+            "value": -0.17240587181168096
+          },
+          "interpretation": "Deviations from league mean; defense lower allowed is better. Existing approved rating recipe.",
+          "league_mean": 0.0983321451024312,
+          "offense": {
+            "available": true,
+            "games": 11,
+            "reason": null,
+            "unit": "PPA/play",
+            "value": 0.1925317628490196
+          }
+        },
+        "successRate": {
+          "defense_allowed": {
+            "available": true,
+            "games": 11,
+            "reason": null,
+            "unit": "fraction",
+            "value": -0.07086706151541078
+          },
+          "interpretation": "Deviations from league mean; defense lower allowed is better. Existing approved rating recipe.",
+          "league_mean": 0.41511957038126557,
+          "offense": {
+            "available": true,
+            "games": 11,
+            "reason": null,
+            "unit": "fraction",
+            "value": 0.08144931076832938
+          }
+        }
+      },
+      "overall": {
+        "available": false,
+        "reason": "The approved margin model has no standalone overall team power rating; do not substitute legacy capsule ratings",
+        "value": null
+      },
+      "pgwp": {
+        "actual_minus_expected_wins": -0.023851634934544563,
+        "actual_wins": 10,
+        "available": true,
+        "expected_wins": 10.023851634934545,
+        "games": 11,
+        "note": "Descriptive postgame win probability; not a pregame win forecast or automatic regression adjustment"
+      },
+      "strength_of_schedule": {
+        "ppa": {
+          "mean_opponent_defense_allowed": {
+            "available": true,
+            "reason": null,
+            "unit": "PPA/play",
+            "value": 0.01902172399535493
+          },
+          "mean_opponent_offense": {
+            "available": true,
+            "reason": null,
+            "unit": "PPA/play",
+            "value": 0.031155388415526623
+          },
+          "role": "Diagnostic only; not an extra margin adjustment"
+        },
+        "successRate": {
+          "mean_opponent_defense_allowed": {
+            "available": true,
+            "reason": null,
+            "unit": "fraction",
+            "value": 0.0020598730080905914
+          },
+          "mean_opponent_offense": {
+            "available": true,
+            "reason": null,
+            "unit": "fraction",
+            "value": 0.016149412426601197
+          },
+          "role": "Diagnostic only; not an extra margin adjustment"
+        }
+      }
+    },
+    "schedule_context": {
+      "days_between_kickoffs": {
+        "available": true,
+        "reason": null,
+        "unit": "days",
+        "value": 6.6875
+      },
+      "motivation": {
+        "available": false,
+        "reason": "Look-ahead/letdown is interpretation, never a verified fact or automatic adjustment",
+        "value": null
+      },
+      "next_opponent": null,
+      "observed_at": "2026-11-26T19:13:25.302654+00:00",
+      "previous_opponent": {
+        "completed": true,
+        "game_id": "401858307",
+        "home_away": "home",
+        "kickoff": "2026-11-22T00:30:00.000Z",
+        "kickoff_time_tbd": false,
+        "opponent": "SMU",
+        "opponent_id": "2567",
+        "venue": "Notre Dame Stadium"
+      },
+      "source_url": "https://api.collegefootballdata.com/games",
+      "travel_distance": {
+        "available": false,
+        "reason": "Travel itinerary and routing are not captured",
+        "value": null
+      }
+    },
+    "tendencies": {
+      "attempts": 742.0,
+      "drives_per_game": {
+        "available": true,
+        "games": 11,
+        "reason": null,
+        "unit": "drives/game",
+        "value": 10.636363636363637
+      },
+      "note": "Box rushing/pass attempts; sacks, scrambles and kneels unresolved. FBS games only.",
+      "pass_share": {
+        "available": true,
+        "games": 11,
+        "reason": null,
+        "unit": "fraction",
+        "value": 0.46900269541778977
+      },
+      "plays_per_game": {
+        "available": true,
+        "games": 11,
+        "reason": null,
+        "unit": "plays/game",
+        "value": 69.27272727272727
+      },
+      "run_share": {
+        "available": true,
+        "games": 11,
+        "reason": null,
+        "unit": "fraction",
+        "value": 0.5309973045822103
+      },
+      "seconds_per_snap": {
+        "available": false,
+        "reason": "Not captured; volume is not clock tempo",
+        "value": null
+      }
+    }
+  },
+  "central_date": "2026-11-26",
+  "conventions": {
+    "aggregation": "Raw matchup values are equal-game means against FBS opponents, completed before cutoff. Rank 1 is best: higher offense, lower defensive allowance. Prior ranks use the prior season FBS pool.",
+    "difference": "market_spread_home minus model_spread_home; positive favors home against the observed spread, negative favors away. Not a cover probability or validated betting edge.",
+    "market": "Named provider observed through CFBD; timestamp is retrieval, not sportsbook update time. Quotes are snapshots, never implied live. Odds are unavailable.",
+    "missing": "Null means unavailable, with an availability/reason field. Missing values must never be read as zero.",
+    "ratings": "Opponent-adjusted PPA/play and success fractions, deviations from league mean. Higher offense is better; lower defensive allowance is better. Not power-rating points.",
+    "spreads": "Points, home perspective: negative favors home; positive favors away.",
+    "tempo": "Reported offensive plays/drives per game; descriptive volume, not seconds per snap or a projection input.",
+    "time": "ISO 8601 timestamps include offsets. Central display uses America/Chicago, including daylight saving changes."
+  },
+  "counterargument": "Syracuse's passing defense allows 0.140 PPA/play (#46/138, lower is better) and 39.5% success. That resistance is a counterpath to Notre Dame's model-preferred side.",
+  "cutoffs": {
+    "advanced_statistics": "2026-11-26T19:03:32.435153+00:00",
+    "market_snapshot": "2026-11-26T19:03:33.866751+00:00",
+    "meaning": "Receipt upper bounds and prediction information cutoff, not claims of provider publication time.",
+    "prediction_information": "2026-11-26T19:22:32.391715Z",
+    "ratings": "2026-11-26T19:13:25.302654+00:00",
+    "results": "2026-11-26T19:13:25.302654+00:00"
+  },
+  "delivery_mode": "briefing",
+  "display_timezone": "America/Chicago",
+  "game_id": "401858314",
+  "generated_at": "2026-11-26T19:22:32.391715Z",
+  "home_team": {
+    "abbreviation": "SYR",
+    "capsule": {
+      "available": true,
+      "role": "Historical/preseason presentation context; not current availability or the approved model rating authority",
+      "url": "https://jptx817.github.io/sports_fun_preview/cfb/teams/syracuse/index.html"
+    },
+    "classification": "fbs",
+    "conference": "ACC",
+    "current_personnel": {
+      "available": false,
+      "reason": "No source-qualified current QB, injury, OL or coaching update in this capture",
+      "value": null
+    },
+    "id": "183",
+    "id_namespace": "CFBD",
+    "name": "Syracuse",
+    "preseason_notes": {
+      "as_of": null,
+      "available": true,
+      "content": {
+        "expert_notes": [
+          {
+            "detail": "The source is under because Steve Angeli's Achilles recovery is central and the defense has unresolved line and secondary questions.",
+            "label": "Core Thesis",
+            "source": "Action Network 2026 ACC preseason preview"
+          },
+          {
+            "detail": "Angeli remains the job holder after an Achilles injury, with Amari Odom added from Kennesaw State and Calvin Russell III highlighted as a young target.",
+            "label": "Offense Outlook",
+            "source": "Action Network 2026 ACC preseason preview"
+          },
+          {
+            "detail": "The defense allowed heavy scoring and the source flags defensive line and secondary concerns under Vince Kehres.",
+            "label": "Defense Outlook",
+            "source": "Action Network 2026 ACC preseason preview"
+          }
+        ],
+        "feldman_freaks": [
+          {
+            "detail": "6-3, 240-lb linebacker with an unusual strength/speed profile; 21.67 mph GPS speed, 37-in vertical, 375-lb bench, 565-lb squat.",
+            "label": "Chris D’Appolonia (LB)",
+            "source": "Feldman Freaks #45"
+          },
+          {
+            "detail": "6-1, 235-lb linebacker with an unusual strength/speed profile; 23 mph GPS speed, 34-in vertical, 390-lb bench, 500-lb squat.",
+            "label": "Antoine Deslauriers (LB)",
+            "source": "Feldman Freaks #52"
+          }
+        ],
+        "key_players": [
+          {
+            "detail": "QB Returning from Achilles injury and still described as the job holder.",
+            "label": "Steve Angeli",
+            "source": "Action Network 2026 ACC preseason preview"
+          },
+          {
+            "detail": "QB Kennesaw State transfer addition.",
+            "label": "Amari Odom",
+            "source": "Action Network 2026 ACC preseason preview"
+          },
+          {
+            "detail": "LT Only major returning offensive-line starter cited.",
+            "label": "Trevion Mack",
+            "source": "Action Network 2026 ACC preseason preview"
+          },
+          {
+            "detail": "WR Freshman target highlighted by the source.",
+            "label": "Calvin Russell III",
+            "source": "Action Network 2026 ACC preseason preview"
+          }
+        ],
+        "team": "Syracuse"
+      },
+      "current_availability_verified": false,
+      "season": 2026,
+      "warning": "Historical preseason context only; item attribution retained, original date may be unknown. Never evidence of current player availability."
+    },
+    "ratings": {
+      "opponent_adjusted": {
+        "ppa": {
+          "defense_allowed": {
+            "available": true,
+            "games": 10,
+            "reason": null,
+            "unit": "PPA/play",
+            "value": 0.05906745906436572
+          },
+          "interpretation": "Deviations from league mean; defense lower allowed is better. Existing approved rating recipe.",
+          "league_mean": 0.0983321451024312,
+          "offense": {
+            "available": true,
+            "games": 10,
+            "reason": null,
+            "unit": "PPA/play",
+            "value": -0.005096889499506587
+          }
+        },
+        "successRate": {
+          "defense_allowed": {
+            "available": true,
+            "games": 10,
+            "reason": null,
+            "unit": "fraction",
+            "value": 0.00188488903779695
+          },
+          "interpretation": "Deviations from league mean; defense lower allowed is better. Existing approved rating recipe.",
+          "league_mean": 0.41511957038126557,
+          "offense": {
+            "available": true,
+            "games": 10,
+            "reason": null,
+            "unit": "fraction",
+            "value": 0.008632906848635989
+          }
+        }
+      },
+      "overall": {
+        "available": false,
+        "reason": "The approved margin model has no standalone overall team power rating; do not substitute legacy capsule ratings",
+        "value": null
+      },
+      "pgwp": {
+        "actual_minus_expected_wins": -0.32037707418203354,
+        "actual_wins": 4,
+        "available": true,
+        "expected_wins": 4.3203770741820335,
+        "games": 10,
+        "note": "Descriptive postgame win probability; not a pregame win forecast or automatic regression adjustment"
+      },
+      "strength_of_schedule": {
+        "ppa": {
+          "mean_opponent_defense_allowed": {
+            "available": true,
+            "reason": null,
+            "unit": "PPA/play",
+            "value": -0.010006525334311478
+          },
+          "mean_opponent_offense": {
+            "available": true,
+            "reason": null,
+            "unit": "PPA/play",
+            "value": -0.021380150525189538
+          },
+          "role": "Diagnostic only; not an extra margin adjustment"
+        },
+        "successRate": {
+          "mean_opponent_defense_allowed": {
+            "available": true,
+            "reason": null,
+            "unit": "fraction",
+            "value": -0.007526184623374623
+          },
+          "mean_opponent_offense": {
+            "available": true,
+            "reason": null,
+            "unit": "fraction",
+            "value": -0.003236643443583269
+          },
+          "role": "Diagnostic only; not an extra margin adjustment"
+        }
+      }
+    },
+    "schedule_context": {
+      "days_between_kickoffs": {
+        "available": true,
+        "reason": null,
+        "unit": "days",
+        "value": 7.0
+      },
+      "motivation": {
+        "available": false,
+        "reason": "Look-ahead/letdown is interpretation, never a verified fact or automatic adjustment",
+        "value": null
+      },
+      "next_opponent": null,
+      "observed_at": "2026-11-26T19:13:25.302654+00:00",
+      "previous_opponent": {
+        "completed": true,
+        "game_id": "401858309",
+        "home_away": "away",
+        "kickoff": "2026-11-21T17:00:00.000Z",
+        "kickoff_time_tbd": false,
+        "opponent": "Boston College",
+        "opponent_id": "103",
+        "venue": "Alumni Stadium (Chestnut Hill, MA)"
+      },
+      "source_url": "https://api.collegefootballdata.com/games",
+      "travel_distance": {
+        "available": false,
+        "reason": "Travel itinerary and routing are not captured",
+        "value": null
+      }
+    },
+    "tendencies": {
+      "attempts": 790.0,
+      "drives_per_game": {
+        "available": true,
+        "games": 10,
+        "reason": null,
+        "unit": "drives/game",
+        "value": 12
+      },
+      "note": "Box rushing/pass attempts; sacks, scrambles and kneels unresolved. FBS games only.",
+      "pass_share": {
+        "available": true,
+        "games": 10,
+        "reason": null,
+        "unit": "fraction",
+        "value": 0.5088607594936709
+      },
+      "plays_per_game": {
+        "available": true,
+        "games": 10,
+        "reason": null,
+        "unit": "plays/game",
+        "value": 81
+      },
+      "run_share": {
+        "available": true,
+        "games": 10,
+        "reason": null,
+        "unit": "fraction",
+        "value": 0.4911392405063291
+      },
+      "seconds_per_snap": {
+        "available": false,
+        "reason": "Not captured; volume is not clock tempo",
+        "value": null
+      }
+    }
+  },
+  "immutable_slate_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-26/d1146c5c540ca301feccb81126774e06399aee03638cc31ff41908d882a2e4fe/slate.html",
+  "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-26/d1146c5c540ca301feccb81126774e06399aee03638cc31ff41908d882a2e4fe/games/401858314.json",
+  "kickoff": "2026-11-28T17:00:00.000Z",
+  "kickoff_central": "2026-11-28T11:00:00-06:00",
+  "kickoff_time_tbd": false,
+  "kind": "game",
+  "limitations": [
+    "No verified current injury/QB/OL or weather information; sportsbook update time and spread odds unavailable.",
+    "Approved model forecasts margin only; scores and model total unavailable. Tempo is descriptive, never a projection input."
+  ],
+  "line_movement": {
+    "available": false,
+    "reason": "Comparable timestamped observations have not been linked; never infer movement from spreadOpen",
+    "value": null
+  },
+  "manifest_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-26/d1146c5c540ca301feccb81126774e06399aee03638cc31ff41908d882a2e4fe/manifest.json",
+  "market": {
+    "book_updated_at": null,
+    "formatted_spread": "Notre Dame -25.5",
+    "fresh": true,
+    "freshness": {
+      "age_seconds": 1138.524964,
+      "evaluated_at": "2026-11-26T19:22:32.391715Z",
+      "max_age_seconds": 7200,
+      "observed_at": "2026-11-26T19:03:33.866751+00:00",
+      "refresh_failed": false,
+      "status": "fresh",
+      "warning": null
+    },
+    "pregame_observation": true,
+    "provider": "DraftKings",
+    "retrieved_at": "2026-11-26T19:03:33.866751+00:00",
+    "selection_policy": "DraftKings, FanDuel, Bovada, BetMGM, Caesars; other named providers alphabetically; consensus last",
+    "sign_crosscheck": true,
+    "source": "CFBD /lines",
+    "source_url": "https://api.collegefootballdata.com/lines",
+    "spread_home": 25.5,
+    "spread_odds_away": null,
+    "spread_odds_home": null,
+    "timing_note": "Observed at retrieval; sportsbook update time and spread-bet odds unavailable",
+    "total": 53.5
+  },
+  "market_snapshot_timestamp": "2026-11-26T19:03:33.866751+00:00",
+  "market_spread_home": 25.5,
+  "market_total": 53.5,
+  "model": {
+    "home_field_points": 2.491565613957782,
+    "id": "cfb_remaining_2026_owner_handicapping",
+    "lifecycle": "Candidate; owner-approved existing model; no statistical promotion",
+    "market_in_prediction_features": false,
+    "model_total_supported": false,
+    "version": "ed56e1ea90f1592038713da5e0adc9b1694ba36c2386e748195fdf019d7b635d"
+  },
+  "model_available": true,
+  "model_preferred_side": "Notre Dame",
+  "model_spread_home": 32.302887948035114,
+  "model_total": null,
+  "model_total_availability": "unsupported_margin_only_model",
+  "model_unavailable_reason": null,
+  "opening_line": {
+    "available": false,
+    "reason": "No verified timestamped opening observation; provider spreadOpen alone does not establish opening chronology",
+    "value": null
+  },
+  "possessions": {
+    "away_offense_vs_home_defense": {
+      "defense_team_id": "183",
+      "finishing_drives": {
+        "available": false,
+        "reason": "No current reconciled points-per-scoring-opportunity metric in the approved input",
+        "value": null
+      },
+      "metrics": {
+        "explosiveness": {
+          "defense_allowed": {
+            "available": true,
+            "current_rank": 115,
+            "current_rank_population": 138,
+            "expected_games": 10,
+            "games": 10,
+            "higher_is_better": false,
+            "previous_rank_population": 136,
+            "previous_season_rank": 113,
+            "reason": null,
+            "unit": "PPA/successful play",
+            "value": 1.346296440741523
+          },
+          "offense": {
+            "available": true,
+            "current_rank": 106,
+            "current_rank_population": 138,
+            "expected_games": 11,
+            "games": 11,
+            "higher_is_better": true,
+            "previous_rank_population": 136,
+            "previous_season_rank": 1,
+            "reason": null,
+            "unit": "PPA/successful play",
+            "value": 1.1822403658437923
+          }
+        },
+        "passingPlays_explosiveness": {
+          "defense_allowed": {
+            "available": true,
+            "current_rank": 44,
+            "current_rank_population": 138,
+            "expected_games": 10,
+            "games": 10,
+            "higher_is_better": false,
+            "previous_rank_population": 136,
+            "previous_season_rank": 67,
+            "reason": null,
+            "unit": "PPA/successful play",
+            "value": 1.5064997764213404
+          },
+          "offense": {
+            "available": true,
+            "current_rank": 121,
+            "current_rank_population": 138,
+            "expected_games": 11,
+            "games": 11,
+            "higher_is_better": true,
+            "previous_rank_population": 136,
+            "previous_season_rank": 35,
+            "reason": null,
+            "unit": "PPA/successful play",
+            "value": 1.4108382704067433
+          }
+        },
+        "passingPlays_ppa": {
+          "defense_allowed": {
+            "available": true,
+            "current_rank": 46,
+            "current_rank_population": 138,
+            "expected_games": 10,
+            "games": 10,
+            "higher_is_better": false,
+            "previous_rank_population": 136,
+            "previous_season_rank": 130,
+            "reason": null,
+            "unit": "PPA/play",
+            "value": 0.13982823569550581
+          },
+          "offense": {
+            "available": true,
+            "current_rank": 6,
+            "current_rank_population": 138,
+            "expected_games": 11,
+            "games": 11,
+            "higher_is_better": true,
+            "previous_rank_population": 136,
+            "previous_season_rank": 9,
+            "reason": null,
+            "unit": "PPA/play",
+            "value": 0.47620465325422606
+          }
+        },
+        "passingPlays_successRate": {
+          "defense_allowed": {
+            "available": true,
+            "current_rank": 46,
+            "current_rank_population": 138,
+            "expected_games": 10,
+            "games": 10,
+            "higher_is_better": false,
+            "previous_rank_population": 136,
+            "previous_season_rank": 116,
+            "reason": null,
+            "unit": "fraction",
+            "value": 0.3951954511932265
+          },
+          "offense": {
+            "available": true,
+            "current_rank": 2,
+            "current_rank_population": 138,
+            "expected_games": 11,
+            "games": 11,
+            "higher_is_better": true,
+            "previous_rank_population": 136,
+            "previous_season_rank": 8,
+            "reason": null,
+            "unit": "fraction",
+            "value": 0.5413671996262681
+          }
+        },
+        "ppa": {
+          "defense_allowed": {
+            "available": true,
+            "current_rank": 98,
+            "current_rank_population": 138,
+            "expected_games": 10,
+            "games": 10,
+            "higher_is_better": false,
+            "previous_rank_population": 136,
+            "previous_season_rank": 132,
+            "reason": null,
+            "unit": "PPA/play",
+            "value": 0.14619960874976431
+          },
+          "offense": {
+            "available": true,
+            "current_rank": 2,
+            "current_rank_population": 138,
+            "expected_games": 11,
+            "games": 11,
+            "higher_is_better": true,
+            "previous_rank_population": 136,
+            "previous_season_rank": 4,
+            "reason": null,
+            "unit": "PPA/play",
+            "value": 0.33321590362723597
+          }
+        },
+        "rushingPlays_explosiveness": {
+          "defense_allowed": {
+            "available": true,
+            "current_rank": 132,
+            "current_rank_population": 138,
+            "expected_games": 10,
+            "games": 10,
+            "higher_is_better": false,
+            "previous_rank_population": 136,
+            "previous_season_rank": 126,
+            "reason": null,
+            "unit": "PPA/successful play",
+            "value": 1.1531606245655721
+          },
+          "offense": {
+            "available": true,
+            "current_rank": 53,
+            "current_rank_population": 138,
+            "expected_games": 11,
+            "games": 11,
+            "higher_is_better": true,
+            "previous_rank_population": 136,
+            "previous_season_rank": 2,
+            "reason": null,
+            "unit": "PPA/successful play",
+            "value": 0.9736252567802597
+          }
+        },
+        "rushingPlays_ppa": {
+          "defense_allowed": {
+            "available": true,
+            "current_rank": 108,
+            "current_rank_population": 138,
+            "expected_games": 10,
+            "games": 10,
+            "higher_is_better": false,
+            "previous_rank_population": 136,
+            "previous_season_rank": 114,
+            "reason": null,
+            "unit": "PPA/play",
+            "value": 0.12896632922497175
+          },
+          "offense": {
+            "available": true,
+            "current_rank": 5,
+            "current_rank_population": 138,
+            "expected_games": 11,
+            "games": 11,
+            "higher_is_better": true,
+            "previous_rank_population": 136,
+            "previous_season_rank": 9,
+            "reason": null,
+            "unit": "PPA/play",
+            "value": 0.21998435273630715
+          }
+        },
+        "rushingPlays_successRate": {
+          "defense_allowed": {
+            "available": true,
+            "current_rank": 78,
+            "current_rank_population": 138,
+            "expected_games": 10,
+            "games": 10,
+            "higher_is_better": false,
+            "previous_rank_population": 136,
+            "previous_season_rank": 101,
+            "reason": null,
+            "unit": "fraction",
+            "value": 0.4252761382252761
+          },
+          "offense": {
+            "available": true,
+            "current_rank": 16,
+            "current_rank_population": 138,
+            "expected_games": 11,
+            "games": 11,
+            "higher_is_better": true,
+            "previous_rank_population": 136,
+            "previous_season_rank": 49,
+            "reason": null,
+            "unit": "fraction",
+            "value": 0.4735382834937896
+          }
+        },
+        "successRate": {
+          "defense_allowed": {
+            "available": true,
+            "current_rank": 66,
+            "current_rank_population": 138,
+            "expected_games": 10,
+            "games": 10,
+            "higher_is_better": false,
+            "previous_rank_population": 136,
+            "previous_season_rank": 114,
+            "reason": null,
+            "unit": "fraction",
+            "value": 0.41568973408786614
+          },
+          "offense": {
+            "available": true,
+            "current_rank": 2,
+            "current_rank_population": 138,
+            "expected_games": 11,
+            "games": 11,
+            "higher_is_better": true,
+            "previous_rank_population": 136,
+            "previous_season_rank": 17,
+            "reason": null,
+            "unit": "fraction",
+            "value": 0.5083970121685621
+          }
+        }
+      },
+      "narrative": "Passing: Notre Dame generates 0.476 PPA/play with 54.1% success; Syracuse allows 0.140 PPA/play and 39.5% success. Rushing: Notre Dame generates 0.220 PPA/play with 47.4% success; Syracuse allows 0.129 PPA/play and 42.5% success. Reported run share 53.1% of 742 box attempts (sacks/kneels unresolved). PGWP expected wins 10.02 vs 10 actual across 11 covered games; luck gap -0.02 wins. Tempo context: 69.3 reported offensive plays and 10.6 drives/game (11 games); descriptive volume, not seconds/snap or possession-model inputs. Opponent-adjusted PPA: Notre Dame offense +0.193 vs Syracuse defensive allowance +0.059, deviations from league mean. Schedule context: opponents' fitted offense +0.031, allowed-efficiency +0.019 PPA (positive offense = stronger; lower allowed = tougher).",
+      "offense_team_id": "87"
+    },
+    "home_offense_vs_away_defense": {
+      "defense_team_id": "87",
+      "finishing_drives": {
+        "available": false,
+        "reason": "No current reconciled points-per-scoring-opportunity metric in the approved input",
+        "value": null
+      },
+      "metrics": {
+        "explosiveness": {
+          "defense_allowed": {
+            "available": true,
+            "current_rank": 61,
+            "current_rank_population": 138,
+            "expected_games": 11,
+            "games": 11,
+            "higher_is_better": false,
+            "previous_rank_population": 136,
+            "previous_season_rank": 64,
+            "reason": null,
+            "unit": "PPA/successful play",
+            "value": 1.2232512664405353
+          },
+          "offense": {
+            "available": true,
+            "current_rank": 75,
+            "current_rank_population": 138,
+            "expected_games": 10,
+            "games": 10,
+            "higher_is_better": true,
+            "previous_rank_population": 136,
+            "previous_season_rank": 124,
+            "reason": null,
+            "unit": "PPA/successful play",
+            "value": 1.241449672534979
+          }
+        },
+        "passingPlays_explosiveness": {
+          "defense_allowed": {
+            "available": true,
+            "current_rank": 89,
+            "current_rank_population": 138,
+            "expected_games": 11,
+            "games": 11,
+            "higher_is_better": false,
+            "previous_rank_population": 136,
+            "previous_season_rank": 89,
+            "reason": null,
+            "unit": "PPA/successful play",
+            "value": 1.611702861895683
+          },
+          "offense": {
+            "available": true,
+            "current_rank": 59,
+            "current_rank_population": 138,
+            "expected_games": 10,
+            "games": 10,
+            "higher_is_better": true,
+            "previous_rank_population": 136,
+            "previous_season_rank": 114,
+            "reason": null,
+            "unit": "PPA/successful play",
+            "value": 1.5928558949969391
+          }
+        },
+        "passingPlays_ppa": {
+          "defense_allowed": {
+            "available": true,
+            "current_rank": 34,
+            "current_rank_population": 138,
+            "expected_games": 11,
+            "games": 11,
+            "higher_is_better": false,
+            "previous_rank_population": 136,
+            "previous_season_rank": 5,
+            "reason": null,
+            "unit": "PPA/play",
+            "value": 0.08868537241313204
+          },
+          "offense": {
+            "available": true,
+            "current_rank": 69,
+            "current_rank_population": 138,
+            "expected_games": 10,
+            "games": 10,
+            "higher_is_better": true,
+            "previous_rank_population": 136,
+            "previous_season_rank": 131,
+            "reason": null,
+            "unit": "PPA/play",
+            "value": 0.1647243036207198
+          }
+        },
+        "passingPlays_successRate": {
+          "defense_allowed": {
+            "available": true,
+            "current_rank": 17,
+            "current_rank_population": 138,
+            "expected_games": 11,
+            "games": 11,
+            "higher_is_better": false,
+            "previous_rank_population": 136,
+            "previous_season_rank": 10,
+            "reason": null,
+            "unit": "fraction",
+            "value": 0.36201187175067007
+          },
+          "offense": {
+            "available": true,
+            "current_rank": 62,
+            "current_rank_population": 138,
+            "expected_games": 10,
+            "games": 10,
+            "higher_is_better": true,
+            "previous_rank_population": 136,
+            "previous_season_rank": 127,
+            "reason": null,
+            "unit": "fraction",
+            "value": 0.4149376200111494
+          }
+        },
+        "ppa": {
+          "defense_allowed": {
+            "available": true,
+            "current_rank": 10,
+            "current_rank_population": 138,
+            "expected_games": 11,
+            "games": 11,
+            "higher_is_better": false,
+            "previous_rank_population": 136,
+            "previous_season_rank": 9,
+            "reason": null,
+            "unit": "PPA/play",
+            "value": -0.06441897555167642
+          },
+          "offense": {
+            "available": true,
+            "current_rank": 84,
+            "current_rank_population": 138,
+            "expected_games": 10,
+            "games": 10,
+            "higher_is_better": true,
+            "previous_rank_population": 136,
+            "previous_season_rank": 130,
+            "reason": null,
+            "unit": "PPA/play",
+            "value": 0.07844564007674333
+          }
+        },
+        "rushingPlays_explosiveness": {
+          "defense_allowed": {
+            "available": true,
+            "current_rank": 57,
+            "current_rank_population": 138,
+            "expected_games": 11,
+            "games": 11,
+            "higher_is_better": false,
+            "previous_rank_population": 136,
+            "previous_season_rank": 25,
+            "reason": null,
+            "unit": "PPA/successful play",
+            "value": 0.9144051464247975
+          },
+          "offense": {
+            "available": true,
+            "current_rank": 111,
+            "current_rank_population": 138,
+            "expected_games": 10,
+            "games": 10,
+            "higher_is_better": true,
+            "previous_rank_population": 136,
+            "previous_season_rank": 97,
+            "reason": null,
+            "unit": "PPA/successful play",
+            "value": 0.8548594914106779
+          }
+        },
+        "rushingPlays_ppa": {
+          "defense_allowed": {
+            "available": true,
+            "current_rank": 7,
+            "current_rank_population": 138,
+            "expected_games": 11,
+            "games": 11,
+            "higher_is_better": false,
+            "previous_rank_population": 136,
+            "previous_season_rank": 33,
+            "reason": null,
+            "unit": "PPA/play",
+            "value": -0.13530185950499865
+          },
+          "offense": {
+            "available": true,
+            "current_rank": 59,
+            "current_rank_population": 138,
+            "expected_games": 10,
+            "games": 10,
+            "higher_is_better": true,
+            "previous_rank_population": 136,
+            "previous_season_rank": 109,
+            "reason": null,
+            "unit": "PPA/play",
+            "value": 0.05626182995236354
+          }
+        },
+        "rushingPlays_successRate": {
+          "defense_allowed": {
+            "available": true,
+            "current_rank": 9,
+            "current_rank_population": 138,
+            "expected_games": 11,
+            "games": 11,
+            "higher_is_better": false,
+            "previous_rank_population": 136,
+            "previous_season_rank": 36,
+            "reason": null,
+            "unit": "fraction",
+            "value": 0.33107166085425505
+          },
+          "offense": {
+            "available": true,
+            "current_rank": 47,
+            "current_rank_population": 138,
+            "expected_games": 10,
+            "games": 10,
+            "higher_is_better": true,
+            "previous_rank_population": 136,
+            "previous_season_rank": 88,
+            "reason": null,
+            "unit": "fraction",
+            "value": 0.43848839085282737
+          }
+        },
+        "successRate": {
+          "defense_allowed": {
+            "available": true,
+            "current_rank": 8,
+            "current_rank_population": 138,
+            "expected_games": 11,
+            "games": 11,
+            "higher_is_better": false,
+            "previous_rank_population": 136,
+            "previous_season_rank": 14,
+            "reason": null,
+            "unit": "fraction",
+            "value": 0.35159569405204516
+          },
+          "offense": {
+            "available": true,
+            "current_rank": 58,
+            "current_rank_population": 138,
+            "expected_games": 10,
+            "games": 10,
+            "higher_is_better": true,
+            "previous_rank_population": 136,
+            "previous_season_rank": 115,
+            "reason": null,
+            "unit": "fraction",
+            "value": 0.4153561621892085
+          }
+        }
+      },
+      "narrative": "Passing: Syracuse generates 0.165 PPA/play with 41.5% success; Notre Dame allows 0.089 PPA/play and 36.2% success. Rushing: Syracuse generates 0.056 PPA/play with 43.8% success; Notre Dame allows -0.135 PPA/play and 33.1% success. Reported run share 49.1% of 790 box attempts (sacks/kneels unresolved). PGWP expected wins 4.32 vs 4 actual across 10 covered games; luck gap -0.32 wins. Tempo context: 81.0 reported offensive plays and 12.0 drives/game (10 games); descriptive volume, not seconds/snap or possession-model inputs. Opponent-adjusted PPA: Syracuse offense -0.005 vs Notre Dame defensive allowance -0.172, deviations from league mean. Schedule context: opponents' fitted offense -0.021, allowed-efficiency -0.010 PPA (positive offense = stronger; lower allowed = tougher).",
+      "offense_team_id": "183"
+    }
+  },
+  "prior_contribution_unit": "points to projected home margin; joint matchup terms, not standalone team ratings",
+  "prior_season_margin_contributions": {
+    "prior_defense_PPA": -5.1637785070987965,
+    "prior_defense_success": -0.8122784225782869,
+    "prior_offense_PPA": -5.026680588521409,
+    "prior_offense_success": -1.9665994443276167
+  },
+  "quality_flags": [],
+  "rest_differential_home_days": {
+    "available": true,
+    "reason": null,
+    "unit": "days",
+    "value": 0.3125
+  },
+  "result": {
+    "away_points": null,
+    "completed": false,
+    "home_points": null,
+    "source_observed_at": "2026-11-26T19:13:25.302654+00:00"
+  },
+  "schema_version": "1.0.0",
+  "scope": "daily_window",
+  "season": 2026,
+  "season_type": "mixed",
+  "slate_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/index.html",
+  "snapshot_id": "d1146c5c540ca301feccb81126774e06399aee03638cc31ff41908d882a2e4fe",
+  "source_snapshot_digest": "aadbda4a980f64b76e6f31b04c311142df28f0c8b1f8c2ce48f0fe275fd57499",
+  "sources": [
+    {
+      "family": "games",
+      "observed_at": "2026-11-26T19:13:25.302654+00:00",
+      "sha256": "cda68ffd3ca105e28d3f11e22d44252fd34710f4ea8fb4e7ee4bcdab2226fd06",
+      "url": "https://api.collegefootballdata.com/games"
+    },
+    {
+      "family": "teams",
+      "observed_at": "2026-11-26T19:03:33.089624+00:00",
+      "sha256": "3d81870ba2c5b55ba527248c4306faaa151ddf01aa739960f27b42be45b4aabb",
+      "url": "https://api.collegefootballdata.com/teams"
+    },
+    {
+      "family": "advanced_games",
+      "observed_at": "2026-11-26T19:03:32.435153+00:00",
+      "sha256": "6a81be0964d392fddd5a91f5c5e8313fcc9598882fd31c5afaadfedc3668ce73",
+      "url": "https://api.collegefootballdata.com/stats/game/advanced"
+    }
+  ],
+  "spread_difference_home": -6.802887948035114,
+  "stable_json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/games/401858314.json",
+  "status": "scheduled",
+  "status_observed_at": "2026-11-26T19:13:25.302654+00:00",
+  "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-26/d1146c5c540ca301feccb81126774e06399aee03638cc31ff41908d882a2e4fe/games/401858314.html",
+  "venue": {
+    "id": "1964",
+    "location": {
+      "city": "Syracuse",
+      "countryCode": "US",
+      "dome": true,
+      "grass": false,
+      "latitude": 43.0362269,
+      "longitude": -76.1363161,
+      "state": "NY",
+      "timezone": "America/New_York"
+    },
+    "location_available": true,
+    "name": "JMA Wireless Dome",
+    "neutral_site": false,
+    "source_url": "https://api.collegefootballdata.com/games"
+  },
+  "weather": {
+    "available": false,
+    "reason": "No sourced timestamped forecast in this capture; research current venue forecast on demand",
+    "value": null
+  },
+  "web_manifest_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-26/d1146c5c540ca301feccb81126774e06399aee03638cc31ff41908d882a2e4fe/manifest.json",
+  "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-26/d1146c5c540ca301feccb81126774e06399aee03638cc31ff41908d882a2e4fe/games/401858314.json",
+  "week": 13
+}
