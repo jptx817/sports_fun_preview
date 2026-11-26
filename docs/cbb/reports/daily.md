@@ -1,30 +1,30 @@
-# CBB daily intelligence — 2026-11-25
+# CBB daily intelligence — 2026-11-26
 
 [Today’s analytical briefing with DraftKings comparisons](briefing.html). This source feed omits market data; the linked analytical website display uses separately permitted inputs.
 
-Data as of **2026-11-25T12:34:08.320000Z**; built 2026-11-25T20:32:30.423128Z. Research observations; no betting recommendations.
-Latest successful source retrieval in this edition: 2026-11-25T12:34:08.320000Z. Recheck Central date, tipoffs and source ages when reading.
+Data as of **2026-11-26T12:31:20.239000Z**; built 2026-11-26T13:01:36.765477Z. Research observations; no betting recommendations.
+Latest successful source retrieval in this edition: 2026-11-26T12:31:20.239000Z. Recheck Central date, tipoffs and source ages when reading.
 
 ## A. Slate overview
 
-48 imported games; 48 with projections; 0 with three eligible sources; 0 with valid DraftKings observations; 30 pregame at build.
-Coverage: barttorvik: 0 (missing); dratings: 0 (missing); haslametrics: 48 (fresh); draftkings: 0 (missing).
+21 imported games; 21 with projections; 0 with three eligible sources; 0 with valid DraftKings observations; 21 pregame at build.
+Coverage: barttorvik: 0 (missing); dratings: 0 (missing); haslametrics: 21 (fresh); draftkings: 0 (missing).
 Schedule uses the permitted Haslametrics fallback; official NCAA coverage, non-D1 opponents and ambiguous tipoff dates remain unverified. Full schedule and all comparisons: data/intelligence/board.json.
 
 ## B. Source comparison
 
-- **Cal State Northridge at Weber State** (2026-11-25T17:00:00-06:00; cbb-2027-2026-11-25-cal-state-northridge-at-weber-state): [haslametrics](https://www.haslametrics.com/): home spread +5.00, total +168.60, basis end_of_regulation, observed 2026-11-25T12:34:08.320000Z, data through 2026-11-23, fresh.
-  spread: Available-source median (not consensus) +5.00; eligible sources 1; range not comparable; difference vs current market unavailable.
-  total: Available-source median (not consensus) +168.60; eligible sources 1; range not comparable; difference vs current market unavailable.
-- **Memphis at Penn State** (2026-11-25T16:00:00-06:00; cbb-2027-2026-11-25-memphis-at-penn-state): [haslametrics](https://www.haslametrics.com/): home spread +3.66, total +166.98, basis end_of_regulation, observed 2026-11-25T12:34:08.320000Z, data through 2026-11-23, fresh.
-  spread: Available-source median (not consensus) +3.66; eligible sources 1; range not comparable; difference vs current market unavailable.
-  total: Available-source median (not consensus) +166.98; eligible sources 1; range not comparable; difference vs current market unavailable.
-- **Pacific at Jacksonville State** (2026-11-25T21:30:00-06:00; cbb-2027-2026-11-25-pacific-at-jacksonville-state): [haslametrics](https://www.haslametrics.com/): home spread +2.36, total +135.74, basis end_of_regulation, observed 2026-11-25T12:34:08.320000Z, data through 2026-11-23, fresh.
-  spread: Available-source median (not consensus) +2.36; eligible sources 1; range not comparable; difference vs current market unavailable.
-  total: Available-source median (not consensus) +135.74; eligible sources 1; range not comparable; difference vs current market unavailable.
-- **Liberty at Princeton** (2026-11-25T15:00:00-06:00; cbb-2027-2026-11-25-liberty-at-princeton): [haslametrics](https://www.haslametrics.com/): home spread +3.84, total +139.76, basis end_of_regulation, observed 2026-11-25T12:34:08.320000Z, data through 2026-11-23, fresh.
-  spread: Available-source median (not consensus) +3.84; eligible sources 1; range not comparable; difference vs current market unavailable.
-  total: Available-source median (not consensus) +139.76; eligible sources 1; range not comparable; difference vs current market unavailable.
+- **Alabama at Kansas State** (2026-11-26T20:00:00-06:00; cbb-2027-2026-11-26-alabama-at-kansas-state): [haslametrics](https://www.haslametrics.com/): home spread +19.75, total +171.39, basis end_of_regulation, observed 2026-11-26T12:31:20.239000Z, data through 2026-11-24, fresh.
+  spread: Available-source median (not consensus) +19.75; eligible sources 1; range not comparable; difference vs current market unavailable.
+  total: Available-source median (not consensus) +171.39; eligible sources 1; range not comparable; difference vs current market unavailable.
+- **USC at Utah State** (2026-11-26T15:30:00-06:00; cbb-2027-2026-11-26-usc-at-utah-state): [haslametrics](https://www.haslametrics.com/): home spread +5.11, total +165.51, basis end_of_regulation, observed 2026-11-26T12:31:20.239000Z, data through 2026-11-24, fresh.
+  spread: Available-source median (not consensus) +5.11; eligible sources 1; range not comparable; difference vs current market unavailable.
+  total: Available-source median (not consensus) +165.51; eligible sources 1; range not comparable; difference vs current market unavailable.
+- **Iowa State at Tennessee** (2026-11-26T14:30:00-06:00; cbb-2027-2026-11-26-iowa-state-at-tennessee): [haslametrics](https://www.haslametrics.com/): home spread +3.02, total +130.84, basis end_of_regulation, observed 2026-11-26T12:31:20.239000Z, data through 2026-11-24, fresh.
+  spread: Available-source median (not consensus) +3.02; eligible sources 1; range not comparable; difference vs current market unavailable.
+  total: Available-source median (not consensus) +130.84; eligible sources 1; range not comparable; difference vs current market unavailable.
+- **Pittsburgh at DePaul** (2026-11-26T18:00:00-06:00; cbb-2027-2026-11-26-pittsburgh-at-depaul): [haslametrics](https://www.haslametrics.com/): home spread +2.41, total +139.71, basis end_of_regulation, observed 2026-11-26T12:31:20.239000Z, data through 2026-11-24, fresh.
+  spread: Available-source median (not consensus) +2.41; eligible sources 1; range not comparable; difference vs current market unavailable.
+  total: Available-source median (not consensus) +139.71; eligible sources 1; range not comparable; difference vs current market unavailable.
 
 ## C. Research Watches
 
@@ -36,8 +36,8 @@ Single-source observations, multiple-source discrepancies and one/two-source Pre
 - **Three eligible systems with both source ranges <=2 points:** unavailable with current coverage.
 - **Largest observed margin range:** unavailable with current coverage.
 - **Largest observed total range:** unavailable with current coverage.
-- **Higher scoring relative to this imported slate:** Cal State Northridge at Weber State; Memphis at Penn State; Utah State at SMU.
-- **Lower scoring relative to this imported slate:** Pacific at Jacksonville State; Liberty at Princeton; Duke at UConn.
+- **Higher scoring relative to this imported slate:** Alabama at Kansas State; USC at Utah State; St. John's at Louisville.
+- **Lower scoring relative to this imported slate:** Iowa State at Tennessee; Pittsburgh at DePaul; Pacific at Omaha.
 - **Threshold-crossing projection/market discrepancy:** unavailable with current coverage.
 - Numerical differences identify research questions; cause unknown without actual personnel/methodology evidence. Efficiency/tempo contrasts are unavailable unless captured in team resources.
 
@@ -45,7 +45,7 @@ Single-source observations, multiple-source discrepancies and one/two-source Pre
 
 - barttorvik: missing; observed unavailable; retrieved unavailable; data through unknown; provider update unknown.
 - dratings: missing; observed unavailable; retrieved unavailable; data through unknown; provider update unknown.
-- haslametrics: fresh; observed 2026-11-25T12:34:08.320000Z; retrieved 2026-11-25T12:34:08.320000Z; data through 2026-11-23; provider update unknown.
+- haslametrics: fresh; observed 2026-11-26T12:31:20.239000Z; retrieved 2026-11-26T12:31:20.239000Z; data through 2026-11-24; provider update unknown.
 - draftkings: missing; observed unavailable; retrieved unavailable; data through unknown; provider update unknown.
 - Input captures missing: none reported separately; see source coverage.
 - Input captures stale: none reported separately; see source coverage.
@@ -70,37 +70,37 @@ Errors are projected minus actual; positive spread bias favors nominal home, pos
 
 ### Yesterday
 
-2026-11-24 through 2026-11-24 Central: 72/72 archived games have verified finals. Coverage is archived forecasts, not all NCAA games.
+2026-11-25 through 2026-11-25 Central: 0/48 archived games have verified finals. Coverage is archived forecasts, not all NCAA games.
 
-haslametrics: 72 forecast observations; primary spread MAE unavailable, bias unavailable, n=0, excluded=72; primary total MAE unavailable, bias unavailable, n=0, excluded=72; winners 0/0. Full-game diagnostic spread MAE 10.63, bias -3.04, n=72; total MAE 13.40, bias 2.55, n=72.
+haslametrics: 48 forecast observations; primary spread MAE unavailable, bias unavailable, n=0, excluded=48; primary total MAE unavailable, bias unavailable, n=0, excluded=48; winners 0/0. Full-game diagnostic spread MAE unavailable, bias unavailable, n=0; total MAE unavailable, bias unavailable, n=0.
 
-haslametrics: ATS 22-17-0 W-L-P; eligible n=39, excluded=33, priced n=39, unpriced settled=0; over/under 23-16-0 W-L-P; eligible n=39, excluded=33, priced n=39, unpriced settled=0.
+haslametrics: ATS 0-0-0 W-L-P; eligible n=0, excluded=48, priced n=0, unpriced settled=0; over/under 0-0-0 W-L-P; eligible n=0, excluded=48, priced n=0, unpriced settled=0.
 
-haslametrics exclusions (metric observations, can overlap): regulation_scores_unavailable=72; spread: draftkings_line_missing=33; total: draftkings_line_missing=33.
+haslametrics exclusions (metric observations, can overlap): result_missing=48; spread: draftkings_line_missing=21; spread: result_missing=27; total: draftkings_line_missing=21; total: result_missing=27.
 
 Consensus, T-Rank, DRatings and subjective performance are withheld under existing disclosure restrictions; no private counts or derivatives are included.
 
 ### Rolling seven days
 
-2026-11-18 through 2026-11-24 Central: 184/184 archived games have verified finals. Coverage is archived forecasts, not all NCAA games.
+2026-11-19 through 2026-11-25 Central: 184/232 archived games have verified finals. Coverage is archived forecasts, not all NCAA games.
 
-haslametrics: 184 forecast observations; primary spread MAE unavailable, bias unavailable, n=0, excluded=184; primary total MAE unavailable, bias unavailable, n=0, excluded=184; winners 0/0. Full-game diagnostic spread MAE 10.90, bias -1.97, n=184; total MAE 13.74, bias 1.95, n=184.
+haslametrics: 232 forecast observations; primary spread MAE unavailable, bias unavailable, n=0, excluded=232; primary total MAE unavailable, bias unavailable, n=0, excluded=232; winners 0/0. Full-game diagnostic spread MAE 10.90, bias -1.97, n=184; total MAE 13.74, bias 1.95, n=184.
 
-haslametrics: ATS 48-48-0 W-L-P; eligible n=96, excluded=88, priced n=96, unpriced settled=0; over/under 56-40-0 W-L-P; eligible n=96, excluded=88, priced n=96, unpriced settled=0.
+haslametrics: ATS 48-48-0 W-L-P; eligible n=96, excluded=136, priced n=96, unpriced settled=0; over/under 56-40-0 W-L-P; eligible n=96, excluded=136, priced n=96, unpriced settled=0.
 
-haslametrics exclusions (metric observations, can overlap): regulation_scores_unavailable=184; spread: draftkings_line_missing=88; total: draftkings_line_missing=88.
+haslametrics exclusions (metric observations, can overlap): regulation_scores_unavailable=184; result_missing=48; spread: draftkings_line_missing=109; spread: result_missing=27; total: draftkings_line_missing=109; total: result_missing=27.
 
 Consensus, T-Rank, DRatings and subjective performance are withheld under existing disclosure restrictions; no private counts or derivatives are included.
 
 ### Season to date (2026-27)
 
-2026-07-01 through 2026-11-24 Central: 184/184 archived games have verified finals. Coverage is archived forecasts, not all NCAA games.
+2026-07-01 through 2026-11-25 Central: 184/232 archived games have verified finals. Coverage is archived forecasts, not all NCAA games.
 
-haslametrics: 184 forecast observations; primary spread MAE unavailable, bias unavailable, n=0, excluded=184; primary total MAE unavailable, bias unavailable, n=0, excluded=184; winners 0/0. Full-game diagnostic spread MAE 10.90, bias -1.97, n=184; total MAE 13.74, bias 1.95, n=184.
+haslametrics: 232 forecast observations; primary spread MAE unavailable, bias unavailable, n=0, excluded=232; primary total MAE unavailable, bias unavailable, n=0, excluded=232; winners 0/0. Full-game diagnostic spread MAE 10.90, bias -1.97, n=184; total MAE 13.74, bias 1.95, n=184.
 
-haslametrics: ATS 48-48-0 W-L-P; eligible n=96, excluded=88, priced n=96, unpriced settled=0; over/under 56-40-0 W-L-P; eligible n=96, excluded=88, priced n=96, unpriced settled=0.
+haslametrics: ATS 48-48-0 W-L-P; eligible n=96, excluded=136, priced n=96, unpriced settled=0; over/under 56-40-0 W-L-P; eligible n=96, excluded=136, priced n=96, unpriced settled=0.
 
-haslametrics exclusions (metric observations, can overlap): regulation_scores_unavailable=184; spread: draftkings_line_missing=88; total: draftkings_line_missing=88.
+haslametrics exclusions (metric observations, can overlap): regulation_scores_unavailable=184; result_missing=48; spread: draftkings_line_missing=109; spread: result_missing=27; total: draftkings_line_missing=109; total: result_missing=27.
 
 Consensus, T-Rank, DRatings and subjective performance are withheld under existing disclosure restrictions; no private counts or derivatives are included.
 
