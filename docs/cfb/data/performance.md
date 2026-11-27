@@ -1,13 +1,13 @@
 # CFB forecast performance
 
-Generated: 2026-11-26T19:29:57.180880+00:00
+Generated: 2026-11-27T08:17:25.336308+00:00
 Original forecasts and actual results; registered parameters unchanged.
 
 ## New registered-window forecasts since the November 20 checkpoint
 
-Forecasts: 85; graded: 20; pending: 65; revised kickoffs excluded: 0.
-Margin MAE: 10.475520516723433; RMSE: 13.163339822595608; signed prediction-minus-actual bias: 2.5385328641795732.
-Unpriced model-direction W/L/P: {'W': 8, 'L': 10, 'P': 0}. No priced returns evaluated.
+Forecasts: 85; graded: 21; pending: 64; revised kickoffs excluded: 0.
+Margin MAE: 10.423893389851665; RMSE: 13.00854623211732; signed prediction-minus-actual bias: 1.970443163389293.
+Unpriced model-direction W/L/P: {'W': 9, 'L': 10, 'P': 0}. No priced returns evaluated.
 
 ## Historical checkpoint
 

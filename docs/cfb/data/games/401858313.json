@@ -99,16 +99,16 @@
             "games": 10,
             "reason": null,
             "unit": "PPA/play",
-            "value": 0.06232787411342545
+            "value": 0.06233248439376249
           },
           "interpretation": "Deviations from league mean; defense lower allowed is better. Existing approved rating recipe.",
-          "league_mean": 0.0983321451024312,
+          "league_mean": 0.09867628882174226,
           "offense": {
             "available": true,
             "games": 10,
             "reason": null,
             "unit": "PPA/play",
-            "value": -0.007077649057759276
+            "value": -0.007527923335437211
           }
         },
         "successRate": {
@@ -117,16 +117,16 @@
             "games": 10,
             "reason": null,
             "unit": "fraction",
-            "value": 0.016468854100094826
+            "value": 0.016464334415009888
           },
           "interpretation": "Deviations from league mean; defense lower allowed is better. Existing approved rating recipe.",
-          "league_mean": 0.41511957038126557,
+          "league_mean": 0.4152386011560218,
           "offense": {
             "available": true,
             "games": 10,
             "reason": null,
             "unit": "fraction",
-            "value": -0.0022123523276927526
+            "value": -0.002361975805010458
           }
         }
       },
@@ -149,13 +149,13 @@
             "available": true,
             "reason": null,
             "unit": "PPA/play",
-            "value": 0.00025657539011552586
+            "value": 0.00034407841722335216
           },
           "mean_opponent_offense": {
             "available": true,
             "reason": null,
             "unit": "PPA/play",
-            "value": 0.009753356957130307
+            "value": 0.009467796878794217
           },
           "role": "Diagnostic only; not an extra margin adjustment"
         },
@@ -164,13 +164,13 @@
             "available": true,
             "reason": null,
             "unit": "fraction",
-            "value": -0.0038480959957528566
+            "value": -0.0038228462677190795
           },
           "mean_opponent_offense": {
             "available": true,
             "reason": null,
             "unit": "fraction",
-            "value": -0.00251886509241344
+            "value": -0.00261261886627335
           },
           "role": "Diagnostic only; not an extra margin adjustment"
         }
@@ -189,7 +189,7 @@
         "value": null
       },
       "next_opponent": null,
-      "observed_at": "2026-11-26T19:13:25.302654+00:00",
+      "observed_at": "2026-11-27T08:16:57.185830+00:00",
       "previous_opponent": {
         "completed": true,
         "game_id": "401858304",
@@ -245,7 +245,7 @@
       }
     }
   },
-  "central_date": "2026-11-26",
+  "central_date": "2026-11-27",
   "conventions": {
     "aggregation": "Raw matchup values are equal-game means against FBS opponents, completed before cutoff. Rank 1 is best: higher offense, lower defensive allowance. Prior ranks use the prior season FBS pool.",
     "difference": "market_spread_home minus model_spread_home; positive favors home against the observed spread, negative favors away. Not a cover probability or validated betting edge.",
@@ -256,19 +256,19 @@
     "tempo": "Reported offensive plays/drives per game; descriptive volume, not seconds per snap or a projection input.",
     "time": "ISO 8601 timestamps include offsets. Central display uses America/Chicago, including daylight saving changes."
   },
-  "counterargument": "NC State's rushing offense produces only -0.057 PPA/play (#122/138) with 38.9% success. That weakness could limit the projected margin.",
+  "counterargument": "NC State's passing offense generates 0.261 PPA/play (#42/138) with 43.2% success. Sustained production from that unit could erase the spread disagreement toward North Carolina.",
   "cutoffs": {
-    "advanced_statistics": "2026-11-26T19:03:32.435153+00:00",
-    "market_snapshot": "2026-11-26T19:03:33.866751+00:00",
+    "advanced_statistics": "2026-11-27T08:17:08.189179+00:00",
+    "market_snapshot": "2026-11-27T08:17:15.925200+00:00",
     "meaning": "Receipt upper bounds and prediction information cutoff, not claims of provider publication time.",
-    "prediction_information": "2026-11-26T19:22:32.391715Z",
-    "ratings": "2026-11-26T19:13:25.302654+00:00",
-    "results": "2026-11-26T19:13:25.302654+00:00"
+    "prediction_information": "2026-11-27T08:17:20.808461Z",
+    "ratings": "2026-11-27T08:16:57.185830+00:00",
+    "results": "2026-11-27T08:16:57.185830+00:00"
   },
   "delivery_mode": "briefing",
   "display_timezone": "America/Chicago",
   "game_id": "401858313",
-  "generated_at": "2026-11-26T19:22:32.391715Z",
+  "generated_at": "2026-11-27T08:17:20.808461Z",
   "home_team": {
     "abbreviation": "UNC",
     "capsule": {
@@ -344,16 +344,16 @@
             "games": 10,
             "reason": null,
             "unit": "PPA/play",
-            "value": -0.0034436663943933784
+            "value": -0.004427753295268697
           },
           "interpretation": "Deviations from league mean; defense lower allowed is better. Existing approved rating recipe.",
-          "league_mean": 0.0983321451024312,
+          "league_mean": 0.09867628882174226,
           "offense": {
             "available": true,
             "games": 10,
             "reason": null,
             "unit": "PPA/play",
-            "value": 0.08108222790106417
+            "value": 0.0770206793558736
           }
         },
         "successRate": {
@@ -362,16 +362,16 @@
             "games": 10,
             "reason": null,
             "unit": "fraction",
-            "value": 0.021278899409040486
+            "value": 0.020897179241151684
           },
           "interpretation": "Deviations from league mean; defense lower allowed is better. Existing approved rating recipe.",
-          "league_mean": 0.41511957038126557,
+          "league_mean": 0.4152386011560218,
           "offense": {
             "available": true,
             "games": 10,
             "reason": null,
             "unit": "fraction",
-            "value": 0.05752146657708526
+            "value": 0.056158064433639424
           }
         }
       },
@@ -394,13 +394,13 @@
             "available": true,
             "reason": null,
             "unit": "PPA/play",
-            "value": -0.06894097682537381
+            "value": -0.06478558968874468
           },
           "mean_opponent_offense": {
             "available": true,
             "reason": null,
             "unit": "PPA/play",
-            "value": 0.029740507406445182
+            "value": 0.03044703180342412
           },
           "role": "Diagnostic only; not an extra margin adjustment"
         },
@@ -409,13 +409,13 @@
             "available": true,
             "reason": null,
             "unit": "fraction",
-            "value": -0.030689402906879475
+            "value": -0.029298538633994158
           },
           "mean_opponent_offense": {
             "available": true,
             "reason": null,
             "unit": "fraction",
-            "value": 0.007560511693539997
+            "value": 0.007851220429810016
           },
           "role": "Diagnostic only; not an extra margin adjustment"
         }
@@ -434,7 +434,7 @@
         "value": null
       },
       "next_opponent": null,
-      "observed_at": "2026-11-26T19:13:25.302654+00:00",
+      "observed_at": "2026-11-27T08:16:57.185830+00:00",
       "previous_opponent": {
         "completed": true,
         "game_id": "401858305",
@@ -490,8 +490,8 @@
       }
     }
   },
-  "immutable_slate_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-26/d1146c5c540ca301feccb81126774e06399aee03638cc31ff41908d882a2e4fe/slate.html",
-  "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-26/d1146c5c540ca301feccb81126774e06399aee03638cc31ff41908d882a2e4fe/games/401858313.json",
+  "immutable_slate_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/slate.html",
+  "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858313.json",
   "kickoff": "2026-11-28T17:00:00.000Z",
   "kickoff_central": "2026-11-28T11:00:00-06:00",
   "kickoff_time_tbd": false,
@@ -505,36 +505,36 @@
     "reason": "Comparable timestamped observations have not been linked; never infer movement from spreadOpen",
     "value": null
   },
-  "manifest_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-26/d1146c5c540ca301feccb81126774e06399aee03638cc31ff41908d882a2e4fe/manifest.json",
+  "manifest_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/manifest.json",
   "market": {
     "book_updated_at": null,
-    "formatted_spread": "North Carolina -6",
+    "formatted_spread": "North Carolina -5.5",
     "fresh": true,
     "freshness": {
-      "age_seconds": 1138.524964,
-      "evaluated_at": "2026-11-26T19:22:32.391715Z",
+      "age_seconds": 4.883261,
+      "evaluated_at": "2026-11-27T08:17:20.808461Z",
       "max_age_seconds": 7200,
-      "observed_at": "2026-11-26T19:03:33.866751+00:00",
+      "observed_at": "2026-11-27T08:17:15.925200+00:00",
       "refresh_failed": false,
       "status": "fresh",
       "warning": null
     },
     "pregame_observation": true,
     "provider": "DraftKings",
-    "retrieved_at": "2026-11-26T19:03:33.866751+00:00",
+    "retrieved_at": "2026-11-27T08:17:15.925200+00:00",
     "selection_policy": "DraftKings, FanDuel, Bovada, BetMGM, Caesars; other named providers alphabetically; consensus last",
     "sign_crosscheck": true,
     "source": "CFBD /lines",
     "source_url": "https://api.collegefootballdata.com/lines",
-    "spread_home": -6.0,
+    "spread_home": -5.5,
     "spread_odds_away": null,
     "spread_odds_home": null,
     "timing_note": "Observed at retrieval; sportsbook update time and spread-bet odds unavailable",
-    "total": 54.5
+    "total": 53.5
   },
-  "market_snapshot_timestamp": "2026-11-26T19:03:33.866751+00:00",
-  "market_spread_home": -6.0,
-  "market_total": 54.5,
+  "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+  "market_spread_home": -5.5,
+  "market_total": 53.5,
   "model": {
     "home_field_points": 2.491565613957782,
     "id": "cfb_remaining_2026_owner_handicapping",
@@ -544,8 +544,8 @@
     "version": "ed56e1ea90f1592038713da5e0adc9b1694ba36c2386e748195fdf019d7b635d"
   },
   "model_available": true,
-  "model_preferred_side": "NC State",
-  "model_spread_home": -5.823974305769209,
+  "model_preferred_side": "North Carolina",
+  "model_spread_home": -5.689188084727783,
   "model_total": null,
   "model_total_availability": "unsupported_margin_only_model",
   "model_unavailable_reason": null,
@@ -747,7 +747,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 122,
+            "current_rank": 121,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -816,7 +816,7 @@
           }
         }
       },
-      "narrative": "Passing: NC State generates 0.261 PPA/play with 43.2% success; North Carolina allows 0.230 PPA/play and 44.3% success. Rushing: NC State generates -0.057 PPA/play with 38.9% success; North Carolina allows 0.085 PPA/play and 46.5% success. Reported run share 51.8% of 683 box attempts (sacks/kneels unresolved). PGWP expected wins 4.78 vs 4 actual across 10 covered games; luck gap -0.78 wins. Tempo context: 68.8 reported offensive plays and 11.6 drives/game (10 games); descriptive volume, not seconds/snap or possession-model inputs. Opponent-adjusted PPA: NC State offense -0.007 vs North Carolina defensive allowance -0.003, deviations from league mean. Schedule context: opponents' fitted offense +0.010, allowed-efficiency +0.000 PPA (positive offense = stronger; lower allowed = tougher).",
+      "narrative": "Passing: NC State generates 0.261 PPA/play with 43.2% success; North Carolina allows 0.230 PPA/play and 44.3% success. Rushing: NC State generates -0.057 PPA/play with 38.9% success; North Carolina allows 0.085 PPA/play and 46.5% success. Reported run share 51.8% of 683 box attempts (sacks/kneels unresolved). PGWP expected wins 4.78 vs 4 actual across 10 covered games; luck gap -0.78 wins. Tempo context: 68.8 reported offensive plays and 11.6 drives/game (10 games); descriptive volume, not seconds/snap or possession-model inputs. Opponent-adjusted PPA: NC State offense -0.008 vs North Carolina defensive allowance -0.004, deviations from league mean. Schedule context: opponents' fitted offense +0.009, allowed-efficiency +0.000 PPA (positive offense = stronger; lower allowed = tougher).",
       "offense_team_id": "152"
     },
     "home_offense_vs_away_defense": {
@@ -1067,7 +1067,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 31,
+            "current_rank": 32,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -1080,7 +1080,7 @@
           }
         }
       },
-      "narrative": "Passing: North Carolina generates 0.220 PPA/play with 46.8% success; NC State allows 0.323 PPA/play and 46.0% success. Rushing: North Carolina generates 0.037 PPA/play with 42.0% success; NC State allows 0.135 PPA/play and 42.2% success. Reported run share 49.5% of 641 box attempts (sacks/kneels unresolved). PGWP expected wins 3.96 vs 4 actual across 10 covered games; luck gap +0.04 wins. Tempo context: 65.0 reported offensive plays and 10.5 drives/game (10 games); descriptive volume, not seconds/snap or possession-model inputs. Opponent-adjusted PPA: North Carolina offense +0.081 vs NC State defensive allowance +0.062, deviations from league mean. Schedule context: opponents' fitted offense +0.030, allowed-efficiency -0.069 PPA (positive offense = stronger; lower allowed = tougher).",
+      "narrative": "Passing: North Carolina generates 0.220 PPA/play with 46.8% success; NC State allows 0.323 PPA/play and 46.0% success. Rushing: North Carolina generates 0.037 PPA/play with 42.0% success; NC State allows 0.135 PPA/play and 42.2% success. Reported run share 49.5% of 641 box attempts (sacks/kneels unresolved). PGWP expected wins 3.96 vs 4 actual across 10 covered games; luck gap +0.04 wins. Tempo context: 65.0 reported offensive plays and 10.5 drives/game (10 games); descriptive volume, not seconds/snap or possession-model inputs. Opponent-adjusted PPA: North Carolina offense +0.077 vs NC State defensive allowance +0.062, deviations from league mean. Schedule context: opponents' fitted offense +0.030, allowed-efficiency -0.065 PPA (positive offense = stronger; lower allowed = tougher).",
       "offense_team_id": "153"
     }
   },
@@ -1102,40 +1102,40 @@
     "away_points": null,
     "completed": false,
     "home_points": null,
-    "source_observed_at": "2026-11-26T19:13:25.302654+00:00"
+    "source_observed_at": "2026-11-27T08:16:57.185830+00:00"
   },
   "schema_version": "1.0.0",
   "scope": "daily_window",
   "season": 2026,
   "season_type": "mixed",
   "slate_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/index.html",
-  "snapshot_id": "d1146c5c540ca301feccb81126774e06399aee03638cc31ff41908d882a2e4fe",
-  "source_snapshot_digest": "aadbda4a980f64b76e6f31b04c311142df28f0c8b1f8c2ce48f0fe275fd57499",
+  "snapshot_id": "8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7",
+  "source_snapshot_digest": "167fb7de32ed2a57cc1558577d69b1582756de84cc53a49212eba7b4f2eda935",
   "sources": [
     {
       "family": "games",
-      "observed_at": "2026-11-26T19:13:25.302654+00:00",
-      "sha256": "cda68ffd3ca105e28d3f11e22d44252fd34710f4ea8fb4e7ee4bcdab2226fd06",
+      "observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "sha256": "c9a6574c69898472c6b8e55ef2bcd4d6a2dab2f647a334a30e4234f281ce2727",
       "url": "https://api.collegefootballdata.com/games"
     },
     {
       "family": "teams",
-      "observed_at": "2026-11-26T19:03:33.089624+00:00",
+      "observed_at": "2026-11-27T08:16:57.798154+00:00",
       "sha256": "3d81870ba2c5b55ba527248c4306faaa151ddf01aa739960f27b42be45b4aabb",
       "url": "https://api.collegefootballdata.com/teams"
     },
     {
       "family": "advanced_games",
-      "observed_at": "2026-11-26T19:03:32.435153+00:00",
-      "sha256": "6a81be0964d392fddd5a91f5c5e8313fcc9598882fd31c5afaadfedc3668ce73",
+      "observed_at": "2026-11-27T08:17:08.189179+00:00",
+      "sha256": "0452e4d039e5c51f003d77871d00fb6ec52899d1d8d6c23675791e8a3d684b54",
       "url": "https://api.collegefootballdata.com/stats/game/advanced"
     }
   ],
-  "spread_difference_home": -0.17602569423079117,
+  "spread_difference_home": 0.1891880847277827,
   "stable_json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/games/401858313.json",
   "status": "scheduled",
-  "status_observed_at": "2026-11-26T19:13:25.302654+00:00",
-  "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-26/d1146c5c540ca301feccb81126774e06399aee03638cc31ff41908d882a2e4fe/games/401858313.html",
+  "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+  "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858313.html",
   "venue": {
     "id": "3787",
     "location": {
@@ -1158,7 +1158,7 @@
     "reason": "No sourced timestamped forecast in this capture; research current venue forecast on demand",
     "value": null
   },
-  "web_manifest_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-26/d1146c5c540ca301feccb81126774e06399aee03638cc31ff41908d882a2e4fe/manifest.json",
-  "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-26/d1146c5c540ca301feccb81126774e06399aee03638cc31ff41908d882a2e4fe/games/401858313.json",
+  "web_manifest_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/manifest.json",
+  "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858313.json",
   "week": 13
 }

@@ -1,0 +1,4893 @@
+{
+  "central_date": "2026-11-27",
+  "conventions": {
+    "aggregation": "Raw matchup values are equal-game means against FBS opponents, completed before cutoff. Rank 1 is best: higher offense, lower defensive allowance. Prior ranks use the prior season FBS pool.",
+    "difference": "market_spread_home minus model_spread_home; positive favors home against the observed spread, negative favors away. Not a cover probability or validated betting edge.",
+    "market": "Named provider observed through CFBD; timestamp is retrieval, not sportsbook update time. Quotes are snapshots, never implied live. Odds are unavailable.",
+    "missing": "Null means unavailable, with an availability/reason field. Missing values must never be read as zero.",
+    "ratings": "Opponent-adjusted PPA/play and success fractions, deviations from league mean. Higher offense is better; lower defensive allowance is better. Not power-rating points.",
+    "spreads": "Points, home perspective: negative favors home; positive favors away.",
+    "tempo": "Reported offensive plays/drives per game; descriptive volume, not seconds per snap or a projection input.",
+    "time": "ISO 8601 timestamps include offsets. Central display uses America/Chicago, including daylight saving changes."
+  },
+  "coverage": {
+    "complete_matchup_statistics": 66,
+    "games": 66,
+    "market_spreads": 66,
+    "model_forecasts": 64
+  },
+  "cutoffs": {
+    "advanced_statistics": "2026-11-27T08:17:08.189179+00:00",
+    "market_snapshot": "2026-11-27T08:17:15.925200+00:00",
+    "meaning": "Receipt upper bounds and prediction information cutoff, not claims of provider publication time.",
+    "prediction_information": "2026-11-27T08:17:20.808461Z",
+    "ratings": "2026-11-27T08:16:57.185830+00:00",
+    "results": "2026-11-27T08:16:57.185830+00:00"
+  },
+  "delivery_mode": "briefing",
+  "games": [
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "UAB",
+        "classification": "fbs",
+        "conference": "American Athletic",
+        "id": "5",
+        "name": "UAB"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401862843",
+      "home_team": {
+        "abbreviation": "UNT",
+        "classification": "fbs",
+        "conference": "American Athletic",
+        "id": "249",
+        "name": "North Texas"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401862843.json",
+      "kickoff": "2026-11-28T21:00:00.000Z",
+      "kickoff_central": "2026-11-28T15:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -2.5,
+      "market_total": 45.5,
+      "model_preferred_side": "North Texas",
+      "model_spread_home": -17.40510938592658,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": 14.905109385926579,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401862843.html",
+      "venue": {
+        "id": "3825",
+        "location": {
+          "city": "Denton",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 33.203899,
+          "longitude": -97.159245,
+          "state": "TX",
+          "timezone": "America/Chicago"
+        },
+        "location_available": true,
+        "name": "DATCU Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401862843.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "MICH",
+        "classification": "fbs",
+        "conference": "Big Ten",
+        "id": "130",
+        "name": "Michigan"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401858540",
+      "home_team": {
+        "abbreviation": "OSU",
+        "classification": "fbs",
+        "conference": "Big Ten",
+        "id": "194",
+        "name": "Ohio State"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858540.json",
+      "kickoff": "2026-11-28T17:00:00.000Z",
+      "kickoff_central": "2026-11-28T11:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -10.0,
+      "market_total": 37.5,
+      "model_preferred_side": "Ohio State",
+      "model_spread_home": -21.144824229909972,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": 11.144824229909972,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858540.html",
+      "venue": {
+        "id": "3861",
+        "location": {
+          "city": "Columbus",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 40.0016447,
+          "longitude": -83.0197266,
+          "state": "OH",
+          "timezone": "America/New_York"
+        },
+        "location_available": true,
+        "name": "Ohio Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858540.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "NAVY",
+        "classification": "fbs",
+        "conference": "American Athletic",
+        "id": "2426",
+        "name": "Navy"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401862842",
+      "home_team": {
+        "abbreviation": "CLT",
+        "classification": "fbs",
+        "conference": "American Athletic",
+        "id": "2429",
+        "name": "Charlotte"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401862842.json",
+      "kickoff": "2026-11-28T17:00:00.000Z",
+      "kickoff_central": "2026-11-28T11:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": 16.5,
+      "market_total": 53.5,
+      "model_preferred_side": "Navy",
+      "model_spread_home": 26.122347190154265,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": -9.622347190154265,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401862842.html",
+      "venue": {
+        "id": "4418",
+        "location": {
+          "city": "Charlotte",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 35.3105033,
+          "longitude": -80.7401194,
+          "state": "NC",
+          "timezone": "America/New_York"
+        },
+        "location_available": true,
+        "name": "Jerry Richardson Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401862842.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "PUR",
+        "classification": "fbs",
+        "conference": "Big Ten",
+        "id": "2509",
+        "name": "Purdue"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401858538",
+      "home_team": {
+        "abbreviation": "IU",
+        "classification": "fbs",
+        "conference": "Big Ten",
+        "id": "84",
+        "name": "Indiana"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858538.json",
+      "kickoff": "2026-11-29T00:00:00.000Z",
+      "kickoff_central": "2026-11-28T18:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -23.5,
+      "market_total": 52.5,
+      "model_preferred_side": "Indiana",
+      "model_spread_home": -33.03920384706575,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": 9.53920384706575,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858538.html",
+      "venue": {
+        "id": "3830",
+        "location": {
+          "city": "Bloomington",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 39.1808959,
+          "longitude": -86.5256217,
+          "state": "IN",
+          "timezone": "America/Indiana/Indianapolis"
+        },
+        "location_available": true,
+        "name": "Memorial Stadium (Bloomington, IN)",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858538.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "USC",
+        "classification": "fbs",
+        "conference": "Big Ten",
+        "id": "30",
+        "name": "USC"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401858543",
+      "home_team": {
+        "abbreviation": "UCLA",
+        "classification": "fbs",
+        "conference": "Big Ten",
+        "id": "26",
+        "name": "UCLA"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858543.json",
+      "kickoff": "2026-11-28T20:30:00.000Z",
+      "kickoff_central": "2026-11-28T14:30:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": 6.5,
+      "market_total": 46.5,
+      "model_preferred_side": "UCLA",
+      "model_spread_home": -1.3786723934319358,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": 7.878672393431936,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858543.html",
+      "venue": {
+        "id": "1056",
+        "location": {
+          "city": "Pasadena",
+          "countryCode": "US",
+          "dome": false,
+          "grass": true,
+          "latitude": 34.1613284,
+          "longitude": -118.1676462,
+          "state": "CA",
+          "timezone": "America/Los_Angeles"
+        },
+        "location_available": true,
+        "name": "Rose Bowl",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858543.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "KU",
+        "classification": "fbs",
+        "conference": "Big 12",
+        "id": "2305",
+        "name": "Kansas"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401856877",
+      "home_team": {
+        "abbreviation": "OKST",
+        "classification": "fbs",
+        "conference": "Big 12",
+        "id": "197",
+        "name": "Oklahoma State"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856877.json",
+      "kickoff": "2026-11-28T23:15:00.000Z",
+      "kickoff_central": "2026-11-28T17:15:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -6.0,
+      "market_total": 64.5,
+      "model_preferred_side": "Kansas",
+      "model_spread_home": 1.8782480062553653,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": -7.878248006255365,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856877.html",
+      "venue": {
+        "id": "3646",
+        "location": {
+          "city": "Stillwater",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 36.125673,
+          "longitude": -97.066513,
+          "state": "OK",
+          "timezone": "America/Chicago"
+        },
+        "location_available": true,
+        "name": "Boone Pickens Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856877.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "USM",
+        "classification": "fbs",
+        "conference": "Sun Belt",
+        "id": "2572",
+        "name": "Southern Miss"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401871103",
+      "home_team": {
+        "abbreviation": "ODU",
+        "classification": "fbs",
+        "conference": "Sun Belt",
+        "id": "295",
+        "name": "Old Dominion"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401871103.json",
+      "kickoff": "2026-11-28T18:00:00.000Z",
+      "kickoff_central": "2026-11-28T12:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -6.0,
+      "market_total": 50.5,
+      "model_preferred_side": "Old Dominion",
+      "model_spread_home": -13.788319195042508,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": 7.788319195042508,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401871103.html",
+      "venue": {
+        "id": "3918",
+        "location": {
+          "city": "Norfolk",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 36.8889533,
+          "longitude": -76.3049175,
+          "state": "VA",
+          "timezone": "America/New_York"
+        },
+        "location_available": true,
+        "name": "S.B. Ballard Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401871103.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "TLSA",
+        "classification": "fbs",
+        "conference": "American Athletic",
+        "id": "202",
+        "name": "Tulsa"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401862840",
+      "home_team": {
+        "abbreviation": "UTSA",
+        "classification": "fbs",
+        "conference": "American Athletic",
+        "id": "2636",
+        "name": "UTSA"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401862840.json",
+      "kickoff": "2026-11-27T17:00:00.000Z",
+      "kickoff_central": "2026-11-27T11:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": 1.5,
+      "market_total": 57.5,
+      "model_preferred_side": "UTSA",
+      "model_spread_home": -5.687026773745039,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": 7.187026773745039,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401862840.html",
+      "venue": {
+        "id": "3604",
+        "location": {
+          "city": "San Antonio",
+          "countryCode": "US",
+          "dome": true,
+          "grass": false,
+          "latitude": 29.4169834,
+          "longitude": -98.4788143,
+          "state": "TX",
+          "timezone": "America/Chicago"
+        },
+        "location_available": true,
+        "name": "Alamodome",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401862840.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "GT",
+        "classification": "fbs",
+        "conference": "ACC",
+        "id": "59",
+        "name": "Georgia Tech"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401856760",
+      "home_team": {
+        "abbreviation": "UGA",
+        "classification": "fbs",
+        "conference": "SEC",
+        "id": "61",
+        "name": "Georgia"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856760.json",
+      "kickoff": "2026-11-28T20:30:00.000Z",
+      "kickoff_central": "2026-11-28T14:30:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -35.5,
+      "market_total": 55.5,
+      "model_preferred_side": "Georgia Tech",
+      "model_spread_home": -28.3494263099377,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": -7.1505736900622985,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856760.html",
+      "venue": {
+        "id": "3917",
+        "location": {
+          "city": "Athens",
+          "countryCode": "US",
+          "dome": false,
+          "grass": true,
+          "latitude": 33.9498197,
+          "longitude": -83.3733813,
+          "state": "GA",
+          "timezone": "America/New_York"
+        },
+        "location_available": true,
+        "name": "Sanford Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856760.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "PITT",
+        "classification": "fbs",
+        "conference": "ACC",
+        "id": "221",
+        "name": "Pittsburgh"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401858315",
+      "home_team": {
+        "abbreviation": "CAL",
+        "classification": "fbs",
+        "conference": "ACC",
+        "id": "25",
+        "name": "California"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858315.json",
+      "kickoff": "2026-11-29T00:30:00.000Z",
+      "kickoff_central": "2026-11-28T18:30:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": 9.5,
+      "market_total": 47.5,
+      "model_preferred_side": "Pittsburgh",
+      "model_spread_home": 16.64907426282521,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": -7.149074262825209,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858315.html",
+      "venue": {
+        "id": "3831",
+        "location": {
+          "city": "Berkeley",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 37.8710434,
+          "longitude": -122.2507729,
+          "state": "CA",
+          "timezone": "America/Los_Angeles"
+        },
+        "location_available": true,
+        "name": "California Memorial Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858315.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "SMU",
+        "classification": "fbs",
+        "conference": "ACC",
+        "id": "2567",
+        "name": "SMU"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401858316",
+      "home_team": {
+        "abbreviation": "STAN",
+        "classification": "fbs",
+        "conference": "ACC",
+        "id": "24",
+        "name": "Stanford"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858316.json",
+      "kickoff": "2026-11-28T20:30:00.000Z",
+      "kickoff_central": "2026-11-28T14:30:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": 7.0,
+      "market_total": 61.5,
+      "model_preferred_side": "SMU",
+      "model_spread_home": 13.859892746628205,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": -6.859892746628205,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858316.html",
+      "venue": {
+        "id": "3940",
+        "location": {
+          "city": "Stanford",
+          "countryCode": "US",
+          "dome": false,
+          "grass": true,
+          "latitude": 37.4345556,
+          "longitude": -122.1611271,
+          "state": "CA",
+          "timezone": "America/Los_Angeles"
+        },
+        "location_available": true,
+        "name": "Stanford Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858316.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "ND",
+        "classification": "fbs",
+        "conference": "FBS Independents",
+        "id": "87",
+        "name": "Notre Dame"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401858314",
+      "home_team": {
+        "abbreviation": "SYR",
+        "classification": "fbs",
+        "conference": "ACC",
+        "id": "183",
+        "name": "Syracuse"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858314.json",
+      "kickoff": "2026-11-28T17:00:00.000Z",
+      "kickoff_central": "2026-11-28T11:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": 25.5,
+      "market_total": 53.5,
+      "model_preferred_side": "Notre Dame",
+      "model_spread_home": 32.28890302192177,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": -6.788903021921769,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858314.html",
+      "venue": {
+        "id": "1964",
+        "location": {
+          "city": "Syracuse",
+          "countryCode": "US",
+          "dome": true,
+          "grass": false,
+          "latitude": 43.0362269,
+          "longitude": -76.1363161,
+          "state": "NY",
+          "timezone": "America/New_York"
+        },
+        "location_available": true,
+        "name": "JMA Wireless Dome",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858314.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "ORST",
+        "classification": "fbs",
+        "conference": "Pac-12",
+        "id": "204",
+        "name": "Oregon State"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401860927",
+      "home_team": {
+        "abbreviation": "FRES",
+        "classification": "fbs",
+        "conference": "Pac-12",
+        "id": "278",
+        "name": "Fresno State"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401860927.json",
+      "kickoff": "2026-11-29T03:00:00.000Z",
+      "kickoff_central": "2026-11-28T21:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -3.0,
+      "market_total": 58.5,
+      "model_preferred_side": "Oregon State",
+      "model_spread_home": 3.7501610771829323,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": -6.750161077182932,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401860927.html",
+      "venue": {
+        "id": "3660",
+        "location": {
+          "city": "Fresno",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 36.8143527,
+          "longitude": -119.7580092,
+          "state": "CA",
+          "timezone": "America/Los_Angeles"
+        },
+        "location_available": true,
+        "name": "Valley Children's Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401860927.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "UVA",
+        "classification": "fbs",
+        "conference": "ACC",
+        "id": "258",
+        "name": "Virginia"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401858317",
+      "home_team": {
+        "abbreviation": "VT",
+        "classification": "fbs",
+        "conference": "ACC",
+        "id": "259",
+        "name": "Virginia Tech"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858317.json",
+      "kickoff": "2026-11-28T20:00:00.000Z",
+      "kickoff_central": "2026-11-28T14:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -3.0,
+      "market_total": 50.5,
+      "model_preferred_side": "Virginia",
+      "model_spread_home": 3.582292734302504,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": -6.582292734302504,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858317.html",
+      "venue": {
+        "id": "3799",
+        "location": {
+          "city": "Blacksburg",
+          "countryCode": "US",
+          "dome": false,
+          "grass": true,
+          "latitude": 37.2199873,
+          "longitude": -80.4180643,
+          "state": "VA",
+          "timezone": "America/New_York"
+        },
+        "location_available": true,
+        "name": "Lane Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858317.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "KSU",
+        "classification": "fbs",
+        "conference": "Big 12",
+        "id": "2306",
+        "name": "Kansas State"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401856878",
+      "home_team": {
+        "abbreviation": "ISU",
+        "classification": "fbs",
+        "conference": "Big 12",
+        "id": "66",
+        "name": "Iowa State"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856878.json",
+      "kickoff": "2026-11-28T19:00:00.000Z",
+      "kickoff_central": "2026-11-28T13:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -4.0,
+      "market_total": 53.5,
+      "model_preferred_side": "Kansas State",
+      "model_spread_home": 1.7458976578583962,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": -5.7458976578583965,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856878.html",
+      "venue": {
+        "id": "3772",
+        "location": {
+          "city": "Ames",
+          "countryCode": "US",
+          "dome": false,
+          "grass": true,
+          "latitude": 42.0139977,
+          "longitude": -93.6357716,
+          "state": "IA",
+          "timezone": "America/Chicago"
+        },
+        "location_available": true,
+        "name": "Jack Trice Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856878.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "ILL",
+        "classification": "fbs",
+        "conference": "Big Ten",
+        "id": "356",
+        "name": "Illinois"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401858537",
+      "home_team": {
+        "abbreviation": "NU",
+        "classification": "fbs",
+        "conference": "Big Ten",
+        "id": "77",
+        "name": "Northwestern"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858537.json",
+      "kickoff": "2026-11-28T17:30:00.000Z",
+      "kickoff_central": "2026-11-28T11:30:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -2.5,
+      "market_total": 50.5,
+      "model_preferred_side": "Northwestern",
+      "model_spread_home": -8.165839714773128,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": 5.665839714773128,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858537.html",
+      "venue": {
+        "id": "11823",
+        "location": null,
+        "location_available": false,
+        "name": "Ryan Field",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858537.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "WVU",
+        "classification": "fbs",
+        "conference": "Big 12",
+        "id": "277",
+        "name": "West Virginia"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401856880",
+      "home_team": {
+        "abbreviation": "UTAH",
+        "classification": "fbs",
+        "conference": "Big 12",
+        "id": "254",
+        "name": "Utah"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856880.json",
+      "kickoff": "2026-11-28T02:00:00.000Z",
+      "kickoff_central": "2026-11-27T20:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -25.5,
+      "market_total": 66.5,
+      "model_preferred_side": "Utah",
+      "model_spread_home": -31.07401210283578,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": 5.5740121028357805,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856880.html",
+      "venue": {
+        "id": "587",
+        "location": {
+          "city": "Salt Lake City",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 40.7599724,
+          "longitude": -111.8488255,
+          "state": "UT",
+          "timezone": "America/Denver"
+        },
+        "location_available": true,
+        "name": "Rice-Eccles Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856880.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "CCU",
+        "classification": "fbs",
+        "conference": "Sun Belt",
+        "id": "324",
+        "name": "Coastal Carolina"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401869947",
+      "home_team": {
+        "abbreviation": "JMU",
+        "classification": "fbs",
+        "conference": "Sun Belt",
+        "id": "256",
+        "name": "James Madison"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401869947.json",
+      "kickoff": "2026-11-28T19:00:00.000Z",
+      "kickoff_central": "2026-11-28T13:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -17.5,
+      "market_total": 54.5,
+      "model_preferred_side": "James Madison",
+      "model_spread_home": -22.880341572851194,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": 5.380341572851194,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401869947.html",
+      "venue": {
+        "id": "3651",
+        "location": {
+          "city": "Harrisonburg",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 38.4352919,
+          "longitude": -78.8729349,
+          "state": "VA",
+          "timezone": "America/New_York"
+        },
+        "location_available": true,
+        "name": "Bridgeforth Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401869947.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "FAU",
+        "classification": "fbs",
+        "conference": "American Athletic",
+        "id": "2226",
+        "name": "Florida Atlantic"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401862837",
+      "home_team": {
+        "abbreviation": "ECU",
+        "classification": "fbs",
+        "conference": "American Athletic",
+        "id": "151",
+        "name": "East Carolina"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401862837.json",
+      "kickoff": "2026-11-28T18:00:00.000Z",
+      "kickoff_central": "2026-11-28T12:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -1.5,
+      "market_total": 57.5,
+      "model_preferred_side": "East Carolina",
+      "model_spread_home": -6.873350809298961,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": 5.373350809298961,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401862837.html",
+      "venue": {
+        "id": "3699",
+        "location": {
+          "city": "Greenville",
+          "countryCode": "US",
+          "dome": false,
+          "grass": true,
+          "latitude": 35.5968486,
+          "longitude": -77.364564,
+          "state": "NC",
+          "timezone": "America/New_York"
+        },
+        "location_available": true,
+        "name": "Dowdy-Ficklen Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401862837.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "LIB",
+        "classification": "fbs",
+        "conference": "Conference USA",
+        "id": "2335",
+        "name": "Liberty"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401871063",
+      "home_team": {
+        "abbreviation": "MOST",
+        "classification": "fbs",
+        "conference": "Conference USA",
+        "id": "2623",
+        "name": "Missouri State"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401871063.json",
+      "kickoff": "2026-11-28T19:00:00.000Z",
+      "kickoff_central": "2026-11-28T13:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": 18.5,
+      "market_total": 52.5,
+      "model_preferred_side": "Liberty",
+      "model_spread_home": 23.865031200029648,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": -5.365031200029648,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401871063.html",
+      "venue": {
+        "id": "3878",
+        "location": {
+          "city": "Springfield",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 37.1976229,
+          "longitude": -93.2798119,
+          "state": "MO",
+          "timezone": "America/Chicago"
+        },
+        "location_available": true,
+        "name": "Plaster Sports Complex",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401871063.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "BC",
+        "classification": "fbs",
+        "conference": "ACC",
+        "id": "103",
+        "name": "Boston College"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401858311",
+      "home_team": {
+        "abbreviation": "MIA",
+        "classification": "fbs",
+        "conference": "ACC",
+        "id": "2390",
+        "name": "Miami"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858311.json",
+      "kickoff": "2026-11-28T17:00:00.000Z",
+      "kickoff_central": "2026-11-28T11:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -25.5,
+      "market_total": 53.5,
+      "model_preferred_side": "Miami",
+      "model_spread_home": -30.252579668058726,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": 4.752579668058726,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858311.html",
+      "venue": {
+        "id": "3948",
+        "location": {
+          "city": "Miami Gardens",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 25.9579665,
+          "longitude": -80.2388604,
+          "state": "FL",
+          "timezone": "America/New_York"
+        },
+        "location_available": true,
+        "name": "Hard Rock Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858311.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "KENN",
+        "classification": "fbs",
+        "conference": "Conference USA",
+        "id": "338",
+        "name": "Kennesaw State"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401870804",
+      "home_team": {
+        "abbreviation": "WKU",
+        "classification": "fbs",
+        "conference": "Conference USA",
+        "id": "98",
+        "name": "Western Kentucky"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401870804.json",
+      "kickoff": "2026-11-28T18:00:00.000Z",
+      "kickoff_central": "2026-11-28T12:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": 3.5,
+      "market_total": 53.5,
+      "model_preferred_side": "Western Kentucky",
+      "model_spread_home": -1.068118023006327,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": 4.568118023006327,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401870804.html",
+      "venue": {
+        "id": "3796",
+        "location": {
+          "city": "Bowling Green",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 36.9847901,
+          "longitude": -86.4594041,
+          "state": "KY",
+          "timezone": "America/Chicago"
+        },
+        "location_available": true,
+        "name": "Houchens Industries-L.T. Smith Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401870804.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "TOL",
+        "classification": "fbs",
+        "conference": "Mid-American",
+        "id": "2649",
+        "name": "Toledo"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401866473",
+      "home_team": {
+        "abbreviation": "OHIO",
+        "classification": "fbs",
+        "conference": "Mid-American",
+        "id": "195",
+        "name": "Ohio"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401866473.json",
+      "kickoff": "2026-11-27T17:00:00.000Z",
+      "kickoff_central": "2026-11-27T11:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": 3.0,
+      "market_total": 44.5,
+      "model_preferred_side": "Toledo",
+      "model_spread_home": 7.503404203715958,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": -4.503404203715958,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401866473.html",
+      "venue": {
+        "id": "3876",
+        "location": {
+          "city": "Athens",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 39.3212794,
+          "longitude": -82.1034315,
+          "state": "OH",
+          "timezone": "America/New_York"
+        },
+        "location_available": true,
+        "name": "Peden Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401866473.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "MSU",
+        "classification": "fbs",
+        "conference": "Big Ten",
+        "id": "127",
+        "name": "Michigan State"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401858542",
+      "home_team": {
+        "abbreviation": "RUTG",
+        "classification": "fbs",
+        "conference": "Big Ten",
+        "id": "164",
+        "name": "Rutgers"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858542.json",
+      "kickoff": "2026-11-28T21:15:00.000Z",
+      "kickoff_central": "2026-11-28T15:15:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": 3.0,
+      "market_total": 46.5,
+      "model_preferred_side": "Michigan State",
+      "model_spread_home": 7.120275196249435,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": -4.120275196249435,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858542.html",
+      "venue": {
+        "id": "6577",
+        "location": {
+          "city": "Piscataway",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 40.513611,
+          "longitude": -74.465278,
+          "state": "NJ",
+          "timezone": "America/New_York"
+        },
+        "location_available": true,
+        "name": "SHI Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858542.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "MINN",
+        "classification": "fbs",
+        "conference": "Big Ten",
+        "id": "135",
+        "name": "Minnesota"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401858544",
+      "home_team": {
+        "abbreviation": "WIS",
+        "classification": "fbs",
+        "conference": "Big Ten",
+        "id": "275",
+        "name": "Wisconsin"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858544.json",
+      "kickoff": "2026-11-28T00:30:00.000Z",
+      "kickoff_central": "2026-11-27T18:30:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -9.5,
+      "market_total": 37.5,
+      "model_preferred_side": "Wisconsin",
+      "model_spread_home": -13.477327215507795,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": 3.9773272155077954,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858544.html",
+      "venue": {
+        "id": "347",
+        "location": {
+          "city": "Madison",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 43.06994,
+          "longitude": -89.4126943,
+          "state": "WI",
+          "timezone": "America/Chicago"
+        },
+        "location_available": true,
+        "name": "Camp Randall Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858544.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "OU",
+        "classification": "fbs",
+        "conference": "SEC",
+        "id": "201",
+        "name": "Oklahoma"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401856763",
+      "home_team": {
+        "abbreviation": "MIZ",
+        "classification": "fbs",
+        "conference": "SEC",
+        "id": "142",
+        "name": "Missouri"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856763.json",
+      "kickoff": "2026-11-28T21:15:00.000Z",
+      "kickoff_central": "2026-11-28T15:15:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -2.5,
+      "market_total": 41.5,
+      "model_preferred_side": "Oklahoma",
+      "model_spread_home": 1.36368338034135,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": -3.86368338034135,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856763.html",
+      "venue": {
+        "id": "3838",
+        "location": {
+          "city": "Columbia",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 38.9358491,
+          "longitude": -92.3332009,
+          "state": "MO",
+          "timezone": "America/Chicago"
+        },
+        "location_available": true,
+        "name": "Memorial Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856763.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "SHSU",
+        "classification": "fbs",
+        "conference": "Conference USA",
+        "id": "2534",
+        "name": "Sam Houston"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401871082",
+      "home_team": {
+        "abbreviation": "FIU",
+        "classification": "fbs",
+        "conference": "Conference USA",
+        "id": "2229",
+        "name": "Florida International"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401871082.json",
+      "kickoff": "2026-11-28T19:00:00.000Z",
+      "kickoff_central": "2026-11-28T13:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -11.5,
+      "market_total": 40.5,
+      "model_preferred_side": "Florida International",
+      "model_spread_home": -15.323562176027446,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": 3.823562176027446,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401871082.html",
+      "venue": {
+        "id": "2031",
+        "location": {
+          "city": "Miami",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 25.7525,
+          "longitude": -80.37778,
+          "state": "FL",
+          "timezone": "America/New_York"
+        },
+        "location_available": true,
+        "name": "Pitbull Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401871082.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "LOU",
+        "classification": "fbs",
+        "conference": "ACC",
+        "id": "97",
+        "name": "Louisville"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401856761",
+      "home_team": {
+        "abbreviation": "UK",
+        "classification": "fbs",
+        "conference": "SEC",
+        "id": "96",
+        "name": "Kentucky"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856761.json",
+      "kickoff": "2026-11-28T17:00:00.000Z",
+      "kickoff_central": "2026-11-28T11:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": 3.0,
+      "market_total": 53.5,
+      "model_preferred_side": "Louisville",
+      "model_spread_home": 6.691811420111371,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": -3.691811420111371,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856761.html",
+      "venue": {
+        "id": "3683",
+        "location": {
+          "city": "Lexington",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 38.0220905,
+          "longitude": -84.5053408,
+          "state": "KY",
+          "timezone": "America/New_York"
+        },
+        "location_available": true,
+        "name": "Kroger Field",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856761.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "BUF",
+        "classification": "fbs",
+        "conference": "Mid-American",
+        "id": "2084",
+        "name": "Buffalo"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401866472",
+      "home_team": {
+        "abbreviation": "AKR",
+        "classification": "fbs",
+        "conference": "Mid-American",
+        "id": "2006",
+        "name": "Akron"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401866472.json",
+      "kickoff": "2026-11-27T17:00:00.000Z",
+      "kickoff_central": "2026-11-27T11:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": 7.5,
+      "market_total": 48.5,
+      "model_preferred_side": "Akron",
+      "model_spread_home": 4.069802814274041,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": 3.4301971857259588,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401866472.html",
+      "venue": {
+        "id": "3768",
+        "location": {
+          "city": "Akron",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 41.0725534,
+          "longitude": -81.5083408,
+          "state": "OH",
+          "timezone": "America/New_York"
+        },
+        "location_available": true,
+        "name": "InfoCision Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401866472.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "BAY",
+        "classification": "fbs",
+        "conference": "Big 12",
+        "id": "239",
+        "name": "Baylor"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401856874",
+      "home_team": {
+        "abbreviation": "HOU",
+        "classification": "fbs",
+        "conference": "Big 12",
+        "id": "248",
+        "name": "Houston"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856874.json",
+      "kickoff": "2026-11-29T02:30:00.000Z",
+      "kickoff_central": "2026-11-28T20:30:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -4.5,
+      "market_total": 55.5,
+      "model_preferred_side": "Baylor",
+      "model_spread_home": -1.0787385061457595,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": -3.4212614938542405,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856874.html",
+      "venue": {
+        "id": "4728",
+        "location": {
+          "city": "Houston",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 29.7219885,
+          "longitude": -95.3491623,
+          "state": "TX",
+          "timezone": "America/Chicago"
+        },
+        "location_available": true,
+        "name": "TDECU Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856874.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "FLA",
+        "classification": "fbs",
+        "conference": "SEC",
+        "id": "57",
+        "name": "Florida"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401856759",
+      "home_team": {
+        "abbreviation": "FSU",
+        "classification": "fbs",
+        "conference": "ACC",
+        "id": "52",
+        "name": "Florida State"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856759.json",
+      "kickoff": "2026-11-27T20:30:00.000Z",
+      "kickoff_central": "2026-11-27T14:30:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": 6.5,
+      "market_total": 53.5,
+      "model_preferred_side": "Florida State",
+      "model_spread_home": 3.161943335760341,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": 3.338056664239659,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856759.html",
+      "venue": {
+        "id": "3697",
+        "location": {
+          "city": "Tallahassee",
+          "countryCode": "US",
+          "dome": false,
+          "grass": true,
+          "latitude": 30.4381692,
+          "longitude": -84.3044032,
+          "state": "FL",
+          "timezone": "America/New_York"
+        },
+        "location_available": true,
+        "name": "Doak Campbell Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856759.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "BOIS",
+        "classification": "fbs",
+        "conference": "Pac-12",
+        "id": "68",
+        "name": "Boise State"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401860926",
+      "home_team": {
+        "abbreviation": "CSU",
+        "classification": "fbs",
+        "conference": "Pac-12",
+        "id": "36",
+        "name": "Colorado State"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401860926.json",
+      "kickoff": "2026-11-28T23:00:00.000Z",
+      "kickoff_central": "2026-11-28T17:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": 21.0,
+      "market_total": 76.5,
+      "model_preferred_side": "Boise State",
+      "model_spread_home": 24.3003274584687,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": -3.3003274584687006,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401860926.html",
+      "venue": {
+        "id": "5388",
+        "location": {
+          "city": "Fort Collins",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 40.570015,
+          "longitude": -105.088435,
+          "state": "CO",
+          "timezone": "America/Denver"
+        },
+        "location_available": true,
+        "name": "Canvas Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401860926.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "UTEP",
+        "classification": "fbs",
+        "conference": "Mountain West",
+        "id": "2638",
+        "name": "UTEP"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401864550",
+      "home_team": {
+        "abbreviation": "NIU",
+        "classification": "fbs",
+        "conference": "Mountain West",
+        "id": "2459",
+        "name": "Northern Illinois"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401864550.json",
+      "kickoff": "2026-11-28T20:30:00.000Z",
+      "kickoff_central": "2026-11-28T14:30:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -4.5,
+      "market_total": 50.5,
+      "model_preferred_side": "Northern Illinois",
+      "model_spread_home": -7.800190032716346,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": 3.300190032716346,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401864550.html",
+      "venue": {
+        "id": "3764",
+        "location": {
+          "city": "DeKalb",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 41.9339586,
+          "longitude": -88.7778357,
+          "state": "IL",
+          "timezone": "America/Chicago"
+        },
+        "location_available": true,
+        "name": "Huskie Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401864550.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "TEM",
+        "classification": "fbs",
+        "conference": "American Athletic",
+        "id": "218",
+        "name": "Temple"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401862838",
+      "home_team": {
+        "abbreviation": "MEM",
+        "classification": "fbs",
+        "conference": "American Athletic",
+        "id": "235",
+        "name": "Memphis"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401862838.json",
+      "kickoff": "2026-11-27T20:30:00.000Z",
+      "kickoff_central": "2026-11-27T14:30:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -18.5,
+      "market_total": 65.5,
+      "model_preferred_side": "Memphis",
+      "model_spread_home": -21.762407310520093,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": 3.262407310520093,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401862838.html",
+      "venue": {
+        "id": "3805",
+        "location": {
+          "city": "Memphis",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 35.1209429,
+          "longitude": -89.977147,
+          "state": "TN",
+          "timezone": "America/Chicago"
+        },
+        "location_available": true,
+        "name": "Simmons Bank Liberty Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401862838.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "ARMY",
+        "classification": "fbs",
+        "conference": "American Athletic",
+        "id": "349",
+        "name": "Army"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401862841",
+      "home_team": {
+        "abbreviation": "RICE",
+        "classification": "fbs",
+        "conference": "American Athletic",
+        "id": "242",
+        "name": "Rice"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401862841.json",
+      "kickoff": "2026-11-28T19:00:00.000Z",
+      "kickoff_central": "2026-11-28T13:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": 5.5,
+      "market_total": 47.5,
+      "model_preferred_side": "Army",
+      "model_spread_home": 8.609127288311413,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": -3.109127288311413,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401862841.html",
+      "venue": {
+        "id": "3895",
+        "location": {
+          "city": "Houston",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 29.7163297,
+          "longitude": -95.4093261,
+          "state": "TX",
+          "timezone": "America/Chicago"
+        },
+        "location_available": true,
+        "name": "Rice Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401862841.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "AF",
+        "classification": "fbs",
+        "conference": "Mountain West",
+        "id": "2005",
+        "name": "Air Force"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401864546",
+      "home_team": {
+        "abbreviation": "UNM",
+        "classification": "fbs",
+        "conference": "Mountain West",
+        "id": "167",
+        "name": "New Mexico"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401864546.json",
+      "kickoff": "2026-11-27T21:30:00.000Z",
+      "kickoff_central": "2026-11-27T15:30:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -6.5,
+      "market_total": 42.5,
+      "model_preferred_side": "New Mexico",
+      "model_spread_home": -9.59859966281265,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": 3.0985996628126493,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401864546.html",
+      "venue": {
+        "id": "3971",
+        "location": {
+          "city": "Albuquerque",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 35.0669479,
+          "longitude": -106.6283225,
+          "state": "NM",
+          "timezone": "America/Denver"
+        },
+        "location_available": true,
+        "name": "University Stadium (NM)",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401864546.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "TEX",
+        "classification": "fbs",
+        "conference": "SEC",
+        "id": "251",
+        "name": "Texas"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401856756",
+      "home_team": {
+        "abbreviation": "TA&M",
+        "classification": "fbs",
+        "conference": "SEC",
+        "id": "245",
+        "name": "Texas A&M"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856756.json",
+      "kickoff": "2026-11-28T00:30:00.000Z",
+      "kickoff_central": "2026-11-27T18:30:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": 10.5,
+      "market_total": 40.5,
+      "model_preferred_side": "Texas A&M",
+      "model_spread_home": 7.449051869946934,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": 3.050948130053066,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856756.html",
+      "venue": {
+        "id": "3795",
+        "location": {
+          "city": "College Station",
+          "countryCode": "US",
+          "dome": false,
+          "grass": true,
+          "latitude": 30.6098891,
+          "longitude": -96.3403828,
+          "state": "TX",
+          "timezone": "America/Chicago"
+        },
+        "location_available": true,
+        "name": "Kyle Field",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856756.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "LT",
+        "classification": "fbs",
+        "conference": "Sun Belt",
+        "id": "2348",
+        "name": "Louisiana Tech"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401869954",
+      "home_team": {
+        "abbreviation": "GASO",
+        "classification": "fbs",
+        "conference": "Sun Belt",
+        "id": "290",
+        "name": "Georgia Southern"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401869954.json",
+      "kickoff": "2026-11-28T17:00:00.000Z",
+      "kickoff_central": "2026-11-28T11:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -2.5,
+      "market_total": 53.5,
+      "model_preferred_side": "Louisiana Tech",
+      "model_spread_home": 0.4947926214940823,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": -2.9947926214940823,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401869954.html",
+      "venue": {
+        "id": "3608",
+        "location": {
+          "city": "Statesboro",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 32.4122471,
+          "longitude": -81.7849296,
+          "state": "GA",
+          "timezone": "America/New_York"
+        },
+        "location_available": true,
+        "name": "Allen E. Paulson Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401869954.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "TULN",
+        "classification": "fbs",
+        "conference": "American Athletic",
+        "id": "2655",
+        "name": "Tulane"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401862839",
+      "home_team": {
+        "abbreviation": "USF",
+        "classification": "fbs",
+        "conference": "American Athletic",
+        "id": "58",
+        "name": "South Florida"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401862839.json",
+      "kickoff": "2026-11-28T20:30:00.000Z",
+      "kickoff_central": "2026-11-28T14:30:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -6.5,
+      "market_total": 44.5,
+      "model_preferred_side": "South Florida",
+      "model_spread_home": -9.467531193402076,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": 2.967531193402076,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401862839.html",
+      "venue": {
+        "id": "3886",
+        "location": {
+          "city": "Tampa",
+          "countryCode": "US",
+          "dome": false,
+          "grass": true,
+          "latitude": 27.9758691,
+          "longitude": -82.5033344,
+          "state": "FL",
+          "timezone": "America/New_York"
+        },
+        "location_available": true,
+        "name": "Raymond James Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401862839.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "MASS",
+        "classification": "fbs",
+        "conference": "Mid-American",
+        "id": "113",
+        "name": "Massachusetts"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401866475",
+      "home_team": {
+        "abbreviation": "BGSU",
+        "classification": "fbs",
+        "conference": "Mid-American",
+        "id": "189",
+        "name": "Bowling Green"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401866475.json",
+      "kickoff": "2026-11-28T20:30:00.000Z",
+      "kickoff_central": "2026-11-28T14:30:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -3.0,
+      "market_total": 41.5,
+      "model_preferred_side": "Bowling Green",
+      "model_spread_home": -5.887354873821955,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": 2.8873548738219554,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401866475.html",
+      "venue": {
+        "id": "3700",
+        "location": {
+          "city": "Bowling Green",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 41.3780114,
+          "longitude": -83.6225,
+          "state": "OH",
+          "timezone": "America/New_York"
+        },
+        "location_available": true,
+        "name": "Doyt L. Perry Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401866475.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "CONN",
+        "classification": "fbs",
+        "conference": "FBS Independents",
+        "id": "41",
+        "name": "UConn"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401861969",
+      "home_team": {
+        "abbreviation": "WYO",
+        "classification": "fbs",
+        "conference": "Mountain West",
+        "id": "2751",
+        "name": "Wyoming"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401861969.json",
+      "kickoff": "2026-11-28T17:00:00.000Z",
+      "kickoff_central": "2026-11-28T11:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": 3.5,
+      "market_total": 44.5,
+      "model_preferred_side": "Wyoming",
+      "model_spread_home": 0.7693134304024913,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": 2.7306865695975087,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401861969.html",
+      "venue": {
+        "id": "3984",
+        "location": {
+          "city": "Laramie",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 41.31161,
+          "longitude": -105.5681384,
+          "state": "WY",
+          "timezone": "America/Denver"
+        },
+        "location_available": true,
+        "name": "War Memorial Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401861969.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "PSU",
+        "classification": "fbs",
+        "conference": "Big Ten",
+        "id": "213",
+        "name": "Penn State"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401858539",
+      "home_team": {
+        "abbreviation": "MD",
+        "classification": "fbs",
+        "conference": "Big Ten",
+        "id": "120",
+        "name": "Maryland"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858539.json",
+      "kickoff": "2026-11-28T20:30:00.000Z",
+      "kickoff_central": "2026-11-28T14:30:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": 7.0,
+      "market_total": 48.5,
+      "model_preferred_side": "Penn State",
+      "model_spread_home": 9.509782351007516,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": -2.509782351007516,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858539.html",
+      "venue": {
+        "id": "3665",
+        "location": {
+          "city": "College Park",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 38.9903332,
+          "longitude": -76.9473792,
+          "state": "MD",
+          "timezone": "America/New_York"
+        },
+        "location_available": true,
+        "name": "SECU Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858539.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "TXST",
+        "classification": "fbs",
+        "conference": "Pac-12",
+        "id": "326",
+        "name": "Texas State"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401860928",
+      "home_team": {
+        "abbreviation": "USU",
+        "classification": "fbs",
+        "conference": "Pac-12",
+        "id": "328",
+        "name": "Utah State"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401860928.json",
+      "kickoff": "2026-11-29T02:30:00.000Z",
+      "kickoff_central": "2026-11-28T20:30:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": 7.0,
+      "market_total": 52.5,
+      "model_preferred_side": "Texas State",
+      "model_spread_home": 9.45952842467911,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": -2.4595284246791103,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401860928.html",
+      "venue": {
+        "id": "3905",
+        "location": {
+          "city": "Logan",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 41.7517394,
+          "longitude": -111.8116007,
+          "state": "UT",
+          "timezone": "America/Denver"
+        },
+        "location_available": true,
+        "name": "Maverik Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401860928.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "UL",
+        "classification": "fbs",
+        "conference": "Sun Belt",
+        "id": "309",
+        "name": "Louisiana"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401869959",
+      "home_team": {
+        "abbreviation": "GAST",
+        "classification": "fbs",
+        "conference": "Sun Belt",
+        "id": "2247",
+        "name": "Georgia State"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401869959.json",
+      "kickoff": "2026-11-28T19:00:00.000Z",
+      "kickoff_central": "2026-11-28T13:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": 4.5,
+      "market_total": 55.5,
+      "model_preferred_side": "Georgia State",
+      "model_spread_home": 2.0435227316635625,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": 2.4564772683364375,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401869959.html",
+      "venue": {
+        "id": "4246",
+        "location": {
+          "city": "Atlanta",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 33.735267,
+          "longitude": -84.389949,
+          "state": "GA",
+          "timezone": "America/New_York"
+        },
+        "location_available": true,
+        "name": "Center Parc Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401869959.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "ASU",
+        "classification": "fbs",
+        "conference": "Big 12",
+        "id": "9",
+        "name": "Arizona State"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401856873",
+      "home_team": {
+        "abbreviation": "ARIZ",
+        "classification": "fbs",
+        "conference": "Big 12",
+        "id": "12",
+        "name": "Arizona"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856873.json",
+      "kickoff": "2026-11-29T02:00:00.000Z",
+      "kickoff_central": "2026-11-28T20:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -7.5,
+      "market_total": 53.5,
+      "model_preferred_side": "Arizona",
+      "model_spread_home": -9.865149466393248,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": 2.365149466393248,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856873.html",
+      "venue": {
+        "id": "3619",
+        "location": {
+          "city": "Tucson",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 32.2288054,
+          "longitude": -110.9488677,
+          "state": "AZ",
+          "timezone": "America/Phoenix"
+        },
+        "location_available": true,
+        "name": "Arizona Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856873.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "TENN",
+        "classification": "fbs",
+        "conference": "SEC",
+        "id": "2633",
+        "name": "Tennessee"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401856765",
+      "home_team": {
+        "abbreviation": "VAN",
+        "classification": "fbs",
+        "conference": "SEC",
+        "id": "238",
+        "name": "Vanderbilt"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856765.json",
+      "kickoff": "2026-11-29T00:00:00.000Z",
+      "kickoff_central": "2026-11-28T18:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": 13.5,
+      "market_total": 42.5,
+      "model_preferred_side": "Vanderbilt",
+      "model_spread_home": 11.171483980597749,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": 2.328516019402251,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856765.html",
+      "venue": {
+        "id": "3973",
+        "location": {
+          "city": "Nashville",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 36.1440455,
+          "longitude": -86.8088942,
+          "state": "TN",
+          "timezone": "America/Chicago"
+        },
+        "location_available": true,
+        "name": "FirstBank Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856765.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "WASH",
+        "classification": "fbs",
+        "conference": "Big Ten",
+        "id": "264",
+        "name": "Washington"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401858541",
+      "home_team": {
+        "abbreviation": "ORE",
+        "classification": "fbs",
+        "conference": "Big Ten",
+        "id": "2483",
+        "name": "Oregon"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858541.json",
+      "kickoff": "2026-11-29T00:30:00.000Z",
+      "kickoff_central": "2026-11-28T18:30:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -13.5,
+      "market_total": 50.5,
+      "model_preferred_side": "Washington",
+      "model_spread_home": -11.378309497408042,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": -2.1216905025919583,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858541.html",
+      "venue": {
+        "id": "3626",
+        "location": {
+          "city": "Eugene",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 44.0582712,
+          "longitude": -123.0684883,
+          "state": "OR",
+          "timezone": "America/Los_Angeles"
+        },
+        "location_available": true,
+        "name": "Autzen Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858541.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "JXST",
+        "classification": "fbs",
+        "conference": "Conference USA",
+        "id": "55",
+        "name": "Jacksonville State"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401871062",
+      "home_team": {
+        "abbreviation": "DEL",
+        "classification": "fbs",
+        "conference": "Conference USA",
+        "id": "48",
+        "name": "Delaware"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401871062.json",
+      "kickoff": "2026-11-28T20:30:00.000Z",
+      "kickoff_central": "2026-11-28T14:30:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -2.5,
+      "market_total": 58.5,
+      "model_preferred_side": "Jacksonville State",
+      "model_spread_home": -0.46781307265378924,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": -2.0321869273462108,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401871062.html",
+      "venue": {
+        "id": "3695",
+        "location": {
+          "city": "Newark",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 39.6617428,
+          "longitude": -75.7488224,
+          "state": "DE",
+          "timezone": "America/New_York"
+        },
+        "location_available": true,
+        "name": "Delaware Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401871062.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "NMSU",
+        "classification": "fbs",
+        "conference": "Conference USA",
+        "id": "166",
+        "name": "New Mexico State"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401871083",
+      "home_team": {
+        "abbreviation": "MTSU",
+        "classification": "fbs",
+        "conference": "Conference USA",
+        "id": "2393",
+        "name": "Middle Tennessee"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401871083.json",
+      "kickoff": "2026-11-28T19:00:00.000Z",
+      "kickoff_central": "2026-11-28T13:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -3.0,
+      "market_total": 51.5,
+      "model_preferred_side": "Middle Tennessee",
+      "model_spread_home": -4.809636143533126,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": 1.809636143533126,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401871083.html",
+      "venue": {
+        "id": "3725",
+        "location": {
+          "city": "Murfreesboro",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 35.8511463,
+          "longitude": -86.3681649,
+          "state": "TN",
+          "timezone": "America/Chicago"
+        },
+        "location_available": true,
+        "name": "Johnny \"Red\" Floyd Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401871083.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "UCF",
+        "classification": "fbs",
+        "conference": "Big 12",
+        "id": "2116",
+        "name": "UCF"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401856875",
+      "home_team": {
+        "abbreviation": "COLO",
+        "classification": "fbs",
+        "conference": "Big 12",
+        "id": "38",
+        "name": "Colorado"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856875.json",
+      "kickoff": "2026-11-28T19:00:00.000Z",
+      "kickoff_central": "2026-11-28T13:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -2.5,
+      "market_total": 49.5,
+      "model_preferred_side": "UCF",
+      "model_spread_home": -1.1641411981705865,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": -1.3358588018294135,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856875.html",
+      "venue": {
+        "id": "3726",
+        "location": {
+          "city": "Boulder",
+          "countryCode": "US",
+          "dome": false,
+          "grass": true,
+          "latitude": 40.0094746,
+          "longitude": -105.266905,
+          "state": "CO",
+          "timezone": "America/Denver"
+        },
+        "location_available": true,
+        "name": "Folsom Field",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856875.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "TROY",
+        "classification": "fbs",
+        "conference": "Sun Belt",
+        "id": "2653",
+        "name": "Troy"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401869939",
+      "home_team": {
+        "abbreviation": "ARST",
+        "classification": "fbs",
+        "conference": "Sun Belt",
+        "id": "2032",
+        "name": "Arkansas State"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401869939.json",
+      "kickoff": "2026-11-28T20:00:00.000Z",
+      "kickoff_central": "2026-11-28T14:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -3.5,
+      "market_total": 46.5,
+      "model_preferred_side": "Arkansas State",
+      "model_spread_home": -4.768782557552623,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": 1.2687825575526226,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401869939.html",
+      "venue": {
+        "id": "3625",
+        "location": {
+          "city": "Jonesboro",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 35.8488977,
+          "longitude": -90.6677436,
+          "state": "AR",
+          "timezone": "America/Chicago"
+        },
+        "location_available": true,
+        "name": "Centennial Bank Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401869939.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "NEV",
+        "classification": "fbs",
+        "conference": "Mountain West",
+        "id": "2440",
+        "name": "Nevada"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401864548",
+      "home_team": {
+        "abbreviation": "UNLV",
+        "classification": "fbs",
+        "conference": "Mountain West",
+        "id": "2439",
+        "name": "UNLV"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401864548.json",
+      "kickoff": "2026-11-29T02:00:00.000Z",
+      "kickoff_central": "2026-11-28T20:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -5.5,
+      "market_total": 44.5,
+      "model_preferred_side": "UNLV",
+      "model_spread_home": -6.751196943824686,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": 1.2511969438246862,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401864548.html",
+      "venue": {
+        "id": "6501",
+        "location": {
+          "city": "Las Vegas",
+          "countryCode": "US",
+          "dome": true,
+          "grass": false,
+          "latitude": 36.09075,
+          "longitude": -115.183722,
+          "state": "NV",
+          "timezone": "America/Los_Angeles"
+        },
+        "location_available": true,
+        "name": "Allegiant Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401864548.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "SDSU",
+        "classification": "fbs",
+        "conference": "Pac-12",
+        "id": "21",
+        "name": "San Diego State"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401860929",
+      "home_team": {
+        "abbreviation": "WSU",
+        "classification": "fbs",
+        "conference": "Pac-12",
+        "id": "265",
+        "name": "Washington State"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401860929.json",
+      "kickoff": "2026-11-28T23:30:00.000Z",
+      "kickoff_central": "2026-11-28T17:30:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -2.5,
+      "market_total": 46.5,
+      "model_preferred_side": "Washington State",
+      "model_spread_home": -3.6088120253134184,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": 1.1088120253134184,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401860929.html",
+      "venue": {
+        "id": "3820",
+        "location": {
+          "city": "Pullman",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 46.731831,
+          "longitude": -117.1604991,
+          "state": "WA",
+          "timezone": "America/Los_Angeles"
+        },
+        "location_available": true,
+        "name": "Gesa Field",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401860929.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "APP",
+        "classification": "fbs",
+        "conference": "Sun Belt",
+        "id": "2026",
+        "name": "App State"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401869930",
+      "home_team": {
+        "abbreviation": "USA",
+        "classification": "fbs",
+        "conference": "Sun Belt",
+        "id": "6",
+        "name": "South Alabama"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401869930.json",
+      "kickoff": "2026-11-27T20:00:00.000Z",
+      "kickoff_central": "2026-11-27T14:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -3.5,
+      "market_total": 56.5,
+      "model_preferred_side": "South Alabama",
+      "model_spread_home": -4.566413966407713,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": 1.0664139664077128,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401869930.html",
+      "venue": {
+        "id": "6526",
+        "location": {
+          "city": "Mobile",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 30.696904,
+          "longitude": -88.192013,
+          "state": "AL",
+          "timezone": "America/Chicago"
+        },
+        "location_available": true,
+        "name": "Hancock Whitney Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401869930.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "NEB",
+        "classification": "fbs",
+        "conference": "Big Ten",
+        "id": "158",
+        "name": "Nebraska"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401858536",
+      "home_team": {
+        "abbreviation": "IOWA",
+        "classification": "fbs",
+        "conference": "Big Ten",
+        "id": "2294",
+        "name": "Iowa"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858536.json",
+      "kickoff": "2026-11-27T17:00:00.000Z",
+      "kickoff_central": "2026-11-27T11:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -3.5,
+      "market_total": 40.5,
+      "model_preferred_side": "Nebraska",
+      "model_spread_home": -2.614463103650395,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": -0.8855368963496049,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858536.html",
+      "venue": {
+        "id": "3793",
+        "location": {
+          "city": "Iowa City",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 41.6586045,
+          "longitude": -91.5510829,
+          "state": "IA",
+          "timezone": "America/Chicago"
+        },
+        "location_available": true,
+        "name": "Kinnick Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858536.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "MRSH",
+        "classification": "fbs",
+        "conference": "Sun Belt",
+        "id": "276",
+        "name": "Marshall"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401871102",
+      "home_team": {
+        "abbreviation": "ULM",
+        "classification": "fbs",
+        "conference": "Sun Belt",
+        "id": "2433",
+        "name": "UL Monroe"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401871102.json",
+      "kickoff": "2026-11-28T18:00:00.000Z",
+      "kickoff_central": "2026-11-28T12:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": 5.5,
+      "market_total": 51.5,
+      "model_preferred_side": "UL Monroe",
+      "model_spread_home": 4.631330434854147,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": 0.8686695651458534,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401871102.html",
+      "venue": {
+        "id": "3817",
+        "location": {
+          "city": "Monroe",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 32.5308089,
+          "longitude": -92.0660602,
+          "state": "LA",
+          "timezone": "America/Chicago"
+        },
+        "location_available": true,
+        "name": "Malone Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401871102.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "MSST",
+        "classification": "fbs",
+        "conference": "SEC",
+        "id": "344",
+        "name": "Mississippi State"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401856762",
+      "home_team": {
+        "abbreviation": "MISS",
+        "classification": "fbs",
+        "conference": "SEC",
+        "id": "145",
+        "name": "Ole Miss"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856762.json",
+      "kickoff": "2026-11-27T17:00:00.000Z",
+      "kickoff_central": "2026-11-27T11:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -17.5,
+      "market_total": 56.5,
+      "model_preferred_side": "Mississippi State",
+      "model_spread_home": -16.795738852200216,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": -0.7042611477997838,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856762.html",
+      "venue": {
+        "id": "3974",
+        "location": {
+          "city": "Oxford",
+          "countryCode": "US",
+          "dome": false,
+          "grass": true,
+          "latitude": 34.3619837,
+          "longitude": -89.5342076,
+          "state": "MS",
+          "timezone": "America/Chicago"
+        },
+        "location_available": true,
+        "name": "Vaught-Hemingway Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856762.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "CMU",
+        "classification": "fbs",
+        "conference": "Mid-American",
+        "id": "2117",
+        "name": "Central Michigan"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401866474",
+      "home_team": {
+        "abbreviation": "BALL",
+        "classification": "fbs",
+        "conference": "Mid-American",
+        "id": "2050",
+        "name": "Ball State"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401866474.json",
+      "kickoff": "2026-11-28T17:00:00.000Z",
+      "kickoff_central": "2026-11-28T11:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": 3.5,
+      "market_total": 50.5,
+      "model_preferred_side": "Central Michigan",
+      "model_spread_home": 4.027988702353657,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": -0.5279887023536567,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401866474.html",
+      "venue": {
+        "id": "3919",
+        "location": {
+          "city": "Muncie",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 40.2159422,
+          "longitude": -85.4161148,
+          "state": "IN",
+          "timezone": "America/Indiana/Indianapolis"
+        },
+        "location_available": true,
+        "name": "Scheumann Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401866474.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "AUB",
+        "classification": "fbs",
+        "conference": "SEC",
+        "id": "2",
+        "name": "Auburn"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401856757",
+      "home_team": {
+        "abbreviation": "ALA",
+        "classification": "fbs",
+        "conference": "SEC",
+        "id": "333",
+        "name": "Alabama"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856757.json",
+      "kickoff": "2026-11-29T00:30:00.000Z",
+      "kickoff_central": "2026-11-28T18:30:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -15.5,
+      "market_total": 49.5,
+      "model_preferred_side": "Auburn",
+      "model_spread_home": -14.993097054528505,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": -0.5069029454714951,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856757.html",
+      "venue": {
+        "id": "3657",
+        "location": {
+          "city": "Tuscaloosa",
+          "countryCode": "US",
+          "dome": false,
+          "grass": true,
+          "latitude": 33.2082752,
+          "longitude": -87.5503836,
+          "state": "AL",
+          "timezone": "America/Chicago"
+        },
+        "location_available": true,
+        "name": "Bryant-Denny Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856757.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "DUKE",
+        "classification": "fbs",
+        "conference": "ACC",
+        "id": "150",
+        "name": "Duke"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401858312",
+      "home_team": {
+        "abbreviation": "WAKE",
+        "classification": "fbs",
+        "conference": "ACC",
+        "id": "154",
+        "name": "Wake Forest"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858312.json",
+      "kickoff": "2026-11-28T20:30:00.000Z",
+      "kickoff_central": "2026-11-28T14:30:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -14.5,
+      "market_total": 55.5,
+      "model_preferred_side": "Duke",
+      "model_spread_home": -14.015455575796352,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": -0.48454442420364785,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858312.html",
+      "venue": {
+        "id": "3630",
+        "location": {
+          "city": "Winston-Salem",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 36.1305507,
+          "longitude": -80.2545851,
+          "state": "NC",
+          "timezone": "America/New_York"
+        },
+        "location_available": true,
+        "name": "Allegacy Federal Credit Union Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858312.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "CIN",
+        "classification": "fbs",
+        "conference": "Big 12",
+        "id": "2132",
+        "name": "Cincinnati"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401856876",
+      "home_team": {
+        "abbreviation": "BYU",
+        "classification": "fbs",
+        "conference": "Big 12",
+        "id": "252",
+        "name": "BYU"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856876.json",
+      "kickoff": "2026-11-28T20:30:00.000Z",
+      "kickoff_central": "2026-11-28T14:30:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -15.5,
+      "market_total": 56.5,
+      "model_preferred_side": "Cincinnati",
+      "model_spread_home": -15.050323476025909,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": -0.44967652397409097,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856876.html",
+      "venue": {
+        "id": "3801",
+        "location": {
+          "city": "Provo",
+          "countryCode": "US",
+          "dome": false,
+          "grass": true,
+          "latitude": 40.2575347,
+          "longitude": -111.6545247,
+          "state": "UT",
+          "timezone": "America/Denver"
+        },
+        "location_available": true,
+        "name": "LaVell Edwards Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856876.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "LSU",
+        "classification": "fbs",
+        "conference": "SEC",
+        "id": "99",
+        "name": "LSU"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401856758",
+      "home_team": {
+        "abbreviation": "ARK",
+        "classification": "fbs",
+        "conference": "SEC",
+        "id": "8",
+        "name": "Arkansas"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856758.json",
+      "kickoff": "2026-11-28T17:45:00.000Z",
+      "kickoff_central": "2026-11-28T11:45:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": 14.5,
+      "market_total": 49.5,
+      "model_preferred_side": "LSU",
+      "model_spread_home": 14.76925139369063,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": -0.2692513936906291,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856758.html",
+      "venue": {
+        "id": "3887",
+        "location": {
+          "city": "Fayetteville",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 36.0680662,
+          "longitude": -94.1789534,
+          "state": "AR",
+          "timezone": "America/Chicago"
+        },
+        "location_available": true,
+        "name": "Razorback Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856758.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "NCSU",
+        "classification": "fbs",
+        "conference": "ACC",
+        "id": "152",
+        "name": "NC State"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401858313",
+      "home_team": {
+        "abbreviation": "UNC",
+        "classification": "fbs",
+        "conference": "ACC",
+        "id": "153",
+        "name": "North Carolina"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858313.json",
+      "kickoff": "2026-11-28T17:00:00.000Z",
+      "kickoff_central": "2026-11-28T11:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -5.5,
+      "market_total": 53.5,
+      "model_preferred_side": "North Carolina",
+      "model_spread_home": -5.689188084727783,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": 0.1891880847277827,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858313.html",
+      "venue": {
+        "id": "3787",
+        "location": {
+          "city": "Chapel Hill",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 35.9069294,
+          "longitude": -79.0478889,
+          "state": "NC",
+          "timezone": "America/New_York"
+        },
+        "location_available": true,
+        "name": "Kenan Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858313.json"
+    },
+    {
+      "assessment": {
+        "classification": "Watch",
+        "reason": "Review current personnel, weather and a source-qualified line before acting",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": true,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "SC",
+        "classification": "fbs",
+        "conference": "SEC",
+        "id": "2579",
+        "name": "South Carolina"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401856764",
+      "home_team": {
+        "abbreviation": "CLEM",
+        "classification": "fbs",
+        "conference": "ACC",
+        "id": "228",
+        "name": "Clemson"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856764.json",
+      "kickoff": "2026-11-28T20:00:00.000Z",
+      "kickoff_central": "2026-11-28T14:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": 6.5,
+      "market_total": 42.5,
+      "model_preferred_side": "South Carolina",
+      "model_spread_home": 6.676299685559687,
+      "model_total": null,
+      "quality_flags": [],
+      "spread_difference_home": -0.17629968555968656,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856764.html",
+      "venue": {
+        "id": "3836",
+        "location": {
+          "city": "Clemson",
+          "countryCode": "US",
+          "dome": false,
+          "grass": true,
+          "latitude": 34.6787737,
+          "longitude": -82.8432428,
+          "state": "SC",
+          "timezone": "America/New_York"
+        },
+        "location_available": true,
+        "name": "Memorial Stadium (Clemson, SC)",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856764.json"
+    },
+    {
+      "assessment": {
+        "classification": "Pass",
+        "reason": "No eligible upcoming supported comparison",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": false,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "NDSU",
+        "classification": "fbs",
+        "conference": "Mountain West",
+        "id": "2449",
+        "name": "North Dakota State"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401864549",
+      "home_team": {
+        "abbreviation": "SJSU",
+        "classification": "fbs",
+        "conference": "Mountain West",
+        "id": "23",
+        "name": "San José State"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401864549.json",
+      "kickoff": "2026-11-27T20:30:00.000Z",
+      "kickoff_central": "2026-11-27T14:30:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": 8.5,
+      "market_total": 39.5,
+      "model_preferred_side": null,
+      "model_spread_home": null,
+      "model_total": null,
+      "quality_flags": [
+        "Model unavailable: prior_team_core_efficiency_missing"
+      ],
+      "spread_difference_home": null,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401864549.html",
+      "venue": {
+        "id": "3935",
+        "location": {
+          "city": "San Jose",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 37.3196675,
+          "longitude": -121.8682962,
+          "state": "CA",
+          "timezone": "America/Los_Angeles"
+        },
+        "location_available": true,
+        "name": "CEFCU Stadium",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401864549.json"
+    },
+    {
+      "assessment": {
+        "classification": "Pass",
+        "reason": "No eligible upcoming supported comparison",
+        "role": "Unreviewed foundation; final classification requires on-demand handicap"
+      },
+      "availability": {
+        "complete_matchup_statistics": true,
+        "current_personnel": false,
+        "line_movement": false,
+        "market": true,
+        "model": false,
+        "opening_line": false,
+        "weather": false
+      },
+      "away_team": {
+        "abbreviation": "SAC",
+        "classification": "fbs",
+        "conference": "Mid-American",
+        "id": "16",
+        "name": "Sacramento State"
+      },
+      "freshness": {
+        "age_seconds": 4.883261,
+        "evaluated_at": "2026-11-27T08:17:20.808461Z",
+        "max_age_seconds": 7200,
+        "observed_at": "2026-11-27T08:17:15.925200+00:00",
+        "refresh_failed": false,
+        "status": "fresh",
+        "warning": null
+      },
+      "game_id": "401864547",
+      "home_team": {
+        "abbreviation": "HAW",
+        "classification": "fbs",
+        "conference": "Mountain West",
+        "id": "62",
+        "name": "Hawai'i"
+      },
+      "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401864547.json",
+      "kickoff": "2026-11-29T04:00:00.000Z",
+      "kickoff_central": "2026-11-28T22:00:00-06:00",
+      "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+      "market_source": "DraftKings",
+      "market_spread_home": -13.5,
+      "market_total": 39.5,
+      "model_preferred_side": null,
+      "model_spread_home": null,
+      "model_total": null,
+      "quality_flags": [
+        "Model unavailable: prior_team_core_efficiency_missing"
+      ],
+      "spread_difference_home": null,
+      "status": "scheduled",
+      "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401864547.html",
+      "venue": {
+        "id": "7220",
+        "location": {
+          "city": "Honolulu",
+          "countryCode": "US",
+          "dome": false,
+          "grass": false,
+          "latitude": 21.294294,
+          "longitude": -157.819338,
+          "state": "HI",
+          "timezone": "Pacific/Honolulu"
+        },
+        "location_available": true,
+        "name": "Clarence T.C. Ching Athletics Complex",
+        "neutral_site": false,
+        "source_url": "https://api.collegefootballdata.com/games"
+      },
+      "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401864547.json"
+    }
+  ],
+  "generated_at": "2026-11-27T08:17:20.808461Z",
+  "immutable_slate_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/slate.html",
+  "kind": "weekly",
+  "latest_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/latest.json",
+  "limitations": [
+    "Market receipts show observation time, not book update time or executable odds.",
+    "No validated model total or score projection; no current verified availability/weather.",
+    "Snapshot status updates require a refresh; the browser suppresses pregame review once kickoff passes."
+  ],
+  "manifest_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/manifest.json",
+  "model": {
+    "home_field_points": 2.491565613957782,
+    "id": "cfb_remaining_2026_owner_handicapping",
+    "lifecycle": "Candidate; owner-approved existing model; no statistical promotion",
+    "market_in_prediction_features": false,
+    "model_total_supported": false,
+    "version": "ed56e1ea90f1592038713da5e0adc9b1694ba36c2386e748195fdf019d7b635d"
+  },
+  "ranking_note": "Rank upcoming games by defensible matchup support and reviewed uncertainty; gap size is an investigation order, never an automatic Play.",
+  "schema_version": "1.0.0",
+  "scope": "daily_window",
+  "season": 2026,
+  "season_type": "mixed",
+  "slate_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/index.html",
+  "snapshot_id": "8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7",
+  "source_snapshot_digest": "167fb7de32ed2a57cc1558577d69b1582756de84cc53a49212eba7b4f2eda935",
+  "sources": [
+    {
+      "family": "games",
+      "observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "sha256": "c9a6574c69898472c6b8e55ef2bcd4d6a2dab2f647a334a30e4234f281ce2727",
+      "url": "https://api.collegefootballdata.com/games"
+    },
+    {
+      "family": "teams",
+      "observed_at": "2026-11-27T08:16:57.798154+00:00",
+      "sha256": "3d81870ba2c5b55ba527248c4306faaa151ddf01aa739960f27b42be45b4aabb",
+      "url": "https://api.collegefootballdata.com/teams"
+    },
+    {
+      "family": "advanced_games",
+      "observed_at": "2026-11-27T08:17:08.189179+00:00",
+      "sha256": "0452e4d039e5c51f003d77871d00fb6ec52899d1d8d6c23675791e8a3d684b54",
+      "url": "https://api.collegefootballdata.com/stats/game/advanced"
+    }
+  ],
+  "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/index.html",
+  "web_manifest_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/manifest.json",
+  "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/latest.json",
+  "week": 13
+}

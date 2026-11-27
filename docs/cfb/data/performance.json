@@ -1,6 +1,6 @@
 {
-  "actuals_observed_at": "2026-11-26T19:13:25.302654+00:00",
-  "generated_at": "2026-11-26T19:29:57.180880+00:00",
+  "actuals_observed_at": "2026-11-27T08:16:57.185830+00:00",
+  "generated_at": "2026-11-27T08:17:25.336308+00:00",
   "historical_checkpoint": {
     "bias": 0.2307272478129725,
     "mae": 12.371417181203032,
@@ -459,9 +459,11 @@
         "status": "pending_result"
       },
       {
+        "actual_home_margin": 21,
         "away_id": "2628",
         "away_team": "TCU",
         "capture_lead_hours": 147.62967050666666,
+        "error_prediction_minus_actual": -9.391350852416307,
         "forecast_at": "2026-11-20T21:22:13.186176Z",
         "forecast_source": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/0a3a5ab9596c1a475f09ec83174a8174b2644807d1946ec5f3aa4157c0630310/manifest.json",
         "game_id": "401856879",
@@ -476,7 +478,9 @@
         "original_kickoff": "2026-11-27T01:00:00.000Z",
         "predicted_home_margin": 11.608649147583693,
         "snapshot_id": "0a3a5ab9596c1a475f09ec83174a8174b2644807d1946ec5f3aa4157c0630310",
-        "status": "pending_result"
+        "status": "graded",
+        "unpriced_model_direction_result": "W",
+        "winner_correct": true
       },
       {
         "away_id": "277",
@@ -1798,20 +1802,20 @@
       }
     ],
     "summary": {
-      "bias_prediction_minus_actual": 2.5385328641795732,
+      "bias_prediction_minus_actual": 1.970443163389293,
       "forecasts": 85,
-      "graded": 20,
+      "graded": 21,
       "kickoff_revised_excluded": 0,
-      "mae": 10.475520516723433,
-      "pending": 65,
+      "mae": 10.423893389851665,
+      "pending": 64,
       "priced_returns_evaluated": false,
-      "rmse": 13.163339822595608,
+      "rmse": 13.00854623211732,
       "unpriced_model_direction": {
         "L": 10,
         "P": 0,
-        "W": 8
+        "W": 9
       },
-      "winner_correct": 17
+      "winner_correct": 18
     }
   },
   "registered_capture_window": {
@@ -2477,9 +2481,11 @@
         "status": "pending_result"
       },
       {
+        "actual_home_margin": 21,
         "away_id": "2628",
         "away_team": "TCU",
         "capture_lead_hours": 147.62967050666666,
+        "error_prediction_minus_actual": -9.391350852416307,
         "forecast_at": "2026-11-20T21:22:13.186176Z",
         "forecast_source": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-WK13/0a3a5ab9596c1a475f09ec83174a8174b2644807d1946ec5f3aa4157c0630310/manifest.json",
         "game_id": "401856879",
@@ -2494,7 +2500,9 @@
         "original_kickoff": "2026-11-27T01:00:00.000Z",
         "predicted_home_margin": 11.608649147583693,
         "snapshot_id": "0a3a5ab9596c1a475f09ec83174a8174b2644807d1946ec5f3aa4157c0630310",
-        "status": "pending_result"
+        "status": "graded",
+        "unpriced_model_direction_result": "W",
+        "winner_correct": true
       },
       {
         "away_id": "277",
@@ -4584,20 +4592,20 @@
       }
     ],
     "summary": {
-      "bias_prediction_minus_actual": -0.33474306901974626,
+      "bias_prediction_minus_actual": -0.48081738810678754,
       "forecasts": 126,
-      "graded": 61,
+      "graded": 62,
       "kickoff_revised_excluded": 0,
-      "mae": 11.770526457003525,
-      "pending": 65,
+      "mae": 11.73215265692954,
+      "pending": 64,
       "priced_returns_evaluated": false,
-      "rmse": 14.798818761092901,
+      "rmse": 14.727363554751697,
       "unpriced_model_direction": {
         "L": 28,
         "P": 0,
-        "W": 31
+        "W": 32
       },
-      "winner_correct": 44
+      "winner_correct": 45
     }
   }
 }
