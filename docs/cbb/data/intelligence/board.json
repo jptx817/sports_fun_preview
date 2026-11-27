@@ -2,7 +2,7 @@
   "actionable": false,
   "coverage": {
     "actionable": 0,
-    "any_projection": 21,
+    "any_projection": 39,
     "both_spread_total_comparisons": 0,
     "consensus_candidates": 0,
     "consensus_watches": 0,
@@ -11,23 +11,23 @@
     "draftkings_spread_lines": 0,
     "draftkings_total_lines": 0,
     "eligible_projection_coverage_pct": 100.0,
-    "eligible_projection_games": 15,
+    "eligible_projection_games": 39,
     "eligible_three_source_coverage_pct": 0.0,
     "eligible_three_source_games": 0,
     "fresh_spread_comparisons": 0,
     "fresh_total_comparisons": 0,
-    "games": 21,
-    "haslametrics": 21,
+    "games": 39,
+    "haslametrics": 39,
     "max_fresh_independent_sources": 1,
     "missing_haslametrics": 0,
-    "missing_market_games": 21,
+    "missing_market_games": 39,
     "neutral_site_unknown": 0,
     "postponed_games": 0,
-    "pregame_games": 15,
+    "pregame_games": 39,
     "projection_sources": {
       "haslametrics": {
-        "eligible_pregame_games": 15,
-        "observations": 21
+        "eligible_pregame_games": 39,
+        "observations": 39
       }
     },
     "spread_consensus_watches": 0,
@@ -41,7 +41,7 @@
     "valid_pregame_spreads": 0,
     "valid_pregame_totals": 0
   },
-  "data_as_of": "2026-11-26T12:31:20.239000Z",
+  "data_as_of": "2026-11-27T12:30:48.228000Z",
   "data_quality": {
     "acquisition_issues": [],
     "additional_source_imports": [],
@@ -63,18 +63,18 @@
       "additional_team_and_matchup_metrics"
     ]
   },
-  "game_date": "2026-11-26",
+  "game_date": "2026-11-27",
   "games": [
     {
       "away_team": {
-        "id": "alabama",
-        "name": "Alabama"
+        "id": "arkansas-pine-bluff",
+        "name": "Arkansas Pine Bluff"
       },
       "comparison": {
         "spread": {
           "consensus_available": false,
           "largest_deviation_sources": [],
-          "median": -19.75,
+          "median": 46.69,
           "origin": "system_calculation",
           "range_points": 0.0,
           "source_count": 1
@@ -82,7 +82,7 @@
         "total": {
           "consensus_available": false,
           "largest_deviation_sources": [],
-          "median": 171.39,
+          "median": 150.73,
           "origin": "system_calculation",
           "range_points": 0.0,
           "source_count": 1
@@ -95,10 +95,216 @@
         "draftkings_market_missing"
       ],
       "draftkings": null,
-      "game_id": "cbb-2027-2026-11-26-alabama-at-kansas-state",
+      "game_id": "cbb-2027-2026-11-27-arkansas-pine-bluff-at-missouri",
       "home_team": {
-        "id": "kansas-state",
-        "name": "Kansas State"
+        "id": "missouri",
+        "name": "Missouri"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": false,
+      "pregame": true,
+      "projections": [
+        {
+          "away_score": 52.02,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 98.71,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
+          "origin": "source_observation",
+          "projected_home_spread": -46.69,
+          "provider": "haslametrics",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
+          "source_updated_at": null,
+          "source_url": "https://www.haslametrics.com/",
+          "total": 150.73
+        }
+      ],
+      "research": {
+        "spread": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        },
+        "total": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        }
+      },
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-arkansas-pine-bluff-at-missouri.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-27T15:00:00-06:00",
+      "tipoff_utc": "2026-11-27T21:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "bellarmine",
+        "name": "Bellarmine"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 17.53,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 150.07,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "draftkings": null,
+      "game_id": "cbb-2027-2026-11-27-bellarmine-at-butler",
+      "home_team": {
+        "id": "butler",
+        "name": "Butler"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": false,
+      "pregame": true,
+      "projections": [
+        {
+          "away_score": 66.27,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 83.8,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
+          "origin": "source_observation",
+          "projected_home_spread": -17.53,
+          "provider": "haslametrics",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
+          "source_updated_at": null,
+          "source_url": "https://www.haslametrics.com/",
+          "total": 150.07
+        }
+      ],
+      "research": {
+        "spread": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        },
+        "total": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        }
+      },
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-bellarmine-at-butler.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-27T14:00:00-06:00",
+      "tipoff_utc": "2026-11-27T20:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "boise-state",
+        "name": "Boise State"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": -8.73,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 155.93,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "draftkings": null,
+      "game_id": "cbb-2027-2026-11-27-boise-state-at-drake",
+      "home_team": {
+        "id": "drake",
+        "name": "Drake"
       },
       "market_available": false,
       "missing_sources": [
@@ -109,19 +315,19 @@
       "pregame": true,
       "projections": [
         {
-          "away_score": 95.57,
+          "away_score": 82.33,
           "basis": "end_of_regulation",
           "freshness": "fresh",
-          "home_score": 75.82,
-          "observed_at": "2026-11-26T12:31:20.239000Z",
+          "home_score": 73.6,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
           "origin": "source_observation",
-          "projected_home_spread": 19.75,
+          "projected_home_spread": 8.73,
           "provider": "haslametrics",
-          "retrieved_at": "2026-11-26T12:31:20.239000Z",
-          "source_as_of_date": "2026-11-24",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
           "source_updated_at": null,
           "source_url": "https://www.haslametrics.com/",
-          "total": 171.39
+          "total": 155.93
         }
       ],
       "research": {
@@ -161,23 +367,23 @@
         }
       },
       "resource": {
-        "path": "data/intelligence/games/cbb-2027-2026-11-26-alabama-at-kansas-state.json"
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-boise-state-at-drake.json"
       },
       "status": "scheduled",
-      "tipoff_central": "2026-11-26T20:00:00-06:00",
-      "tipoff_utc": "2026-11-27T02:00:00Z",
+      "tipoff_central": "2026-11-27T16:30:00-06:00",
+      "tipoff_utc": "2026-11-27T22:30:00Z",
       "venue": null
     },
     {
       "away_team": {
-        "id": "arizona-state",
-        "name": "Arizona State"
+        "id": "bowling-green",
+        "name": "Bowling Green"
       },
       "comparison": {
         "spread": {
           "consensus_available": false,
           "largest_deviation_sources": [],
-          "median": -2.56,
+          "median": 21.86,
           "origin": "system_calculation",
           "range_points": 0.0,
           "source_count": 1
@@ -185,7 +391,7 @@
         "total": {
           "consensus_available": false,
           "largest_deviation_sources": [],
-          "median": 152.7,
+          "median": 155.24,
           "origin": "system_calculation",
           "range_points": 0.0,
           "source_count": 1
@@ -195,118 +401,13 @@
       "consensus_total": null,
       "data_issues": [
         "draftkings_line_missing",
-        "draftkings_market_missing",
-        "not_pregame_or_tipoff_unknown"
+        "draftkings_market_missing"
       ],
       "draftkings": null,
-      "game_id": "cbb-2027-2026-11-26-arizona-state-at-south-carolina",
+      "game_id": "cbb-2027-2026-11-27-bowling-green-at-indiana",
       "home_team": {
-        "id": "south-carolina",
-        "name": "South Carolina"
-      },
-      "market_available": false,
-      "missing_sources": [
-        "barttorvik",
-        "dratings"
-      ],
-      "neutral_site": true,
-      "pregame": false,
-      "projections": [
-        {
-          "away_score": 77.63,
-          "basis": "end_of_regulation",
-          "freshness": "fresh",
-          "home_score": 75.07,
-          "observed_at": "2026-11-26T12:31:20.239000Z",
-          "origin": "source_observation",
-          "projected_home_spread": 2.56,
-          "provider": "haslametrics",
-          "retrieved_at": "2026-11-26T12:31:20.239000Z",
-          "source_as_of_date": "2026-11-24",
-          "source_updated_at": null,
-          "source_url": "https://www.haslametrics.com/",
-          "total": 152.7
-        }
-      ],
-      "research": {
-        "spread": {
-          "actionable": false,
-          "agreeing_source_count": 0,
-          "classification": "INSUFFICIENT_DATA",
-          "difference": null,
-          "market_freshness": {
-            "age_hours": null,
-            "reasons": [
-              "not_imported"
-            ],
-            "state": "missing"
-          },
-          "market_observed_at": null,
-          "preferred": null,
-          "source_count": 1,
-          "verified_market_observation": false
-        },
-        "total": {
-          "actionable": false,
-          "agreeing_source_count": 0,
-          "classification": "INSUFFICIENT_DATA",
-          "difference": null,
-          "market_freshness": {
-            "age_hours": null,
-            "reasons": [
-              "not_imported"
-            ],
-            "state": "missing"
-          },
-          "market_observed_at": null,
-          "preferred": null,
-          "source_count": 1,
-          "verified_market_observation": false
-        }
-      },
-      "resource": {
-        "path": "data/intelligence/games/cbb-2027-2026-11-26-arizona-state-at-south-carolina.json"
-      },
-      "status": "scheduled",
-      "tipoff_central": "2026-11-26T13:00:00-06:00",
-      "tipoff_utc": "2026-11-26T19:00:00Z",
-      "venue": null
-    },
-    {
-      "away_team": {
-        "id": "army-west-point",
-        "name": "Army West Point"
-      },
-      "comparison": {
-        "spread": {
-          "consensus_available": false,
-          "largest_deviation_sources": [],
-          "median": 13.58,
-          "origin": "system_calculation",
-          "range_points": 0.0,
-          "source_count": 1
-        },
-        "total": {
-          "consensus_available": false,
-          "largest_deviation_sources": [],
-          "median": 149.72,
-          "origin": "system_calculation",
-          "range_points": 0.0,
-          "source_count": 1
-        }
-      },
-      "consensus_home_spread": null,
-      "consensus_total": null,
-      "data_issues": [
-        "draftkings_line_missing",
-        "draftkings_market_missing",
-        "not_pregame_or_tipoff_unknown"
-      ],
-      "draftkings": null,
-      "game_id": "cbb-2027-2026-11-26-army-west-point-at-utsa",
-      "home_team": {
-        "id": "utsa",
-        "name": "UTSA"
+        "id": "indiana",
+        "name": "Indiana"
       },
       "market_available": false,
       "missing_sources": [
@@ -314,29 +415,29 @@
         "dratings"
       ],
       "neutral_site": false,
-      "pregame": false,
+      "pregame": true,
       "projections": [
         {
-          "away_score": 68.07,
+          "away_score": 66.69,
           "basis": "end_of_regulation",
           "freshness": "fresh",
-          "home_score": 81.65,
-          "observed_at": "2026-11-26T12:31:20.239000Z",
+          "home_score": 88.55,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
           "origin": "source_observation",
-          "projected_home_spread": -13.58,
+          "projected_home_spread": -21.86,
           "provider": "haslametrics",
-          "retrieved_at": "2026-11-26T12:31:20.239000Z",
-          "source_as_of_date": "2026-11-24",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
           "source_updated_at": null,
           "source_url": "https://www.haslametrics.com/",
-          "total": 149.72
+          "total": 155.24
         }
       ],
       "research": {
         "spread": {
           "actionable": false,
           "agreeing_source_count": 0,
-          "classification": "INSUFFICIENT_DATA",
+          "classification": "PROJECTION_ONLY",
           "difference": null,
           "market_freshness": {
             "age_hours": null,
@@ -353,7 +454,7 @@
         "total": {
           "actionable": false,
           "agreeing_source_count": 0,
-          "classification": "INSUFFICIENT_DATA",
+          "classification": "PROJECTION_ONLY",
           "difference": null,
           "market_freshness": {
             "age_hours": null,
@@ -369,11 +470,114 @@
         }
       },
       "resource": {
-        "path": "data/intelligence/games/cbb-2027-2026-11-26-army-west-point-at-utsa.json"
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-bowling-green-at-indiana.json"
       },
       "status": "scheduled",
-      "tipoff_central": "2026-11-26T11:00:00-06:00",
-      "tipoff_utc": "2026-11-26T17:00:00Z",
+      "tipoff_central": "2026-11-27T17:00:00-06:00",
+      "tipoff_utc": "2026-11-27T23:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "charleston-southern",
+        "name": "Charleston Southern"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 11.45,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 144.01,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "draftkings": null,
+      "game_id": "cbb-2027-2026-11-27-charleston-southern-at-east-tennessee-state",
+      "home_team": {
+        "id": "east-tennessee-state",
+        "name": "East Tennessee State"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": false,
+      "pregame": true,
+      "projections": [
+        {
+          "away_score": 66.28,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 77.73,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
+          "origin": "source_observation",
+          "projected_home_spread": -11.45,
+          "provider": "haslametrics",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
+          "source_updated_at": null,
+          "source_url": "https://www.haslametrics.com/",
+          "total": 144.01
+        }
+      ],
+      "research": {
+        "spread": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        },
+        "total": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        }
+      },
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-charleston-southern-at-east-tennessee-state.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-27T18:00:00-06:00",
+      "tipoff_utc": "2026-11-28T00:00:00Z",
       "venue": null
     },
     {
@@ -385,7 +589,7 @@
         "spread": {
           "consensus_available": false,
           "largest_deviation_sources": [],
-          "median": -5.36,
+          "median": -11.07,
           "origin": "system_calculation",
           "range_points": 0.0,
           "source_count": 1
@@ -393,7 +597,7 @@
         "total": {
           "consensus_available": false,
           "largest_deviation_sources": [],
-          "median": 154.76,
+          "median": 144.59,
           "origin": "system_calculation",
           "range_points": 0.0,
           "source_count": 1
@@ -403,93 +607,298 @@
       "consensus_total": null,
       "data_issues": [
         "draftkings_line_missing",
-        "draftkings_market_missing",
-        "not_pregame_or_tipoff_unknown"
+        "draftkings_market_missing"
       ],
       "draftkings": null,
-      "game_id": "cbb-2027-2026-11-26-cincinnati-at-georgia",
+      "game_id": "cbb-2027-2026-11-27-cincinnati-at-boston-college",
       "home_team": {
+        "id": "boston-college",
+        "name": "Boston College"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": true,
+      "pregame": true,
+      "projections": [
+        {
+          "away_score": 77.83,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 66.76,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
+          "origin": "source_observation",
+          "projected_home_spread": 11.07,
+          "provider": "haslametrics",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
+          "source_updated_at": null,
+          "source_url": "https://www.haslametrics.com/",
+          "total": 144.59
+        }
+      ],
+      "research": {
+        "spread": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        },
+        "total": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        }
+      },
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-cincinnati-at-boston-college.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-27T15:30:00-06:00",
+      "tipoff_utc": "2026-11-27T21:30:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "colgate",
+        "name": "Colgate"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 6.63,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 144.19,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "draftkings": null,
+      "game_id": "cbb-2027-2026-11-27-colgate-at-hofstra",
+      "home_team": {
+        "id": "hofstra",
+        "name": "Hofstra"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": false,
+      "pregame": true,
+      "projections": [
+        {
+          "away_score": 68.78,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 75.41,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
+          "origin": "source_observation",
+          "projected_home_spread": -6.63,
+          "provider": "haslametrics",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
+          "source_updated_at": null,
+          "source_url": "https://www.haslametrics.com/",
+          "total": 144.19
+        }
+      ],
+      "research": {
+        "spread": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        },
+        "total": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        }
+      },
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-colgate-at-hofstra.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-27T14:30:00-06:00",
+      "tipoff_utc": "2026-11-27T20:30:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "fresno-state",
+        "name": "Fresno State"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": -0.73,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 149.05,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "draftkings": null,
+      "game_id": "cbb-2027-2026-11-27-fresno-state-at-south-alabama",
+      "home_team": {
+        "id": "south-alabama",
+        "name": "South Alabama"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": true,
+      "pregame": true,
+      "projections": [
+        {
+          "away_score": 74.89,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 74.16,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
+          "origin": "source_observation",
+          "projected_home_spread": 0.73,
+          "provider": "haslametrics",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
+          "source_updated_at": null,
+          "source_url": "https://www.haslametrics.com/",
+          "total": 149.05
+        }
+      ],
+      "research": {
+        "spread": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        },
+        "total": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        }
+      },
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-fresno-state-at-south-alabama.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-27T13:00:00-06:00",
+      "tipoff_utc": "2026-11-27T19:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
         "id": "georgia",
         "name": "Georgia"
       },
-      "market_available": false,
-      "missing_sources": [
-        "barttorvik",
-        "dratings"
-      ],
-      "neutral_site": true,
-      "pregame": false,
-      "projections": [
-        {
-          "away_score": 80.06,
-          "basis": "end_of_regulation",
-          "freshness": "fresh",
-          "home_score": 74.7,
-          "observed_at": "2026-11-26T12:31:20.239000Z",
-          "origin": "source_observation",
-          "projected_home_spread": 5.36,
-          "provider": "haslametrics",
-          "retrieved_at": "2026-11-26T12:31:20.239000Z",
-          "source_as_of_date": "2026-11-24",
-          "source_updated_at": null,
-          "source_url": "https://www.haslametrics.com/",
-          "total": 154.76
-        }
-      ],
-      "research": {
-        "spread": {
-          "actionable": false,
-          "agreeing_source_count": 0,
-          "classification": "INSUFFICIENT_DATA",
-          "difference": null,
-          "market_freshness": {
-            "age_hours": null,
-            "reasons": [
-              "not_imported"
-            ],
-            "state": "missing"
-          },
-          "market_observed_at": null,
-          "preferred": null,
-          "source_count": 1,
-          "verified_market_observation": false
-        },
-        "total": {
-          "actionable": false,
-          "agreeing_source_count": 0,
-          "classification": "INSUFFICIENT_DATA",
-          "difference": null,
-          "market_freshness": {
-            "age_hours": null,
-            "reasons": [
-              "not_imported"
-            ],
-            "state": "missing"
-          },
-          "market_observed_at": null,
-          "preferred": null,
-          "source_count": 1,
-          "verified_market_observation": false
-        }
-      },
-      "resource": {
-        "path": "data/intelligence/games/cbb-2027-2026-11-26-cincinnati-at-georgia.json"
-      },
-      "status": "scheduled",
-      "tipoff_central": "2026-11-26T10:00:00-06:00",
-      "tipoff_utc": "2026-11-26T16:00:00Z",
-      "venue": null
-    },
-    {
-      "away_team": {
-        "id": "creighton",
-        "name": "Creighton"
-      },
       "comparison": {
         "spread": {
           "consensus_available": false,
           "largest_deviation_sources": [],
-          "median": -4.77,
+          "median": -3.04,
           "origin": "system_calculation",
           "range_points": 0.0,
           "source_count": 1
@@ -497,7 +906,7 @@
         "total": {
           "consensus_available": false,
           "largest_deviation_sources": [],
-          "median": 154.79,
+          "median": 165.04,
           "origin": "system_calculation",
           "range_points": 0.0,
           "source_count": 1
@@ -510,10 +919,10 @@
         "draftkings_market_missing"
       ],
       "draftkings": null,
-      "game_id": "cbb-2027-2026-11-26-creighton-at-tcu",
+      "game_id": "cbb-2027-2026-11-27-georgia-at-ucf",
       "home_team": {
-        "id": "tcu",
-        "name": "TCU"
+        "id": "ucf",
+        "name": "UCF"
       },
       "market_available": false,
       "missing_sources": [
@@ -524,19 +933,19 @@
       "pregame": true,
       "projections": [
         {
-          "away_score": 79.78,
+          "away_score": 84.04,
           "basis": "end_of_regulation",
           "freshness": "fresh",
-          "home_score": 75.01,
-          "observed_at": "2026-11-26T12:31:20.239000Z",
+          "home_score": 81.0,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
           "origin": "source_observation",
-          "projected_home_spread": 4.77,
+          "projected_home_spread": 3.04,
           "provider": "haslametrics",
-          "retrieved_at": "2026-11-26T12:31:20.239000Z",
-          "source_as_of_date": "2026-11-24",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
           "source_updated_at": null,
           "source_url": "https://www.haslametrics.com/",
-          "total": 154.79
+          "total": 165.04
         }
       ],
       "research": {
@@ -576,23 +985,23 @@
         }
       },
       "resource": {
-        "path": "data/intelligence/games/cbb-2027-2026-11-26-creighton-at-tcu.json"
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-georgia-at-ucf.json"
       },
       "status": "scheduled",
-      "tipoff_central": "2026-11-26T17:00:00-06:00",
-      "tipoff_utc": "2026-11-26T23:00:00Z",
+      "tipoff_central": "2026-11-27T18:00:00-06:00",
+      "tipoff_utc": "2026-11-28T00:00:00Z",
       "venue": null
     },
     {
       "away_team": {
-        "id": "gonzaga",
-        "name": "Gonzaga"
+        "id": "idaho",
+        "name": "Idaho"
       },
       "comparison": {
         "spread": {
           "consensus_available": false,
           "largest_deviation_sources": [],
-          "median": -2.18,
+          "median": 14.29,
           "origin": "system_calculation",
           "range_points": 0.0,
           "source_count": 1
@@ -600,7 +1009,7 @@
         "total": {
           "consensus_available": false,
           "largest_deviation_sources": [],
-          "median": 155.54,
+          "median": 154.91,
           "origin": "system_calculation",
           "range_points": 0.0,
           "source_count": 1
@@ -613,33 +1022,33 @@
         "draftkings_market_missing"
       ],
       "draftkings": null,
-      "game_id": "cbb-2027-2026-11-26-gonzaga-at-baylor",
+      "game_id": "cbb-2027-2026-11-27-idaho-at-washington-state",
       "home_team": {
-        "id": "baylor",
-        "name": "Baylor"
+        "id": "washington-state",
+        "name": "Washington State"
       },
       "market_available": false,
       "missing_sources": [
         "barttorvik",
         "dratings"
       ],
-      "neutral_site": true,
+      "neutral_site": false,
       "pregame": true,
       "projections": [
         {
-          "away_score": 78.86,
+          "away_score": 70.31,
           "basis": "end_of_regulation",
           "freshness": "fresh",
-          "home_score": 76.68,
-          "observed_at": "2026-11-26T12:31:20.239000Z",
+          "home_score": 84.6,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
           "origin": "source_observation",
-          "projected_home_spread": 2.18,
+          "projected_home_spread": -14.29,
           "provider": "haslametrics",
-          "retrieved_at": "2026-11-26T12:31:20.239000Z",
-          "source_as_of_date": "2026-11-24",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
           "source_updated_at": null,
           "source_url": "https://www.haslametrics.com/",
-          "total": 155.54
+          "total": 154.91
         }
       ],
       "research": {
@@ -679,23 +1088,23 @@
         }
       },
       "resource": {
-        "path": "data/intelligence/games/cbb-2027-2026-11-26-gonzaga-at-baylor.json"
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-idaho-at-washington-state.json"
       },
       "status": "scheduled",
-      "tipoff_central": "2026-11-26T22:30:00-06:00",
-      "tipoff_utc": "2026-11-27T04:30:00Z",
+      "tipoff_central": "2026-11-27T19:00:00-06:00",
+      "tipoff_utc": "2026-11-28T01:00:00Z",
       "venue": null
     },
     {
       "away_team": {
-        "id": "iowa-state",
-        "name": "Iowa State"
+        "id": "jacksonville-state",
+        "name": "Jacksonville State"
       },
       "comparison": {
         "spread": {
           "consensus_available": false,
           "largest_deviation_sources": [],
-          "median": -3.02,
+          "median": -4.39,
           "origin": "system_calculation",
           "range_points": 0.0,
           "source_count": 1
@@ -703,7 +1112,7 @@
         "total": {
           "consensus_available": false,
           "largest_deviation_sources": [],
-          "median": 130.84,
+          "median": 145.75,
           "origin": "system_calculation",
           "range_points": 0.0,
           "source_count": 1
@@ -716,316 +1125,7 @@
         "draftkings_market_missing"
       ],
       "draftkings": null,
-      "game_id": "cbb-2027-2026-11-26-iowa-state-at-tennessee",
-      "home_team": {
-        "id": "tennessee",
-        "name": "Tennessee"
-      },
-      "market_available": false,
-      "missing_sources": [
-        "barttorvik",
-        "dratings"
-      ],
-      "neutral_site": true,
-      "pregame": true,
-      "projections": [
-        {
-          "away_score": 66.93,
-          "basis": "end_of_regulation",
-          "freshness": "fresh",
-          "home_score": 63.91,
-          "observed_at": "2026-11-26T12:31:20.239000Z",
-          "origin": "source_observation",
-          "projected_home_spread": 3.02,
-          "provider": "haslametrics",
-          "retrieved_at": "2026-11-26T12:31:20.239000Z",
-          "source_as_of_date": "2026-11-24",
-          "source_updated_at": null,
-          "source_url": "https://www.haslametrics.com/",
-          "total": 130.84
-        }
-      ],
-      "research": {
-        "spread": {
-          "actionable": false,
-          "agreeing_source_count": 0,
-          "classification": "PROJECTION_ONLY",
-          "difference": null,
-          "market_freshness": {
-            "age_hours": null,
-            "reasons": [
-              "not_imported"
-            ],
-            "state": "missing"
-          },
-          "market_observed_at": null,
-          "preferred": null,
-          "source_count": 1,
-          "verified_market_observation": false
-        },
-        "total": {
-          "actionable": false,
-          "agreeing_source_count": 0,
-          "classification": "PROJECTION_ONLY",
-          "difference": null,
-          "market_freshness": {
-            "age_hours": null,
-            "reasons": [
-              "not_imported"
-            ],
-            "state": "missing"
-          },
-          "market_observed_at": null,
-          "preferred": null,
-          "source_count": 1,
-          "verified_market_observation": false
-        }
-      },
-      "resource": {
-        "path": "data/intelligence/games/cbb-2027-2026-11-26-iowa-state-at-tennessee.json"
-      },
-      "status": "scheduled",
-      "tipoff_central": "2026-11-26T14:30:00-06:00",
-      "tipoff_utc": "2026-11-26T20:30:00Z",
-      "venue": null
-    },
-    {
-      "away_team": {
-        "id": "michigan",
-        "name": "Michigan"
-      },
-      "comparison": {
-        "spread": {
-          "consensus_available": false,
-          "largest_deviation_sources": [],
-          "median": -3.09,
-          "origin": "system_calculation",
-          "range_points": 0.0,
-          "source_count": 1
-        },
-        "total": {
-          "consensus_available": false,
-          "largest_deviation_sources": [],
-          "median": 158.47,
-          "origin": "system_calculation",
-          "range_points": 0.0,
-          "source_count": 1
-        }
-      },
-      "consensus_home_spread": null,
-      "consensus_total": null,
-      "data_issues": [
-        "draftkings_line_missing",
-        "draftkings_market_missing"
-      ],
-      "draftkings": null,
-      "game_id": "cbb-2027-2026-11-26-michigan-at-miami-fl",
-      "home_team": {
-        "id": "miami-fl",
-        "name": "Miami (FL)"
-      },
-      "market_available": false,
-      "missing_sources": [
-        "barttorvik",
-        "dratings"
-      ],
-      "neutral_site": true,
-      "pregame": true,
-      "projections": [
-        {
-          "away_score": 80.78,
-          "basis": "end_of_regulation",
-          "freshness": "fresh",
-          "home_score": 77.69,
-          "observed_at": "2026-11-26T12:31:20.239000Z",
-          "origin": "source_observation",
-          "projected_home_spread": 3.09,
-          "provider": "haslametrics",
-          "retrieved_at": "2026-11-26T12:31:20.239000Z",
-          "source_as_of_date": "2026-11-24",
-          "source_updated_at": null,
-          "source_url": "https://www.haslametrics.com/",
-          "total": 158.47
-        }
-      ],
-      "research": {
-        "spread": {
-          "actionable": false,
-          "agreeing_source_count": 0,
-          "classification": "PROJECTION_ONLY",
-          "difference": null,
-          "market_freshness": {
-            "age_hours": null,
-            "reasons": [
-              "not_imported"
-            ],
-            "state": "missing"
-          },
-          "market_observed_at": null,
-          "preferred": null,
-          "source_count": 1,
-          "verified_market_observation": false
-        },
-        "total": {
-          "actionable": false,
-          "agreeing_source_count": 0,
-          "classification": "PROJECTION_ONLY",
-          "difference": null,
-          "market_freshness": {
-            "age_hours": null,
-            "reasons": [
-              "not_imported"
-            ],
-            "state": "missing"
-          },
-          "market_observed_at": null,
-          "preferred": null,
-          "source_count": 1,
-          "verified_market_observation": false
-        }
-      },
-      "resource": {
-        "path": "data/intelligence/games/cbb-2027-2026-11-26-michigan-at-miami-fl.json"
-      },
-      "status": "scheduled",
-      "tipoff_central": "2026-11-26T14:30:00-06:00",
-      "tipoff_utc": "2026-11-26T20:30:00Z",
-      "venue": null
-    },
-    {
-      "away_team": {
-        "id": "michigan-state",
-        "name": "Michigan State"
-      },
-      "comparison": {
-        "spread": {
-          "consensus_available": false,
-          "largest_deviation_sources": [],
-          "median": -4.05,
-          "origin": "system_calculation",
-          "range_points": 0.0,
-          "source_count": 1
-        },
-        "total": {
-          "consensus_available": false,
-          "largest_deviation_sources": [],
-          "median": 154.31,
-          "origin": "system_calculation",
-          "range_points": 0.0,
-          "source_count": 1
-        }
-      },
-      "consensus_home_spread": null,
-      "consensus_total": null,
-      "data_issues": [
-        "draftkings_line_missing",
-        "draftkings_market_missing"
-      ],
-      "draftkings": null,
-      "game_id": "cbb-2027-2026-11-26-michigan-state-at-arkansas",
-      "home_team": {
-        "id": "arkansas",
-        "name": "Arkansas"
-      },
-      "market_available": false,
-      "missing_sources": [
-        "barttorvik",
-        "dratings"
-      ],
-      "neutral_site": true,
-      "pregame": true,
-      "projections": [
-        {
-          "away_score": 79.18,
-          "basis": "end_of_regulation",
-          "freshness": "fresh",
-          "home_score": 75.13,
-          "observed_at": "2026-11-26T12:31:20.239000Z",
-          "origin": "source_observation",
-          "projected_home_spread": 4.05,
-          "provider": "haslametrics",
-          "retrieved_at": "2026-11-26T12:31:20.239000Z",
-          "source_as_of_date": "2026-11-24",
-          "source_updated_at": null,
-          "source_url": "https://www.haslametrics.com/",
-          "total": 154.31
-        }
-      ],
-      "research": {
-        "spread": {
-          "actionable": false,
-          "agreeing_source_count": 0,
-          "classification": "PROJECTION_ONLY",
-          "difference": null,
-          "market_freshness": {
-            "age_hours": null,
-            "reasons": [
-              "not_imported"
-            ],
-            "state": "missing"
-          },
-          "market_observed_at": null,
-          "preferred": null,
-          "source_count": 1,
-          "verified_market_observation": false
-        },
-        "total": {
-          "actionable": false,
-          "agreeing_source_count": 0,
-          "classification": "PROJECTION_ONLY",
-          "difference": null,
-          "market_freshness": {
-            "age_hours": null,
-            "reasons": [
-              "not_imported"
-            ],
-            "state": "missing"
-          },
-          "market_observed_at": null,
-          "preferred": null,
-          "source_count": 1,
-          "verified_market_observation": false
-        }
-      },
-      "resource": {
-        "path": "data/intelligence/games/cbb-2027-2026-11-26-michigan-state-at-arkansas.json"
-      },
-      "status": "scheduled",
-      "tipoff_central": "2026-11-26T15:30:00-06:00",
-      "tipoff_utc": "2026-11-26T21:30:00Z",
-      "venue": null
-    },
-    {
-      "away_team": {
-        "id": "pacific",
-        "name": "Pacific"
-      },
-      "comparison": {
-        "spread": {
-          "consensus_available": false,
-          "largest_deviation_sources": [],
-          "median": -5.46,
-          "origin": "system_calculation",
-          "range_points": 0.0,
-          "source_count": 1
-        },
-        "total": {
-          "consensus_available": false,
-          "largest_deviation_sources": [],
-          "median": 141.14,
-          "origin": "system_calculation",
-          "range_points": 0.0,
-          "source_count": 1
-        }
-      },
-      "consensus_home_spread": null,
-      "consensus_total": null,
-      "data_issues": [
-        "draftkings_line_missing",
-        "draftkings_market_missing"
-      ],
-      "draftkings": null,
-      "game_id": "cbb-2027-2026-11-26-pacific-at-omaha",
+      "game_id": "cbb-2027-2026-11-27-jacksonville-state-at-omaha",
       "home_team": {
         "id": "omaha",
         "name": "Omaha"
@@ -1039,19 +1139,19 @@
       "pregame": true,
       "projections": [
         {
-          "away_score": 73.3,
+          "away_score": 75.07,
           "basis": "end_of_regulation",
           "freshness": "fresh",
-          "home_score": 67.84,
-          "observed_at": "2026-11-26T12:31:20.239000Z",
+          "home_score": 70.68,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
           "origin": "source_observation",
-          "projected_home_spread": 5.46,
+          "projected_home_spread": 4.39,
           "provider": "haslametrics",
-          "retrieved_at": "2026-11-26T12:31:20.239000Z",
-          "source_as_of_date": "2026-11-24",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
           "source_updated_at": null,
           "source_url": "https://www.haslametrics.com/",
-          "total": 141.14
+          "total": 145.75
         }
       ],
       "research": {
@@ -1091,23 +1191,23 @@
         }
       },
       "resource": {
-        "path": "data/intelligence/games/cbb-2027-2026-11-26-pacific-at-omaha.json"
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-jacksonville-state-at-omaha.json"
       },
       "status": "scheduled",
-      "tipoff_central": "2026-11-26T21:30:00-06:00",
-      "tipoff_utc": "2026-11-27T03:30:00Z",
+      "tipoff_central": "2026-11-27T21:30:00-06:00",
+      "tipoff_utc": "2026-11-28T03:30:00Z",
       "venue": null
     },
     {
       "away_team": {
-        "id": "pittsburgh",
-        "name": "Pittsburgh"
+        "id": "la-salle",
+        "name": "La Salle"
       },
       "comparison": {
         "spread": {
           "consensus_available": false,
           "largest_deviation_sources": [],
-          "median": -2.41,
+          "median": -9.13,
           "origin": "system_calculation",
           "range_points": 0.0,
           "source_count": 1
@@ -1115,7 +1215,7 @@
         "total": {
           "consensus_available": false,
           "largest_deviation_sources": [],
-          "median": 139.71,
+          "median": 147.57,
           "origin": "system_calculation",
           "range_points": 0.0,
           "source_count": 1
@@ -1128,10 +1228,10 @@
         "draftkings_market_missing"
       ],
       "draftkings": null,
-      "game_id": "cbb-2027-2026-11-26-pittsburgh-at-depaul",
+      "game_id": "cbb-2027-2026-11-27-la-salle-at-bucknell",
       "home_team": {
-        "id": "depaul",
-        "name": "DePaul"
+        "id": "bucknell",
+        "name": "Bucknell"
       },
       "market_available": false,
       "missing_sources": [
@@ -1142,19 +1242,19 @@
       "pregame": true,
       "projections": [
         {
-          "away_score": 71.06,
+          "away_score": 78.35,
           "basis": "end_of_regulation",
           "freshness": "fresh",
-          "home_score": 68.65,
-          "observed_at": "2026-11-26T12:31:20.239000Z",
+          "home_score": 69.22,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
           "origin": "source_observation",
-          "projected_home_spread": 2.41,
+          "projected_home_spread": 9.13,
           "provider": "haslametrics",
-          "retrieved_at": "2026-11-26T12:31:20.239000Z",
-          "source_as_of_date": "2026-11-24",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
           "source_updated_at": null,
           "source_url": "https://www.haslametrics.com/",
-          "total": 139.71
+          "total": 147.57
         }
       ],
       "research": {
@@ -1194,23 +1294,23 @@
         }
       },
       "resource": {
-        "path": "data/intelligence/games/cbb-2027-2026-11-26-pittsburgh-at-depaul.json"
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-la-salle-at-bucknell.json"
       },
       "status": "scheduled",
-      "tipoff_central": "2026-11-26T18:00:00-06:00",
-      "tipoff_utc": "2026-11-27T00:00:00Z",
+      "tipoff_central": "2026-11-27T14:30:00-06:00",
+      "tipoff_utc": "2026-11-27T20:30:00Z",
       "venue": null
     },
     {
       "away_team": {
-        "id": "purdue",
-        "name": "Purdue"
+        "id": "maine",
+        "name": "Maine"
       },
       "comparison": {
         "spread": {
           "consensus_available": false,
           "largest_deviation_sources": [],
-          "median": -9.01,
+          "median": -2.96,
           "origin": "system_calculation",
           "range_points": 0.0,
           "source_count": 1
@@ -1218,215 +1318,7 @@
         "total": {
           "consensus_available": false,
           "largest_deviation_sources": [],
-          "median": 141.81,
-          "origin": "system_calculation",
-          "range_points": 0.0,
-          "source_count": 1
-        }
-      },
-      "consensus_home_spread": null,
-      "consensus_total": null,
-      "data_issues": [
-        "draftkings_line_missing",
-        "draftkings_market_missing",
-        "not_pregame_or_tipoff_unknown"
-      ],
-      "draftkings": null,
-      "game_id": "cbb-2027-2026-11-26-purdue-at-oklahoma",
-      "home_team": {
-        "id": "oklahoma",
-        "name": "Oklahoma"
-      },
-      "market_available": false,
-      "missing_sources": [
-        "barttorvik",
-        "dratings"
-      ],
-      "neutral_site": true,
-      "pregame": false,
-      "projections": [
-        {
-          "away_score": 75.41,
-          "basis": "end_of_regulation",
-          "freshness": "fresh",
-          "home_score": 66.4,
-          "observed_at": "2026-11-26T12:31:20.239000Z",
-          "origin": "source_observation",
-          "projected_home_spread": 9.01,
-          "provider": "haslametrics",
-          "retrieved_at": "2026-11-26T12:31:20.239000Z",
-          "source_as_of_date": "2026-11-24",
-          "source_updated_at": null,
-          "source_url": "https://www.haslametrics.com/",
-          "total": 141.81
-        }
-      ],
-      "research": {
-        "spread": {
-          "actionable": false,
-          "agreeing_source_count": 0,
-          "classification": "INSUFFICIENT_DATA",
-          "difference": null,
-          "market_freshness": {
-            "age_hours": null,
-            "reasons": [
-              "not_imported"
-            ],
-            "state": "missing"
-          },
-          "market_observed_at": null,
-          "preferred": null,
-          "source_count": 1,
-          "verified_market_observation": false
-        },
-        "total": {
-          "actionable": false,
-          "agreeing_source_count": 0,
-          "classification": "INSUFFICIENT_DATA",
-          "difference": null,
-          "market_freshness": {
-            "age_hours": null,
-            "reasons": [
-              "not_imported"
-            ],
-            "state": "missing"
-          },
-          "market_observed_at": null,
-          "preferred": null,
-          "source_count": 1,
-          "verified_market_observation": false
-        }
-      },
-      "resource": {
-        "path": "data/intelligence/games/cbb-2027-2026-11-26-purdue-at-oklahoma.json"
-      },
-      "status": "scheduled",
-      "tipoff_central": "2026-11-26T11:00:00-06:00",
-      "tipoff_utc": "2026-11-26T17:00:00Z",
-      "venue": null
-    },
-    {
-      "away_team": {
-        "id": "san-diego-state",
-        "name": "San Diego State"
-      },
-      "comparison": {
-        "spread": {
-          "consensus_available": false,
-          "largest_deviation_sources": [],
-          "median": -2.56,
-          "origin": "system_calculation",
-          "range_points": 0.0,
-          "source_count": 1
-        },
-        "total": {
-          "consensus_available": false,
-          "largest_deviation_sources": [],
-          "median": 152.96,
-          "origin": "system_calculation",
-          "range_points": 0.0,
-          "source_count": 1
-        }
-      },
-      "consensus_home_spread": null,
-      "consensus_total": null,
-      "data_issues": [
-        "draftkings_line_missing",
-        "draftkings_market_missing",
-        "not_pregame_or_tipoff_unknown"
-      ],
-      "draftkings": null,
-      "game_id": "cbb-2027-2026-11-26-san-diego-state-at-maryland",
-      "home_team": {
-        "id": "maryland",
-        "name": "Maryland"
-      },
-      "market_available": false,
-      "missing_sources": [
-        "barttorvik",
-        "dratings"
-      ],
-      "neutral_site": true,
-      "pregame": false,
-      "projections": [
-        {
-          "away_score": 77.76,
-          "basis": "end_of_regulation",
-          "freshness": "fresh",
-          "home_score": 75.2,
-          "observed_at": "2026-11-26T12:31:20.239000Z",
-          "origin": "source_observation",
-          "projected_home_spread": 2.56,
-          "provider": "haslametrics",
-          "retrieved_at": "2026-11-26T12:31:20.239000Z",
-          "source_as_of_date": "2026-11-24",
-          "source_updated_at": null,
-          "source_url": "https://www.haslametrics.com/",
-          "total": 152.96
-        }
-      ],
-      "research": {
-        "spread": {
-          "actionable": false,
-          "agreeing_source_count": 0,
-          "classification": "INSUFFICIENT_DATA",
-          "difference": null,
-          "market_freshness": {
-            "age_hours": null,
-            "reasons": [
-              "not_imported"
-            ],
-            "state": "missing"
-          },
-          "market_observed_at": null,
-          "preferred": null,
-          "source_count": 1,
-          "verified_market_observation": false
-        },
-        "total": {
-          "actionable": false,
-          "agreeing_source_count": 0,
-          "classification": "INSUFFICIENT_DATA",
-          "difference": null,
-          "market_freshness": {
-            "age_hours": null,
-            "reasons": [
-              "not_imported"
-            ],
-            "state": "missing"
-          },
-          "market_observed_at": null,
-          "preferred": null,
-          "source_count": 1,
-          "verified_market_observation": false
-        }
-      },
-      "resource": {
-        "path": "data/intelligence/games/cbb-2027-2026-11-26-san-diego-state-at-maryland.json"
-      },
-      "status": "scheduled",
-      "tipoff_central": "2026-11-26T12:00:00-06:00",
-      "tipoff_utc": "2026-11-26T18:00:00Z",
-      "venue": null
-    },
-    {
-      "away_team": {
-        "id": "smu",
-        "name": "SMU"
-      },
-      "comparison": {
-        "spread": {
-          "consensus_available": false,
-          "largest_deviation_sources": [],
-          "median": -2.29,
-          "origin": "system_calculation",
-          "range_points": 0.0,
-          "source_count": 1
-        },
-        "total": {
-          "consensus_available": false,
-          "largest_deviation_sources": [],
-          "median": 158.53,
+          "median": 142.24,
           "origin": "system_calculation",
           "range_points": 0.0,
           "source_count": 1
@@ -1439,10 +1331,10 @@
         "draftkings_market_missing"
       ],
       "draftkings": null,
-      "game_id": "cbb-2027-2026-11-26-smu-at-lsu",
+      "game_id": "cbb-2027-2026-11-27-maine-at-le-moyne",
       "home_team": {
-        "id": "lsu",
-        "name": "LSU"
+        "id": "le-moyne",
+        "name": "Le Moyne"
       },
       "market_available": false,
       "missing_sources": [
@@ -1453,19 +1345,19 @@
       "pregame": true,
       "projections": [
         {
-          "away_score": 80.41,
+          "away_score": 72.6,
           "basis": "end_of_regulation",
           "freshness": "fresh",
-          "home_score": 78.12,
-          "observed_at": "2026-11-26T12:31:20.239000Z",
+          "home_score": 69.64,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
           "origin": "source_observation",
-          "projected_home_spread": 2.29,
+          "projected_home_spread": 2.96,
           "provider": "haslametrics",
-          "retrieved_at": "2026-11-26T12:31:20.239000Z",
-          "source_as_of_date": "2026-11-24",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
           "source_updated_at": null,
           "source_url": "https://www.haslametrics.com/",
-          "total": 158.53
+          "total": 142.24
         }
       ],
       "research": {
@@ -1505,23 +1397,23 @@
         }
       },
       "resource": {
-        "path": "data/intelligence/games/cbb-2027-2026-11-26-smu-at-lsu.json"
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-maine-at-le-moyne.json"
       },
       "status": "scheduled",
-      "tipoff_central": "2026-11-26T18:00:00-06:00",
-      "tipoff_utc": "2026-11-27T00:00:00Z",
+      "tipoff_central": "2026-11-27T13:00:00-06:00",
+      "tipoff_utc": "2026-11-27T19:00:00Z",
       "venue": null
     },
     {
       "away_team": {
-        "id": "st-john-s",
-        "name": "St. John's"
+        "id": "marquette",
+        "name": "Marquette"
       },
       "comparison": {
         "spread": {
           "consensus_available": false,
           "largest_deviation_sources": [],
-          "median": -4.87,
+          "median": -1.39,
           "origin": "system_calculation",
           "range_points": 0.0,
           "source_count": 1
@@ -1529,7 +1421,7 @@
         "total": {
           "consensus_available": false,
           "largest_deviation_sources": [],
-          "median": 160.69,
+          "median": 152.65,
           "origin": "system_calculation",
           "range_points": 0.0,
           "source_count": 1
@@ -1542,10 +1434,10 @@
         "draftkings_market_missing"
       ],
       "draftkings": null,
-      "game_id": "cbb-2027-2026-11-26-st-john-s-at-louisville",
+      "game_id": "cbb-2027-2026-11-27-marquette-at-texas-a-and-m",
       "home_team": {
-        "id": "louisville",
-        "name": "Louisville"
+        "id": "texas-a-and-m",
+        "name": "Texas A&M"
       },
       "market_available": false,
       "missing_sources": [
@@ -1556,19 +1448,19 @@
       "pregame": true,
       "projections": [
         {
-          "away_score": 82.78,
+          "away_score": 77.02,
           "basis": "end_of_regulation",
           "freshness": "fresh",
-          "home_score": 77.91,
-          "observed_at": "2026-11-26T12:31:20.239000Z",
+          "home_score": 75.63,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
           "origin": "source_observation",
-          "projected_home_spread": 4.87,
+          "projected_home_spread": 1.39,
           "provider": "haslametrics",
-          "retrieved_at": "2026-11-26T12:31:20.239000Z",
-          "source_as_of_date": "2026-11-24",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
           "source_updated_at": null,
           "source_url": "https://www.haslametrics.com/",
-          "total": 160.69
+          "total": 152.65
         }
       ],
       "research": {
@@ -1608,23 +1500,23 @@
         }
       },
       "resource": {
-        "path": "data/intelligence/games/cbb-2027-2026-11-26-st-john-s-at-louisville.json"
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-marquette-at-texas-a-and-m.json"
       },
       "status": "scheduled",
-      "tipoff_central": "2026-11-26T20:00:00-06:00",
-      "tipoff_utc": "2026-11-27T02:00:00Z",
+      "tipoff_central": "2026-11-27T16:00:00-06:00",
+      "tipoff_utc": "2026-11-27T22:00:00Z",
       "venue": null
     },
     {
       "away_team": {
-        "id": "texas",
-        "name": "Texas"
+        "id": "memphis",
+        "name": "Memphis"
       },
       "comparison": {
         "spread": {
           "consensus_available": false,
           "largest_deviation_sources": [],
-          "median": -10.6,
+          "median": -0.87,
           "origin": "system_calculation",
           "range_points": 0.0,
           "source_count": 1
@@ -1632,7 +1524,7 @@
         "total": {
           "consensus_available": false,
           "largest_deviation_sources": [],
-          "median": 157.1,
+          "median": 158.49,
           "origin": "system_calculation",
           "range_points": 0.0,
           "source_count": 1
@@ -1645,10 +1537,10 @@
         "draftkings_market_missing"
       ],
       "draftkings": null,
-      "game_id": "cbb-2027-2026-11-26-texas-at-georgetown",
+      "game_id": "cbb-2027-2026-11-27-memphis-at-wake-forest",
       "home_team": {
-        "id": "georgetown",
-        "name": "Georgetown"
+        "id": "wake-forest",
+        "name": "Wake Forest"
       },
       "market_available": false,
       "missing_sources": [
@@ -1659,19 +1551,19 @@
       "pregame": true,
       "projections": [
         {
-          "away_score": 83.85,
+          "away_score": 79.68,
           "basis": "end_of_regulation",
           "freshness": "fresh",
-          "home_score": 73.25,
-          "observed_at": "2026-11-26T12:31:20.239000Z",
+          "home_score": 78.81,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
           "origin": "source_observation",
-          "projected_home_spread": 10.6,
+          "projected_home_spread": 0.87,
           "provider": "haslametrics",
-          "retrieved_at": "2026-11-26T12:31:20.239000Z",
-          "source_as_of_date": "2026-11-24",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
           "source_updated_at": null,
           "source_url": "https://www.haslametrics.com/",
-          "total": 157.1
+          "total": 158.49
         }
       ],
       "research": {
@@ -1711,23 +1603,23 @@
         }
       },
       "resource": {
-        "path": "data/intelligence/games/cbb-2027-2026-11-26-texas-at-georgetown.json"
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-memphis-at-wake-forest.json"
       },
       "status": "scheduled",
-      "tipoff_central": "2026-11-26T13:30:00-06:00",
-      "tipoff_utc": "2026-11-26T19:30:00Z",
+      "tipoff_central": "2026-11-27T12:30:00-06:00",
+      "tipoff_utc": "2026-11-27T18:30:00Z",
       "venue": null
     },
     {
       "away_team": {
-        "id": "texas-tech",
-        "name": "Texas Tech"
+        "id": "mississippi-state",
+        "name": "Mississippi State"
       },
       "comparison": {
         "spread": {
           "consensus_available": false,
           "largest_deviation_sources": [],
-          "median": -9.61,
+          "median": -8.32,
           "origin": "system_calculation",
           "range_points": 0.0,
           "source_count": 1
@@ -1735,7 +1627,7 @@
         "total": {
           "consensus_available": false,
           "largest_deviation_sources": [],
-          "median": 146.89,
+          "median": 160.5,
           "origin": "system_calculation",
           "range_points": 0.0,
           "source_count": 1
@@ -1748,10 +1640,10 @@
         "draftkings_market_missing"
       ],
       "draftkings": null,
-      "game_id": "cbb-2027-2026-11-26-texas-tech-at-oregon",
+      "game_id": "cbb-2027-2026-11-27-mississippi-state-at-penn-state",
       "home_team": {
-        "id": "oregon",
-        "name": "Oregon"
+        "id": "penn-state",
+        "name": "Penn State"
       },
       "market_available": false,
       "missing_sources": [
@@ -1762,19 +1654,19 @@
       "pregame": true,
       "projections": [
         {
-          "away_score": 78.25,
+          "away_score": 84.41,
           "basis": "end_of_regulation",
           "freshness": "fresh",
-          "home_score": 68.64,
-          "observed_at": "2026-11-26T12:31:20.239000Z",
+          "home_score": 76.09,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
           "origin": "source_observation",
-          "projected_home_spread": 9.61,
+          "projected_home_spread": 8.32,
           "provider": "haslametrics",
-          "retrieved_at": "2026-11-26T12:31:20.239000Z",
-          "source_as_of_date": "2026-11-24",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
           "source_updated_at": null,
           "source_url": "https://www.haslametrics.com/",
-          "total": 146.89
+          "total": 160.5
         }
       ],
       "research": {
@@ -1814,23 +1706,950 @@
         }
       },
       "resource": {
-        "path": "data/intelligence/games/cbb-2027-2026-11-26-texas-tech-at-oregon.json"
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-mississippi-state-at-penn-state.json"
       },
       "status": "scheduled",
-      "tipoff_central": "2026-11-26T22:30:00-06:00",
-      "tipoff_utc": "2026-11-27T04:30:00Z",
+      "tipoff_central": "2026-11-27T18:30:00-06:00",
+      "tipoff_utc": "2026-11-28T00:30:00Z",
       "venue": null
     },
     {
       "away_team": {
+        "id": "missouri-state",
+        "name": "Missouri State"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 4.98,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 149.42,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "draftkings": null,
+      "game_id": "cbb-2027-2026-11-27-missouri-state-at-oral-roberts",
+      "home_team": {
+        "id": "oral-roberts",
+        "name": "Oral Roberts"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": false,
+      "pregame": true,
+      "projections": [
+        {
+          "away_score": 72.22,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 77.2,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
+          "origin": "source_observation",
+          "projected_home_spread": -4.98,
+          "provider": "haslametrics",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
+          "source_updated_at": null,
+          "source_url": "https://www.haslametrics.com/",
+          "total": 149.42
+        }
+      ],
+      "research": {
+        "spread": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        },
+        "total": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        }
+      },
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-missouri-state-at-oral-roberts.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-27T19:00:00-06:00",
+      "tipoff_utc": "2026-11-28T01:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "navy",
+        "name": "Navy"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 7.93,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 141.95,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "draftkings": null,
+      "game_id": "cbb-2027-2026-11-27-navy-at-fairfield",
+      "home_team": {
+        "id": "fairfield",
+        "name": "Fairfield"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": false,
+      "pregame": true,
+      "projections": [
+        {
+          "away_score": 67.01,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 74.94,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
+          "origin": "source_observation",
+          "projected_home_spread": -7.93,
+          "provider": "haslametrics",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
+          "source_updated_at": null,
+          "source_url": "https://www.haslametrics.com/",
+          "total": 141.95
+        }
+      ],
+      "research": {
+        "spread": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        },
+        "total": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        }
+      },
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-navy-at-fairfield.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-27T13:00:00-06:00",
+      "tipoff_utc": "2026-11-27T19:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "niagara",
+        "name": "Niagara"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 7.45,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 145.45,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "draftkings": null,
+      "game_id": "cbb-2027-2026-11-27-niagara-at-lafayette",
+      "home_team": {
+        "id": "lafayette",
+        "name": "Lafayette"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": false,
+      "pregame": true,
+      "projections": [
+        {
+          "away_score": 69.0,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 76.45,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
+          "origin": "source_observation",
+          "projected_home_spread": -7.45,
+          "provider": "haslametrics",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
+          "source_updated_at": null,
+          "source_url": "https://www.haslametrics.com/",
+          "total": 145.45
+        }
+      ],
+      "research": {
+        "spread": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        },
+        "total": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        }
+      },
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-niagara-at-lafayette.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-27T15:30:00-06:00",
+      "tipoff_utc": "2026-11-27T21:30:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "north-carolina",
+        "name": "North Carolina"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": -2.91,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 145.31,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "draftkings": null,
+      "game_id": "cbb-2027-2026-11-27-north-carolina-at-west-virginia",
+      "home_team": {
+        "id": "west-virginia",
+        "name": "West Virginia"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": true,
+      "pregame": true,
+      "projections": [
+        {
+          "away_score": 74.11,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 71.2,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
+          "origin": "source_observation",
+          "projected_home_spread": 2.91,
+          "provider": "haslametrics",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
+          "source_updated_at": null,
+          "source_url": "https://www.haslametrics.com/",
+          "total": 145.31
+        }
+      ],
+      "research": {
+        "spread": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        },
+        "total": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        }
+      },
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-north-carolina-at-west-virginia.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-27T18:00:00-06:00",
+      "tipoff_utc": "2026-11-28T00:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "north-texas",
+        "name": "North Texas"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": -2.93,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 142.23,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "draftkings": null,
+      "game_id": "cbb-2027-2026-11-27-north-texas-at-north-dakota-state",
+      "home_team": {
+        "id": "north-dakota-state",
+        "name": "North Dakota State"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": true,
+      "pregame": true,
+      "projections": [
+        {
+          "away_score": 72.58,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 69.65,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
+          "origin": "source_observation",
+          "projected_home_spread": 2.93,
+          "provider": "haslametrics",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
+          "source_updated_at": null,
+          "source_url": "https://www.haslametrics.com/",
+          "total": 142.23
+        }
+      ],
+      "research": {
+        "spread": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        },
+        "total": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        }
+      },
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-north-texas-at-north-dakota-state.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-27T19:00:00-06:00",
+      "tipoff_utc": "2026-11-28T01:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "northeastern",
+        "name": "Northeastern"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 14.28,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 151.2,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "draftkings": null,
+      "game_id": "cbb-2027-2026-11-27-northeastern-at-northwestern",
+      "home_team": {
+        "id": "northwestern",
+        "name": "Northwestern"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": false,
+      "pregame": true,
+      "projections": [
+        {
+          "away_score": 68.46,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 82.74,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
+          "origin": "source_observation",
+          "projected_home_spread": -14.28,
+          "provider": "haslametrics",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
+          "source_updated_at": null,
+          "source_url": "https://www.haslametrics.com/",
+          "total": 151.2
+        }
+      ],
+      "research": {
+        "spread": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        },
+        "total": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        }
+      },
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-northeastern-at-northwestern.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-27T19:00:00-06:00",
+      "tipoff_utc": "2026-11-28T01:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "oakland",
+        "name": "Oakland"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 36.67,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 151.55,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "draftkings": null,
+      "game_id": "cbb-2027-2026-11-27-oakland-at-houston",
+      "home_team": {
+        "id": "houston",
+        "name": "Houston"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": false,
+      "pregame": true,
+      "projections": [
+        {
+          "away_score": 57.44,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 94.11,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
+          "origin": "source_observation",
+          "projected_home_spread": -36.67,
+          "provider": "haslametrics",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
+          "source_updated_at": null,
+          "source_url": "https://www.haslametrics.com/",
+          "total": 151.55
+        }
+      ],
+      "research": {
+        "spread": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        },
+        "total": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        }
+      },
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-oakland-at-houston.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-27T18:30:00-06:00",
+      "tipoff_utc": "2026-11-28T00:30:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "old-dominion",
+        "name": "Old Dominion"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 18.03,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 156.57,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "draftkings": null,
+      "game_id": "cbb-2027-2026-11-27-old-dominion-at-virginia-tech",
+      "home_team": {
+        "id": "virginia-tech",
+        "name": "Virginia Tech"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": false,
+      "pregame": true,
+      "projections": [
+        {
+          "away_score": 69.27,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 87.3,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
+          "origin": "source_observation",
+          "projected_home_spread": -18.03,
+          "provider": "haslametrics",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
+          "source_updated_at": null,
+          "source_url": "https://www.haslametrics.com/",
+          "total": 156.57
+        }
+      ],
+      "research": {
+        "spread": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        },
+        "total": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        }
+      },
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-old-dominion-at-virginia-tech.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-27T16:00:00-06:00",
+      "tipoff_utc": "2026-11-27T22:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "pacific",
+        "name": "Pacific"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": -1.84,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 146.46,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "draftkings": null,
+      "game_id": "cbb-2027-2026-11-27-pacific-at-uc-davis",
+      "home_team": {
         "id": "uc-davis",
         "name": "UC Davis"
       },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": true,
+      "pregame": true,
+      "projections": [
+        {
+          "away_score": 74.15,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 72.31,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
+          "origin": "source_observation",
+          "projected_home_spread": 1.84,
+          "provider": "haslametrics",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
+          "source_updated_at": null,
+          "source_url": "https://www.haslametrics.com/",
+          "total": 146.46
+        }
+      ],
+      "research": {
+        "spread": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        },
+        "total": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        }
+      },
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-pacific-at-uc-davis.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-27T19:00:00-06:00",
+      "tipoff_utc": "2026-11-28T01:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "princeton",
+        "name": "Princeton"
+      },
       "comparison": {
         "spread": {
           "consensus_available": false,
           "largest_deviation_sources": [],
-          "median": -0.85,
+          "median": 4.82,
           "origin": "system_calculation",
           "range_points": 0.0,
           "source_count": 1
@@ -1838,7 +2657,7 @@
         "total": {
           "consensus_available": false,
           "largest_deviation_sources": [],
-          "median": 148.43,
+          "median": 149.64,
           "origin": "system_calculation",
           "range_points": 0.0,
           "source_count": 1
@@ -1851,33 +2670,33 @@
         "draftkings_market_missing"
       ],
       "draftkings": null,
-      "game_id": "cbb-2027-2026-11-26-uc-davis-at-jacksonville-state",
+      "game_id": "cbb-2027-2026-11-27-princeton-at-unc-wilmington",
       "home_team": {
-        "id": "jacksonville-state",
-        "name": "Jacksonville State"
+        "id": "unc-wilmington",
+        "name": "UNC Wilmington"
       },
       "market_available": false,
       "missing_sources": [
         "barttorvik",
         "dratings"
       ],
-      "neutral_site": true,
+      "neutral_site": false,
       "pregame": true,
       "projections": [
         {
-          "away_score": 74.64,
+          "away_score": 72.41,
           "basis": "end_of_regulation",
           "freshness": "fresh",
-          "home_score": 73.79,
-          "observed_at": "2026-11-26T12:31:20.239000Z",
+          "home_score": 77.23,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
           "origin": "source_observation",
-          "projected_home_spread": 0.85,
+          "projected_home_spread": -4.82,
           "provider": "haslametrics",
-          "retrieved_at": "2026-11-26T12:31:20.239000Z",
-          "source_as_of_date": "2026-11-24",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
           "source_updated_at": null,
           "source_url": "https://www.haslametrics.com/",
-          "total": 148.43
+          "total": 149.64
         }
       ],
       "research": {
@@ -1917,23 +2736,23 @@
         }
       },
       "resource": {
-        "path": "data/intelligence/games/cbb-2027-2026-11-26-uc-davis-at-jacksonville-state.json"
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-princeton-at-unc-wilmington.json"
       },
       "status": "scheduled",
-      "tipoff_central": "2026-11-26T19:00:00-06:00",
-      "tipoff_utc": "2026-11-27T01:00:00Z",
+      "tipoff_central": "2026-11-27T14:00:00-06:00",
+      "tipoff_utc": "2026-11-27T20:00:00Z",
       "venue": null
     },
     {
       "away_team": {
-        "id": "ucf",
-        "name": "UCF"
+        "id": "radford",
+        "name": "Radford"
       },
       "comparison": {
         "spread": {
           "consensus_available": false,
           "largest_deviation_sources": [],
-          "median": -3.05,
+          "median": 9.87,
           "origin": "system_calculation",
           "range_points": 0.0,
           "source_count": 1
@@ -1941,111 +2760,7 @@
         "total": {
           "consensus_available": false,
           "largest_deviation_sources": [],
-          "median": 154.73,
-          "origin": "system_calculation",
-          "range_points": 0.0,
-          "source_count": 1
-        }
-      },
-      "consensus_home_spread": null,
-      "consensus_total": null,
-      "data_issues": [
-        "draftkings_line_missing",
-        "draftkings_market_missing",
-        "not_pregame_or_tipoff_unknown"
-      ],
-      "draftkings": null,
-      "game_id": "cbb-2027-2026-11-26-ucf-at-boston-college",
-      "home_team": {
-        "id": "boston-college",
-        "name": "Boston College"
-      },
-      "market_available": false,
-      "missing_sources": [
-        "barttorvik",
-        "dratings"
-      ],
-      "neutral_site": true,
-      "pregame": false,
-      "projections": [
-        {
-          "away_score": 78.89,
-          "basis": "end_of_regulation",
-          "freshness": "fresh",
-          "home_score": 75.84,
-          "observed_at": "2026-11-26T12:31:20.239000Z",
-          "origin": "source_observation",
-          "projected_home_spread": 3.05,
-          "provider": "haslametrics",
-          "retrieved_at": "2026-11-26T12:31:20.239000Z",
-          "source_as_of_date": "2026-11-24",
-          "source_updated_at": null,
-          "source_url": "https://www.haslametrics.com/",
-          "total": 154.73
-        }
-      ],
-      "research": {
-        "spread": {
-          "actionable": false,
-          "agreeing_source_count": 0,
-          "classification": "INSUFFICIENT_DATA",
-          "difference": null,
-          "market_freshness": {
-            "age_hours": null,
-            "reasons": [
-              "not_imported"
-            ],
-            "state": "missing"
-          },
-          "market_observed_at": null,
-          "preferred": null,
-          "source_count": 1,
-          "verified_market_observation": false
-        },
-        "total": {
-          "actionable": false,
-          "agreeing_source_count": 0,
-          "classification": "INSUFFICIENT_DATA",
-          "difference": null,
-          "market_freshness": {
-            "age_hours": null,
-            "reasons": [
-              "not_imported"
-            ],
-            "state": "missing"
-          },
-          "market_observed_at": null,
-          "preferred": null,
-          "source_count": 1,
-          "verified_market_observation": false
-        }
-      },
-      "resource": {
-        "path": "data/intelligence/games/cbb-2027-2026-11-26-ucf-at-boston-college.json"
-      },
-      "status": "scheduled",
-      "tipoff_central": "2026-11-26T12:30:00-06:00",
-      "tipoff_utc": "2026-11-26T18:30:00Z",
-      "venue": null
-    },
-    {
-      "away_team": {
-        "id": "ucla",
-        "name": "UCLA"
-      },
-      "comparison": {
-        "spread": {
-          "consensus_available": false,
-          "largest_deviation_sources": [],
-          "median": -5.12,
-          "origin": "system_calculation",
-          "range_points": 0.0,
-          "source_count": 1
-        },
-        "total": {
-          "consensus_available": false,
-          "largest_deviation_sources": [],
-          "median": 151.98,
+          "median": 154.45,
           "origin": "system_calculation",
           "range_points": 0.0,
           "source_count": 1
@@ -2058,33 +2773,33 @@
         "draftkings_market_missing"
       ],
       "draftkings": null,
-      "game_id": "cbb-2027-2026-11-26-ucla-at-saint-marys-ca",
+      "game_id": "cbb-2027-2026-11-27-radford-at-american",
       "home_team": {
-        "id": "saint-marys-ca",
-        "name": "Saint Mary's (CA)"
+        "id": "american",
+        "name": "American"
       },
       "market_available": false,
       "missing_sources": [
         "barttorvik",
         "dratings"
       ],
-      "neutral_site": true,
+      "neutral_site": false,
       "pregame": true,
       "projections": [
         {
-          "away_score": 78.55,
+          "away_score": 72.29,
           "basis": "end_of_regulation",
           "freshness": "fresh",
-          "home_score": 73.43,
-          "observed_at": "2026-11-26T12:31:20.239000Z",
+          "home_score": 82.16,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
           "origin": "source_observation",
-          "projected_home_spread": 5.12,
+          "projected_home_spread": -9.87,
           "provider": "haslametrics",
-          "retrieved_at": "2026-11-26T12:31:20.239000Z",
-          "source_as_of_date": "2026-11-24",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
           "source_updated_at": null,
           "source_url": "https://www.haslametrics.com/",
-          "total": 151.98
+          "total": 154.45
         }
       ],
       "research": {
@@ -2124,23 +2839,23 @@
         }
       },
       "resource": {
-        "path": "data/intelligence/games/cbb-2027-2026-11-26-ucla-at-saint-marys-ca.json"
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-radford-at-american.json"
       },
       "status": "scheduled",
-      "tipoff_central": "2026-11-26T16:00:00-06:00",
-      "tipoff_utc": "2026-11-26T22:00:00Z",
+      "tipoff_central": "2026-11-27T15:00:00-06:00",
+      "tipoff_utc": "2026-11-27T21:00:00Z",
       "venue": null
     },
     {
       "away_team": {
-        "id": "usc",
-        "name": "USC"
+        "id": "southern",
+        "name": "Southern"
       },
       "comparison": {
         "spread": {
           "consensus_available": false,
           "largest_deviation_sources": [],
-          "median": -5.11,
+          "median": 36.1,
           "origin": "system_calculation",
           "range_points": 0.0,
           "source_count": 1
@@ -2148,7 +2863,7 @@
         "total": {
           "consensus_available": false,
           "largest_deviation_sources": [],
-          "median": 165.51,
+          "median": 155.0,
           "origin": "system_calculation",
           "range_points": 0.0,
           "source_count": 1
@@ -2161,33 +2876,33 @@
         "draftkings_market_missing"
       ],
       "draftkings": null,
-      "game_id": "cbb-2027-2026-11-26-usc-at-utah-state",
+      "game_id": "cbb-2027-2026-11-27-southern-at-vanderbilt",
       "home_team": {
-        "id": "utah-state",
-        "name": "Utah State"
+        "id": "vanderbilt",
+        "name": "Vanderbilt"
       },
       "market_available": false,
       "missing_sources": [
         "barttorvik",
         "dratings"
       ],
-      "neutral_site": true,
+      "neutral_site": false,
       "pregame": true,
       "projections": [
         {
-          "away_score": 85.31,
+          "away_score": 59.45,
           "basis": "end_of_regulation",
           "freshness": "fresh",
-          "home_score": 80.2,
-          "observed_at": "2026-11-26T12:31:20.239000Z",
+          "home_score": 95.55,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
           "origin": "source_observation",
-          "projected_home_spread": 5.11,
+          "projected_home_spread": -36.1,
           "provider": "haslametrics",
-          "retrieved_at": "2026-11-26T12:31:20.239000Z",
-          "source_as_of_date": "2026-11-24",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
           "source_updated_at": null,
           "source_url": "https://www.haslametrics.com/",
-          "total": 165.51
+          "total": 155.0
         }
       ],
       "research": {
@@ -2227,15 +2942,1148 @@
         }
       },
       "resource": {
-        "path": "data/intelligence/games/cbb-2027-2026-11-26-usc-at-utah-state.json"
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-southern-at-vanderbilt.json"
       },
       "status": "scheduled",
-      "tipoff_central": "2026-11-26T15:30:00-06:00",
-      "tipoff_utc": "2026-11-26T21:30:00Z",
+      "tipoff_central": "2026-11-27T13:00:00-06:00",
+      "tipoff_utc": "2026-11-27T19:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "st-thomas-mn",
+        "name": "St. Thomas (MN)"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": -0.22,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 149.44,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "draftkings": null,
+      "game_id": "cbb-2027-2026-11-27-st-thomas-mn-at-liberty",
+      "home_team": {
+        "id": "liberty",
+        "name": "Liberty"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": true,
+      "pregame": true,
+      "projections": [
+        {
+          "away_score": 74.83,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 74.61,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
+          "origin": "source_observation",
+          "projected_home_spread": 0.22,
+          "provider": "haslametrics",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
+          "source_updated_at": null,
+          "source_url": "https://www.haslametrics.com/",
+          "total": 149.44
+        }
+      ],
+      "research": {
+        "spread": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        },
+        "total": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        }
+      },
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-st-thomas-mn-at-liberty.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-27T11:00:00-06:00",
+      "tipoff_utc": "2026-11-27T17:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "texas-state",
+        "name": "Texas State"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": -6.83,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 141.57,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "draftkings": null,
+      "game_id": "cbb-2027-2026-11-27-texas-state-at-louisiana-tech",
+      "home_team": {
+        "id": "louisiana-tech",
+        "name": "Louisiana Tech"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": false,
+      "pregame": true,
+      "projections": [
+        {
+          "away_score": 74.2,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 67.37,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
+          "origin": "source_observation",
+          "projected_home_spread": 6.83,
+          "provider": "haslametrics",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
+          "source_updated_at": null,
+          "source_url": "https://www.haslametrics.com/",
+          "total": 141.57
+        }
+      ],
+      "research": {
+        "spread": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        },
+        "total": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        }
+      },
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-texas-state-at-louisiana-tech.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-27T14:00:00-06:00",
+      "tipoff_utc": "2026-11-27T20:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "towson",
+        "name": "Towson"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 6.95,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 144.45,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "draftkings": null,
+      "game_id": "cbb-2027-2026-11-27-towson-at-penn",
+      "home_team": {
+        "id": "penn",
+        "name": "Penn"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": false,
+      "pregame": true,
+      "projections": [
+        {
+          "away_score": 68.75,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 75.7,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
+          "origin": "source_observation",
+          "projected_home_spread": -6.95,
+          "provider": "haslametrics",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
+          "source_updated_at": null,
+          "source_url": "https://www.haslametrics.com/",
+          "total": 144.45
+        }
+      ],
+      "research": {
+        "spread": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        },
+        "total": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        }
+      },
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-towson-at-penn.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-27T17:00:00-06:00",
+      "tipoff_utc": "2026-11-27T23:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "uc-santa-barbara",
+        "name": "UC Santa Barbara"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": -13.78,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 148.94,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "draftkings": null,
+      "game_id": "cbb-2027-2026-11-27-uc-santa-barbara-at-lehigh",
+      "home_team": {
+        "id": "lehigh",
+        "name": "Lehigh"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": true,
+      "pregame": true,
+      "projections": [
+        {
+          "away_score": 81.36,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 67.58,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
+          "origin": "source_observation",
+          "projected_home_spread": 13.78,
+          "provider": "haslametrics",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
+          "source_updated_at": null,
+          "source_url": "https://www.haslametrics.com/",
+          "total": 148.94
+        }
+      ],
+      "research": {
+        "spread": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        },
+        "total": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        }
+      },
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-uc-santa-barbara-at-lehigh.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-27T18:00:00-06:00",
+      "tipoff_utc": "2026-11-28T00:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "umass-lowell",
+        "name": "UMass Lowell"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": -3.33,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 145.59,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "draftkings": null,
+      "game_id": "cbb-2027-2026-11-27-umass-lowell-at-hampton",
+      "home_team": {
+        "id": "hampton",
+        "name": "Hampton"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": true,
+      "pregame": true,
+      "projections": [
+        {
+          "away_score": 74.46,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 71.13,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
+          "origin": "source_observation",
+          "projected_home_spread": 3.33,
+          "provider": "haslametrics",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
+          "source_updated_at": null,
+          "source_url": "https://www.haslametrics.com/",
+          "total": 145.59
+        }
+      ],
+      "research": {
+        "spread": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        },
+        "total": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        }
+      },
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-umass-lowell-at-hampton.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-27T12:00:00-06:00",
+      "tipoff_utc": "2026-11-27T18:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "umbc",
+        "name": "UMBC"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 19.22,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 154.84,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "draftkings": null,
+      "game_id": "cbb-2027-2026-11-27-umbc-at-george-washington",
+      "home_team": {
+        "id": "george-washington",
+        "name": "George Washington"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": false,
+      "pregame": true,
+      "projections": [
+        {
+          "away_score": 67.81,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 87.03,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
+          "origin": "source_observation",
+          "projected_home_spread": -19.22,
+          "provider": "haslametrics",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
+          "source_updated_at": null,
+          "source_url": "https://www.haslametrics.com/",
+          "total": 154.84
+        }
+      ],
+      "research": {
+        "spread": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        },
+        "total": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        }
+      },
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-umbc-at-george-washington.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-27T15:00:00-06:00",
+      "tipoff_utc": "2026-11-27T21:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "vermont",
+        "name": "Vermont"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": -2.51,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 133.01,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "draftkings": null,
+      "game_id": "cbb-2027-2026-11-27-vermont-at-merrimack",
+      "home_team": {
+        "id": "merrimack",
+        "name": "Merrimack"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": true,
+      "pregame": true,
+      "projections": [
+        {
+          "away_score": 67.76,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 65.25,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
+          "origin": "source_observation",
+          "projected_home_spread": 2.51,
+          "provider": "haslametrics",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
+          "source_updated_at": null,
+          "source_url": "https://www.haslametrics.com/",
+          "total": 133.01
+        }
+      ],
+      "research": {
+        "spread": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        },
+        "total": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        }
+      },
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-vermont-at-merrimack.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-27T12:00:00-06:00",
+      "tipoff_utc": "2026-11-27T18:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "villanova",
+        "name": "Villanova"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 16.85,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 148.75,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "draftkings": null,
+      "game_id": "cbb-2027-2026-11-27-villanova-at-kansas",
+      "home_team": {
+        "id": "kansas",
+        "name": "Kansas"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": false,
+      "pregame": true,
+      "projections": [
+        {
+          "away_score": 65.95,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 82.8,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
+          "origin": "source_observation",
+          "projected_home_spread": -16.85,
+          "provider": "haslametrics",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
+          "source_updated_at": null,
+          "source_url": "https://www.haslametrics.com/",
+          "total": 148.75
+        }
+      ],
+      "research": {
+        "spread": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        },
+        "total": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        }
+      },
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-villanova-at-kansas.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-27T16:00:00-06:00",
+      "tipoff_utc": "2026-11-27T22:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "virginia",
+        "name": "Virginia"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": -8.48,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 153.92,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "draftkings": null,
+      "game_id": "cbb-2027-2026-11-27-virginia-at-xavier",
+      "home_team": {
+        "id": "xavier",
+        "name": "Xavier"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": true,
+      "pregame": true,
+      "projections": [
+        {
+          "away_score": 81.2,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 72.72,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
+          "origin": "source_observation",
+          "projected_home_spread": 8.48,
+          "provider": "haslametrics",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
+          "source_updated_at": null,
+          "source_url": "https://www.haslametrics.com/",
+          "total": 153.92
+        }
+      ],
+      "research": {
+        "spread": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        },
+        "total": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        }
+      },
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-virginia-at-xavier.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-27T10:00:00-06:00",
+      "tipoff_utc": "2026-11-27T16:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "western-kentucky",
+        "name": "Western Kentucky"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 27.06,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 170.8,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "draftkings": null,
+      "game_id": "cbb-2027-2026-11-27-western-kentucky-at-illinois",
+      "home_team": {
+        "id": "illinois",
+        "name": "Illinois"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": false,
+      "pregame": true,
+      "projections": [
+        {
+          "away_score": 71.87,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 98.93,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
+          "origin": "source_observation",
+          "projected_home_spread": -27.06,
+          "provider": "haslametrics",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
+          "source_updated_at": null,
+          "source_url": "https://www.haslametrics.com/",
+          "total": 170.8
+        }
+      ],
+      "research": {
+        "spread": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        },
+        "total": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        }
+      },
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-western-kentucky-at-illinois.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-27T17:00:00-06:00",
+      "tipoff_utc": "2026-11-27T23:00:00Z",
+      "venue": null
+    },
+    {
+      "away_team": {
+        "id": "wichita-state",
+        "name": "Wichita State"
+      },
+      "comparison": {
+        "spread": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 5.56,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        },
+        "total": {
+          "consensus_available": false,
+          "largest_deviation_sources": [],
+          "median": 156.68,
+          "origin": "system_calculation",
+          "range_points": 0.0,
+          "source_count": 1
+        }
+      },
+      "consensus_home_spread": null,
+      "consensus_total": null,
+      "data_issues": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "draftkings": null,
+      "game_id": "cbb-2027-2026-11-27-wichita-state-at-kentucky",
+      "home_team": {
+        "id": "kentucky",
+        "name": "Kentucky"
+      },
+      "market_available": false,
+      "missing_sources": [
+        "barttorvik",
+        "dratings"
+      ],
+      "neutral_site": false,
+      "pregame": true,
+      "projections": [
+        {
+          "away_score": 75.56,
+          "basis": "end_of_regulation",
+          "freshness": "fresh",
+          "home_score": 81.12,
+          "observed_at": "2026-11-27T12:30:48.228000Z",
+          "origin": "source_observation",
+          "projected_home_spread": -5.56,
+          "provider": "haslametrics",
+          "retrieved_at": "2026-11-27T12:30:48.228000Z",
+          "source_as_of_date": "2026-11-25",
+          "source_updated_at": null,
+          "source_url": "https://www.haslametrics.com/",
+          "total": 156.68
+        }
+      ],
+      "research": {
+        "spread": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        },
+        "total": {
+          "actionable": false,
+          "agreeing_source_count": 0,
+          "classification": "PROJECTION_ONLY",
+          "difference": null,
+          "market_freshness": {
+            "age_hours": null,
+            "reasons": [
+              "not_imported"
+            ],
+            "state": "missing"
+          },
+          "market_observed_at": null,
+          "preferred": null,
+          "source_count": 1,
+          "verified_market_observation": false
+        }
+      },
+      "resource": {
+        "path": "data/intelligence/games/cbb-2027-2026-11-27-wichita-state-at-kentucky.json"
+      },
+      "status": "scheduled",
+      "tipoff_central": "2026-11-27T20:00:00-06:00",
+      "tipoff_utc": "2026-11-28T02:00:00Z",
       "venue": null
     }
   ],
-  "generated_at": "2026-11-26T19:21:24.067616Z",
+  "generated_at": "2026-11-27T13:01:07.424754Z",
   "history": {
     "github_path": "docs/cbb/data/intelligence/history/index.json",
     "github_raw_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cbb/data/intelligence/history/index.json",
@@ -2245,12 +4093,12 @@
     "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/index.json"
   },
   "immutable_edition": {
-    "github_path": "docs/cbb/data/intelligence/history/editions/4385c2fa6db2470859090aa04d2b6544272a91d43c68d30c4be67a5629560683.json",
-    "github_raw_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cbb/data/intelligence/history/editions/4385c2fa6db2470859090aa04d2b6544272a91d43c68d30c4be67a5629560683.json",
+    "github_path": "docs/cbb/data/intelligence/history/editions/df52f7ddba63535e9617e0f5c133878f151075524293eb28afb47cdf7a347afd.json",
+    "github_raw_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cbb/data/intelligence/history/editions/df52f7ddba63535e9617e0f5c133878f151075524293eb28afb47cdf7a347afd.json",
     "github_ref": "main",
     "github_repository": "jptx817/sports_fun_preview",
-    "path": "data/intelligence/history/editions/4385c2fa6db2470859090aa04d2b6544272a91d43c68d30c4be67a5629560683.json",
-    "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/editions/4385c2fa6db2470859090aa04d2b6544272a91d43c68d30c4be67a5629560683.json"
+    "path": "data/intelligence/history/editions/df52f7ddba63535e9617e0f5c133878f151075524293eb28afb47cdf7a347afd.json",
+    "url": "https://jptx817.github.io/sports_fun_preview/cbb/data/intelligence/history/editions/df52f7ddba63535e9617e0f5c133878f151075524293eb28afb47cdf7a347afd.json"
   },
   "interpretation_policy": "Source observations and system calculations are labeled separately. A discrepant forecast alone cannot explain why a source differs. Source-provided prose is unavailable unless linked; no invented commentary.",
   "kind": "board",
@@ -2258,18 +4106,18 @@
     "criteria": "Top five by fresh eligible source range or projected scoring level. Strong agreement: 3+ systems and both ranges <=2 points. Team rank gap >=25 places. Descriptive screens, not optimized thresholds or betting recommendations.",
     "groups": {
       "highest_projected_totals": [
-        "cbb-2027-2026-11-26-alabama-at-kansas-state",
-        "cbb-2027-2026-11-26-usc-at-utah-state",
-        "cbb-2027-2026-11-26-st-john-s-at-louisville",
-        "cbb-2027-2026-11-26-smu-at-lsu",
-        "cbb-2027-2026-11-26-michigan-at-miami-fl"
+        "cbb-2027-2026-11-27-western-kentucky-at-illinois",
+        "cbb-2027-2026-11-27-georgia-at-ucf",
+        "cbb-2027-2026-11-27-mississippi-state-at-penn-state",
+        "cbb-2027-2026-11-27-memphis-at-wake-forest",
+        "cbb-2027-2026-11-27-wichita-state-at-kentucky"
       ],
       "lowest_projected_totals": [
-        "cbb-2027-2026-11-26-iowa-state-at-tennessee",
-        "cbb-2027-2026-11-26-pittsburgh-at-depaul",
-        "cbb-2027-2026-11-26-pacific-at-omaha",
-        "cbb-2027-2026-11-26-texas-tech-at-oregon",
-        "cbb-2027-2026-11-26-uc-davis-at-jacksonville-state"
+        "cbb-2027-2026-11-27-vermont-at-merrimack",
+        "cbb-2027-2026-11-27-texas-state-at-louisiana-tech",
+        "cbb-2027-2026-11-27-navy-at-fairfield",
+        "cbb-2027-2026-11-27-north-texas-at-north-dakota-state",
+        "cbb-2027-2026-11-27-maine-at-le-moyne"
       ],
       "market_differences": [],
       "spread_disagreement": [],
@@ -2316,13 +4164,13 @@
       "state": "missing"
     },
     "haslametrics": {
-      "latest_retrieved_at": "2026-11-26T12:31:20.239000Z",
-      "newest_observed_at": "2026-11-26T12:31:20.239000Z",
-      "observations": 21,
-      "oldest_observed_at": "2026-11-26T12:31:20.239000Z",
+      "latest_retrieved_at": "2026-11-27T12:30:48.228000Z",
+      "newest_observed_at": "2026-11-27T12:30:48.228000Z",
+      "observations": 39,
+      "oldest_observed_at": "2026-11-27T12:30:48.228000Z",
       "provider_update_known": false,
       "source_as_of_dates": [
-        "2026-11-24"
+        "2026-11-25"
       ],
       "state": "fresh"
     }
@@ -3204,6 +5052,15 @@
     },
     {
       "resource": {
+        "path": "data/intelligence/teams/fresno-state.json"
+      },
+      "team": {
+        "id": "fresno-state",
+        "name": "Fresno State"
+      }
+    },
+    {
+      "resource": {
         "path": "data/intelligence/teams/furman.json"
       },
       "team": {
@@ -3357,11 +5214,29 @@
     },
     {
       "resource": {
+        "path": "data/intelligence/teams/hofstra.json"
+      },
+      "team": {
+        "id": "hofstra",
+        "name": "Hofstra"
+      }
+    },
+    {
+      "resource": {
         "path": "data/intelligence/teams/holy-cross.json"
       },
       "team": {
         "id": "holy-cross",
         "name": "Holy Cross"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/houston.json"
+      },
+      "team": {
+        "id": "houston",
+        "name": "Houston"
       }
     },
     {
@@ -3578,6 +5453,15 @@
       "team": {
         "id": "kent-state",
         "name": "Kent State"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/kentucky.json"
+      },
+      "team": {
+        "id": "kentucky",
+        "name": "Kentucky"
       }
     },
     {
@@ -3906,6 +5790,15 @@
     },
     {
       "resource": {
+        "path": "data/intelligence/teams/merrimack.json"
+      },
+      "team": {
+        "id": "merrimack",
+        "name": "Merrimack"
+      }
+    },
+    {
+      "resource": {
         "path": "data/intelligence/teams/miami-fl.json"
       },
       "team": {
@@ -4140,6 +6033,15 @@
     },
     {
       "resource": {
+        "path": "data/intelligence/teams/niagara.json"
+      },
+      "team": {
+        "id": "niagara",
+        "name": "Niagara"
+      }
+    },
+    {
+      "resource": {
         "path": "data/intelligence/teams/nicholls.json"
       },
       "team": {
@@ -4230,6 +6132,15 @@
     },
     {
       "resource": {
+        "path": "data/intelligence/teams/north-texas.json"
+      },
+      "team": {
+        "id": "north-texas",
+        "name": "North Texas"
+      }
+    },
+    {
+      "resource": {
         "path": "data/intelligence/teams/northeastern.json"
       },
       "team": {
@@ -4316,6 +6227,15 @@
       "team": {
         "id": "notre-dame-md",
         "name": "Notre Dame (MD)"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/oakland.json"
+      },
+      "team": {
+        "id": "oakland",
+        "name": "Oakland"
       }
     },
     {
@@ -5504,6 +7424,15 @@
       "team": {
         "id": "west-georgia",
         "name": "West Georgia"
+      }
+    },
+    {
+      "resource": {
+        "path": "data/intelligence/teams/west-virginia.json"
+      },
+      "team": {
+        "id": "west-virginia",
+        "name": "West Virginia"
       }
     },
     {
