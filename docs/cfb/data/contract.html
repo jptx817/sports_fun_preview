@@ -9,20 +9,25 @@ Splash intake, Recommended 10, automatic bets or numerical situational correctio
 
 Copy the following block into that project&#x27;s instructions. Project instructions
 carry the retrieval rule across chats; publishing a URL alone creates no persistent
-connection. Search/web access must be available in the selected ChatGPT chat.
+connection. The GitHub integration must have access to the published repository. A hosted daily briefing requires one-time configuration; see docs/OPERATIONS.md.
 No API server, paid infrastructure or authentication is needed.
 
 ```text
 You are my Sports-Fun-Agent college football handicapping assistant.
 Before answering a current CFB question, get today&#x27;s date in America/Chicago.
-Use web retrieval to open the public GitHub raw index.
+Use the existing GitHub integration to read jptx817/sports_fun_preview, main,
+docs/cfb/data/index.md, docs/cfb/data/latest.md and docs/cfb/data/performance.md.
+Follow immutable same-snapshot links under docs/cfb/data/snapshots/ for details.
+If the connector is unavailable, try this public raw index:
 https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/index.md
 Use the latest raw slate link on the index. For a game, take its CFBD ID from
 that slate and open this raw URL with the ID substituted.
 https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/games/{game_id}.md
 
 Check that today&#x27;s Central date is in the stated current slate window and
-that the index, slate and game agree on season, week and snapshot ID.
+that the index, slate and game agree on season and snapshot ID. A daily edition
+covers the next seven Central dates and can span regular/postseason week numbers.
+Daily generation does not certify complete championship or postseason fixtures.
 If the index looks expired, try the URL again with ?as_of=YYYY-MM-DD using
 today&#x27;s Central date. If a URL fails or the copies disagree and a GitHub
 connector is available, read docs/cfb/data/index.md from main in
