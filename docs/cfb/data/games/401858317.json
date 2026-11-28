@@ -104,16 +104,16 @@
             "games": 10,
             "reason": null,
             "unit": "PPA/play",
-            "value": -0.015235964618607462
+            "value": -0.014734551503855275
           },
           "interpretation": "Deviations from league mean; defense lower allowed is better. Existing approved rating recipe.",
-          "league_mean": 0.09867628882174226,
+          "league_mean": 0.09850965066142961,
           "offense": {
             "available": true,
             "games": 10,
             "reason": null,
             "unit": "PPA/play",
-            "value": -0.012862438353474847
+            "value": -0.010385693935086437
           }
         },
         "successRate": {
@@ -122,16 +122,16 @@
             "games": 10,
             "reason": null,
             "unit": "fraction",
-            "value": -0.01855600962356774
+            "value": -0.018492030949737198
           },
           "interpretation": "Deviations from league mean; defense lower allowed is better. Existing approved rating recipe.",
-          "league_mean": 0.4152386011560218,
+          "league_mean": 0.41520540890776175,
           "offense": {
             "available": true,
             "games": 10,
             "reason": null,
             "unit": "fraction",
-            "value": -0.014648122149513498
+            "value": -0.013513011619320498
           }
         }
       },
@@ -154,13 +154,13 @@
             "available": true,
             "reason": null,
             "unit": "PPA/play",
-            "value": 0.038496818311442
+            "value": 0.03572391291531001
           },
           "mean_opponent_offense": {
             "available": true,
             "reason": null,
             "unit": "PPA/play",
-            "value": 0.03095225555522705
+            "value": 0.030782462307098996
           },
           "role": "Diagnostic only; not an extra margin adjustment"
         },
@@ -169,13 +169,13 @@
             "available": true,
             "reason": null,
             "unit": "fraction",
-            "value": 0.009318614805550515
+            "value": 0.008151754922101986
           },
           "mean_opponent_offense": {
             "available": true,
             "reason": null,
             "unit": "fraction",
-            "value": 0.012561973027927453
+            "value": 0.012476218873044518
           },
           "role": "Diagnostic only; not an extra margin adjustment"
         }
@@ -194,7 +194,7 @@
         "value": null
       },
       "next_opponent": null,
-      "observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "observed_at": "2026-11-28T08:20:17.736918+00:00",
       "previous_opponent": {
         "completed": true,
         "game_id": "401858305",
@@ -250,7 +250,7 @@
       }
     }
   },
-  "central_date": "2026-11-27",
+  "central_date": "2026-11-28",
   "conventions": {
     "aggregation": "Raw matchup values are equal-game means against FBS opponents, completed before cutoff. Rank 1 is best: higher offense, lower defensive allowance. Prior ranks use the prior season FBS pool.",
     "difference": "market_spread_home minus model_spread_home; positive favors home against the observed spread, negative favors away. Not a cover probability or validated betting edge.",
@@ -261,19 +261,19 @@
     "tempo": "Reported offensive plays/drives per game; descriptive volume, not seconds per snap or a projection input.",
     "time": "ISO 8601 timestamps include offsets. Central display uses America/Chicago, including daylight saving changes."
   },
-  "counterargument": "Virginia Tech's passing offense generates 0.253 PPA/play (#44/138) with 40.4% success. Sustained production from that unit could erase the spread disagreement toward Virginia.",
+  "counterargument": "Virginia Tech's passing offense generates 0.253 PPA/play (#46/138) with 40.4% success. Sustained production from that unit could erase the spread disagreement toward Virginia.",
   "cutoffs": {
-    "advanced_statistics": "2026-11-27T08:17:08.189179+00:00",
-    "market_snapshot": "2026-11-27T08:17:15.925200+00:00",
+    "advanced_statistics": "2026-11-28T08:20:30.657058+00:00",
+    "market_snapshot": "2026-11-28T08:20:37.598078+00:00",
     "meaning": "Receipt upper bounds and prediction information cutoff, not claims of provider publication time.",
-    "prediction_information": "2026-11-27T08:17:20.808461Z",
-    "ratings": "2026-11-27T08:16:57.185830+00:00",
-    "results": "2026-11-27T08:16:57.185830+00:00"
+    "prediction_information": "2026-11-28T08:20:42.411755Z",
+    "ratings": "2026-11-28T08:20:17.736918+00:00",
+    "results": "2026-11-28T08:20:17.736918+00:00"
   },
   "delivery_mode": "briefing",
   "display_timezone": "America/Chicago",
   "game_id": "401858317",
-  "generated_at": "2026-11-27T08:17:20.808461Z",
+  "generated_at": "2026-11-28T08:20:42.411755Z",
   "home_team": {
     "abbreviation": "VT",
     "capsule": {
@@ -360,16 +360,16 @@
             "games": 10,
             "reason": null,
             "unit": "PPA/play",
-            "value": 0.07478789171559384
+            "value": 0.07355789619719967
           },
           "interpretation": "Deviations from league mean; defense lower allowed is better. Existing approved rating recipe.",
-          "league_mean": 0.09867628882174226,
+          "league_mean": 0.09850965066142961,
           "offense": {
             "available": true,
             "games": 10,
             "reason": null,
             "unit": "PPA/play",
-            "value": 0.02304892319529518
+            "value": 0.022552273838603656
           }
         },
         "successRate": {
@@ -378,16 +378,16 @@
             "games": 10,
             "reason": null,
             "unit": "fraction",
-            "value": 0.016726856301666967
+            "value": 0.016302057911588244
           },
           "interpretation": "Deviations from league mean; defense lower allowed is better. Existing approved rating recipe.",
-          "league_mean": 0.4152386011560218,
+          "league_mean": 0.41520540890776175,
           "offense": {
             "available": true,
             "games": 10,
             "reason": null,
             "unit": "fraction",
-            "value": 0.0026560469236602395
+            "value": 0.002521702312728335
           }
         }
       },
@@ -410,13 +410,13 @@
             "available": true,
             "reason": null,
             "unit": "PPA/play",
-            "value": 0.002419205717408804
+            "value": 0.0032755718472658167
           },
           "mean_opponent_offense": {
             "available": true,
             "reason": null,
             "unit": "PPA/play",
-            "value": -0.04774927645436635
+            "value": -0.04637305856901123
           },
           "role": "Diagnostic only; not an extra margin adjustment"
         },
@@ -425,13 +425,13 @@
             "available": true,
             "reason": null,
             "unit": "fraction",
-            "value": -0.007458749587513157
+            "value": -0.007310158570812865
           },
           "mean_opponent_offense": {
             "available": true,
             "reason": null,
             "unit": "fraction",
-            "value": -0.01905835361371477
+            "value": -0.018525503228415223
           },
           "role": "Diagnostic only; not an extra margin adjustment"
         }
@@ -450,7 +450,7 @@
         "value": null
       },
       "next_opponent": null,
-      "observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "observed_at": "2026-11-28T08:20:17.736918+00:00",
       "previous_opponent": {
         "completed": true,
         "game_id": "401858302",
@@ -506,8 +506,8 @@
       }
     }
   },
-  "immutable_slate_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/slate.html",
-  "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858317.json",
+  "immutable_slate_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-28/c4c0255eddb7323d51eb3dc841316117a18efb5ecc66114e1c5809497e155dd0/slate.html",
+  "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-28/c4c0255eddb7323d51eb3dc841316117a18efb5ecc66114e1c5809497e155dd0/games/401858317.json",
   "kickoff": "2026-11-28T20:00:00.000Z",
   "kickoff_central": "2026-11-28T14:00:00-06:00",
   "kickoff_time_tbd": false,
@@ -521,23 +521,23 @@
     "reason": "Comparable timestamped observations have not been linked; never infer movement from spreadOpen",
     "value": null
   },
-  "manifest_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/manifest.json",
+  "manifest_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-28/c4c0255eddb7323d51eb3dc841316117a18efb5ecc66114e1c5809497e155dd0/manifest.json",
   "market": {
     "book_updated_at": null,
     "formatted_spread": "Virginia Tech -3",
     "fresh": true,
     "freshness": {
-      "age_seconds": 4.883261,
-      "evaluated_at": "2026-11-27T08:17:20.808461Z",
+      "age_seconds": 4.813677,
+      "evaluated_at": "2026-11-28T08:20:42.411755Z",
       "max_age_seconds": 7200,
-      "observed_at": "2026-11-27T08:17:15.925200+00:00",
+      "observed_at": "2026-11-28T08:20:37.598078+00:00",
       "refresh_failed": false,
       "status": "fresh",
       "warning": null
     },
     "pregame_observation": true,
     "provider": "DraftKings",
-    "retrieved_at": "2026-11-27T08:17:15.925200+00:00",
+    "retrieved_at": "2026-11-28T08:20:37.598078+00:00",
     "selection_policy": "DraftKings, FanDuel, Bovada, BetMGM, Caesars; other named providers alphabetically; consensus last",
     "sign_crosscheck": true,
     "source": "CFBD /lines",
@@ -548,7 +548,7 @@
     "timing_note": "Observed at retrieval; sportsbook update time and spread-bet odds unavailable",
     "total": 50.5
   },
-  "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+  "market_snapshot_timestamp": "2026-11-28T08:20:37.598078+00:00",
   "market_spread_home": -3.0,
   "market_total": 50.5,
   "model": {
@@ -561,7 +561,7 @@
   },
   "model_available": true,
   "model_preferred_side": "Virginia",
-  "model_spread_home": 3.582292734302504,
+  "model_spread_home": 3.666845947620374,
   "model_total": null,
   "model_total_availability": "unsupported_margin_only_model",
   "model_unavailable_reason": null,
@@ -582,7 +582,7 @@
         "explosiveness": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 104,
+            "current_rank": 103,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -595,7 +595,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 116,
+            "current_rank": 117,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -623,7 +623,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 116,
+            "current_rank": 117,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -638,7 +638,7 @@
         "passingPlays_ppa": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 63,
+            "current_rank": 62,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -651,7 +651,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 50,
+            "current_rank": 52,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -666,7 +666,7 @@
         "passingPlays_successRate": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 75,
+            "current_rank": 74,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -679,7 +679,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 57,
+            "current_rank": 58,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -694,7 +694,7 @@
         "ppa": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 90,
+            "current_rank": 91,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -735,7 +735,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 62,
+            "current_rank": 61,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -778,7 +778,7 @@
         "rushingPlays_successRate": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 46,
+            "current_rank": 48,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -791,7 +791,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 80,
+            "current_rank": 82,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -806,7 +806,7 @@
         "successRate": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 67,
+            "current_rank": 68,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -819,7 +819,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 65,
+            "current_rank": 66,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -832,7 +832,7 @@
           }
         }
       },
-      "narrative": "Passing: Virginia generates 0.247 PPA/play with 42.2% success; Virginia Tech allows 0.176 PPA/play and 41.9% success. Rushing: Virginia generates 0.049 PPA/play with 40.4% success; Virginia Tech allows 0.078 PPA/play and 40.1% success. Reported run share 57.2% of 673 box attempts (sacks/kneels unresolved). PGWP expected wins 5.69 vs 5 actual across 10 covered games; luck gap -0.69 wins. Tempo context: 68.8 reported offensive plays and 11.2 drives/game (10 games); descriptive volume, not seconds/snap or possession-model inputs. Opponent-adjusted PPA: Virginia offense -0.013 vs Virginia Tech defensive allowance +0.075, deviations from league mean. Schedule context: opponents' fitted offense +0.031, allowed-efficiency +0.038 PPA (positive offense = stronger; lower allowed = tougher).",
+      "narrative": "Passing: Virginia generates 0.247 PPA/play with 42.2% success; Virginia Tech allows 0.176 PPA/play and 41.9% success. Rushing: Virginia generates 0.049 PPA/play with 40.4% success; Virginia Tech allows 0.078 PPA/play and 40.1% success. Reported run share 57.2% of 673 box attempts (sacks/kneels unresolved). PGWP expected wins 5.69 vs 5 actual across 10 covered games; luck gap -0.69 wins. Tempo context: 68.8 reported offensive plays and 11.2 drives/game (10 games); descriptive volume, not seconds/snap or possession-model inputs. Opponent-adjusted PPA: Virginia offense -0.010 vs Virginia Tech defensive allowance +0.074, deviations from league mean. Schedule context: opponents' fitted offense +0.031, allowed-efficiency +0.036 PPA (positive offense = stronger; lower allowed = tougher).",
       "offense_team_id": "258"
     },
     "home_offense_vs_away_defense": {
@@ -874,7 +874,7 @@
         "passingPlays_explosiveness": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 103,
+            "current_rank": 104,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -902,7 +902,7 @@
         "passingPlays_ppa": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 66,
+            "current_rank": 67,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -915,7 +915,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 44,
+            "current_rank": 46,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -930,7 +930,7 @@
         "passingPlays_successRate": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 35,
+            "current_rank": 34,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -958,7 +958,7 @@
         "ppa": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 67,
+            "current_rank": 66,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -986,7 +986,7 @@
         "rushingPlays_explosiveness": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 58,
+            "current_rank": 56,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -999,7 +999,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 30,
+            "current_rank": 29,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -1027,7 +1027,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 76,
+            "current_rank": 77,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -1042,7 +1042,7 @@
         "rushingPlays_successRate": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 76,
+            "current_rank": 75,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -1055,7 +1055,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 66,
+            "current_rank": 67,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -1070,7 +1070,7 @@
         "successRate": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 52,
+            "current_rank": 51,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -1083,7 +1083,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 73,
+            "current_rank": 76,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -1096,7 +1096,7 @@
           }
         }
       },
-      "narrative": "Passing: Virginia Tech generates 0.253 PPA/play with 40.4% success; Virginia allows 0.182 PPA/play and 38.1% success. Rushing: Virginia Tech generates 0.029 PPA/play with 41.4% success; Virginia allows 0.133 PPA/play and 42.3% success. Reported run share 49.6% of 700 box attempts (sacks/kneels unresolved). PGWP expected wins 4.88 vs 5 actual across 10 covered games; luck gap +0.12 wins. Tempo context: 71.6 reported offensive plays and 11.8 drives/game (10 games); descriptive volume, not seconds/snap or possession-model inputs. Opponent-adjusted PPA: Virginia Tech offense +0.023 vs Virginia defensive allowance -0.015, deviations from league mean. Schedule context: opponents' fitted offense -0.048, allowed-efficiency +0.002 PPA (positive offense = stronger; lower allowed = tougher).",
+      "narrative": "Passing: Virginia Tech generates 0.253 PPA/play with 40.4% success; Virginia allows 0.182 PPA/play and 38.1% success. Rushing: Virginia Tech generates 0.029 PPA/play with 41.4% success; Virginia allows 0.133 PPA/play and 42.3% success. Reported run share 49.6% of 700 box attempts (sacks/kneels unresolved). PGWP expected wins 4.88 vs 5 actual across 10 covered games; luck gap +0.12 wins. Tempo context: 71.6 reported offensive plays and 11.8 drives/game (10 games); descriptive volume, not seconds/snap or possession-model inputs. Opponent-adjusted PPA: Virginia Tech offense +0.023 vs Virginia defensive allowance -0.015, deviations from league mean. Schedule context: opponents' fitted offense -0.046, allowed-efficiency +0.003 PPA (positive offense = stronger; lower allowed = tougher).",
       "offense_team_id": "259"
     }
   },
@@ -1118,40 +1118,40 @@
     "away_points": null,
     "completed": false,
     "home_points": null,
-    "source_observed_at": "2026-11-27T08:16:57.185830+00:00"
+    "source_observed_at": "2026-11-28T08:20:17.736918+00:00"
   },
   "schema_version": "1.0.0",
   "scope": "daily_window",
   "season": 2026,
   "season_type": "mixed",
   "slate_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/index.html",
-  "snapshot_id": "8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7",
-  "source_snapshot_digest": "167fb7de32ed2a57cc1558577d69b1582756de84cc53a49212eba7b4f2eda935",
+  "snapshot_id": "c4c0255eddb7323d51eb3dc841316117a18efb5ecc66114e1c5809497e155dd0",
+  "source_snapshot_digest": "50fc36e7ef3a642a97c9f7251b90cab3638b2d4cb639c1e99daa53e74c85e04c",
   "sources": [
     {
       "family": "games",
-      "observed_at": "2026-11-27T08:16:57.185830+00:00",
-      "sha256": "c9a6574c69898472c6b8e55ef2bcd4d6a2dab2f647a334a30e4234f281ce2727",
+      "observed_at": "2026-11-28T08:20:17.736918+00:00",
+      "sha256": "683626bce44dcc8bb9db04c0ba36d7709e81bc9b93409032ef984cdef7764f06",
       "url": "https://api.collegefootballdata.com/games"
     },
     {
       "family": "teams",
-      "observed_at": "2026-11-27T08:16:57.798154+00:00",
+      "observed_at": "2026-11-28T08:20:18.760102+00:00",
       "sha256": "3d81870ba2c5b55ba527248c4306faaa151ddf01aa739960f27b42be45b4aabb",
       "url": "https://api.collegefootballdata.com/teams"
     },
     {
       "family": "advanced_games",
-      "observed_at": "2026-11-27T08:17:08.189179+00:00",
-      "sha256": "0452e4d039e5c51f003d77871d00fb6ec52899d1d8d6c23675791e8a3d684b54",
+      "observed_at": "2026-11-28T08:20:30.657058+00:00",
+      "sha256": "ae87ba4e0d2755bfdfd318aa8f960384bb6d804e5a2ab98e19f75cedcb155526",
       "url": "https://api.collegefootballdata.com/stats/game/advanced"
     }
   ],
-  "spread_difference_home": -6.582292734302504,
+  "spread_difference_home": -6.666845947620374,
   "stable_json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/games/401858317.json",
   "status": "scheduled",
-  "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
-  "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858317.html",
+  "status_observed_at": "2026-11-28T08:20:17.736918+00:00",
+  "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-28/c4c0255eddb7323d51eb3dc841316117a18efb5ecc66114e1c5809497e155dd0/games/401858317.html",
   "venue": {
     "id": "3799",
     "location": {
@@ -1174,7 +1174,7 @@
     "reason": "No sourced timestamped forecast in this capture; research current venue forecast on demand",
     "value": null
   },
-  "web_manifest_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/manifest.json",
-  "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401858317.json",
+  "web_manifest_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-28/c4c0255eddb7323d51eb3dc841316117a18efb5ecc66114e1c5809497e155dd0/manifest.json",
+  "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-28/c4c0255eddb7323d51eb3dc841316117a18efb5ecc66114e1c5809497e155dd0/games/401858317.json",
   "week": 13
 }

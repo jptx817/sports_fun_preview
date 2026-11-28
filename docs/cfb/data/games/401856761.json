@@ -88,16 +88,16 @@
             "games": 10,
             "reason": null,
             "unit": "PPA/play",
-            "value": -0.13365545362487416
+            "value": -0.13236162490739012
           },
           "interpretation": "Deviations from league mean; defense lower allowed is better. Existing approved rating recipe.",
-          "league_mean": 0.09867628882174226,
+          "league_mean": 0.09850965066142961,
           "offense": {
             "available": true,
             "games": 10,
             "reason": null,
             "unit": "PPA/play",
-            "value": 0.11807522090778438
+            "value": 0.12108934434337613
           }
         },
         "successRate": {
@@ -106,16 +106,16 @@
             "games": 10,
             "reason": null,
             "unit": "fraction",
-            "value": -0.05663645483121153
+            "value": -0.055923496080784355
           },
           "interpretation": "Deviations from league mean; defense lower allowed is better. Existing approved rating recipe.",
-          "league_mean": 0.4152386011560218,
+          "league_mean": 0.41520540890776175,
           "offense": {
             "available": true,
             "games": 10,
             "reason": null,
             "unit": "fraction",
-            "value": 0.05293405457586811
+            "value": 0.0532177444915301
           }
         }
       },
@@ -138,13 +138,13 @@
             "available": true,
             "reason": null,
             "unit": "PPA/play",
-            "value": 0.023029314455074557
+            "value": 0.01980870748082627
           },
           "mean_opponent_offense": {
             "available": true,
             "reason": null,
             "unit": "PPA/play",
-            "value": 0.04645253993466887
+            "value": 0.04526767417834463
           },
           "role": "Diagnostic only; not an extra margin adjustment"
         },
@@ -153,13 +153,13 @@
             "available": true,
             "reason": null,
             "unit": "fraction",
-            "value": 0.0034858228687762007
+            "value": 0.003223145752016604
           },
           "mean_opponent_offense": {
             "available": true,
             "reason": null,
             "unit": "fraction",
-            "value": 0.025210648479409136
+            "value": 0.024443396148222822
           },
           "role": "Diagnostic only; not an extra margin adjustment"
         }
@@ -178,7 +178,7 @@
         "value": null
       },
       "next_opponent": null,
-      "observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "observed_at": "2026-11-28T08:20:17.736918+00:00",
       "previous_opponent": {
         "completed": true,
         "game_id": "401858306",
@@ -234,7 +234,7 @@
       }
     }
   },
-  "central_date": "2026-11-27",
+  "central_date": "2026-11-28",
   "conventions": {
     "aggregation": "Raw matchup values are equal-game means against FBS opponents, completed before cutoff. Rank 1 is best: higher offense, lower defensive allowance. Prior ranks use the prior season FBS pool.",
     "difference": "market_spread_home minus model_spread_home; positive favors home against the observed spread, negative favors away. Not a cover probability or validated betting edge.",
@@ -245,19 +245,19 @@
     "tempo": "Reported offensive plays/drives per game; descriptive volume, not seconds per snap or a projection input.",
     "time": "ISO 8601 timestamps include offsets. Central display uses America/Chicago, including daylight saving changes."
   },
-  "counterargument": "Kentucky's rushing defense allows 0.026 PPA/play (#58/138, lower is better) and 42.2% success. That resistance is a counterpath to Louisville's model-preferred side.",
+  "counterargument": "Kentucky's rushing offense generates 0.058 PPA/play (#58/138) with 48.6% success. Sustained production from that unit could erase the spread disagreement toward Louisville.",
   "cutoffs": {
-    "advanced_statistics": "2026-11-27T08:17:08.189179+00:00",
-    "market_snapshot": "2026-11-27T08:17:15.925200+00:00",
+    "advanced_statistics": "2026-11-28T08:20:30.657058+00:00",
+    "market_snapshot": "2026-11-28T08:20:37.598078+00:00",
     "meaning": "Receipt upper bounds and prediction information cutoff, not claims of provider publication time.",
-    "prediction_information": "2026-11-27T08:17:20.808461Z",
-    "ratings": "2026-11-27T08:16:57.185830+00:00",
-    "results": "2026-11-27T08:16:57.185830+00:00"
+    "prediction_information": "2026-11-28T08:20:42.411755Z",
+    "ratings": "2026-11-28T08:20:17.736918+00:00",
+    "results": "2026-11-28T08:20:17.736918+00:00"
   },
   "delivery_mode": "briefing",
   "display_timezone": "America/Chicago",
   "game_id": "401856761",
-  "generated_at": "2026-11-27T08:17:20.808461Z",
+  "generated_at": "2026-11-28T08:20:42.411755Z",
   "home_team": {
     "abbreviation": "UK",
     "capsule": {
@@ -333,16 +333,16 @@
             "games": 10,
             "reason": null,
             "unit": "PPA/play",
-            "value": -0.04628630001392656
+            "value": -0.04353613007488553
           },
           "interpretation": "Deviations from league mean; defense lower allowed is better. Existing approved rating recipe.",
-          "league_mean": 0.09867628882174226,
+          "league_mean": 0.09850965066142961,
           "offense": {
             "available": true,
             "games": 10,
             "reason": null,
             "unit": "PPA/play",
-            "value": 0.08407948661657806
+            "value": 0.08696486156368542
           }
         },
         "successRate": {
@@ -351,16 +351,16 @@
             "games": 10,
             "reason": null,
             "unit": "fraction",
-            "value": 0.010089325052079802
+            "value": 0.011456740046794705
           },
           "interpretation": "Deviations from league mean; defense lower allowed is better. Existing approved rating recipe.",
-          "league_mean": 0.4152386011560218,
+          "league_mean": 0.41520540890776175,
           "offense": {
             "available": true,
             "games": 10,
             "reason": null,
             "unit": "fraction",
-            "value": 0.08272097900443352
+            "value": 0.08379145184520409
           }
         }
       },
@@ -383,13 +383,13 @@
             "available": true,
             "reason": null,
             "unit": "PPA/play",
-            "value": -0.09758203988090026
+            "value": -0.10058931590339207
           },
           "mean_opponent_offense": {
             "available": true,
             "reason": null,
             "unit": "PPA/play",
-            "value": 0.07267857946486588
+            "value": 0.06982003069223339
           },
           "role": "Diagnostic only; not an extra margin adjustment"
         },
@@ -398,13 +398,13 @@
             "available": true,
             "reason": null,
             "unit": "fraction",
-            "value": -0.038517647069723784
+            "value": -0.03966197538601794
           },
           "mean_opponent_offense": {
             "available": true,
             "reason": null,
             "unit": "fraction",
-            "value": 0.021123742145590062
+            "value": 0.019652777899663708
           },
           "role": "Diagnostic only; not an extra margin adjustment"
         }
@@ -423,7 +423,7 @@
         "value": null
       },
       "next_opponent": null,
-      "observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "observed_at": "2026-11-28T08:20:17.736918+00:00",
       "previous_opponent": {
         "completed": true,
         "game_id": "401856751",
@@ -479,8 +479,8 @@
       }
     }
   },
-  "immutable_slate_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/slate.html",
-  "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856761.json",
+  "immutable_slate_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-28/c4c0255eddb7323d51eb3dc841316117a18efb5ecc66114e1c5809497e155dd0/slate.html",
+  "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-28/c4c0255eddb7323d51eb3dc841316117a18efb5ecc66114e1c5809497e155dd0/games/401856761.json",
   "kickoff": "2026-11-28T17:00:00.000Z",
   "kickoff_central": "2026-11-28T11:00:00-06:00",
   "kickoff_time_tbd": false,
@@ -494,23 +494,23 @@
     "reason": "Comparable timestamped observations have not been linked; never infer movement from spreadOpen",
     "value": null
   },
-  "manifest_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/manifest.json",
+  "manifest_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-28/c4c0255eddb7323d51eb3dc841316117a18efb5ecc66114e1c5809497e155dd0/manifest.json",
   "market": {
     "book_updated_at": null,
     "formatted_spread": "Louisville -3",
     "fresh": true,
     "freshness": {
-      "age_seconds": 4.883261,
-      "evaluated_at": "2026-11-27T08:17:20.808461Z",
+      "age_seconds": 4.813677,
+      "evaluated_at": "2026-11-28T08:20:42.411755Z",
       "max_age_seconds": 7200,
-      "observed_at": "2026-11-27T08:17:15.925200+00:00",
+      "observed_at": "2026-11-28T08:20:37.598078+00:00",
       "refresh_failed": false,
       "status": "fresh",
       "warning": null
     },
     "pregame_observation": true,
     "provider": "DraftKings",
-    "retrieved_at": "2026-11-27T08:17:15.925200+00:00",
+    "retrieved_at": "2026-11-28T08:20:37.598078+00:00",
     "selection_policy": "DraftKings, FanDuel, Bovada, BetMGM, Caesars; other named providers alphabetically; consensus last",
     "sign_crosscheck": true,
     "source": "CFBD /lines",
@@ -521,7 +521,7 @@
     "timing_note": "Observed at retrieval; sportsbook update time and spread-bet odds unavailable",
     "total": 53.5
   },
-  "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+  "market_snapshot_timestamp": "2026-11-28T08:20:37.598078+00:00",
   "market_spread_home": 3.0,
   "market_total": 53.5,
   "model": {
@@ -534,7 +534,7 @@
   },
   "model_available": true,
   "model_preferred_side": "Louisville",
-  "model_spread_home": 6.691811420111371,
+  "model_spread_home": 6.741272753304441,
   "model_total": null,
   "model_total_availability": "unsupported_margin_only_model",
   "model_unavailable_reason": null,
@@ -583,7 +583,7 @@
         "passingPlays_explosiveness": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 30,
+            "current_rank": 29,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -596,7 +596,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 62,
+            "current_rank": 60,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -611,7 +611,7 @@
         "passingPlays_ppa": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 100,
+            "current_rank": 101,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -624,7 +624,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 22,
+            "current_rank": 23,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -639,7 +639,7 @@
         "passingPlays_successRate": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 125,
+            "current_rank": 124,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -695,7 +695,7 @@
         "rushingPlays_explosiveness": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 41,
+            "current_rank": 40,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -708,7 +708,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 18,
+            "current_rank": 16,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -723,7 +723,7 @@
         "rushingPlays_ppa": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 58,
+            "current_rank": 59,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -751,7 +751,7 @@
         "rushingPlays_successRate": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 75,
+            "current_rank": 74,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -764,7 +764,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 4,
+            "current_rank": 5,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -805,7 +805,7 @@
           }
         }
       },
-      "narrative": "Passing: Louisville generates 0.349 PPA/play with 46.0% success; Kentucky allows 0.255 PPA/play and 47.5% success. Rushing: Louisville generates 0.163 PPA/play with 49.7% success; Kentucky allows 0.026 PPA/play and 42.2% success. Reported run share 55.8% of 647 box attempts (sacks/kneels unresolved). PGWP expected wins 7.34 vs 7 actual across 10 covered games; luck gap -0.34 wins. Tempo context: 65.4 reported offensive plays and 12.6 drives/game (10 games); descriptive volume, not seconds/snap or possession-model inputs. Opponent-adjusted PPA: Louisville offense +0.118 vs Kentucky defensive allowance -0.046, deviations from league mean. Schedule context: opponents' fitted offense +0.046, allowed-efficiency +0.023 PPA (positive offense = stronger; lower allowed = tougher).",
+      "narrative": "Passing: Louisville generates 0.349 PPA/play with 46.0% success; Kentucky allows 0.255 PPA/play and 47.5% success. Rushing: Louisville generates 0.163 PPA/play with 49.7% success; Kentucky allows 0.026 PPA/play and 42.2% success. Reported run share 55.8% of 647 box attempts (sacks/kneels unresolved). PGWP expected wins 7.34 vs 7 actual across 10 covered games; luck gap -0.34 wins. Tempo context: 65.4 reported offensive plays and 12.6 drives/game (10 games); descriptive volume, not seconds/snap or possession-model inputs. Opponent-adjusted PPA: Louisville offense +0.121 vs Kentucky defensive allowance -0.044, deviations from league mean. Schedule context: opponents' fitted offense +0.045, allowed-efficiency +0.020 PPA (positive offense = stronger; lower allowed = tougher).",
       "offense_team_id": "97"
     },
     "home_offense_vs_away_defense": {
@@ -875,7 +875,7 @@
         "passingPlays_ppa": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 41,
+            "current_rank": 40,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -888,7 +888,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 78,
+            "current_rank": 76,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -916,7 +916,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 38,
+            "current_rank": 36,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -931,7 +931,7 @@
         "ppa": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 25,
+            "current_rank": 23,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -944,7 +944,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 71,
+            "current_rank": 72,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -959,7 +959,7 @@
         "rushingPlays_explosiveness": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 29,
+            "current_rank": 30,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -987,7 +987,7 @@
         "rushingPlays_ppa": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 46,
+            "current_rank": 44,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -1015,7 +1015,7 @@
         "rushingPlays_successRate": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 70,
+            "current_rank": 68,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -1028,7 +1028,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 8,
+            "current_rank": 7,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -1043,7 +1043,7 @@
         "successRate": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 25,
+            "current_rank": 27,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -1069,7 +1069,7 @@
           }
         }
       },
-      "narrative": "Passing: Kentucky generates 0.149 PPA/play with 45.1% success; Louisville allows 0.125 PPA/play and 35.3% success. Rushing: Kentucky generates 0.058 PPA/play with 48.6% success; Louisville allows -0.006 PPA/play and 41.9% success. Reported run share 52.5% of 653 box attempts (sacks/kneels unresolved). PGWP expected wins 5.27 vs 6 actual across 10 covered games; luck gap +0.73 wins. Tempo context: 66.6 reported offensive plays and 11.0 drives/game (10 games); descriptive volume, not seconds/snap or possession-model inputs. Opponent-adjusted PPA: Kentucky offense +0.084 vs Louisville defensive allowance -0.134, deviations from league mean. Schedule context: opponents' fitted offense +0.073, allowed-efficiency -0.098 PPA (positive offense = stronger; lower allowed = tougher).",
+      "narrative": "Passing: Kentucky generates 0.149 PPA/play with 45.1% success; Louisville allows 0.125 PPA/play and 35.3% success. Rushing: Kentucky generates 0.058 PPA/play with 48.6% success; Louisville allows -0.006 PPA/play and 41.9% success. Reported run share 52.5% of 653 box attempts (sacks/kneels unresolved). PGWP expected wins 5.27 vs 6 actual across 10 covered games; luck gap +0.73 wins. Tempo context: 66.6 reported offensive plays and 11.0 drives/game (10 games); descriptive volume, not seconds/snap or possession-model inputs. Opponent-adjusted PPA: Kentucky offense +0.087 vs Louisville defensive allowance -0.132, deviations from league mean. Schedule context: opponents' fitted offense +0.070, allowed-efficiency -0.101 PPA (positive offense = stronger; lower allowed = tougher).",
       "offense_team_id": "96"
     }
   },
@@ -1091,40 +1091,40 @@
     "away_points": null,
     "completed": false,
     "home_points": null,
-    "source_observed_at": "2026-11-27T08:16:57.185830+00:00"
+    "source_observed_at": "2026-11-28T08:20:17.736918+00:00"
   },
   "schema_version": "1.0.0",
   "scope": "daily_window",
   "season": 2026,
   "season_type": "mixed",
   "slate_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/index.html",
-  "snapshot_id": "8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7",
-  "source_snapshot_digest": "167fb7de32ed2a57cc1558577d69b1582756de84cc53a49212eba7b4f2eda935",
+  "snapshot_id": "c4c0255eddb7323d51eb3dc841316117a18efb5ecc66114e1c5809497e155dd0",
+  "source_snapshot_digest": "50fc36e7ef3a642a97c9f7251b90cab3638b2d4cb639c1e99daa53e74c85e04c",
   "sources": [
     {
       "family": "games",
-      "observed_at": "2026-11-27T08:16:57.185830+00:00",
-      "sha256": "c9a6574c69898472c6b8e55ef2bcd4d6a2dab2f647a334a30e4234f281ce2727",
+      "observed_at": "2026-11-28T08:20:17.736918+00:00",
+      "sha256": "683626bce44dcc8bb9db04c0ba36d7709e81bc9b93409032ef984cdef7764f06",
       "url": "https://api.collegefootballdata.com/games"
     },
     {
       "family": "teams",
-      "observed_at": "2026-11-27T08:16:57.798154+00:00",
+      "observed_at": "2026-11-28T08:20:18.760102+00:00",
       "sha256": "3d81870ba2c5b55ba527248c4306faaa151ddf01aa739960f27b42be45b4aabb",
       "url": "https://api.collegefootballdata.com/teams"
     },
     {
       "family": "advanced_games",
-      "observed_at": "2026-11-27T08:17:08.189179+00:00",
-      "sha256": "0452e4d039e5c51f003d77871d00fb6ec52899d1d8d6c23675791e8a3d684b54",
+      "observed_at": "2026-11-28T08:20:30.657058+00:00",
+      "sha256": "ae87ba4e0d2755bfdfd318aa8f960384bb6d804e5a2ab98e19f75cedcb155526",
       "url": "https://api.collegefootballdata.com/stats/game/advanced"
     }
   ],
-  "spread_difference_home": -3.691811420111371,
+  "spread_difference_home": -3.7412727533044414,
   "stable_json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/games/401856761.json",
   "status": "scheduled",
-  "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
-  "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856761.html",
+  "status_observed_at": "2026-11-28T08:20:17.736918+00:00",
+  "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-28/c4c0255eddb7323d51eb3dc841316117a18efb5ecc66114e1c5809497e155dd0/games/401856761.html",
   "venue": {
     "id": "3683",
     "location": {
@@ -1147,7 +1147,7 @@
     "reason": "No sourced timestamped forecast in this capture; research current venue forecast on demand",
     "value": null
   },
-  "web_manifest_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/manifest.json",
-  "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401856761.json",
+  "web_manifest_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-28/c4c0255eddb7323d51eb3dc841316117a18efb5ecc66114e1c5809497e155dd0/manifest.json",
+  "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-28/c4c0255eddb7323d51eb3dc841316117a18efb5ecc66114e1c5809497e155dd0/games/401856761.json",
   "week": 13
 }

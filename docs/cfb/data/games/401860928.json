@@ -94,16 +94,16 @@
             "games": 10,
             "reason": null,
             "unit": "PPA/play",
-            "value": 0.01076832725095772
+            "value": 0.011224878371385038
           },
           "interpretation": "Deviations from league mean; defense lower allowed is better. Existing approved rating recipe.",
-          "league_mean": 0.09867628882174226,
+          "league_mean": 0.09850965066142961,
           "offense": {
             "available": true,
             "games": 10,
             "reason": null,
             "unit": "PPA/play",
-            "value": 0.1295302855525048
+            "value": 0.130103465378051
           }
         },
         "successRate": {
@@ -112,16 +112,16 @@
             "games": 10,
             "reason": null,
             "unit": "fraction",
-            "value": 0.014783648802274701
+            "value": 0.015821282444509307
           },
           "interpretation": "Deviations from league mean; defense lower allowed is better. Existing approved rating recipe.",
-          "league_mean": 0.4152386011560218,
+          "league_mean": 0.41520540890776175,
           "offense": {
             "available": true,
             "games": 10,
             "reason": null,
             "unit": "fraction",
-            "value": 0.0668793561927286
+            "value": 0.06641236060291979
           }
         }
       },
@@ -144,13 +144,13 @@
             "available": true,
             "reason": null,
             "unit": "PPA/play",
-            "value": 0.005569125791650947
+            "value": 0.00496184908034542
           },
           "mean_opponent_offense": {
             "available": true,
             "reason": null,
             "unit": "PPA/play",
-            "value": 0.027946901408833623
+            "value": 0.027754748681867364
           },
           "role": "Diagnostic only; not an extra margin adjustment"
         },
@@ -159,13 +159,13 @@
             "available": true,
             "reason": null,
             "unit": "fraction",
-            "value": 0.01067769784270885
+            "value": 0.011256964725745191
           },
           "mean_opponent_offense": {
             "available": true,
             "reason": null,
             "unit": "fraction",
-            "value": -0.0011510108493116456
+            "value": -0.0022915955154625836
           },
           "role": "Diagnostic only; not an extra margin adjustment"
         }
@@ -184,7 +184,7 @@
         "value": null
       },
       "next_opponent": null,
-      "observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "observed_at": "2026-11-28T08:20:17.736918+00:00",
       "previous_opponent": {
         "completed": true,
         "game_id": "401860920",
@@ -240,7 +240,7 @@
       }
     }
   },
-  "central_date": "2026-11-27",
+  "central_date": "2026-11-28",
   "conventions": {
     "aggregation": "Raw matchup values are equal-game means against FBS opponents, completed before cutoff. Rank 1 is best: higher offense, lower defensive allowance. Prior ranks use the prior season FBS pool.",
     "difference": "market_spread_home minus model_spread_home; positive favors home against the observed spread, negative favors away. Not a cover probability or validated betting edge.",
@@ -251,19 +251,19 @@
     "tempo": "Reported offensive plays/drives per game; descriptive volume, not seconds per snap or a projection input.",
     "time": "ISO 8601 timestamps include offsets. Central display uses America/Chicago, including daylight saving changes."
   },
-  "counterargument": "Utah State's rushing defense allows -0.067 PPA/play (#22/138, lower is better) and 38.3% success. That resistance is a counterpath to Texas State's model-preferred side.",
+  "counterargument": "Utah State's rushing defense allows -0.067 PPA/play (#23/138, lower is better) and 38.3% success. That resistance is a counterpath to Texas State's model-preferred side.",
   "cutoffs": {
-    "advanced_statistics": "2026-11-27T08:17:08.189179+00:00",
-    "market_snapshot": "2026-11-27T08:17:15.925200+00:00",
+    "advanced_statistics": "2026-11-28T08:20:30.657058+00:00",
+    "market_snapshot": "2026-11-28T08:20:37.598078+00:00",
     "meaning": "Receipt upper bounds and prediction information cutoff, not claims of provider publication time.",
-    "prediction_information": "2026-11-27T08:17:20.808461Z",
-    "ratings": "2026-11-27T08:16:57.185830+00:00",
-    "results": "2026-11-27T08:16:57.185830+00:00"
+    "prediction_information": "2026-11-28T08:20:42.411755Z",
+    "ratings": "2026-11-28T08:20:17.736918+00:00",
+    "results": "2026-11-28T08:20:17.736918+00:00"
   },
   "delivery_mode": "briefing",
   "display_timezone": "America/Chicago",
   "game_id": "401860928",
-  "generated_at": "2026-11-27T08:17:20.808461Z",
+  "generated_at": "2026-11-28T08:20:42.411755Z",
   "home_team": {
     "abbreviation": "USU",
     "capsule": {
@@ -339,16 +339,16 @@
             "games": 10,
             "reason": null,
             "unit": "PPA/play",
-            "value": -0.0678214407474469
+            "value": -0.06767498287792312
           },
           "interpretation": "Deviations from league mean; defense lower allowed is better. Existing approved rating recipe.",
-          "league_mean": 0.09867628882174226,
+          "league_mean": 0.09850965066142961,
           "offense": {
             "available": true,
             "games": 10,
             "reason": null,
             "unit": "PPA/play",
-            "value": -0.09672760199351824
+            "value": -0.09848996153752405
           }
         },
         "successRate": {
@@ -357,16 +357,16 @@
             "games": 10,
             "reason": null,
             "unit": "fraction",
-            "value": -0.015091497486802196
+            "value": -0.01429959784824255
           },
           "interpretation": "Deviations from league mean; defense lower allowed is better. Existing approved rating recipe.",
-          "league_mean": 0.4152386011560218,
+          "league_mean": 0.41520540890776175,
           "offense": {
             "available": true,
             "games": 10,
             "reason": null,
             "unit": "fraction",
-            "value": -0.04925285565780812
+            "value": -0.050047422968975554
           }
         }
       },
@@ -389,13 +389,13 @@
             "available": true,
             "reason": null,
             "unit": "PPA/play",
-            "value": 0.014688562261979505
+            "value": 0.0169372095599343
           },
           "mean_opponent_offense": {
             "available": true,
             "reason": null,
             "unit": "PPA/play",
-            "value": 0.029822370854816115
+            "value": 0.02968449001346144
           },
           "role": "Diagnostic only; not an extra margin adjustment"
         },
@@ -404,13 +404,13 @@
             "available": true,
             "reason": null,
             "unit": "fraction",
-            "value": 0.016964015246183742
+            "value": 0.017838851216489312
           },
           "mean_opponent_offense": {
             "available": true,
             "reason": null,
             "unit": "fraction",
-            "value": 0.005374129791360966
+            "value": 0.004568612345158309
           },
           "role": "Diagnostic only; not an extra margin adjustment"
         }
@@ -429,7 +429,7 @@
         "value": null
       },
       "next_opponent": null,
-      "observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "observed_at": "2026-11-28T08:20:17.736918+00:00",
       "previous_opponent": {
         "completed": true,
         "game_id": "401860919",
@@ -485,8 +485,8 @@
       }
     }
   },
-  "immutable_slate_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/slate.html",
-  "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401860928.json",
+  "immutable_slate_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-28/c4c0255eddb7323d51eb3dc841316117a18efb5ecc66114e1c5809497e155dd0/slate.html",
+  "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-28/c4c0255eddb7323d51eb3dc841316117a18efb5ecc66114e1c5809497e155dd0/games/401860928.json",
   "kickoff": "2026-11-29T02:30:00.000Z",
   "kickoff_central": "2026-11-28T20:30:00-06:00",
   "kickoff_time_tbd": false,
@@ -500,35 +500,35 @@
     "reason": "Comparable timestamped observations have not been linked; never infer movement from spreadOpen",
     "value": null
   },
-  "manifest_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/manifest.json",
+  "manifest_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-28/c4c0255eddb7323d51eb3dc841316117a18efb5ecc66114e1c5809497e155dd0/manifest.json",
   "market": {
     "book_updated_at": null,
-    "formatted_spread": "Texas State -7",
+    "formatted_spread": "Texas State -7.5",
     "fresh": true,
     "freshness": {
-      "age_seconds": 4.883261,
-      "evaluated_at": "2026-11-27T08:17:20.808461Z",
+      "age_seconds": 4.813677,
+      "evaluated_at": "2026-11-28T08:20:42.411755Z",
       "max_age_seconds": 7200,
-      "observed_at": "2026-11-27T08:17:15.925200+00:00",
+      "observed_at": "2026-11-28T08:20:37.598078+00:00",
       "refresh_failed": false,
       "status": "fresh",
       "warning": null
     },
     "pregame_observation": true,
     "provider": "DraftKings",
-    "retrieved_at": "2026-11-27T08:17:15.925200+00:00",
+    "retrieved_at": "2026-11-28T08:20:37.598078+00:00",
     "selection_policy": "DraftKings, FanDuel, Bovada, BetMGM, Caesars; other named providers alphabetically; consensus last",
     "sign_crosscheck": true,
     "source": "CFBD /lines",
     "source_url": "https://api.collegefootballdata.com/lines",
-    "spread_home": 7.0,
+    "spread_home": 7.5,
     "spread_odds_away": null,
     "spread_odds_home": null,
     "timing_note": "Observed at retrieval; sportsbook update time and spread-bet odds unavailable",
     "total": 52.5
   },
-  "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
-  "market_spread_home": 7.0,
+  "market_snapshot_timestamp": "2026-11-28T08:20:37.598078+00:00",
+  "market_spread_home": 7.5,
   "market_total": 52.5,
   "model": {
     "home_field_points": 2.491565613957782,
@@ -540,7 +540,7 @@
   },
   "model_available": true,
   "model_preferred_side": "Texas State",
-  "model_spread_home": 9.45952842467911,
+  "model_spread_home": 9.535891517815797,
   "model_total": null,
   "model_total_availability": "unsupported_margin_only_model",
   "model_unavailable_reason": null,
@@ -617,7 +617,7 @@
         "passingPlays_ppa": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 74,
+            "current_rank": 75,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -673,7 +673,7 @@
         "ppa": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 49,
+            "current_rank": 48,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -701,7 +701,7 @@
         "rushingPlays_explosiveness": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 99,
+            "current_rank": 100,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -729,7 +729,7 @@
         "rushingPlays_ppa": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 22,
+            "current_rank": 23,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -770,7 +770,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 3,
+            "current_rank": 4,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -785,7 +785,7 @@
         "successRate": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 53,
+            "current_rank": 52,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -811,7 +811,7 @@
           }
         }
       },
-      "narrative": "Passing: Texas State generates 0.379 PPA/play with 51.5% success; Utah State allows 0.199 PPA/play and 43.6% success. Rushing: Texas State generates 0.191 PPA/play with 49.8% success; Utah State allows -0.067 PPA/play and 38.3% success. Reported run share 61.2% of 753 box attempts (sacks/kneels unresolved). PGWP expected wins 6.26 vs 6 actual across 10 covered games; luck gap -0.26 wins. Tempo context: 76.5 reported offensive plays and 11.8 drives/game (10 games); descriptive volume, not seconds/snap or possession-model inputs. Opponent-adjusted PPA: Texas State offense +0.130 vs Utah State defensive allowance -0.068, deviations from league mean. Schedule context: opponents' fitted offense +0.028, allowed-efficiency +0.006 PPA (positive offense = stronger; lower allowed = tougher).",
+      "narrative": "Passing: Texas State generates 0.379 PPA/play with 51.5% success; Utah State allows 0.199 PPA/play and 43.6% success. Rushing: Texas State generates 0.191 PPA/play with 49.8% success; Utah State allows -0.067 PPA/play and 38.3% success. Reported run share 61.2% of 753 box attempts (sacks/kneels unresolved). PGWP expected wins 6.26 vs 6 actual across 10 covered games; luck gap -0.26 wins. Tempo context: 76.5 reported offensive plays and 11.8 drives/game (10 games); descriptive volume, not seconds/snap or possession-model inputs. Opponent-adjusted PPA: Texas State offense +0.130 vs Utah State defensive allowance -0.068, deviations from league mean. Schedule context: opponents' fitted offense +0.028, allowed-efficiency +0.005 PPA (positive offense = stronger; lower allowed = tougher).",
       "offense_team_id": "326"
     },
     "home_offense_vs_away_defense": {
@@ -838,7 +838,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 71,
+            "current_rank": 69,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -853,7 +853,7 @@
         "passingPlays_explosiveness": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 54,
+            "current_rank": 55,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -866,7 +866,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 64,
+            "current_rank": 62,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -881,7 +881,7 @@
         "passingPlays_ppa": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 111,
+            "current_rank": 112,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -894,7 +894,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 103,
+            "current_rank": 102,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -909,7 +909,7 @@
         "passingPlays_successRate": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 108,
+            "current_rank": 109,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -950,7 +950,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 115,
+            "current_rank": 114,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -965,7 +965,7 @@
         "rushingPlays_explosiveness": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 51,
+            "current_rank": 49,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -978,7 +978,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 99,
+            "current_rank": 97,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -1006,7 +1006,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 108,
+            "current_rank": 107,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -1021,7 +1021,7 @@
         "rushingPlays_successRate": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 72,
+            "current_rank": 69,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -1075,7 +1075,7 @@
           }
         }
       },
-      "narrative": "Passing: Utah State generates 0.079 PPA/play with 38.4% success; Texas State allows 0.283 PPA/play and 44.3% success. Rushing: Utah State generates -0.030 PPA/play with 36.7% success; Texas State allows 0.016 PPA/play and 42.0% success. Reported run share 53.9% of 608 box attempts (sacks/kneels unresolved). PGWP expected wins 4.98 vs 4 actual across 10 covered games; luck gap -0.98 wins. Tempo context: 62.0 reported offensive plays and 11.4 drives/game (10 games); descriptive volume, not seconds/snap or possession-model inputs. Opponent-adjusted PPA: Utah State offense -0.097 vs Texas State defensive allowance +0.011, deviations from league mean. Schedule context: opponents' fitted offense +0.030, allowed-efficiency +0.015 PPA (positive offense = stronger; lower allowed = tougher).",
+      "narrative": "Passing: Utah State generates 0.079 PPA/play with 38.4% success; Texas State allows 0.283 PPA/play and 44.3% success. Rushing: Utah State generates -0.030 PPA/play with 36.7% success; Texas State allows 0.016 PPA/play and 42.0% success. Reported run share 53.9% of 608 box attempts (sacks/kneels unresolved). PGWP expected wins 4.98 vs 4 actual across 10 covered games; luck gap -0.98 wins. Tempo context: 62.0 reported offensive plays and 11.4 drives/game (10 games); descriptive volume, not seconds/snap or possession-model inputs. Opponent-adjusted PPA: Utah State offense -0.098 vs Texas State defensive allowance +0.011, deviations from league mean. Schedule context: opponents' fitted offense +0.030, allowed-efficiency +0.017 PPA (positive offense = stronger; lower allowed = tougher).",
       "offense_team_id": "328"
     }
   },
@@ -1097,40 +1097,40 @@
     "away_points": null,
     "completed": false,
     "home_points": null,
-    "source_observed_at": "2026-11-27T08:16:57.185830+00:00"
+    "source_observed_at": "2026-11-28T08:20:17.736918+00:00"
   },
   "schema_version": "1.0.0",
   "scope": "daily_window",
   "season": 2026,
   "season_type": "mixed",
   "slate_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/index.html",
-  "snapshot_id": "8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7",
-  "source_snapshot_digest": "167fb7de32ed2a57cc1558577d69b1582756de84cc53a49212eba7b4f2eda935",
+  "snapshot_id": "c4c0255eddb7323d51eb3dc841316117a18efb5ecc66114e1c5809497e155dd0",
+  "source_snapshot_digest": "50fc36e7ef3a642a97c9f7251b90cab3638b2d4cb639c1e99daa53e74c85e04c",
   "sources": [
     {
       "family": "games",
-      "observed_at": "2026-11-27T08:16:57.185830+00:00",
-      "sha256": "c9a6574c69898472c6b8e55ef2bcd4d6a2dab2f647a334a30e4234f281ce2727",
+      "observed_at": "2026-11-28T08:20:17.736918+00:00",
+      "sha256": "683626bce44dcc8bb9db04c0ba36d7709e81bc9b93409032ef984cdef7764f06",
       "url": "https://api.collegefootballdata.com/games"
     },
     {
       "family": "teams",
-      "observed_at": "2026-11-27T08:16:57.798154+00:00",
+      "observed_at": "2026-11-28T08:20:18.760102+00:00",
       "sha256": "3d81870ba2c5b55ba527248c4306faaa151ddf01aa739960f27b42be45b4aabb",
       "url": "https://api.collegefootballdata.com/teams"
     },
     {
       "family": "advanced_games",
-      "observed_at": "2026-11-27T08:17:08.189179+00:00",
-      "sha256": "0452e4d039e5c51f003d77871d00fb6ec52899d1d8d6c23675791e8a3d684b54",
+      "observed_at": "2026-11-28T08:20:30.657058+00:00",
+      "sha256": "ae87ba4e0d2755bfdfd318aa8f960384bb6d804e5a2ab98e19f75cedcb155526",
       "url": "https://api.collegefootballdata.com/stats/game/advanced"
     }
   ],
-  "spread_difference_home": -2.4595284246791103,
+  "spread_difference_home": -2.035891517815797,
   "stable_json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/games/401860928.json",
   "status": "scheduled",
-  "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
-  "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401860928.html",
+  "status_observed_at": "2026-11-28T08:20:17.736918+00:00",
+  "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-28/c4c0255eddb7323d51eb3dc841316117a18efb5ecc66114e1c5809497e155dd0/games/401860928.html",
   "venue": {
     "id": "3905",
     "location": {
@@ -1153,7 +1153,7 @@
     "reason": "No sourced timestamped forecast in this capture; research current venue forecast on demand",
     "value": null
   },
-  "web_manifest_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/manifest.json",
-  "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401860928.json",
+  "web_manifest_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-28/c4c0255eddb7323d51eb3dc841316117a18efb5ecc66114e1c5809497e155dd0/manifest.json",
+  "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-28/c4c0255eddb7323d51eb3dc841316117a18efb5ecc66114e1c5809497e155dd0/games/401860928.json",
   "week": 13
 }

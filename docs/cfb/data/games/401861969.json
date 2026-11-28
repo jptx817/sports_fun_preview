@@ -57,16 +57,16 @@
             "games": 10,
             "reason": null,
             "unit": "PPA/play",
-            "value": 0.0684898703228254
+            "value": 0.06807583424571788
           },
           "interpretation": "Deviations from league mean; defense lower allowed is better. Existing approved rating recipe.",
-          "league_mean": 0.09867628882174226,
+          "league_mean": 0.09850965066142961,
           "offense": {
             "available": true,
             "games": 10,
             "reason": null,
             "unit": "PPA/play",
-            "value": 0.03925815757471243
+            "value": 0.03955196475279518
           }
         },
         "successRate": {
@@ -75,16 +75,16 @@
             "games": 10,
             "reason": null,
             "unit": "fraction",
-            "value": 0.04668882963807342
+            "value": 0.045251324905419416
           },
           "interpretation": "Deviations from league mean; defense lower allowed is better. Existing approved rating recipe.",
-          "league_mean": 0.4152386011560218,
+          "league_mean": 0.41520540890776175,
           "offense": {
             "available": true,
             "games": 10,
             "reason": null,
             "unit": "fraction",
-            "value": 0.010444176381742413
+            "value": 0.009884925219754911
           }
         }
       },
@@ -107,13 +107,13 @@
             "available": true,
             "reason": null,
             "unit": "PPA/play",
-            "value": 0.033970277924409216
+            "value": 0.03367031113460421
           },
           "mean_opponent_offense": {
             "available": true,
             "reason": null,
             "unit": "PPA/play",
-            "value": -0.03314577484315748
+            "value": -0.032380281652835394
           },
           "role": "Diagnostic only; not an extra margin adjustment"
         },
@@ -122,13 +122,13 @@
             "available": true,
             "reason": null,
             "unit": "fraction",
-            "value": 0.018102799939582914
+            "value": 0.018783547950410207
           },
           "mean_opponent_offense": {
             "available": true,
             "reason": null,
             "unit": "fraction",
-            "value": -0.01421811887512076
+            "value": -0.012636051328894244
           },
           "role": "Diagnostic only; not an extra margin adjustment"
         }
@@ -147,7 +147,7 @@
         "value": null
       },
       "next_opponent": null,
-      "observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "observed_at": "2026-11-28T08:20:17.736918+00:00",
       "previous_opponent": {
         "completed": true,
         "game_id": "401861968",
@@ -203,7 +203,7 @@
       }
     }
   },
-  "central_date": "2026-11-27",
+  "central_date": "2026-11-28",
   "conventions": {
     "aggregation": "Raw matchup values are equal-game means against FBS opponents, completed before cutoff. Rank 1 is best: higher offense, lower defensive allowance. Prior ranks use the prior season FBS pool.",
     "difference": "market_spread_home minus model_spread_home; positive favors home against the observed spread, negative favors away. Not a cover probability or validated betting edge.",
@@ -214,19 +214,19 @@
     "tempo": "Reported offensive plays/drives per game; descriptive volume, not seconds per snap or a projection input.",
     "time": "ISO 8601 timestamps include offsets. Central display uses America/Chicago, including daylight saving changes."
   },
-  "counterargument": "UConn's rushing offense generates 0.168 PPA/play (#15/138) with 46.3% success. Sustained production from that unit could erase the spread disagreement toward Wyoming.",
+  "counterargument": "UConn's rushing offense generates 0.168 PPA/play (#14/138) with 46.3% success. Sustained production from that unit could erase the spread disagreement toward Wyoming.",
   "cutoffs": {
-    "advanced_statistics": "2026-11-27T08:17:08.189179+00:00",
-    "market_snapshot": "2026-11-27T08:17:15.925200+00:00",
+    "advanced_statistics": "2026-11-28T08:20:30.657058+00:00",
+    "market_snapshot": "2026-11-28T08:20:37.598078+00:00",
     "meaning": "Receipt upper bounds and prediction information cutoff, not claims of provider publication time.",
-    "prediction_information": "2026-11-27T08:17:20.808461Z",
-    "ratings": "2026-11-27T08:16:57.185830+00:00",
-    "results": "2026-11-27T08:16:57.185830+00:00"
+    "prediction_information": "2026-11-28T08:20:42.411755Z",
+    "ratings": "2026-11-28T08:20:17.736918+00:00",
+    "results": "2026-11-28T08:20:17.736918+00:00"
   },
   "delivery_mode": "briefing",
   "display_timezone": "America/Chicago",
   "game_id": "401861969",
-  "generated_at": "2026-11-27T08:17:20.808461Z",
+  "generated_at": "2026-11-28T08:20:42.411755Z",
   "home_team": {
     "abbreviation": "WYO",
     "capsule": {
@@ -287,16 +287,16 @@
             "games": 10,
             "reason": null,
             "unit": "PPA/play",
-            "value": 0.08248189531600315
+            "value": 0.07957478744265929
           },
           "interpretation": "Deviations from league mean; defense lower allowed is better. Existing approved rating recipe.",
-          "league_mean": 0.09867628882174226,
+          "league_mean": 0.09850965066142961,
           "offense": {
             "available": true,
             "games": 10,
             "reason": null,
             "unit": "PPA/play",
-            "value": -0.03193408954298159
+            "value": -0.03317265523548456
           }
         },
         "successRate": {
@@ -305,16 +305,16 @@
             "games": 10,
             "reason": null,
             "unit": "fraction",
-            "value": 0.03720247924075212
+            "value": 0.03675858202245946
           },
           "interpretation": "Deviations from league mean; defense lower allowed is better. Existing approved rating recipe.",
-          "league_mean": 0.4152386011560218,
+          "league_mean": 0.41520540890776175,
           "offense": {
             "available": true,
             "games": 10,
             "reason": null,
             "unit": "fraction",
-            "value": 0.0034867651606059658
+            "value": 0.002256689642245004
           }
         }
       },
@@ -337,13 +337,13 @@
             "available": true,
             "reason": null,
             "unit": "PPA/play",
-            "value": 0.06292432959708173
+            "value": 0.06459680358486038
           },
           "mean_opponent_offense": {
             "available": true,
             "reason": null,
             "unit": "PPA/play",
-            "value": -0.06398377969610196
+            "value": -0.06076273822030219
           },
           "role": "Diagnostic only; not an extra margin adjustment"
         },
@@ -352,13 +352,13 @@
             "available": true,
             "reason": null,
             "unit": "fraction",
-            "value": 0.03751394424359495
+            "value": 0.03886783920234628
           },
           "mean_opponent_offense": {
             "available": true,
             "reason": null,
             "unit": "fraction",
-            "value": -0.026162781033140892
+            "value": -0.025608921936806008
           },
           "role": "Diagnostic only; not an extra margin adjustment"
         }
@@ -377,7 +377,7 @@
         "value": null
       },
       "next_opponent": null,
-      "observed_at": "2026-11-27T08:16:57.185830+00:00",
+      "observed_at": "2026-11-28T08:20:17.736918+00:00",
       "previous_opponent": {
         "completed": true,
         "game_id": "401864542",
@@ -433,8 +433,8 @@
       }
     }
   },
-  "immutable_slate_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/slate.html",
-  "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401861969.json",
+  "immutable_slate_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-28/c4c0255eddb7323d51eb3dc841316117a18efb5ecc66114e1c5809497e155dd0/slate.html",
+  "json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-28/c4c0255eddb7323d51eb3dc841316117a18efb5ecc66114e1c5809497e155dd0/games/401861969.json",
   "kickoff": "2026-11-28T17:00:00.000Z",
   "kickoff_central": "2026-11-28T11:00:00-06:00",
   "kickoff_time_tbd": false,
@@ -448,23 +448,23 @@
     "reason": "Comparable timestamped observations have not been linked; never infer movement from spreadOpen",
     "value": null
   },
-  "manifest_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/manifest.json",
+  "manifest_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-28/c4c0255eddb7323d51eb3dc841316117a18efb5ecc66114e1c5809497e155dd0/manifest.json",
   "market": {
     "book_updated_at": null,
     "formatted_spread": "UConn -3.5",
     "fresh": true,
     "freshness": {
-      "age_seconds": 4.883261,
-      "evaluated_at": "2026-11-27T08:17:20.808461Z",
+      "age_seconds": 4.813677,
+      "evaluated_at": "2026-11-28T08:20:42.411755Z",
       "max_age_seconds": 7200,
-      "observed_at": "2026-11-27T08:17:15.925200+00:00",
+      "observed_at": "2026-11-28T08:20:37.598078+00:00",
       "refresh_failed": false,
       "status": "fresh",
       "warning": null
     },
     "pregame_observation": true,
     "provider": "DraftKings",
-    "retrieved_at": "2026-11-27T08:17:15.925200+00:00",
+    "retrieved_at": "2026-11-28T08:20:37.598078+00:00",
     "selection_policy": "DraftKings, FanDuel, Bovada, BetMGM, Caesars; other named providers alphabetically; consensus last",
     "sign_crosscheck": true,
     "source": "CFBD /lines",
@@ -475,7 +475,7 @@
     "timing_note": "Observed at retrieval; sportsbook update time and spread-bet odds unavailable",
     "total": 44.5
   },
-  "market_snapshot_timestamp": "2026-11-27T08:17:15.925200+00:00",
+  "market_snapshot_timestamp": "2026-11-28T08:20:37.598078+00:00",
   "market_spread_home": 3.5,
   "market_total": 44.5,
   "model": {
@@ -488,7 +488,7 @@
   },
   "model_available": true,
   "model_preferred_side": "Wyoming",
-  "model_spread_home": 0.7693134304024913,
+  "model_spread_home": 0.8276205134396677,
   "model_total": null,
   "model_total_availability": "unsupported_margin_only_model",
   "model_unavailable_reason": null,
@@ -578,7 +578,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 37,
+            "current_rank": 38,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -593,7 +593,7 @@
         "passingPlays_successRate": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 36,
+            "current_rank": 35,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -621,7 +621,7 @@
         "ppa": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 84,
+            "current_rank": 83,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -649,7 +649,7 @@
         "rushingPlays_explosiveness": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 114,
+            "current_rank": 113,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -662,7 +662,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 60,
+            "current_rank": 59,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -690,7 +690,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 15,
+            "current_rank": 14,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -705,7 +705,7 @@
         "rushingPlays_successRate": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 127,
+            "current_rank": 128,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -718,7 +718,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 20,
+            "current_rank": 19,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -733,7 +733,7 @@
         "successRate": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 89,
+            "current_rank": 90,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -746,7 +746,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 33,
+            "current_rank": 32,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -759,7 +759,7 @@
           }
         }
       },
-      "narrative": "Passing: UConn generates 0.283 PPA/play with 44.3% success; Wyoming allows 0.079 PPA/play and 38.2% success. Rushing: UConn generates 0.168 PPA/play with 46.3% success; Wyoming allows 0.181 PPA/play and 47.6% success. Reported run share 58.0% of 645 box attempts (sacks/kneels unresolved). PGWP expected wins 5.10 vs 5 actual across 10 covered games; luck gap -0.10 wins. Tempo context: 65.4 reported offensive plays and 11.3 drives/game (10 games); descriptive volume, not seconds/snap or possession-model inputs. Opponent-adjusted PPA: UConn offense +0.039 vs Wyoming defensive allowance +0.082, deviations from league mean. Schedule context: opponents' fitted offense -0.033, allowed-efficiency +0.034 PPA (positive offense = stronger; lower allowed = tougher).",
+      "narrative": "Passing: UConn generates 0.283 PPA/play with 44.3% success; Wyoming allows 0.079 PPA/play and 38.2% success. Rushing: UConn generates 0.168 PPA/play with 46.3% success; Wyoming allows 0.181 PPA/play and 47.6% success. Reported run share 58.0% of 645 box attempts (sacks/kneels unresolved). PGWP expected wins 5.10 vs 5 actual across 10 covered games; luck gap -0.10 wins. Tempo context: 65.4 reported offensive plays and 11.3 drives/game (10 games); descriptive volume, not seconds/snap or possession-model inputs. Opponent-adjusted PPA: UConn offense +0.040 vs Wyoming defensive allowance +0.080, deviations from league mean. Schedule context: opponents' fitted offense -0.032, allowed-efficiency +0.034 PPA (positive offense = stronger; lower allowed = tougher).",
       "offense_team_id": "41"
     },
     "home_offense_vs_away_defense": {
@@ -786,7 +786,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 130,
+            "current_rank": 129,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -801,7 +801,7 @@
         "passingPlays_explosiveness": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 6,
+            "current_rank": 4,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -814,7 +814,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 106,
+            "current_rank": 107,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -829,7 +829,7 @@
         "passingPlays_ppa": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 55,
+            "current_rank": 54,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -857,7 +857,7 @@
         "passingPlays_successRate": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 74,
+            "current_rank": 73,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -926,7 +926,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 86,
+            "current_rank": 82,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -941,7 +941,7 @@
         "rushingPlays_ppa": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 79,
+            "current_rank": 78,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -954,7 +954,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 27,
+            "current_rank": 24,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -969,7 +969,7 @@
         "rushingPlays_successRate": {
           "defense_allowed": {
             "available": true,
-            "current_rank": 96,
+            "current_rank": 97,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -982,7 +982,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 12,
+            "current_rank": 13,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -1010,7 +1010,7 @@
           },
           "offense": {
             "available": true,
-            "current_rank": 25,
+            "current_rank": 24,
             "current_rank_population": 138,
             "expected_games": 10,
             "games": 10,
@@ -1023,7 +1023,7 @@
           }
         }
       },
-      "narrative": "Passing: Wyoming generates 0.113 PPA/play with 40.4% success; UConn allows 0.152 PPA/play and 41.8% success. Rushing: Wyoming generates 0.144 PPA/play with 48.1% success; UConn allows 0.072 PPA/play and 44.0% success. Reported run share 63.7% of 581 box attempts (sacks/kneels unresolved). PGWP expected wins 5.11 vs 6 actual across 10 covered games; luck gap +0.89 wins. Tempo context: 59.6 reported offensive plays and 10.5 drives/game (10 games); descriptive volume, not seconds/snap or possession-model inputs. Opponent-adjusted PPA: Wyoming offense -0.032 vs UConn defensive allowance +0.068, deviations from league mean. Schedule context: opponents' fitted offense -0.064, allowed-efficiency +0.063 PPA (positive offense = stronger; lower allowed = tougher).",
+      "narrative": "Passing: Wyoming generates 0.113 PPA/play with 40.4% success; UConn allows 0.152 PPA/play and 41.8% success. Rushing: Wyoming generates 0.144 PPA/play with 48.1% success; UConn allows 0.072 PPA/play and 44.0% success. Reported run share 63.7% of 581 box attempts (sacks/kneels unresolved). PGWP expected wins 5.11 vs 6 actual across 10 covered games; luck gap +0.89 wins. Tempo context: 59.6 reported offensive plays and 10.5 drives/game (10 games); descriptive volume, not seconds/snap or possession-model inputs. Opponent-adjusted PPA: Wyoming offense -0.033 vs UConn defensive allowance +0.068, deviations from league mean. Schedule context: opponents' fitted offense -0.061, allowed-efficiency +0.065 PPA (positive offense = stronger; lower allowed = tougher).",
       "offense_team_id": "2751"
     }
   },
@@ -1045,40 +1045,40 @@
     "away_points": null,
     "completed": false,
     "home_points": null,
-    "source_observed_at": "2026-11-27T08:16:57.185830+00:00"
+    "source_observed_at": "2026-11-28T08:20:17.736918+00:00"
   },
   "schema_version": "1.0.0",
   "scope": "daily_window",
   "season": 2026,
   "season_type": "mixed",
   "slate_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/index.html",
-  "snapshot_id": "8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7",
-  "source_snapshot_digest": "167fb7de32ed2a57cc1558577d69b1582756de84cc53a49212eba7b4f2eda935",
+  "snapshot_id": "c4c0255eddb7323d51eb3dc841316117a18efb5ecc66114e1c5809497e155dd0",
+  "source_snapshot_digest": "50fc36e7ef3a642a97c9f7251b90cab3638b2d4cb639c1e99daa53e74c85e04c",
   "sources": [
     {
       "family": "games",
-      "observed_at": "2026-11-27T08:16:57.185830+00:00",
-      "sha256": "c9a6574c69898472c6b8e55ef2bcd4d6a2dab2f647a334a30e4234f281ce2727",
+      "observed_at": "2026-11-28T08:20:17.736918+00:00",
+      "sha256": "683626bce44dcc8bb9db04c0ba36d7709e81bc9b93409032ef984cdef7764f06",
       "url": "https://api.collegefootballdata.com/games"
     },
     {
       "family": "teams",
-      "observed_at": "2026-11-27T08:16:57.798154+00:00",
+      "observed_at": "2026-11-28T08:20:18.760102+00:00",
       "sha256": "3d81870ba2c5b55ba527248c4306faaa151ddf01aa739960f27b42be45b4aabb",
       "url": "https://api.collegefootballdata.com/teams"
     },
     {
       "family": "advanced_games",
-      "observed_at": "2026-11-27T08:17:08.189179+00:00",
-      "sha256": "0452e4d039e5c51f003d77871d00fb6ec52899d1d8d6c23675791e8a3d684b54",
+      "observed_at": "2026-11-28T08:20:30.657058+00:00",
+      "sha256": "ae87ba4e0d2755bfdfd318aa8f960384bb6d804e5a2ab98e19f75cedcb155526",
       "url": "https://api.collegefootballdata.com/stats/game/advanced"
     }
   ],
-  "spread_difference_home": 2.7306865695975087,
+  "spread_difference_home": 2.6723794865603323,
   "stable_json_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/games/401861969.json",
   "status": "scheduled",
-  "status_observed_at": "2026-11-27T08:16:57.185830+00:00",
-  "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401861969.html",
+  "status_observed_at": "2026-11-28T08:20:17.736918+00:00",
+  "text_url": "https://jptx817.github.io/sports_fun_preview/cfb/data/snapshots/2026-DAILY-2026-11-28/c4c0255eddb7323d51eb3dc841316117a18efb5ecc66114e1c5809497e155dd0/games/401861969.html",
   "venue": {
     "id": "3984",
     "location": {
@@ -1101,7 +1101,7 @@
     "reason": "No sourced timestamped forecast in this capture; research current venue forecast on demand",
     "value": null
   },
-  "web_manifest_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/manifest.json",
-  "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-27/8cfe5fc59b2832af54f68fa903c1e3f01cca072eaa9e6768d87c98fd2c9ea7e7/games/401861969.json",
+  "web_manifest_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-28/c4c0255eddb7323d51eb3dc841316117a18efb5ecc66114e1c5809497e155dd0/manifest.json",
+  "web_retrieval_url": "https://raw.githubusercontent.com/jptx817/sports_fun_preview/main/docs/cfb/data/snapshots/2026-DAILY-2026-11-28/c4c0255eddb7323d51eb3dc841316117a18efb5ecc66114e1c5809497e155dd0/games/401861969.json",
   "week": 13
 }
