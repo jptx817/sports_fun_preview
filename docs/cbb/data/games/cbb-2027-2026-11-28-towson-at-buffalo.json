@@ -1,0 +1,354 @@
+{
+  "away_team": {
+    "id": "towson",
+    "name": "Towson",
+    "source_ids": {
+      "haslametrics": "261"
+    }
+  },
+  "comparisons": {
+    "spread": {
+      "actionable": false,
+      "agreeing_source_count": 0,
+      "available_source_count": 1,
+      "basis_note": "Provider score basis retained; DraftKings is full game including overtime.",
+      "classification": "INCOMPLETE_MARKET",
+      "difference": null,
+      "market_complete": false,
+      "median": -2.98,
+      "missing_providers": [
+        "barttorvik",
+        "dratings"
+      ],
+      "preferred": null,
+      "providers": [
+        "haslametrics"
+      ],
+      "range": [
+        -2.98,
+        -2.98
+      ],
+      "range_points": 0.0,
+      "source_count": 1,
+      "threshold_met": false
+    },
+    "total": {
+      "actionable": false,
+      "agreeing_source_count": 0,
+      "available_source_count": 1,
+      "basis_note": "Provider score basis retained; DraftKings is full game including overtime.",
+      "classification": "INCOMPLETE_MARKET",
+      "difference": null,
+      "market_complete": false,
+      "median": 138.12,
+      "missing_providers": [
+        "barttorvik",
+        "dratings"
+      ],
+      "preferred": null,
+      "providers": [
+        "haslametrics"
+      ],
+      "range": [
+        138.12,
+        138.12
+      ],
+      "range_points": 0.0,
+      "source_count": 1,
+      "threshold_met": false
+    }
+  },
+  "data_issues": [
+    "draftkings_line_missing",
+    "draftkings_market_missing"
+  ],
+  "decision": "REVIEW_ONLY",
+  "detail_url": "https://jptx817.github.io/sports_fun_preview/cbb/data/games/cbb-2027-2026-11-28-towson-at-buffalo.json",
+  "draftkings": null,
+  "final": null,
+  "game_date": "2026-11-28",
+  "game_id": "cbb-2027-2026-11-28-towson-at-buffalo",
+  "generated_at": "2026-11-28T13:01:01.407452Z",
+  "home_designation_basis": "provider_nominal_on_neutral_court",
+  "home_team": {
+    "id": "buffalo",
+    "name": "Buffalo",
+    "source_ids": {
+      "haslametrics": "4191"
+    }
+  },
+  "imported_at": "2026-11-28T12:45:46.712855Z",
+  "last_verified_refresh": {
+    "comparison": null,
+    "draftkings": null,
+    "haslametrics": "2026-11-28T12:30:42.389000Z",
+    "schedule": "2026-11-28T12:30:42.389000Z"
+  },
+  "market_timeline": {
+    "observations": 0,
+    "verified_closing": null,
+    "verified_opening": null
+  },
+  "neutral_site": true,
+  "observed_at": "2026-11-28T12:30:42.389000Z",
+  "pregame": true,
+  "pregame_snapshot_id": null,
+  "projections": [
+    {
+      "away_score": 70.55,
+      "away_source_id": "261",
+      "basis": "end_of_regulation",
+      "comparisons": {
+        "spread": {
+          "difference": null,
+          "preferred": null,
+          "threshold_met": false
+        },
+        "total": {
+          "difference": null,
+          "preferred": null,
+          "threshold_met": false
+        }
+      },
+      "freshness": {
+        "age_hours": 0.505,
+        "provider_update_known": false,
+        "reasons": [],
+        "state": "fresh"
+      },
+      "game_id": "cbb-2027-2026-11-28-towson-at-buffalo",
+      "haslametrics_signals": {
+        "spread": false,
+        "total": false
+      },
+      "home_margin": -2.98,
+      "home_score": 67.57,
+      "home_source_id": "4191",
+      "imported_at": "2026-11-28T13:00:48.567189Z",
+      "observation_id": "0d801c05dc05a4ca1f53f92e2241016c6dd99b27476a2e76f43890c38e2c2f19",
+      "observed_at": "2026-11-28T12:30:42.389000Z",
+      "projected_home_spread": 2.98,
+      "provider": "haslametrics",
+      "retrieved_at": "2026-11-28T12:30:42.389000Z",
+      "source_as_of_date": "2026-11-26",
+      "source_updated_at": null,
+      "source_url": "https://www.haslametrics.com/",
+      "spread_eligible": true,
+      "total": 138.12,
+      "total_eligible": true,
+      "transport": "manual_csv"
+    }
+  ],
+  "retrieved_at": "2026-11-28T12:30:42.389000Z",
+  "schema_version": "0.4.0",
+  "screening": {
+    "spread": {
+      "actionable": false,
+      "agreeing_source_count": 0,
+      "associated_price": null,
+      "basis": "median_per_independent_system_vs_draftkings",
+      "classification": "PROJECTION_ONLY",
+      "consensus": {
+        "agreeing_source_count": 0,
+        "basis": "median_per_independent_system_vs_draftkings",
+        "classification": "INSUFFICIENT_DATA",
+        "difference": null,
+        "majority_agreement": false,
+        "median": -2.98,
+        "preferred": null,
+        "reasons": [
+          "draftkings_line_missing",
+          "draftkings_market_missing",
+          "fewer_than_three_independent_sources"
+        ],
+        "threshold_met": false,
+        "unanimous": false
+      },
+      "difference": null,
+      "individual_projections": [
+        {
+          "difference": null,
+          "imported_at": "2026-11-28T13:00:48.567189Z",
+          "independent_system": "haslametrics",
+          "observed_at": "2026-11-28T12:30:42.389000Z",
+          "preferred": null,
+          "provider": "haslametrics",
+          "retrieved_at": "2026-11-28T12:30:42.389000Z",
+          "source_as_of_date": "2026-11-26",
+          "source_updated_at": null,
+          "threshold_met": false,
+          "value": -2.98
+        }
+      ],
+      "majority_agreement": false,
+      "market_freshness": {
+        "age_hours": null,
+        "reasons": [
+          "not_imported"
+        ],
+        "state": "missing"
+      },
+      "market_line": null,
+      "market_observed_at": null,
+      "market_side": null,
+      "median": -2.98,
+      "preferred": null,
+      "preliminary": {
+        "classification": "PROJECTION_ONLY",
+        "difference": null,
+        "preferred": null,
+        "threshold_met": false
+      },
+      "projected_side": "AWAY",
+      "qualifying_source_count": 0,
+      "range": [
+        -2.98,
+        -2.98
+      ],
+      "range_points": 0.0,
+      "reasons": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "research_only": true,
+      "single_source": {
+        "basis": "haslametrics_vs_draftkings",
+        "classification": "INSUFFICIENT_DATA",
+        "difference": null,
+        "preferred": null,
+        "reasons": [
+          "draftkings_line_missing",
+          "draftkings_market_missing"
+        ],
+        "threshold_met": false
+      },
+      "source_count": 1,
+      "source_observations": [
+        {
+          "difference": null,
+          "imported_at": "2026-11-28T13:00:48.567189Z",
+          "independent_system": "haslametrics",
+          "observed_at": "2026-11-28T12:30:42.389000Z",
+          "preferred": null,
+          "provider": "haslametrics",
+          "retrieved_at": "2026-11-28T12:30:42.389000Z",
+          "source_as_of_date": "2026-11-26",
+          "source_updated_at": null,
+          "threshold_met": false,
+          "value": -2.98
+        }
+      ],
+      "threshold_met": false,
+      "verified_market_observation": false
+    },
+    "total": {
+      "actionable": false,
+      "agreeing_source_count": 0,
+      "associated_price": null,
+      "basis": "median_per_independent_system_vs_draftkings",
+      "classification": "PROJECTION_ONLY",
+      "consensus": {
+        "agreeing_source_count": 0,
+        "basis": "median_per_independent_system_vs_draftkings",
+        "classification": "INSUFFICIENT_DATA",
+        "difference": null,
+        "majority_agreement": false,
+        "median": 138.12,
+        "preferred": null,
+        "reasons": [
+          "draftkings_line_missing",
+          "draftkings_market_missing",
+          "fewer_than_three_independent_sources"
+        ],
+        "threshold_met": false,
+        "unanimous": false
+      },
+      "difference": null,
+      "individual_projections": [
+        {
+          "difference": null,
+          "imported_at": "2026-11-28T13:00:48.567189Z",
+          "independent_system": "haslametrics",
+          "observed_at": "2026-11-28T12:30:42.389000Z",
+          "preferred": null,
+          "provider": "haslametrics",
+          "retrieved_at": "2026-11-28T12:30:42.389000Z",
+          "source_as_of_date": "2026-11-26",
+          "source_updated_at": null,
+          "threshold_met": false,
+          "value": 138.12
+        }
+      ],
+      "majority_agreement": false,
+      "market_freshness": {
+        "age_hours": null,
+        "reasons": [
+          "not_imported"
+        ],
+        "state": "missing"
+      },
+      "market_line": null,
+      "market_observed_at": null,
+      "market_side": null,
+      "median": 138.12,
+      "preferred": null,
+      "preliminary": {
+        "classification": "PROJECTION_ONLY",
+        "difference": null,
+        "preferred": null,
+        "threshold_met": false
+      },
+      "projected_side": null,
+      "qualifying_source_count": 0,
+      "range": [
+        138.12,
+        138.12
+      ],
+      "range_points": 0.0,
+      "reasons": [
+        "draftkings_line_missing",
+        "draftkings_market_missing"
+      ],
+      "research_only": true,
+      "single_source": {
+        "basis": "haslametrics_vs_draftkings",
+        "classification": "INSUFFICIENT_DATA",
+        "difference": null,
+        "preferred": null,
+        "reasons": [
+          "draftkings_line_missing",
+          "draftkings_market_missing"
+        ],
+        "threshold_met": false
+      },
+      "source_count": 1,
+      "source_observations": [
+        {
+          "difference": null,
+          "imported_at": "2026-11-28T13:00:48.567189Z",
+          "independent_system": "haslametrics",
+          "observed_at": "2026-11-28T12:30:42.389000Z",
+          "preferred": null,
+          "provider": "haslametrics",
+          "retrieved_at": "2026-11-28T12:30:42.389000Z",
+          "source_as_of_date": "2026-11-26",
+          "source_updated_at": null,
+          "threshold_met": false,
+          "value": 138.12
+        }
+      ],
+      "threshold_met": false,
+      "verified_market_observation": false
+    }
+  },
+  "season": "2026-27",
+  "source_as_of_date": null,
+  "source_game_ids": {
+    "haslametrics": "haslametrics-261-4191"
+  },
+  "source_updated_at": null,
+  "source_url": "https://www.haslametrics.com/",
+  "status": "scheduled",
+  "tipoff_central": "2026-11-28T14:30:00-06:00",
+  "tipoff_utc": "2026-11-28T20:30:00Z"
+}
